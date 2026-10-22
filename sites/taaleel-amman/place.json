@@ -1,0 +1,228 @@
+{
+  "place_id": "ChIJkxjvsW2hHBURSegBZ85nUjE",
+  "batch_id": "b202610221353",
+  "slug": "taaleel-amman",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#9A6516",
+    "rgb": "154, 101, 22",
+    "hover": "#7F5311",
+    "ink": "#FFFFFF"
+  },
+  "name": "تعاليل عمان",
+  "name_lang": "ar",
+  "category_label": "كافيه",
+  "area": "تلاع العلي، عمّان",
+  "address": "شارع وصفي التل، عمّان",
+  "phone": {
+    "display": "+962 7 7622 5544",
+    "tel": "+962776225544"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D8%AA%D8%B9%D8%A7%D9%84%D9%8A%D9%84%20%D8%B9%D9%85%D8%A7%D9%86&query_place_id=ChIJkxjvsW2hHBURSegBZ85nUjE",
+  "map_query": "تعاليل عمان، شارع وصفي التل، تلاع العلي، عمّان، الأردن",
+  "rating": {
+    "value": 4.2,
+    "count": 130,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "كل أيام الأسبوع",
+        "time": "10 ص – 1 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "قهوة وشاي وجلسة على السطح في تلاع العلي",
+    "intro": "مقهى على شارع وصفي التل يفتح من العاشرة صباحًا حتى الواحدة ليلاً، بجلسات على السطح وتشكيلة شاي وقهوة.",
+    "image": "hero"
+  },
+  "sections": [
+    "menu",
+    "story",
+    "proof",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "ما يميّز المكان",
+    "title": "لماذا تعاليل؟",
+    "items": [
+      {
+        "label": "الجلسة",
+        "title": "جلسات على السطح",
+        "text": "تذكر خرائط Google أماكن جلوس على السطح، مع أجواء خفيفة وهادئة.",
+        "image": "ext"
+      },
+      {
+        "label": "المشروبات",
+        "title": "تشكيلة شاي وقهوة",
+        "text": "من أبرز ما يُذكر عن المكان، وزائر وصف القهوة بأنها لذيذة.",
+        "image": "beans"
+      },
+      {
+        "label": "الجلسات",
+        "title": "للمجموعات والعمل",
+        "text": "يقصده طلاب الجامعات والمجموعات، ومناسب للعمل على اللابتوب. وزائر ذكر أن الأسعار جيدة.",
+        "image": "work"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "شاي وقهوة وأراجيل",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للجلوس في المكان",
+    "categories": [
+      {
+        "id": "tea",
+        "title": "الشاي",
+        "tagline": "تشكيلة",
+        "image": "beans",
+        "items": [
+          {
+            "name": "شاي بالنعنع",
+            "desc": "",
+            "price": 2.0
+          },
+          {
+            "name": "شاي أخضر",
+            "desc": "",
+            "price": 2.25
+          },
+          {
+            "name": "شاي كرك",
+            "desc": "",
+            "price": 2.5
+          }
+        ]
+      },
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "ساخنة",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "قهوة تركية",
+            "desc": "",
+            "price": 2.0
+          },
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 2.75
+          },
+          {
+            "name": "أمريكانو",
+            "desc": "",
+            "price": 2.25
+          }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "المثلجات",
+        "tagline": "باردة",
+        "image": "cold",
+        "items": [
+          {
+            "name": "آيس لاتيه",
+            "desc": "",
+            "price": 3.25
+          },
+          {
+            "name": "ليموناضة بالنعنع",
+            "desc": "",
+            "price": 2.75
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "زائر على Google",
+      "stars": 5,
+      "text": "خدمه رائعه شباب مرتبين نظافه اراجيل مميزه واسعاره جيده جدا",
+      "source_ref": "r3"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "معلومات تهمك",
+    "title": "الخدمات",
+    "image": null,
+    "items": [
+      {
+        "icon": "sky",
+        "title": "جلسات على السطح",
+        "text": ""
+      },
+      {
+        "icon": "coffee",
+        "title": "جلسات داخلية",
+        "text": "مع خدمة على الطاولة."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": "مواقف كثيرة متوفرة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة",
+        "text": "بطاقات ائتمان وNFC."
+      }
+    ]
+  },
+  "visit": {
+    "image": null
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1779442563698-11fad08a733e",
+      "alt": "صورة توضيحية: واجهة كافيه بجلسات خارجية ومظلات",
+      "page": "https://unsplash.com/photos/cafe-exterior-with-outdoor-seating-and-beige-umbrellas-1jIs3w-Ahwg"
+    },
+    "ext": {
+      "id": "photo-1783272547883-353cfdb9e71b",
+      "alt": "صورة توضيحية: جلسات كافيه خارجية تحت الأشجار",
+      "page": "https://unsplash.com/photos/people-enjoying-an-outdoor-cafe-patio-under-trees-GVJWydhKqbw"
+    },
+    "beans": {
+      "id": "photo-1690983326252-ce6205fb7055",
+      "alt": "صورة توضيحية: كوب قهوة بين حبوب البن",
+      "page": "https://unsplash.com/photos/a-cup-of-coffee-surrounded-by-coffee-beans-KU7PjmjArlQ"
+    },
+    "coffee": {
+      "id": "photo-1625021659159-f63f546d74a7",
+      "alt": "صورة توضيحية: كوب قهوة على طاولة خشبية",
+      "page": "https://unsplash.com/photos/white-ceramic-mug-on-brown-wooden-table-S8daAB_nJSg"
+    },
+    "cold": {
+      "id": "photo-1717603545758-88cc454db69b",
+      "alt": "صورة توضيحية: آيس ماتشا لاتيه على طاولة خشبية",
+      "page": "https://unsplash.com/photos/iced-matcha-latte-on-wooden-table-N1rmKN_EOaA"
+    },
+    "work": {
+      "id": "photo-1743389412154-f604c3910818",
+      "alt": "صورة توضيحية: عمل على لابتوب بجانب لاتيه",
+      "page": "https://unsplash.com/photos/woman-works-on-laptop-with-a-latte-nearby-buwxwnHoCh4"
+    }
+  }
+}

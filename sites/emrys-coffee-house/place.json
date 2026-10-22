@@ -1,0 +1,260 @@
+{
+  "place_id": "ChIJs8W5xPChHBURQ_dK_aZfl1A",
+  "batch_id": "b202610221353",
+  "slug": "emrys-coffee-house",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#8C3B2E",
+    "rgb": "140, 59, 46",
+    "hover": "#732F24",
+    "ink": "#FFFFFF"
+  },
+  "name": "Emrys | coffee house",
+  "name_lang": "en",
+  "category_label": "كافيه",
+  "area": "دوار خلدا، عمّان",
+  "address": "شارع الملك عبدالله الثاني، دوار خلدا، عمّان",
+  "phone": {
+    "display": "+962 7 9226 0012",
+    "tel": "+962792260012"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Emrys%20%7C%20coffee%20house&query_place_id=ChIJs8W5xPChHBURQ_dK_aZfl1A",
+  "map_query": "Emrys coffee house, King Abdullah II St, Khalda, Amman, Jordan",
+  "rating": {
+    "value": 4.9,
+    "count": 220,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "7 ص – 12 ص"
+      },
+      {
+        "days": "الجمعة",
+        "time": "8:30 ص – 12 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "قهوة وفطور وجلسة خارجية في خلدا",
+    "intro": "كوفي هاوس عند دوار خلدا بتقييم 4.9، يقدّم القهوة والفطور بجلسات داخلية وخارجية، ويفتح حتى منتصف الليل.",
+    "image": "hero"
+  },
+  "sections": [
+    "story",
+    "reviews",
+    "menu",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "ما يذكره الزوار",
+    "title": "لماذا Emrys؟",
+    "items": [
+      {
+        "label": "الفطور",
+        "title": "ساندويش الحلوم مع القهوة",
+        "text": "زائر وصف ساندويش الحلوم بالرائع، وقال إن القهوة لذيذة.",
+        "image": "bites"
+      },
+      {
+        "label": "الجلسة",
+        "title": "قعدة خارجية وأجواء هادئة",
+        "text": "يذكر الزوار القعدة الخارجية والمكان الهادئ، ومناسب للعمل أيضًا.",
+        "image": "ext"
+      },
+      {
+        "label": "الخدمة",
+        "title": "فريق ودود يعرفه الزوار بالاسم",
+        "text": "عدة مراجعات تذكر لطف الموظفين، وتفاصيل صغيرة مثل سجادة صلاة متوفرة.",
+        "image": "coffee"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "فطور وقهوة وحلويات",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للجلوس والطلب من المكان",
+    "categories": [
+      {
+        "id": "breakfast",
+        "title": "الفطور",
+        "tagline": "من الصباح",
+        "image": "bites",
+        "items": [
+          {
+            "name": "ساندويش حلوم",
+            "desc": "",
+            "price": 4.5,
+            "mentioned": true
+          },
+          {
+            "name": "بيض مع خبز محمّص",
+            "desc": "",
+            "price": 4.5
+          },
+          {
+            "name": "طبق فطور",
+            "desc": "",
+            "price": 7.0
+          }
+        ]
+      },
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "ساخنة",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 2.75
+          },
+          {
+            "name": "فلات وايت",
+            "desc": "",
+            "price": 2.95
+          },
+          {
+            "name": "V60",
+            "desc": "",
+            "price": 3.5
+          }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "المثلجات",
+        "tagline": "باردة",
+        "image": "matcha",
+        "items": [
+          {
+            "name": "آيس لاتيه",
+            "desc": "",
+            "price": 3.25
+          },
+          {
+            "name": "ماتشا لاتيه مثلج",
+            "desc": "",
+            "price": 3.75
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "ساندويش حلوم"
+  ],
+  "reviews": [
+    {
+      "author": "زائر على Google",
+      "stars": 5,
+      "text": "احلى كوفي هاوس بخلدا",
+      "source_ref": "r1"
+    },
+    {
+      "author": "زائر على Google",
+      "stars": 5,
+      "text": "من ازكى وارتب د Coffe houses خدمه اكتر من رائعه...وعندهم قعده خارجيه كتتتير حلوه ....واكلهم و قهوتهم بشهوووو....بنصح الكل يجرب ❤️",
+      "source_ref": "r2"
+    },
+    {
+      "author": "زائر على Google",
+      "stars": 5,
+      "text": "Great place to work from! The atmosphere is comfortable, the space is suitable for getting things done, and the coffee is great☕️💻",
+      "source_ref": "r3"
+    },
+    {
+      "author": "زائر على Google",
+      "stars": 5,
+      "text": "First time trying their coffee and its was great. Yasser the barista was also friendly and professional.",
+      "source_ref": "r5"
+    },
+    {
+      "author": "زائر على Google",
+      "stars": 5,
+      "text": "Great spot for coffee and breakfast! The coffee was delicious, and the halloumi sandwich was amazing. On top of that, the staff member was super friendly and welcoming. Highly recommended!",
+      "source_ref": "r9"
+    },
+    {
+      "author": "زائر على Google",
+      "stars": 5,
+      "text": "هادي و رايق المكان جداً",
+      "source_ref": "r6"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "معلومات تهمك",
+    "title": "الخدمات",
+    "image": null,
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات خارجية وداخلية",
+        "text": ""
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للعائلة",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": "مواقف كثيرة متوفرة."
+      },
+      {
+        "icon": "coffee",
+        "title": "فطور وقهوة",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": null
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1783272547883-353cfdb9e71b",
+      "alt": "صورة توضيحية: جلسات كافيه خارجية تحت الأشجار",
+      "page": "https://unsplash.com/photos/people-enjoying-an-outdoor-cafe-patio-under-trees-GVJWydhKqbw"
+    },
+    "ext": {
+      "id": "photo-1779442563698-11fad08a733e",
+      "alt": "صورة توضيحية: واجهة كافيه بجلسات خارجية ومظلات",
+      "page": "https://unsplash.com/photos/cafe-exterior-with-outdoor-seating-and-beige-umbrellas-1jIs3w-Ahwg"
+    },
+    "bites": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون فطور ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    },
+    "coffee": {
+      "id": "photo-1625021659159-f63f546d74a7",
+      "alt": "صورة توضيحية: كوب قهوة على طاولة خشبية",
+      "page": "https://unsplash.com/photos/white-ceramic-mug-on-brown-wooden-table-S8daAB_nJSg"
+    },
+    "matcha": {
+      "id": "photo-1749280447307-31a68eb38673",
+      "alt": "صورة توضيحية: ماتشا لاتيه مثلج",
+      "page": "https://unsplash.com/photos/iced-matcha-latte-on-table-VKWjhlgFFwc"
+    }
+  }
+}

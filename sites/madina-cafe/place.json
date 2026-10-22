@@ -1,0 +1,245 @@
+{
+  "place_id": "ChIJawch4kahHBUR5jLfwckaqGQ",
+  "batch_id": "b202610221353",
+  "slug": "madina-cafe",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#6B4E7C",
+    "rgb": "107, 78, 124",
+    "hover": "#573F65",
+    "ink": "#FFFFFF"
+  },
+  "name": "مدينة",
+  "name_lang": "ar",
+  "category_label": "كافيه",
+  "area": "وادي السير، عمّان",
+  "address": "شارع روي، عمّان",
+  "phone": {
+    "display": "+962 7 9007 5867",
+    "tel": "+962790075867"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%AF%D9%8A%D9%86%D8%A9&query_place_id=ChIJawch4kahHBUR5jLfwckaqGQ",
+  "map_query": "مدينة كافيه، Roy's Rd، وادي السير، عمّان، الأردن",
+  "rating": {
+    "value": 4.7,
+    "count": 81,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "كل أيام الأسبوع",
+        "time": "7 ص – 12 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "كافيه هادئ للقراءة والقهوة في وادي السير",
+    "intro": "كافيه بتقييم 4.7 يفتح من السابعة صباحًا حتى منتصف الليل، بجلسات خارجية وطلبات سفري وتوصيل.",
+    "image": "hero"
+  },
+  "sections": [
+    "story",
+    "reviews",
+    "menu",
+    "amenities",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "ما يذكره الزوار",
+    "title": "لماذا مدينة؟",
+    "items": [
+      {
+        "label": "القهوة",
+        "title": "آيس دارك موكا",
+        "text": "زائر وصفها بأنها من أفضل الكؤوس التي جرّبها، وآخر اختاره مكانه المفضل للقهوة.",
+        "image": "cold"
+      },
+      {
+        "label": "الأجواء",
+        "title": "موسيقى جيدة وهدوء",
+        "text": "يذكر الزوار الأجواء الهادئة وذوق الموسيقى، ومكان مناسب للقراءة.",
+        "image": "inside"
+      },
+      {
+        "label": "النظافة",
+        "title": "مكان نظيف وطعام متنوع",
+        "text": "زائر وصف المكان بأنه نظيف جدًا مع تشكيلة طعام جيدة.",
+        "image": "bites"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "قهوة وحلويات وسندويشات",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للطلبات الخارجية والتوصيل",
+    "categories": [
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "ساخنة",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 2.75
+          },
+          {
+            "name": "فلات وايت",
+            "desc": "",
+            "price": 2.95
+          },
+          {
+            "name": "V60",
+            "desc": "",
+            "price": 3.5
+          }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "المثلجات",
+        "tagline": "باردة",
+        "image": "cold",
+        "items": [
+          {
+            "name": "آيس دارك موكا",
+            "desc": "",
+            "price": 3.75,
+            "mentioned": true
+          },
+          {
+            "name": "آيس لاتيه",
+            "desc": "",
+            "price": 3.25
+          }
+        ]
+      },
+      {
+        "id": "bites",
+        "title": "الطعام",
+        "tagline": "مع القهوة",
+        "image": "bites",
+        "items": [
+          {
+            "name": "كرواسون",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "ساندويش جبنة",
+            "desc": "",
+            "price": 3.5
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "آيس دارك موكا"
+  ],
+  "reviews": [
+    {
+      "author": "زائر على Google",
+      "stars": 5,
+      "text": "Chill spot w good taste in music and owners are respectful and welcoming",
+      "source_ref": "r1"
+    },
+    {
+      "author": "زائر على Google",
+      "stars": 5,
+      "text": "One of the best Iced Dark Mocha cups you can ever taste is made in Medina. Loved the calm atmosphere and location.",
+      "source_ref": "r2"
+    },
+    {
+      "author": "زائر على Google",
+      "stars": 5,
+      "text": "Favorite place in Amman for coffee. Exceptionally clean! Great selection of food & quaint atmosphere.",
+      "source_ref": "r5"
+    },
+    {
+      "author": "زائر على Google",
+      "stars": 5,
+      "text": "Currently my favorite spot for reading! Great coffee. Great service. Love the vibes!",
+      "source_ref": "r6"
+    },
+    {
+      "author": "زائر على Google",
+      "stars": 5,
+      "text": "Best coffee house",
+      "source_ref": "r7"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "معلومات تهمك",
+    "title": "الخدمات",
+    "image": null,
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات خارجية وداخلية",
+        "text": ""
+      },
+      {
+        "icon": "bag",
+        "title": "طلبات خارجية وتوصيل",
+        "text": ""
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للأطفال",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "موقف مجاني في الشارع",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": null
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1511081692775-05d0f180a065",
+      "alt": "صورة توضيحية: داخل كافيه بإضاءة معلقة وطاولة",
+      "page": "https://unsplash.com/photos/cafe-interior-with-hanging-bulbs-and-table-VobvKmG-StA"
+    },
+    "cold": {
+      "id": "photo-1717603545758-88cc454db69b",
+      "alt": "صورة توضيحية: آيس ماتشا لاتيه على طاولة خشبية",
+      "page": "https://unsplash.com/photos/iced-matcha-latte-on-wooden-table-N1rmKN_EOaA"
+    },
+    "inside": {
+      "id": "photo-1743389412243-7dbfdf6c48dd",
+      "alt": "صورة توضيحية: عمل على لابتوب بجانب قهوة",
+      "page": "https://unsplash.com/photos/working-on-a-laptop-with-a-coffee-nearby-ro-7djAkodU"
+    },
+    "bites": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون فطور ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    },
+    "coffee": {
+      "id": "photo-1625021659159-f63f546d74a7",
+      "alt": "صورة توضيحية: كوب قهوة على طاولة خشبية",
+      "page": "https://unsplash.com/photos/white-ceramic-mug-on-brown-wooden-table-S8daAB_nJSg"
+    }
+  }
+}
