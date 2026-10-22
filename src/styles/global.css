@@ -27,6 +27,7 @@
   --glow: #E9A55B; --glow-rgb: 233, 165, 91; --glow-ink: #1A1206; --glow-hover: #F2B470;
   --font-d: "Alexandria", "IBM Plex Sans Arabic", system-ui, sans-serif;
   --font-b: "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-ui: "Alexandria", "IBM Plex Sans Arabic", system-ui, sans-serif;
   --display-weight: 300; --radius: 6px;
   color-scheme: dark;
 }
@@ -39,6 +40,7 @@
   --glow: #3E6A50; --glow-rgb: 62, 106, 80; --glow-ink: #FFFFFF; --glow-hover: #335A43;
   --font-d: "Readex Pro", "IBM Plex Sans Arabic", system-ui, sans-serif;
   --font-b: "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-ui: "Readex Pro", "IBM Plex Sans Arabic", system-ui, sans-serif;
   --display-weight: 300; --radius: 18px;
   color-scheme: light;
 }
@@ -51,6 +53,7 @@
   --glow: #9A3B1C; --glow-rgb: 154, 59, 28; --glow-ink: #FFF6EC; --glow-hover: #822F14;
   --font-d: "Reem Kufi", "Noto Naskh Arabic", serif;
   --font-b: "Noto Naskh Arabic", "IBM Plex Sans Arabic", serif;
+  --font-ui: "Noto Naskh Arabic", serif;
   --display-weight: 500; --radius: 2px;
   color-scheme: light;
 }
@@ -63,6 +66,7 @@
   --glow: #0E7C76; --glow-rgb: 14, 124, 118; --glow-ink: #FFFFFF; --glow-hover: #0B6762;
   --font-d: "IBM Plex Sans Arabic", system-ui, sans-serif;
   --font-b: "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-ui: "IBM Plex Sans Arabic", system-ui, sans-serif;
   --display-weight: 500; --radius: 10px;
   color-scheme: light;
 }
@@ -77,19 +81,21 @@ body {
 }
 img { display: block; max-width: 100%; }
 a { color: inherit; }
-h1, h2, h3 { font-family: var(--font-d); margin: 0; line-height: 1.2; font-weight: 500; text-wrap: balance; }
+h1, h2 { font-family: var(--font-d); }
+h3 { font-family: var(--font-ui); font-weight: 600; }
+h1, h2, h3 { margin: 0; line-height: 1.2; font-weight: 500; text-wrap: balance; }
 .hero__headline { text-wrap: balance; }
 p { margin: 0; }
 :focus-visible { outline: 2px solid var(--glow); outline-offset: 4px; border-radius: 4px; }
 
 .wrap { width: min(100% - 2 * var(--gutter), var(--maxw)); margin-inline: auto; }
-.eyebrow { font-family: var(--font-d); font-size: .82rem; letter-spacing: .08em; color: var(--glow); font-weight: 500; }
+.eyebrow { font-family: var(--font-ui); font-size: .82rem; letter-spacing: .08em; color: var(--glow); font-weight: 500; }
 .muted { color: var(--muted); }
 .ltr { direction: ltr; unicode-bidi: isolate; }
 
 .btn {
   display: inline-flex; align-items: center; gap: .6rem; min-height: 52px; padding: .8rem 1.6rem;
-  border-radius: 999px; font-family: var(--font-d); font-weight: 500; font-size: 1rem; text-decoration: none;
+  border-radius: 999px; font-family: var(--font-ui); font-weight: 500; font-size: 1rem; text-decoration: none;
   transition: transform .35s var(--ease), background-color .3s, color .3s, border-color .3s;
 }
 .btn svg { width: 18px; height: 18px; }
