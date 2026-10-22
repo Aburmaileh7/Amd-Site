@@ -1,4 +1,4 @@
-// /_p/<place_id>.json — lets n8n find a finished site by Google place_id
+// /p/<place_id>.json — lets n8n find a finished site by Google place_id
 // (unguessable; no public list of demo sites).
 export function getStaticPaths() {
   const files = import.meta.glob('../../../sites/*/place.json', { eager: true });
