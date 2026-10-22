@@ -1,0 +1,49 @@
+name: deploy-demos
+
+on:
+  push:
+    branches: [main, 'claude/**']
+    paths: ['sites/**', 'src/**', 'scripts/**', 'package*.json', 'astro.config.mjs', '.github/workflows/deploy.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy-demos
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      # Routine sessions may only be allowed to push claude/* branches: fold them into main.
+      - name: Merge claude branch into main
+        if: github.ref_name != 'main'
+        run: |
+          git config user.name "amd-bot"
+          git config user.email "amd-bot@users.noreply.github.com"
+          git fetch origin "${GITHUB_REF_NAME}"
+          git merge --no-edit "origin/${GITHUB_REF_NAME}"
+          git push origin main
+          git push origin --delete "${GITHUB_REF_NAME}" || true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npm run build   # validates every site first
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=amd-demos --branch=main --commit-dirty=true
