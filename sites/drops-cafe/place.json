@@ -1,0 +1,254 @@
+{
+  "place_id": "ChIJtT1LdgChHBURQtLo--KdPEI",
+  "batch_id": "b202610221615",
+  "slug": "drops-cafe",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full"
+  },
+  "accent": {
+    "hex": "#17727A",
+    "rgb": "23, 114, 122",
+    "hover": "#125B62",
+    "ink": "#FFFFFF"
+  },
+  "name": "Drops Cafe",
+  "name_lang": "en",
+  "category_label": "كافيه",
+  "area": "تلاع العلي، عمّان",
+  "address": "شارع عامر بن مالك 189، تلاع العلي، عمّان",
+  "phone": {
+    "display": "+962 7 9542 3309",
+    "tel": "+962795423309"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Drops%20cafe&query_place_id=ChIJtT1LdgChHBURQtLo--KdPEI",
+  "map_query": "Drops Cafe, Amer Bin Malik St 189, Amman, Jordan",
+  "rating": {
+    "value": 4.9,
+    "count": 39,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "كل أيام الأسبوع",
+        "time": "6 ص – 1 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "قهوة وشاي من السادسة صباحًا حتى الواحدة",
+    "intro": "كافيه في تلاع العلي بقهوة وتشكيلة شاي، مع أرجيلة وجلسات هادئة للمجموعات، وطلبات سفري وتوصيل ومواقف مجانية.",
+    "image": "hero"
+  },
+  "sections": [
+    "menu",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "من 6 صباحًا حتى 1 ليلًا",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للطلب والتوصيل اتصل بنا",
+    "categories": [
+      {
+        "id": "hot",
+        "title": "قهوة وشاي",
+        "tagline": "ساخنة",
+        "image": "hot",
+        "items": [
+          {
+            "name": "إسبريسو",
+            "desc": "",
+            "price": 1.75
+          },
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 2.75
+          },
+          {
+            "name": "سبانش لاتيه",
+            "desc": "إسبريسو مع حليب مكثف.",
+            "price": 3.25,
+            "mentioned": true
+          },
+          {
+            "name": "شاي بالنعناع",
+            "desc": "إبريق.",
+            "price": 2.0
+          }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "مشروبات باردة",
+        "tagline": "للانتعاش",
+        "image": "cold",
+        "items": [
+          {
+            "name": "آيس لاتيه",
+            "desc": "",
+            "price": 3.25
+          },
+          {
+            "name": "آيس سبانش لاتيه",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "ليمون بالنعناع",
+            "desc": "",
+            "price": 2.75
+          }
+        ]
+      },
+      {
+        "id": "bites",
+        "title": "مع القهوة",
+        "tagline": "خفيف",
+        "image": "bites",
+        "items": [
+          {
+            "name": "كرواسون",
+            "desc": "",
+            "price": 2.0
+          },
+          {
+            "name": "كوكيز",
+            "desc": "",
+            "price": 1.5
+          },
+          {
+            "name": "ساندويش حلوم",
+            "desc": "",
+            "price": 3.5
+          }
+        ]
+      },
+      {
+        "id": "shisha",
+        "title": "الأرجيلة",
+        "tagline": "للجلسات",
+        "image": "shisha",
+        "items": [
+          {
+            "name": "أرجيلة تفاحتين",
+            "desc": "",
+            "price": 5.0,
+            "mentioned": true
+          },
+          {
+            "name": "أرجيلة ليمون ونعنع",
+            "desc": "",
+            "price": 5.0
+          },
+          {
+            "name": "أرجيلة عنب ونعنع",
+            "desc": "",
+            "price": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "سبانش لاتيه",
+    "أرجيلة"
+  ],
+  "reviews": [
+    {
+      "author": "Thaer A.",
+      "stars": 5,
+      "text": "راقي ومميز ومشروباته زاكية وتعاملهم جدا رائع",
+      "source_ref": "r5"
+    },
+    {
+      "author": "Pauline L.",
+      "stars": 5,
+      "text": "Best Spanish latte I’ve ever had..perfectly balanced, creamy, and just the right sweetness. Highly recommend!",
+      "source_ref": "r7"
+    },
+    {
+      "author": "محمد ا.",
+      "stars": 5,
+      "text": "اروع من رائع واراجيل مميزه وأجواء مرتبه",
+      "source_ref": "r6"
+    },
+    {
+      "author": "waleed z.",
+      "stars": 5,
+      "text": "القهوة ممتازه وشباب رائعون",
+      "source_ref": "r2"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": null,
+    "items": [
+      {
+        "icon": "bag",
+        "title": "سفري وتوصيل",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": "مواقف كثيرة متوفرة."
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للمجموعات",
+        "text": "أجواء هادئة ومريحة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقات والموبايل",
+        "text": "NFC وبطاقات ائتمان وسحب آلي."
+      }
+    ]
+  },
+  "visit": {
+    "image": null
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1690983326252-ce6205fb7055",
+      "alt": "صورة توضيحية: كوب قهوة بين حبوب البن",
+      "page": "https://unsplash.com/photos/a-cup-of-coffee-surrounded-by-coffee-beans-KU7PjmjArlQ"
+    },
+    "hot": {
+      "id": "photo-1690983326252-ce6205fb7055",
+      "alt": "صورة توضيحية: كوب قهوة بين حبوب البن",
+      "page": "https://unsplash.com/photos/a-cup-of-coffee-surrounded-by-coffee-beans-KU7PjmjArlQ"
+    },
+    "cold": {
+      "id": "photo-1717603545758-88cc454db69b",
+      "alt": "صورة توضيحية: آيس ماتشا لاتيه على طاولة خشبية",
+      "page": "https://unsplash.com/photos/iced-matcha-latte-on-wooden-table-N1rmKN_EOaA"
+    },
+    "bites": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون فطور ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    },
+    "shisha": {
+      "id": "photo-1574238752695-675b86d49267",
+      "alt": "صورة توضيحية: أرجيلة",
+      "page": "https://unsplash.com/photos/gray-hookah-OUGqm1DjYIc"
+    }
+  }
+}

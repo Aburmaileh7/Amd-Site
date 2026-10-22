@@ -1,0 +1,242 @@
+{
+  "place_id": "ChIJH_4AFgChHBURTTj7M-NgQeo",
+  "batch_id": "b202610221615",
+  "slug": "marouf-cafe-khalde-alassaf",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#5E6B3B",
+    "rgb": "94, 107, 59",
+    "hover": "#4B562F",
+    "ink": "#FFFFFF"
+  },
+  "name": "Marouf Cafe - Khalde Alassaf",
+  "name_lang": "en",
+  "category_label": "كافيه",
+  "area": "تلاع العلي، عمّان",
+  "address": "شارع وصفي التل 207، تلاع العلي، عمّان",
+  "phone": {
+    "display": "+962 7 9079 1111",
+    "tel": "+962790791111"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Marouf%20Cafe-%20Khalde%20Alassaf&query_place_id=ChIJH_4AFgChHBURTTj7M-NgQeo",
+  "map_query": "Marouf Cafe, Wasfi Al Tal St 207, Amman, Jordan",
+  "rating": {
+    "value": 4.3,
+    "count": 64,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "قهوة هادئة وموظفون يعرفون زبائنهم",
+    "intro": "فرع في تلاع العلي بجلسات داخلية وأجواء مريحة، يقصده الزوار للعمل على قهوة ولتعامل الموظفين، ويضم مكانًا للصلاة.",
+    "image": "hero"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "reviews",
+    "amenities",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "ما يكرره الزوار",
+    "title": "لماذا هذا الفرع؟",
+    "items": [
+      {
+        "label": "الأجواء",
+        "title": "مكان هادئ يصلح للعمل",
+        "text": "يصفه الزوار في مراجعاتهم بالمكان الهادئ والمريح، مع قهوة لذيذة.",
+        "image": "work"
+      },
+      {
+        "label": "الخدمة",
+        "title": "موظفون لطيفون",
+        "text": "أكثر ما يذكره الزوار هو حسن تعامل فريق الفرع.",
+        "image": "hero"
+      },
+      {
+        "label": "للحلو",
+        "title": "قهوة وحلو طازج",
+        "text": "يذكر أحد الزوار أن الحلو طازج، مع مكان مخصص للصلاة في الفرع.",
+        "image": "cake"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "قهوة وحلويات",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للاستفسار اتصل بالفرع",
+    "categories": [
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "ساخنة",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "إسبريسو",
+            "desc": "",
+            "price": 1.75
+          },
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 2.75
+          },
+          {
+            "name": "لاتيه",
+            "desc": "",
+            "price": 3.0
+          },
+          {
+            "name": "قهوة تركية",
+            "desc": "",
+            "price": 1.5
+          }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "المشروبات الباردة",
+        "tagline": "للانتعاش",
+        "image": "cold",
+        "items": [
+          {
+            "name": "آيس لاتيه",
+            "desc": "",
+            "price": 3.25
+          },
+          {
+            "name": "آيس موكا",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "ليمون بالنعناع",
+            "desc": "",
+            "price": 2.75
+          }
+        ]
+      },
+      {
+        "id": "sweets",
+        "title": "الحلويات",
+        "tagline": "مع القهوة",
+        "image": "cake",
+        "items": [
+          {
+            "name": "كعكة الشوكولاتة",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "كوكيز",
+            "desc": "",
+            "price": 1.5
+          },
+          {
+            "name": "كرواسون",
+            "desc": "",
+            "price": 2.0
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Areen A.",
+      "stars": 5,
+      "text": "مكان هادئ، مثالي للعمل مع قهوة لذيذة، الخدمة والأجواء  رائعة جداً 🥰🥰",
+      "source_ref": "r10"
+    },
+    {
+      "author": "Rajia H.",
+      "stars": 5,
+      "text": "الفرع يتميز بوجود مكان للصلاة و الموظفين من ألطف ما يكون ، شكراً يارا تشعرك أنك من عائلة معروف كافيه … في السابق صوت الموسيقى المرتفع كان مزعجاً جداً ، آخر تلات مرات الأمور أكثر هدوءاً … بالتوفيق",
+      "source_ref": "r8"
+    },
+    {
+      "author": "Razan Q.",
+      "stars": 5,
+      "text": "لطيفين بالمعاملة والحلو فريش\nومعاملة شيماء الي على الكاش فوق الواو كيوت ولطيفة ما شاء الله",
+      "source_ref": "r9"
+    },
+    {
+      "author": "Lamees Q.",
+      "stars": 5,
+      "text": "صدقاً من افضل الفروع بسبب تعامل الموظفين الأكثر من رائع خصوصي محمد وفارس",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Aya B.",
+      "stars": 5,
+      "text": "فرع ممتتاز مريح والموظفين رائعين خصوصاً محمد وفارس يعطيهم العافية",
+      "source_ref": "r3"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "الخدمات",
+    "image": null,
+    "items": [
+      {
+        "icon": "coffee",
+        "title": "جلسات داخلية",
+        "text": ""
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقات والموبايل",
+        "text": "بطاقات ائتمان وسحب آلي وNFC."
+      },
+      {
+        "icon": "clock",
+        "title": "مناسب للعمل",
+        "text": "أجواء هادئة كما يذكر الزوار."
+      }
+    ]
+  },
+  "visit": {
+    "image": null
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1511081692775-05d0f180a065",
+      "alt": "صورة توضيحية: داخل كافيه بإضاءة معلقة وطاولة",
+      "page": "https://unsplash.com/photos/cafe-interior-with-hanging-bulbs-and-table-VobvKmG-StA"
+    },
+    "work": {
+      "id": "photo-1743389412154-f604c3910818",
+      "alt": "صورة توضيحية: عمل على لابتوب بجانب لاتيه",
+      "page": "https://unsplash.com/photos/woman-works-on-laptop-with-a-latte-nearby-buwxwnHoCh4"
+    },
+    "cake": {
+      "id": "photo-1517427294546-5aa121f68e8a",
+      "alt": "صورة توضيحية: قطعة كعكة شوكولاتة",
+      "page": "https://unsplash.com/photos/sliced-chocolate-cake-beside-fork-on-plate-P_l1bJQpQF0"
+    },
+    "coffee": {
+      "id": "photo-1625021659159-f63f546d74a7",
+      "alt": "صورة توضيحية: كوب قهوة على طاولة خشبية",
+      "page": "https://unsplash.com/photos/white-ceramic-mug-on-brown-wooden-table-S8daAB_nJSg"
+    },
+    "cold": {
+      "id": "photo-1717603545758-88cc454db69b",
+      "alt": "صورة توضيحية: آيس ماتشا لاتيه على طاولة خشبية",
+      "page": "https://unsplash.com/photos/iced-matcha-latte-on-wooden-table-N1rmKN_EOaA"
+    }
+  }
+}
