@@ -51,6 +51,7 @@
   },
   "sections": [
     "menu",
+    "reviews",
     "proof",
     "amenities",
     "visit"
@@ -170,7 +171,32 @@
     ]
   },
   "mentions": [],
-  "reviews": [],
+  "reviews": [
+    {
+      "author": "Mohammed S.",
+      "stars": 5,
+      "text": "من احلى الاماكن الي ممكن اني ازورها لما اجي ععمان اجواء جدا هاديه ومناسبه للدراسه والعمل",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Nawras H.",
+      "stars": 5,
+      "text": "من أروع الكافيها في عمان الخدمة مميزة وأجواء ولا أروع",
+      "source_ref": "r3"
+    },
+    {
+      "author": "Alzahra K.",
+      "stars": 4,
+      "text": "الاجواء بجنن ومريح جدا",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Omar A.",
+      "stars": 5,
+      "text": "The service was absolutely wonderful and the atmosphere was delightful ✨. The staff were attentive and friendly, making the visit much more enjoyable The ambiance was also very inviting 😌.",
+      "source_ref": "r5"
+    }
+  ],
   "amenities": {
     "eyebrow": "قبل أن تزورنا",
     "title": "ما يوفره المكان",
@@ -237,5 +263,6 @@
       "alt": "صورة توضيحية: واجهة كافيه بجلسات خارجية ومظلات",
       "page": "https://unsplash.com/photos/cafe-exterior-with-outdoor-seating-and-beige-umbrellas-1jIs3w-Ahwg"
     }
-  }
+  },
+  "batch_id": "b202610231642"
 }

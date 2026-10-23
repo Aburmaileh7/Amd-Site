@@ -1,6 +1,6 @@
 {
   "place_id": "ChIJs5JVzumhHBUR4NVxdiBqVSw",
-  "batch_id": "b202610221337",
+  "batch_id": "b202610231642",
   "slug": "cafe-younes",
   "theme": "cafe_light",
   "approved": false,
@@ -29,7 +29,7 @@
   "map_query": "Café Younes, Tla'a Al-Ali, Amman, Jordan",
   "rating": {
     "value": 4.8,
-    "count": 422,
+    "count": 424,
     "source": "Google"
   },
   "hours": {

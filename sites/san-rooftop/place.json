@@ -18,7 +18,7 @@
   "map_query": "San Rooftop, Khalda, Amman, Jordan",
   "rating": {
     "value": 4.8,
-    "count": 5830,
+    "count": 5853,
     "source": "Google"
   },
   "hours": {
@@ -222,7 +222,38 @@
     "إفطار عربي (طبلية)",
     "أرجيلة"
   ],
-  "reviews": [],
+  "reviews": [
+    {
+      "author": "Ehab M.",
+      "stars": 5,
+      "text": "Osama was awesome! They were so friendly and helpful The atmosphere was amazing too Best place for a visit",
+      "source_ref": "r10"
+    },
+    {
+      "author": "Retal A.",
+      "stars": 5,
+      "text": "المكان كتير حلو والاكل بفوز والخدمة بتجننن واسامة احسن واحد",
+      "source_ref": "r8"
+    },
+    {
+      "author": "الاء ا.",
+      "stars": 5,
+      "text": "من الاماكن الحلوه والقعدة رواق والخدمة بجنن وخاصة شب اسامة",
+      "source_ref": "r5"
+    },
+    {
+      "author": "Rahaf R.",
+      "stars": 5,
+      "text": "خدمه ممتازه و اكل طيب و الستاف بيجنن و مستر اسامه ما قصر ثنكيووو",
+      "source_ref": "r6"
+    },
+    {
+      "author": "Eman J.",
+      "stars": 5,
+      "text": "Everything is perfect",
+      "source_ref": "r2"
+    }
+  ],
   "amenities": {
     "eyebrow": "قبل أن تزورنا",
     "title": "ما ستجده على السطح",
@@ -304,5 +335,6 @@
       "alt": "صورة توضيحية: حلوى بالفستق الحلبي",
       "page": "https://unsplash.com/photos/a-delicate-pastry-filled-with-chopped-pistachios-NzNFM69MMnI"
     }
-  }
+  },
+  "batch_id": "b202610231642"
 }

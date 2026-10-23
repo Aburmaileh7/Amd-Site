@@ -179,7 +179,38 @@
     "ماتشا لاتيه مثلج",
     "سموذي الزبادي"
   ],
-  "reviews": [],
+  "reviews": [
+    {
+      "author": "حنين ص.",
+      "stars": 5,
+      "text": "السبانيش لاتيه كتير زاكي مع الكوكيز بنصح فيهم، تعامل الموظفين ولا ألطف، المكان كأنّك بتحس حالك في البيت من الراحة.",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Sarah S.",
+      "stars": 5,
+      "text": "I honestly really enjoyed my time here. The coffee was excellent, but what I loved most was the cozy, relaxed atmosphere—it’s the kind of place where you can sit back and actually enjoy your time. The staff were so friendly and welcoming…",
+      "source_ref": "r3"
+    },
+    {
+      "author": "Laila Z.",
+      "stars": 5,
+      "text": "Cozy warm coffee house with nice music and beautiful vibes. Delicious cakes and perfectly prepared drinks yummy 😋",
+      "source_ref": "r6"
+    },
+    {
+      "author": "Zainab I.",
+      "stars": 5,
+      "text": "A place where i feel like home❤️the barista there is very kind and friendly too, there drinks and desserts are always amazing (especially the yogurt smoothie and the chocolate cake)",
+      "source_ref": "r7"
+    },
+    {
+      "author": "Saeed Q.",
+      "stars": 5,
+      "text": "I visit the place on a regular basis to work, socialize with friends or even if I need some me time. They have a wide variety of drinks… Cozy environment. Their desserts are all homemade",
+      "source_ref": "r8"
+    }
+  ],
   "amenities": {
     "eyebrow": "معلومات تهمك",
     "title": "الخدمات",
@@ -241,5 +272,6 @@
       "alt": "صورة توضيحية: كوب قهوة على طاولة خشبية",
       "page": "https://unsplash.com/photos/white-ceramic-mug-on-brown-wooden-table-S8daAB_nJSg"
     }
-  }
+  },
+  "batch_id": "b202610231642"
 }
