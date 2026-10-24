@@ -1,0 +1,277 @@
+{
+  "place_id": "ChIJd8SiS5BfGxURXtYkv6JNIxA",
+  "slug": "kepi-cafe",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#1F6F6B",
+    "rgb": "31, 111, 107",
+    "hover": "#195C58",
+    "ink": "#FFFFFF"
+  },
+  "name": "مقهى ومطعم كابي كافيه",
+  "name_lang": "ar",
+  "category_label": "مقهى ومطعم بإطلالة على دوار باريس",
+  "area": "دوار باريس، عمّان",
+  "address": "دوار باريس، عمّان",
+  "phone": {
+    "display": "+962 7 7545 6850",
+    "tel": "+962775456850"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D9%82%D9%87%D9%89%20%D9%88%D9%85%D8%B7%D8%B9%D9%85%20%D9%83%D8%A7%D8%A8%D9%8A%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJd8SiS5BfGxURXtYkv6JNIxA",
+  "map_query": "مقهى ومطعم كابي كافيه، دوار باريس، عمّان، الأردن",
+  "rating": {
+    "value": 4.1,
+    "count": 1324,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "كل أيام الأسبوع",
+        "time": "8:30 ص – 3 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "مقهى على زاوية دوار باريس حتى الثالثة فجرًا",
+    "intro": "مقهى ومطعم بجلسات خارجية وعلوية تطل على ساحة باريس، يقدّم القهوة والفطور والحلويات والأرجيلة من الثامنة والنصف صباحًا.",
+    "image": "hero"
+  },
+  "sections": [
+    "menu",
+    "story",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "من كلام الزوار",
+    "title": "ما يذكره زوار كابي",
+    "items": [
+      {
+        "label": "للإطلالة",
+        "title": "زاوية تطل على ساحة باريس",
+        "text": "من الجلسات الخارجية أو بجانب النوافذ، مع جلسة علوية أصغر.",
+        "image": "street"
+      },
+      {
+        "label": "للمشروبات",
+        "title": "نسكافيه بالحليب وقهوة تركية",
+        "text": "مشروبات ذكرها الزوار بالاسم، والقهوة التركية تُقدّم بالركوة.",
+        "image": "coffee"
+      },
+      {
+        "label": "للسهر",
+        "title": "أرجيلة وفتح حتى 3 ص",
+        "text": "يفتح من 8:30 صباحًا حتى الثالثة فجرًا، والأرجيلة جزء من الجلسة.",
+        "image": "shisha"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "من الصباح حتى الثالثة فجرًا",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للاستفسار والحجز",
+    "categories": [
+      {
+        "id": "hot",
+        "title": "مشروبات ساخنة",
+        "tagline": "",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "نسكافيه بالحليب",
+            "desc": "",
+            "price": 2.5,
+            "mentioned": true
+          },
+          {
+            "name": "قهوة تركية",
+            "desc": "بالركوة.",
+            "price": 2.0,
+            "mentioned": true
+          },
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 2.75
+          },
+          {
+            "name": "شاي بالنعناع",
+            "desc": "",
+            "price": 2.0
+          }
+        ]
+      },
+      {
+        "id": "bites",
+        "title": "فطور وحلويات",
+        "tagline": "",
+        "image": "hero_table",
+        "items": [
+          {
+            "name": "ميني بان كيك",
+            "desc": "شوكولاتة وفواكه ومارشميلو.",
+            "price": 5.5,
+            "mentioned": true
+          },
+          {
+            "name": "تراميسو",
+            "desc": "",
+            "price": 4.25,
+            "mentioned": true
+          },
+          {
+            "name": "صحن فطور",
+            "desc": "",
+            "price": 6.0
+          },
+          {
+            "name": "ساندويش حلوم",
+            "desc": "",
+            "price": 3.5
+          }
+        ]
+      },
+      {
+        "id": "shisha",
+        "title": "الأرجيلة",
+        "tagline": "",
+        "image": "shisha",
+        "items": [
+          {
+            "name": "أرجيلة تفاحتين",
+            "desc": "",
+            "price": 5.0,
+            "mentioned": true
+          },
+          {
+            "name": "أرجيلة ليمون ونعنع",
+            "desc": "",
+            "price": 5.0
+          },
+          {
+            "name": "أرجيلة عنب ونعنع",
+            "desc": "",
+            "price": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "نسكافيه بالحليب",
+    "بان كيك",
+    "تراميسو",
+    "قهوة تركية",
+    "أرجيلة"
+  ],
+  "reviews": [
+    {
+      "author": "Sara M.",
+      "stars": 5,
+      "text": "تجربة رائعة ، مكان هادئ والموظفين ودودين",
+      "source_ref": "r5"
+    },
+    {
+      "author": "احمد ا.",
+      "stars": 5,
+      "text": "جيت لهم الصباح والمكان جميل جدا موقعه ركن ، فيه موظف اسمه يوسف رائع جدا وأخلاقه جميلة، تجربة رائعة جدا",
+      "source_ref": "r6"
+    },
+    {
+      "author": "أصايل",
+      "stars": 5,
+      "text": "مقهى يقع على الزاوية يتميز بإطلالته على المنطقة المحيطة من اي جلسة خارجية أو على جانبي النوافذ في المقهى. يطل على ساحة باريس… جربنا لديهم البان كيك… التراميسيو..حلاها موزون وخفيفة",
+      "source_ref": "r8"
+    },
+    {
+      "author": "طارق ر.",
+      "stars": 5,
+      "text": "اجمل محل في عمان ارجيلة لطيفه وخدمة ممتازة ومشروبات لذيذه وايضا الاطلاله جميله وموظفين رائعين انبسطنا كثير",
+      "source_ref": "r9"
+    },
+    {
+      "author": "Philip D.",
+      "stars": 5,
+      "text": "Nice little place to relax with shisha in the afternoon… the staff are friendly and welcoming.",
+      "source_ref": "r1"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات خارجية وعلوية",
+        "text": "إطلالة على ساحة باريس."
+      },
+      {
+        "icon": "clock",
+        "title": "مفتوح حتى 3 ص",
+        "text": "كل أيام الأسبوع."
+      },
+      {
+        "icon": "check",
+        "title": "مناسب للعمل",
+        "text": "يُعرف بأنه مناسب للعمل على اللابتوب."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": "في الشارع وبالقرب."
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": "جلسات ودورة مياه."
+      }
+    ]
+  },
+  "visit": {
+    "image": null
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة",
+      "page": "https://unsplash.com/photos/the-sun-is-setting-over-a-city-street-3FeDWYfZYxY"
+    },
+    "street": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة",
+      "page": "https://unsplash.com/photos/the-sun-is-setting-over-a-city-street-3FeDWYfZYxY"
+    },
+    "coffee": {
+      "id": "photo-1625021659159-f63f546d74a7",
+      "alt": "صورة توضيحية: كوب قهوة على طاولة خشبية",
+      "page": "https://unsplash.com/photos/white-ceramic-mug-on-brown-wooden-table-S8daAB_nJSg"
+    },
+    "shisha": {
+      "id": "photo-1574238752695-675b86d49267",
+      "alt": "صورة توضيحية: أرجيلة",
+      "page": "https://unsplash.com/photos/gray-hookah-OUGqm1DjYIc"
+    },
+    "hero_table": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون فطور ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    }
+  },
+  "batch_id": "b202610242204"
+}

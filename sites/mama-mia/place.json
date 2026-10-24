@@ -1,0 +1,282 @@
+{
+  "place_id": "ChIJFbCQ-LmhHBURm7nt34XOrn4",
+  "slug": "mama-mia",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#B4543A",
+    "rgb": "180, 84, 58",
+    "hover": "#954530",
+    "ink": "#FFFFFF"
+  },
+  "name": "ماما ميا",
+  "name_lang": "ar",
+  "category_label": "كافيه ومطعم إفطار وحلويات",
+  "area": "أم أذينة، عمّان",
+  "address": "بجانب فندق كونروي، شات العرب، أم أذينة، عمّان",
+  "phone": {
+    "display": "+962 7 9108 0660",
+    "tel": "+962791080660"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%A7%D9%85%D8%A7%20%D9%85%D9%8A%D8%A7&query_place_id=ChIJFbCQ-LmhHBURm7nt34XOrn4",
+  "map_query": "ماما ميا، أم أذينة، عمّان، الأردن",
+  "rating": {
+    "value": 4.5,
+    "count": 1953,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "كل أيام الأسبوع",
+        "time": "9 ص – 11:50 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "إفطار وحلويات وقهوة في أم أذينة",
+    "intro": "كافيه ومطعم بجانب فندق كونروي، يقدّم الإفطار والغداء والعشاء والحلويات، بجلسات داخلية وخارجية ومدفأة، ويفتح كل يوم حتى قبل منتصف الليل.",
+    "image": "hero"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "ما يميّز المكان",
+    "title": "لماذا ماما ميا؟",
+    "items": [
+      {
+        "label": "للحلويات",
+        "title": "حلويات وتشكيلة شاي",
+        "text": "من أبرز ما يُعرف به المكان على خرائط قوقل: الحلويات والقهوة والشاي.",
+        "image": "cake"
+      },
+      {
+        "label": "للجلسة",
+        "title": "مدفأة وأجواء هادئة",
+        "text": "يصف الزوار المكان بأنه هادئ وفخم ونظيف، مع جلسات داخلية وأخرى في الهواء الطلق.",
+        "image": "interior"
+      },
+      {
+        "label": "لكل وجبة",
+        "title": "من الفطور إلى العشاء",
+        "text": "يفتح من التاسعة صباحًا حتى 11:50 مساءً، ويقبل الحجوزات للإفطار المتأخر والعشاء.",
+        "image": "hero_table"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "إفطار وحلويات",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والاستفسار",
+    "categories": [
+      {
+        "id": "breakfast",
+        "title": "الإفطار",
+        "tagline": "حتى وقت متأخر",
+        "image": "hero_table",
+        "items": [
+          {
+            "name": "صحن فطور",
+            "desc": "بيض، جبنة، زيتون، وخبز.",
+            "price": 6.5
+          },
+          {
+            "name": "أومليت بالجبنة",
+            "desc": "",
+            "price": 4.5
+          },
+          {
+            "name": "فطائر وفيتا",
+            "desc": "",
+            "price": 4.0
+          },
+          {
+            "name": "بانكيك",
+            "desc": "مع فواكه وشوكولاتة.",
+            "price": 5.5
+          }
+        ]
+      },
+      {
+        "id": "sweet",
+        "title": "الحلويات",
+        "tagline": "مع القهوة والشاي",
+        "image": "cake",
+        "items": [
+          {
+            "name": "كيكة شوكولاتة",
+            "desc": "",
+            "price": 4.0
+          },
+          {
+            "name": "تشيز كيك",
+            "desc": "",
+            "price": 4.25
+          },
+          {
+            "name": "حلوى بالفستق",
+            "desc": "",
+            "price": 3.75
+          },
+          {
+            "name": "وافل",
+            "desc": "",
+            "price": 5.0
+          }
+        ]
+      },
+      {
+        "id": "hot",
+        "title": "مشروبات ساخنة",
+        "tagline": "قهوة وشاي",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "إسبريسو",
+            "desc": "",
+            "price": 2.0
+          },
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 2.75
+          },
+          {
+            "name": "لاتيه",
+            "desc": "",
+            "price": 3.0
+          },
+          {
+            "name": "شاي بالنعناع",
+            "desc": "",
+            "price": 2.0
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Lara A.",
+      "stars": 5,
+      "text": "Perfect place",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Joy",
+      "stars": 5,
+      "text": "Lovely place with great service and delicious food",
+      "source_ref": "r4"
+    },
+    {
+      "author": "jumana R.",
+      "stars": 5,
+      "text": "The staff was nice, warm ambiance",
+      "source_ref": "r2"
+    },
+    {
+      "author": "محمد ع.",
+      "stars": 5,
+      "text": "ممتاز جدا صراحة يستحق التجربه مره اخرى ونظيف واسعارهم ممتاز من ناحيه المكان وجوده في حلويات وفي الاكل والموظفين ما شاء الله…",
+      "source_ref": "r3"
+    },
+    {
+      "author": "Noor A.",
+      "stars": 5,
+      "text": "شكر خاص للمكان الجميل والكادر المميز",
+      "source_ref": "r5"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": "interior",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات داخلية وخارجية",
+        "text": "مع خدمة على الطاولة."
+      },
+      {
+        "icon": "bag",
+        "title": "توصيل وطعام سفري",
+        "text": ""
+      },
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجوزات",
+        "text": "يُنصح بالحجز للإفطار المتأخر والعشاء."
+      },
+      {
+        "icon": "wifi",
+        "title": "إنترنت لاسلكي مجاني",
+        "text": "مناسب للعمل على اللابتوب."
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للأطفال",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "خدمة ركن السيارات",
+        "text": "وموقف مجاني في الشارع."
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": "مدخل وجلسات ودورة مياه."
+      }
+    ]
+  },
+  "visit": {
+    "image": null
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون فطور ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    },
+    "cake": {
+      "id": "photo-1517427294546-5aa121f68e8a",
+      "alt": "صورة توضيحية: قطعة كعكة شوكولاتة",
+      "page": "https://unsplash.com/photos/sliced-chocolate-cake-beside-fork-on-plate-P_l1bJQpQF0"
+    },
+    "interior": {
+      "id": "photo-1511081692775-05d0f180a065",
+      "alt": "صورة توضيحية: داخل كافيه بإضاءة معلقة وطاولة",
+      "page": "https://unsplash.com/photos/cafe-interior-with-hanging-bulbs-and-table-VobvKmG-StA"
+    },
+    "coffee": {
+      "id": "photo-1625021659159-f63f546d74a7",
+      "alt": "صورة توضيحية: كوب قهوة على طاولة خشبية",
+      "page": "https://unsplash.com/photos/white-ceramic-mug-on-brown-wooden-table-S8daAB_nJSg"
+    },
+    "hero_table": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون فطور ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    }
+  },
+  "batch_id": "b202610242204"
+}

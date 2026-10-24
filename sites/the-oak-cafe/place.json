@@ -1,0 +1,288 @@
+{
+  "place_id": "ChIJi_17BJGhHBURfkEfGry7Img",
+  "slug": "the-oak-cafe",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#5E7A45",
+    "rgb": "94, 122, 69",
+    "hover": "#4E6539",
+    "ink": "#FFFFFF"
+  },
+  "name": "The Oak Cafe",
+  "name_lang": "en",
+  "category_label": "كافيه بجلسات متنوعة",
+  "area": "وادي السير، عمّان",
+  "address": "شارع حكمة المصري، وادي السير، عمّان",
+  "phone": {
+    "display": "+962 7 7109 9222",
+    "tel": "+962771099222"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=The%20Oak%20Cafe&query_place_id=ChIJi_17BJGhHBURfkEfGry7Img",
+  "map_query": "The Oak Cafe, Hikmat Al-Masri St, Amman, Jordan",
+  "rating": {
+    "value": 4.6,
+    "count": 1655,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "كل أيام الأسبوع",
+        "time": "9 ص – 2 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "قهوة وورق لعب حتى الثانية صباحًا",
+    "intro": "كافيه في وادي السير بجلسات داخلية وخارجية ومدفأة، يقدّم القهوة والحلويات والفطور، ويستقبل المجموعات حتى الثانية بعد منتصف الليل.",
+    "image": "hero"
+  },
+  "sections": [
+    "menu",
+    "story",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "من كلام الزوار",
+    "title": "جلسات تناسب الجميع",
+    "items": [
+      {
+        "label": "للجلسات",
+        "title": "جلسات متنوعة",
+        "text": "يذكر الزوار أن لديهم جلسات متنوعة ومناسبة للجميع، داخلية وفي الهواء الطلق.",
+        "image": "exterior"
+      },
+      {
+        "label": "للسهر",
+        "title": "مفتوح حتى 2 ص",
+        "text": "يفتح من التاسعة صباحًا حتى الثانية بعد منتصف الليل كل يوم.",
+        "image": "matcha"
+      },
+      {
+        "label": "للمجموعات",
+        "title": "ورق لعب وقعدات أصحاب",
+        "text": "أحد الزوار يذكر أنه يمكن لعب الورق في المكان.",
+        "image": "coffee"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "من التاسعة حتى الثانية",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والاستفسار",
+    "categories": [
+      {
+        "id": "hot",
+        "title": "مشروبات ساخنة",
+        "tagline": "قهوة وشاي",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "إسبريسو",
+            "desc": "",
+            "price": 2.0
+          },
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 2.75
+          },
+          {
+            "name": "لاتيه",
+            "desc": "",
+            "price": 3.0
+          },
+          {
+            "name": "شاي بالنعناع",
+            "desc": "",
+            "price": 2.0
+          }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "مشروبات باردة",
+        "tagline": "للجلسات الخارجية",
+        "image": "matcha",
+        "items": [
+          {
+            "name": "آيس لاتيه",
+            "desc": "",
+            "price": 3.25
+          },
+          {
+            "name": "آيس ماتشا",
+            "desc": "",
+            "price": 3.75
+          },
+          {
+            "name": "ليمون بالنعناع",
+            "desc": "",
+            "price": 2.75
+          },
+          {
+            "name": "موكا مثلجة",
+            "desc": "",
+            "price": 3.5
+          }
+        ]
+      },
+      {
+        "id": "bites",
+        "title": "فطور ووجبات خفيفة",
+        "tagline": "",
+        "image": "hero_table",
+        "items": [
+          {
+            "name": "صحن فطور",
+            "desc": "",
+            "price": 5.5
+          },
+          {
+            "name": "كرواسون",
+            "desc": "",
+            "price": 2.0
+          },
+          {
+            "name": "ساندويش حلوم",
+            "desc": "",
+            "price": 3.5
+          }
+        ]
+      },
+      {
+        "id": "sweet",
+        "title": "حلويات",
+        "tagline": "",
+        "image": "cake",
+        "items": [
+          {
+            "name": "كيكة شوكولاتة",
+            "desc": "",
+            "price": 4.0
+          },
+          {
+            "name": "تشيز كيك",
+            "desc": "",
+            "price": 4.25
+          },
+          {
+            "name": "كوكيز",
+            "desc": "",
+            "price": 2.0
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Ayman N.",
+      "stars": 5,
+      "text": "Very nice café, good food, drinks, and you can play cards",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Belal A.",
+      "stars": 4,
+      "text": "كافيه ممتاز ، وطاقم عمل رائع ، ولديهم جلسات متنوعة ومناسبة للجميع",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Saif A.",
+      "stars": 5,
+      "text": "Cozy place ... I loved it 😍",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Amle E.",
+      "stars": 5,
+      "text": "الاجواء حلوة كثييير و الخدمات ولا اروع و فريق عمل مميز جدا انا زبونة دائما…",
+      "source_ref": "r5"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات خارجية وداخلية",
+        "text": "مع خدمة على الطاولة."
+      },
+      {
+        "icon": "bag",
+        "title": "طعام سفري",
+        "text": ""
+      },
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجوزات",
+        "text": "للمجموعات."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف كثيرة",
+        "text": "مجانية في الشارع وبالقرب."
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": "جلسات ودورة مياه."
+      }
+    ]
+  },
+  "visit": {
+    "image": null
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1779442563698-11fad08a733e",
+      "alt": "صورة توضيحية: واجهة كافيه بجلسات خارجية ومظلات",
+      "page": "https://unsplash.com/photos/cafe-exterior-with-outdoor-seating-and-beige-umbrellas-1jIs3w-Ahwg"
+    },
+    "exterior": {
+      "id": "photo-1779442563698-11fad08a733e",
+      "alt": "صورة توضيحية: واجهة كافيه بجلسات خارجية ومظلات",
+      "page": "https://unsplash.com/photos/cafe-exterior-with-outdoor-seating-and-beige-umbrellas-1jIs3w-Ahwg"
+    },
+    "matcha": {
+      "id": "photo-1749280447307-31a68eb38673",
+      "alt": "صورة توضيحية: ماتشا لاتيه مثلج",
+      "page": "https://unsplash.com/photos/iced-matcha-latte-on-table-VKWjhlgFFwc"
+    },
+    "coffee": {
+      "id": "photo-1625021659159-f63f546d74a7",
+      "alt": "صورة توضيحية: كوب قهوة على طاولة خشبية",
+      "page": "https://unsplash.com/photos/white-ceramic-mug-on-brown-wooden-table-S8daAB_nJSg"
+    },
+    "hero_table": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون فطور ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    },
+    "cake": {
+      "id": "photo-1517427294546-5aa121f68e8a",
+      "alt": "صورة توضيحية: قطعة كعكة شوكولاتة",
+      "page": "https://unsplash.com/photos/sliced-chocolate-cake-beside-fork-on-plate-P_l1bJQpQF0"
+    }
+  },
+  "batch_id": "b202610242204"
+}

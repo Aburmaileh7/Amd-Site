@@ -1,0 +1,274 @@
+{
+  "place_id": "ChIJowiz3dKhHBURkrF_tz4Xfeg",
+  "slug": "chapter-9-cafe",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#46508A",
+    "rgb": "70, 80, 138",
+    "hover": "#3A4272",
+    "ink": "#FFFFFF"
+  },
+  "name": "Chapter 9 Cafe",
+  "name_lang": "en",
+  "category_label": "كافيه صغير بأجواء موسمية",
+  "area": "أم أذينة، عمّان",
+  "address": "بناية 10، شارع جيبوتي، أم أذينة، عمّان",
+  "phone": {
+    "display": "+962 7 7553 0300",
+    "tel": "+962775530300"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Chapter%209%20Cafe&query_place_id=ChIJowiz3dKhHBURkrF_tz4Xfeg",
+  "map_query": "Chapter 9 Cafe, Djibouti St, Amman, Jordan",
+  "rating": {
+    "value": 4.4,
+    "count": 1487,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "كل أيام الأسبوع",
+        "time": "9 ص – 11 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "كافيه صغير بديكور يتغيّر مع كل موسم",
+    "intro": "كافيه في منطقة سكنية هادئة بأم أذينة، يقدّم القهوة والفطور والغداء والعشاء، ويُنصح بحجز طاولة قرب الشباك.",
+    "image": "hero"
+  },
+  "sections": [
+    "story",
+    "reviews",
+    "menu",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "ما يذكره الزوار",
+    "title": "لماذا Chapter 9؟",
+    "items": [
+      {
+        "label": "للديكور",
+        "title": "ديكور لكل موسم",
+        "text": "زوار يذكرون زينة الخريف وأن لكل موسم ديكوره الخاص، وتصلح للتصوير.",
+        "image": "interior"
+      },
+      {
+        "label": "للهدوء",
+        "title": "منطقة سكنية بعيدة عن الزحمة",
+        "text": "مكان دافئ وهادئ، مناسب للقاءات القصيرة مع الأصدقاء.",
+        "image": "work"
+      },
+      {
+        "label": "للحجز",
+        "title": "احجز طاولة قرب الشباك",
+        "text": "المكان صغير من الداخل، والحجز يضمن لك جلسة بإطلالة.",
+        "image": "coffee"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "قهوة وفطور",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والاستفسار",
+    "categories": [
+      {
+        "id": "coffee",
+        "title": "القهوة والمشروبات",
+        "tagline": "",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "لاتيه",
+            "desc": "",
+            "price": 3.25,
+            "mentioned": true
+          },
+          {
+            "name": "هوت شوكولاتة",
+            "desc": "",
+            "price": 3.5,
+            "mentioned": true
+          },
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 2.75
+          },
+          {
+            "name": "فلات وايت",
+            "desc": "",
+            "price": 3.0
+          }
+        ]
+      },
+      {
+        "id": "sweet",
+        "title": "حلويات",
+        "tagline": "",
+        "image": "cake",
+        "items": [
+          {
+            "name": "براوني صحي",
+            "desc": "",
+            "price": 3.5,
+            "mentioned": true
+          },
+          {
+            "name": "كيكة شوكولاتة",
+            "desc": "",
+            "price": 4.0
+          },
+          {
+            "name": "تشيز كيك",
+            "desc": "",
+            "price": 4.25
+          }
+        ]
+      },
+      {
+        "id": "breakfast",
+        "title": "فطور ووجبات",
+        "tagline": "",
+        "image": "hero_table",
+        "items": [
+          {
+            "name": "صحن فطور",
+            "desc": "",
+            "price": 7.0
+          },
+          {
+            "name": "أومليت",
+            "desc": "",
+            "price": 4.5
+          },
+          {
+            "name": "ساندويش حلوم",
+            "desc": "",
+            "price": 4.0
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "لاتيه",
+    "براوني صحي",
+    "هوت شوكولاتة"
+  ],
+  "reviews": [
+    {
+      "author": "Sally A.",
+      "stars": 5,
+      "text": "Super cute and cozy cafe",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Rinad A.",
+      "stars": 5,
+      "text": "مكان بعيد عن الازدحام بمنطقه سكنيه و هادئة و أجواء المحل دافيه… الخدمه ممتازه ☺️♥️ جربت الهوت شوكليت",
+      "source_ref": "r3"
+    },
+    {
+      "author": "Nadeen M.",
+      "stars": 5,
+      "text": "i love the fall decorations and the fact that every season has it’s own decorations delicious coffee and food",
+      "source_ref": "r6"
+    },
+    {
+      "author": "Ghada",
+      "stars": 5,
+      "text": "The best atmosphere and service by Hamada (he was friendly and helpful) The food was delicious",
+      "source_ref": "r7"
+    },
+    {
+      "author": "Nour",
+      "stars": 4,
+      "text": "Cozy mini coffee, great for quick catch ups with friends. We got latte & healthy brownie. Can’t go wrong with these options.",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Aya S.",
+      "stars": 4,
+      "text": "المكان مريح وزينة الخريف حلوة للتصوير واسلوب التقديم مميز",
+      "source_ref": "r5"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات داخلية وخارجية",
+        "text": "مع خدمة على الطاولة."
+      },
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجوزات",
+        "text": "يُنصح بالحجز للإفطار والغداء والعشاء."
+      },
+      {
+        "icon": "bag",
+        "title": "توصيل وطعام سفري",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "ركن السيارات",
+        "text": "وموقف مجاني في الشارع."
+      }
+    ]
+  },
+  "visit": {
+    "image": null
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1511081692775-05d0f180a065",
+      "alt": "صورة توضيحية: داخل كافيه بإضاءة معلقة وطاولة",
+      "page": "https://unsplash.com/photos/cafe-interior-with-hanging-bulbs-and-table-VobvKmG-StA"
+    },
+    "interior": {
+      "id": "photo-1511081692775-05d0f180a065",
+      "alt": "صورة توضيحية: داخل كافيه بإضاءة معلقة وطاولة",
+      "page": "https://unsplash.com/photos/cafe-interior-with-hanging-bulbs-and-table-VobvKmG-StA"
+    },
+    "work": {
+      "id": "photo-1743389412154-f604c3910818",
+      "alt": "صورة توضيحية: عمل على لابتوب بجانب لاتيه",
+      "page": "https://unsplash.com/photos/woman-works-on-laptop-with-a-latte-nearby-buwxwnHoCh4"
+    },
+    "coffee": {
+      "id": "photo-1625021659159-f63f546d74a7",
+      "alt": "صورة توضيحية: كوب قهوة على طاولة خشبية",
+      "page": "https://unsplash.com/photos/white-ceramic-mug-on-brown-wooden-table-S8daAB_nJSg"
+    },
+    "cake": {
+      "id": "photo-1517427294546-5aa121f68e8a",
+      "alt": "صورة توضيحية: قطعة كعكة شوكولاتة",
+      "page": "https://unsplash.com/photos/sliced-chocolate-cake-beside-fork-on-plate-P_l1bJQpQF0"
+    },
+    "hero_table": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون فطور ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    }
+  },
+  "batch_id": "b202610242204"
+}
