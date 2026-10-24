@@ -1,6 +1,6 @@
 {
   "place_id": "ChIJs5JVzumhHBUR4NVxdiBqVSw",
-  "batch_id": "b202610231642",
+  "batch_id": "b202610242131",
   "slug": "cafe-younes",
   "theme": "cafe_light",
   "approved": false,
@@ -29,7 +29,7 @@
   "map_query": "Café Younes, Tla'a Al-Ali, Amman, Jordan",
   "rating": {
     "value": 4.8,
-    "count": 424,
+    "count": 425,
     "source": "Google"
   },
   "hours": {
@@ -160,34 +160,34 @@
   ],
   "reviews": [
     {
-      "author": "زائر على Google",
+      "author": "Sarmad G.",
       "stars": 5,
       "text": "Very good food and drinks, Very nice quiet view and comfortable seating.",
-      "source_ref": "r4"
-    },
-    {
-      "author": "زائر على Google",
-      "stars": 5,
-      "text": "Definitely an amazing positive experience and overall vibe, very kind welcoming staff, yummy food especially the salted caramel french toast, and cheerfull atmosphere",
-      "source_ref": "r5"
-    },
-    {
-      "author": "زائر على Google",
-      "stars": 5,
-      "text": "تجربة مميزه جداااا الأكل روووعه و French toast was extraordinary",
-      "source_ref": "r6"
-    },
-    {
-      "author": "زائر على Google",
-      "stars": 5,
-      "text": "الاكل زاكي كتير واجواء حلوه",
       "source_ref": "r7"
     },
     {
-      "author": "زائر على Google",
+      "author": "Majd I.",
+      "stars": 5,
+      "text": "Definitely an amazing positive experience and overall vibe, very kind welcoming staff, yummy food especially the salted caramel french toast, and cheerfull atmosphere",
+      "source_ref": "r8"
+    },
+    {
+      "author": "Abeer A.",
+      "stars": 5,
+      "text": "تجربة مميزه جداااا الأكل روووعه و French toast was extraordinary",
+      "source_ref": "r9"
+    },
+    {
+      "author": "Basma M.",
+      "stars": 5,
+      "text": "الاكل زاكي كتير واجواء حلوه",
+      "source_ref": "r10"
+    },
+    {
+      "author": "Hala Q.",
       "stars": 5,
       "text": "Hala was very very sweet and she speaks perfect English BONUS and the restaurant was sooo good very friendly staff",
-      "source_ref": "r2"
+      "source_ref": "r5"
     }
   ],
   "amenities": {
