@@ -1,0 +1,257 @@
+{
+  "approved": false,
+  "agency": "Amad Web",
+  "whatsapp": null,
+  "place_id": "ChIJwxo0BXefHBURVo0vuu-nxSc",
+  "slug": "indoor-cafe",
+  "theme": "cafe_light",
+  "layout": {
+    "hero": "split"
+  },
+  "accent": {
+    "hex": "#3D4F6B",
+    "rgb": "61, 79, 107",
+    "hover": "#30405A",
+    "ink": "#FFFFFF"
+  },
+  "name": "إندور كافيه",
+  "name_lang": "ar",
+  "category_label": "كافيه",
+  "area": "تلاع العلي وخلدا، عمّان",
+  "address": "مجمع بركات التجاري، شارع الملكة رانيا العبدالله 275، عمّان",
+  "phone": {
+    "display": "+962 7 8855 3377",
+    "tel": "+962788553377"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D8%A5%D9%86%D8%AF%D9%88%D8%B1%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJwxo0BXefHBURVo0vuu-nxSc",
+  "map_query": "Indoor Cafe, Barakat Commercial Complex, Queen Rania Al Abdullah St, Amman, Jordan",
+  "rating": {
+    "value": 4.1,
+    "count": 1004,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "8 ص – 11 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "قهوة هادئة ومكان للجلسات الطويلة في خلدا",
+    "intro": "كافيه في مجمع بركات التجاري بشارع الملكة رانيا، يقدّم القهوة والحلويات والوجبات الخفيفة، ويفتح من الثامنة صباحًا حتى الحادية عشرة مساءً عدا الجمعة.",
+    "image": "hero"
+  },
+  "sections": [
+    "reviews",
+    "menu",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "قهوة وحلويات ووجبات خفيفة",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للاستفسار",
+    "categories": [
+      {
+        "id": "hot",
+        "title": "مشروبات ساخنة",
+        "tagline": "قهوة وشاي",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "إسبريسو",
+            "desc": "",
+            "price": 2
+          },
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 2.75
+          },
+          {
+            "name": "سبانش لاتيه",
+            "desc": "إسبريسو مع حليب مكثف.",
+            "price": 3.25,
+            "mentioned": true
+          },
+          {
+            "name": "شاي بالنعناع",
+            "desc": "إبريق.",
+            "price": 2
+          }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "مشروبات باردة",
+        "tagline": "فرابيه ومثلجات",
+        "image": "cold",
+        "items": [
+          {
+            "name": "كراميل فرابيه",
+            "desc": "",
+            "price": 3.75,
+            "mentioned": true
+          },
+          {
+            "name": "آيس لاتيه",
+            "desc": "",
+            "price": 3.25
+          },
+          {
+            "name": "آيس ماتشا لاتيه",
+            "desc": "",
+            "price": 3.75
+          },
+          {
+            "name": "ليمون بالنعناع",
+            "desc": "",
+            "price": 2.75
+          }
+        ]
+      },
+      {
+        "id": "bites",
+        "title": "وجبات خفيفة",
+        "tagline": "مع القهوة",
+        "image": "bites",
+        "items": [
+          {
+            "name": "ساندويش تشيكن سيزر",
+            "desc": "",
+            "price": 4.5,
+            "mentioned": true
+          },
+          {
+            "name": "كرواسون",
+            "desc": "",
+            "price": 2
+          },
+          {
+            "name": "باستا بالصلصة",
+            "desc": "",
+            "price": 5.5
+          },
+          {
+            "name": "كيك الشوكولاتة",
+            "desc": "",
+            "price": 3.5
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "سبانش لاتيه",
+    "كراميل فرابيه",
+    "ساندويش تشيكن سيزر"
+  ],
+  "reviews": [
+    {
+      "author": "Jude A.",
+      "stars": 5,
+      "text": "المكان هادي و رايق و بارد، في مصلى و حمامات و الموظفين لطيفين جداً و التعامل محترم…",
+      "source_ref": "r3"
+    },
+    {
+      "author": "samah b.",
+      "stars": 5,
+      "text": "Spanish latte was soo good\nAmazing service\nHighly recommend\nVery quiet and chill atmosphere",
+      "source_ref": "r5"
+    },
+    {
+      "author": "حمزة ر.",
+      "stars": 5,
+      "text": "بحي هالمقهى كثير",
+      "source_ref": "r6"
+    },
+    {
+      "author": "K_D",
+      "stars": 5,
+      "text": "رهيب",
+      "source_ref": "r8"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": "work",
+    "items": [
+      {
+        "icon": "coffee",
+        "title": "جلسات داخلية",
+        "text": "مع خدمة على الطاولة وطلبات خارجية."
+      },
+      {
+        "icon": "check",
+        "title": "مناسب للابتوب",
+        "text": "يُعرف بأنه مناسب للعمل على الكمبيوتر المحمول."
+      },
+      {
+        "icon": "family",
+        "title": "كراسي أطفال",
+        "text": ""
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": "جلسات ودورة مياه."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة والجوال",
+        "text": "بطاقات وNFC."
+      }
+    ]
+  },
+  "visit": {
+    "image": "ext"
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1511081692775-05d0f180a065",
+      "alt": "صورة توضيحية: داخل كافيه بإضاءة معلقة وطاولة",
+      "page": "https://unsplash.com/photos/cafe-interior-with-hanging-bulbs-and-table-VobvKmG-StA"
+    },
+    "coffee": {
+      "id": "photo-1625021659159-f63f546d74a7",
+      "alt": "صورة توضيحية: كوب قهوة على طاولة خشبية",
+      "page": "https://unsplash.com/photos/white-ceramic-mug-on-brown-wooden-table-S8daAB_nJSg"
+    },
+    "cold": {
+      "id": "photo-1717603545758-88cc454db69b",
+      "alt": "صورة توضيحية: آيس ماتشا لاتيه على طاولة خشبية",
+      "page": "https://unsplash.com/photos/iced-matcha-latte-on-wooden-table-N1rmKN_EOaA"
+    },
+    "bites": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون فطور ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    },
+    "work": {
+      "id": "photo-1743389412243-7dbfdf6c48dd",
+      "alt": "صورة توضيحية: عمل على لابتوب بجانب قهوة",
+      "page": "https://unsplash.com/photos/working-on-a-laptop-with-a-coffee-nearby-ro-7djAkodU"
+    },
+    "ext": {
+      "id": "photo-1779442563698-11fad08a733e",
+      "alt": "صورة توضيحية: واجهة كافيه بجلسات خارجية ومظلات",
+      "page": "https://unsplash.com/photos/cafe-exterior-with-outdoor-seating-and-beige-umbrellas-1jIs3w-Ahwg"
+    }
+  },
+  "batch_id": "b202610242207"
+}
