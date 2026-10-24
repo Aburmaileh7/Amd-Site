@@ -30,10 +30,10 @@ Make every site feel specific to *this* place: choose `sections` order, a `story
 - **Facts** (name, phone, address, hours, rating, amenities) come only from `business_data`. Missing → leave the field out; the section hides itself.
 - **Reviews**: copy real reviews only, short (≤ 280 chars, trim with …), author first name + initial, `stars`, and `source_ref` = the `review_id`. Pick 4–6 positive, specific ones. Never write or edit a review's meaning. No reviews → `"reviews": []`.
 - **Mentions** (`mentions`, `"mentioned": true` on menu items): only dishes/drinks named in reviews, one item per entry, ≤ 4 words.
-- **Menu**: real menu is unknown, so it is a *sample*: `"sample": true` + the standard note. Realistic Jordanian prices in د.أ for the category. Clinics: services only, no prices, no medical promises.
+- **Menu**: real menu is unknown, so it is a *sample*: `"sample": true` + the standard note. Realistic local prices for the category in the place's country currency, from `lead.country` (Jordan د.أ · UAE د.إ · Saudi Arabia ر.س · Qatar ر.ق · Kuwait د.ك · Oman ر.ع · Bahrain د.ب; missing → Jordan). Clinics: services only, no prices, no medical promises.
 - **WhatsApp** only when `lead.whatsapp_confirmed` is `TRUE`.
 - **Images**: Unsplash only, free (not Unsplash+), relevant to the place type; `alt` starts with `صورة توضيحية`. Find ids by fetching `https://unsplash.com/s/photos/<query>` and reading photo ids (`photo-…`). Never use the business's Google photos.
-- Copy: natural Arabic, concrete details, no empty slogans ("تجربة لا تُنسى", "الأفضل"), headline 4–9 words, intro 15–30 words.
+- Copy: natural Arabic (Gulf places: neutral Gulf-friendly Arabic, no Jordanian dialect, local area names), concrete details, no empty slogans ("تجربة لا تُنسى", "الأفضل"), headline 4–9 words, intro 15–30 words.
 - Keep `approved: false` (preview banner + noindex). Only the owner's approval changes it.
 
 ## Code changes
