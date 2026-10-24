@@ -1,0 +1,288 @@
+{
+  "approved": false,
+  "agency": "Amad Web",
+  "whatsapp": null,
+  "place_id": "ChIJsVp2YYNfGxURUJXmZeVuBlI",
+  "slug": "caffe-strada",
+  "theme": "cafe_light",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#B3302B",
+    "rgb": "179, 48, 43",
+    "hover": "#962723",
+    "ink": "#FFFFFF"
+  },
+  "name": "Caffè Strada",
+  "name_lang": "en",
+  "category_label": "كافيه ومخبوزات",
+  "area": "زهران، عمّان",
+  "address": "شارع فوزي المغربي 15، زهران، عمّان",
+  "phone": {
+    "display": "+962 7 9500 0753",
+    "tel": "+962795000753"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Caff%C3%A8%20Strada&query_place_id=ChIJsVp2YYNfGxURUJXmZeVuBlI",
+  "map_query": "Caffè Strada, Fawzi Al Maghrabi St 15, Amman, Jordan",
+  "rating": {
+    "value": 4.4,
+    "count": 823,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "كل يوم",
+        "time": "7 ص – 12 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "قهوة الصباح وبيغل طازج على تراس زهران",
+    "intro": "كافيه في شارع فوزي المغربي بجلسات داخلية وخارجية، يقدّم القهوة والبيغل والكوكيز، ويفتح يوميًا من السابعة صباحًا حتى منتصف الليل.",
+    "image": "hero"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "ما يكرره الزوار",
+    "title": "لماذا Strada؟",
+    "items": [
+      {
+        "label": "للصباح",
+        "title": "قهوة وشمس على التراس",
+        "text": "يذكر الزوار الصباح على التراس، ويفتح المكان من السابعة.",
+        "image": "coffee"
+      },
+      {
+        "label": "للمخبوزات",
+        "title": "بيغل وكوكيز من الفرن",
+        "text": "يلاحظ الزوار البيغل والكوكيز وهي طازجة من الفرن.",
+        "image": "bites"
+      },
+      {
+        "label": "للعمل",
+        "title": "للدراسة والعمل واللمّة",
+        "text": "مناسب للعمل على اللابتوب، وفيه مساحة للدراسة والجلسات الجماعية.",
+        "image": "work"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "قهوة وبيغل وحلويات",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للاستفسار",
+    "categories": [
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "إسبريسو وفلتر",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "أمريكانو",
+            "desc": "",
+            "price": 2.5,
+            "mentioned": true
+          },
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 3,
+            "mentioned": true
+          },
+          {
+            "name": "كورتادو",
+            "desc": "",
+            "price": 2.95,
+            "mentioned": true
+          },
+          {
+            "name": "إسبريسو",
+            "desc": "",
+            "price": 2
+          }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "مشروبات باردة",
+        "tagline": "للتراس",
+        "image": "cold",
+        "items": [
+          {
+            "name": "آيس لاتيه",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "آيس ماتشا لاتيه",
+            "desc": "",
+            "price": 3.95
+          },
+          {
+            "name": "ليمونادا",
+            "desc": "",
+            "price": 2.75
+          }
+        ]
+      },
+      {
+        "id": "bakery",
+        "title": "مخبوزات وحلويات",
+        "tagline": "من الفرن",
+        "image": "bites",
+        "items": [
+          {
+            "name": "بيغل بالجبنة",
+            "desc": "",
+            "price": 3.5,
+            "mentioned": true
+          },
+          {
+            "name": "كوكيز",
+            "desc": "",
+            "price": 1.75,
+            "mentioned": true
+          },
+          {
+            "name": "كرواسون",
+            "desc": "",
+            "price": 2.25
+          },
+          {
+            "name": "ساندويش حلوم",
+            "desc": "",
+            "price": 3.95
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "أمريكانو",
+    "كابتشينو",
+    "كورتادو",
+    "بيغل",
+    "كوكيز"
+  ],
+  "reviews": [
+    {
+      "author": "Mais T.",
+      "stars": 5,
+      "text": "best coffee in Amman\nbest staff",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Mohammad Z.",
+      "stars": 5,
+      "text": "A very cozy and nice place in Amman. Great coffee as well",
+      "source_ref": "r3"
+    },
+    {
+      "author": "Robert D.",
+      "stars": 5,
+      "text": "Excellent choice, Any day, especially in the morning to enjoy the morning sun on the terrace, but also afternoon and evening with best service…",
+      "source_ref": "r5"
+    },
+    {
+      "author": "Ghadeer A.",
+      "stars": 5,
+      "text": "One of my favorite cafes in Amman, you can go for work, study or to hang out… the food is delicious as most of the time you will see the fresh bagels and cookies are out from the oven…",
+      "source_ref": "r8"
+    },
+    {
+      "author": "Dina H.",
+      "stars": 5,
+      "text": "Strada is your go to place for morning coffee, working or studying. Best coffee in town ☕️ Americano, cappuccino and cortado are my favorites!",
+      "source_ref": "r10"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": "ext",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات خارجية",
+        "text": "تراس إلى جانب الصالة الداخلية."
+      },
+      {
+        "icon": "wifi",
+        "title": "Wi-Fi مجاني",
+        "text": "مناسب للعمل والدراسة."
+      },
+      {
+        "icon": "calendar",
+        "title": "حجوزات",
+        "text": "يقبل الحجز المسبق."
+      },
+      {
+        "icon": "bag",
+        "title": "توصيل وطلبات خارجية",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "موقف مجاني على الشارع",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "exterior"
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1779442563698-11fad08a733e",
+      "alt": "صورة توضيحية: واجهة كافيه بجلسات خارجية ومظلات",
+      "page": "https://unsplash.com/photos/cafe-exterior-with-outdoor-seating-and-beige-umbrellas-1jIs3w-Ahwg"
+    },
+    "coffee": {
+      "id": "photo-1625021659159-f63f546d74a7",
+      "alt": "صورة توضيحية: كوب قهوة على طاولة خشبية",
+      "page": "https://unsplash.com/photos/white-ceramic-mug-on-brown-wooden-table-S8daAB_nJSg"
+    },
+    "cold": {
+      "id": "photo-1717603545758-88cc454db69b",
+      "alt": "صورة توضيحية: آيس ماتشا لاتيه على طاولة خشبية",
+      "page": "https://unsplash.com/photos/iced-matcha-latte-on-wooden-table-N1rmKN_EOaA"
+    },
+    "bites": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون فطور ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    },
+    "work": {
+      "id": "photo-1743389412154-f604c3910818",
+      "alt": "صورة توضيحية: عمل على لابتوب بجانب لاتيه",
+      "page": "https://unsplash.com/photos/woman-works-on-laptop-with-a-latte-nearby-buwxwnHoCh4"
+    },
+    "ext": {
+      "id": "photo-1783272547883-353cfdb9e71b",
+      "alt": "صورة توضيحية: جلسات كافيه خارجية تحت الأشجار",
+      "page": "https://unsplash.com/photos/people-enjoying-an-outdoor-cafe-patio-under-trees-GVJWydhKqbw"
+    },
+    "exterior": {
+      "id": "photo-1779442563698-11fad08a733e",
+      "alt": "صورة توضيحية: واجهة كافيه بجلسات خارجية ومظلات",
+      "page": "https://unsplash.com/photos/cafe-exterior-with-outdoor-seating-and-beige-umbrellas-1jIs3w-Ahwg"
+    }
+  },
+  "batch_id": "b202610242207"
+}

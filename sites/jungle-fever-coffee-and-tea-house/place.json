@@ -1,0 +1,275 @@
+{
+  "approved": false,
+  "agency": "Amad Web",
+  "whatsapp": null,
+  "place_id": "ChIJGz6X_3egHBURV7ChMhDyHog",
+  "slug": "jungle-fever-coffee-and-tea-house",
+  "theme": "cafe_light",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#3F7A2E",
+    "rgb": "63, 122, 46",
+    "hover": "#33631F",
+    "ink": "#FFFFFF"
+  },
+  "name": "Jungle Fever Coffee and Tea House",
+  "name_lang": "en",
+  "category_label": "كافيه على السطح",
+  "area": "العبدلي، عمّان",
+  "address": "المعرض الوطني للفنون الجميلة، العبدلي، عمّان",
+  "phone": {
+    "display": "+962 7 7599 9303",
+    "tel": "+962775999303"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Jungle%20Fever%20Coffee%20and%20Tea%20House&query_place_id=ChIJGz6X_3egHBURV7ChMhDyHog",
+  "map_query": "Jungle Fever Coffee and Tea House, National Gallery of Fine Arts, Amman, Jordan",
+  "rating": {
+    "value": 4.6,
+    "count": 713,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "9:30 ص – 12 ص"
+      },
+      {
+        "days": "الجمعة",
+        "time": "12:30 م – 12 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "قهوة وشاي بإطلالة على سطح المعرض الوطني",
+    "intro": "كافيه بجلسات على السطح في المعرض الوطني للفنون الجميلة بالعبدلي، يقدّم القهوة والشاي والحلويات والفطور، ويفتح حتى منتصف الليل.",
+    "image": "hero"
+  },
+  "sections": [
+    "story",
+    "reviews",
+    "menu",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "ما يذكره الزوار",
+    "title": "لماذا Jungle Fever؟",
+    "items": [
+      {
+        "label": "الإطلالة",
+        "title": "سطح بإطلالة جميلة",
+        "text": "يصف الزوار الإطلالة من السطح والأجواء المريحة.",
+        "image": "roof"
+      },
+      {
+        "label": "للتركيز",
+        "title": "هدوء للعمل والدراسة",
+        "text": "يعتمده بعض الزوار مكانًا للعمل والدراسة لهدوئه.",
+        "image": "work"
+      },
+      {
+        "label": "للمشروبات",
+        "title": "فريدو كابتشينو وورق دوالي",
+        "text": "من الأصناف التي ذكرها الزوار بالاسم.",
+        "image": "cold"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "قهوة وشاي ومأكولات خفيفة",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للاستفسار",
+    "categories": [
+      {
+        "id": "hot",
+        "title": "قهوة وشاي",
+        "tagline": "ساخنة",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "إسبريسو",
+            "desc": "",
+            "price": 2
+          },
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 2.75
+          },
+          {
+            "name": "شاي بالنعناع",
+            "desc": "إبريق.",
+            "price": 2
+          },
+          {
+            "name": "قهوة تركية",
+            "desc": "",
+            "price": 2
+          }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "مشروبات باردة",
+        "tagline": "للسطح",
+        "image": "cold",
+        "items": [
+          {
+            "name": "فريدو كابتشينو",
+            "desc": "",
+            "price": 3.5,
+            "mentioned": true
+          },
+          {
+            "name": "آيس لاتيه",
+            "desc": "",
+            "price": 3.25
+          },
+          {
+            "name": "ليمون بالنعناع",
+            "desc": "",
+            "price": 2.75
+          }
+        ]
+      },
+      {
+        "id": "bites",
+        "title": "مأكولات وحلويات",
+        "tagline": "خفيفة",
+        "image": "bites",
+        "items": [
+          {
+            "name": "ورق دوالي",
+            "desc": "",
+            "price": 4.5,
+            "mentioned": true
+          },
+          {
+            "name": "صحن فطور",
+            "desc": "بيض، لبنة، زيتون، وخبز.",
+            "price": 5.5
+          },
+          {
+            "name": "كرواسون",
+            "desc": "",
+            "price": 2
+          },
+          {
+            "name": "كيك الشوكولاتة",
+            "desc": "",
+            "price": 3.5
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "فريدو كابتشينو",
+    "ورق دوالي"
+  ],
+  "reviews": [
+    {
+      "author": "L K.",
+      "stars": 5,
+      "text": "The view is absolutely beautiful, the atmosphere is relaxing, and the drinks are delicious. The Freddo Cappuccino was especially amazing…",
+      "source_ref": "r3"
+    },
+    {
+      "author": "Alia S.",
+      "stars": 5,
+      "text": "Such a lovely place on the rooftop! The atmosphere and view are beautiful, and the service is excellent… the prices are very reasonable.",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Ahmad S.",
+      "stars": 5,
+      "text": "A hidden gem 💎",
+      "source_ref": "r5"
+    },
+    {
+      "author": "Mahmoud",
+      "stars": 5,
+      "text": "…it’s become my go-to spot for work and studying because the vibe is so chill and quiet… I’ve tried their vine leaves (dawali) a few times and they’re actually fire—super tasty.",
+      "source_ref": "r6"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": "dusk",
+    "items": [
+      {
+        "icon": "sky",
+        "title": "جلسات على السطح",
+        "text": "مع جلسات خارجية."
+      },
+      {
+        "icon": "wifi",
+        "title": "Wi-Fi مجاني",
+        "text": "مناسب للعمل على اللابتوب."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": ""
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": "مدخل وجلسات."
+      }
+    ]
+  },
+  "visit": {
+    "image": null
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1786374785195-2267ddab1bec",
+      "alt": "صورة توضيحية: طاولة وكراسٍ على سطح يطل على مدينة",
+      "page": "https://unsplash.com/photos/rooftop-terrace-with-metal-furniture-qGrzFLsq_DM"
+    },
+    "roof": {
+      "id": "photo-1786374785195-2267ddab1bec",
+      "alt": "صورة توضيحية: طاولة وكراسٍ على سطح يطل على مدينة",
+      "page": "https://unsplash.com/photos/rooftop-terrace-with-metal-furniture-qGrzFLsq_DM"
+    },
+    "dusk": {
+      "id": "photo-1760454477181-4d2d1f7e30ce",
+      "alt": "صورة توضيحية: جلسات على سطح وقت الغروب",
+      "page": "https://unsplash.com/photos/two-people-sit-at-tables-on-a-rooftop-at-sunset-ftQxXRLVwXw"
+    },
+    "work": {
+      "id": "photo-1743389412243-7dbfdf6c48dd",
+      "alt": "صورة توضيحية: عمل على لابتوب بجانب قهوة",
+      "page": "https://unsplash.com/photos/working-on-a-laptop-with-a-coffee-nearby-ro-7djAkodU"
+    },
+    "cold": {
+      "id": "photo-1717603545758-88cc454db69b",
+      "alt": "صورة توضيحية: آيس ماتشا لاتيه على طاولة خشبية",
+      "page": "https://unsplash.com/photos/iced-matcha-latte-on-wooden-table-N1rmKN_EOaA"
+    },
+    "coffee": {
+      "id": "photo-1690983326252-ce6205fb7055",
+      "alt": "صورة توضيحية: كوب قهوة بين حبوب البن",
+      "page": "https://unsplash.com/photos/a-cup-of-coffee-surrounded-by-coffee-beans-KU7PjmjArlQ"
+    },
+    "bites": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون فطور ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    }
+  },
+  "batch_id": "b202610242207"
+}
