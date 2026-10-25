@@ -1,0 +1,271 @@
+{
+  "place_id": "ChIJK5Ohmq1fGxURPwQcr2QW8l0",
+  "batch_id": "b202610252040",
+  "slug": "geisha-specialty-coffee-house",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#9A6B2F",
+    "rgb": "154, 107, 47",
+    "hover": "#7F5726",
+    "ink": "#FFFFFF"
+  },
+  "name": "Geisha Specialty Coffee House",
+  "name_lang": "en",
+  "category_label": "كافيه قهوة مختصة",
+  "area": "زهران، عمّان",
+  "address": "Farabi Street، قرب ميدان الملك عبدالله الأول، عمّان",
+  "phone": {
+    "display": "+962 7 9960 6288",
+    "tel": "+962799606288"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Geisha%20Specialty%20Coffee%20House&query_place_id=ChIJK5Ohmq1fGxURPwQcr2QW8l0",
+  "map_query": "Geisha Specialty Coffee House, Farabi Street, Amman, Jordan",
+  "rating": {
+    "value": 4.7,
+    "count": 497,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "7:30 ص – 11 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "8:30 ص – 11 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "قهوة غيشا في مقهى هادئ بزهران",
+    "intro": "كافيه في زهران يقدّم الفطور والقهوة والحلويات، بأجواء هادئة ومريحة وخدمة على الطاولة من 7:30 صباحًا حتى 11 مساءً.",
+    "image": "hero"
+  },
+  "sections": [
+    "menu",
+    "story",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "ما يذكره الزوار",
+    "title": "لماذا Geisha؟",
+    "items": [
+      {
+        "label": "القهوة",
+        "title": "كورتادو وقهوة غيشا",
+        "text": "أثنى زوار على الكورتادو وعلى قهوة غيشا بالاسم.",
+        "image": "mug"
+      },
+      {
+        "label": "الأجواء",
+        "title": "هدوء وجلسة مريحة",
+        "text": "وصفه الزوار بالمكان الهادئ والجميل من الداخل.",
+        "image": "interior"
+      },
+      {
+        "label": "الفطور",
+        "title": "فطور وحلويات",
+        "text": "يقدّم المكان الفطور والحلويات إلى جانب القهوة.",
+        "image": "brunch"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "قهوة وفطور وحلويات",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للجلوس والطلبات الخارجية",
+    "categories": [
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "ساخنة",
+        "image": "mug",
+        "items": [
+          {
+            "name": "كورتادو",
+            "desc": "",
+            "price": 3.5,
+            "mentioned": true
+          },
+          {
+            "name": "فلات وايت",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "V60",
+            "desc": "قهوة مقطّرة.",
+            "price": 4.5
+          },
+          {
+            "name": "إسبريسو",
+            "desc": "",
+            "price": 2.5
+          }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "المشروبات الباردة",
+        "tagline": "مثلجة",
+        "image": "matcha",
+        "items": [
+          {
+            "name": "آيس لاتيه",
+            "desc": "",
+            "price": 3.75
+          },
+          {
+            "name": "ماتشا لاتيه مثلج",
+            "desc": "",
+            "price": 4.25
+          }
+        ]
+      },
+      {
+        "id": "bites",
+        "title": "الفطور والحلويات",
+        "tagline": "للبدء أو للختام",
+        "image": "brunch",
+        "items": [
+          {
+            "name": "طبق فطور",
+            "desc": "",
+            "price": 6.5
+          },
+          {
+            "name": "بيتزا",
+            "desc": "",
+            "price": 5.5
+          },
+          {
+            "name": "كعكة الشوكولاتة",
+            "desc": "",
+            "price": 4.0
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "كورتادو",
+    "قهوة غيشا"
+  ],
+  "reviews": [
+    {
+      "author": "Omar A.",
+      "stars": 5,
+      "text": "Great coffee and genuinely amazing staff, but a bit expensive compared to other alternatives.",
+      "source_ref": "r1"
+    },
+    {
+      "author": "بسام أ.",
+      "stars": 5,
+      "text": "القهوة عنده لذيذة والمكان جدا رائع",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Zainab A.",
+      "stars": 5,
+      "text": "Very cozy and the coffee is good",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Nadia A.",
+      "stars": 5,
+      "text": "Finally found a good cortado in all of Jordan!",
+      "source_ref": "r7"
+    },
+    {
+      "author": "Abdullah A.",
+      "stars": 5,
+      "text": "قهوة غيشا 10/10\nالكوفي جميل من الداخل وهادي\nانصح بزيارة الكوفي وبشدة",
+      "source_ref": "r8"
+    },
+    {
+      "author": "حلا",
+      "stars": 5,
+      "text": "ماشاء كافية ولا غلطة والخدمة بتجننن والموظفين وميسي ماشاء الله عنه 🤍🤍🤍🤍",
+      "source_ref": "r5"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "معلومات تهمك",
+    "title": "الخدمات",
+    "image": "interior",
+    "items": [
+      {
+        "icon": "coffee",
+        "title": "جلسات داخلية بخدمة طاولة",
+        "text": ""
+      },
+      {
+        "icon": "bag",
+        "title": "طلبات خارجية وتوصيل",
+        "text": ""
+      },
+      {
+        "icon": "coffee",
+        "title": "فطور وحلويات",
+        "text": ""
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقات",
+        "text": "بطاقات ائتمان وبطاقات سحب ودفع عبر NFC."
+      }
+    ]
+  },
+  "visit": {
+    "image": "exterior"
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1511081692775-05d0f180a065",
+      "alt": "صورة توضيحية: داخل كافيه بإضاءة معلقة وطاولة",
+      "page": "https://unsplash.com/photos/cafe-interior-with-hanging-bulbs-and-table-VobvKmG-StA"
+    },
+    "interior": {
+      "id": "photo-1511081692775-05d0f180a065",
+      "alt": "صورة توضيحية: داخل كافيه بإضاءة معلقة وطاولة",
+      "page": "https://unsplash.com/photos/cafe-interior-with-hanging-bulbs-and-table-VobvKmG-StA"
+    },
+    "mug": {
+      "id": "photo-1625021659159-f63f546d74a7",
+      "alt": "صورة توضيحية: كوب قهوة على طاولة خشبية",
+      "page": "https://unsplash.com/photos/white-ceramic-mug-on-brown-wooden-table-S8daAB_nJSg"
+    },
+    "matcha": {
+      "id": "photo-1749280447307-31a68eb38673",
+      "alt": "صورة توضيحية: ماتشا لاتيه مثلج",
+      "page": "https://unsplash.com/photos/iced-matcha-latte-on-table-VKWjhlgFFwc"
+    },
+    "brunch": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون فطور ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    },
+    "exterior": {
+      "id": "photo-1779442563698-11fad08a733e",
+      "alt": "صورة توضيحية: واجهة كافيه بجلسات خارجية ومظلات",
+      "page": "https://unsplash.com/photos/cafe-exterior-with-outdoor-seating-and-beige-umbrellas-1jIs3w-Ahwg"
+    }
+  }
+}

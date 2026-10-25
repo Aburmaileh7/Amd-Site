@@ -1,0 +1,251 @@
+{
+  "place_id": "ChIJ0Q9GLAChHBURbyLSfuFC9Ug",
+  "batch_id": "b202610252040",
+  "slug": "lune-coffee-house",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#3E4C73",
+    "rgb": "62, 76, 115",
+    "hover": "#323E5C",
+    "ink": "#FFFFFF"
+  },
+  "name": "Lune Coffee House",
+  "name_lang": "en",
+  "category_label": "كافيه بخدمة السيارات",
+  "area": "وادي السير، عمّان",
+  "address": "Drive-thru، شارع الملك عبدالله الثاني، وادي السير، عمّان",
+  "phone": {
+    "display": "+962 7 9812 1218",
+    "tel": "+962798121218"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Lune%20Coffee%20House&query_place_id=ChIJ0Q9GLAChHBURbyLSfuFC9Ug",
+  "map_query": "Lune Coffee House, King Abdullah II Street, Wadi Al Seer, Amman, Jordan",
+  "rating": {
+    "value": 4.0,
+    "count": 608,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "كل يوم",
+        "time": "7 ص – 1 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "قهوة بصالة واسعة وخدمة من السيارة",
+    "intro": "كافيه على شارع الملك عبدالله الثاني بجلسات داخلية وخارجية وخدمة الطلب أثناء القيادة، ويفتح من السابعة صباحًا حتى الواحدة بعد منتصف الليل.",
+    "image": "hero"
+  },
+  "sections": [
+    "menu",
+    "reviews",
+    "amenities",
+    "story",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "ما يذكره الزوار",
+    "title": "لماذا Lune؟",
+    "items": [
+      {
+        "label": "للسيارة",
+        "title": "خدمة الطلب أثناء القيادة",
+        "text": "يوفّر المكان خدمة طلب من السيارة إلى جانب الجلوس والتوصيل.",
+        "image": "exterior"
+      },
+      {
+        "label": "الأجواء",
+        "title": "هادئ ومريح",
+        "text": "وصفه زائر بأنه مكان هادئ ومريح وفاخر.",
+        "image": "interior"
+      },
+      {
+        "label": "المشروبات",
+        "title": "هوت دارك موكا",
+        "text": "من المشروبات التي ذكرها الزوار بالاسم.",
+        "image": "mug"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "قهوة ووجبات خفيفة",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للجلوس والطلب من السيارة",
+    "categories": [
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "ساخنة",
+        "image": "mug",
+        "items": [
+          {
+            "name": "أمريكانو",
+            "desc": "",
+            "price": 2.75,
+            "mentioned": true
+          },
+          {
+            "name": "هوت دارك موكا",
+            "desc": "",
+            "price": 3.75,
+            "mentioned": true
+          },
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 3.0
+          },
+          {
+            "name": "فلات وايت",
+            "desc": "",
+            "price": 3.25
+          }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "المشروبات الباردة",
+        "tagline": "مثلجة",
+        "image": "matcha",
+        "items": [
+          {
+            "name": "آيس لاتيه",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "ماتشا لاتيه مثلج",
+            "desc": "",
+            "price": 4.0
+          }
+        ]
+      },
+      {
+        "id": "bites",
+        "title": "وجبات خفيفة وحلويات",
+        "tagline": "للجلسة",
+        "image": "brunch",
+        "items": [
+          {
+            "name": "ساندويتش ديك رومي",
+            "desc": "",
+            "price": 4.5,
+            "mentioned": true
+          },
+          {
+            "name": "كعكة الشوكولاتة",
+            "desc": "",
+            "price": 3.75
+          },
+          {
+            "name": "كوكيز",
+            "desc": "",
+            "price": 1.75
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "هوت دارك موكا",
+    "أمريكانو",
+    "ساندويتش ديك رومي"
+  ],
+  "reviews": [
+    {
+      "author": "Abd S.",
+      "stars": 5,
+      "text": "المحل ولا أروع والشباب بيجننو وتجربه بكررها كثير انبستط اني تعرفت على هيك محل بنصح الكل يجربو",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Laith A.",
+      "stars": 5,
+      "text": "Calm, relaxing, peaceful, and luxurious place. I really liked their Hot Dark Mocha",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Yousef S.",
+      "stars": 5,
+      "text": "اجواء رائعة و قهوة رائعة 😎",
+      "source_ref": "r5"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": "interior",
+    "items": [
+      {
+        "icon": "car",
+        "title": "طلب أثناء القيادة",
+        "text": "خدمة Drive-thru."
+      },
+      {
+        "icon": "tree",
+        "title": "جلسات داخلية وخارجية",
+        "text": ""
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": "جلسات ومدخل ودورة مياه."
+      },
+      {
+        "icon": "bag",
+        "title": "طلبات خارجية وتوصيل",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "exterior"
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1779442563698-11fad08a733e",
+      "alt": "صورة توضيحية: واجهة كافيه بجلسات خارجية ومظلات",
+      "page": "https://unsplash.com/photos/cafe-exterior-with-outdoor-seating-and-beige-umbrellas-1jIs3w-Ahwg"
+    },
+    "exterior": {
+      "id": "photo-1779442563698-11fad08a733e",
+      "alt": "صورة توضيحية: واجهة كافيه بجلسات خارجية ومظلات",
+      "page": "https://unsplash.com/photos/cafe-exterior-with-outdoor-seating-and-beige-umbrellas-1jIs3w-Ahwg"
+    },
+    "interior": {
+      "id": "photo-1511081692775-05d0f180a065",
+      "alt": "صورة توضيحية: داخل كافيه بإضاءة معلقة وطاولة",
+      "page": "https://unsplash.com/photos/cafe-interior-with-hanging-bulbs-and-table-VobvKmG-StA"
+    },
+    "mug": {
+      "id": "photo-1625021659159-f63f546d74a7",
+      "alt": "صورة توضيحية: كوب قهوة على طاولة خشبية",
+      "page": "https://unsplash.com/photos/white-ceramic-mug-on-brown-wooden-table-S8daAB_nJSg"
+    },
+    "matcha": {
+      "id": "photo-1749280447307-31a68eb38673",
+      "alt": "صورة توضيحية: ماتشا لاتيه مثلج",
+      "page": "https://unsplash.com/photos/iced-matcha-latte-on-table-VKWjhlgFFwc"
+    },
+    "brunch": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون فطور ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    }
+  }
+}

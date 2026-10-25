@@ -1,0 +1,249 @@
+{
+  "place_id": "ChIJZwVRoMqhHBURgA9npL1NIrM",
+  "batch_id": "b202610252040",
+  "slug": "nest-coffee",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#B0583A",
+    "rgb": "176, 88, 58",
+    "hover": "#934730",
+    "ink": "#FFFFFF"
+  },
+  "name": "Nest coffee",
+  "name_lang": "en",
+  "category_label": "كافيه",
+  "area": "زهران، عمّان",
+  "address": "Qurayyat Street، زهران، عمّان",
+  "phone": {
+    "display": "+962 7 9755 5407",
+    "tel": "+962797555407"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Nest%20coffee&query_place_id=ChIJZwVRoMqhHBURgA9npL1NIrM",
+  "map_query": "Nest coffee, Qurayyat Street, Amman, Jordan",
+  "rating": {
+    "value": 4.5,
+    "count": 490,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "كل يوم",
+        "time": "7 ص – 12 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "باريستا مختلفة وماتشا وحلويات صحية",
+    "intro": "كافيه في زهران بجلسات داخلية وخارجية، يقدّم القهوة والماتشا والحلويات والخيارات الصحية، ويفتح من السابعة صباحًا حتى منتصف الليل.",
+    "image": "hero"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "ما يذكره الزوار",
+    "title": "لماذا Nest؟",
+    "items": [
+      {
+        "label": "المشروبات",
+        "title": "قهوة وهوت شوكلت وماتشا",
+        "text": "أثنى زوار على مشروباتهم، ومنها الهوت شوكلت، وذكر آخرون الماتشا.",
+        "image": "matcha"
+      },
+      {
+        "label": "الباريستا",
+        "title": "باريستا سفري بنكهة مختلفة",
+        "text": "وصف زائر تجربة الباريستا بأنها مختلفة وتستحق التكرار.",
+        "image": "beans"
+      },
+      {
+        "label": "الحلويات",
+        "title": "حلويات وخيارات صحية",
+        "text": "يقدّم المكان حلويات وخيارات صحية إلى جانب القهوة.",
+        "image": "cake"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "قهوة وماتشا وحلويات",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للطلبات الخارجية والتوصيل",
+    "categories": [
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "ساخنة",
+        "image": "beans",
+        "items": [
+          {
+            "name": "إسبريسو",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 3.25
+          },
+          {
+            "name": "فلات وايت",
+            "desc": "",
+            "price": 3.5
+          }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "الماتشا والمشروبات",
+        "tagline": "ساخنة وباردة",
+        "image": "matcha",
+        "items": [
+          {
+            "name": "ماتشا لاتيه مثلج",
+            "desc": "",
+            "price": 4.25,
+            "mentioned": true
+          },
+          {
+            "name": "هوت شوكلت",
+            "desc": "",
+            "price": 3.75,
+            "mentioned": true
+          },
+          {
+            "name": "آيس لاتيه",
+            "desc": "",
+            "price": 3.75
+          }
+        ]
+      },
+      {
+        "id": "sweets",
+        "title": "الحلويات",
+        "tagline": "صحية وكلاسيكية",
+        "image": "cake",
+        "items": [
+          {
+            "name": "كعكة الشوكولاتة",
+            "desc": "",
+            "price": 4.0
+          },
+          {
+            "name": "حلوى صحية",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "كوكيز",
+            "desc": "",
+            "price": 1.75
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "هوت شوكلت",
+    "ماتشا"
+  ],
+  "reviews": [
+    {
+      "author": "Daniel",
+      "stars": 5,
+      "text": "طلبت باريستا سفري\nطعم روعه\nبستاهلوا تقييم حلو\nلاول مره بجرب باريستا بتكون مختلفه متل هيك\nتجربة تستحق ان تكرر",
+      "source_ref": "r1"
+    },
+    {
+      "author": "ملاك ك.",
+      "stars": 5,
+      "text": "للامانة مشروباتهم ولا غلطة وازكى من كتير اماكن .. الهوت تشوكلت بهشي والهوت سابنش وااو",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Laith I.",
+      "stars": 5,
+      "text": "One of the best coffee houses in Amman. The coffee is great and the service and baristas are amazing! Shout out to Wesam behind the bar!",
+      "source_ref": "r4"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": "interior",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات داخلية وخارجية",
+        "text": "يُسمح بالكلاب في الخارج."
+      },
+      {
+        "icon": "bag",
+        "title": "طلبات خارجية وتوصيل",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف متعددة",
+        "text": "مجانية ومدفوعة."
+      },
+      {
+        "icon": "access",
+        "title": "دورة مياه مهيأة للكراسي المتحركة",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "patio"
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1783272547883-353cfdb9e71b",
+      "alt": "صورة توضيحية: جلسات كافيه خارجية تحت الأشجار",
+      "page": "https://unsplash.com/photos/people-enjoying-an-outdoor-cafe-patio-under-trees-GVJWydhKqbw"
+    },
+    "matcha": {
+      "id": "photo-1749280447307-31a68eb38673",
+      "alt": "صورة توضيحية: ماتشا لاتيه مثلج",
+      "page": "https://unsplash.com/photos/iced-matcha-latte-on-table-VKWjhlgFFwc"
+    },
+    "beans": {
+      "id": "photo-1690983326252-ce6205fb7055",
+      "alt": "صورة توضيحية: كوب قهوة بين حبوب البن",
+      "page": "https://unsplash.com/photos/a-cup-of-coffee-surrounded-by-coffee-beans-KU7PjmjArlQ"
+    },
+    "cake": {
+      "id": "photo-1517427294546-5aa121f68e8a",
+      "alt": "صورة توضيحية: قطعة كعكة شوكولاتة",
+      "page": "https://unsplash.com/photos/sliced-chocolate-cake-beside-fork-on-plate-P_l1bJQpQF0"
+    },
+    "interior": {
+      "id": "photo-1511081692775-05d0f180a065",
+      "alt": "صورة توضيحية: داخل كافيه بإضاءة معلقة وطاولة",
+      "page": "https://unsplash.com/photos/cafe-interior-with-hanging-bulbs-and-table-VobvKmG-StA"
+    },
+    "patio": {
+      "id": "photo-1783272547883-353cfdb9e71b",
+      "alt": "صورة توضيحية: جلسات كافيه خارجية تحت الأشجار",
+      "page": "https://unsplash.com/photos/people-enjoying-an-outdoor-cafe-patio-under-trees-GVJWydhKqbw"
+    }
+  }
+}

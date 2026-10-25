@@ -1,0 +1,262 @@
+{
+  "place_id": "ChIJqUKKNvegHBUR0jPtYFVfLYs",
+  "batch_id": "b202610252040",
+  "slug": "melange-specialty-coffee",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#3F5E4A",
+    "rgb": "63, 94, 74",
+    "hover": "#334D3C",
+    "ink": "#FFFFFF"
+  },
+  "name": "ميلانج للقهوة المختصة",
+  "name_lang": "ar",
+  "category_label": "قهوة مختصة",
+  "area": "زهران، عمّان",
+  "address": "Fawzi Al Qaweqji Abdoun Avenue، زهران، عمّان",
+  "phone": {
+    "display": "+962 7 9797 9774",
+    "tel": "+962797979774"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D9%8A%D9%84%D8%A7%D9%86%D8%AC%20%D9%84%D9%84%D9%82%D9%87%D9%88%D8%A9%20%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D8%B5%D8%A9&query_place_id=ChIJqUKKNvegHBUR0jPtYFVfLYs",
+  "map_query": "ميلانج للقهوة المختصة، Fawzi Al Qaweqji Abdoun Avenue, Amman, Jordan",
+  "rating": {
+    "value": 4.6,
+    "count": 710,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "كل يوم",
+        "time": "7 ص – 12 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "قهوة مختصة تبدأ من السابعة صباحًا",
+    "intro": "مقهى في زهران يفتح مبكرًا ويبقى حتى منتصف الليل، بجلسات داخلية وخارجية وWi-Fi مجاني للعمل والدراسة.",
+    "image": "hero"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "ما يميّز المكان",
+    "title": "لماذا ميلانج؟",
+    "items": [
+      {
+        "label": "مبكرًا",
+        "title": "يفتح السابعة صباحًا",
+        "text": "يذكر زوار أنهم يقدّرون فتحه المبكر، ويستمر الدوام حتى 12 ص كل يوم.",
+        "image": "beans"
+      },
+      {
+        "label": "للعمل",
+        "title": "جلسة هادئة للدراسة",
+        "text": "وصفه زائر ببيئة هادئة ومريحة للدراسة والعمل، مع Wi-Fi مجاني.",
+        "image": "work"
+      },
+      {
+        "label": "الإسبريسو",
+        "title": "إسبريسو يثني عليه الزوار",
+        "text": "ذكر أحد الزوار الإسبريسو بالاسم مع خدمة وصفها بالممتازة.",
+        "image": "mug"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "قهوة مختصة وحلويات",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للطلبات الخارجية والتوصيل",
+    "categories": [
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "ساخنة",
+        "image": "mug",
+        "items": [
+          {
+            "name": "إسبريسو",
+            "desc": "",
+            "price": 2.25,
+            "mentioned": true
+          },
+          {
+            "name": "فلات وايت",
+            "desc": "",
+            "price": 3.25
+          },
+          {
+            "name": "V60",
+            "desc": "قهوة مقطّرة.",
+            "price": 4.0
+          },
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 3.0
+          }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "المشروبات الباردة",
+        "tagline": "مثلجة",
+        "image": "matcha",
+        "items": [
+          {
+            "name": "آيس لاتيه",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "كولد برو",
+            "desc": "",
+            "price": 3.75
+          },
+          {
+            "name": "ماتشا لاتيه مثلج",
+            "desc": "",
+            "price": 4.0
+          }
+        ]
+      },
+      {
+        "id": "sweets",
+        "title": "الحلويات",
+        "tagline": "مع القهوة",
+        "image": "cake",
+        "items": [
+          {
+            "name": "كعكة الشوكولاتة",
+            "desc": "",
+            "price": 3.75
+          },
+          {
+            "name": "كوكيز",
+            "desc": "",
+            "price": 1.75
+          },
+          {
+            "name": "كرواسون",
+            "desc": "",
+            "price": 2.0
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "إسبريسو"
+  ],
+  "reviews": [
+    {
+      "author": "Aeëtes",
+      "stars": 5,
+      "text": "Opens early. That's awesome for me",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Isaac S.",
+      "stars": 5,
+      "text": "Great customer service\nEspresso is out of this world\nChill relaxed studying/working environment",
+      "source_ref": "r4"
+    },
+    {
+      "author": "أحمد م.",
+      "stars": 5,
+      "text": "شكر كبير الى السيد خالد جلال على حسن التعامل والضيافة",
+      "source_ref": "r2"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "الخدمات",
+    "image": "work2",
+    "items": [
+      {
+        "icon": "coffee",
+        "title": "جلسات داخلية وخارجية",
+        "text": ""
+      },
+      {
+        "icon": "wifi",
+        "title": "Wi-Fi مجاني",
+        "text": "مناسب للعمل والدراسة."
+      },
+      {
+        "icon": "bag",
+        "title": "طلبات خارجية وتوصيل",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "موقف مجاني في الشارع",
+        "text": "العثور على موقف قد يكون صعبًا نسبيًا."
+      }
+    ]
+  },
+  "visit": {
+    "image": "patio"
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1690983326252-ce6205fb7055",
+      "alt": "صورة توضيحية: كوب قهوة بين حبوب البن",
+      "page": "https://unsplash.com/photos/a-cup-of-coffee-surrounded-by-coffee-beans-KU7PjmjArlQ"
+    },
+    "mug": {
+      "id": "photo-1625021659159-f63f546d74a7",
+      "alt": "صورة توضيحية: كوب قهوة على طاولة خشبية",
+      "page": "https://unsplash.com/photos/white-ceramic-mug-on-brown-wooden-table-S8daAB_nJSg"
+    },
+    "matcha": {
+      "id": "photo-1717603545758-88cc454db69b",
+      "alt": "صورة توضيحية: آيس ماتشا لاتيه على طاولة خشبية",
+      "page": "https://unsplash.com/photos/iced-matcha-latte-on-wooden-table-N1rmKN_EOaA"
+    },
+    "cake": {
+      "id": "photo-1517427294546-5aa121f68e8a",
+      "alt": "صورة توضيحية: قطعة كعكة شوكولاتة",
+      "page": "https://unsplash.com/photos/sliced-chocolate-cake-beside-fork-on-plate-P_l1bJQpQF0"
+    },
+    "work": {
+      "id": "photo-1743389412154-f604c3910818",
+      "alt": "صورة توضيحية: عمل على لابتوب بجانب لاتيه",
+      "page": "https://unsplash.com/photos/woman-works-on-laptop-with-a-latte-nearby-buwxwnHoCh4"
+    },
+    "work2": {
+      "id": "photo-1743389412243-7dbfdf6c48dd",
+      "alt": "صورة توضيحية: عمل على لابتوب بجانب قهوة",
+      "page": "https://unsplash.com/photos/working-on-a-laptop-with-a-coffee-nearby-ro-7djAkodU"
+    },
+    "patio": {
+      "id": "photo-1783272547883-353cfdb9e71b",
+      "alt": "صورة توضيحية: جلسات كافيه خارجية تحت الأشجار",
+      "page": "https://unsplash.com/photos/people-enjoying-an-outdoor-cafe-patio-under-trees-GVJWydhKqbw"
+    },
+    "beans": {
+      "id": "photo-1690983326252-ce6205fb7055",
+      "alt": "صورة توضيحية: كوب قهوة بين حبوب البن",
+      "page": "https://unsplash.com/photos/a-cup-of-coffee-surrounded-by-coffee-beans-KU7PjmjArlQ"
+    }
+  }
+}
