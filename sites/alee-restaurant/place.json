@@ -1,0 +1,268 @@
+{
+  "slug": "alee-restaurant",
+  "place_id": "ChIJHarJS0pfGxURUnuirGuUvvs",
+  "theme": "rooftop_dark",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#C9A15B",
+    "rgb": "201, 161, 91",
+    "hover": "#B58C45",
+    "ink": "#FFFFFF"
+  },
+  "name": "مطعم الآي",
+  "name_lang": "ar",
+  "category_label": "مطعم راقٍ بإطلالة",
+  "area": "زهران، عمّان",
+  "address": "First Circle Building، شارع عثمان بن عفان 44، عمّان",
+  "phone": {
+    "display": "+962 7 7119 9066",
+    "tel": "+962771199066"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%A7%D9%84%D8%A2%D9%8A&query_place_id=ChIJHarJS0pfGxURUnuirGuUvvs",
+  "map_query": "مطعم الآي، First Circle Building، عمّان",
+  "rating": {
+    "value": 4.6,
+    "count": 513,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "الأحد – الخميس",
+        "time": "6 م – 12:30 ص"
+      },
+      {
+        "days": "الجمعة والسبت",
+        "time": "1 م – 4 م، 6 م – 12:30 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "أطباق أردنية بلمسة حديثة وإطلالة على المدينة",
+    "intro": "مطعم راقٍ في زهران يقدّم مطبخًا شرقيًا تقليديًا بأسلوب عصري، بجلسات على السطح ومدفأة، والحجز مطلوب.",
+    "image": "hero"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "من السادسة مساءً حتى 12:30",
+    "title": "أمسية في الآي",
+    "items": [
+      {
+        "time": "6:00 م",
+        "label": "مساءً",
+        "title": "الإطلالة",
+        "text": "يذكر الزوار الإطلالة على وسط المدينة القديم والجلسات الدافئة.",
+        "image": "dusk"
+      },
+      {
+        "time": "العشاء",
+        "label": "الطاولة",
+        "title": "قائمة من 14 طبقًا",
+        "text": "أشاد زوار بقائمة الأطباق الأربعة عشر، وبحكاية الشيف راكان خلف كل طبق.",
+        "image": "candle"
+      },
+      {
+        "time": "12:30 ص",
+        "label": "الختام",
+        "title": "حلوى وقهوة",
+        "text": "تُصنَّف الحلويات والقهوة بين أهم سمات المكان على Google.",
+        "image": "sweet"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "مطبخ شرقي عصري",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والاستفسار",
+    "categories": [
+      {
+        "id": "starters",
+        "title": "البدايات",
+        "tagline": "للمشاركة",
+        "image": "candle",
+        "items": [
+          {
+            "name": "فتوش",
+            "desc": "",
+            "price": 7,
+            "mentioned": true
+          },
+          {
+            "name": "حمص بالطحينة",
+            "desc": "",
+            "price": 6
+          },
+          {
+            "name": "كبة نية",
+            "desc": "",
+            "price": 9
+          }
+        ]
+      },
+      {
+        "id": "mains",
+        "title": "الأطباق",
+        "tagline": "للعشاء",
+        "image": "sweet",
+        "items": [
+          {
+            "name": "أسياخ لحم ضأن",
+            "desc": "",
+            "price": 22,
+            "mentioned": true
+          },
+          {
+            "name": "فريكة بالدجاج",
+            "desc": "",
+            "price": 18,
+            "mentioned": true
+          },
+          {
+            "name": "سمك مشوي",
+            "desc": "",
+            "price": 24
+          }
+        ]
+      },
+      {
+        "id": "desserts",
+        "title": "الحلويات",
+        "tagline": "",
+        "image": "sweet",
+        "items": [
+          {
+            "name": "كنافة بالجبنة",
+            "desc": "",
+            "price": 7
+          },
+          {
+            "name": "قهوة عربية",
+            "desc": "",
+            "price": 3
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "فتوش",
+    "فريكة",
+    "أسياخ لحم ضأن"
+  ],
+  "reviews": [
+    {
+      "author": "Peter G.",
+      "stars": 5,
+      "text": "What an incredible experience at Alee! My partner and I enjoyed the set menu, and every single dish was outstanding. The service was fantastic…",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Rana A.",
+      "stars": 5,
+      "text": "Chef Rakan was an amazing host, sharing the story behind each dish and making the whole experience feel special. We thoroughly enjoyed the food and the cozy atmosphere.",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Tareq N.",
+      "stars": 5,
+      "text": "Alee is a fresh take on traditional Middle Eastern food. The dishes keep the familiar flavors you'd expect, but each one has a modern twist…",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Isma F.",
+      "stars": 5,
+      "text": "The food was excellent, loved the 14 courses menu!!",
+      "source_ref": "r6"
+    },
+    {
+      "author": "Shaimaa H.",
+      "stars": 5,
+      "text": "Amazing food and atmosphere, highly recommend the fattoush and FREEKEH ❤️",
+      "source_ref": "r8"
+    },
+    {
+      "author": "Reham K.",
+      "stars": 5,
+      "text": "One of the best Jordanian experience restaurants I've ever been to… Lamb skewers were scrumptious and my absolute favourite",
+      "source_ref": "r9"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما ستجده في الآي",
+    "image": "dusk",
+    "items": [
+      {
+        "icon": "sky",
+        "title": "جلسات على السطح",
+        "text": "وجلسات في الهواء الطلق."
+      },
+      {
+        "icon": "calendar",
+        "title": "حجز طاولات",
+        "text": "الحجز مطلوب."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف وخدمة صف السيارات",
+        "text": ""
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": ""
+      },
+      {
+        "icon": "bag",
+        "title": "توصيل",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "city"
+  },
+  "batch_id": "b202610261303",
+  "images": {
+    "hero": {
+      "id": "photo-1786374785195-2267ddab1bec",
+      "alt": "صورة توضيحية: طاولة وكراسٍ على سطح يطل على مدينة",
+      "page": "https://unsplash.com/photos/rooftop-terrace-with-metal-furniture-qGrzFLsq_DM"
+    },
+    "dusk": {
+      "id": "photo-1760454477181-4d2d1f7e30ce",
+      "alt": "صورة توضيحية: جلسات على سطح وقت الغروب",
+      "page": "https://unsplash.com/photos/two-people-sit-at-tables-on-a-rooftop-at-sunset-ftQxXRLVwXw"
+    },
+    "city": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة",
+      "page": "https://unsplash.com/photos/the-sun-is-setting-over-a-city-street-3FeDWYfZYxY"
+    },
+    "candle": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/a-dimly-lit-restaurant-table-with-a-single-candle-9jNYTFpa2gs"
+    },
+    "sweet": {
+      "id": "photo-1778447812923-88a9e3e6b567",
+      "alt": "صورة توضيحية: حلوى بالفستق الحلبي",
+      "page": "https://unsplash.com/photos/a-delicate-pastry-filled-with-chopped-pistachios-NzNFM69MMnI"
+    }
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "slug": "cinco-de-mayo-restaurant",
+  "place_id": "ChIJb8fiL3-gHBURJdeM6GBlRTE",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#B23A1E",
+    "rgb": "178, 58, 30",
+    "hover": "#962F18",
+    "ink": "#FFFFFF"
+  },
+  "name": "Cinco De Mayo Restaurant",
+  "name_lang": "en",
+  "category_label": "مطعم مكسيكي",
+  "area": "زهران، عمّان",
+  "address": "فندق إنتركونتيننتال الأردن، شارع الكلية العلمية الإسلامية، عمّان",
+  "phone": {
+    "display": "+962 6 464 1361",
+    "tel": "+96264641361"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Cinco%20De%20Mayo%20Restaurant&query_place_id=ChIJb8fiL3-gHBURJdeM6GBlRTE",
+  "map_query": "Cinco De Mayo Restaurant, InterContinental Jordan, Amman",
+  "rating": {
+    "value": 4.7,
+    "count": 614,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا عدا الأربعاء",
+        "time": "12 م – 11:30 م"
+      },
+      {
+        "days": "الأربعاء",
+        "time": "12 م – 11 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "نكهات مكسيكية على طاولة في فندق إنتركونتيننتال",
+    "intro": "مطعم مكسيكي في زهران يفتح يوميًا من الظهر حتى المساء، بجلسات داخلية وخارجية وموسيقى حية، ويُنصح بالحجز.",
+    "image": "hero"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "ما يذكره الزوار",
+    "title": "لماذا Cinco De Mayo؟",
+    "items": [
+      {
+        "label": "الأطباق",
+        "title": "ناتشوز وكساديا",
+        "text": "ذكر أحد الزوار الناتشوز والكساديا بالاسم، وتقدَّم رقائق التورتيلا مع الصلصات على الطاولة.",
+        "image": "spread"
+      },
+      {
+        "label": "الضيافة",
+        "title": "خدمة يثني عليها الزوار",
+        "text": "تتكرر في المراجعات أسماء موظفين شكرهم الزوار على الترحيب والمساعدة في اختيار الأطباق.",
+        "image": "candle"
+      },
+      {
+        "label": "المناسبات",
+        "title": "احتفال بعيد ميلاد",
+        "text": "روى أحد الزوار أن الفريق فاجأه باحتفال بعيد ميلاده. ويقبل المكان الحجوزات.",
+        "image": "sweet"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "مأكولات مكسيكية",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والاستفسار",
+    "categories": [
+      {
+        "id": "starters",
+        "title": "المقبلات",
+        "tagline": "للمشاركة",
+        "image": "spread",
+        "items": [
+          {
+            "name": "ناتشوز محمّلة",
+            "desc": "جبنة وهالابينو وصلصات.",
+            "price": 9,
+            "mentioned": true
+          },
+          {
+            "name": "رقائق تورتيلا مع الصلصات",
+            "desc": "",
+            "price": 5,
+            "mentioned": true
+          },
+          {
+            "name": "غواكامولي",
+            "desc": "أفوكادو طازج.",
+            "price": 7
+          }
+        ]
+      },
+      {
+        "id": "mains",
+        "title": "الأطباق الرئيسية",
+        "tagline": "",
+        "image": "grill",
+        "items": [
+          {
+            "name": "كساديا ستيك",
+            "desc": "لحم بقري وجبنة في تورتيلا.",
+            "price": 12,
+            "mentioned": true
+          },
+          {
+            "name": "تاكو دجاج",
+            "desc": "ثلاث قطع مع صلصة.",
+            "price": 10
+          },
+          {
+            "name": "بوريتو",
+            "desc": "أرز وفاصولياء وجبنة.",
+            "price": 11
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "باردة",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "ليموناضة",
+            "desc": "",
+            "price": 3.5,
+            "mentioned": true
+          },
+          {
+            "name": "بيبسي",
+            "desc": "",
+            "price": 2
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "ناتشوز محمّلة",
+    "كساديا ستيك",
+    "ليموناضة"
+  ],
+  "reviews": [
+    {
+      "author": "J T.",
+      "stars": 5,
+      "text": "Wow, what a great place! We are staying at the hotel and found Cinco De Mayo for lunch. First of all, the restaurant is beautiful! We ordered a lemonade, a Pepsi, loaded nachos, and quesadillas…",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Mohammad A.",
+      "stars": 5,
+      "text": "Exceptional hospitality from Abdulrahman, Raman, Ahmad, and Qusai. They went above and beyond, even surprising me with a beautiful birthday celebration.",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Raji A.",
+      "stars": 5,
+      "text": "The food was great and the waiter ahmad was very helpful with us will recommend absolutely",
+      "source_ref": "r5"
+    },
+    {
+      "author": "Barbara M.",
+      "stars": 5,
+      "text": "Very good services by Abdulrahman. Food was good with a fare price",
+      "source_ref": "r6"
+    },
+    {
+      "author": "ابو م.",
+      "stars": 5,
+      "text": "كانت الأجواء ممتاز جدا والخدمة من عبد الرحمن رائعة كان جدا خدوم وبشوش",
+      "source_ref": "r12"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما ستجده في المطعم",
+    "image": "candle",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات داخلية وخارجية",
+        "text": ""
+      },
+      {
+        "icon": "calendar",
+        "title": "حجز طاولات",
+        "text": "الحجز مطلوب ويُنصح به للعشاء."
+      },
+      {
+        "icon": "bag",
+        "title": "طلبات خارجية وتوصيل",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف وخدمة صف السيارات",
+        "text": ""
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للأطفال",
+        "text": "مع كراسي عالية."
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "city"
+  },
+  "batch_id": "b202610261303",
+  "images": {
+    "hero": {
+      "id": "photo-1511081692775-05d0f180a065",
+      "alt": "صورة توضيحية: داخل مكان جلوس بإضاءة معلقة وطاولة",
+      "page": "https://unsplash.com/photos/cafe-interior-with-hanging-bulbs-and-table-VobvKmG-StA"
+    },
+    "candle": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/a-dimly-lit-restaurant-table-with-a-single-candle-9jNYTFpa2gs"
+    },
+    "city": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة",
+      "page": "https://unsplash.com/photos/the-sun-is-setting-over-a-city-street-3FeDWYfZYxY"
+    },
+    "spread": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    },
+    "sweet": {
+      "id": "photo-1778447812923-88a9e3e6b567",
+      "alt": "صورة توضيحية: حلوى بالفستق الحلبي",
+      "page": "https://unsplash.com/photos/a-delicate-pastry-filled-with-chopped-pistachios-NzNFM69MMnI"
+    },
+    "grill": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز",
+      "page": "https://unsplash.com/photos/a-platter-of-grilled-meats-with-rice-and-pita-bread-2j17J8psiTw"
+    },
+    "coffee": {
+      "id": "photo-1774791500971-ddaafd214520",
+      "alt": "صورة توضيحية: دلة قهوة عربية وتمر",
+      "page": "https://unsplash.com/photos/dates-in-a-woven-basket-with-arabic-coffee-pot-URncnSvN6Kw"
+    }
+  }
+}

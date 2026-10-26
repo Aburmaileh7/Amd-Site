@@ -1,0 +1,262 @@
+{
+  "slug": "amman-s-treasure",
+  "place_id": "ChIJf51zLgBfGxURq1zN3vLUyZQ",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#8C5A1E",
+    "rgb": "140, 90, 30",
+    "hover": "#734A18",
+    "ink": "#FFFFFF"
+  },
+  "name": "Amman's Treasure (كنز عمان)",
+  "name_lang": "en",
+  "category_label": "مطعم عربي",
+  "area": "شارع الرينبو، عمّان",
+  "address": "شارع شكري شعشاعة، شارع الرينبو، عمّان",
+  "phone": {
+    "display": "+962 7 7777 0931",
+    "tel": "+962777770931"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Amman's%20Treasure%20(%D9%83%D9%86%D8%B2%20%D8%B9%D9%85%D8%A7%D9%86)&query_place_id=ChIJf51zLgBfGxURq1zN3vLUyZQ",
+  "map_query": "Amman's Treasure, Rainbow St, Amman, Jordan",
+  "rating": {
+    "value": 4.7,
+    "count": 327,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "8 ص – 1 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "جلسة هادئة بإطلالة على شارع الرينبو",
+    "intro": "مطعم عربي في شارع الرينبو يفتح يوميًا من الثامنة صباحًا حتى الواحدة فجرًا، بجلسات على السطح وموسيقى حية، ومناسب للعائلات.",
+    "image": "hero"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "من الثامنة صباحًا حتى الواحدة فجرًا",
+    "title": "لماذا كنز عمان؟",
+    "items": [
+      {
+        "label": "المكان",
+        "title": "هادئ وبإطلالة جميلة",
+        "text": "يصفه الزوار بأنه مكان هادئ وبإطلالة جميلة وقعدة مريحة.",
+        "image": "dusk"
+      },
+      {
+        "label": "الأكل",
+        "title": "أكل حلو وخدمة طيبة",
+        "text": "يشكر الزوار الطعام والفريق الخدوم، وتتكرر في المراجعات أسماء موظفين بالشكر.",
+        "image": "spread"
+      },
+      {
+        "label": "الفطور",
+        "title": "يفتح من الصباح",
+        "text": "الفطور ضمن خيارات المكان على Google، ويفتح أبوابه في الثامنة صباحًا.",
+        "image": "coffee"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "من الصباح حتى الليل",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للطلبات الخارجية والتوصيل",
+    "categories": [
+      {
+        "id": "breakfast",
+        "title": "الفطور",
+        "tagline": "من الثامنة صباحًا",
+        "image": "spread",
+        "items": [
+          {
+            "name": "فطور عربي",
+            "desc": "حمص، فول، فلافل، لبنة وبيض.",
+            "price": 8
+          },
+          {
+            "name": "شكشوكة",
+            "desc": "",
+            "price": 4.5
+          },
+          {
+            "name": "منقوشة زعتر",
+            "desc": "",
+            "price": 2
+          }
+        ]
+      },
+      {
+        "id": "mains",
+        "title": "الأطباق",
+        "tagline": "للغداء والعشاء",
+        "image": "grill",
+        "items": [
+          {
+            "name": "مشاوي مشكّلة",
+            "desc": "",
+            "price": 14
+          },
+          {
+            "name": "شيش طاووق",
+            "desc": "",
+            "price": 8
+          },
+          {
+            "name": "برغر",
+            "desc": "",
+            "price": 7.5
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "قهوة عربية",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "شاي بالنعناع",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "ليمون بالنعناع",
+            "desc": "",
+            "price": 3.5
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Gaïa E.",
+      "stars": 5,
+      "text": "It's sooo tasty I loved the food, and the atmosphere, also the service is very nice",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Aya C.",
+      "stars": 5,
+      "text": "يعطيكم الف عافية على كل اشي الله يبارك لكم. كل اشي بيجنن من الاكل للشباب الطيبة والخدومين، شكرا كثير!",
+      "source_ref": "r3"
+    },
+    {
+      "author": "Mohamed S.",
+      "stars": 5,
+      "text": "مكان هادي واطلالة جميلة",
+      "source_ref": "r7"
+    },
+    {
+      "author": "Dalia N.",
+      "stars": 5,
+      "text": "الاكل حلو والقعدة مريحة",
+      "source_ref": "r10"
+    },
+    {
+      "author": "Elmustafa M.",
+      "stars": 5,
+      "text": "Very nice place, Mahidy is a really nice person and also very helpful",
+      "source_ref": "r5"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما ستجده في كنز عمان",
+    "image": "dusk",
+    "items": [
+      {
+        "icon": "sky",
+        "title": "جلسات على السطح",
+        "text": ""
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للعائلات والمجموعات",
+        "text": ""
+      },
+      {
+        "icon": "bag",
+        "title": "طلبات خارجية وتوصيل",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": ""
+      },
+      {
+        "icon": "access",
+        "title": "مدخل مهيأ للكراسي المتحركة",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "city"
+  },
+  "batch_id": "b202610261303",
+  "images": {
+    "hero": {
+      "id": "photo-1786374785195-2267ddab1bec",
+      "alt": "صورة توضيحية: طاولة وكراسٍ على سطح يطل على مدينة",
+      "page": "https://unsplash.com/photos/rooftop-terrace-with-metal-furniture-qGrzFLsq_DM"
+    },
+    "dusk": {
+      "id": "photo-1760454477181-4d2d1f7e30ce",
+      "alt": "صورة توضيحية: جلسات على سطح وقت الغروب",
+      "page": "https://unsplash.com/photos/two-people-sit-at-tables-on-a-rooftop-at-sunset-ftQxXRLVwXw"
+    },
+    "city": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة",
+      "page": "https://unsplash.com/photos/the-sun-is-setting-over-a-city-street-3FeDWYfZYxY"
+    },
+    "spread": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    },
+    "coffee": {
+      "id": "photo-1774791500971-ddaafd214520",
+      "alt": "صورة توضيحية: دلة قهوة عربية وتمر",
+      "page": "https://unsplash.com/photos/dates-in-a-woven-basket-with-arabic-coffee-pot-URncnSvN6Kw"
+    },
+    "grill": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز",
+      "page": "https://unsplash.com/photos/a-platter-of-grilled-meats-with-rice-and-pita-bread-2j17J8psiTw"
+    }
+  }
+}

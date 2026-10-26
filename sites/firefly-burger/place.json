@@ -1,0 +1,246 @@
+{
+  "slug": "firefly-burger",
+  "place_id": "ChIJpxsaxoqhHBURjxwP4mxfGdQ",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#C2410C",
+    "rgb": "194, 65, 12",
+    "hover": "#9F340A",
+    "ink": "#FFFFFF"
+  },
+  "name": "فايرفلاي برجر",
+  "name_lang": "ar",
+  "category_label": "مطعم برجر",
+  "area": "صويلح، عمّان",
+  "address": "مجمع القاقيش، شارع وصفي التل 380، عمّان",
+  "phone": {
+    "display": "+962 7 9504 1122",
+    "tel": "+962795041122"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%81%D8%A7%D9%8A%D8%B1%D9%81%D9%84%D8%A7%D9%8A%20%D8%A8%D8%B1%D8%AC%D8%B1&query_place_id=ChIJpxsaxoqhHBURjxwP4mxfGdQ",
+  "map_query": "فايرفلاي برجر، مجمع القاقيش، شارع وصفي التل، عمّان",
+  "rating": {
+    "value": 4.5,
+    "count": 11366,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "11 ص – 2 ص"
+      },
+      {
+        "days": "الخميس",
+        "time": "11 ص – 3 ص"
+      },
+      {
+        "days": "الجمعة",
+        "time": "1 م – 3 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "برجر في صويلح حتى ساعات الفجر",
+    "intro": "مطعم برجر في مجمع القاقيش بشارع وصفي التل، يفتح من الظهر حتى بعد منتصف الليل، بجلسات داخلية وخارجية وطلبات خارجية وتوصيل.",
+    "image": "hero"
+  },
+  "sections": [
+    "menu",
+    "story",
+    "proof",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "متى تزورنا",
+    "title": "برجر من الظهر حتى الفجر",
+    "items": [
+      {
+        "label": "الغداء",
+        "title": "من الحادية عشرة صباحًا",
+        "text": "يفتح المطعم أبوابه في الحادية عشرة صباحًا معظم أيام الأسبوع.",
+        "image": "spread"
+      },
+      {
+        "label": "العشاء",
+        "title": "جلسات داخلية وخارجية",
+        "text": "ويشتهر المكان بالغداء والعشاء، مع طلبات للاستلام وخدمة توصيل.",
+        "image": "grill"
+      },
+      {
+        "label": "السهر",
+        "title": "حتى الثانية أو الثالثة فجرًا",
+        "text": "مأكولات متوفرة في ساعات متأخرة من الليل، وتمتد الجمعة والخميس حتى الثالثة.",
+        "image": "candle"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "برجر ووجبات سريعة",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للطلبات الخارجية والتوصيل",
+    "categories": [
+      {
+        "id": "burgers",
+        "title": "البرجر",
+        "tagline": "لحم بقري",
+        "image": "grill",
+        "items": [
+          {
+            "name": "برجر كلاسيك",
+            "desc": "لحم بقري، جبنة، خس وبندورة.",
+            "price": 6
+          },
+          {
+            "name": "برجر دبل",
+            "desc": "قطعتان من اللحم مع جبنة مضاعفة.",
+            "price": 8.5
+          },
+          {
+            "name": "برجر دجاج مقرمش",
+            "desc": "",
+            "price": 5.5
+          }
+        ]
+      },
+      {
+        "id": "sides",
+        "title": "الجانبية",
+        "tagline": "",
+        "image": "spread",
+        "items": [
+          {
+            "name": "بطاطا مقلية",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "حلقات بصل",
+            "desc": "",
+            "price": 3
+          },
+          {
+            "name": "كول سلو",
+            "desc": "",
+            "price": 2
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "باردة",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "مشروب غازي",
+            "desc": "",
+            "price": 1.5
+          },
+          {
+            "name": "ميلك شيك",
+            "desc": "",
+            "price": 4
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Kassab A.",
+      "stars": 5,
+      "text": "انا ما باكل الا كن هاد الفرع كلكم بتجنينو والموظفين رائعين",
+      "source_ref": "r1"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما ستجده في المطعم",
+    "image": "spread",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات داخلية وخارجية",
+        "text": ""
+      },
+      {
+        "icon": "bag",
+        "title": "طلبات خارجية وتوصيل",
+        "text": "مع تسليم بدون تلامس."
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للأطفال",
+        "text": "مع قائمة أطفال وكراسي عالية."
+      },
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجوزات",
+        "text": "وقد يلزم الانتظار في أوقات الذروة."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": ""
+      },
+      {
+        "icon": "access",
+        "title": "جلسات مهيأة للكراسي المتحركة",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "city"
+  },
+  "batch_id": "b202610261303",
+  "images": {
+    "hero": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/a-dimly-lit-restaurant-table-with-a-single-candle-9jNYTFpa2gs"
+    },
+    "spread": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    },
+    "city": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة",
+      "page": "https://unsplash.com/photos/the-sun-is-setting-over-a-city-street-3FeDWYfZYxY"
+    },
+    "grill": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز",
+      "page": "https://unsplash.com/photos/a-platter-of-grilled-meats-with-rice-and-pita-bread-2j17J8psiTw"
+    },
+    "candle": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/a-dimly-lit-restaurant-table-with-a-single-candle-9jNYTFpa2gs"
+    },
+    "coffee": {
+      "id": "photo-1774791500971-ddaafd214520",
+      "alt": "صورة توضيحية: دلة قهوة عربية وتمر",
+      "page": "https://unsplash.com/photos/dates-in-a-woven-basket-with-arabic-coffee-pot-URncnSvN6Kw"
+    }
+  }
+}

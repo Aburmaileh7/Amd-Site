@@ -1,0 +1,260 @@
+{
+  "slug": "burj-al-hamam",
+  "place_id": "ChIJb8fiL3-gHBURAMQ9rdQ7FBo",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#7A3B1E",
+    "rgb": "122, 59, 30",
+    "hover": "#64301A",
+    "ink": "#FFFFFF"
+  },
+  "name": "مطعم برج الحمام",
+  "name_lang": "ar",
+  "category_label": "مطعم مأكولات لبنانية",
+  "area": "زهران، عمّان",
+  "address": "شارع الكلية الإسلامية، فندق إنتركونتيننتال الأردن، عمّان",
+  "phone": {
+    "display": "+962 7 9888 8482",
+    "tel": "+962798888482"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%A8%D8%B1%D8%AC%20%D8%A7%D9%84%D8%AD%D9%85%D8%A7%D9%85&query_place_id=ChIJb8fiL3-gHBURAMQ9rdQ7FBo",
+  "map_query": "مطعم برج الحمام، إنتركونتيننتال الأردن، زهران، عمّان",
+  "rating": {
+    "value": 4.5,
+    "count": 2465,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "1 م – 11:30 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "مأكولات لبنانية في قلب فندق إنتركونتيننتال",
+    "intro": "مطعم لبناني في زهران يفتح يوميًا من الواحدة ظهرًا حتى 11:30 مساءً، بجلسات داخلية وخارجية وغرفة طعام خاصة، ويُنصح بالحجز.",
+    "image": "hero"
+  },
+  "sections": [
+    "reviews",
+    "story",
+    "menu",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "ما يذكره الزوار",
+    "title": "لماذا برج الحمام؟",
+    "items": [
+      {
+        "label": "المكان",
+        "title": "نظافة وأجواء راقية",
+        "text": "يصف الزوار المطعم بأنه راقٍ ونظيف، وطعامه لذيذ.",
+        "image": "night"
+      },
+      {
+        "label": "الخدمة",
+        "title": "موظفون يشكرهم الزوار",
+        "text": "تتكرر في المراجعات أسماء موظفين أثنى الزوار على أدبهم وخدمتهم.",
+        "image": "grill"
+      },
+      {
+        "label": "الحجز",
+        "title": "غرفة طعام خاصة وحجوزات",
+        "text": "يقبل المكان الحجوزات للغداء والعشاء، ويوفّر غرفة طعام خاصة للمجموعات.",
+        "image": "sweet"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "مأكولات لبنانية",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والاستفسار",
+    "categories": [
+      {
+        "id": "mezze",
+        "title": "المقبلات",
+        "tagline": "للمشاركة",
+        "image": "spread",
+        "items": [
+          {
+            "name": "حمص",
+            "desc": "بالطحينة وزيت الزيتون.",
+            "price": 4
+          },
+          {
+            "name": "تبولة",
+            "desc": "بقدونس وبرغل وبندورة.",
+            "price": 5
+          },
+          {
+            "name": "فتوش",
+            "desc": "خضار طازجة مع خبز مقرمش.",
+            "price": 5.5
+          },
+          {
+            "name": "كبة مقلية",
+            "desc": "محشوة باللحم والصنوبر.",
+            "price": 6
+          }
+        ]
+      },
+      {
+        "id": "grill",
+        "title": "المشاوي",
+        "tagline": "على الفحم",
+        "image": "grill",
+        "items": [
+          {
+            "name": "مشاوي مشكّلة",
+            "desc": "كباب وشيش طاووق وكفتة، مع خبز.",
+            "price": 16
+          },
+          {
+            "name": "شيش طاووق",
+            "desc": "مع ثومية.",
+            "price": 10
+          },
+          {
+            "name": "كفتة بالطحينة",
+            "desc": "",
+            "price": 11
+          }
+        ]
+      },
+      {
+        "id": "sweet",
+        "title": "الحلويات",
+        "tagline": "ختام الوجبة",
+        "image": "sweet",
+        "items": [
+          {
+            "name": "كنافة بالجبنة",
+            "desc": "",
+            "price": 5
+          },
+          {
+            "name": "معمول بالفستق",
+            "desc": "",
+            "price": 4.5
+          },
+          {
+            "name": "مهلبية",
+            "desc": "",
+            "price": 4
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Mohammad A.",
+      "stars": 5,
+      "text": "خدمة مميزة ورائعة ..بالاخص السيد نور الدين ومحمد شجاعية",
+      "source_ref": "r2"
+    },
+    {
+      "author": "متعب س.",
+      "stars": 5,
+      "text": "مطعم جدا راقي ولذيذ والاهم النظافه والموظفين في في قمه الادب وخصوصا محمد وليد وهشام و حسان",
+      "source_ref": "r3"
+    },
+    {
+      "author": "Faisal M.",
+      "stars": 5,
+      "text": "Brilliant place , clean and tasty food Many Thanks to ABu Waleed Worth to visit",
+      "source_ref": "r4"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما ستجده في المطعم",
+    "image": "night",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات داخلية وخارجية",
+        "text": "مع خدمة على الطاولة."
+      },
+      {
+        "icon": "calendar",
+        "title": "حجز طاولات",
+        "text": "الحجز مطلوب ويُنصح به للغداء والعشاء."
+      },
+      {
+        "icon": "bag",
+        "title": "طلبات خارجية وتوصيل",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف وخدمة صف السيارات",
+        "text": ""
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للأطفال",
+        "text": "مع كراسي عالية."
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "city"
+  },
+  "batch_id": "b202610261303",
+  "images": {
+    "hero": {
+      "id": "photo-1511081692775-05d0f180a065",
+      "alt": "صورة توضيحية: داخل مكان جلوس بإضاءة معلقة وطاولة",
+      "page": "https://unsplash.com/photos/cafe-interior-with-hanging-bulbs-and-table-VobvKmG-StA"
+    },
+    "night": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/a-dimly-lit-restaurant-table-with-a-single-candle-9jNYTFpa2gs"
+    },
+    "city": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة",
+      "page": "https://unsplash.com/photos/the-sun-is-setting-over-a-city-street-3FeDWYfZYxY"
+    },
+    "grill": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز",
+      "page": "https://unsplash.com/photos/a-platter-of-grilled-meats-with-rice-and-pita-bread-2j17J8psiTw"
+    },
+    "sweet": {
+      "id": "photo-1778447812923-88a9e3e6b567",
+      "alt": "صورة توضيحية: حلوى بالفستق الحلبي",
+      "page": "https://unsplash.com/photos/a-delicate-pastry-filled-with-chopped-pistachios-NzNFM69MMnI"
+    },
+    "spread": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    }
+  }
+}

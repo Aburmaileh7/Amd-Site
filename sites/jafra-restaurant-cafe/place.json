@@ -1,0 +1,285 @@
+{
+  "slug": "jafra-restaurant-cafe",
+  "place_id": "ChIJ-dl7N9yfHBURgmNGXkitdv4",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#2F6B4F",
+    "rgb": "47, 107, 79",
+    "hover": "#255740",
+    "ink": "#FFFFFF"
+  },
+  "name": "Jafra Restaurant & Cafe",
+  "name_lang": "en",
+  "category_label": "مطعم ومقهى فلسطيني",
+  "area": "وسط البلد، عمّان",
+  "address": "مجمع 15، شارع الأمير محمد، وسط البلد، عمّان",
+  "phone": {
+    "display": "+962 6 462 2551",
+    "tel": "+96264622551"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Jafra%20Restaurant%20%26%20Cafe&query_place_id=ChIJ-dl7N9yfHBURgmNGXkitdv4",
+  "map_query": "Jafra Restaurant & Cafe, Prince Muhammad St, Amman",
+  "rating": {
+    "value": 4.5,
+    "count": 614,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "9 ص – 2 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "مطبخ فلسطيني في وسط البلد حتى الثانية صباحًا",
+    "intro": "مطعم ومقهى فلسطيني في شارع الأمير محمد بطابع تاريخي، يفتح يوميًا من التاسعة صباحًا حتى الثانية فجرًا، مع موسيقى حية في عطلة الأسبوع.",
+    "image": "hero"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "من التاسعة صباحًا حتى الثانية فجرًا",
+    "title": "يومك في جفرا",
+    "items": [
+      {
+        "time": "9:00 ص",
+        "label": "صباحًا",
+        "title": "الفطور",
+        "text": "يفتح المكان في التاسعة صباحًا، والفطور من الأوقات التي يشتهر بها على Google.",
+        "image": "spread"
+      },
+      {
+        "time": "ظهرًا",
+        "label": "منتصف اليوم",
+        "title": "الغداء",
+        "text": "ذكر أحد الزوار الكفتة بصلصة البندورة والدجاج مع الخضار، وعصائر الفواكه بتركيبات غير مألوفة.",
+        "image": "grill"
+      },
+      {
+        "time": "2:00 ص",
+        "label": "ليلًا",
+        "title": "العشاء والموسيقى",
+        "text": "يمتد العمل حتى الثانية فجرًا، وذكر أحد الزوار موسيقى حية في عطلة الأسبوع.",
+        "image": "candle"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "مأكولات فلسطينية",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للطلبات الخارجية والحجز",
+    "categories": [
+      {
+        "id": "breakfast",
+        "title": "الفطور",
+        "tagline": "من التاسعة صباحًا",
+        "image": "spread",
+        "items": [
+          {
+            "name": "فطور فلسطيني",
+            "desc": "حمص، فول، فلافل، لبنة، بيض وزيتون.",
+            "price": 9
+          },
+          {
+            "name": "شكشوكة",
+            "desc": "",
+            "price": 4.5
+          },
+          {
+            "name": "مسخن",
+            "desc": "",
+            "price": 8
+          }
+        ]
+      },
+      {
+        "id": "mains",
+        "title": "الأطباق الرئيسية",
+        "tagline": "للغداء والعشاء",
+        "image": "grill",
+        "items": [
+          {
+            "name": "كفتة بصلصة البندورة",
+            "desc": "",
+            "price": 9,
+            "mentioned": true
+          },
+          {
+            "name": "دجاج مع خضار في الفخارة",
+            "desc": "",
+            "price": 9,
+            "mentioned": true
+          },
+          {
+            "name": "صاج",
+            "desc": "",
+            "price": 9
+          },
+          {
+            "name": "سلطة بنجر",
+            "desc": "",
+            "price": 4.5,
+            "mentioned": true
+          },
+          {
+            "name": "تبولة بالفواكه",
+            "desc": "",
+            "price": 5,
+            "mentioned": true
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "عصير فواكه مشكّل",
+            "desc": "",
+            "price": 3.5,
+            "mentioned": true
+          },
+          {
+            "name": "شاي بالنعناع",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "قهوة عربية",
+            "desc": "",
+            "price": 2.5
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "كفتة بصلصة البندورة",
+    "دجاج مع خضار",
+    "سلطة بنجر",
+    "تبولة بالفواكه",
+    "عصير فواكه مشكّل"
+  ],
+  "reviews": [
+    {
+      "author": "CVG",
+      "stars": 5,
+      "text": "Het eten is er top. We zijn zelfs de volgende avond gelijk terug geweest. Bietenslaatje en fruity taboulé, zo verfrissend anders. Kofta met tomatensaus en kip met groentjes in pot, heerlijk…",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Saul V.",
+      "stars": 5,
+      "text": "Si eres latino este lugar te va a encantar!!! Excelente sabor y bien servidos los platillos",
+      "source_ref": "r8"
+    },
+    {
+      "author": "RAF f.",
+      "stars": 5,
+      "text": "Il nostro ristorante di riferimento, con il nostro amico Buffon sempre a servirci con il sorriso",
+      "source_ref": "r5"
+    },
+    {
+      "author": "عائد ا.",
+      "stars": 4,
+      "text": "جيد جدا",
+      "source_ref": "r3"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما ستجده في جفرا",
+    "image": "candle",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات داخلية وخارجية",
+        "text": ""
+      },
+      {
+        "icon": "wifi",
+        "title": "واي فاي مجاني",
+        "text": ""
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للعائلة",
+        "text": "مع قائمة للأطفال."
+      },
+      {
+        "icon": "calendar",
+        "title": "حجز طاولات",
+        "text": "يُنصح بالحجز للعشاء."
+      },
+      {
+        "icon": "bag",
+        "title": "طلبات خارجية",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "خدمة صف السيارات",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "city"
+  },
+  "batch_id": "b202610261303",
+  "images": {
+    "hero": {
+      "id": "photo-1511081692775-05d0f180a065",
+      "alt": "صورة توضيحية: داخل مكان جلوس بإضاءة معلقة وطاولة",
+      "page": "https://unsplash.com/photos/cafe-interior-with-hanging-bulbs-and-table-VobvKmG-StA"
+    },
+    "candle": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/a-dimly-lit-restaurant-table-with-a-single-candle-9jNYTFpa2gs"
+    },
+    "city": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة",
+      "page": "https://unsplash.com/photos/the-sun-is-setting-over-a-city-street-3FeDWYfZYxY"
+    },
+    "spread": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    },
+    "grill": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز",
+      "page": "https://unsplash.com/photos/a-platter-of-grilled-meats-with-rice-and-pita-bread-2j17J8psiTw"
+    },
+    "coffee": {
+      "id": "photo-1774791500971-ddaafd214520",
+      "alt": "صورة توضيحية: دلة قهوة عربية وتمر",
+      "page": "https://unsplash.com/photos/dates-in-a-woven-basket-with-arabic-coffee-pot-URncnSvN6Kw"
+    }
+  }
+}
