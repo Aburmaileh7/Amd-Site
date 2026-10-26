@@ -1,0 +1,300 @@
+{
+  "slug": "solea-restaurant-and-cafe",
+  "place_id": "ChIJQ1RFPgChHBURf-M9Zczel9U",
+  "theme": "rooftop_dark",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#D9A05B",
+    "rgb": "217, 160, 91",
+    "hover": "#C48A45",
+    "ink": "#1A1208"
+  },
+  "name": "SOLEA Restaurant and cafe",
+  "name_lang": "en",
+  "category_label": "مطعم وكافيه بجلسات على السطح",
+  "area": "العبدلي، عمّان",
+  "address": "شارع سليمان النابلسي، العبدلي، عمّان",
+  "phone": {
+    "display": "+962 7 9011 1444",
+    "tel": "+962790111444"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=SOLEA%20Restaurant%20and%20cafe&query_place_id=ChIJQ1RFPgChHBURf-M9Zczel9U",
+  "map_query": "SOLEA Restaurant and cafe, Suliman Al Nabulsi St, Abdali, Amman, Jordan",
+  "rating": {
+    "value": 4.3,
+    "count": 487,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "سطح في العبدلي للقهوة والشاي والسهرة",
+    "intro": "مطعم وكافيه في العبدلي بجلسات على السطح وأخرى داخلية، يقدّم القهوة وتشكيلة شاي، ويقبل الحجوزات للمجموعات.",
+    "image": "hero"
+  },
+  "sections": [
+    "story",
+    "reviews",
+    "menu",
+    "amenities",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "ما يذكره الزوار",
+    "title": "لماذا يقصدون SOLEA؟",
+    "items": [
+      {
+        "time": "السطح",
+        "label": "الأجواء",
+        "title": "سطح يستحق الصور",
+        "text": "وصفت إحدى الزائرات السطح بأن أجواءه جميلة وأنها التقطت فيه صورًا جميلة.",
+        "image": "dusk"
+      },
+      {
+        "time": "الضيافة",
+        "label": "الخدمة",
+        "title": "طاقم يُذكر بالاسم",
+        "text": "تتكرر في المراجعات أسماء موظفين يشكرهم الزوار على لطفهم وتعاونهم.",
+        "image": "night"
+      },
+      {
+        "time": "المشروبات",
+        "label": "القهوة والشاي",
+        "title": "قهوة وتشكيلة شاي",
+        "text": "يُذكر المكان على Google بقهوته الرائعة وتشكيلة الشاي، مع الأرجيلة كما ورد في المراجعات.",
+        "image": "drinks"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "قهوة وشاي ووجبات خفيفة",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والاستفسار",
+    "categories": [
+      {
+        "id": "hot",
+        "title": "مشروبات ساخنة",
+        "tagline": "قهوة وشاي",
+        "image": "drinks",
+        "items": [
+          {
+            "name": "إسبريسو",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "شاي بالنعناع",
+            "desc": "إبريق.",
+            "price": 3
+          },
+          {
+            "name": "قهوة عربية",
+            "desc": "",
+            "price": 3
+          }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "مشروبات باردة",
+        "tagline": "للسطح",
+        "image": "cold",
+        "items": [
+          {
+            "name": "آيس لاتيه",
+            "desc": "",
+            "price": 4
+          },
+          {
+            "name": "ليمون بالنعناع",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "موكا مثلجة",
+            "desc": "",
+            "price": 4.5
+          }
+        ]
+      },
+      {
+        "id": "meals",
+        "title": "وجبات وسلطات",
+        "tagline": "للغداء والعشاء",
+        "image": "food",
+        "items": [
+          {
+            "name": "برغر لحم",
+            "desc": "",
+            "price": 9
+          },
+          {
+            "name": "دجاج مشوي",
+            "desc": "",
+            "price": 10
+          },
+          {
+            "name": "سلطة سيزر",
+            "desc": "",
+            "price": 6.5
+          },
+          {
+            "name": "بطاطا مقلية",
+            "desc": "",
+            "price": 3.5
+          }
+        ]
+      },
+      {
+        "id": "shisha",
+        "title": "الأرجيلة",
+        "tagline": "على السطح",
+        "image": "shisha",
+        "items": [
+          {
+            "name": "أرجيلة تفاحتين",
+            "desc": "",
+            "price": 7
+          },
+          {
+            "name": "أرجيلة ليمون ونعنع",
+            "desc": "",
+            "price": 7
+          },
+          {
+            "name": "أرجيلة عنب ونعنع",
+            "desc": "",
+            "price": 7
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Suzan A.",
+      "stars": 5,
+      "text": "مطعم رائع وجميل فخم يوجد فيه شيشه الخدمه رائعه والأخص الاخ محمود كل الشكر له ولطاقم المطعم على حسن الضيافه",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Zain",
+      "stars": 5,
+      "text": "Loved our experience at Solea! The rooftop has such a nice vibe, the place is beautiful, and we got some really nice pictures. Nimer was especially kind and made sure we had a great time. Definitely a place worth visiting!",
+      "source_ref": "r8"
+    },
+    {
+      "author": "lara i.",
+      "stars": 5,
+      "text": "The place is beautiful and the staff is great, especially George recommends us well",
+      "source_ref": "r6"
+    },
+    {
+      "author": "bushra a.",
+      "stars": 5,
+      "text": "Thank you for abdullah Good atmosphere and service , yummi food",
+      "source_ref": "r12"
+    },
+    {
+      "author": "riyad m.",
+      "stars": 5,
+      "text": "Tasty good friendly service",
+      "source_ref": "r9"
+    },
+    {
+      "author": "Safa.m",
+      "stars": 5,
+      "text": "An odoury and comfortable place",
+      "source_ref": "r5"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": "roof",
+    "items": [
+      {
+        "icon": "sky",
+        "title": "جلسات على السطح",
+        "text": "جلسات في الهواء الطلق، إلى جانب جلوس داخلي."
+      },
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجوزات",
+        "text": "مناسب للمجموعات."
+      },
+      {
+        "icon": "coffee",
+        "title": "قهوة وتشكيلة شاي",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": "مواقف كثيرة وموقف مجاني في الشارع."
+      },
+      {
+        "icon": "check",
+        "title": "دفع إلكتروني",
+        "text": "بطاقات ائتمان وسحب آلي والدفع عبر NFC."
+      }
+    ]
+  },
+  "visit": {
+    "image": "roof"
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1786374785195-2267ddab1bec",
+      "alt": "صورة توضيحية: طاولة وكراسٍ على سطح يطل على مدينة",
+      "page": "https://unsplash.com/photos/rooftop-terrace-with-metal-furniture-qGrzFLsq_DM"
+    },
+    "roof": {
+      "id": "photo-1786374785195-2267ddab1bec",
+      "alt": "صورة توضيحية: طاولة وكراسٍ على سطح يطل على مدينة",
+      "page": "https://unsplash.com/photos/rooftop-terrace-with-metal-furniture-qGrzFLsq_DM"
+    },
+    "dusk": {
+      "id": "photo-1760454477181-4d2d1f7e30ce",
+      "alt": "صورة توضيحية: جلسات على سطح وقت الغروب",
+      "page": "https://unsplash.com/photos/two-people-sit-at-tables-on-a-rooftop-at-sunset-ftQxXRLVwXw"
+    },
+    "night": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/a-dimly-lit-restaurant-table-with-a-single-candle-9jNYTFpa2gs"
+    },
+    "drinks": {
+      "id": "photo-1774791500971-ddaafd214520",
+      "alt": "صورة توضيحية: دلة قهوة عربية وتمر",
+      "page": "https://unsplash.com/photos/dates-in-a-woven-basket-with-arabic-coffee-pot-URncnSvN6Kw"
+    },
+    "cold": {
+      "id": "photo-1717603545758-88cc454db69b",
+      "alt": "صورة توضيحية: آيس ماتشا لاتيه على طاولة خشبية",
+      "page": "https://unsplash.com/photos/iced-matcha-latte-on-wooden-table-N1rmKN_EOaA"
+    },
+    "food": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز",
+      "page": "https://unsplash.com/photos/a-platter-of-grilled-meats-with-rice-and-pita-bread-2j17J8psiTw"
+    },
+    "shisha": {
+      "id": "photo-1574238752695-675b86d49267",
+      "alt": "صورة توضيحية: أرجيلة",
+      "page": "https://unsplash.com/photos/gray-hookah-OUGqm1DjYIc"
+    }
+  },
+  "batch_id": "b202610261258"
+}

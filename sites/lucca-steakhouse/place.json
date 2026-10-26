@@ -1,0 +1,294 @@
+{
+  "slug": "lucca-steakhouse",
+  "place_id": "ChIJC9_pN32gHBUR8nCrVF9MvxE",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#9A3324",
+    "rgb": "154, 51, 36",
+    "hover": "#7F2A1D",
+    "ink": "#FFFFFF"
+  },
+  "name": "Lucca Steakhouse",
+  "name_lang": "en",
+  "category_label": "مطعم ستيك",
+  "area": "زهران، عمّان",
+  "address": "زهران، عمّان",
+  "phone": {
+    "display": "+962 7 7889 9666",
+    "tel": "+962778899666"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Lucca%20Steakhouse&query_place_id=ChIJC9_pN32gHBUR8nCrVF9MvxE",
+  "map_query": "Lucca Steakhouse, Zahran, Amman, Jordan",
+  "rating": {
+    "value": 4.6,
+    "count": 3749,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "12 م – 12 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "ستيك لمناسباتك الخاصة في زهران",
+    "intro": "مطعم ستيك في زهران يفتح يوميًا من الظهر حتى منتصف الليل، بجلسات داخلية وخارجية وغرفة طعام خاصة، ويُنصح بالحجز.",
+    "image": "hero"
+  },
+  "sections": [
+    "reviews",
+    "story",
+    "menu",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "ما يذكره الزوار",
+    "title": "لماذا Lucca؟",
+    "items": [
+      {
+        "label": "اللحوم",
+        "title": "ستيك طري وسلايدر",
+        "text": "يذكر الزوار الستيك الطري والمقبلات، وثلاثي السلايدر بالاسم.",
+        "image": "grill"
+      },
+      {
+        "label": "المناسبات",
+        "title": "مكان للمناسبات الخاصة",
+        "text": "وصفه أحد الزوار بأنه تجربة فريدة للمناسبات، مع غرفة طعام خاصة وحجوزات للغداء والعشاء.",
+        "image": "night"
+      },
+      {
+        "label": "الخدمة",
+        "title": "خدمة يشكرها الزوار",
+        "text": "تتكرر في المراجعات أسماء موظفين شكرهم الزوار على الترحيب والمساعدة.",
+        "image": "dessert"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "من الظهر حتى منتصف الليل",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والاستفسار",
+    "categories": [
+      {
+        "id": "starters",
+        "title": "المقبلات",
+        "tagline": "للمشاركة",
+        "image": "dessert",
+        "items": [
+          {
+            "name": "ثلاثي السلايدر",
+            "desc": "",
+            "price": 12
+          },
+          {
+            "name": "سلطة سيزر",
+            "desc": "",
+            "price": 8
+          },
+          {
+            "name": "حساء اليوم",
+            "desc": "",
+            "price": 5
+          }
+        ]
+      },
+      {
+        "id": "steaks",
+        "title": "الستيك",
+        "tagline": "على الفحم أو المقلاة",
+        "image": "grill",
+        "items": [
+          {
+            "name": "ريب آي",
+            "desc": "",
+            "price": 32
+          },
+          {
+            "name": "فيليه",
+            "desc": "",
+            "price": 34
+          },
+          {
+            "name": "نيو يورك ستريب",
+            "desc": "",
+            "price": 29
+          },
+          {
+            "name": "برغر ستيك",
+            "desc": "",
+            "price": 14
+          }
+        ]
+      },
+      {
+        "id": "sides",
+        "title": "الإضافات",
+        "tagline": "",
+        "image": "grill",
+        "items": [
+          {
+            "name": "بطاطا مقلية",
+            "desc": "",
+            "price": 4
+          },
+          {
+            "name": "خضار مشوية",
+            "desc": "",
+            "price": 5
+          },
+          {
+            "name": "بطاطا مهروسة",
+            "desc": "",
+            "price": 4.5
+          }
+        ]
+      },
+      {
+        "id": "desserts",
+        "title": "الحلويات",
+        "tagline": "",
+        "image": "dessert",
+        "items": [
+          {
+            "name": "كوكيز دافئ",
+            "desc": "",
+            "price": 6.5
+          },
+          {
+            "name": "تشيز كيك",
+            "desc": "",
+            "price": 7
+          },
+          {
+            "name": "فوندو الشوكولاتة",
+            "desc": "",
+            "price": 10
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "ثلاثي السلايدر",
+    "ستيك طري"
+  ],
+  "reviews": [
+    {
+      "author": "Omran N.",
+      "stars": 5,
+      "text": "We had a fantastic time at Lucca steakhouse, highlights being the mouthwatering slider trio and a remarkably tender, flavorful steak. Highly recommended…",
+      "source_ref": "r2"
+    },
+    {
+      "author": "ismaeel s.",
+      "stars": 5,
+      "text": "One of the best steaks I’ve ever had, not just in Jordan, but anywhere",
+      "source_ref": "r10"
+    },
+    {
+      "author": "Ghazal H.",
+      "stars": 5,
+      "text": "Best steak house in amman! Everything was perfect truely!",
+      "source_ref": "r3"
+    },
+    {
+      "author": "Omar J.",
+      "stars": 5,
+      "text": "Wonderful experience overall. A, little pricey but Lucca offers a unique experience for any special event.",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Mais Y.",
+      "stars": 5,
+      "text": "a very recommended place to visit, the service is flawless… Great food and great experience!",
+      "source_ref": "r7"
+    },
+    {
+      "author": "Ricardo B.",
+      "stars": 5,
+      "text": "Todo excelente Muy buenos cortes y apetizers",
+      "source_ref": "r9"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": null,
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "الحجز مطلوب",
+        "text": "يُنصح بالحجز للغداء والعشاء."
+      },
+      {
+        "icon": "family",
+        "title": "غرفة طعام خاصة",
+        "text": "مناسبة للمناسبات والمجموعات."
+      },
+      {
+        "icon": "sky",
+        "title": "جلسات داخلية وخارجية",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "خدمة ركن السيارات",
+        "text": "مع مواقف في الشارع."
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": "مدخل ومواقف وجلسات ودورة مياه."
+      },
+      {
+        "icon": "bag",
+        "title": "طعام سفري وتوصيل",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": null
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/a-dimly-lit-restaurant-table-with-a-single-candle-9jNYTFpa2gs"
+    },
+    "grill": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز",
+      "page": "https://unsplash.com/photos/a-platter-of-grilled-meats-with-rice-and-pita-bread-2j17J8psiTw"
+    },
+    "night": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/a-dimly-lit-restaurant-table-with-a-single-candle-9jNYTFpa2gs"
+    },
+    "dessert": {
+      "id": "photo-1778447812923-88a9e3e6b567",
+      "alt": "صورة توضيحية: حلوى بالفستق الحلبي",
+      "page": "https://unsplash.com/photos/a-delicate-pastry-filled-with-chopped-pistachios-NzNFM69MMnI"
+    }
+  },
+  "batch_id": "b202610261258"
+}

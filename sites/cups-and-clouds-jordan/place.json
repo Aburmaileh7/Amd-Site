@@ -1,0 +1,288 @@
+{
+  "slug": "cups-and-clouds-jordan",
+  "place_id": "ChIJt8orShihHBURzs9vJySl5hs",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#5D5C8F",
+    "rgb": "93, 92, 143",
+    "hover": "#4A497A",
+    "ink": "#FFFFFF"
+  },
+  "name": "Cups and Clouds Jordan",
+  "name_lang": "en",
+  "category_label": "كافيه ومساحة عمل هادئة",
+  "area": "البوليفارد، العبدلي، عمّان",
+  "address": "البوليفارد، العبدلي، عمّان",
+  "phone": {
+    "display": "+962 7 7999 6665",
+    "tel": "+962779996665"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Cups%20and%20Clouds%20Jordan&query_place_id=ChIJt8orShihHBURzs9vJySl5hs",
+  "map_query": "Cups and Clouds Jordan, Boulevard, Abdali, Amman, Jordan",
+  "rating": {
+    "value": 4.7,
+    "count": 365,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "8 ص – 11:55 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "قهوة بجانب المدفأة في بوليفارد العبدلي",
+    "intro": "كافيه هادئ في البوليفارد، يفتح من الثامنة صباحًا حتى منتصف الليل، مع فطور وحلويات ومكان مناسب للعمل على اللابتوب.",
+    "image": "hero"
+  },
+  "sections": [
+    "story",
+    "reviews",
+    "menu",
+    "amenities",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "ثلاثة أشياء تميّز المكان",
+    "title": "لماذا Cups and Clouds؟",
+    "items": [
+      {
+        "label": "للعمل",
+        "title": "مناسب للعمل على اللابتوب",
+        "text": "يُعرف المكان على Google بأنه مناسب للعمل على الكمبيوتر المحمول، وأجواؤه هادئة وعصرية.",
+        "image": "work"
+      },
+      {
+        "label": "للفطور",
+        "title": "فطور وإفطار متأخر",
+        "text": "يقدّم الفطور والإفطار المتأخر والحلويات، ويفتح من الثامنة صباحًا.",
+        "image": "brunch"
+      },
+      {
+        "label": "للجلسة",
+        "title": "مدفأة وجلسات خارجية",
+        "text": "من السمات المذكورة مدفأة، إلى جانب أماكن جلوس في الهواء الطلق.",
+        "image": "patio"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "من الثامنة صباحًا",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للاستفسار",
+    "categories": [
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "ساخنة",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "إسبريسو",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "فلات وايت",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "كورتادو",
+            "desc": "",
+            "price": 3.25
+          },
+          {
+            "name": "V60",
+            "desc": "قهوة مقطّرة.",
+            "price": 4.25
+          }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "مشروبات باردة",
+        "tagline": "منعشة",
+        "image": "cold",
+        "items": [
+          {
+            "name": "آيس لاتيه",
+            "desc": "",
+            "price": 4
+          },
+          {
+            "name": "آيس ماتشا لاتيه",
+            "desc": "",
+            "price": 4.5
+          },
+          {
+            "name": "كولد برو",
+            "desc": "",
+            "price": 4
+          }
+        ]
+      },
+      {
+        "id": "brunch",
+        "title": "الفطور",
+        "tagline": "حتى وقت متأخر",
+        "image": "brunch",
+        "items": [
+          {
+            "name": "صحن فطور",
+            "desc": "بيض، جبنة، زيتون، وخبز.",
+            "price": 7.5
+          },
+          {
+            "name": "كرواسون بالجبنة",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "توست أفوكادو",
+            "desc": "",
+            "price": 6.5
+          }
+        ]
+      },
+      {
+        "id": "sweets",
+        "title": "الحلويات",
+        "tagline": "مع القهوة",
+        "image": "cake",
+        "items": [
+          {
+            "name": "كعكة الشوكولاتة",
+            "desc": "",
+            "price": 4.5
+          },
+          {
+            "name": "تشيز كيك",
+            "desc": "",
+            "price": 4.75
+          },
+          {
+            "name": "كوكيز",
+            "desc": "",
+            "price": 2
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Asmaa B.",
+      "stars": 5,
+      "text": "مكان رائع وجميل",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Safa A.",
+      "stars": 4,
+      "text": "المكان لطيف واشيائهم لطيفة",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Vinuya, J.",
+      "stars": 5,
+      "text": "the place was nice. very aesthetic. staff were kind",
+      "source_ref": "r6"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": null,
+    "items": [
+      {
+        "icon": "coffee",
+        "title": "جلسات داخلية وخارجية",
+        "text": "جلوس في الهواء الطلق وخدمة في الموقع."
+      },
+      {
+        "icon": "bag",
+        "title": "توصيل وتسليم بدون تلامس",
+        "text": ""
+      },
+      {
+        "icon": "family",
+        "title": "للطلاب والمجموعات",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": "مواقف كثيرة وموقف مجاني في الشارع."
+      },
+      {
+        "icon": "check",
+        "title": "دفع إلكتروني",
+        "text": "بطاقات ائتمان وسحب آلي والدفع عبر NFC."
+      }
+    ]
+  },
+  "visit": {
+    "image": "street"
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1511081692775-05d0f180a065",
+      "alt": "صورة توضيحية: داخل كافيه بإضاءة معلقة وطاولة",
+      "page": "https://unsplash.com/photos/cafe-interior-with-hanging-bulbs-and-table-VobvKmG-StA"
+    },
+    "work": {
+      "id": "photo-1743389412154-f604c3910818",
+      "alt": "صورة توضيحية: عمل على لابتوب بجانب لاتيه",
+      "page": "https://unsplash.com/photos/woman-works-on-laptop-with-a-latte-nearby-buwxwnHoCh4"
+    },
+    "brunch": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون فطور ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    },
+    "patio": {
+      "id": "photo-1783272547883-353cfdb9e71b",
+      "alt": "صورة توضيحية: جلسات كافيه خارجية تحت الأشجار",
+      "page": "https://unsplash.com/photos/people-enjoying-an-outdoor-cafe-patio-under-trees-GVJWydhKqbw"
+    },
+    "coffee": {
+      "id": "photo-1690983326252-ce6205fb7055",
+      "alt": "صورة توضيحية: كوب قهوة بين حبوب البن",
+      "page": "https://unsplash.com/photos/a-cup-of-coffee-surrounded-by-coffee-beans-KU7PjmjArlQ"
+    },
+    "cold": {
+      "id": "photo-1717603545758-88cc454db69b",
+      "alt": "صورة توضيحية: آيس ماتشا لاتيه على طاولة خشبية",
+      "page": "https://unsplash.com/photos/iced-matcha-latte-on-wooden-table-N1rmKN_EOaA"
+    },
+    "cake": {
+      "id": "photo-1517427294546-5aa121f68e8a",
+      "alt": "صورة توضيحية: قطعة كعكة شوكولاتة",
+      "page": "https://unsplash.com/photos/sliced-chocolate-cake-beside-fork-on-plate-P_l1bJQpQF0"
+    },
+    "street": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة",
+      "page": "https://unsplash.com/photos/the-sun-is-setting-over-a-city-street-3FeDWYfZYxY"
+    }
+  },
+  "batch_id": "b202610261258"
+}

@@ -1,0 +1,300 @@
+{
+  "slug": "nest-coffee-2",
+  "place_id": "ChIJhdJCJQBfGxURu_GRSa8FonE",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#55704B",
+    "rgb": "85, 112, 75",
+    "hover": "#445A3C",
+    "ink": "#FFFFFF"
+  },
+  "name": "Nest Coffee",
+  "name_lang": "en",
+  "category_label": "كافيه قهوة مختصة",
+  "area": "العبدلي، عمّان",
+  "address": "شارع البعونية 8، العبدلي، عمّان",
+  "phone": {
+    "display": "+962 7 9599 1047",
+    "tel": "+962795991047"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Nest%20Coffee&query_place_id=ChIJhdJCJQBfGxURu_GRSa8FonE",
+  "map_query": "Nest Coffee, Al Baouniyah St 8, Abdali, Amman, Jordan",
+  "rating": {
+    "value": 4.6,
+    "count": 366,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "7 ص – 12 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "قهوة من السابعة صباحًا حتى منتصف الليل",
+    "intro": "كافيه في شارع البعونية بالعبدلي، يقدّم القهوة والشاي والحلويات، بجلسات داخلية وخارجية ومكان مناسب للعمل.",
+    "image": "hero"
+  },
+  "sections": [
+    "reviews",
+    "story",
+    "menu",
+    "amenities",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "ما يكرره الزوار",
+    "title": "ثلاثة أسباب للعودة",
+    "items": [
+      {
+        "label": "القهوة",
+        "title": "باريستا يشكره الزوار",
+        "text": "تذكر مراجعات عدة براعة الباريستا ولطف الفريق، وتسمّي موظفين بالاسم.",
+        "image": "coffee"
+      },
+      {
+        "label": "للعمل",
+        "title": "مكان للعمل واللقاء",
+        "text": "وصفه أحد الزوار بأنه مكان جيد للعمل والتواصل، ويُعرف بأنه مناسب للابتوب.",
+        "image": "work"
+      },
+      {
+        "label": "الجلسة",
+        "title": "جلسات داخلية وخارجية",
+        "text": "جلوس داخل المكان وفي الهواء الطلق، مع طعام سفري وتوصيل.",
+        "image": "patio"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "قهوة وشاي وحلويات",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للطلبات الخارجية والتوصيل",
+    "categories": [
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "ساخنة",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "إسبريسو",
+            "desc": "",
+            "price": 2.25
+          },
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 3.25
+          },
+          {
+            "name": "فلات وايت",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "V60",
+            "desc": "قهوة مقطّرة.",
+            "price": 4
+          }
+        ]
+      },
+      {
+        "id": "tea",
+        "title": "الشاي",
+        "tagline": "تشكيلة",
+        "image": "tea",
+        "items": [
+          {
+            "name": "شاي بالنعناع",
+            "desc": "إبريق.",
+            "price": 2.5
+          },
+          {
+            "name": "شاي أخضر",
+            "desc": "",
+            "price": 2.75
+          },
+          {
+            "name": "شاي كرك",
+            "desc": "",
+            "price": 3
+          }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "مشروبات باردة",
+        "tagline": "",
+        "image": "cold",
+        "items": [
+          {
+            "name": "آيس لاتيه",
+            "desc": "",
+            "price": 3.75
+          },
+          {
+            "name": "آيس ماتشا لاتيه",
+            "desc": "",
+            "price": 4.25
+          },
+          {
+            "name": "ليمون بالنعناع",
+            "desc": "",
+            "price": 3.25
+          }
+        ]
+      },
+      {
+        "id": "sweets",
+        "title": "الحلويات والفطور",
+        "tagline": "",
+        "image": "cake",
+        "items": [
+          {
+            "name": "كرواسون",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "كعكة الشوكولاتة",
+            "desc": "",
+            "price": 4
+          },
+          {
+            "name": "صحن فطور",
+            "desc": "",
+            "price": 6.5
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Charlie S.",
+      "stars": 5,
+      "text": "Great coffee and food. Abd Al Rahman was super friendly and helpful.",
+      "source_ref": "r1"
+    },
+    {
+      "author": "محمد ا.",
+      "stars": 5,
+      "text": "جو جميل وخدمه رائعه جداً الاستاذه اسماء والاستاذ عبد الرحمن خدمه رائعه وتعاملهم يجبرك ترجع مره ثانيه",
+      "source_ref": "r3"
+    },
+    {
+      "author": "فالح ا.",
+      "stars": 5,
+      "text": "كل الشكر للموظفه اسماء اقوى بارستا بعمان",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Sunil N.",
+      "stars": 5,
+      "text": "Great place to work and socialise if you don't like indoor smoking.",
+      "source_ref": "r6"
+    },
+    {
+      "author": "Davide C.",
+      "stars": 5,
+      "text": "Skilled barista",
+      "source_ref": "r2"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": null,
+    "items": [
+      {
+        "icon": "coffee",
+        "title": "جلسات داخلية وخارجية",
+        "text": "جلوس داخل المكان وفي الهواء الطلق."
+      },
+      {
+        "icon": "bag",
+        "title": "طعام سفري وتوصيل",
+        "text": "مع خدمة الطلب أثناء القيادة."
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": "جلسات ودورة مياه مهيأة."
+      },
+      {
+        "icon": "family",
+        "title": "للسياح والطلاب والمجموعات",
+        "text": ""
+      },
+      {
+        "icon": "check",
+        "title": "دفع إلكتروني",
+        "text": "بطاقات ائتمان وسحب آلي والدفع عبر NFC."
+      }
+    ]
+  },
+  "visit": {
+    "image": "street"
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1779442563698-11fad08a733e",
+      "alt": "صورة توضيحية: واجهة كافيه بجلسات خارجية ومظلات",
+      "page": "https://unsplash.com/photos/cafe-exterior-with-outdoor-seating-and-beige-umbrellas-1jIs3w-Ahwg"
+    },
+    "coffee": {
+      "id": "photo-1690983326252-ce6205fb7055",
+      "alt": "صورة توضيحية: كوب قهوة بين حبوب البن",
+      "page": "https://unsplash.com/photos/a-cup-of-coffee-surrounded-by-coffee-beans-KU7PjmjArlQ"
+    },
+    "work": {
+      "id": "photo-1743389412243-7dbfdf6c48dd",
+      "alt": "صورة توضيحية: عمل على لابتوب بجانب قهوة",
+      "page": "https://unsplash.com/photos/working-on-a-laptop-with-a-coffee-nearby-ro-7djAkodU"
+    },
+    "patio": {
+      "id": "photo-1783272547883-353cfdb9e71b",
+      "alt": "صورة توضيحية: جلسات كافيه خارجية تحت الأشجار",
+      "page": "https://unsplash.com/photos/people-enjoying-an-outdoor-cafe-patio-under-trees-GVJWydhKqbw"
+    },
+    "tea": {
+      "id": "photo-1774791500971-ddaafd214520",
+      "alt": "صورة توضيحية: دلة قهوة عربية وتمر",
+      "page": "https://unsplash.com/photos/dates-in-a-woven-basket-with-arabic-coffee-pot-URncnSvN6Kw"
+    },
+    "cold": {
+      "id": "photo-1717603545758-88cc454db69b",
+      "alt": "صورة توضيحية: آيس ماتشا لاتيه على طاولة خشبية",
+      "page": "https://unsplash.com/photos/iced-matcha-latte-on-wooden-table-N1rmKN_EOaA"
+    },
+    "cake": {
+      "id": "photo-1517427294546-5aa121f68e8a",
+      "alt": "صورة توضيحية: قطعة كعكة شوكولاتة",
+      "page": "https://unsplash.com/photos/sliced-chocolate-cake-beside-fork-on-plate-P_l1bJQpQF0"
+    },
+    "street": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة",
+      "page": "https://unsplash.com/photos/the-sun-is-setting-over-a-city-street-3FeDWYfZYxY"
+    }
+  },
+  "batch_id": "b202610261258"
+}
