@@ -1,0 +1,302 @@
+{
+  "place_id": "ChIJVwCm24GhHBURx18G9ZU7YHI",
+  "batch_id": "b202611011248",
+  "slug": "shamsa",
+  "theme": "rooftop_dark",
+  "approved": false,
+  "agency": "Amad Web",
+  "name": "شمسة",
+  "name_lang": "ar",
+  "category_label": "مطعم عربي بجلسات على السطح",
+  "area": "تلاع العلي، عمّان",
+  "address": "شارع وصفي التل، تلاع العلي، عمّان",
+  "phone": {
+    "display": "+962 7 9300 2007",
+    "tel": "+962793002007"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D8%B4%D9%85%D8%B3%D8%A9&query_place_id=ChIJVwCm24GhHBURx18G9ZU7YHI",
+  "map_query": "Shamsa Restaurant, Wasfi Al Tal St, Amman, Jordan",
+  "rating": {
+    "value": 4.6,
+    "count": 5853,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "9 ص – 12 ص"
+      }
+    ],
+    "per_day": 15,
+    "source": "Google Maps"
+  },
+  "accent": {
+    "hex": "#D98324",
+    "rgb": "217, 131, 36",
+    "hover": "#B96C1A",
+    "ink": "#1A1208"
+  },
+  "hero": {
+    "headline": "مائدة عربية على السطح، من التاسعة صباحًا",
+    "intro": "مطعم عربي في تلاع العلي بجلسات على السطح وأخرى داخلية ومدفأة، يقدّم الفطور والغداء والعشاء حتى منتصف الليل كل يوم.",
+    "image": "roof"
+  },
+  "sections": [
+    "story",
+    "reviews",
+    "menu",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "من التاسعة صباحًا حتى منتصف الليل",
+    "title": "يوم كامل في شمسة",
+    "items": [
+      {
+        "time": "9:00 ص",
+        "label": "صباحًا",
+        "title": "الفطور والفطور المتأخر",
+        "text": "يفتح المكان في التاسعة صباحًا، ويُعرف على Google بالإفطار وبخيار الإفطار المتأخر مع التوصية بالحجز.",
+        "image": "spread"
+      },
+      {
+        "time": "ظهرًا",
+        "label": "منتصف اليوم",
+        "title": "الغداء مع الشاي والقهوة",
+        "text": "غداء في الصالة أو على السطح، والمكان موصوف بتشكيلة شاي وقهوة وحلويات رائعة.",
+        "image": "coffee"
+      },
+      {
+        "time": "12:00 ص",
+        "label": "مساءً",
+        "title": "عشاء وجلسة بجانب المدفأة",
+        "text": "العشاء وجلسات المساء حتى منتصف الليل، بأجواء وصفها Google بالرومانسية والهادئة.",
+        "image": "dusk"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "إفطار وغداء وعشاء",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والاستفسار",
+    "categories": [
+      {
+        "id": "breakfast",
+        "title": "الفطور",
+        "tagline": "من التاسعة صباحًا",
+        "image": "spread",
+        "items": [
+          {
+            "name": "إفطار عربي",
+            "desc": "حمص، فول، فلافل، لبنة، زيتون، بيض، وخبز. لشخصين.",
+            "price": 16.0
+          },
+          {
+            "name": "شكشوكة",
+            "desc": "بيض مع صلصة البندورة والفلفل.",
+            "price": 5.0
+          },
+          {
+            "name": "فتة حمص",
+            "desc": "حمص بالطحينة على خبز محمص وصنوبر.",
+            "price": 4.5
+          },
+          {
+            "name": "جبنة حلوم مشوية",
+            "desc": "مع بندورة وخيار ونعنع.",
+            "price": 4.0
+          }
+        ]
+      },
+      {
+        "id": "mains",
+        "title": "الأطباق الرئيسية",
+        "tagline": "للغداء والعشاء",
+        "image": "candle",
+        "items": [
+          {
+            "name": "مشاوي مشكّلة",
+            "desc": "كباب، شيش طاووق، وريش. مع خبز وسلطات.",
+            "price": 14.0
+          },
+          {
+            "name": "شيش طاووق",
+            "desc": "صدر دجاج متبّل مع ثومية وبطاطا.",
+            "price": 8.0
+          },
+          {
+            "name": "مقلوبة دجاج",
+            "desc": "",
+            "price": 7.5
+          },
+          {
+            "name": "برغر لحم",
+            "desc": "مع بطاطا مقلية.",
+            "price": 7.5
+          }
+        ]
+      },
+      {
+        "id": "sweet",
+        "title": "الحلويات",
+        "tagline": "مع الشاي والقهوة",
+        "image": "sweet",
+        "items": [
+          {
+            "name": "كنافة نابلسية",
+            "desc": "",
+            "price": 4.5
+          },
+          {
+            "name": "كيكة الشوكولاتة",
+            "desc": "",
+            "price": 4.5
+          },
+          {
+            "name": "أم علي",
+            "desc": "",
+            "price": 4.0
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "شاي وقهوة",
+        "tagline": "ساخنة وباردة",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "قهوة عربية",
+            "desc": "بالهيل.",
+            "price": 2.5
+          },
+          {
+            "name": "شاي بالنعناع",
+            "desc": "إبريق.",
+            "price": 3.0
+          },
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 3.25
+          },
+          {
+            "name": "ليمون بالنعناع",
+            "desc": "",
+            "price": 3.5
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Khalid A.",
+      "stars": 5,
+      "text": "قعدة رايقة و جميلة و شكرا للمعلم ليث عالاسلوب الراقي",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Salma S.",
+      "stars": 5,
+      "text": "Food was good , thanks to Abedalkareem for the great service 😁",
+      "source_ref": "r6"
+    },
+    {
+      "author": "Tala H.",
+      "stars": 5,
+      "text": "Absolutely loved our experience! Everything was wonderful, from the atmosphere to the food and the excellent service , A special thank you to Saif for his professionalism, kindness, and outstanding hospitality. He made sure everything was perfect and made us feel truly welcomed. Highly recommend this place…",
+      "source_ref": "r9"
+    },
+    {
+      "author": "Dema K.",
+      "stars": 5,
+      "text": "الخدمة رائعة كل الشكر للموظفين وخصوصا سيف وخليل",
+      "source_ref": "r10"
+    },
+    {
+      "author": "Raya K.",
+      "stars": 5,
+      "text": "تجربة رائعه وخصوصي مع السيد سيف",
+      "source_ref": "r1"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما ستجده في شمسة",
+    "image": "dusk",
+    "items": [
+      {
+        "icon": "sky",
+        "title": "جلسات على السطح",
+        "text": "وجلسات في الهواء الطلق، إلى جانب صالة داخلية ومدفأة."
+      },
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجوزات",
+        "text": "ويُنصح بالحجز للإفطار المتأخر والغداء والعشاء."
+      },
+      {
+        "icon": "bag",
+        "title": "توصيل وخدمة في الموقع",
+        "text": "مع دفع بالبطاقات أو عبر الجوال."
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للأطفال",
+        "text": "مع كراسٍ عالية ومناسب لأعياد الميلاد."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": "في الموقع وعلى الشارع."
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": "مدخل ومواقف ودورات مياه مهيأة."
+      }
+    ]
+  },
+  "visit": {
+    "image": "city"
+  },
+  "images": {
+    "roof": {
+      "id": "photo-1786374785195-2267ddab1bec",
+      "alt": "صورة توضيحية: طاولة وكراسٍ على سطح يطل على مدينة"
+    },
+    "spread": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات"
+    },
+    "coffee": {
+      "id": "photo-1774791500971-ddaafd214520",
+      "alt": "صورة توضيحية: دلة قهوة عربية وتمر"
+    },
+    "dusk": {
+      "id": "photo-1760454477181-4d2d1f7e30ce",
+      "alt": "صورة توضيحية: جلسات على سطح وقت الغروب"
+    },
+    "candle": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء"
+    },
+    "sweet": {
+      "id": "photo-1778447812923-88a9e3e6b567",
+      "alt": "صورة توضيحية: حلوى بالفستق الحلبي"
+    },
+    "city": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة"
+    }
+  }
+}
