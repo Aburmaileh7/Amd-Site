@@ -1,0 +1,307 @@
+{
+  "place_id": "ChIJl3bbpZehHBURhUzJu3ueoTI",
+  "slug": "bumblebee-restaurant",
+  "theme": "rooftop_dark",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#F2B705",
+    "rgb": "242, 183, 5",
+    "hover": "#D9A304",
+    "ink": "#1A1A1A"
+  },
+  "name": "Bumblebee restaurant",
+  "name_lang": "en",
+  "category_label": "مطعم يعمل على مدار الساعة",
+  "area": "العبدلي، عمّان",
+  "address": "منطقة العبدلي، عمّان",
+  "phone": {
+    "display": "+962 7 7565 2999",
+    "tel": "+962775652999"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Bumblebee%20restaurant&query_place_id=ChIJl3bbpZehHBURhUzJu3ueoTI",
+  "map_query": "Bumblebee restaurant, Abdali, Amman, Jordan",
+  "rating": {
+    "value": 4.3,
+    "count": 416,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "24 ساعة"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "مطعم في العبدلي لا يغلق أبوابه",
+    "intro": "يفتح 24 ساعة طوال أيام الأسبوع في منطقة العبدلي، بجلسات داخلية وخارجية، من الفطور حتى العشاء وما بعد منتصف الليل.",
+    "image": "candle"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "reviews",
+    "amenities",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "على مدار 24 ساعة",
+    "title": "يومك في Bumblebee",
+    "items": [
+      {
+        "time": "صباحًا",
+        "label": "الصباح",
+        "title": "الفطور",
+        "text": "الفطور والفطور المتأخر من خيارات المكان.",
+        "image": "spread"
+      },
+      {
+        "time": "ظهرًا",
+        "label": "النهار",
+        "title": "الغداء والعشاء",
+        "text": "وجبات على الطاولة، مع طلبات خارجية وخدمة توصيل.",
+        "image": "grill"
+      },
+      {
+        "time": "ليلًا",
+        "label": "بعد منتصف الليل",
+        "title": "مفتوح حتى الفجر",
+        "text": "أحد الزوار انتظر هنا باصه إلى البتراء من الثانية حتى الخامسة فجرًا بارتياح.",
+        "image": "candle"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "من الفطور إلى ما بعد منتصف الليل",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والتوصيل",
+    "categories": [
+      {
+        "id": "breakfast",
+        "title": "الفطور",
+        "tagline": "",
+        "image": "spread",
+        "items": [
+          {
+            "name": "فطور عربي",
+            "desc": "حمص، فول، بيض، لبنة وخبز. لشخصين.",
+            "price": 13.0
+          },
+          {
+            "name": "شكشوكة",
+            "desc": "",
+            "price": 4.5
+          },
+          {
+            "name": "أومليت بالجبنة",
+            "desc": "",
+            "price": 4.0
+          }
+        ]
+      },
+      {
+        "id": "mains",
+        "title": "الأطباق الرئيسية",
+        "tagline": "غداء وعشاء",
+        "image": "grill",
+        "items": [
+          {
+            "name": "برغر لحم",
+            "desc": "مع بطاطا مقلية.",
+            "price": 7.5
+          },
+          {
+            "name": "شيش طاووق",
+            "desc": "مع أرز وسلطة.",
+            "price": 7.5
+          },
+          {
+            "name": "باستا بالكريمة",
+            "desc": "",
+            "price": 6.5
+          },
+          {
+            "name": "مشاوي مشكّلة",
+            "desc": "",
+            "price": 13.0
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "قهوة",
+            "desc": "",
+            "price": 2.0
+          },
+          {
+            "name": "لاتيه",
+            "desc": "",
+            "price": 3.0
+          },
+          {
+            "name": "شاي بالنعناع",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "عصير طازج",
+            "desc": "",
+            "price": 3.5
+          }
+        ]
+      },
+      {
+        "id": "sweet",
+        "title": "الحلويات",
+        "tagline": "",
+        "image": "sweet",
+        "items": [
+          {
+            "name": "كنافة نابلسية",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "تشيز كيك",
+            "desc": "",
+            "price": 4.0
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Alexander G.",
+      "stars": 5,
+      "text": "Nice place if you need somewhere to go late at night we had a long wait for our bus to Petra and stayed here from 2am to 5am comfortably.",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Abed A.",
+      "stars": 5,
+      "text": "عشاء فاخر الاسعار جدا ممتازه والبيرا بارده و متعددة الأنواع يناسب للاحتفال",
+      "source_ref": "r10"
+    },
+    {
+      "author": "Dalaa Y.",
+      "stars": 5,
+      "text": "خدمه قويه و الموظفين محترامين و الموظف سند و رامز ممتازيآ وشكرا لكم",
+      "source_ref": "r7"
+    },
+    {
+      "author": "Ahmad A.",
+      "stars": 5,
+      "text": "الخدمة بتجنن والموظفين محترمين",
+      "source_ref": "r9"
+    },
+    {
+      "author": "Wafaa A.",
+      "stars": 5,
+      "text": "خدمة فوق الخيال شكرا",
+      "source_ref": "r5"
+    },
+    {
+      "author": "medoo M.",
+      "stars": 5,
+      "text": "Great place. Highly recommend 👌",
+      "source_ref": "r1"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما ستجده في المكان",
+    "image": "roof",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "مفتوح 24 ساعة",
+        "text": "كل أيام الأسبوع."
+      },
+      {
+        "icon": "sky",
+        "title": "جلسات داخلية وخارجية",
+        "text": ""
+      },
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجوزات",
+        "text": ""
+      },
+      {
+        "icon": "bag",
+        "title": "طعام سفري وتوصيل",
+        "text": "مع تسليم بدون تلامس."
+      },
+      {
+        "icon": "family",
+        "title": "للعائلات والمجموعات",
+        "text": "مع كراسٍ عالية للأطفال."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": ""
+      },
+      {
+        "icon": "access",
+        "title": "دورة مياه مهيأة",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "city"
+  },
+  "images": {
+    "spread": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات"
+    },
+    "grill": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز"
+    },
+    "candle": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء"
+    },
+    "sweet": {
+      "id": "photo-1778447812923-88a9e3e6b567",
+      "alt": "صورة توضيحية: حلوى بالفستق الحلبي"
+    },
+    "coffee": {
+      "id": "photo-1774791500971-ddaafd214520",
+      "alt": "صورة توضيحية: دلة قهوة عربية وتمر"
+    },
+    "roof": {
+      "id": "photo-1786374785195-2267ddab1bec",
+      "alt": "صورة توضيحية: طاولة وكراسٍ على سطح يطل على مدينة"
+    },
+    "city": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة"
+    }
+  },
+  "batch_id": "b202611020804"
+}

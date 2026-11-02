@@ -1,0 +1,274 @@
+{
+  "place_id": "ChIJDf7bv4BfGxUR71H2zlvjgNs",
+  "slug": "joury-restaurant",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#9A4A1F",
+    "rgb": "154, 74, 31",
+    "hover": "#7F3C19",
+    "ink": "#FFFFFF"
+  },
+  "name": "Joury Restaurant",
+  "name_lang": "en",
+  "category_label": "مطعم مأكولات سورية",
+  "area": "زهران، عمّان",
+  "address": "شارع الكلية العلمية الإسلامية، زهران، عمّان",
+  "phone": {
+    "display": "+962 7 8599 9002",
+    "tel": "+962785999002"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Joury%20Restaurant&query_place_id=ChIJDf7bv4BfGxUR71H2zlvjgNs",
+  "map_query": "Joury Restaurant, Zahran, Amman, Jordan",
+  "rating": {
+    "value": 4.2,
+    "count": 737,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "10 ص – 1 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "مأكولات سورية وكباب على الفحم في زهران",
+    "intro": "مطعم سوري في زهران بجلسات داخلية وأخرى في الهواء الطلق، يقدّم الغداء والعشاء يوميًا من العاشرة صباحًا حتى الواحدة بعد منتصف الليل.",
+    "image": "spread"
+  },
+  "sections": [
+    "menu",
+    "reviews",
+    "story",
+    "amenities",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "من العاشرة صباحًا",
+    "title": "غداء وعشاء حتى بعد منتصف الليل",
+    "items": [
+      {
+        "label": "الغداء",
+        "title": "يفتح عند العاشرة",
+        "text": "الغداء من الأوقات التي يشتهر بها المكان على Google، وتُقدَّم الوجبات على الطاولة.",
+        "image": "grill"
+      },
+      {
+        "label": "العشاء",
+        "title": "جلسات داخلية وخارجية",
+        "text": "أماكن جلوس في الهواء الطلق إلى جانب الصالة الداخلية، والمكان مناسب للأطفال والمجموعات.",
+        "image": "dusk"
+      },
+      {
+        "label": "السهر",
+        "title": "حتى الواحدة صباحًا",
+        "text": "يستقبل المطعم الزوار كل يوم حتى الواحدة بعد منتصف الليل، ويقبل الحجوزات.",
+        "image": "candle"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "مأكولات سورية",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والاستفسار",
+    "categories": [
+      {
+        "id": "mezze",
+        "title": "المقبلات",
+        "tagline": "للبدء",
+        "image": "spread",
+        "items": [
+          {
+            "name": "حمص بالطحينة",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "متبل",
+            "desc": "",
+            "price": 2.75
+          },
+          {
+            "name": "فتوش",
+            "desc": "",
+            "price": 3.0
+          },
+          {
+            "name": "كبة مقلية",
+            "desc": "",
+            "price": 4.5
+          }
+        ]
+      },
+      {
+        "id": "grill",
+        "title": "المشاوي",
+        "tagline": "على الفحم",
+        "image": "grill",
+        "items": [
+          {
+            "name": "كباب مشوي",
+            "desc": "مع خبز وبصل وبقدونس.",
+            "price": 8.0
+          },
+          {
+            "name": "شيش طاووق",
+            "desc": "صدر دجاج متبّل مع ثومية.",
+            "price": 7.5
+          },
+          {
+            "name": "مشاوي مشكّلة",
+            "desc": "كباب وشيش طاووق وريش.",
+            "price": 13.0
+          }
+        ]
+      },
+      {
+        "id": "sweet",
+        "title": "الحلويات",
+        "tagline": "مع الشاي",
+        "image": "sweet",
+        "items": [
+          {
+            "name": "كنافة نابلسية",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "بقلاوة",
+            "desc": "",
+            "price": 3.0
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "شاي",
+            "desc": "",
+            "price": 1.75
+          },
+          {
+            "name": "قهوة",
+            "desc": "",
+            "price": 2.0
+          },
+          {
+            "name": "عصير ليمون بالنعناع",
+            "desc": "",
+            "price": 3.0
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "كباب"
+  ],
+  "reviews": [
+    {
+      "author": "سامي ا.",
+      "stars": 5,
+      "text": "ياجماعة الذ الذ كباب اكلته جيت مطاعم كثير للكباب عندنا بالسعودية لكن المطعم هذا ماشاء الله تبارك الله",
+      "source_ref": "r5"
+    },
+    {
+      "author": "Mohammed Z.",
+      "stars": 5,
+      "text": "Good place and nice food",
+      "source_ref": "r3"
+    },
+    {
+      "author": "يوسف ا.",
+      "stars": 5,
+      "text": "ممتاز",
+      "source_ref": "r2"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما ستجده في المطعم",
+    "image": "dusk",
+    "items": [
+      {
+        "icon": "sky",
+        "title": "جلسات في الهواء الطلق",
+        "text": "إلى جانب الجلوس داخل المكان."
+      },
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجوزات",
+        "text": "والحجز موصى به للعشاء."
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للأطفال",
+        "text": "ويستقبل المجموعات."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": "في الموقع وفي الشارع."
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": "مدخل وجلسات ودورة مياه."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة والجوال",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "city"
+  },
+  "images": {
+    "spread": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات"
+    },
+    "grill": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز"
+    },
+    "dusk": {
+      "id": "photo-1760454477181-4d2d1f7e30ce",
+      "alt": "صورة توضيحية: جلسات على سطح وقت الغروب"
+    },
+    "candle": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء"
+    },
+    "sweet": {
+      "id": "photo-1778447812923-88a9e3e6b567",
+      "alt": "صورة توضيحية: حلوى بالفستق الحلبي"
+    },
+    "coffee": {
+      "id": "photo-1774791500971-ddaafd214520",
+      "alt": "صورة توضيحية: دلة قهوة عربية وتمر"
+    },
+    "city": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة"
+    }
+  },
+  "batch_id": "b202611020804"
+}

@@ -1,0 +1,141 @@
+{
+  "place_id": "ChIJYR3TyRChHBURRElXs7t6hhI",
+  "slug": "dr-moataz-alsardi",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#2F6F9F",
+    "rgb": "47, 111, 159",
+    "hover": "#245A82",
+    "ink": "#FFFFFF"
+  },
+  "name": "Dr Moataz Alsardi",
+  "name_lang": "en",
+  "category_label": "عيادة أسنان: زراعة وتقويم وتجميل",
+  "area": "تلاع العلي، عمّان",
+  "address": "شارع الكندي 41، تلاع العلي، عمّان",
+  "phone": {
+    "display": "+962 7 9507 0006",
+    "tel": "+962795070006"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Dr%20Moataz%20Alsardi&query_place_id=ChIJYR3TyRChHBURRElXs7t6hhI",
+  "map_query": "Dr Moataz Alsardi dental clinic, Al-Kindi St, Tla'a Al-Ali, Amman, Jordan",
+  "rating": {
+    "value": 4.9,
+    "count": 404,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "10 ص – 7 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "عيادة أسنان في تلاع العلي: زراعة وتقويم وتجميل",
+    "intro": "عيادة د. معتز السردي في شارع الكندي، تضم تخصصات الزراعة والتقويم والتعويضات وتبييض الأسنان، وتعمل بمواعيد مسبقة.",
+    "image": "dental"
+  },
+  "sections": [
+    "menu",
+    "proof",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "زراعة الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تقويم الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تبييض الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تعويضات الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "علاج دواعم الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تجميل الأسنان",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Asma K.",
+      "stars": 5,
+      "text": "I went to so many orthodontists and clinics before, but this is my absolute favorite from every aspect… The receptionist is very friendly and the clinic itself is super clean and modern.",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Rasha j.",
+      "stars": 5,
+      "text": "شكرا دكتور",
+      "source_ref": "r3"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental2",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "المواعيد موصى بها",
+        "text": "يُفضَّل حجز موعد قبل الزيارة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة والجوال",
+        "text": "بطاقات ائتمان وسحب آلي وNFC."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental2"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان"
+    }
+  },
+  "batch_id": "b202611020804"
+}

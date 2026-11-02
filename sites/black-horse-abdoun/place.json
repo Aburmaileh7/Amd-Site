@@ -1,0 +1,304 @@
+{
+  "place_id": "ChIJ6fs9KOChHBUR1BkZIrT1rKs",
+  "slug": "black-horse-abdoun",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#2B2B2B",
+    "rgb": "43, 43, 43",
+    "hover": "#111111",
+    "ink": "#FFFFFF"
+  },
+  "name": "مطعم وكافيه الخيل الأسود عبدون",
+  "name_lang": "ar",
+  "category_label": "مطعم وكافيه لبناني",
+  "area": "عبدون، عمّان",
+  "address": "بالقرب من الحديقة اليابانية، شارع نواف القاضي، عبدون، عمّان",
+  "phone": {
+    "display": "+962 7 9055 0888",
+    "tel": "+962790550888"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D9%88%D9%83%D8%A7%D9%81%D9%8A%D9%87%20%D8%A7%D9%84%D8%AE%D9%8A%D9%84%20%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%AF%20%D8%B9%D8%A8%D8%AF%D9%88%D9%86&query_place_id=ChIJ6fs9KOChHBUR1BkZIrT1rKs",
+  "map_query": "الخيل الأسود عبدون، قرب الحديقة اليابانية، عمّان، الأردن",
+  "rating": {
+    "value": 4.8,
+    "count": 596,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "9 ص – 12 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "فطور وأرجيلة ومأكولات لبنانية قرب الحديقة اليابانية",
+    "intro": "مطعم وكافيه في عبدون بجلسات داخلية وخارجية ومدفأة وموسيقى حية، يفتح كل يوم من التاسعة صباحًا حتى منتصف الليل.",
+    "image": "dusk"
+  },
+  "sections": [
+    "reviews",
+    "story",
+    "menu",
+    "amenities",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "ما يتكرر في مراجعات الزوار",
+    "title": "من الفطور إلى السهرة",
+    "items": [
+      {
+        "label": "الصباح",
+        "title": "فطور من التاسعة",
+        "text": "الفطور والفطور المتأخر من خيارات المكان، ويذكره الزوار بين ما أعجبهم.",
+        "image": "spread"
+      },
+      {
+        "label": "المساء",
+        "title": "مدفأة وموسيقى حية",
+        "text": "جلسات في الهواء الطلق وأخرى داخلية، مع مدفأة وموسيقى حية وفق Google.",
+        "image": "candle"
+      },
+      {
+        "label": "للعائلة",
+        "title": "قائمة أطفال وواي فاي",
+        "text": "مناسب للعائلات والمجموعات، مع كراسٍ عالية وواي فاي مجاني وغرفة طعام خاصة.",
+        "image": "coffee"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "مأكولات لبنانية",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والاستفسار",
+    "categories": [
+      {
+        "id": "breakfast",
+        "title": "الفطور",
+        "tagline": "من التاسعة صباحًا",
+        "image": "spread",
+        "items": [
+          {
+            "name": "فطور لبناني",
+            "desc": "حمص، فول، لبنة، جبنة، زيتون، وخبز. لشخصين.",
+            "price": 13.0
+          },
+          {
+            "name": "منقوشة زعتر",
+            "desc": "",
+            "price": 2.0
+          },
+          {
+            "name": "بيض بالسجق",
+            "desc": "",
+            "price": 4.5
+          }
+        ]
+      },
+      {
+        "id": "mezze",
+        "title": "المازة والمشاوي",
+        "tagline": "للغداء والعشاء",
+        "image": "grill",
+        "items": [
+          {
+            "name": "تبولة",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "كبة نية",
+            "desc": "",
+            "price": 6.0
+          },
+          {
+            "name": "شيش طاووق",
+            "desc": "مع ثومية وبطاطا.",
+            "price": 7.5
+          },
+          {
+            "name": "مشاوي مشكّلة",
+            "desc": "",
+            "price": 13.0
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "قهوة عربية",
+            "desc": "",
+            "price": 2.0
+          },
+          {
+            "name": "شاي بالنعناع",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "ليمون بالنعناع",
+            "desc": "",
+            "price": 3.0
+          },
+          {
+            "name": "أرجيلة",
+            "desc": "",
+            "price": 6.0
+          }
+        ]
+      },
+      {
+        "id": "sweet",
+        "title": "الحلويات",
+        "tagline": "",
+        "image": "sweet",
+        "items": [
+          {
+            "name": "كنافة بالجبنة",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "حلويات بالفستق",
+            "desc": "",
+            "price": 3.5
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Ahmad K.",
+      "stars": 5,
+      "text": "مكان رائع والموظفين خدومين و اسلوبهم راقي وخصوصاً تركي الصالح",
+      "source_ref": "r14"
+    },
+    {
+      "author": "Ahed T.",
+      "stars": 5,
+      "text": "Amazing service, high quality drinks, fair prices, and very hospitable staff. Definitely recommended 👏🏻🙏🏻",
+      "source_ref": "r15"
+    },
+    {
+      "author": "Amer A.",
+      "stars": 5,
+      "text": "مكان راقي جدا والخدمه ممتازه",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Amoon25 K.",
+      "stars": 5,
+      "text": "الاكل والارجيله كتير طيبين",
+      "source_ref": "r6"
+    },
+    {
+      "author": "Linda D.",
+      "stars": 5,
+      "text": "فطور والخدمه والجلسه ممتازه",
+      "source_ref": "r9"
+    },
+    {
+      "author": "Dunia A.",
+      "stars": 5,
+      "text": "مكان جميل وخدمة ممتازة انصح بلتجربة",
+      "source_ref": "r11"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما ستجده في المكان",
+    "image": "dusk",
+    "items": [
+      {
+        "icon": "sky",
+        "title": "جلسات خارجية ومدفأة",
+        "text": "إلى جانب الجلوس داخل المكان."
+      },
+      {
+        "icon": "calendar",
+        "title": "الحجز مطلوب",
+        "text": "ويقبل المكان الحجوزات."
+      },
+      {
+        "icon": "family",
+        "title": "للعائلات والأطفال",
+        "text": "قائمة أطفال وكراسٍ عالية."
+      },
+      {
+        "icon": "wifi",
+        "title": "واي فاي مجاني",
+        "text": ""
+      },
+      {
+        "icon": "bag",
+        "title": "طعام سفري",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف وخدمة صف السيارات",
+        "text": "مواقف مجانية ومدفوعة."
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "city"
+  },
+  "images": {
+    "spread": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات"
+    },
+    "grill": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز"
+    },
+    "dusk": {
+      "id": "photo-1760454477181-4d2d1f7e30ce",
+      "alt": "صورة توضيحية: جلسات على سطح وقت الغروب"
+    },
+    "candle": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء"
+    },
+    "sweet": {
+      "id": "photo-1778447812923-88a9e3e6b567",
+      "alt": "صورة توضيحية: حلوى بالفستق الحلبي"
+    },
+    "coffee": {
+      "id": "photo-1774791500971-ddaafd214520",
+      "alt": "صورة توضيحية: دلة قهوة عربية وتمر"
+    },
+    "city": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة"
+    }
+  },
+  "batch_id": "b202611020804"
+}
