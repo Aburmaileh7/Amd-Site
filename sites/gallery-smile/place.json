@@ -1,0 +1,137 @@
+{
+  "place_id": "ChIJTyw9EAChHBURLhOLHGzItC0",
+  "batch_id": "b202611022030",
+  "slug": "gallery-smile",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amd web",
+  "accent": {
+    "hex": "#B0576B",
+    "rgb": "176, 87, 107",
+    "hover": "#8F4556",
+    "ink": "#FFFFFF"
+  },
+  "name": "Gallery Smile",
+  "name_lang": "en",
+  "category_label": "عيادة أسنان",
+  "area": "تلاع العلي، عمّان",
+  "address": "شارع عبد الله العلمي 16، تلاع العلي، عمّان",
+  "phone": {
+    "display": "+962 7 9008 5924",
+    "tel": "+962790085924"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Gallery%20smile&query_place_id=ChIJTyw9EAChHBURLhOLHGzItC0",
+  "map_query": "Gallery Smile, Abdullah Al Alami St 16, Tla Al Ali, Amman, Jordan",
+  "rating": {
+    "value": 4.9,
+    "count": 26,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "على مدار 24 ساعة"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "عيادة أسنان في تلاع العلي تعمل على مدار الساعة",
+    "intro": "عيادة في شارع عبد الله العلمي تفتح أبوابها طوال اليوم وطوال أيام الأسبوع، ويصف مراجعوها المعاملة بالراقية والشغل بالجميل.",
+    "image": "dental"
+  },
+  "sections": [
+    "reviews",
+    "menu",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "فحص وعلاج الأسنان",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Fatom A.",
+      "stars": 5,
+      "text": "ما شاء الله عنهم معامله جدا راقيه شغلها كثير حلو بتمنى لكم التوفيق والرزق",
+      "source_ref": "r5"
+    },
+    {
+      "author": "Abdulaziz A.",
+      "stars": 5,
+      "text": "اقوى عيادة بدون منازع شغلهم ولا اروع تعتمد",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Khalid A.",
+      "stars": 5,
+      "text": "افضل عياده",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Reham S.",
+      "stars": 5,
+      "text": "افضل خدمة",
+      "source_ref": "r4"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "يُفضّل حجز موعد",
+        "text": "يُنصح بتحديد موعد قبل الزيارة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة",
+        "text": "بطاقات ائتمان وسحب آلي ودفع عبر NFC."
+      },
+      {
+        "icon": "check",
+        "title": "دورة مياه",
+        "text": "دورة مياه متوفرة في العيادة."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/1629909613654-28e377c37b09"
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "place_id": "ChIJBdPI-wShHBURE27eg3zf0z0",
+  "batch_id": "b202611022030",
+  "slug": "cbct-khalda",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amd web",
+  "accent": {
+    "hex": "#5A4B9A",
+    "rgb": "90, 75, 154",
+    "hover": "#483B7D",
+    "ink": "#FFFFFF"
+  },
+  "name": "مركز تصوير الأسنان (خلدا) CBCT",
+  "name_lang": "ar",
+  "category_label": "مركز أشعة أسنان",
+  "area": "تلاع العلي، عمّان",
+  "address": "XRWP+8HP، تلاع العلي، عمّان",
+  "phone": {
+    "display": "+962 7 7006 8623",
+    "tel": "+962770068623"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D8%AA%D8%B5%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%A7%D8%B3%D9%86%D8%A7%D9%86%20(%D8%AE%D9%84%D8%AF%D8%A7)%20CBCT%20Khalda&query_place_id=ChIJBdPI-wShHBURE27eg3zf0z0",
+  "map_query": "CBCT Khalda dental imaging, Tla Al Ali, Amman, Jordan",
+  "rating": {
+    "value": 4.8,
+    "count": 27,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "10 ص – 7 م"
+      },
+      {
+        "days": "الخميس",
+        "time": "10 ص – 4 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "أشعة أسنان وتصوير CBCT في تلاع العلي",
+    "intro": "مركز متخصص بأشعة الأسنان، يصف مراجعوه خدمته بالسريعة وأجهزته بالحديثة وتعامل كادره بالممتاز.",
+    "image": "dental"
+  },
+  "sections": [
+    "reviews",
+    "menu",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تصوير الأسنان CBCT",
+            "desc": ""
+          },
+          {
+            "name": "أشعة الأسنان",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Balqees B.",
+      "stars": 5,
+      "text": "مركز متميز سريعين وتعاملهم جدا ممتاز وأجهزتهم حديثه كل التوفيق",
+      "source_ref": "r5"
+    },
+    {
+      "author": "Abdelrahman N.",
+      "stars": 5,
+      "text": "كادر رائع",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Reema A.",
+      "stars": 5,
+      "text": "افضل خدمه وجوده",
+      "source_ref": "r3"
+    },
+    {
+      "author": "Awni Q.",
+      "stars": 5,
+      "text": "رائعون، شكرا",
+      "source_ref": "r1"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental",
+    "items": [
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة",
+        "text": "بطاقات ائتمان وسحب آلي ودفع عبر NFC."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/1629909613654-28e377c37b09"
+    }
+  }
+}

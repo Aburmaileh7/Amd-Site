@@ -1,0 +1,173 @@
+{
+  "place_id": "ChIJjb1gqRqhHBUR0ebIvm2EIIw",
+  "batch_id": "b202611022030",
+  "slug": "panorama-dental-center",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amd web",
+  "accent": {
+    "hex": "#2F6F9F",
+    "rgb": "47, 111, 159",
+    "hover": "#245A82",
+    "ink": "#FFFFFF"
+  },
+  "name": "Panorama Dental Center",
+  "name_lang": "en",
+  "category_label": "مركز أسنان",
+  "area": "وادي السير، عمّان",
+  "address": "بن محمد 65، مجمع رقم 65، شارع الأميرة تغريد، وادي السير، عمّان",
+  "phone": {
+    "display": "+962 7 9999 3335",
+    "tel": "+962799993335"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Panorama%20Dental%20Center&query_place_id=ChIJjb1gqRqhHBUR0ebIvm2EIIw",
+  "map_query": "Panorama Dental Center, Princess Taghrid St, Wadi Al Seer, Amman, Jordan",
+  "rating": {
+    "value": 4,
+    "count": 37,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "10 ص – 6 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "مركز أسنان في وادي السير، باستقبال يمدحه مراجعوه",
+    "intro": "مركز على شارع الأميرة تغريد يضم تخصصات عدة، من التجميل والتقويم إلى جراحة الفم والتعويضات، ويثني مراجعوه على الاستقبال والفريق.",
+    "image": "dental"
+  },
+  "sections": [
+    "reviews",
+    "menu",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تجميل الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تقويم الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "جراحة الفم والوجه والفكين",
+            "desc": ""
+          },
+          {
+            "name": "تعويضات الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "فحص وعلاج عام للأسنان",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Odai B.",
+      "stars": 5,
+      "text": "من اجمل المراكز استقبال رائع ومعامله أروع وأجمل ابتسامه أشكركم واشكر جهودكم الطيبة",
+      "source_ref": "r5"
+    },
+    {
+      "author": "موسى ا.",
+      "stars": 5,
+      "text": "الدكتور مهند جدا رايع وشغله لا يعلى عليه شكرا للتيم اللطيف جدا",
+      "source_ref": "r6"
+    },
+    {
+      "author": "Abdalrhman A.",
+      "stars": 5,
+      "text": "I highly recommend the panorama Dental Centre for such a Super Treatment, Professional Team & Great Service. They have enough experience than any other dental centre. I & my family tried many dental clinics but unfortunately lost our teeth, time and money. However, this panorama dental clinics is one of the best …",
+      "source_ref": "r8"
+    },
+    {
+      "author": "Mahmoud T.",
+      "stars": 5,
+      "text": "رائعين و شغلكم رهيب",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Adel S.",
+      "stars": 5,
+      "text": "تمنياتي للدكتور مهند وطاقم العياده بالتوفيق",
+      "source_ref": "r2"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "المواعيد مطلوبة",
+        "text": "يلزم تحديد موعد قبل الزيارة."
+      },
+      {
+        "icon": "check",
+        "title": "مواقف سيارات",
+        "text": "مواقف في الموقع ومرآب ومواقف مجانية في الشارع."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة",
+        "text": "بطاقات ائتمان وسحب آلي ودفع عبر NFC."
+      },
+      {
+        "icon": "access",
+        "title": "تسهيلات لذوي الإعاقة الحركية",
+        "text": "أماكن جلوس ودورة مياه تستوعب الكراسي المتحركة."
+      },
+      {
+        "icon": "check",
+        "title": "غرفة رضاعة",
+        "text": "غرفة مخصصة للرضاعة."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/1629909613654-28e377c37b09"
+    }
+  }
+}
