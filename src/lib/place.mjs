@@ -12,6 +12,7 @@ export const ICONS = ['sky', 'calendar', 'bag', 'car', 'access', 'check', 'wifi'
 
 const isStr = (v) => typeof v === 'string' && v.trim().length > 0;
 const UNSPLASH_ID = /^(photo|premium_photo)-[0-9]+-[0-9a-f]+$/;
+const OWN_FILE = /^[a-z0-9-]+\.(jpg|jpeg|png|webp)$/;
 
 export function checkPlace(p, slug) {
   const errors = [];
@@ -34,11 +35,18 @@ export function checkPlace(p, slug) {
   if (p.directions_url) req(/^https:\/\/(www\.)?google\.[a-z.]+\/maps|^https:\/\/maps\.app\.goo\.gl\//.test(p.directions_url), 'directions_url must be a Google Maps https link');
   if (p.rating) req(typeof p.rating.value === 'number' && Number.isInteger(p.rating.count) && isStr(p.rating.source), 'rating needs value, count, source');
 
-  // images: Unsplash ids only, every referenced key must exist
+  // images: an Unsplash id, or the business's own photo (sites/<slug>/img/<file>) with the link of the post it came from.
+  // Every referenced key must exist.
   const imgs = p.images || {};
   for (const [k, v] of Object.entries(imgs)) {
-    req(v && UNSPLASH_ID.test(v.id || ''), `images.${k}.id must be an Unsplash photo id`);
-    req(v && isStr(v.alt) && v.alt.startsWith('صورة توضيحية'), `images.${k}.alt must start with "صورة توضيحية"`);
+    if (v && v.file) {
+      req(OWN_FILE.test(v.file), `images.${k}.file must be a plain lowercase .jpg/.jpeg/.png/.webp name`);
+      req(/^https:\/\//.test(v.source_url || ''), `images.${k}.source_url must be the https link of the business's own post/page`);
+      req(isStr(v.alt) && v.alt.startsWith('صورة من حساب'), `images.${k}.alt must start with "صورة من حساب"`);
+    } else {
+      req(v && UNSPLASH_ID.test(v.id || ''), `images.${k}.id must be an Unsplash photo id (or use file + source_url)`);
+      req(v && isStr(v.alt) && v.alt.startsWith('صورة توضيحية'), `images.${k}.alt must start with "صورة توضيحية"`);
+    }
   }
   const refs = [p.hero?.image, p.amenities?.image, p.visit?.image,
     ...(p.story?.items || []).map((i) => i.image), ...(p.menu?.categories || []).map((c) => c.image)].filter(Boolean);

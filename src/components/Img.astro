@@ -1,13 +1,23 @@
 ---
-// Illustrative Unsplash photo with responsive sizes and the mandatory badge.
+// A site photo with responsive sizes and the mandatory badge. Two kinds:
+// - illustrative Unsplash photo: { id, alt }
+// - the business's own photo from its social media: { file, alt, source_url }, stored in sites/<slug>/img/ and credited on the photo
 const { img, sizes = '100vw', eager = false, cls = '', pos = '50% 50%' } = Astro.props;
-const base = `https://images.unsplash.com/${img.id}?auto=format&fit=crop&q=75`;
-const widths = [640, 960, 1400, 2000];
-const srcset = widths.map(w => `${base}&w=${w} ${w}w`).join(', ');
+const own = import.meta.glob('/sites/*/img/*.{jpg,jpeg,png,webp}', { eager: true, query: '?url', import: 'default' });
+let src, srcset, badge;
+if (img.file) {
+  src = own[`/sites/${Astro.params.slug}/img/${img.file}`];
+  badge = 'من حساب المحل';
+} else {
+  const base = `https://images.unsplash.com/${img.id}?auto=format&fit=crop&q=75`;
+  src = `${base}&w=1400`;
+  srcset = [640, 960, 1400, 2000].map(w => `${base}&w=${w} ${w}w`).join(', ');
+  badge = 'صورة توضيحية';
+}
 ---
 <figure class={`photo ${cls}`}>
-  <img src={`${base}&w=1400`} srcset={srcset} sizes={sizes} alt={img.alt}
+  <img src={src} srcset={srcset} sizes={srcset ? sizes : undefined} alt={img.alt}
        loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : 'auto'} decoding="async"
        style={`object-position:${pos}`} />
-  <span class="photo__badge">صورة توضيحية</span>
+  <span class="photo__badge">{badge}</span>
 </figure>

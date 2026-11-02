@@ -11,7 +11,7 @@ For **each** place:
 1. Pick a slug: latin lowercase with dashes from the name (e.g. `cielo-cafe`). If `sites/<slug>` exists for a *different* place_id, append `-2`.
 2. Write `sites/<slug>/place.json` following `sites/san-rooftop/place.json` (rooftop), `sites/cielo-cafe/place.json` (cafe, full hero), `sites/the-couch-coffee-house/place.json` (cafe, split hero + story). Also store `"place_id"` and `"batch_id"` at the top level.
 3. `npm run validate -- <slug>` must pass. Then `npm run build` and `node scripts/qa.mjs <slug>`. Look at `qa-out/<slug>/*.png` yourself (mobile + desktop) and fix anything that looks broken, empty, cramped or clipped.
-4. Commit `sites/<slug>/place.json` only (never commit dist/ or qa-out/).
+4. Commit `sites/<slug>/place.json` and `sites/<slug>/img/` only (never commit dist/ or qa-out/).
 
 When every place is done: `git pull --rebase` then push. Pushing to `main` deploys. If you can only push to a `claude/...` branch, push there; the workflow merges it into `main` and deploys.
 Finally write a one-line summary per place: slug, theme, URL `https://amd-demos.pages.dev/<slug>/`, and anything the owner should verify.
@@ -32,7 +32,8 @@ Make every site feel specific to *this* place: choose `sections` order, a `story
 - **Mentions** (`mentions`, `"mentioned": true` on menu items): only dishes/drinks named in reviews, one item per entry, ≤ 4 words.
 - **Menu**: real menu is unknown, so it is a *sample*: `"sample": true` + the standard note. Realistic local prices for the category in the place's country currency, from `lead.country` (Jordan د.أ · UAE د.إ · Saudi Arabia ر.س · Qatar ر.ق · Kuwait د.ك · Oman ر.ع · Bahrain د.ب; missing → Jordan). Clinics: services only, no prices, no medical promises.
 - **WhatsApp** only when `lead.whatsapp_confirmed` is `TRUE`.
-- **Images**: Unsplash only, free (not Unsplash+), relevant to the place type; `alt` starts with `صورة توضيحية`. Find ids by fetching `https://unsplash.com/s/photos/<query>` and reading photo ids (`photo-…`). Never use the business's Google photos.
+- **Images — the business's own photos first**: take 3–6 photos from the business's *own* social media or website (Instagram, Facebook, TikTok, their site): food/drinks, the place, their work. Never photos where people's faces are the subject, never customer photos, never Google Maps photos, never another business's photos. Download each, resize to ≤ 1600 px wide and ≤ 600 KB, save as `sites/<slug>/img/<name>.jpg` (lowercase, dashes), and reference it as `{ "file": "<name>.jpg", "alt": "صورة من حساب المحل على إنستغرام: …", "source_url": "<link of that post or page>" }`. These show the badge «من حساب المحل». If the business asks, remove their photos.
+- **Images — fallback**: when the business's own photos aren't reachable (private account, login wall, too few usable ones), use Unsplash: free (not Unsplash+), relevant to the place type; `alt` starts with `صورة توضيحية`. Find ids by fetching `https://unsplash.com/s/photos/<query>` and reading photo ids (`photo-…`). Mixing both kinds on one site is fine.
 - Copy: natural Arabic (Gulf places: neutral Gulf-friendly Arabic, no Jordanian dialect, local area names), concrete details, no empty slogans ("تجربة لا تُنسى", "الأفضل"), headline 4–9 words, intro 15–30 words.
 - Keep `approved: false` (preview banner + noindex). Only the owner's approval changes it.
 

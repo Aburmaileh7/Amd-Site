@@ -1,5 +1,5 @@
 // Validates every sites/<slug>/place.json. Fails the build on errors.
-import { readdirSync, readFileSync, existsSync } from 'node:fs';
+import { readdirSync, readFileSync, existsSync, statSync } from 'node:fs';
 import { checkPlace } from '../src/lib/place.mjs';
 
 const only = process.argv[2];
@@ -12,6 +12,13 @@ for (const slug of slugs) {
   let p;
   try { p = JSON.parse(readFileSync(f, 'utf8')); } catch (e) { console.error(`✗ ${slug}: invalid JSON (${e.message})`); failed++; continue; }
   const { errors, warn } = checkPlace(p, slug);
+  // the business's own photos must exist next to place.json and stay small
+  for (const [k, v] of Object.entries(p.images || {})) {
+    if (!v?.file) continue;
+    const img = `sites/${slug}/img/${v.file}`;
+    if (!existsSync(img)) errors.push(`images.${k}: ${img} not found`);
+    else if (statSync(img).size > 600 * 1024) errors.push(`images.${k}: ${img} is over 600 KB, resize it`);
+  }
   warn.forEach((w) => console.warn(`! ${slug}: ${w}`));
   if (errors.length) { failed++; errors.forEach((e) => console.error(`✗ ${slug}: ${e}`)); }
   else console.log(`✓ ${slug}`);

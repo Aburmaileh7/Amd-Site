@@ -24,6 +24,10 @@ const title = preview ? `تصور تجريبي — ${p.name}` : p.name;
 const SECTION = { story: Story, menu: Menu, proof: Proof, reviews: Reviews, amenities: Amenities, visit: Visit };
 const order = p.sections.filter((s) => SECTION[s]);
 const accentStyle = p.accent ? `--glow:${p.accent.hex};--glow-rgb:${p.accent.rgb};--glow-hover:${p.accent.hover || p.accent.hex};--glow-ink:${p.accent.ink || '#fff'}` : undefined;
+const imgs = Object.values(p.images);
+const photoNote = imgs.some((i) => i.file)
+  ? (imgs.some((i) => !i.file) ? 'بعض الصور من حساب المحل وبعضها توضيحية.' : 'الصور من حساب المحل.')
+  : 'الصور توضيحية.';
 const themeColor = { rooftop_dark: '#0D0E11', cafe_light: '#F7F3EC', heritage_warm: '#F2E8D8', clinic_clean: '#F4F8F8' }[p.theme];
 ---
 <!doctype html>
@@ -40,7 +44,7 @@ const themeColor = { rooftop_dark: '#0D0E11', cafe_light: '#F7F3EC', heritage_wa
 </head>
 <body>
   <a class="skip" href="#main">تخطَّ إلى المحتوى</a>
-  {preview && <div class="preview-bar" role="note">{p.banner} الصور توضيحية.</div>}
+  {preview && <div class="preview-bar" role="note">{p.banner} {photoNote}</div>}
 
   <header class="site-header" data-header>
     <div class="wrap site-header__in">
