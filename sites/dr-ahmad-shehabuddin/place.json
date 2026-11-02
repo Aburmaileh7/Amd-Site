@@ -1,0 +1,181 @@
+{
+  "place_id": "ChIJoQ7o1f6gHBURsk1_ONKv7Z0",
+  "slug": "dr-ahmad-shehabuddin",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#1E7F86",
+    "rgb": "30, 127, 134",
+    "hover": "#17656B",
+    "ink": "#FFFFFF"
+  },
+  "name": "الدكتور أحمد شهاب الدين",
+  "name_lang": "ar",
+  "category_label": "عيادة أسنان: زراعة وتجميل",
+  "area": "زهران، عمّان",
+  "address": "شارع كمال جنبلاط، زهران، عمّان",
+  "phone": {
+    "display": "+962 7 9567 6446",
+    "tel": "+962795676446"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D8%A7%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1%20%D8%A7%D8%AD%D9%85%D8%AF%20%D8%B4%D9%87%D8%A7%D8%A8%20%D8%A7%D9%84%D8%AF%D9%8A%D9%86%20Doctor%20%D8%B7%D8%A8%D9%8A%D8%A8%20%D8%A7%D8%B3%D9%86%D8%A7%D9%86%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%20%D8%B2%D8%B1%D8%A7%D8%B9%D8%A9%20%D8%A7%D8%B3%D9%86%D8%A7%D9%86%20%D8%AA%D8%AC%D9%85%D9%8A%D9%84%20%D8%A7%D8%B3%D9%86%D8%A7%D9%86&query_place_id=ChIJoQ7o1f6gHBURsk1_ONKv7Z0",
+  "map_query": "Dr Ahmad Shehabuddin dental clinic, Kamal Junblatt St, Amman, Jordan",
+  "rating": {
+    "value": 4.9,
+    "count": 526,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "9 ص – 7 م"
+      },
+      {
+        "days": "الخميس",
+        "time": "9 ص – 3 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "عيادة أسنان في زهران، زراعة وتجميل",
+    "intro": "عيادة الدكتور أحمد شهاب الدين في شارع كمال جنبلاط، تختص بزراعة الأسنان وتجميلها، وتستقبل الكبار والأطفال بمواعيد مسبقة.",
+    "image": "dental"
+  },
+  "sections": [
+    "menu",
+    "proof",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "زراعة الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تجميل الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تقويم الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "طب أسنان الأطفال",
+            "desc": ""
+          },
+          {
+            "name": "علاج دواعم الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تعويضات الأسنان",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Maria J.",
+      "stars": 5,
+      "text": "Best dentist in Amman! Apart from extremely skilled he is caring and responds immediately.",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Hatem H.",
+      "stars": 5,
+      "text": "دكتور ممتاز وكل شغله مية ب المية وأنصحكم بزيارة الدكتور احمد شهاب جدا وزراعة الأسنان ممتازة جدا وبدون اي ألم",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Afaf H.",
+      "stars": 5,
+      "text": "ولطف بالتعامل من جميع الكادر الموجود مع الدكتور ...والمكان هادئ ونظيف جدا ... والمواعيد دقيقه ... شكرا من القلب",
+      "source_ref": "r6"
+    },
+    {
+      "author": "Njoud H.",
+      "stars": 5,
+      "text": "تجربة رائعه جدا .. عملنا زراعة ناب و طاحونة و الدكتور كان جدا مبدع ايدو خفيفه و بشتغل بضمير و يسمع المريض",
+      "source_ref": "r8"
+    },
+    {
+      "author": "Aida K.",
+      "stars": 5,
+      "text": "عمل ممتاز ونظافه عاليه… اتقان في زراعه الاسنان واجهزه حديثه",
+      "source_ref": "r9"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental2",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "المواعيد مطلوبة",
+        "text": "يُوصى بحجز موعد قبل الزيارة."
+      },
+      {
+        "icon": "family",
+        "title": "رعاية للأطفال",
+        "text": ""
+      },
+      {
+        "icon": "access",
+        "title": "مهيأة للكراسي المتحركة",
+        "text": "مدخل وموقف ومقاعد."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف سيارات",
+        "text": "في الموقع وفي الشارع، بعضها مدفوع."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة والجوال",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental2"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/1629909613654-28e377c37b09"
+    }
+  },
+  "batch_id": "b202611020640"
+}

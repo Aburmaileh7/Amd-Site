@@ -1,0 +1,154 @@
+{
+  "place_id": "ChIJD5HqttehHBUR31-ylyKkuas",
+  "slug": "jarrar-dental-clinics",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#24508C",
+    "rgb": "36, 80, 140",
+    "hover": "#1B3E6D",
+    "ink": "#FFFFFF"
+  },
+  "name": "عيادات جرار لطب الأسنان",
+  "name_lang": "en",
+  "category_label": "عيادة أسنان",
+  "area": "العبدلي، عمّان",
+  "address": "شارع أديب وهبة 29، العبدلي، عمّان",
+  "phone": {
+    "display": "+962 7 8771 6666",
+    "tel": "+962787716666"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Jarrar%20Dental%20Clinics%20%28Dr.Tareq%20Jarrar%20%26%20Dr.Amer%20Jarrar%29&query_place_id=ChIJD5HqttehHBUR31-ylyKkuas",
+  "map_query": "Jarrar Dental Clinics, Adeeb Wahbeh St, Amman, Jordan",
+  "rating": {
+    "value": 5,
+    "count": 427,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "9 ص – 6 م"
+      },
+      {
+        "days": "الخميس",
+        "time": "9 ص – 3 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "عيادات جرار، أسنان بإشراف د. طارق ود. عامر",
+    "intro": "عيادة أسنان في العبدلي بإشراف الدكتور طارق جرار والدكتور عامر جرار، تعمل بمواعيد مسبقة من التاسعة صباحًا.",
+    "image": "dental2"
+  },
+  "sections": [
+    "menu",
+    "proof",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "فحص واستشارة",
+            "desc": "شرح للحالة وخيارات العلاج."
+          },
+          {
+            "name": "زراعة الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تنظيف الأسنان وإزالة الجير",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Majd A.",
+      "stars": 5,
+      "text": "Dr. Amer Jarrar made the entire experience smooth and pain-free! I’m very happy with the results and the clinic staff are so lovely and welcoming.",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Sarah A.",
+      "stars": 5,
+      "text": "Super clean and amazing staff and service",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Mira A.",
+      "stars": 5,
+      "text": "Dr. Amer is highly specialised and knowledgeable. Lovely staff members.",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Elham K.",
+      "stars": 5,
+      "text": "I had the best experience with dr tareq he only recommends what you really need explains everything clearly and truly cares about his patients",
+      "source_ref": "r6"
+    },
+    {
+      "author": "Layan S.",
+      "stars": 5,
+      "text": "احسن عياده واحسن مركز واحسن تعامل و الطف دكتور… و عنجد ما حسيت ابداا بالوجع شكرا كتير دكتور طارق و عامر جرار",
+      "source_ref": "r10"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental2",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "المواعيد مطلوبة",
+        "text": "يُوصى بحجز موعد قبل الزيارة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة والجوال",
+        "text": "بطاقات ائتمان وسحب آلي وNFC."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental2"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/1629909613654-28e377c37b09"
+    }
+  },
+  "batch_id": "b202611020640"
+}

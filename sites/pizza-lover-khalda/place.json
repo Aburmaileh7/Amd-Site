@@ -1,0 +1,261 @@
+{
+  "place_id": "ChIJhcCBYPChHBURW3UPRRDBleU",
+  "slug": "pizza-lover-khalda",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full"
+  },
+  "accent": {
+    "hex": "#C8372D",
+    "rgb": "200, 55, 45",
+    "hover": "#A82B22",
+    "ink": "#FFFFFF"
+  },
+  "name": "Pizza Lover",
+  "name_lang": "en",
+  "category_label": "مطعم بيتزا",
+  "area": "تلاع العلي، عمّان",
+  "address": "شارع زهير صالحي، تلاع العلي، عمّان",
+  "phone": {
+    "display": "+962 6 500 5700",
+    "tel": "+96265005700"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Pizza%20lover%20khalda&query_place_id=ChIJhcCBYPChHBURW3UPRRDBleU",
+  "map_query": "Pizza lover khalda, Zuheir Salhi St, Amman, Jordan",
+  "rating": {
+    "value": 4.2,
+    "count": 253,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "12 م – 12 ص"
+      }
+    ],
+    "per_day": 12,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "بيتزا من الظهر حتى منتصف الليل في تلاع العلي",
+    "intro": "مطعم بيتزا في تلاع العلي يفتح يوميًا من الثانية عشرة ظهرًا حتى منتصف الليل، مع توصيل وطلب سفري ومواقف مجانية.",
+    "image": "pizza"
+  },
+  "sections": [
+    "menu",
+    "proof",
+    "reviews",
+    "story",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "من 12 ظهرًا حتى 12 ليلًا",
+    "title": "ساعات البيتزا",
+    "items": [
+      {
+        "time": "12:00 م",
+        "label": "الغداء",
+        "title": "غداء سريع",
+        "text": "يفتح المطعم عند الثانية عشرة ظهرًا، والغداء من خيارات تناول الطعام فيه.",
+        "image": "table"
+      },
+      {
+        "time": "مساءً",
+        "label": "العشاء",
+        "title": "عشاء مع الأصدقاء",
+        "text": "العشاء هو الوقت الذي يشتهر به المكان على Google، وأجواؤه خفيفة ويرتاده طلاب الجامعات.",
+        "image": "pizza2"
+      },
+      {
+        "time": "12:00 ص",
+        "label": "آخر الليل",
+        "title": "أكل متأخر أو توصيل",
+        "text": "تتوفر وجبات في ساعات متأخرة من الليل، إضافة إلى التوصيل والطلب السفري.",
+        "image": "candle"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "بيتزا وإضافات",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للطلب والتوصيل",
+    "categories": [
+      {
+        "id": "pizza",
+        "title": "البيتزا",
+        "tagline": "حجم وسط",
+        "image": "pizza",
+        "items": [
+          {
+            "name": "مارجريتا",
+            "desc": "جبنة موزاريلا وصلصة طماطم.",
+            "price": 4.5
+          },
+          {
+            "name": "بيتزا خضار",
+            "desc": "فطر وفلفل وزيتون وذرة.",
+            "price": 5.5
+          },
+          {
+            "name": "بيتزا دجاج",
+            "desc": "دجاج مع فطر وجبنة.",
+            "price": 6.5
+          },
+          {
+            "name": "بيتزا بيبروني",
+            "desc": "",
+            "price": 6.5
+          },
+          {
+            "name": "بيتزا مشكّل لحوم",
+            "desc": "",
+            "price": 7.5
+          }
+        ]
+      },
+      {
+        "id": "sides",
+        "title": "مقبلات",
+        "tagline": "للمشاركة",
+        "image": "pizza2",
+        "items": [
+          {
+            "name": "أصابع جبنة",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "خبز بالثوم",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "سلطة خضراء",
+            "desc": "",
+            "price": 2.5
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "مشروبات",
+        "tagline": "",
+        "image": "table",
+        "items": [
+          {
+            "name": "مشروب غازي",
+            "desc": "",
+            "price": 1.0
+          },
+          {
+            "name": "عصير",
+            "desc": "",
+            "price": 1.75
+          },
+          {
+            "name": "ماء",
+            "desc": "",
+            "price": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "البيتزا"
+  ],
+  "reviews": [
+    {
+      "author": "Seren H.",
+      "stars": 5,
+      "text": "البيتزا زاكية و السعر مناسب كتير",
+      "source_ref": "r1"
+    },
+    {
+      "author": "اشرف ع.",
+      "stars": 5,
+      "text": "مطعم رائع واكله كتير زاكي بنصح فيه يستحق التجربه",
+      "source_ref": "r3"
+    },
+    {
+      "author": "Tareq Y.",
+      "stars": 5,
+      "text": "ازكى بيتزا بالاردن",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Odeh S.",
+      "stars": 5,
+      "text": "THE best pizza in whole amman",
+      "source_ref": "r7"
+    },
+    {
+      "author": "Joseph A.",
+      "stars": 5,
+      "text": "Great tasty ❤️",
+      "source_ref": "r5"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": "table",
+    "items": [
+      {
+        "icon": "bag",
+        "title": "توصيل وطلب سفري",
+        "text": ""
+      },
+      {
+        "icon": "clock",
+        "title": "وجبات حتى منتصف الليل",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": "مواقف سيارات كثيرة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة والجوال",
+        "text": "بطاقات ائتمان وسحب آلي وNFC."
+      }
+    ]
+  },
+  "visit": {
+    "image": "candle"
+  },
+  "images": {
+    "pizza": {
+      "id": "photo-1513104890138-7c749659a591",
+      "alt": "صورة توضيحية: بيتزا ساخنة على طاولة",
+      "page": "https://unsplash.com/photos/1513104890138-7c749659a591"
+    },
+    "pizza2": {
+      "id": "photo-1565299624946-b28f40a0ae38",
+      "alt": "صورة توضيحية: بيتزا بالجبنة والزيتون",
+      "page": "https://unsplash.com/photos/1565299624946-b28f40a0ae38"
+    },
+    "table": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات",
+      "page": "https://unsplash.com/photos/1704742205592-15191a615455"
+    },
+    "candle": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/1775340965364-64be29c25f1c"
+    }
+  },
+  "batch_id": "b202611020640"
+}

@@ -1,0 +1,305 @@
+{
+  "place_id": "ChIJBfFezS6hHBURtbDnzqP8s7o",
+  "slug": "antika-cafe",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "split"
+  },
+  "accent": {
+    "hex": "#7A4B3A",
+    "rgb": "122, 75, 58",
+    "hover": "#613A2D",
+    "ink": "#FFFFFF"
+  },
+  "name": "Antika Café",
+  "name_lang": "en",
+  "category_label": "مطعم وكافيه",
+  "area": "تلاع العلي، عمّان",
+  "address": "شارع وصفي التل 324، تلاع العلي، عمّان",
+  "phone": {
+    "display": "+962 7 9988 8727",
+    "tel": "+962799888727"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Antika%20Caf%C3%A9&query_place_id=ChIJBfFezS6hHBURtbDnzqP8s7o",
+  "map_query": "Antika Café, Wasfi Al Tal St, Amman, Jordan",
+  "rating": {
+    "value": 4.3,
+    "count": 230,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "9 ص – 1 ص"
+      }
+    ],
+    "per_day": 16,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "فطور وقهوة وحلويات على شارع وصفي التل",
+    "intro": "مطعم وكافيه في تلاع العلي بجلسات داخلية وخارجية، يقدّم الفطور والغداء والعشاء والحلويات، ويفتح يوميًا من التاسعة صباحًا حتى الواحدة بعد منتصف الليل.",
+    "image": "inside"
+  },
+  "sections": [
+    "menu",
+    "reviews",
+    "amenities",
+    "story",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "من 9 ص حتى 1 ص",
+    "title": "يوم في أنتيكا",
+    "items": [
+      {
+        "time": "9:00 ص",
+        "label": "صباحًا",
+        "title": "فطور وإفطار متأخر",
+        "text": "يفتح المكان في التاسعة صباحًا ويقدّم الفطور والإفطار المتأخر، ويُعرف بقهوته وتشكيلة الشاي.",
+        "image": "hot"
+      },
+      {
+        "time": "ظهرًا",
+        "label": "منتصف اليوم",
+        "title": "غداء وحلويات",
+        "text": "الغداء والحلويات من خيارات الطعام، مع جلسات داخل المكان وأخرى في الهواء الطلق.",
+        "image": "cake"
+      },
+      {
+        "time": "1:00 ص",
+        "label": "مساءً",
+        "title": "عشاء وسهرة هادئة",
+        "text": "العشاء والمشروبات حتى الواحدة صباحًا، بأجواء عصرية ومريحة ويقبل الحجوزات.",
+        "image": "outdoor"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "من الفطور إلى الحلويات",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والاستفسار",
+    "categories": [
+      {
+        "id": "breakfast",
+        "title": "الفطور",
+        "tagline": "حتى وقت متأخر",
+        "image": "hot",
+        "items": [
+          {
+            "name": "صحن فطور",
+            "desc": "بيض ولبنة وزيتون وخبز.",
+            "price": 6.5
+          },
+          {
+            "name": "شكشوكة",
+            "desc": "",
+            "price": 5.0
+          },
+          {
+            "name": "أومليت جبنة",
+            "desc": "",
+            "price": 4.5
+          },
+          {
+            "name": "كرواسون",
+            "desc": "سادة أو بالجبنة.",
+            "price": 2.5
+          }
+        ]
+      },
+      {
+        "id": "mains",
+        "title": "وجبات رئيسية",
+        "tagline": "غداء وعشاء",
+        "image": "work",
+        "items": [
+          {
+            "name": "برغر دجاج",
+            "desc": "",
+            "price": 7.5
+          },
+          {
+            "name": "باستا كريمة",
+            "desc": "",
+            "price": 8.0
+          },
+          {
+            "name": "ستيك دجاج",
+            "desc": "",
+            "price": 9.5
+          },
+          {
+            "name": "سلطة سيزر",
+            "desc": "",
+            "price": 6.0
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "قهوة وشاي",
+        "tagline": "ساخن وبارد",
+        "image": "cold",
+        "items": [
+          {
+            "name": "إسبريسو",
+            "desc": "",
+            "price": 2.25
+          },
+          {
+            "name": "لاتيه",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "آيس لاتيه",
+            "desc": "",
+            "price": 3.75
+          },
+          {
+            "name": "شاي بالنعناع",
+            "desc": "إبريق.",
+            "price": 2.5
+          }
+        ]
+      },
+      {
+        "id": "sweet",
+        "title": "حلويات",
+        "tagline": "",
+        "image": "cake",
+        "items": [
+          {
+            "name": "كعكة شوكولاتة",
+            "desc": "",
+            "price": 4.5
+          },
+          {
+            "name": "تشيز كيك",
+            "desc": "",
+            "price": 4.5
+          },
+          {
+            "name": "وافل",
+            "desc": "",
+            "price": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Hanin A.",
+      "stars": 5,
+      "text": "Went here with my family and had the best time. We ordered a lot of food and drinks, and every single thing was so good! The staff are really sweet, the service was perfect…",
+      "source_ref": "r3"
+    },
+    {
+      "author": "Khaled F.",
+      "stars": 4,
+      "text": "رائع وخدمة مميزة ❤️",
+      "source_ref": "r7"
+    },
+    {
+      "author": "Qassem K.",
+      "stars": 5,
+      "text": "مكان ممتاز وخدمة عالية وطعام رائع بعد التحديث",
+      "source_ref": "r8"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": "outdoor",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات داخلية وخارجية",
+        "text": ""
+      },
+      {
+        "icon": "wifi",
+        "title": "واي فاي مجاني",
+        "text": ""
+      },
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجوزات",
+        "text": ""
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للعائلات والمجموعات",
+        "text": ""
+      },
+      {
+        "icon": "bag",
+        "title": "توصيل وطلب سفري",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": ""
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": "مدخل ودورة مياه."
+      }
+    ]
+  },
+  "visit": {
+    "image": "exterior"
+  },
+  "images": {
+    "inside": {
+      "id": "photo-1511081692775-05d0f180a065",
+      "alt": "صورة توضيحية: داخل كافيه بإضاءة معلقة وطاولة",
+      "page": "https://unsplash.com/photos/1511081692775-05d0f180a065"
+    },
+    "hot": {
+      "id": "photo-1690983326252-ce6205fb7055",
+      "alt": "صورة توضيحية: كوب قهوة بين حبوب البن",
+      "page": "https://unsplash.com/photos/1690983326252-ce6205fb7055"
+    },
+    "cake": {
+      "id": "photo-1517427294546-5aa121f68e8a",
+      "alt": "صورة توضيحية: قطعة كعكة شوكولاتة",
+      "page": "https://unsplash.com/photos/1517427294546-5aa121f68e8a"
+    },
+    "outdoor": {
+      "id": "photo-1783272547883-353cfdb9e71b",
+      "alt": "صورة توضيحية: جلسات كافيه خارجية تحت الأشجار",
+      "page": "https://unsplash.com/photos/1783272547883-353cfdb9e71b"
+    },
+    "cold": {
+      "id": "photo-1717603545758-88cc454db69b",
+      "alt": "صورة توضيحية: آيس ماتشا لاتيه على طاولة خشبية",
+      "page": "https://unsplash.com/photos/1717603545758-88cc454db69b"
+    },
+    "work": {
+      "id": "photo-1743389412243-7dbfdf6c48dd",
+      "alt": "صورة توضيحية: عمل على لابتوب بجانب قهوة",
+      "page": "https://unsplash.com/photos/1743389412243-7dbfdf6c48dd"
+    },
+    "exterior": {
+      "id": "photo-1779442563698-11fad08a733e",
+      "alt": "صورة توضيحية: واجهة كافيه بجلسات خارجية ومظلات",
+      "page": "https://unsplash.com/photos/1779442563698-11fad08a733e"
+    }
+  },
+  "batch_id": "b202611020640"
+}
