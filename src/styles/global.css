@@ -70,6 +70,58 @@
   --display-weight: 500; --radius: 10px;
   color-scheme: light;
 }
+[data-theme="beauty_soft"] {
+  --bg: #FAF3F1; --bg-rgb: 250, 243, 241;
+  --surface: #F3E6E2; --surface-2: #EAD7D1;
+  --ink: #2E1D24; --ink-rgb: 46, 29, 36;
+  --muted: #76606A;
+  --line: rgba(46, 29, 36, .12);
+  --glow: #8E3B5B; --glow-rgb: 142, 59, 91; --glow-ink: #FFFFFF; --glow-hover: #78304C;
+  --font-d: "Readex Pro", "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-b: "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-ui: "Readex Pro", "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --display-weight: 300; --radius: 28px;
+  color-scheme: light;
+}
+[data-theme="bakery_cream"] {
+  --bg: #FBF5EA; --bg-rgb: 251, 245, 234;
+  --surface: #F4E9D6; --surface-2: #EBDAC0;
+  --ink: #3A2516; --ink-rgb: 58, 37, 22;
+  --muted: #7A634F;
+  --line: rgba(58, 37, 22, .13);
+  --glow: #B5652B; --glow-rgb: 181, 101, 43; --glow-ink: #FFFFFF; --glow-hover: #9A5523;
+  --font-d: "Reem Kufi", "IBM Plex Sans Arabic", sans-serif;
+  --font-b: "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-ui: "Readex Pro", "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --display-weight: 500; --radius: 22px;
+  color-scheme: light;
+}
+[data-theme="services_pro"] {
+  --bg: #F5F6F8; --bg-rgb: 245, 246, 248;
+  --surface: #FFFFFF; --surface-2: #E7EAF0;
+  --ink: #141B2D; --ink-rgb: 20, 27, 45;
+  --muted: #545E73;
+  --line: rgba(20, 27, 45, .12);
+  --glow: #2347A8; --glow-rgb: 35, 71, 168; --glow-ink: #FFFFFF; --glow-hover: #1C398A;
+  --font-d: "Alexandria", "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-b: "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-ui: "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --display-weight: 500; --radius: 8px;
+  color-scheme: light;
+}
+[data-theme="gulf_luxe"] {
+  --bg: #121010; --bg-rgb: 18, 16, 16;
+  --surface: #1C1917; --surface-2: #26211D;
+  --ink: #F3EADB; --ink-rgb: 243, 234, 219;
+  --muted: #B0A491;
+  --line: rgba(243, 234, 219, .12);
+  --glow: #C9A45C; --glow-rgb: 201, 164, 92; --glow-ink: #17120A; --glow-hover: #D8B670;
+  --font-d: "Reem Kufi", "Noto Naskh Arabic", serif;
+  --font-b: "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-ui: "Alexandria", "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --display-weight: 500; --radius: 4px;
+  color-scheme: dark;
+}
 :root { --maxw: 1200px; --gutter: clamp(16px, 4vw, 40px); --ease: cubic-bezier(.2, .7, .1, 1); }
 
 *, *::before, *::after { box-sizing: border-box; }

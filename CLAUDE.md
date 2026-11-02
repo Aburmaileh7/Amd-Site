@@ -22,7 +22,13 @@ Finally write a one-line summary per place: slug, theme, URL `https://amd-demos.
 | `rooftop_dark` | rooftops, evening venues, lounges, places open late with views/terraces | full hero, horizontal pinned story |
 | `cafe_light` | cafes, bakeries, dessert shops, study cafes | split hero, stacked story (use `layout.hero: "full"` for terrace/outdoor-led cafes) |
 | `heritage_warm` | local/popular restaurants, breakfast/foul/falafel, grills, traditional food | full hero, stacked story |
-| `clinic_clean` | dental clinics | split hero; `menu.kind: "services"` (no prices); no story, no shisha, no mentions |
+| `clinic_clean` | dental and other medical clinics | split hero; `menu.kind: "services"` (no prices); no story, no shisha, no mentions |
+| `beauty_soft` | salons, beauty centers, spas, henna, nails, barbers | split hero; `menu.kind: "services"`; story from what clients praise |
+| `bakery_cream` | bakeries, patisseries, dessert and cake shops | split hero, stacked story |
+| `services_pro` | law offices, training centers, agencies, startups, any non-food business | split hero; `menu.kind: "services"` (no prices); no mentions |
+| `gulf_luxe` | upscale restaurants, specialty cafés and lounges in the Gulf, majlis-style places | full hero, horizontal pinned story |
+
+Every theme gets the same motion (hero entrance, scroll reveals, parallax, counters, and the pinned horizontal story when `layout.story: "horizontal"`). Use the horizontal story when the place has 3+ strong story items, so the page moves more.
 
 Make every site feel specific to *this* place: choose `sections` order, a `story` built from what reviews repeat (opening hours, signature items, seating), and optionally an `accent` (`{hex, rgb, hover, ink}`) that fits the place's name or mood. Two sites of the same theme must not look identical: vary accent, hero layout, story and section order.
 

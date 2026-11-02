@@ -28,7 +28,8 @@ const imgs = Object.values(p.images);
 const photoNote = imgs.some((i) => i.file)
   ? (imgs.some((i) => !i.file) ? 'بعض الصور من حساب المحل وبعضها توضيحية.' : 'الصور من حساب المحل.')
   : 'الصور توضيحية.';
-const themeColor = { rooftop_dark: '#0D0E11', cafe_light: '#F7F3EC', heritage_warm: '#F2E8D8', clinic_clean: '#F4F8F8' }[p.theme];
+const themeColor = { rooftop_dark: '#0D0E11', cafe_light: '#F7F3EC', heritage_warm: '#F2E8D8', clinic_clean: '#F4F8F8',
+  beauty_soft: '#FAF3F1', bakery_cream: '#FBF5EA', services_pro: '#F5F6F8', gulf_luxe: '#121010' }[p.theme];
 ---
 <!doctype html>
 <html lang="ar" dir="rtl" data-theme={p.theme} style={accentStyle}>

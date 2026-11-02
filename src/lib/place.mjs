@@ -5,7 +5,11 @@ export const THEMES = {
   rooftop_dark:  { hero: 'full',  story: 'horizontal', label: 'روف توب / سهرات' },
   cafe_light:    { hero: 'split', story: 'stack',      label: 'كافيه هادئ' },
   heritage_warm: { hero: 'full',  story: 'stack',      label: 'مطعم شعبي' },
-  clinic_clean:  { hero: 'split', story: 'stack',      label: 'عيادة أسنان' }
+  clinic_clean:  { hero: 'split', story: 'stack',      label: 'عيادة أسنان' },
+  beauty_soft:   { hero: 'split', story: 'stack',      label: 'صالون وتجميل' },
+  bakery_cream:  { hero: 'split', story: 'stack',      label: 'مخبز وحلويات' },
+  services_pro:  { hero: 'split', story: 'stack',      label: 'خدمات وشركات' },
+  gulf_luxe:     { hero: 'full',  story: 'horizontal', label: 'مطعم أو مقهى فاخر' }
 };
 export const SECTIONS = ['story', 'menu', 'proof', 'reviews', 'amenities', 'visit'];
 export const ICONS = ['sky', 'calendar', 'bag', 'car', 'access', 'check', 'wifi', 'tree', 'family', 'clock', 'tooth', 'shield', 'coffee'];
