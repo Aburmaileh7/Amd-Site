@@ -1,0 +1,167 @@
+{
+  "place_id": "ChIJH9kWEJ1fGxURTS-IUSnyP5M",
+  "slug": "dr-mustafa-abdelrazzaq-dental-center",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#2F6B5E",
+    "rgb": "47, 107, 94",
+    "hover": "#235247",
+    "ink": "#FFFFFF"
+  },
+  "name": "مركز د. مصطفى عبدالرازق لطب وتجميل الأسنان",
+  "name_lang": "ar",
+  "category_label": "عيادة أسنان وتجميل",
+  "area": "وادي السير، عمّان",
+  "address": "شارع الوكالات، وادي السير، عمّان",
+  "phone": {
+    "display": "+962 7 9561 6067",
+    "tel": "+962795616067"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D8%AF.%20%D9%85%D8%B5%D8%B7%D9%81%D9%89%20%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%B1%D8%A7%D8%B2%D9%82%20%D9%84%D8%B7%D8%A8%20%D9%88%D8%AA%D8%AC%D9%85%D9%8A%D9%84%20%D8%A7%D9%84%D8%A7%D8%B3%D9%86%D8%A7%D9%86&query_place_id=ChIJH9kWEJ1fGxURTS-IUSnyP5M",
+  "map_query": "Dr Mustafa Abdelrazzaq dental center, Al Wakalat St, Wadi Al Seer, Amman, Jordan",
+  "rating": {
+    "value": 4.9,
+    "count": 250,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "10 ص – 10 م"
+      },
+      {
+        "days": "الخميس",
+        "time": "10 ص – 5 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "تجميل أسنان بنتائج طبيعية في وادي السير",
+    "intro": "مركز الدكتور مصطفى عبدالرازق في شارع الوكالات، يختص بطب الأسنان وتجميلها وزراعتها، ويستقبل مراجعيه حتى العاشرة مساءً.",
+    "image": "dental2"
+  },
+  "sections": [
+    "menu",
+    "proof",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "فحص واستشارة",
+            "desc": "شرح للحالة وخيارات العلاج."
+          },
+          {
+            "name": "تجميل الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "زراعة الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تقويم الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "خدمة طوارئ الأسنان",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Broxel A.",
+      "stars": 5,
+      "text": "افضل دكتور اسنان عن تجربة الله يقويك دكتورنا الغالي",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Noor K.",
+      "stars": 5,
+      "text": "Kind, respectful and professional.",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Meena J.",
+      "stars": 5,
+      "text": "Friendly doctor, great listener and did a very good job helping me.",
+      "source_ref": "r4"
+    },
+    {
+      "author": "omar a.",
+      "stars": 5,
+      "text": "من أفضل أطباء تجميل الأسنان. عمل متقن، نتائج طبيعية، وتعامل راقٍ واحترافي. سعيد جدًا بالنتيجة وأنصح به بكل ثقة.",
+      "source_ref": "r5"
+    },
+    {
+      "author": "ghaidaa g.",
+      "stars": 5,
+      "text": "اشكر الدكتور على حسن تعاملة واهتمامه بالمريض وتفاصيل الحالة والدقة بالعمل",
+      "source_ref": "r7"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental2",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "المواعيد مُوصى بها",
+        "text": "يُفضّل حجز موعد قبل الزيارة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة والجوال",
+        "text": "بطاقات ائتمان وسحب آلي وNFC."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف قريبة",
+        "text": "موقف مجاني على الشارع، ومرآب مدفوع."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental2"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/1629909613654-28e377c37b09"
+    }
+  },
+  "batch_id": "b202611020650"
+}

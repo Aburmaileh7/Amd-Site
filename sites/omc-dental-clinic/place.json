@@ -1,0 +1,166 @@
+{
+  "place_id": "ChIJWw2kmmahHBURX_JFjnBOHpQ",
+  "slug": "omc-dental-clinic",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#1F5F8B",
+    "rgb": "31, 95, 139",
+    "hover": "#184B6F",
+    "ink": "#FFFFFF"
+  },
+  "name": "عيادة OMC للأسنان – د. محمد العودات",
+  "name_lang": "ar",
+  "category_label": "عيادة أسنان متعددة الاختصاصات",
+  "area": "زهران، عمّان",
+  "address": "شارع الأميرة بسمة، زهران، عمّان",
+  "phone": {
+    "display": "+962 7 9901 8833",
+    "tel": "+962799018833"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Omc%20dental%20clinic-%D8%AF%D9%83%D8%AA%D9%88%D8%B1%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D8%B9%D9%88%D8%AF%D8%A7%D8%AA&query_place_id=ChIJWw2kmmahHBURX_JFjnBOHpQ",
+  "map_query": "Omc dental clinic, Princess Basma St, Amman, Jordan",
+  "rating": {
+    "value": 5,
+    "count": 32,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "10 ص – 6 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "د. محمد العودات: أسنان للكبار والصغار في زهران",
+    "intro": "عيادة OMC في شارع الأميرة بسمة تجمع التجميل والزراعة والتقويم وأسنان الأطفال، ويصفها مراجعوها بالدقة والالتزام بالمواعيد.",
+    "image": "dental2"
+  },
+  "sections": [
+    "menu",
+    "proof",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تجميل الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "زراعة الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تقويم الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "أسنان الأطفال",
+            "desc": ""
+          },
+          {
+            "name": "علاج العصب",
+            "desc": ""
+          },
+          {
+            "name": "تبييض الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "خدمات الطوارئ",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Haneen D.",
+      "stars": 5,
+      "text": "كل الشكر والتقدير لدكتور محمد العودات احترافيه عاليه ، عناية واهتمام بأدق التفاصيل وتعامل راقٍ، أنصح به بكل ثقة",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Rana M.",
+      "stars": 5,
+      "text": "ابداع واتقان في العمل والتزام كبير في كل المواعيد",
+      "source_ref": "r3"
+    },
+    {
+      "author": "aseel a.",
+      "stars": 5,
+      "text": "من اروع واشطر الدكاترة ما شاء الله من كل النواحي خدمة وتعامل ومصداقية",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Salam M.",
+      "stars": 5,
+      "text": "مشالله عليه دكتور متمكن سريع وشاطر واسلوبه رائع مع الكبار والصغار",
+      "source_ref": "r7"
+    },
+    {
+      "author": "Hussein M.",
+      "stars": 5,
+      "text": "شكراً دكتور من القلب، إيدك خفيفة و احترافية بالشغل",
+      "source_ref": "r2"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental2",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "الحجز بموعد",
+        "text": "تحديد موعد مطلوب قبل الزيارة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة",
+        "text": "بطاقات ائتمان."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental2"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/1629909613654-28e377c37b09"
+    }
+  },
+  "batch_id": "b202611020650"
+}

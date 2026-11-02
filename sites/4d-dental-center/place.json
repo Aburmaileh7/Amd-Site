@@ -1,0 +1,158 @@
+{
+  "place_id": "ChIJY5P3hAChHBURn6zxRvW3xjk",
+  "slug": "4d-dental-center",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#5B4B8A",
+    "rgb": "91, 75, 138",
+    "hover": "#493B6F",
+    "ink": "#FFFFFF"
+  },
+  "name": "4D Dental Center",
+  "name_lang": "en",
+  "category_label": "مركز أسنان متعدد التخصصات",
+  "area": "وادي السير، عمّان",
+  "address": "ميدان الأمير طلال بن محمد، وادي السير، عمّان",
+  "phone": {
+    "display": "+962 7 9045 1107",
+    "tel": "+962790451107"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=4D%20Dental%20center&query_place_id=ChIJY5P3hAChHBURn6zxRvW3xjk",
+  "map_query": "4D Dental center, Prince Talal bin Mohammad Square, Amman, Jordan",
+  "rating": {
+    "value": 4.7,
+    "count": 67,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "9:30 ص – 7 م"
+      },
+      {
+        "days": "الخميس",
+        "time": "9:30 ص – 1:30 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "مركز أسنان لكل التخصصات للكبار والأطفال",
+    "intro": "4D Dental Center في ميدان الأمير طلال بن محمد، فريق أطباء بتخصصات متعددة يتابع مراجعيه منذ سنوات بمواعيد مسبقة.",
+    "image": "dental"
+  },
+  "sections": [
+    "menu",
+    "proof",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "فحص واستشارة",
+            "desc": "شرح للحالة وخطوات العلاج."
+          },
+          {
+            "name": "أسنان الأطفال",
+            "desc": ""
+          },
+          {
+            "name": "أسنان الكبار",
+            "desc": ""
+          },
+          {
+            "name": "بوتوكس العضلة الماضغة",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Kholoud D.",
+      "stars": 5,
+      "text": "Doctor Salah is the best in terms of the way he is treating the patients and the his work .. I am visiting this center since 2019 and will never change it",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Maria M.",
+      "stars": 5,
+      "text": "احسن مركز تعاملت معه الدكاترة كتير شاطريين و شغلهم مميز و المريح انه عندهم كل الاختصاصات يلي بنحتاجها للاطفال و الكبار",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Rahmeh M.",
+      "stars": 5,
+      "text": "Amazing clinic. Great services and very friendly team. Dr Salah is an expert and explains every step of the treatment. Highly recommended",
+      "source_ref": "r6"
+    },
+    {
+      "author": "Malak A.",
+      "stars": 5,
+      "text": "انصح بهذا المركز لأنهم فعلا قمة و تعامل الدكاترة و الموظفين اكثر من رائع ما شاء الله عليهم",
+      "source_ref": "r10"
+    },
+    {
+      "author": "Diana A.",
+      "stars": 5,
+      "text": "مركز متكامل كل دكتور تخصص بالاسنان، اسعاره منطقية",
+      "source_ref": "r11"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "المواعيد مُوصى بها",
+        "text": "يُفضّل حجز موعد قبل الزيارة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة والجوال",
+        "text": "بطاقات ائتمان وسحب آلي وNFC."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/1629909613654-28e377c37b09"
+    }
+  },
+  "batch_id": "b202611020650"
+}
