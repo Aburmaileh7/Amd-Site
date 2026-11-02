@@ -1,0 +1,128 @@
+{
+  "place_id": "amd-notion-40c5cb524e4481ce8674c9b24e0b82e9",
+  "slug": "grow-dental-center",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "صفحات المحل العامة",
+  "accent": {
+    "hex": "#00838F",
+    "rgb": "0, 131, 143",
+    "hover": "#006B75",
+    "ink": "#FFFFFF"
+  },
+  "name": "Grow Dental Center",
+  "name_lang": "en",
+  "category_label": "عيادة أسنان",
+  "area": "مدينة الكويت",
+  "address": "برج كيبكو، الدور 34، شارع خالد بن الوليد، مدينة الكويت",
+  "phone": {
+    "display": "+965 2294 3304",
+    "tel": "+96522943304"
+  },
+  "directions_url": "https://www.google.com/maps?cid=10022348591078810223",
+  "map_query": "Grow Dental Center, KIPCO Tower, Kuwait City",
+  "rating": {
+    "value": 4.6,
+    "count": 12,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت",
+        "time": "10 ص – 6 م"
+      },
+      {
+        "days": "الأحد – الأربعاء",
+        "time": "10 ص – 8 م"
+      },
+      {
+        "days": "الخميس",
+        "time": "10 ص – 6 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "دليل Zavis (من Google Maps)"
+  },
+  "hero": {
+    "headline": "عيادة أسنان في الدور 34 ببرج كيبكو",
+    "intro": "مركز جرو لطب الأسنان في برج كيبكو بمدينة الكويت، تقييمه 4.6 من 12 مراجعة على Google، ويذكر المرضى أجهزته الحديثة وفريقه المحترف.",
+    "image": "c_bright"
+  },
+  "sections": [
+    "menu",
+    "amenities",
+    "visit",
+    "proof"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من وصف العيادة في الدليل المنشور، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "طب الأسنان العام",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل الزيارة",
+    "title": "معلومات الزيارة",
+    "image": "c_xray",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "احجز مسبقًا",
+        "text": "يذكر بعض المرضى انتظارًا في أوقات الذروة، فالحجز المسبق أفضل."
+      },
+      {
+        "icon": "clock",
+        "title": "أوقات العمل",
+        "text": "من 10 صباحًا حتى 8 مساءً، والخميس والسبت حتى 6، والجمعة مغلق."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل مهيأ",
+        "text": "مدخل ومواقف ودورة مياه مهيأة، حسب الدليل المنشور."
+      }
+    ]
+  },
+  "visit": {
+    "image": "c_tools"
+  },
+  "images": {
+    "c_bright": {
+      "id": "photo-1598256989800-fe5f95da9787",
+      "alt": "صورة توضيحية: كرسي أسنان في عيادة مضيئة",
+      "page": "https://unsplash.com/photos/XJptUS8nbhs"
+    },
+    "c_xray": {
+      "id": "photo-1588776814546-1ffcf47267a5",
+      "alt": "صورة توضيحية: طبيب يراجع صور أشعة للأسنان",
+      "page": "https://unsplash.com/photos/v_2FRXEba94"
+    },
+    "c_tools": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

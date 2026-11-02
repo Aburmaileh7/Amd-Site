@@ -1,0 +1,136 @@
+{
+  "place_id": "amd-notion-40c5cb524e44811aae28f664e4ed3330",
+  "slug": "al-farabi-dental-clinic",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "صفحات المحل العامة",
+  "accent": {
+    "hex": "#0E7C86",
+    "rgb": "14, 124, 134",
+    "hover": "#0B656D",
+    "ink": "#FFFFFF"
+  },
+  "name": "Al Farabi Dental Clinic",
+  "name_lang": "en",
+  "category_label": "عيادة أسنان",
+  "area": "الحديقة، المدينة المنورة",
+  "address": "شارع العباس بن عبادة، حي الحديقة، المدينة المنورة 42383",
+  "phone": {
+    "display": "+966 11 202 7500",
+    "tel": "+966112027500"
+  },
+  "directions_url": "https://www.google.com/maps?cid=8514472211244649906",
+  "map_query": "Al Farabi Dental Clinic, Al Hadiqah, Madinah",
+  "rating": {
+    "value": 4.6,
+    "count": 1038,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "8 ص – 12 منتصف الليل"
+      },
+      {
+        "days": "الخميس",
+        "time": "8 ص – 11 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "4 م – 10 م"
+      }
+    ],
+    "per_day": null,
+    "source": "دليل Zavis (من Google Maps)"
+  },
+  "hero": {
+    "headline": "عيادة أسنان في المدينة تفتح حتى منتصف الليل",
+    "intro": "عيادة الفارابي لطب الأسنان في حي الحديقة بالمدينة المنورة، تقييمها 4.6 من أكثر من ألف مراجعة على Google، وتقدّم طب الأسنان العام والخلع الجراحي.",
+    "image": "c_bright"
+  },
+  "sections": [
+    "proof",
+    "menu",
+    "amenities",
+    "visit"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من وصف العيادة في الدليل المنشور، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "طب الأسنان العام",
+            "desc": ""
+          },
+          {
+            "name": "خلع الأسنان والخلع الجراحي",
+            "desc": ""
+          },
+          {
+            "name": "الاستشارات",
+            "desc": ""
+          },
+          {
+            "name": "الأشعة التشخيصية",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل الزيارة",
+    "title": "معلومات الزيارة",
+    "image": "c_xray",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "دوام حتى منتصف الليل",
+        "text": "من 8 صباحًا حتى 12 ليلًا من السبت إلى الأربعاء، والجمعة مساءً."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل مهيأ",
+        "text": "مدخل ومواقف ودورة مياه مهيأة لذوي الإعاقة، حسب الدليل المنشور."
+      },
+      {
+        "icon": "calendar",
+        "title": "الحجز بالهاتف",
+        "text": "اتصلوا بالعيادة لحجز موعد."
+      }
+    ]
+  },
+  "visit": {
+    "image": "c_tools"
+  },
+  "images": {
+    "c_bright": {
+      "id": "photo-1598256989800-fe5f95da9787",
+      "alt": "صورة توضيحية: كرسي أسنان في عيادة مضيئة",
+      "page": "https://unsplash.com/photos/XJptUS8nbhs"
+    },
+    "c_xray": {
+      "id": "photo-1588776814546-1ffcf47267a5",
+      "alt": "صورة توضيحية: طبيب يراجع صور أشعة للأسنان",
+      "page": "https://unsplash.com/photos/v_2FRXEba94"
+    },
+    "c_tools": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

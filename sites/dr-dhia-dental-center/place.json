@@ -1,0 +1,131 @@
+{
+  "place_id": "amd-notion-40c5cb524e44812f9e0bee6ddd58d1fc",
+  "slug": "dr-dhia-dental-center",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "صفحات المحل العامة",
+  "accent": {
+    "hex": "#9B2C2C",
+    "rgb": "155, 44, 44",
+    "hover": "#7F2424",
+    "ink": "#FFFFFF"
+  },
+  "name": "Dr.Dhia Dental Center",
+  "name_lang": "en",
+  "category_label": "عيادة أسنان",
+  "area": "الرفاع",
+  "address": "طريق 1706، الرفاع",
+  "phone": {
+    "display": "+973 1717 9598",
+    "tel": "+97317179598"
+  },
+  "directions_url": "https://www.google.com/maps?cid=6422947743969778161",
+  "map_query": "Dr.Dhia Dental Center, Riffa",
+  "rating": {
+    "value": 4.3,
+    "count": 69,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "9 ص – 1 م و 4 م – 9 م"
+      },
+      {
+        "days": "الخميس",
+        "time": "9 ص – 1 م و 4 م – 8 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "دليل Zavis (من Google Maps)"
+  },
+  "layout": {
+    "hero": "full"
+  },
+  "hero": {
+    "headline": "مركز أسنان بفترتين صباحية ومسائية في الرفاع",
+    "intro": "مركز د. ضياء لطب الأسنان في الرفاع، تقييمه 4.3 من 69 مراجعة على Google، ويقدّم علاج العصب وطب الأسنان العام، وفي المبنى عيادات تخصصات أخرى.",
+    "image": "c_xray"
+  },
+  "sections": [
+    "menu",
+    "proof",
+    "visit",
+    "amenities"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من وصف العيادة في الدليل المنشور، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "علاج العصب",
+            "desc": ""
+          },
+          {
+            "name": "طب الأسنان العام",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل الزيارة",
+    "title": "معلومات الزيارة",
+    "image": "c_mirror",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "فترتان",
+        "text": "صباحًا ومساءً حسب جدول الأوقات أدناه."
+      },
+      {
+        "icon": "check",
+        "title": "تخصصات أخرى",
+        "text": "يضم المبنى عيادة تجميل وعيادة نسائية، حسب الدليل."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل مهيأ",
+        "text": "مدخل ومواقف ودورة مياه مهيأة، حسب الدليل المنشور."
+      }
+    ]
+  },
+  "visit": {
+    "image": "c_tools"
+  },
+  "images": {
+    "c_xray": {
+      "id": "photo-1588776814546-1ffcf47267a5",
+      "alt": "صورة توضيحية: طبيب يراجع صور أشعة للأسنان",
+      "page": "https://unsplash.com/photos/v_2FRXEba94"
+    },
+    "c_mirror": {
+      "id": "photo-1606811971618-4486d14f3f99",
+      "alt": "صورة توضيحية: فحص أسنان بالمرآة",
+      "page": "https://unsplash.com/photos/8BkF0sTC6Uo"
+    },
+    "c_tools": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

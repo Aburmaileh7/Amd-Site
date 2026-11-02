@@ -1,0 +1,129 @@
+{
+  "place_id": "amd-notion-40c5cb524e4481e59a29ebe68e55b1f5",
+  "slug": "nab-dental-clinics",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "صفحات المحل العامة",
+  "accent": {
+    "hex": "#7B5EA7",
+    "rgb": "123, 94, 167",
+    "hover": "#644D88",
+    "ink": "#FFFFFF"
+  },
+  "name": "عيادات ناب لطب وتجميل الأسنان",
+  "name_lang": "ar",
+  "category_label": "عيادة أسنان",
+  "area": "العنابس، المدينة المنورة",
+  "address": "طريق الملك عبدالله الفرعي، حي العنابس، المدينة المنورة",
+  "phone": {
+    "display": "+966 55 252 9393",
+    "tel": "+966552529393"
+  },
+  "directions_url": "https://www.google.com/maps?cid=7705139466092631593",
+  "map_query": "Nab Dental Clinics, Al Anabis, Madinah",
+  "rating": {
+    "value": 4.9,
+    "count": 976,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "8 ص – 2 فجرًا"
+      },
+      {
+        "days": "الجمعة",
+        "time": "5 م – 10 م"
+      }
+    ],
+    "per_day": null,
+    "source": "دليل Zavis (من Google Maps)"
+  },
+  "hero": {
+    "headline": "تجميل الأسنان في العنابس حتى الثانية فجرًا",
+    "intro": "عيادات ناب لطب وتجميل الأسنان في المدينة المنورة، تقييمها 4.9 من 976 مراجعة على Google، وتستقبل المرضى من الثامنة صباحًا حتى الثانية فجرًا.",
+    "image": "c_probe"
+  },
+  "sections": [
+    "proof",
+    "amenities",
+    "menu",
+    "visit"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من وصف العيادة في الدليل المنشور، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تجميل الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "العلاج الترميمي",
+            "desc": ""
+          },
+          {
+            "name": "طب الأسنان العام",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل الزيارة",
+    "title": "معلومات الزيارة",
+    "image": "c_bright",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "دوام طويل",
+        "text": "من 8 صباحًا حتى 2 فجرًا من السبت إلى الخميس، والجمعة 5–10 مساءً."
+      },
+      {
+        "icon": "check",
+        "title": "شرح قبل العلاج",
+        "text": "يذكر المرضى الشرح المفصّل للإجراءات والأجواء الهادئة."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل مهيأ",
+        "text": "مدخل ومواقف ودورة مياه مهيأة، حسب الدليل المنشور."
+      }
+    ]
+  },
+  "visit": {
+    "image": "c_xray"
+  },
+  "images": {
+    "c_probe": {
+      "id": "photo-1606811856475-5e6fcdc6e509",
+      "alt": "صورة توضيحية: مرآة وأداة فحص أسنان",
+      "page": "https://unsplash.com/photos/ux18C551ghI"
+    },
+    "c_bright": {
+      "id": "photo-1598256989800-fe5f95da9787",
+      "alt": "صورة توضيحية: كرسي أسنان في عيادة مضيئة",
+      "page": "https://unsplash.com/photos/XJptUS8nbhs"
+    },
+    "c_xray": {
+      "id": "photo-1588776814546-1ffcf47267a5",
+      "alt": "صورة توضيحية: طبيب يراجع صور أشعة للأسنان",
+      "page": "https://unsplash.com/photos/v_2FRXEba94"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

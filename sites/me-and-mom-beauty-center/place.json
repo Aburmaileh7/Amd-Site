@@ -1,0 +1,221 @@
+{
+  "place_id": "amd-notion-40c5cb524e4481c18177cc5db140be51",
+  "slug": "me-and-mom-beauty-center",
+  "theme": "beauty_soft",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "صفحات المحل العامة",
+  "accent": {
+    "hex": "#B83280",
+    "rgb": "184, 50, 128",
+    "hover": "#962968",
+    "ink": "#FFFFFF"
+  },
+  "name": "Me and Mom Beauty Center",
+  "name_lang": "en",
+  "category_label": "مركز تجميل نسائي",
+  "area": "شارع الخفجي، الدوحة",
+  "address": "شارع الخفجي، الدوحة",
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Me+and+Mom+Beauty+Center+Al+Khafji+Street+Doha",
+  "map_query": "Me and Mom Beauty Center, Al Khafji Street, Doha",
+  "rating": {
+    "value": 5.0,
+    "count": 11,
+    "source": "Salonist"
+  },
+  "hero": {
+    "headline": "حمام مغربي وخلطات طبيعية للشعر في الدوحة",
+    "intro": "مركز مي اند موم للتجميل في الدوحة، معروف بخلطات الشعر الطبيعية والحمام المغربي والمساج والأظافر، وتقييمه 5.0 من 11 مراجعة على Salonist.",
+    "image": "b_towel"
+  },
+  "sections": [
+    "menu",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "menu": {
+    "title": "الخدمات والأسعار",
+    "eyebrow": "من صفحة الحجز",
+    "currency": "ر.ق",
+    "sample": false,
+    "note": "الخدمات والأسعار منقولة من صفحة الحجز المنشورة للمركز على Salonist، وقد تتغير.",
+    "categories": [
+      {
+        "id": "bath",
+        "title": "الحمام المغربي",
+        "tagline": "",
+        "items": [
+          {
+            "name": "حمام مغربي عادي",
+            "desc": "",
+            "price": 200
+          },
+          {
+            "name": "حمام مغربي خاص",
+            "desc": "",
+            "price": 500
+          },
+          {
+            "name": "حمام مغربي للعروس",
+            "desc": "",
+            "price": 700
+          },
+          {
+            "name": "حمام مغربي مي اند موم",
+            "desc": "",
+            "price": 800
+          },
+          {
+            "name": "حمام مغربي + بدكير ومنكير",
+            "desc": "",
+            "price": 250
+          }
+        ]
+      },
+      {
+        "id": "hair",
+        "title": "الشعر والبشرة",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تريتمنت بالأعشاب الطبيعية",
+            "desc": "",
+            "price": 100
+          },
+          {
+            "name": "تنظيف بشرة",
+            "desc": "",
+            "price": 200
+          },
+          {
+            "name": "تنظيف بشرة عميق",
+            "desc": "",
+            "price": 300
+          },
+          {
+            "name": "تنظيف حواجب",
+            "desc": "",
+            "price": 30
+          }
+        ]
+      },
+      {
+        "id": "body",
+        "title": "الجسم",
+        "tagline": "",
+        "items": [
+          {
+            "name": "صنفرة بأعشاب مغربية للجسم",
+            "desc": "",
+            "price": 250
+          },
+          {
+            "name": "ماسك تبييض الجسم بالأعشاب",
+            "desc": "",
+            "price": 300
+          },
+          {
+            "name": "جلسة الدلكة",
+            "desc": "",
+            "price": 150
+          },
+          {
+            "name": "الدلكة + مساج",
+            "desc": "",
+            "price": 300
+          }
+        ]
+      },
+      {
+        "id": "kids",
+        "title": "للأطفال",
+        "tagline": "",
+        "items": [
+          {
+            "name": "غسيل الشعر مع تجفيف",
+            "desc": "",
+            "price": 30
+          },
+          {
+            "name": "نقش حناء قصير",
+            "desc": "",
+            "price": 30
+          },
+          {
+            "name": "منكير + سكراب",
+            "desc": "",
+            "price": 20
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Fatma",
+      "text": "بصراحه يعجز لساني عن الكلام، انا وين كنت عن هالصالون من قبل… كل اللي يشتغلون ذرابه واخلاق وتعامل لطيف واتقان واخلاص فالخدمه…",
+      "source_ref": "https://salonist.io/cs/s/MEANDMOMBEAUTYCENTERWLL"
+    },
+    {
+      "author": "Yasmeen",
+      "text": "Excellent service, and the staff are extremely respectful and professional in their dealings",
+      "source_ref": "https://salonist.io/cs/s/MEANDMOMBEAUTYCENTERWLL"
+    },
+    {
+      "author": "Nawal",
+      "text": "رنوش شغلها خياااال",
+      "source_ref": "https://salonist.io/cs/s/MEANDMOMBEAUTYCENTERWLL"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل الزيارة",
+    "title": "معلومات الزيارة",
+    "image": "b_brush",
+    "items": [
+      {
+        "icon": "family",
+        "title": "خدمات للأطفال",
+        "text": "قص وتجفيف الشعر والحناء والمناكير للأطفال."
+      },
+      {
+        "icon": "bag",
+        "title": "خدمة منزلية",
+        "text": "الخدمة المنزلية متاحة حسب صفحة الحجز."
+      },
+      {
+        "icon": "calendar",
+        "title": "الحجز عبر واتساب",
+        "text": "رقم واتساب المركز منشور في صفحة الحجز."
+      }
+    ]
+  },
+  "visit": {
+    "image": "b_stones"
+  },
+  "images": {
+    "b_towel": {
+      "id": "photo-1620733723572-11c53f73a416",
+      "alt": "صورة توضيحية: منشفة وشموع ومعطّر في جلسة سبا",
+      "page": "https://unsplash.com/photos/W7AyAs7azHc"
+    },
+    "b_brush": {
+      "id": "photo-1786359410255-f0144e1a38e0",
+      "alt": "صورة توضيحية: منتجات عناية وفرشاة جسم خشبية",
+      "page": "https://unsplash.com/photos/fdnjoFzPGrM"
+    },
+    "b_stones": {
+      "id": "photo-1600334089648-b0d9d3028eb2",
+      "alt": "صورة توضيحية: جلسة مساج بالأحجار الساخنة",
+      "page": "https://unsplash.com/photos/ZbzYDboN7fg"
+    }
+  },
+  "whatsapp": {
+    "number": "97466864411",
+    "display": "+974 6686 4411"
+  },
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

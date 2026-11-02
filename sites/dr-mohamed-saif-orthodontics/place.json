@@ -1,0 +1,128 @@
+{
+  "place_id": "amd-notion-40c5cb524e4481dd97b5d6f007b0e4df",
+  "slug": "dr-mohamed-saif-orthodontics",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "صفحات المحل العامة",
+  "accent": {
+    "hex": "#2B6CB0",
+    "rgb": "43, 108, 176",
+    "hover": "#235890",
+    "ink": "#FFFFFF"
+  },
+  "name": "Dr. Mohamed Saif Orthodontic Specialist",
+  "name_lang": "en",
+  "category_label": "عيادة تقويم أسنان",
+  "area": "الفيحاء، جدة",
+  "address": "مجمع بلغصون الطبي، شارع الفيحاء بجوار قاعة الملكة، حي الفيحاء، جدة",
+  "phone": {
+    "display": "+966 54 707 1204",
+    "tel": "+966547071204"
+  },
+  "directions_url": "https://www.google.com/maps?cid=350333402825950468",
+  "map_query": "Dr. Mohamed Saif Orthodontic, Al Faiha, Jeddah",
+  "rating": {
+    "value": 4.9,
+    "count": 703,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "1 م – 9 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "دليل Zavis (من Google Maps)"
+  },
+  "hero": {
+    "headline": "تقويم الأسنان فقط، في حي الفيحاء بجدة",
+    "intro": "عيادة متخصصة في تقويم الأسنان داخل مجمع بلغصون الطبي بجدة، تقييمها 4.9 من 703 مراجعات على Google، مع متابعة طوال فترة العلاج.",
+    "image": "c_talk"
+  },
+  "sections": [
+    "menu",
+    "proof",
+    "visit",
+    "amenities"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "تخصص العيادة",
+    "note": "الخدمات مأخوذة من وصف العيادة في الدليل المنشور، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تقويم الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تصحيح اصطفاف الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "متابعة دورية خلال فترة التقويم",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل الزيارة",
+    "title": "معلومات الزيارة",
+    "image": "c_mirror",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "دوام مسائي",
+        "text": "من 1 ظهرًا حتى 9 مساءً، من السبت إلى الخميس."
+      },
+      {
+        "icon": "tooth",
+        "title": "تخصص واحد",
+        "text": "العيادة متخصصة في التقويم فقط."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل مهيأ",
+        "text": "مدخل ومواقف مهيأة لذوي الإعاقة، حسب الدليل المنشور."
+      }
+    ]
+  },
+  "visit": {
+    "image": "c_chair"
+  },
+  "images": {
+    "c_talk": {
+      "id": "photo-1777331903190-341a3dd0441b",
+      "alt": "صورة توضيحية: طبيب أسنان يتحدث مع مريض",
+      "page": "https://unsplash.com/photos/Bg81yWKZlMg"
+    },
+    "c_mirror": {
+      "id": "photo-1606811971618-4486d14f3f99",
+      "alt": "صورة توضيحية: فحص أسنان بالمرآة",
+      "page": "https://unsplash.com/photos/8BkF0sTC6Uo"
+    },
+    "c_chair": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

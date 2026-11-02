@@ -1,0 +1,125 @@
+{
+  "place_id": "amd-notion-40c5cb524e448193a930cc6dd6894c53",
+  "slug": "moosa-dental-centre",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "صفحات المحل العامة",
+  "accent": {
+    "hex": "#A0522D",
+    "rgb": "160, 82, 45",
+    "hover": "#834324",
+    "ink": "#FFFFFF"
+  },
+  "name": "Moosa Dental Centre",
+  "name_lang": "en",
+  "category_label": "عيادة أسنان",
+  "area": "قلالي، المحرق",
+  "address": "مبنى 2130، طريق 5542، قلالي",
+  "phone": {
+    "display": "+973 1711 1197",
+    "tel": "+97317111197"
+  },
+  "directions_url": "https://www.google.com/maps?cid=12366031541853414488",
+  "map_query": "Moosa Dental Centre, Galali, Muharraq",
+  "rating": {
+    "value": 4.8,
+    "count": 171,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "9 ص – 8 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "دليل Zavis (من Google Maps)"
+  },
+  "hero": {
+    "headline": "مركز أسنان حديث في قلالي",
+    "intro": "مركز موسى لطب الأسنان في قلالي بالمحرق، تقييمه 4.8 من 171 مراجعة على Google، ويقدّم طب الأسنان العام والتخصصي من السبت إلى الخميس.",
+    "image": "c_glove"
+  },
+  "sections": [
+    "proof",
+    "menu",
+    "visit",
+    "amenities"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من وصف العيادة في الدليل المنشور، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "طب الأسنان العام",
+            "desc": ""
+          },
+          {
+            "name": "العلاجات التخصصية",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل الزيارة",
+    "title": "معلومات الزيارة",
+    "image": "c_probe",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "أوقات العمل",
+        "text": "من 9 صباحًا حتى 8 مساءً، من السبت إلى الخميس."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل مهيأ",
+        "text": "مدخل ومواقف ودورة مياه مهيأة، حسب الدليل المنشور."
+      },
+      {
+        "icon": "calendar",
+        "title": "الحجز بالهاتف",
+        "text": "اتصلوا بالمركز لحجز موعد."
+      }
+    ]
+  },
+  "visit": {
+    "image": "c_mirror"
+  },
+  "images": {
+    "c_glove": {
+      "id": "photo-1771442873038-dda05b6ca447",
+      "alt": "صورة توضيحية: يد بقفاز تحمل أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/98eodnv1abo"
+    },
+    "c_probe": {
+      "id": "photo-1606811856475-5e6fcdc6e509",
+      "alt": "صورة توضيحية: مرآة وأداة فحص أسنان",
+      "page": "https://unsplash.com/photos/ux18C551ghI"
+    },
+    "c_mirror": {
+      "id": "photo-1606811971618-4486d14f3f99",
+      "alt": "صورة توضيحية: فحص أسنان بالمرآة",
+      "page": "https://unsplash.com/photos/8BkF0sTC6Uo"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

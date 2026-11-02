@@ -1,0 +1,136 @@
+{
+  "place_id": "amd-notion-40c5cb524e4481abac62d1f1e7ec3de3",
+  "slug": "transparency-dental-clinics",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "صفحات المحل العامة",
+  "accent": {
+    "hex": "#0F4C81",
+    "rgb": "15, 76, 129",
+    "hover": "#0C3E69",
+    "ink": "#FFFFFF"
+  },
+  "name": "عيادات شفافية لطب الأسنان",
+  "name_lang": "ar",
+  "category_label": "عيادة أسنان",
+  "area": "الأندلس، جدة",
+  "address": "شارع عبدالرحمن الطبيشي، حي الأندلس، جدة",
+  "phone": {
+    "display": "+966 55 881 7388",
+    "tel": "+966558817388"
+  },
+  "directions_url": "https://www.google.com/maps?cid=542420407666454253",
+  "map_query": "Transparency Dental Clinics, Al Andalus, Jeddah",
+  "rating": {
+    "value": 4.9,
+    "count": 418,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "10 ص – 9 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "دليل Zavis (من Google Maps)"
+  },
+  "layout": {
+    "hero": "full"
+  },
+  "hero": {
+    "headline": "تركيبات وترميم الأسنان بخطة علاج مشتركة",
+    "intro": "عيادات شفافية في حي الأندلس بجدة، تقييمها 4.9 من 418 مراجعة على Google، وتعمل فيها عدة تخصصات معًا على خطة كل حالة، مع ركن قهوة للانتظار.",
+    "image": "c_glove"
+  },
+  "sections": [
+    "amenities",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من وصف العيادة في الدليل المنشور، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "طب الأسنان الترميمي",
+            "desc": ""
+          },
+          {
+            "name": "التركيبات",
+            "desc": ""
+          },
+          {
+            "name": "خطة علاج مشتركة بين التخصصات",
+            "desc": ""
+          },
+          {
+            "name": "إرشادات ما بعد العلاج",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل الزيارة",
+    "title": "معلومات الزيارة",
+    "image": "c_xray",
+    "items": [
+      {
+        "icon": "coffee",
+        "title": "ركن قهوة",
+        "text": "ركن قهوة وجلسات مريحة في الانتظار، كما يذكر المرضى."
+      },
+      {
+        "icon": "clock",
+        "title": "أوقات العمل",
+        "text": "من 10 صباحًا حتى 9 مساءً، من السبت إلى الخميس."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل مهيأ",
+        "text": "مدخل ومواقف مهيأة، حسب الدليل المنشور."
+      }
+    ]
+  },
+  "visit": {
+    "image": "c_mirror"
+  },
+  "images": {
+    "c_glove": {
+      "id": "photo-1771442873038-dda05b6ca447",
+      "alt": "صورة توضيحية: يد بقفاز تحمل أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/98eodnv1abo"
+    },
+    "c_xray": {
+      "id": "photo-1588776814546-1ffcf47267a5",
+      "alt": "صورة توضيحية: طبيب يراجع صور أشعة للأسنان",
+      "page": "https://unsplash.com/photos/v_2FRXEba94"
+    },
+    "c_mirror": {
+      "id": "photo-1606811971618-4486d14f3f99",
+      "alt": "صورة توضيحية: فحص أسنان بالمرآة",
+      "page": "https://unsplash.com/photos/8BkF0sTC6Uo"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

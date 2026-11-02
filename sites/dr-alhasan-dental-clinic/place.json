@@ -1,0 +1,139 @@
+{
+  "place_id": "amd-notion-40c5cb524e44815fbd73d42cfc44b2f2",
+  "slug": "dr-alhasan-dental-clinic",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "صفحات المحل العامة",
+  "accent": {
+    "hex": "#C05666",
+    "rgb": "192, 86, 102",
+    "hover": "#9D4653",
+    "ink": "#FFFFFF"
+  },
+  "name": "Dr. AlHasan Dental Clinic",
+  "name_lang": "en",
+  "category_label": "عيادة أسنان",
+  "area": "بنيد القار، مدينة الكويت",
+  "address": "برج مزايا، الدور الثامن، شارع 94، قطعة 1، بنيد القار",
+  "phone": {
+    "display": "+965 6500 0899",
+    "tel": "+96565000899"
+  },
+  "directions_url": "https://www.google.com/maps?cid=12947588528498453178",
+  "map_query": "Dr. AlHasan Dental Clinic, Mazaya Tower, Bneid Al Gar",
+  "rating": {
+    "value": 4.9,
+    "count": 211,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "10 ص – 8 م"
+      },
+      {
+        "days": "الخميس",
+        "time": "10 ص – 7 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "دليل Zavis (من Google Maps)"
+  },
+  "hero": {
+    "headline": "عيادة أسنان في برج مزايا ببنيد القار",
+    "intro": "عيادة د. الحسن لطب الأسنان في الدور الثامن من برج مزايا، تقييمها 4.9 من 211 مراجعة على Google، ويشرح الأطباء كل خطوة قبل العلاج.",
+    "image": "c_talk"
+  },
+  "sections": [
+    "proof",
+    "menu",
+    "amenities",
+    "visit"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من وصف العيادة في الدليل المنشور، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تنظيف الأسنان وإزالة التصبغات",
+            "desc": ""
+          },
+          {
+            "name": "علاج التسوس",
+            "desc": ""
+          },
+          {
+            "name": "خلع الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تجميل الأسنان",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل الزيارة",
+    "title": "معلومات الزيارة",
+    "image": "c_probe",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "حجز عبر واتساب",
+        "text": "رقم واتساب العيادة منشور في قائمتها على Google."
+      },
+      {
+        "icon": "check",
+        "title": "شرح قبل العلاج",
+        "text": "يذكر المرضى أن الأطباء يوضحون الإجراء قبل البدء."
+      },
+      {
+        "icon": "clock",
+        "title": "أوقات العمل",
+        "text": "من 10 صباحًا حتى 8 مساءً، والخميس حتى 7، والجمعة مغلق."
+      }
+    ]
+  },
+  "visit": {
+    "image": "c_chair"
+  },
+  "images": {
+    "c_talk": {
+      "id": "photo-1777331903190-341a3dd0441b",
+      "alt": "صورة توضيحية: طبيب أسنان يتحدث مع مريض",
+      "page": "https://unsplash.com/photos/Bg81yWKZlMg"
+    },
+    "c_probe": {
+      "id": "photo-1606811856475-5e6fcdc6e509",
+      "alt": "صورة توضيحية: مرآة وأداة فحص أسنان",
+      "page": "https://unsplash.com/photos/ux18C551ghI"
+    },
+    "c_chair": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات"
+    }
+  },
+  "whatsapp": {
+    "number": "96565000899",
+    "display": "+965 6500 0899"
+  },
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

@@ -1,0 +1,124 @@
+{
+  "place_id": "amd-notion-40c5cb524e4481238069cf781f0e65e7",
+  "slug": "al-safa-dental-center",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "صفحات المحل العامة",
+  "accent": {
+    "hex": "#2C7A7B",
+    "rgb": "44, 122, 123",
+    "hover": "#246464",
+    "ink": "#FFFFFF"
+  },
+  "name": "Al Safa Dental Center",
+  "name_lang": "en",
+  "category_label": "عيادة أسنان",
+  "area": "المنامة",
+  "address": "مبنى أوال، الطابق الثاني، فوق Vision Safa Optics، المنامة",
+  "phone": {
+    "display": "+973 1748 3455",
+    "tel": "+97317483455"
+  },
+  "directions_url": "https://www.google.com/maps?cid=9619439920522665803",
+  "map_query": "Al Safa Dental Center, Awal Building, Manama",
+  "rating": {
+    "value": 4.8,
+    "count": 21,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "1 م – 9 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "دليل Zavis (من Google Maps)"
+  },
+  "hero": {
+    "headline": "مركز أسنان فوق فيجن صفا للبصريات بالمنامة",
+    "intro": "مركز الصفا لطب الأسنان في الطابق الثاني من مبنى أوال بالمنامة، تقييمه 4.8 من 21 مراجعة على Google، ويقدّم الحشوات وطب الأسنان العام للعائلات.",
+    "image": "c_probe"
+  },
+  "sections": [
+    "menu",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من وصف العيادة في الدليل المنشور، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "الحشوات",
+            "desc": ""
+          },
+          {
+            "name": "طب الأسنان العام",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل الزيارة",
+    "title": "معلومات الزيارة",
+    "image": "c_chair",
+    "items": [
+      {
+        "icon": "family",
+        "title": "للأفراد والعائلات",
+        "text": "يذكر المرضى أنهم يرشحونه لعائلاتهم وأصدقائهم."
+      },
+      {
+        "icon": "clock",
+        "title": "دوام مسائي",
+        "text": "من 1 ظهرًا حتى 9 مساءً، من السبت إلى الخميس."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل مهيأ",
+        "text": "مدخل ومواقف وجلسات مهيأة، حسب الدليل المنشور."
+      }
+    ]
+  },
+  "visit": {
+    "image": "c_talk"
+  },
+  "images": {
+    "c_probe": {
+      "id": "photo-1606811856475-5e6fcdc6e509",
+      "alt": "صورة توضيحية: مرآة وأداة فحص أسنان",
+      "page": "https://unsplash.com/photos/ux18C551ghI"
+    },
+    "c_chair": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات"
+    },
+    "c_talk": {
+      "id": "photo-1777331903190-341a3dd0441b",
+      "alt": "صورة توضيحية: طبيب أسنان يتحدث مع مريض",
+      "page": "https://unsplash.com/photos/Bg81yWKZlMg"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}
