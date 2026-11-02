@@ -3,7 +3,7 @@ name: deploy-demos
 on:
   push:
     branches: [main, 'claude/**']
-    paths: ['sites/**', 'src/**', 'scripts/**', 'package*.json', 'astro.config.mjs', '.github/workflows/deploy.yml']
+    paths: ['sites/**', 'src/**', 'functions/**', 'scripts/**', 'package*.json', 'astro.config.mjs', '.github/workflows/deploy.yml']
   workflow_dispatch:
 
 permissions:
