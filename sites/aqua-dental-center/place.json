@@ -1,0 +1,189 @@
+{
+  "place_id": "ChIJ9byM9qehHBURaKUzSiHA23U",
+  "batch_id": "b202611020835",
+  "slug": "aqua-dental-center",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#0E7C86",
+    "rgb": "14, 124, 134",
+    "hover": "#0A636B",
+    "ink": "#FFFFFF"
+  },
+  "name": "Aqua Dental Center",
+  "name_lang": "en",
+  "category_label": "مركز أسنان وتجميل",
+  "area": "تلاع العلي، عمّان",
+  "address": "شارع وصفي التل، تلاع العلي، عمّان",
+  "phone": {
+    "display": "+962 7 9914 3532",
+    "tel": "+962799143532"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Aqua%20Dental%20center&query_place_id=ChIJ9byM9qehHBURaKUzSiHA23U",
+  "map_query": "Aqua Dental Center, Wasfi Al Tal St, Amman, Jordan",
+  "rating": {
+    "value": 5,
+    "count": 179,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الثلاثاء",
+        "time": "8 ص – 6 م"
+      },
+      {
+        "days": "الأربعاء",
+        "time": "12 ص – 6 م"
+      },
+      {
+        "days": "الخميس",
+        "time": "8 ص – 2 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "عيادة أسنان نظيفة ومريحة في تلاع العلي",
+    "intro": "مركز في شارع وصفي التل يصفه مراجعوه بالنظافة وتعاون الطاقم، مع تجميل الأسنان ورعاية الأطفال ومواقف سيارات مجانية.",
+    "image": "dental"
+  },
+  "sections": [
+    "menu",
+    "proof",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تجميل الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "رعاية طبية للأطفال",
+            "desc": ""
+          },
+          {
+            "name": "تنظيف الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "حشوات وعلاج العصب",
+            "desc": ""
+          },
+          {
+            "name": "تيجان الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "طب أسنان مع استخدام المسكنات",
+            "desc": ""
+          },
+          {
+            "name": "هيدرافيشل",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "ebraheem A.",
+      "stars": 5,
+      "text": "بصراحة دكتور كثير شاطر ومحترم، شغله كثير مرتب وبتعامل معك بكل راحة. والستاف عنده كثير كويسين ومتعاونين. تجربة ممتازة وبنصح فيه 👍 شكرا دكتور احمد",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Natali F.",
+      "stars": 5,
+      "text": "Very clean clinic, friendly staff, and the doctor was helpful. Great experience.",
+      "source_ref": "r5"
+    },
+    {
+      "author": "Hadeel H.",
+      "stars": 5,
+      "text": "Thank you aqua عيادة مريحه جدا وعمل متقن وتعامل راقي شكرا دكتوره صفاء 🥰🌷",
+      "source_ref": "r9"
+    },
+    {
+      "author": "Tariq Y.",
+      "stars": 5,
+      "text": "Best treatment ever..so fast with zero pain!",
+      "source_ref": "r11"
+    },
+    {
+      "author": "Amr A.",
+      "stars": 5,
+      "text": "a very clean professional dentistry",
+      "source_ref": "r4"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "الحجز بموعد",
+        "text": "تحديد موعد مطلوب، ويُوصى به قبل الزيارة."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف سيارات مجانية",
+        "text": "مرآب وموقف مجاني وموقف في الشارع."
+      },
+      {
+        "icon": "family",
+        "title": "للأطفال",
+        "text": "رعاية طبية للأطفال وغرفة رضاعة."
+      },
+      {
+        "icon": "access",
+        "title": "دورة مياه مهيأة",
+        "text": "دورة مياه تستوعب الكراسي المتحركة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة",
+        "text": "بطاقات ائتمان وسحب آلي، والدفع عبر NFC."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/1629909613654-28e377c37b09"
+    }
+  }
+}

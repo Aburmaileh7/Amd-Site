@@ -1,0 +1,280 @@
+{
+  "place_id": "ChIJbYNQe2xfGxURXJwukIEGrqY",
+  "batch_id": "b202611020835",
+  "slug": "nasma-restaurant",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#4F6B3A",
+    "rgb": "79, 107, 58",
+    "hover": "#3F5630",
+    "ink": "#FFFFFF"
+  },
+  "name": "NASMA Restaurant",
+  "name_lang": "en",
+  "category_label": "مطعم لبناني",
+  "area": "زهران، عمّان",
+  "address": "شارع عبد القادر كشك، زهران، عمّان",
+  "phone": {
+    "display": "+962 7 9800 0343",
+    "tel": "+962798000343"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=NASMA%20Restaurant&query_place_id=ChIJbYNQe2xfGxURXJwukIEGrqY",
+  "map_query": "NASMA Restaurant, Abdul Qader Keshk Street, Amman, Jordan",
+  "rating": {
+    "value": 4.3,
+    "count": 180,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "مأكولات لبنانية على سطح في زهران",
+    "intro": "مطعم لبناني بجلسات على السطح وصالة داخلية، يقدّم الفطور والغداء والعشاء، ويوصّل ويقبل الحجوزات للعائلات والمجموعات.",
+    "image": "roof"
+  },
+  "sections": [
+    "menu",
+    "story",
+    "reviews",
+    "amenities",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "في نسمة",
+    "title": "من الفطور إلى العشاء",
+    "items": [
+      {
+        "label": "المكان",
+        "title": "جلسات على السطح",
+        "text": "يشتهر المكان بأماكن الجلوس على السطح، مع أجواء يصفها Google بالخفيفة والمريحة.",
+        "image": "roof"
+      },
+      {
+        "label": "الوجبات",
+        "title": "فطور وغداء وعشاء",
+        "text": "تتنوع الخيارات بين الفطور والفطور المتأخر والغداء والعشاء والحلويات، ويذكر زائر وجبة عشاء لأربعة أشخاص.",
+        "image": "spread"
+      },
+      {
+        "label": "للمجموعات",
+        "title": "مناسب للعائلات",
+        "text": "كراسٍ عالية للأطفال، وحجوزات مقبولة، وخدمة توصيل وطعام سفري.",
+        "image": "grill"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "مأكولات لبنانية",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والتوصيل",
+    "categories": [
+      {
+        "id": "mezze",
+        "title": "المقبلات",
+        "tagline": "للمشاركة",
+        "image": "spread",
+        "items": [
+          {
+            "name": "حمص بالطحينة",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "تبولة",
+            "desc": "",
+            "price": 4
+          },
+          {
+            "name": "فتوش",
+            "desc": "",
+            "price": 4
+          },
+          {
+            "name": "كبة مقلية",
+            "desc": "",
+            "price": 5
+          },
+          {
+            "name": "متبّل",
+            "desc": "",
+            "price": 3.5
+          }
+        ]
+      },
+      {
+        "id": "grill",
+        "title": "المشاوي",
+        "tagline": "على الفحم",
+        "image": "grill",
+        "items": [
+          {
+            "name": "مشاوي مشكّلة",
+            "desc": "كباب وشيش طاووق وريش.",
+            "price": 14
+          },
+          {
+            "name": "شيش طاووق",
+            "desc": "",
+            "price": 9
+          },
+          {
+            "name": "كباب لحم",
+            "desc": "",
+            "price": 10
+          }
+        ]
+      },
+      {
+        "id": "sweet",
+        "title": "الحلويات",
+        "tagline": "",
+        "image": "sweet",
+        "items": [
+          {
+            "name": "كنافة",
+            "desc": "",
+            "price": 4
+          },
+          {
+            "name": "معمول",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "أرز بحليب",
+            "desc": "",
+            "price": 3
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "قهوة عربية",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "شاي بالنعناع",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "ليمون بالنعناع",
+            "desc": "",
+            "price": 3.5
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "حازم ا.",
+      "stars": 5,
+      "text": "مكان رايق واكل اكثر من ممتناز والكابتن ابراهيم شخص رائع جدا",
+      "source_ref": "r5"
+    },
+    {
+      "author": "Rasha A.",
+      "stars": 5,
+      "text": "Really loved my experience at Nasma. The food was delicious, the atmosphere was beautiful and relaxing, and the service was genuinely lovely. Everything felt fresh and well done. Definitely a place I’d come back to! 🤍",
+      "source_ref": "r7"
+    },
+    {
+      "author": "Dana A.",
+      "stars": 5,
+      "text": "The food service was amazing and exceptional. Ibraheem was a great host!",
+      "source_ref": "r6"
+    },
+    {
+      "author": "Tamer K.",
+      "stars": 4,
+      "text": "Great food varieties and excellent quality",
+      "source_ref": "r3"
+    },
+    {
+      "author": "Ayman A.",
+      "stars": 5,
+      "text": "A truly wonderful restaurant in every detail. I highly recommend it.",
+      "source_ref": "r4"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما ستجده في نسمة",
+    "image": "roof",
+    "items": [
+      {
+        "icon": "sky",
+        "title": "جلسات على السطح",
+        "text": "إضافة إلى الجلوس داخل المكان."
+      },
+      {
+        "icon": "family",
+        "title": "للعائلات والمجموعات",
+        "text": "مناسب للأطفال مع كراسٍ عالية."
+      },
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجوزات",
+        "text": "والحجز مطلوب في بعض الأوقات."
+      },
+      {
+        "icon": "bag",
+        "title": "توصيل وطعام سفري",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "خدمة ركن السيارات",
+        "text": "وموقف مجاني في الشارع."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة",
+        "text": "بطاقات ائتمان وسحب آلي، والدفع عبر NFC."
+      }
+    ]
+  },
+  "visit": {
+    "image": "roof"
+  },
+  "images": {
+    "roof": {
+      "id": "photo-1786374785195-2267ddab1bec",
+      "alt": "صورة توضيحية: طاولة وكراسٍ على سطح يطل على مدينة"
+    },
+    "spread": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات"
+    },
+    "grill": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز"
+    },
+    "sweet": {
+      "id": "photo-1778447812923-88a9e3e6b567",
+      "alt": "صورة توضيحية: حلوى بالفستق الحلبي"
+    },
+    "coffee": {
+      "id": "photo-1774791500971-ddaafd214520",
+      "alt": "صورة توضيحية: دلة قهوة عربية وتمر"
+    }
+  }
+}

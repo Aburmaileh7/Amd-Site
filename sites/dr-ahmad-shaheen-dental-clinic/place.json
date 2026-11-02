@@ -1,0 +1,150 @@
+{
+  "place_id": "ChIJpYozkw6hHBURtc4lZFApeVQ",
+  "batch_id": "b202611020835",
+  "slug": "dr-ahmad-shaheen-dental-clinic",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#0F6B7A",
+    "rgb": "15, 107, 122",
+    "hover": "#0B5561",
+    "ink": "#FFFFFF"
+  },
+  "name": "عيادة الدكتور أحمد شاهين لطب وجراحة الفم والأسنان",
+  "name_lang": "ar",
+  "category_label": "عيادة طب وجراحة الفم والأسنان",
+  "area": "عمّان",
+  "address": "مجمع الحسيني، شارع زهران، عمّان",
+  "phone": {
+    "display": "+962 7 9690 7218",
+    "tel": "+962796907218"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D8%B9%D9%8A%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1%20%D8%A7%D8%AD%D9%85%D8%AF%20%D8%B4%D8%A7%D9%87%D9%8A%D9%86%20%D9%84%D8%B7%D8%A8%20%D9%88%20%D8%AC%D8%B1%D8%A7%D8%AD%D8%A9%20%D8%A7%D9%84%D9%81%D9%85%20%D9%88%20%D8%A7%D9%84%D8%A7%D8%B3%D9%86%D8%A7%D9%86&query_place_id=ChIJpYozkw6hHBURtc4lZFApeVQ",
+  "map_query": "Dr Ahmad Shaheen Dental Clinic, Zahran St, Amman, Jordan",
+  "rating": {
+    "value": 4.8,
+    "count": 398,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "كل أيام الأسبوع",
+        "time": "9:30 ص – 9 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "د. أحمد شاهين: ابتسامة تُرمَّم بهدوء",
+    "intro": "عيادة في مجمع الحسيني بشارع زهران، يصفها مراجعوها بعلاج مشاكل الأسنان وتجميل الابتسامة والتبييض، وتعمل يوميًا حتى التاسعة مساءً.",
+    "image": "dental2"
+  },
+  "sections": [
+    "menu",
+    "proof",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تجميل الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تبييض الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "جراحة الفم",
+            "desc": ""
+          },
+          {
+            "name": "علاج مشاكل الأسنان",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Ahmad A.",
+      "stars": 5,
+      "text": "بعد تجربة اكتر من عيادة طب اسنان في المملكة الحمد لله الدكتور احمد شاهين حللي كل مشاكلي في الأسنان وبطلت أعاني من اي الم او مشاكل افضل عيادة وكادر على مستوى المملكة ❤️",
+      "source_ref": "r5"
+    },
+    {
+      "author": "Sarah J.",
+      "stars": 5,
+      "text": "Dr. Ahmad is the best dentist I've ever been to, no comparison. Thanks to him, I finally feel confident to smile again. Highly recommend!",
+      "source_ref": "r7"
+    },
+    {
+      "author": "Lamees H.",
+      "stars": 5,
+      "text": "Amazing doctor, he transformed my teeth completely in the best way possible, they look better than I imagined.",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Jemmy M.",
+      "stars": 5,
+      "text": "By far the best dental experience I ever had Dr Ahmad is a master in cosmetic dentistry",
+      "source_ref": "r8"
+    },
+    {
+      "author": "Rana S.",
+      "stars": 5,
+      "text": "افضل طبيب اسنان بالمملكة واخف ايد ما شاء الله عنك",
+      "source_ref": "r10"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental2",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "الحجز بموعد",
+        "text": "تحديد موعد مطلوب، ويُوصى به قبل الزيارة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة",
+        "text": "بطاقات ائتمان وسحب آلي، والدفع عبر NFC."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental2"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/1629909613654-28e377c37b09"
+    }
+  }
+}

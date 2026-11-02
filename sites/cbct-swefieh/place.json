@@ -1,0 +1,138 @@
+{
+  "place_id": "ChIJkeLyhg-hHBURVIJ5pgKJSWk",
+  "batch_id": "b202611020835",
+  "slug": "cbct-swefieh",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#3A4F8C",
+    "rgb": "58, 79, 140",
+    "hover": "#2E3F70",
+    "ink": "#FFFFFF"
+  },
+  "name": "مركز تصوير الأسنان (الصويفية) CBCT",
+  "name_lang": "ar",
+  "category_label": "مركز تصوير أسنان",
+  "area": "الصويفية، عمّان",
+  "address": "الصويفية، مجمع الحلواني التجاري رقم 17، الطابق الأول، عمّان",
+  "phone": {
+    "display": "+962 7 9006 8627",
+    "tel": "+962790068627"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D8%AA%D8%B5%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D8%A7%D8%B3%D9%86%D8%A7%D9%86%20(%D8%A7%D9%84%D8%B5%D9%88%D9%8A%D9%81%D9%8A%D8%A9)%20CBCT%20Swefieh&query_place_id=ChIJkeLyhg-hHBURVIJ5pgKJSWk",
+  "map_query": "CBCT Swefieh dental imaging, Al-Swefieh, Amman, Jordan",
+  "rating": {
+    "value": 4.9,
+    "count": 236,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "10 ص – 7 م"
+      },
+      {
+        "days": "الخميس",
+        "time": "10 ص – 4 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "تصوير أسنان ثلاثي الأبعاد في الصويفية",
+    "intro": "مركز CBCT في مجمع الحلواني التجاري، يصف مراجعوه موظفيه بالتعاون واللطف، والإجراءات بالسلسة والسريعة.",
+    "image": "dental"
+  },
+  "sections": [
+    "menu",
+    "proof",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تصوير الأسنان CBCT",
+            "desc": ""
+          },
+          {
+            "name": "تصوير ثلاثي الأبعاد",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Deema A.",
+      "stars": 5,
+      "text": "بصراحة كانت تجربة ممتازة. الموظفين كانوا جدًا متعاونين ولطيفين، وتعاملهم كان راقٍ. الإجراءات كانت سلسة وسريعة، وكل شيء مشى بكل سهولة. أنصح فيهم.",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Zaid ..",
+      "stars": 5,
+      "text": "3rd time visiting the center 5/5 , same ladies rafaah and ayat we're very hospitable and anticipating as usual :))",
+      "source_ref": "r3"
+    },
+    {
+      "author": "Mohammad N.",
+      "stars": 5,
+      "text": "الافضل",
+      "source_ref": "r1"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental",
+    "items": [
+      {
+        "icon": "access",
+        "title": "مدخل للكراسي المتحركة",
+        "text": "مدخل مهيأ للكراسي المتحركة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة",
+        "text": "بطاقات ائتمان وسحب آلي."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/1629909613654-28e377c37b09"
+    }
+  }
+}
