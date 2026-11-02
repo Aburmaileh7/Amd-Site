@@ -1,0 +1,180 @@
+{
+  "place_id": "ChIJq51kKlihHBURFR7pMtFlVV4",
+  "slug": "dr-ahmad-hassan-dental-clinic",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#1E7F86",
+    "rgb": "30, 127, 134",
+    "hover": "#16656B",
+    "ink": "#FFFFFF"
+  },
+  "name": "عيادة د. أحمد حسان لطب الأسنان",
+  "name_lang": "ar",
+  "category_label": "عيادة أسنان",
+  "area": "تلاع العلي، عمّان",
+  "address": "Sara Saudi Center، شارع وصفي التل 268، تلاع العلي، عمّان",
+  "phone": {
+    "display": "+962 7 9022 2789",
+    "tel": "+962790222789"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%E2%80%8FDr.%20Ahmad%20Hassan%20Dental%20Clinic%20%D8%B9%D9%8A%D8%A7%D8%AF%D8%A9%20%D8%AF.%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%AD%D8%B3%D8%A7%D9%86%20%D9%84%D8%B7%D8%A8%20%D8%A7%D9%84%D8%A3%D8%B3%D9%86%D8%A7%D9%86&query_place_id=ChIJq51kKlihHBURFR7pMtFlVV4",
+  "map_query": "Dr. Ahmad Hassan Dental Clinic, Sara Saudi center, Wasfi Al Tal St, Amman, Jordan",
+  "rating": {
+    "value": 5,
+    "count": 148,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "10 ص – 6 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "عيادة د. أحمد حسان في تلاع العلي، شرح واضح لكل خطوة",
+    "intro": "عيادة في شارع وصفي التل يصفها مراجعوها بالمواعيد الدقيقة وخطة العلاج الواضحة، وتشمل خدماتها التجميل والزراعة والتقويم.",
+    "image": "dental"
+  },
+  "sections": [
+    "reviews",
+    "menu",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "فحص وخطة علاج",
+            "desc": "شرح الحالة وخطوات العلاج."
+          },
+          {
+            "name": "تجميل الأسنان وحشوات تجميلية",
+            "desc": ""
+          },
+          {
+            "name": "تنظيف وتلميع الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تبييض الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "زراعة الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تقويم الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "جراحة الفم والوجه والفكين",
+            "desc": ""
+          },
+          {
+            "name": "حالات الطوارئ",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Lama Z.",
+      "stars": 5,
+      "text": "Dr. Ahmad Hassan explained everything clearly and made sure I understood the treatment. I was seen right on time, with no waiting. I really appreciated his professionalism and care. Highly recommended.",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Samih K.",
+      "stars": 5,
+      "text": "تجربتي مع الدكتور أحمد كانت ممتازة جدًا. دكتور محترم ومرتب وشاطر جدًا في شغله، والأهم إنه مهتم بمرضاه وبتعامل معهم بكل أريحية وشفافية، وبيشرح كل شيء بوضوح واهتمام …",
+      "source_ref": "r5"
+    },
+    {
+      "author": "Shady A.",
+      "stars": 5,
+      "text": "Consultative, clear explanations and treatment plan from Dr Ahmad Hassan. Excellent understanding in Arabic and English. Cleaning, filling and crown installation all done to a high standard quickly …",
+      "source_ref": "r9"
+    },
+    {
+      "author": "Sameer S.",
+      "stars": 5,
+      "text": "ما شاء الله . دكتور رائع يده خفية اجهزة حديثة عيادة  متطورة استقبال رائع سعر معتدل.",
+      "source_ref": "r10"
+    },
+    {
+      "author": "Zaineh M.",
+      "stars": 5,
+      "text": "تم تخصيص موعد و التشخيص والعلاج بإحترافية ومهنية عالية جلسة علاجية مريحة وبدون الم ونتيجة رائعة لحشوات تجميلية امامية وتنظيف وتلميع الاسنان",
+      "source_ref": "r11"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "المواعيد مطلوبة",
+        "text": "يُفضّل حجز موعد قبل الزيارة."
+      },
+      {
+        "icon": "check",
+        "title": "مواقف سيارات",
+        "text": "مواقف في الموقع ومواقف مجانية في الشارع."
+      },
+      {
+        "icon": "check",
+        "title": "خطط دفع وبطاقات",
+        "text": "بطاقات ائتمان وسحب آلي وNFC، وتتوفر خطط دفع."
+      },
+      {
+        "icon": "check",
+        "title": "تسهيلات لذوي الإعاقة الحركية",
+        "text": "دورة مياه تستوعب الكراسي المتحركة."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/1629909613654-28e377c37b09"
+    }
+  },
+  "batch_id": "b202611020837"
+}

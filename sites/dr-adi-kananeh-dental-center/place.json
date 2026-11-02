@@ -1,0 +1,161 @@
+{
+  "place_id": "ChIJ3QN2xgyhHBURzfXbmM6Ja40",
+  "slug": "dr-adi-kananeh-dental-center",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#2F6F9F",
+    "rgb": "47, 111, 159",
+    "hover": "#235879",
+    "ink": "#FFFFFF"
+  },
+  "name": "مركز الدكتور عدي كنانه لطب الأسنان",
+  "name_lang": "ar",
+  "category_label": "مركز أسنان",
+  "area": "العبدلي، عمّان",
+  "address": "شارع ابن الفارض، منطقة العبدلي، عمّان",
+  "phone": {
+    "display": "+962 7 9860 2882",
+    "tel": "+962798602882"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D8%A7%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1%20%D8%B9%D8%AF%D9%8A%20%D9%83%D9%86%D8%A7%D9%86%D9%87%20%D9%84%D8%B7%D8%A8%20%D8%A7%D9%84%D8%A3%D8%B3%D9%86%D8%A7%D9%86&query_place_id=ChIJ3QN2xgyhHBURzfXbmM6Ja40",
+  "map_query": "مركز الدكتور عدي كنانه لطب الأسنان, ش. إبن الفارض, عمّان, الأردن",
+  "rating": {
+    "value": 4.9,
+    "count": 152,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "9 ص – 8 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "مركز د. عدي كنانه في العبدلي، وابتسامة مرسومة بعناية",
+    "intro": "مركز أسنان في العبدلي يتحدث مراجعوه عن تركيب الفينير ورسم الأسنان والأجهزة الحديثة، حتى من زاروا عمّان للعلاج.",
+    "image": "dental2"
+  },
+  "sections": [
+    "menu",
+    "proof",
+    "reviews",
+    "visit",
+    "amenities"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "فحص واستشارة",
+            "desc": "شرح للحالة وخيارات العلاج."
+          },
+          {
+            "name": "فينير الأسنان",
+            "desc": "تصميم الابتسامة وتركيب الفينير."
+          },
+          {
+            "name": "علاج الأسنان العام",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Doha D.",
+      "stars": 5,
+      "text": "عملت عند الدكتور فيسنج وبصراحة شغل. بجننن ورسمة الأسنان كتير حلوة بنصح بالدكتور وأيده خفيفة",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Nart Б.",
+      "stars": 5,
+      "text": "My experience visiting Jordan was wonderfully especially the dental treatment ..thank u Dr oday the service was excellent and the medical care was very good 👍",
+      "source_ref": "r4"
+    },
+    {
+      "author": "ALI B.",
+      "stars": 5,
+      "text": "تجربتي كثير ممتازة بالمركز من الدكتور عدي تعامل ومهنية انصح بشده",
+      "source_ref": "r5"
+    },
+    {
+      "author": "Anas Y.",
+      "stars": 5,
+      "text": "أجهزه حديثه وشغل ممتاز",
+      "source_ref": "r7"
+    },
+    {
+      "author": "Ahmad",
+      "stars": 5,
+      "text": "دكتور متميز وشغل نضيف وقمه الاحترام والتقدير إلى الدكتور عدي كنانه",
+      "source_ref": "r8"
+    },
+    {
+      "author": "هبة م.",
+      "stars": 5,
+      "text": "عملت فيسنج عند دكتور عدي صراحه اسنان كانو ابدا مش زابطين و كنت كتيير خايفه ما يطلعوا زي ما بدي بس صراحه دكتور فنان طلعوا زي ما بدي …",
+      "source_ref": "r10"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental2",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "المواعيد مُوصى بها",
+        "text": "يُفضّل حجز موعد قبل الزيارة."
+      },
+      {
+        "icon": "check",
+        "title": "تسهيلات لذوي الإعاقة الحركية",
+        "text": "دورة مياه تستوعب الكراسي المتحركة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة والجوال",
+        "text": "بطاقات ائتمان وسحب آلي وNFC."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental2"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/1629909613654-28e377c37b09"
+    }
+  },
+  "batch_id": "b202611020837"
+}
