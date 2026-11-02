@@ -1,0 +1,163 @@
+{
+  "place_id": "ChIJ8VRVNumhHBURyckAM5Q6ak4",
+  "slug": "charisma-dental-clinic",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#2E7D6B",
+    "rgb": "46, 125, 107",
+    "hover": "#225F51",
+    "ink": "#FFFFFF"
+  },
+  "name": "Charisma Dental Clinic",
+  "name_lang": "ar",
+  "category_label": "عيادة أسنان",
+  "area": "تلاع العلي، عمّان",
+  "address": "شارع وصفي التل 293، تلاع العلي، عمّان",
+  "phone": {
+    "display": "+962 7 9777 9829",
+    "tel": "+962797779829"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Charisma%20Dental%20Clinic&query_place_id=ChIJ8VRVNumhHBURyckAM5Q6ak4",
+  "map_query": "Charisma Dental Clinic, Wasfi Al Tal St 293, Amman, Jordan",
+  "rating": {
+    "value": 4.4,
+    "count": 57,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "الاثنين – الأربعاء، السبت – الأحد",
+        "time": "10 ص – 6 م"
+      },
+      {
+        "days": "الخميس",
+        "time": "10 ص – 4 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "عيادة أسنان للأطفال والكبار في شارع وصفي التل",
+    "intro": "يصف مراجعو Charisma أطباءها بالمهنية والتعامل الراقي، ويذكرون طب أسنان الأطفال وتجميل الأسنان وجراحة الفم والفكين.",
+    "image": "dental"
+  },
+  "sections": [
+    "menu",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "طب أسنان الأطفال",
+            "desc": "يذكرها المراجعون في تعليقاتهم."
+          },
+          {
+            "name": "تجميل الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "جراحة الفم والفكين",
+            "desc": ""
+          },
+          {
+            "name": "علاج الأسنان العام",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Murad A.",
+      "stars": 5,
+      "text": "تعامل جدا راقي واحترافي، أطباء على اعلى مستوى، عنجد شكرا، انصح بزيارتها بشده خصوصا للأطفال",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Yaman K.",
+      "stars": 5,
+      "text": "Amazing doctors, restored my smile and made sure my teeth are in good shape.",
+      "source_ref": "r9"
+    },
+    {
+      "author": "Amal N.",
+      "stars": 5,
+      "text": "أروع دكتورة أسنان للأطفال الدكتوره مرح تيم. الله يوفقها ويبارك فيها. كل الشكر و التّقدير والاحترام.",
+      "source_ref": "r12"
+    },
+    {
+      "author": "Lokman O.",
+      "stars": 5,
+      "text": "My first and only choice when it comes to dental work, Dr.Omar great person when it comes to exactly tells you what should be done and what to expect…",
+      "source_ref": "r7"
+    },
+    {
+      "author": "TheSue111",
+      "stars": 5,
+      "text": "من افضل العيادات ، نظافة نظام شطارة الدكتورة مرح دكتور اسنان للاطفال رائعة جدا وعندها طولة بال",
+      "source_ref": "r6"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "المواعيد مُوصى بها",
+        "text": "يُفضّل حجز موعد قبل الزيارة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة والجوال",
+        "text": "بطاقات ائتمان وسحب آلي وNFC."
+      },
+      {
+        "icon": "check",
+        "title": "دورة مياه للكراسي المتحركة",
+        "text": "دورة مياه تستوعب الكراسي المتحركة."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/1629909613654-28e377c37b09"
+    }
+  },
+  "batch_id": "b202611020946"
+}

@@ -1,0 +1,163 @@
+{
+  "place_id": "ChIJD2ZeZLahHBURqeP7qrkG7V8",
+  "slug": "dr-homam-thogan-dental-clinic",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#6A4C93",
+    "rgb": "106, 76, 147",
+    "hover": "#533B73",
+    "ink": "#FFFFFF"
+  },
+  "name": "Dr.Homam Thogan Dental Clinic",
+  "name_lang": "ar",
+  "category_label": "عيادة أسنان",
+  "area": "تلاع العلي، عمّان",
+  "address": "شارع وصفي التل 362، تلاع العلي، عمّان",
+  "phone": {
+    "display": "+962 7 9770 8114",
+    "tel": "+962797708114"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Dr.Homam%20Thogan%20Dental%20Clinic&query_place_id=ChIJD2ZeZLahHBURqeP7qrkG7V8",
+  "map_query": "Dr.Homam Thogan Dental Clinic, Wasfi Al Tal St 362, Amman, Jordan",
+  "rating": {
+    "value": 4.9,
+    "count": 54,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "10 ص – 6 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "عيادة د. همام ثوغان: شرح واضح وموعد غير مستعجل",
+    "intro": "يصف مراجعو الدكتور همام عيادته بالنظافة والمواعيد الدقيقة والشرح الواضح لكل إجراء، في شارع وصفي التل بتلاع العلي.",
+    "image": "dental2"
+  },
+  "sections": [
+    "menu",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تصوير الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "حشوات",
+            "desc": ""
+          },
+          {
+            "name": "خلع الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "زراعة الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تلبيسات",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Deema A.",
+      "stars": 5,
+      "text": "A very professional doctor and super welcoming. He gives you your time and explains the procedure very clearly.",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Dima A.",
+      "stars": 5,
+      "text": "العياده نضيفه جداً والدكتور ما شاء الله شاطر",
+      "source_ref": "r6"
+    },
+    {
+      "author": "Amenah A.",
+      "stars": 5,
+      "text": "احسن عياده بالتعامل و السرعه و الدقه شكرا دكتور همام",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Duaa A.",
+      "stars": 5,
+      "text": "I always have great experience with Dr. Homam. He is professional, caring, and takes the time to explain everything clearly.",
+      "source_ref": "r8"
+    },
+    {
+      "author": "Ameen A.",
+      "stars": 5,
+      "text": "دكتور ايده خفيفة ومواعيدهم مريحة ودقيقة جدا. بعمل كل اشي من تصوير الاسنان والحشوات والخلع لحد الزراعة والتلبيسات",
+      "source_ref": "r12"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental2",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "المواعيد مُوصى بها",
+        "text": "يُفضّل حجز موعد قبل الزيارة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة والجوال",
+        "text": "بطاقات ائتمان وسحب آلي وNFC."
+      },
+      {
+        "icon": "check",
+        "title": "مرحاض",
+        "text": "مرحاض متوفر في العيادة."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental2"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/1629909613654-28e377c37b09"
+    }
+  },
+  "batch_id": "b202611020946"
+}

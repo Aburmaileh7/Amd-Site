@@ -1,0 +1,150 @@
+{
+  "place_id": "ChIJvYMogPKhHBUR8N9sp8yCH84",
+  "slug": "dr-alfahd-madadha-dental-clinic",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#1F5A8C",
+    "rgb": "31, 90, 140",
+    "hover": "#174569",
+    "ink": "#FFFFFF"
+  },
+  "name": "عيادة الدكتور الفهد مدادحة لطب وجراحة الأسنان",
+  "name_lang": "ar",
+  "category_label": "عيادة أسنان",
+  "area": "تلاع العلي، عمّان",
+  "address": "شارع الأميرة زين بنت الحسين، تلاع العلي، عمّان",
+  "phone": {
+    "display": "+962 7 9772 0090",
+    "tel": "+962797720090"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D8%B9%D9%8A%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1%20%D8%A7%D9%84%D9%81%D9%87%D8%AF%20%D9%85%D8%AF%D8%A7%D8%AF%D8%AD%D8%A9%20%D9%84%D8%B7%D8%A8%20%D9%88%D8%AC%D8%B1%D8%A7%D8%AD%D8%A9%20%D8%A7%D9%84%D8%A3%D8%B3%D9%86%D8%A7%D9%86&query_place_id=ChIJvYMogPKhHBUR8N9sp8yCH84",
+  "map_query": "Princess Zein bint Hussein St, Tla' Al Ali, Amman, Jordan",
+  "rating": {
+    "value": 4.9,
+    "count": 91,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "الاثنين – الأربعاء، السبت – الأحد",
+        "time": "9:30 ص – 6 م"
+      },
+      {
+        "days": "الخميس",
+        "time": "9:30 ص – 3 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "طب وجراحة الأسنان في تلاع العلي بإشراف د. الفهد",
+    "intro": "عيادة الدكتور الفهد مدادحة في شارع الأميرة زين بنت الحسين، وتقدّم تجميل الأسنان ورعاية الأطفال وخدمات الطوارئ بموعد مسبق.",
+    "image": "dental2"
+  },
+  "sections": [
+    "menu",
+    "proof",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تجميل الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "رعاية طبية للأطفال",
+            "desc": ""
+          },
+          {
+            "name": "خدمات الطوارئ",
+            "desc": ""
+          },
+          {
+            "name": "علاج الأسنان مع استخدام المسكّنات",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Noor S.",
+      "stars": 5,
+      "text": "تجربة ممتازة بكل المقاييس، الدكتور شاطر ومحترف وبتعامل بكل لطف واهتمام، والعيادة نظيفة ومرتبة والطاقم متعاون جدًا. كثير مبسوطة بالتجربة وبنصح فيها بكل ثقة",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Nura M.",
+      "stars": 5,
+      "text": "Super amazing doctors and services",
+      "source_ref": "r2"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental2",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "المواعيد مُوصى بها",
+        "text": "يُفضّل حجز موعد قبل الزيارة."
+      },
+      {
+        "icon": "check",
+        "title": "مواقف مجانية",
+        "text": "مواقف سيارات مجانية في الموقع وفي الشارع."
+      },
+      {
+        "icon": "check",
+        "title": "مدخل صالح للكراسي المتحركة",
+        "text": "مدخل وأماكن جلوس مهيّأة للكراسي المتحركة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة والجوال",
+        "text": "بطاقات ائتمان وسحب آلي وNFC."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental2"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/1629909613654-28e377c37b09"
+    }
+  },
+  "batch_id": "b202611020946"
+}

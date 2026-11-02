@@ -1,0 +1,132 @@
+{
+  "place_id": "ChIJI5AXnwahHBURpk0-Crhz-90",
+  "slug": "al-yaqout-dental-center",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#A0701F",
+    "rgb": "160, 112, 31",
+    "hover": "#80590F",
+    "ink": "#FFFFFF"
+  },
+  "name": "مركز الياقوت لطب الاسنان",
+  "name_lang": "ar",
+  "category_label": "مركز أسنان",
+  "area": "وادي السير، عمّان",
+  "address": "جوهرة، شارع زهران 267، وادي السير، عمّان",
+  "phone": {
+    "display": "+962 7 8848 5550",
+    "tel": "+962788485550"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D8%A7%D9%84%D9%8A%D8%A7%D9%82%D9%88%D8%AA%20%D9%84%D8%B7%D8%A8%20%D8%A7%D9%84%D8%A7%D8%B3%D9%86%D8%A7%D9%86&query_place_id=ChIJI5AXnwahHBURpk0-Crhz-90",
+  "map_query": "Al Yaqout Dental Center, Zahran St 267, Wadi Al Seer, Amman, Jordan",
+  "rating": {
+    "value": 4.7,
+    "count": 46,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "مركز أسنان في وادي السير وتقويم بخبرة طبيب",
+    "intro": "مركز الياقوت لطب الأسنان في شارع زهران بوادي السير، يذكر مراجعوه خبرة أطبائه في التقويم والعلاج والتعامل المهتم بالمريض.",
+    "image": "dental"
+  },
+  "sections": [
+    "menu",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تقويم الأسنان",
+            "desc": "يذكره المراجعون في تعليقاتهم."
+          },
+          {
+            "name": "علاج الأسنان العام",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Zaina R.",
+      "stars": 5,
+      "text": "احسن مركز اسنان واحسن دكتور اسنان دكتور عبد الغني",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Mohammad K.",
+      "stars": 5,
+      "text": "بتعامل مع هذه العيادة منذ سنوات ودائما كانت تجربتي ممتازة خدمة احترافية تعامل خرافي، واهتمام كبير بالمريض أنصح بها بكل ثقة",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Ahmed A.",
+      "stars": 5,
+      "text": "اشكر طاقم المركز بالكامل قمة في التعامل. من أجمل وأروع المراكز اللي مرت عليه خاصه الدكتور حارث منير",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Tala k.",
+      "stars": 5,
+      "text": "الدكتور ياسر دكتور شاطر ومبدع في مهنته و راقي جدا وأسلوب معاملته جميل",
+      "source_ref": "r5"
+    },
+    {
+      "author": "Wesam D.",
+      "stars": 5,
+      "text": "Dr.Abdalghani is a very dedicated dentist, he always puts so much effort into his work and will always give the optimum treatment and never rushes anything.",
+      "source_ref": "r6"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "المواعيد مُوصى بها",
+        "text": "يُفضّل حجز موعد قبل الزيارة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة والجوال",
+        "text": "بطاقات ائتمان وسحب آلي وNFC."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/1629909613654-28e377c37b09"
+    }
+  },
+  "batch_id": "b202611020946"
+}
