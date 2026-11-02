@@ -1,0 +1,285 @@
+{
+  "place_id": "ChIJC5aHOZBfGxURaStBbfabQPk",
+  "slug": "chapters",
+  "approved": false,
+  "agency": "Amad Web",
+  "name": "Chapters",
+  "name_lang": "en",
+  "category_label": "مطعم أطباق شامية",
+  "area": "العبدلي، عمّان",
+  "address": "شارع كلية الشريعة 4، عمّان",
+  "phone": {
+    "display": "+962 7 9881 6998",
+    "tel": "+962798816998"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20Chapters&query_place_id=ChIJC5aHOZBfGxURaStBbfabQPk",
+  "map_query": "Chapters Restaurant, Sharia College St, Amman, Jordan",
+  "rating": {
+    "value": 4.8,
+    "count": 826,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "10:30 ص – 11 م"
+      }
+    ],
+    "per_day": 12,
+    "source": "Google Maps"
+  },
+  "theme": "heritage_warm",
+  "layout": {
+    "hero": "full"
+  },
+  "accent": {
+    "hex": "#9A5B2E",
+    "rgb": "154, 91, 46",
+    "hover": "#7C4822",
+    "ink": "#FFFFFF"
+  },
+  "hero": {
+    "headline": "أطباق شامية في مطعم صغير بالعبدلي",
+    "intro": "مطعم عائلي صغير بجلسات داخلية وعلى الرصيف، يقدّم فطورًا وغداءً وعشاءً من 10:30 صباحًا حتى 11 مساءً، مع خيارات نباتية.",
+    "image": "table"
+  },
+  "sections": [
+    "proof",
+    "menu",
+    "reviews",
+    "story",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "من 10:30 صباحًا حتى 11 مساءً",
+    "title": "مطعم صغير بطابعه",
+    "items": [
+      {
+        "time": "10:30 ص",
+        "label": "الصباح",
+        "title": "فطور وإفطار متأخر",
+        "text": "يفتح المطعم عند العاشرة والنصف، والفطور والإفطار المتأخر من خيارات الطعام فيه.",
+        "image": "inside"
+      },
+      {
+        "time": "ظهرًا",
+        "label": "الغداء",
+        "title": "مقبلات للمشاركة",
+        "text": "زبائن يذكرون الفتوش والحمص والتبولة، وينصح أحدهم بطلب الخبز دافئًا.",
+        "image": "table"
+      },
+      {
+        "time": "مساءً",
+        "label": "العشاء",
+        "title": "جلسة على الرصيف",
+        "text": "المكان صغير بجلسات داخلية وأخرى على الشارع، وزبائن يفضّلون الجلوس في الخارج.",
+        "image": "candle"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "مقبلات وأطباق شامية",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للاستفسار",
+    "categories": [
+      {
+        "id": "cold",
+        "title": "مقبلات",
+        "tagline": "للمشاركة",
+        "image": "table",
+        "items": [
+          {
+            "name": "حمص",
+            "desc": "",
+            "price": 2.5,
+            "mentioned": true
+          },
+          {
+            "name": "فتوش",
+            "desc": "",
+            "price": 3.5,
+            "mentioned": true
+          },
+          {
+            "name": "تبولة",
+            "desc": "",
+            "price": 3.5,
+            "mentioned": true
+          },
+          {
+            "name": "بطاطا حرة",
+            "desc": "",
+            "price": 3.5,
+            "mentioned": true
+          },
+          {
+            "name": "حلوم مشوي",
+            "desc": "",
+            "price": 4,
+            "mentioned": true
+          }
+        ]
+      },
+      {
+        "id": "mains",
+        "title": "أطباق رئيسية",
+        "tagline": "",
+        "image": "grill",
+        "items": [
+          {
+            "name": "كبة مقلية",
+            "desc": "",
+            "price": 4.5
+          },
+          {
+            "name": "كفتة بالطحينة",
+            "desc": "",
+            "price": 6.5
+          },
+          {
+            "name": "فريكة بالقشطة",
+            "desc": "",
+            "price": 7
+          },
+          {
+            "name": "صحن دجاج بالكريمة",
+            "desc": "",
+            "price": 7.5
+          }
+        ]
+      },
+      {
+        "id": "hot",
+        "title": "مشروبات",
+        "tagline": "",
+        "image": "candle",
+        "items": [
+          {
+            "name": "شاي",
+            "desc": "",
+            "price": 1.5
+          },
+          {
+            "name": "قهوة",
+            "desc": "",
+            "price": 2
+          },
+          {
+            "name": "عصير طازج",
+            "desc": "",
+            "price": 3
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "الفتوش",
+    "الحمص",
+    "بطاطا حرة",
+    "حلوم",
+    "التبولة"
+  ],
+  "reviews": [
+    {
+      "author": "Sajedah A.",
+      "stars": 5,
+      "text": "Food is fresh, reallly tasty, diverse menu and very filling… the atmosphere and service were also 10/10…",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Sanaa Z.",
+      "stars": 5,
+      "text": "It's a cute and cozy place with lovely levantine dishes… Ask them to warm the bread to make everything taste even better.",
+      "source_ref": "r3"
+    },
+    {
+      "author": "Chris H.",
+      "stars": 5,
+      "text": "The food and service here was excellent… It is a small place spread inside and streetside, we loved being on the street",
+      "source_ref": "r6"
+    },
+    {
+      "author": "D E.",
+      "stars": 5,
+      "text": "Everything was so delicious and we enjoyed our food so much. The owner is so nice and polite. The restaurant is authentic and has a cozy interior.",
+      "source_ref": "r9"
+    },
+    {
+      "author": "Jasmin E.",
+      "stars": 5,
+      "text": "We had the Fattoush salad, hummus, Batata Harra and halloumi, and every single dish was amazing.",
+      "source_ref": "r10"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": "inside",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات خارجية",
+        "text": "على الرصيف وداخل المكان."
+      },
+      {
+        "icon": "bag",
+        "title": "توصيل وطلب سفري",
+        "text": ""
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للأطفال",
+        "text": ""
+      },
+      {
+        "icon": "check",
+        "title": "خيارات نباتية وصحية",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف سيارات",
+        "text": "مواقف كثيرة وفي الشارع."
+      }
+    ]
+  },
+  "visit": {
+    "image": "sunset"
+  },
+  "images": {
+    "table": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات",
+      "page": "https://unsplash.com/photos/photo-1704742205592-15191a615455"
+    },
+    "grill": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز",
+      "page": "https://unsplash.com/photos/photo-1777716003985-68fed08d0c7e"
+    },
+    "candle": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/photo-1775340965364-64be29c25f1c"
+    },
+    "inside": {
+      "id": "photo-1511081692775-05d0f180a065",
+      "alt": "صورة توضيحية: داخل مكان بإضاءة معلقة وطاولة",
+      "page": "https://unsplash.com/photos/photo-1511081692775-05d0f180a065"
+    },
+    "sunset": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة",
+      "page": "https://unsplash.com/photos/photo-1572279815221-92b091e941c2"
+    }
+  },
+  "batch_id": "b202611020733"
+}

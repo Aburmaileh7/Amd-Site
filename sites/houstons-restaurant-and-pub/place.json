@@ -1,0 +1,262 @@
+{
+  "place_id": "ChIJl-mw_GugHBURXgOIAmS4_vQ",
+  "slug": "houstons-restaurant-and-pub",
+  "approved": false,
+  "agency": "Amad Web",
+  "name": "Houston's Restaurant & Pub",
+  "name_lang": "en",
+  "category_label": "مطعم وبار",
+  "area": "العبدلي، عمّان",
+  "address": "شارع ليلى الأخلية، العبدلي، عمّان",
+  "phone": {
+    "display": "+962 7 8776 6600",
+    "tel": "+962787766600"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Houston's%20Restaurant%20And%20Pub&query_place_id=ChIJl-mw_GugHBURXgOIAmS4_vQ",
+  "map_query": "Houston's Restaurant And Pub, Abdali, Amman, Jordan",
+  "rating": {
+    "value": 4.4,
+    "count": 886,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "12 م – 12 ص"
+      }
+    ],
+    "per_day": 12,
+    "source": "Google Maps"
+  },
+  "theme": "rooftop_dark",
+  "accent": {
+    "hex": "#D6452B",
+    "rgb": "214, 69, 43",
+    "hover": "#B53720",
+    "ink": "#FFFFFF"
+  },
+  "hero": {
+    "headline": "غداء وعشاء وكوكتيلات في العبدلي حتى منتصف الليل",
+    "intro": "مطعم وبار في منطقة العبدلي بجلسات داخلية وخارجية، فيه موسيقى حية وكاريوكي وشاشات رياضية، ويفتح يوميًا من الظهر.",
+    "image": "candle"
+  },
+  "sections": [
+    "story",
+    "reviews",
+    "menu",
+    "amenities",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "من 12 ظهرًا حتى 12 ليلًا",
+    "title": "من الظهر إلى منتصف الليل",
+    "items": [
+      {
+        "time": "12:00 م",
+        "label": "الظهيرة",
+        "title": "غداء في العبدلي",
+        "text": "يفتح المكان عند الثانية عشرة ظهرًا، والغداء من أوقاته المعروفة على Google.",
+        "image": "table"
+      },
+      {
+        "time": "مساءً",
+        "label": "العشاء",
+        "title": "عشاء وكوكتيلات",
+        "text": "زبائن يذكرون الكوكتيلات والطعام والخدمة، مع جلسات داخلية وأخرى هادئة في الخارج.",
+        "image": "candle"
+      },
+      {
+        "time": "12:00 ص",
+        "label": "السهرة",
+        "title": "موسيقى حية ومباريات",
+        "text": "يقدّم المكان موسيقى حية وكاريوكي وبثًّا للألعاب الرياضية، ويبقى مفتوحًا حتى منتصف الليل.",
+        "image": "sunset"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "من الغداء إلى السهرة",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز",
+    "categories": [
+      {
+        "id": "starters",
+        "title": "مقبلات",
+        "tagline": "للمشاركة",
+        "image": "table",
+        "items": [
+          {
+            "name": "أجنحة دجاج",
+            "desc": "",
+            "price": 6.5
+          },
+          {
+            "name": "حلقات بصل",
+            "desc": "",
+            "price": 4
+          },
+          {
+            "name": "بطاطا مقلية بالجبنة",
+            "desc": "",
+            "price": 5
+          },
+          {
+            "name": "سلطة سيزر",
+            "desc": "",
+            "price": 6
+          }
+        ]
+      },
+      {
+        "id": "mains",
+        "title": "أطباق رئيسية",
+        "tagline": "",
+        "image": "grill",
+        "items": [
+          {
+            "name": "برغر لحم",
+            "desc": "مع بطاطا.",
+            "price": 9.5
+          },
+          {
+            "name": "ستيك لحم",
+            "desc": "",
+            "price": 16
+          },
+          {
+            "name": "صدر دجاج مشوي",
+            "desc": "",
+            "price": 10
+          },
+          {
+            "name": "بيتزا مشكّلة",
+            "desc": "",
+            "price": 8
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "مشروبات وكوكتيلات",
+        "tagline": "",
+        "image": "candle",
+        "items": [
+          {
+            "name": "كوكتيل الموسم",
+            "desc": "",
+            "price": 7,
+            "mentioned": true
+          },
+          {
+            "name": "موهيتو",
+            "desc": "",
+            "price": 5
+          },
+          {
+            "name": "عصير طازج",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "قهوة",
+            "desc": "",
+            "price": 2.5
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "الكوكتيلات"
+  ],
+  "reviews": [
+    {
+      "author": "Wassim S.",
+      "stars": 5,
+      "text": "The atmosphere was amazing, and the food was simply outstanding. The drinks were top quality, and everything was served with great attention to detail.",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Alaa T.",
+      "stars": 5,
+      "text": "Amazing food the chef is incredible, extremely good cocktails and superior service",
+      "source_ref": "r3"
+    },
+    {
+      "author": "Tariq",
+      "stars": 5,
+      "text": "Loud inside, pretty calm outside.",
+      "source_ref": "r2"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": "sunset",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات خارجية",
+        "text": "إلى جانب الصالة الداخلية."
+      },
+      {
+        "icon": "sky",
+        "title": "موسيقى حية وكاريوكي",
+        "text": "وبث للألعاب الرياضية."
+      },
+      {
+        "icon": "wifi",
+        "title": "إنترنت لاسلكي مجاني",
+        "text": ""
+      },
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجوزات",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "خدمة ركن السيارات",
+        "text": "وموقف في الشارع."
+      }
+    ]
+  },
+  "visit": {
+    "image": "roof"
+  },
+  "images": {
+    "candle": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/photo-1775340965364-64be29c25f1c"
+    },
+    "table": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات",
+      "page": "https://unsplash.com/photos/photo-1704742205592-15191a615455"
+    },
+    "sunset": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة",
+      "page": "https://unsplash.com/photos/photo-1572279815221-92b091e941c2"
+    },
+    "grill": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز",
+      "page": "https://unsplash.com/photos/photo-1777716003985-68fed08d0c7e"
+    },
+    "roof": {
+      "id": "photo-1786374785195-2267ddab1bec",
+      "alt": "صورة توضيحية: طاولة وكراسٍ على سطح يطل على مدينة",
+      "page": "https://unsplash.com/photos/photo-1786374785195-2267ddab1bec"
+    }
+  },
+  "batch_id": "b202611020733"
+}

@@ -1,0 +1,276 @@
+{
+  "place_id": "ChIJv9GiD3ahHBURliP_0Xv13aA",
+  "slug": "totis-italian",
+  "approved": false,
+  "agency": "Amad Web",
+  "name": "مطعم توتيز إيطالي",
+  "name_lang": "ar",
+  "category_label": "مطعم إيطالي",
+  "area": "زهران، عمّان",
+  "address": "شارع أبو تمام، عمّان",
+  "phone": {
+    "display": "+962 7 9111 7030",
+    "tel": "+962791117030"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%AA%D9%88%D8%AA%D9%8A%D8%B2%20%D8%A7%D9%8A%D8%B7%D8%A7%D9%84%D9%8A&query_place_id=ChIJv9GiD3ahHBURliP_0Xv13aA",
+  "map_query": "مطعم توتيز ايطالي, Abu Tammam St, Amman, Jordan",
+  "rating": {
+    "value": 4.7,
+    "count": 772,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "12 م – 12 ص"
+      }
+    ],
+    "per_day": 12,
+    "source": "Google Maps"
+  },
+  "theme": "heritage_warm",
+  "layout": {
+    "hero": "split"
+  },
+  "accent": {
+    "hex": "#8C2F3B",
+    "rgb": "140, 47, 59",
+    "hover": "#6F2430",
+    "ink": "#FFFFFF"
+  },
+  "hero": {
+    "headline": "مطعم إيطالي بأجواء هادئة في زهران",
+    "intro": "بيتزا ومأكولات إيطالية في مكان بطابع قديم ودافئ، مع مدفأة وجلسات خارجية، يفتح يوميًا من الظهر حتى منتصف الليل.",
+    "image": "candle"
+  },
+  "sections": [
+    "story",
+    "reviews",
+    "menu",
+    "amenities",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "من 12 ظهرًا حتى 12 ليلًا",
+    "title": "مكان هادئ للعشاء",
+    "items": [
+      {
+        "time": "12:00 م",
+        "label": "الظهيرة",
+        "title": "غداء وإفطار متأخر",
+        "text": "يفتح المكان عند الثانية عشرة ظهرًا، والغداء والإفطار المتأخر من خيارات الطعام.",
+        "image": "table"
+      },
+      {
+        "time": "مساءً",
+        "label": "العشاء",
+        "title": "أجواء رومانسية وهادئة",
+        "text": "يصفه الزبائن بالمكان النظيف بطابع قديم، وتتوفر مدفأة وحجوزات للمجموعات.",
+        "image": "inside"
+      },
+      {
+        "time": "12:00 ص",
+        "label": "آخر الليل",
+        "title": "حتى منتصف الليل",
+        "text": "المطبخ يقدّم وجبات في ساعات متأخرة، مع حلويات وقهوة وشاي.",
+        "image": "cake"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "إيطالي هادئ",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز",
+    "categories": [
+      {
+        "id": "pizza",
+        "title": "البيتزا",
+        "tagline": "حجم وسط",
+        "image": "pizza",
+        "items": [
+          {
+            "name": "مارغريتا",
+            "desc": "",
+            "price": 5.5
+          },
+          {
+            "name": "بيبروني",
+            "desc": "",
+            "price": 6.5,
+            "mentioned": true
+          },
+          {
+            "name": "خضار",
+            "desc": "",
+            "price": 6
+          },
+          {
+            "name": "دجاج",
+            "desc": "",
+            "price": 6.5
+          }
+        ]
+      },
+      {
+        "id": "pasta",
+        "title": "الباستا",
+        "tagline": "",
+        "image": "pizza2",
+        "items": [
+          {
+            "name": "ألفريدو دجاج",
+            "desc": "",
+            "price": 7
+          },
+          {
+            "name": "بولونيز",
+            "desc": "",
+            "price": 6.5
+          },
+          {
+            "name": "أرابياتا",
+            "desc": "",
+            "price": 6
+          },
+          {
+            "name": "بيستو",
+            "desc": "",
+            "price": 6.5
+          }
+        ]
+      },
+      {
+        "id": "sweet",
+        "title": "حلويات ومشروبات",
+        "tagline": "",
+        "image": "cake",
+        "items": [
+          {
+            "name": "تشيزكيك",
+            "desc": "",
+            "price": 4
+          },
+          {
+            "name": "كعكة شوكولاتة",
+            "desc": "",
+            "price": 4
+          },
+          {
+            "name": "قهوة",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "شاي",
+            "desc": "",
+            "price": 2
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "بيتزا بيبروني"
+  ],
+  "reviews": [
+    {
+      "author": "Veldana S.",
+      "stars": 5,
+      "text": "Best Italian food spot in Amman! So delicious & love the cozy atmosphere",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Ariana M.",
+      "stars": 5,
+      "text": "Place is very nice and clean. The aesthetic of the place is very vintage. Food is absolutely delicious we got the pepperoni pizza and was truly amazing. Service was exceptional.",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Hussam Z.",
+      "stars": 5,
+      "text": "This isn't my first visit and they deserve five stars every time.",
+      "source_ref": "r5"
+    },
+    {
+      "author": "Yazan A.",
+      "stars": 5,
+      "text": "Nice place",
+      "source_ref": "r3"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": "inside",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات خارجية",
+        "text": "ومدفأة داخل المكان."
+      },
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجوزات",
+        "text": ""
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للأطفال",
+        "text": "كراسي عالية للأطفال."
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": "مدخل وموقف ودورة مياه."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": "قد يصعب إيجاد موقف أحيانًا."
+      }
+    ]
+  },
+  "visit": {
+    "image": "table"
+  },
+  "images": {
+    "candle": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/photo-1775340965364-64be29c25f1c"
+    },
+    "table": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات",
+      "page": "https://unsplash.com/photos/photo-1704742205592-15191a615455"
+    },
+    "inside": {
+      "id": "photo-1511081692775-05d0f180a065",
+      "alt": "صورة توضيحية: داخل مكان بإضاءة معلقة وطاولة",
+      "page": "https://unsplash.com/photos/photo-1511081692775-05d0f180a065"
+    },
+    "cake": {
+      "id": "photo-1517427294546-5aa121f68e8a",
+      "alt": "صورة توضيحية: قطعة كعكة شوكولاتة",
+      "page": "https://unsplash.com/photos/photo-1517427294546-5aa121f68e8a"
+    },
+    "pizza": {
+      "id": "photo-1513104890138-7c749659a591",
+      "alt": "صورة توضيحية: بيتزا ساخنة على طاولة",
+      "page": "https://unsplash.com/photos/photo-1513104890138-7c749659a591"
+    },
+    "pizza2": {
+      "id": "photo-1565299624946-b28f40a0ae38",
+      "alt": "صورة توضيحية: بيتزا بالجبنة والزيتون",
+      "page": "https://unsplash.com/photos/photo-1565299624946-b28f40a0ae38"
+    }
+  },
+  "batch_id": "b202611020733"
+}

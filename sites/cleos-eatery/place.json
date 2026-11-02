@@ -1,0 +1,282 @@
+{
+  "place_id": "ChIJI4w69dqhHBUR3Iwl9sIz5c4",
+  "slug": "cleos-eatery",
+  "approved": false,
+  "agency": "Amad Web",
+  "name": "Cleo's Eatery",
+  "name_lang": "en",
+  "category_label": "مطعم إيطالي",
+  "area": "زهران، عبدون، عمّان",
+  "address": "نهر ديالى 19، عبدون الشمالي، عمّان",
+  "phone": {
+    "display": "+962 7 9183 0096",
+    "tel": "+962791830096"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Cleos%20eatery&query_place_id=ChIJI4w69dqhHBUR3Iwl9sIz5c4",
+  "map_query": "Cleos eatery, Abdoun, Amman, Jordan",
+  "rating": {
+    "value": 4.8,
+    "count": 1065,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "11 ص – 11:30 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "2 م – 11:30 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "theme": "heritage_warm",
+  "layout": {
+    "hero": "full"
+  },
+  "accent": {
+    "hex": "#3E6B3A",
+    "rgb": "62, 107, 58",
+    "hover": "#2F5430",
+    "ink": "#FFFFFF"
+  },
+  "hero": {
+    "headline": "بيتزا وباستا إيطالية في عبدون حتى 11:30 مساءً",
+    "intro": "مطعم إيطالي عائلي في زهران، فيه جلسات داخلية وخارجية وتوصيل وطلب سفري، ومواقف مجانية قرب المكان.",
+    "image": "pizza"
+  },
+  "sections": [
+    "reviews",
+    "menu",
+    "story",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "من 11 صباحًا حتى 11:30 مساءً",
+    "title": "من الغداء إلى العشاء",
+    "items": [
+      {
+        "time": "11:00 ص",
+        "label": "الظهيرة",
+        "title": "غداء إيطالي",
+        "text": "يفتح المطعم أبوابه في الحادية عشرة صباحًا، والغداء من أبرز أوقاته على Google.",
+        "image": "table"
+      },
+      {
+        "time": "مساءً",
+        "label": "العشاء",
+        "title": "بيتزا وباستا للمجموعات",
+        "text": "زبائن يذكرون البيتزا المقرمشة والباستا بالبيستو والترافل، مع موسيقى إيطالية هادئة.",
+        "image": "pizza2"
+      },
+      {
+        "time": "11:30 م",
+        "label": "آخر السهرة",
+        "title": "طلب سفري أو توصيل",
+        "text": "تتوفر وجبات في ساعات متأخرة من الليل، إضافة إلى التوصيل والطلب السفري.",
+        "image": "candle"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "إيطالي بنكهة عمّان",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والطلب",
+    "categories": [
+      {
+        "id": "pizza",
+        "title": "البيتزا",
+        "tagline": "حجم وسط",
+        "image": "pizza",
+        "items": [
+          {
+            "name": "مارغريتا",
+            "desc": "موزاريلا وصلصة طماطم.",
+            "price": 5.5
+          },
+          {
+            "name": "بيبروني",
+            "desc": "",
+            "price": 6.5
+          },
+          {
+            "name": "خضار",
+            "desc": "فطر وفلفل وزيتون.",
+            "price": 6
+          },
+          {
+            "name": "دجاج",
+            "desc": "دجاج مع فطر وجبنة.",
+            "price": 6.5
+          }
+        ]
+      },
+      {
+        "id": "pasta",
+        "title": "الباستا",
+        "tagline": "طبق رئيسي",
+        "image": "pizza2",
+        "items": [
+          {
+            "name": "باستا بيستو",
+            "desc": "",
+            "price": 6.5,
+            "mentioned": true
+          },
+          {
+            "name": "باستا ترافل",
+            "desc": "",
+            "price": 8.5,
+            "mentioned": true
+          },
+          {
+            "name": "أليو أوليو",
+            "desc": "",
+            "price": 5.5,
+            "mentioned": true
+          },
+          {
+            "name": "بولونيز",
+            "desc": "",
+            "price": 6.5,
+            "mentioned": true
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "مشروبات",
+        "tagline": "",
+        "image": "table",
+        "items": [
+          {
+            "name": "عصير برتقال طازج",
+            "desc": "",
+            "price": 3,
+            "mentioned": true
+          },
+          {
+            "name": "ليموناضة",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "قهوة",
+            "desc": "",
+            "price": 2.5
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "البيتزا",
+    "الباستا",
+    "عصير برتقال طازج"
+  ],
+  "reviews": [
+    {
+      "author": "Osama H.",
+      "stars": 5,
+      "text": "Exceptional food , top Italian spot in Amman highly recommended with very acceptable prices",
+      "source_ref": "r1"
+    },
+    {
+      "author": "KS",
+      "stars": 5,
+      "text": "The pizza was crispy and tasty, and even the small size was very generous. The pasta was excellent—whether it was pesto, truffle, or aglio e olio.",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Luai T.",
+      "stars": 5,
+      "text": "Literally the best Italian Pizza in Amman!",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Mohammad Q.",
+      "stars": 5,
+      "text": "رائعين و كثير اكلهم زاكي",
+      "source_ref": "r5"
+    },
+    {
+      "author": "Hela Z.",
+      "stars": 5,
+      "text": "Les pizzas sont succulentes et la bolognaise est vraiment excellente ! Le service est rapide ! C’est très propre.",
+      "source_ref": "r6"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": "candle",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات خارجية",
+        "text": "إلى جانب الجلوس داخل المكان."
+      },
+      {
+        "icon": "bag",
+        "title": "توصيل وطلب سفري",
+        "text": ""
+      },
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجوزات",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": "مواقف مجانية وفي الشارع."
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للعائلات والأطفال",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "inside"
+  },
+  "images": {
+    "pizza": {
+      "id": "photo-1513104890138-7c749659a591",
+      "alt": "صورة توضيحية: بيتزا ساخنة على طاولة",
+      "page": "https://unsplash.com/photos/photo-1513104890138-7c749659a591"
+    },
+    "pizza2": {
+      "id": "photo-1565299624946-b28f40a0ae38",
+      "alt": "صورة توضيحية: بيتزا بالجبنة والزيتون",
+      "page": "https://unsplash.com/photos/photo-1565299624946-b28f40a0ae38"
+    },
+    "table": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات",
+      "page": "https://unsplash.com/photos/photo-1704742205592-15191a615455"
+    },
+    "candle": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/photo-1775340965364-64be29c25f1c"
+    },
+    "inside": {
+      "id": "photo-1511081692775-05d0f180a065",
+      "alt": "صورة توضيحية: داخل مكان بإضاءة معلقة وطاولة",
+      "page": "https://unsplash.com/photos/photo-1511081692775-05d0f180a065"
+    }
+  },
+  "batch_id": "b202611020733"
+}
