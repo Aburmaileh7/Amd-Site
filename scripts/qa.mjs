@@ -20,7 +20,8 @@ const server = createServer((req, res) => {
 
 const slugs = process.argv.slice(2).length ? process.argv.slice(2)
   : readdirSync('sites', { withFileTypes: true }).filter((d) => d.isDirectory()).map((d) => d.name);
-const browser = await chromium.launch();
+// CHROME_PATH lets QA run on systems Playwright can't install a browser for (e.g. a newer Ubuntu).
+const browser = await chromium.launch(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {});
 let problems = 0;
 for (const slug of slugs) {
   const out = `qa-out/${slug}`; mkdirSync(out, { recursive: true });
