@@ -1,0 +1,181 @@
+{
+  "place_id": "ChIJ2-AIgZyvST4RqCcb4zjFCZQ",
+  "slug": "al-manar-bakeries",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "gulf_luxe",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#C9A15B",
+    "rgb": "201, 161, 91",
+    "hover": "#B38B45",
+    "ink": "#1A1206"
+  },
+  "name": "Al Manar Bakeries",
+  "name_lang": "en",
+  "category_label": "مخبز وحلويات",
+  "area": "المنامة، البحرين",
+  "address": "المنامة، البحرين",
+  "phone": {
+    "display": "+973 1749 9944",
+    "tel": "+97317499944"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Al%20Manar%20Bakeries&query_place_id=ChIJ2-AIgZyvST4RqCcb4zjFCZQ",
+  "map_query": "Al Manar Bakeries, Manama, Bahrain",
+  "rating": {
+    "value": 4.5,
+    "count": 442,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "كيك المانجو والتشيز كيك، من الثامنة صباحًا",
+    "intro": "مخبز وحلويات في المنامة، يذكر زواره كيك المانجو والتشيز كيك بالتوت والشوكولاتة بالبندق، بتقييم 4.5 من أكثر من 400 مراجعة.",
+    "image": "front"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "كيك المانجو",
+      "تشيز كيك التوت",
+      "شوكولاتة وبندق",
+      "شوكولاتة وفستق",
+      "خبز يومي"
+    ]
+  },
+  "story": {
+    "eyebrow": "من الفترينة",
+    "title": "اختيارات المنار",
+    "items": [
+      {
+        "label": "الكيك",
+        "title": "فترينة الكيك",
+        "text": "المانجو والتشيز كيك بأنواعه والشوكولاتة بالفستق، كما يذكر الزوار.",
+        "image": "cakes"
+      },
+      {
+        "label": "المعجنات",
+        "title": "كرواسون بأشكاله",
+        "text": "كرواسون سادة وآخر مزيّن بالوردي، يُعرض على الكاونتر.",
+        "image": "croissant"
+      },
+      {
+        "label": "المبنى",
+        "title": "واجهة باسم المنار",
+        "text": "مبنى المخبز بالحروف الذهبية، يفتح يوميًا من 8 صباحًا حتى 10 مساءً.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "كيك وخبز",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.ب",
+    "categories": [
+      {
+        "id": "cakes",
+        "title": "الكيك (شريحة)",
+        "tagline": "من الفترينة",
+        "items": [
+          {
+            "name": "كيك المانجو",
+            "desc": "",
+            "price": 1.4
+          },
+          {
+            "name": "تشيز كيك التوت",
+            "desc": "",
+            "price": 1.5
+          },
+          {
+            "name": "نيويورك تشيز كيك",
+            "desc": "",
+            "price": 1.5
+          },
+          {
+            "name": "شوكولاتة وبندق",
+            "desc": "",
+            "price": 1.4
+          }
+        ],
+        "image": "cakes"
+      },
+      {
+        "id": "bakery",
+        "title": "المخبوزات",
+        "tagline": "يوميًا",
+        "items": [
+          {
+            "name": "كرواسون زبدة",
+            "desc": "",
+            "price": 0.6
+          },
+          {
+            "name": "كرواسون بالتوت",
+            "desc": "",
+            "price": 0.8
+          },
+          {
+            "name": "خبز اليوم",
+            "desc": "",
+            "price": 0.5
+          }
+        ],
+        "image": "croissant"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة مخابز المنار",
+      "source_url": "https://wanderlog.com/place/details/9590880/al-manar-bakeries",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "croissant": {
+      "file": "croissant.jpg",
+      "alt": "صورة كرواسون من مخابز المنار",
+      "source_url": "https://wanderlog.com/place/details/9590880/al-manar-bakeries",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "cakes": {
+      "file": "cakes.jpg",
+      "alt": "صورة فترينة الكيك في مخابز المنار",
+      "source_url": "https://wanderlog.com/place/details/9590880/al-manar-bakeries",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "8 ص – 10 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

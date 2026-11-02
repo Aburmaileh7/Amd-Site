@@ -1,0 +1,222 @@
+{
+  "place_id": "ChIJ0-jvN6_FRT4RilMoyz3ykVM",
+  "slug": "mst-bakery",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "gulf_luxe",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#C9A15B",
+    "rgb": "201, 161, 91",
+    "hover": "#B38B45",
+    "ink": "#1A1206"
+  },
+  "name": "MST Bakery",
+  "name_lang": "en",
+  "category_label": "مخبز وكافيه",
+  "area": "مول الحزم، الدوحة",
+  "address": "مول الحزم، الدوحة",
+  "phone": {
+    "display": "+974 4496 7022",
+    "tel": "+97444967022"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=mst%20bakery&query_place_id=ChIJ0-jvN6_FRT4RilMoyz3ykVM",
+  "map_query": "mst bakery, Al Hazm Mall, Doha",
+  "rating": {
+    "value": 4.5,
+    "count": 163,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "أم علي وكرواسون اللوز في الحزم",
+    "intro": "مخبز وكافيه في مول الحزم يخبز حلوياته بنفسه ويستخدم بنًا محليًا، ويذكر زواره أم علي وكرواسون اللوز والأفوغاتو، بتقييم 4.5 على Google.",
+    "image": "front"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "أم علي",
+      "كرواسون اللوز",
+      "أفوغاتو",
+      "معمول",
+      "مول الحزم"
+    ]
+  },
+  "story": {
+    "eyebrow": "من مراجعات الزوار",
+    "title": "جلسة الحزم",
+    "items": [
+      {
+        "label": "الفنجان",
+        "title": "لاتيه ناعم مع بسكويتة",
+        "text": "يذكر الزوار البسكويتة المجانية وكأس الماء مع القهوة.",
+        "image": "latte"
+      },
+      {
+        "label": "المخبز",
+        "title": "كرواسون اللوز",
+        "text": "معجنات تُخبز في المحل، والكرواسون أكثرها ذكرًا.",
+        "image": "croissant"
+      },
+      {
+        "label": "الجلسة",
+        "title": "تراس مكيّف",
+        "text": "جلسة خارجية بتكييف داخل مول الحزم.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "قهوة ومخبوزات",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.ق",
+    "categories": [
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "بن محلي",
+        "items": [
+          {
+            "name": "لاتيه",
+            "desc": "",
+            "price": 22
+          },
+          {
+            "name": "آيس أمريكانو",
+            "desc": "",
+            "price": 20,
+            "mentioned": true
+          },
+          {
+            "name": "أفوغاتو",
+            "desc": "",
+            "price": 26,
+            "mentioned": true
+          },
+          {
+            "name": "إسبريسو",
+            "desc": "",
+            "price": 16
+          }
+        ],
+        "image": "latte"
+      },
+      {
+        "id": "bakery",
+        "title": "المخبوزات والحلى",
+        "tagline": "من المخبز",
+        "items": [
+          {
+            "name": "أم علي",
+            "desc": "",
+            "price": 32,
+            "mentioned": true
+          },
+          {
+            "name": "كرواسون اللوز",
+            "desc": "",
+            "price": 18,
+            "mentioned": true
+          },
+          {
+            "name": "معمول",
+            "desc": "",
+            "price": 8,
+            "mentioned": true
+          }
+        ],
+        "image": "croissant"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Amenah B.",
+      "stars": 5,
+      "text": "A cozy warm cafe in Al-Hazm mall. They use locally sourced coffee and they bake their own goods. I especially enjoyed the almond croissant and their latte was tasteful and velvety.",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUNqenJqN0VBEAE"
+    },
+    {
+      "author": "Lamiya",
+      "stars": 5,
+      "text": "A cozy cafe in Al Hazm. The staff were super friendly and explained the menu kindly. The espresso was rich and flavorful perfect with the mamoul! The place was clean and had a relaxing vibe.",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2pWa09FbFNiaTB5Ykd0a1JFUXliRGhoYXpOWE5YYxAB"
+    },
+    {
+      "author": "Nerazzurri",
+      "stars": 4,
+      "text": "Lovely affogato 🤗 The place was quiet. This café uses Camel Step Roastery beans, which made it extra special.",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT21kQ00wSm5OM0prV0hReFVuWmpVV28zVldwNFVXYxAB"
+    }
+  ],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة MST Bakery وجلستها في مول الحزم",
+      "source_url": "https://wanderlog.com/place/details/9406612/mst-bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "latte": {
+      "file": "latte.jpg",
+      "alt": "صورة لاتيه مع بسكويتة من MST",
+      "source_url": "https://wanderlog.com/place/details/9406612/mst-bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "croissant": {
+      "file": "croissant.jpg",
+      "alt": "صورة كرواسون على لوح خشبي من MST",
+      "source_url": "https://wanderlog.com/place/details/9406612/mst-bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت",
+        "time": "9 ص – 1 ص"
+      },
+      {
+        "days": "الأحد – الثلاثاء",
+        "time": "9 ص – 11:45 م"
+      },
+      {
+        "days": "الأربعاء",
+        "time": "4 م – 11:45 م"
+      },
+      {
+        "days": "الخميس",
+        "time": "9 ص – 11:45 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "9 ص – 11:30 ص و 1 م – 1 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

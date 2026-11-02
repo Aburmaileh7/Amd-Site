@@ -1,0 +1,9 @@
+[data-site="flamingo-coffee-bar"] .hero{padding-bottom:28px}
+[data-site="flamingo-coffee-bar"] .hero::before{content:"";position:absolute;left:0;right:0;bottom:-1px;height:26px;z-index:4;background:radial-gradient(circle at 13px 0,transparent 13px,var(--surface) 13.5px) 0 0/26px 26px repeat-x;pointer-events:none}
+[data-site="flamingo-coffee-bar"] .amd-stamp{position:absolute;inset-inline-end:clamp(12px,4vw,56px);top:clamp(84px,14vh,150px);width:100px;height:100px;z-index:3;pointer-events:none;color:var(--glow)}
+[data-site="flamingo-coffee-bar"] .amd-stamp svg{width:100%;height:100%;animation:amdspin 22s linear infinite}
+[data-site="flamingo-coffee-bar"] .amd-stamp text{font:600 11.5px var(--font-ui);letter-spacing:.06em;fill:currentColor}
+[data-site="flamingo-coffee-bar"] .amd-stamp::after{content:"";position:absolute;inset:38%;border-radius:50%;background:var(--glow);opacity:.9}
+@keyframes amdspin{to{transform:rotate(360deg)}}
+@media (max-width:700px){[data-site="flamingo-coffee-bar"] .amd-stamp{width:72px;height:72px;top:auto;bottom:18px}}
+@media (prefers-reduced-motion:reduce){[data-site="flamingo-coffee-bar"] .amd-stamp svg{animation:none}}

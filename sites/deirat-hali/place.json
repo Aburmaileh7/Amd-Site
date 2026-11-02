@@ -1,0 +1,211 @@
+{
+  "place_id": "ChIJx7q9jPdx9j4Rx8g0xcMEXfo",
+  "slug": "deirat-hali",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#1F6E8C",
+    "rgb": "31, 110, 140",
+    "hover": "#185A73",
+    "ink": "#FFFFFF"
+  },
+  "name": "ديرة هلي",
+  "name_lang": "ar",
+  "category_label": "مطعم وكافيه عربي",
+  "area": "رأس الخيمة",
+  "address": "طريق إدارة الإقامة، رأس الخيمة",
+  "phone": {
+    "display": "+971 7 221 1088",
+    "tel": "+97172211088"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Deirat%20Hali%20-%20Restaurant%20and%20Cafe%20Ras%20Al%20Khaimah%20-%20%D9%85%D8%B7%D8%B9%D9%85%20%D9%88%D9%83%D8%A7%D9%81%D9%8A%D9%87%20%D8%AF%D9%8A%D8%B1%D8%A9%20%D9%87%D9%84%D9%8A&query_place_id=ChIJx7q9jPdx9j4Rx8g0xcMEXfo",
+  "map_query": "Deirat Hali Restaurant and Cafe, Ras Al Khaimah",
+  "rating": {
+    "value": 4.4,
+    "count": 553,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "مشاوي وكنافة وجلسات عائلية في رأس الخيمة",
+    "intro": "مطعم وكافيه عربي في رأس الخيمة منذ 2018، بأربع صالات منها قسم للعائلات، يذكر زواره المشاوي المشكلة والحمّص والستيك، ويفتح حتى منتصف الليل.",
+    "image": "hall"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "مشاوي مشكلة",
+      "حمّص",
+      "ستيك دجاج",
+      "كنافة",
+      "حتى منتصف الليل"
+    ]
+  },
+  "story": {
+    "eyebrow": "من مراجعات الزوار",
+    "title": "سهرة في ديرة هلي",
+    "items": [
+      {
+        "label": "الصالة",
+        "title": "مشربيات وأربع صالات",
+        "text": "جلسات للعائلات وأخرى عامة بديكور عربي.",
+        "image": "hall"
+      },
+      {
+        "label": "المشاوي",
+        "title": "مشاوي مشكلة وحمّص",
+        "text": "من أكثر ما يمدحه الزوار، مع ستيك الدجاج بالصوص.",
+        "image": "hall"
+      },
+      {
+        "label": "الحلى",
+        "title": "كنافة بالجبن",
+        "text": "خاتمة السهرة، والجبن يمتد مع كل قطعة.",
+        "image": "kunafa"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "عربي ومتوسطي",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.إ",
+    "categories": [
+      {
+        "id": "grill",
+        "title": "المشاوي",
+        "tagline": "على الفحم",
+        "items": [
+          {
+            "name": "مشاوي مشكلة",
+            "desc": "",
+            "price": 68,
+            "mentioned": true
+          },
+          {
+            "name": "ستيك دجاج بالصوص",
+            "desc": "",
+            "price": 52,
+            "mentioned": true
+          },
+          {
+            "name": "روبيان تايغر",
+            "desc": "",
+            "price": 75,
+            "mentioned": true
+          }
+        ],
+        "image": "hall"
+      },
+      {
+        "id": "mezze",
+        "title": "المقبلات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "حمّص",
+            "desc": "",
+            "price": 18,
+            "mentioned": true
+          },
+          {
+            "name": "متبل",
+            "desc": "",
+            "price": 18
+          },
+          {
+            "name": "فتوش",
+            "desc": "",
+            "price": 22
+          }
+        ],
+        "image": "hall"
+      },
+      {
+        "id": "sweet",
+        "title": "الحلى",
+        "tagline": "",
+        "items": [
+          {
+            "name": "كنافة بالجبن",
+            "desc": "",
+            "price": 28
+          }
+        ],
+        "image": "kunafa"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Nazish J.",
+      "stars": 5,
+      "text": "Each and every item was wonderful… we ordered chicken steaks and mixed grill.. sauce with steaks awsome… everything served well… what a hummus?very good taste… grill and steaks all were upto the mark!!",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUQzLWRMLUNREAE"
+    },
+    {
+      "author": "Yousef A.",
+      "stars": 5,
+      "text": "Fabulous place . Super taste for all menu items . Super friendly staff. Very reasonable prices. Highly recommended and really worth to visit",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSURNbGJhTW5nRRAB"
+    },
+    {
+      "author": "Mohammad M.",
+      "stars": 5,
+      "text": "I truly liked this restaurant it is one of the best of it's kind in RAK They have superior service when it come to appetizers, the barbeque were super as well -The staff were high class, helpful and nice -Portion is excellent and enough for one person - There…",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUNzeTd1X2VnEAE"
+    }
+  ],
+  "mentions": [],
+  "visit": {
+    "image": "hall"
+  },
+  "images": {
+    "hall": {
+      "file": "hall.jpg",
+      "alt": "صورة صالة ديرة هلي بالمشربيات الخشبية",
+      "source_url": "https://wanderlog.com/place/details/3308211/deirat-hali-restaurant-and-cafe-ras-al-khaimah-",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "kunafa": {
+      "file": "kunafa.jpg",
+      "alt": "صورة كنافة بالجبن من ديرة هلي",
+      "source_url": "https://wanderlog.com/place/details/3308211/deirat-hali-restaurant-and-cafe-ras-al-khaimah-",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "1 م – 12 ص"
+      },
+      {
+        "days": "الجمعة",
+        "time": "1:30 م – 12 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "place_id": "ChIJeQxA6v_-kT4RrTHtd61HVhE",
+  "slug": "omani-house-restaurant",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#9B1C1C",
+    "rgb": "155, 28, 28",
+    "hover": "#7F1616",
+    "ink": "#FFFFFF"
+  },
+  "name": "مطعم البيت العماني",
+  "name_lang": "ar",
+  "category_label": "مطعم أكلات عُمانية",
+  "area": "بوشر، مسقط",
+  "address": "33 شارع المها، بوشر، مسقط",
+  "phone": {
+    "display": "+968 9666 6528",
+    "tel": "+96896666528"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Omani%20House%20Restaurant&query_place_id=ChIJeQxA6v_-kT4RrTHtd61HVhE",
+  "map_query": "Omani House Restaurant, 33 Al Maha St, Muscat",
+  "rating": {
+    "value": 4.0,
+    "count": 830,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "شوا وقبولي كما يطلبها أهل مسقط",
+    "intro": "مطعم أكلات عُمانية في شارع المها ببوشر، يذكر زواره الشوا والقبولي وسلطة اللبن، ويفتح يوميًا من الحادية عشرة صباحًا حتى الحادية عشرة ليلًا.",
+    "image": "night"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "شوا",
+      "قبولي",
+      "سلطة لبن",
+      "مشاوي",
+      "بوشر"
+    ]
+  },
+  "story": {
+    "eyebrow": "ما يطلبه الزوار",
+    "title": "سفرة عُمانية",
+    "items": [
+      {
+        "label": "الشوا",
+        "title": "الطبق الذي يعود له الزبائن",
+        "text": "يكتب أحد الزوار أنه جرّب الشوا هنا أكثر من عشر مرات.",
+        "image": "kebab"
+      },
+      {
+        "label": "القبولي",
+        "title": "أرز قبولي مع اللحم",
+        "text": "يذكره الزوار مع سلطة اللبن كطلب واحد متكامل.",
+        "image": "dish"
+      },
+      {
+        "label": "السفرة",
+        "title": "أطباق كثيرة للعائلة",
+        "text": "قائمة أطباق عُمانية واسعة ومكان نظيف بحسب المراجعات.",
+        "image": "pasta"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "أطباق عُمانية",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.ع",
+    "categories": [
+      {
+        "id": "main",
+        "title": "الأطباق الرئيسية",
+        "tagline": "من القدر والتنور",
+        "items": [
+          {
+            "name": "شوا لحم مع أرز",
+            "desc": "",
+            "price": 4.5,
+            "mentioned": true
+          },
+          {
+            "name": "قبولي دجاج (نصف)",
+            "desc": "",
+            "price": 3.2,
+            "mentioned": true
+          },
+          {
+            "name": "مشاوي مشكلة",
+            "desc": "",
+            "price": 4.0
+          }
+        ],
+        "image": "kebab"
+      },
+      {
+        "id": "sides",
+        "title": "الجانبية",
+        "tagline": "",
+        "items": [
+          {
+            "name": "سلطة لبن",
+            "desc": "",
+            "price": 0.6,
+            "mentioned": true
+          },
+          {
+            "name": "سلطة خضراء",
+            "desc": "",
+            "price": 0.7
+          },
+          {
+            "name": "أرز أبيض",
+            "desc": "",
+            "price": 0.5
+          }
+        ],
+        "image": "night"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Avery N.",
+      "stars": 5,
+      "text": "I tried the Lamb Shewa because it was recommended by a friend and I must say it's absolutely delicious. One of the best things I've had in my life. Really unique cooking and flavor. The guys are very nice as well and the place is clean and tidy even though it…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25sdlNHNXNPR1JqVTNSeFRXZHdiMVl6V25aR2MzYxAB"
+    },
+    {
+      "author": "Omar A.",
+      "stars": 5,
+      "text": "My first choice when I want to eat Omani Shiwa. Just order it. It's one of the best without doubt. If you are at Boshwr area go to it. I only tried the Shiwa but I try it for more than 10 times. I heard that the other food is good too but I never try it…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2t3NVVVdFNYM1J0VGxrMU5FcGtaMDFIYWpRNFprRRAB"
+    },
+    {
+      "author": "Ahmed A.",
+      "stars": 4,
+      "text": "I had the Shuwa and Qabuli Rice at Omani House Restaurant, along with a side of yogurt salad — everything was delicious. The flavours were authentic and well-balanced, and the meat was perfectly tender. Definitely worth a visit if you’re craving traditional…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25wa2JFWnhOR3hTU1VwS1NFSlJNSEJYWlZwSmVGRRAB"
+    }
+  ],
+  "mentions": [],
+  "visit": {
+    "image": "day"
+  },
+  "images": {
+    "night": {
+      "file": "night.jpg",
+      "alt": "صورة واجهة مطعم البيت العماني ليلًا",
+      "source_url": "https://wanderlog.com/place/details/12068457/omani-house-restaurant",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "day": {
+      "file": "day.jpg",
+      "alt": "صورة واجهة مطعم البيت العماني نهارًا",
+      "source_url": "https://wanderlog.com/place/details/12068457/omani-house-restaurant",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "kebab": {
+      "file": "kebab.jpg",
+      "alt": "صورة طبق مشاوي من البيت العماني",
+      "source_url": "https://wanderlog.com/place/details/12068457/omani-house-restaurant",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "dish": {
+      "file": "dish.jpg",
+      "alt": "صورة طبق خضار ورقاق من البيت العماني",
+      "source_url": "https://wanderlog.com/place/details/12068457/omani-house-restaurant",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "pasta": {
+      "file": "pasta.jpg",
+      "alt": "صورة طبق من مطعم البيت العماني",
+      "source_url": "https://wanderlog.com/place/details/12068457/omani-house-restaurant",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "11 ص – 11 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "1 م – 11 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

@@ -1,0 +1,9 @@
+[data-site="nawa-cafe"] .hero{background:radial-gradient(120% 80% at 85% 0%,rgba(63,125,78,.16) 0%,transparent 60%),radial-gradient(90% 70% at 0% 100%,rgba(200,220,180,.25) 0%,transparent 55%),var(--bg)}
+[data-site="nawa-cafe"] .hero::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:-1;opacity:.35;background-image:radial-gradient(rgba(0,0,0,.08) 1px,transparent 1.2px);background-size:5px 5px}
+[data-site="nawa-cafe"] .photo{outline:2px solid rgba(255,255,255,.55);outline-offset:-10px}
+[data-site="nawa-cafe"] .hero__shade{background:linear-gradient(to top,rgba(var(--bg-rgb),.96) 0%,rgba(var(--bg-rgb),.86) 45%,rgba(var(--bg-rgb),.45) 100%)}
+[data-site="nawa-cafe"] .amd-open{display:inline-flex;align-items:center;gap:.5em;margin-block:.2rem .9rem;padding:.42em .95em;border-radius:999px;font:600 .92rem var(--font-ui);background:rgba(var(--glow-rgb),.12);color:var(--ink);border:1px solid rgba(var(--glow-rgb),.35)}
+[data-site="nawa-cafe"] .amd-open b{width:.6em;height:.6em;border-radius:50%;background:#2E9E5B;box-shadow:0 0 0 0 rgba(46,158,91,.6);animation:amdpulse 2s infinite}
+[data-site="nawa-cafe"] .amd-open.is-closed b{background:#B4483C;animation:none}
+@keyframes amdpulse{70%{box-shadow:0 0 0 10px rgba(46,158,91,0)}100%{box-shadow:0 0 0 0 rgba(46,158,91,0)}}
+@media (prefers-reduced-motion:reduce){[data-site="nawa-cafe"] .amd-open b{animation:none}}

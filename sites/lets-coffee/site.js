@@ -1,0 +1,4 @@
+(function(){var h=document.querySelector('.hero');if(!h)return;var d=document.createElement('div');d.className='amd-stamp';d.setAttribute('aria-hidden','true');
+d.innerHTML='<svg viewBox="0 0 120 120"><defs><path id="amdc" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs><text><textPath href="#amdc">LET’S • قهوة • القبلة • LET’S • قهوة • القبلة • </textPath></text></svg>';h.appendChild(d);})();
+(function(){if(reduce)return;gsap.to('.hero__side .photo, .hero__media .photo',{y:-14,rotate:-1.2,duration:3.2,ease:'sine.inOut',yoyo:true,repeat:-1});})();
+(function(){if(reduce)return;var li=document.querySelectorAll('.marquee__row:first-child li');if(!li.length)return;var i=0;setInterval(function(){li.forEach(function(x){x.style.color=''});li[i%li.length].style.color='var(--glow)';i++;},900);})();

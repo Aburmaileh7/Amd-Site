@@ -1,0 +1,176 @@
+{
+  "place_id": "ChIJc4SFc6OFzz8RnfYHnm3qknU",
+  "slug": "boost-cafe",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#2F6F73",
+    "rgb": "47, 111, 115",
+    "hover": "#255A5D",
+    "ink": "#FFFFFF"
+  },
+  "name": "Boost Cafe",
+  "name_lang": "en",
+  "category_label": "كافيه",
+  "area": "مدينة الكويت",
+  "address": "مدينة الكويت",
+  "phone": {
+    "display": "+965 9855 8537",
+    "tel": "+96598558537"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Boost%20Cafe&query_place_id=ChIJc4SFc6OFzz8RnfYHnm3qknU",
+  "map_query": "Boost Cafe, Kuwait City",
+  "rating": {
+    "value": 4.4,
+    "count": 527,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "قهوة على السطح بإطلالة على البرج",
+    "intro": "كافيه في مدينة الكويت يمدح زواره تصميمه وجلسة السطح والحديقة الصغيرة ومواقف السيارات، ويفتح يوميًا من السابعة صباحًا حتى العاشرة مساءً.",
+    "image": "inside"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "جلسة السطح",
+      "حديقة صغيرة",
+      "مواقف",
+      "من 7 صباحًا",
+      "مدينة الكويت"
+    ]
+  },
+  "story": {
+    "eyebrow": "من الداخل إلى السطح",
+    "title": "ثلاث جلسات في Boost",
+    "items": [
+      {
+        "label": "الداخل",
+        "title": "بار خرساني واسع",
+        "text": "تصميم يمدحه الزوار بخطوطه البسيطة.",
+        "image": "inside"
+      },
+      {
+        "label": "الطاولة",
+        "title": "لاتيه هادئ",
+        "text": "جلسات داخلية بإضاءة طبيعية ونباتات.",
+        "image": "latte"
+      },
+      {
+        "label": "السطح",
+        "title": "إطلالة على المدينة",
+        "text": "جلسة سطح يذكرها الزوار، والبرج في الخلفية.",
+        "image": "tower"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "قهوة اليوم",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.ك",
+    "categories": [
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "ساخنة",
+        "items": [
+          {
+            "name": "لاتيه",
+            "desc": "",
+            "price": 1.5
+          },
+          {
+            "name": "كورتادو",
+            "desc": "",
+            "price": 1.25
+          },
+          {
+            "name": "قهوة مقطّرة",
+            "desc": "",
+            "price": 1.75
+          },
+          {
+            "name": "سبانيش لاتيه",
+            "desc": "",
+            "price": 1.75
+          }
+        ],
+        "image": "latte"
+      },
+      {
+        "id": "sweet",
+        "title": "حلى",
+        "tagline": "",
+        "items": [
+          {
+            "name": "كوكيز",
+            "desc": "",
+            "price": 0.75
+          },
+          {
+            "name": "كيكة اليوم",
+            "desc": "",
+            "price": 1.5
+          }
+        ],
+        "image": "inside"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "tower"
+  },
+  "images": {
+    "inside": {
+      "file": "inside.jpg",
+      "alt": "صورة صالة Boost Cafe والبار الخرساني",
+      "source_url": "https://wanderlog.com/place/details/8329156/boost-cafe",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "latte": {
+      "file": "latte.jpg",
+      "alt": "صورة لاتيه على طاولة في Boost",
+      "source_url": "https://wanderlog.com/place/details/8329156/boost-cafe",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "tower": {
+      "file": "tower.jpg",
+      "alt": "صورة كوب Boost وبرج التحرير خلفه",
+      "source_url": "https://wanderlog.com/place/details/8329156/boost-cafe",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "7 ص – 10 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "place_id": "ChIJ1xtR1uXbRT4Rt7XtuPWA-Ho",
+  "slug": "brioche-and-baguette",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "bakery_cream",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#178A9C",
+    "rgb": "23, 138, 156",
+    "hover": "#127282",
+    "ink": "#FFFFFF"
+  },
+  "name": "Brioche & Baguette",
+  "name_lang": "en",
+  "category_label": "مخبز ومعجنات فرنسية",
+  "area": "شارع السد، الدوحة",
+  "address": "شارع السد، مقابل رويال بلازا، بجانب مركز المفتاح، الدوحة",
+  "phone": {
+    "display": "+974 5059 9673",
+    "tel": "+97450599673"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Brioche%20%26%20Baguette%20Al%20Sadd&query_place_id=ChIJ1xtR1uXbRT4Rt7XtuPWA-Ho",
+  "map_query": "Brioche & Baguette Al Sadd, Doha",
+  "rating": {
+    "value": 4.3,
+    "count": 81,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "تارت، ماكرون، وخبز فرنسي في السد",
+    "intro": "مخبز حِرَفي في شارع السد مقابل رويال بلازا، يعرض الكيك والتارت والماكرون وعلب الكيك الصغيرة والخبز الطازج كل يوم.",
+    "image": "pastries"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "تارت التوت",
+      "ماكرون",
+      "علب كيك صغيرة",
+      "بريوش",
+      "باغيت"
+    ]
+  },
+  "story": {
+    "eyebrow": "من الفترينة",
+    "title": "جولة في الفترينة",
+    "items": [
+      {
+        "label": "التارت",
+        "title": "تارت وفواكه",
+        "text": "تارت التوت والليمون والشوكولاتة على صينية واحدة.",
+        "image": "pastries"
+      },
+      {
+        "label": "الصغير",
+        "title": "قطع بحجم اللقمة",
+        "text": "حلويات صغيرة ملوّنة تناسب الضيافة.",
+        "image": "petit"
+      },
+      {
+        "label": "الكيك",
+        "title": "كيك بالشريحة",
+        "text": "فترينة الكيك بأسمائها وأسعارها أمامك.",
+        "image": "case"
+      },
+      {
+        "label": "الشوكولاتة",
+        "title": "تارت الشوكولاتة",
+        "text": "صفوف من قطع الشوكولاتة الداكنة.",
+        "image": "tarts"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "فرنسي الطابع",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.ق",
+    "categories": [
+      {
+        "id": "patis",
+        "title": "الحلويات",
+        "tagline": "من الفترينة",
+        "items": [
+          {
+            "name": "تارت التوت",
+            "desc": "",
+            "price": 22
+          },
+          {
+            "name": "ماكرون (6 حبات)",
+            "desc": "",
+            "price": 36
+          },
+          {
+            "name": "علبة كيك صغيرة",
+            "desc": "",
+            "price": 28
+          },
+          {
+            "name": "إكلير",
+            "desc": "",
+            "price": 16
+          }
+        ],
+        "image": "pastries"
+      },
+      {
+        "id": "bread",
+        "title": "الخبز",
+        "tagline": "يوميًا",
+        "items": [
+          {
+            "name": "بريوش",
+            "desc": "",
+            "price": 12
+          },
+          {
+            "name": "باغيت",
+            "desc": "",
+            "price": 8
+          },
+          {
+            "name": "كرواسون زبدة",
+            "desc": "",
+            "price": 10
+          }
+        ],
+        "image": "case"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "pastries": {
+      "file": "pastries.jpg",
+      "alt": "صورة تارت وحلويات Brioche & Baguette",
+      "source_url": "https://wanderlog.com/place/details/3602363/brioche--baguette-al-sadd",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "petit": {
+      "file": "petit.jpg",
+      "alt": "صورة قطع حلوى صغيرة ملوّنة من Brioche & Baguette",
+      "source_url": "https://wanderlog.com/place/details/3602363/brioche--baguette-al-sadd",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "case": {
+      "file": "case.jpg",
+      "alt": "صورة فترينة الكيك في Brioche & Baguette",
+      "source_url": "https://wanderlog.com/place/details/3602363/brioche--baguette-al-sadd",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "tarts": {
+      "file": "tarts.jpg",
+      "alt": "صورة فترينة التارت والشوكولاتة",
+      "source_url": "https://wanderlog.com/place/details/3602363/brioche--baguette-al-sadd",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة Brioche & Baguette ليلًا",
+      "source_url": "https://wanderlog.com/place/details/3602363/brioche--baguette-al-sadd",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  }
+}

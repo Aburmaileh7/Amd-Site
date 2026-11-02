@@ -1,0 +1,193 @@
+{
+  "place_id": "ChIJn5eLpXTPwxURfcaUxY2PvHE",
+  "slug": "textured-bakehouse",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "bakery_cream",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#B4532A",
+    "rgb": "180, 83, 42",
+    "hover": "#96421F",
+    "ink": "#FFFFFF"
+  },
+  "name": "TEXTURED bakehouse",
+  "name_lang": "en",
+  "category_label": "مخبز",
+  "area": "حي الحمراء، جدة",
+  "address": "حي الحمراء، جدة",
+  "phone": {
+    "display": "+966 57 947 4828",
+    "tel": "+966579474828"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=TEXTURED%20bakehouse&query_place_id=ChIJn5eLpXTPwxURfcaUxY2PvHE",
+  "map_query": "TEXTURED bakehouse, Al Hamraa, Jeddah",
+  "rating": {
+    "value": 4.6,
+    "count": 1053,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "قِطع بطبقات وملمس، تُخبز كل صباح",
+    "intro": "مخبز في حي الحمراء بجدة، يذكر زواره مكعبات اليوزو والسمسم الأسود وتاكو الكرواسون بالأجبان، بتقييم 4.6 من أكثر من ألف مراجعة.",
+    "image": "bar"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "مكعبات اليوزو",
+      "السمسم الأسود",
+      "تاكو الكرواسون",
+      "حي الحمراء",
+      "من 7 صباحًا"
+    ]
+  },
+  "story": {
+    "eyebrow": "ثلاث محطات في المخبز",
+    "title": "الملمس أولًا",
+    "items": [
+      {
+        "label": "الكاونتر",
+        "title": "صفّ المعجنات تحت الضوء",
+        "text": "كاونتر طويل يعرض قطع اليوم واحدة بجانب الأخرى.",
+        "image": "bar"
+      },
+      {
+        "label": "النكهات",
+        "title": "يوزو وسمسم أسود",
+        "text": "نكهات غير مألوفة يذكرها الزوار، إلى جانب كرواسون الأجبان الأربعة.",
+        "image": "inside"
+      },
+      {
+        "label": "الواجهة",
+        "title": "في حي الحمراء",
+        "text": "واجهة زجاجية واسعة يفتح بابها من السابعة صباحًا.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "حلو ومالح",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.س",
+    "categories": [
+      {
+        "id": "sweet",
+        "title": "الحلو",
+        "tagline": "من الكاونتر",
+        "items": [
+          {
+            "name": "مكعب اليوزو",
+            "desc": "",
+            "price": 22
+          },
+          {
+            "name": "مكعب السمسم الأسود",
+            "desc": "",
+            "price": 22
+          },
+          {
+            "name": "كرواسون الفستق",
+            "desc": "",
+            "price": 19
+          }
+        ],
+        "image": "inside"
+      },
+      {
+        "id": "savory",
+        "title": "المالح",
+        "tagline": "للفطور",
+        "items": [
+          {
+            "name": "تاكو كرواسون بأربعة أجبان",
+            "desc": "",
+            "price": 26
+          },
+          {
+            "name": "كرواسون الزعتر",
+            "desc": "",
+            "price": 15
+          }
+        ],
+        "image": "bar"
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "كورتادو",
+            "desc": "",
+            "price": 16
+          },
+          {
+            "name": "آيس لاتيه",
+            "desc": "",
+            "price": 19
+          }
+        ],
+        "image": "bar"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "bar": {
+      "file": "bar.jpg",
+      "alt": "صورة الكاونتر الطويل والمعجنات تحت الإضاءة في TEXTURED",
+      "source_url": "https://wanderlog.com/place/details/11555749/textured-bakehouse",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة TEXTURED bakehouse",
+      "source_url": "https://wanderlog.com/place/details/11555749/textured-bakehouse",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "inside": {
+      "file": "inside.jpg",
+      "alt": "صورة المعجنات على الطاولة داخل TEXTURED",
+      "source_url": "https://wanderlog.com/place/details/11555749/textured-bakehouse",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "7 ص – 7 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "8 ص – 8 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "place_id": "ChIJufA91aT_kT4RBg_cSmjYg28",
+  "slug": "lucoo",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#D6246E",
+    "rgb": "214, 36, 110",
+    "hover": "#B51C5C",
+    "ink": "#FFFFFF"
+  },
+  "name": "Lucoo",
+  "name_lang": "en",
+  "category_label": "كافيه وآيس كريم",
+  "area": "شارع بوشر، مسقط",
+  "address": "شارع بوشر، مقابل قرية الدولفين، مسقط",
+  "phone": {
+    "display": "+968 9444 1430",
+    "tel": "+96894441430"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Lucoo&query_place_id=ChIJufA91aT_kT4RBg_cSmjYg28",
+  "map_query": "Lucoo, Bawshar St, Muscat",
+  "rating": {
+    "value": 4.6,
+    "count": 62,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "كل شيء وردي، حتى الآيس كريم",
+    "intro": "كافيه وآيس كريم بلون وردي على شارع بوشر في مسقط، يذكر زواره الآيس كريم الكريمي وأوعية الأساي والسبانيش لاتيه، بتقييم 4.6 على Google.",
+    "image": "inside"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "story",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "سوفت سيرف",
+      "أساي",
+      "تيراميسو",
+      "تشيز كيك",
+      "سبانيش لاتيه"
+    ]
+  },
+  "story": {
+    "eyebrow": "زيارة سريعة أو جلسة",
+    "title": "لماذا يتوقف الناس عند Lucoo",
+    "items": [
+      {
+        "label": "الحلو",
+        "title": "آيس كريم كريمي",
+        "text": "يمدح الزوار القوام والنكهة، ويذكرون التذوّق قبل الطلب.",
+        "image": "swirl"
+      },
+      {
+        "label": "الجلسة",
+        "title": "ديكور وردي بالكامل",
+        "text": "صالة مدوّرة بالأضواء والكراسي الوردية.",
+        "image": "inside"
+      },
+      {
+        "label": "الموقع",
+        "title": "مقابل قرية الدولفين",
+        "text": "على شارع بوشر مع مواقف متوفرة بحسب المراجعات.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "حلو وقهوة",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.ع",
+    "categories": [
+      {
+        "id": "ice",
+        "title": "الآيس كريم والحلو",
+        "tagline": "كريمي",
+        "items": [
+          {
+            "name": "سوفت سيرف بالصوص",
+            "desc": "",
+            "price": 1.6,
+            "mentioned": true
+          },
+          {
+            "name": "وعاء أساي",
+            "desc": "",
+            "price": 2.8,
+            "mentioned": true
+          },
+          {
+            "name": "تيراميسو",
+            "desc": "",
+            "price": 2.2,
+            "mentioned": true
+          },
+          {
+            "name": "تشيز كيك",
+            "desc": "",
+            "price": 2.2,
+            "mentioned": true
+          }
+        ],
+        "image": "swirl"
+      },
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "",
+        "items": [
+          {
+            "name": "سبانيش لاتيه",
+            "desc": "",
+            "price": 1.8,
+            "mentioned": true
+          },
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 1.5
+          }
+        ],
+        "image": "inside"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Jandyam R.",
+      "stars": 5,
+      "text": "It is located in Bowsher infront of Dolphin village. Very cute and pinky exclusive dessert and coffee . Their wide selection of desserts from ice creams to cheesecake and tiramisu and many other healthy dessert options too.good quantity and reasonable price .…",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnTUNnak5iMXpnRRAB"
+    },
+    {
+      "author": "Naeem M.",
+      "stars": 5,
+      "text": "A cute little dessert stop that's easily located and well priced for the quality you receive. We stopped here as our toddler wanted Ice Cream and we weren't disappointed with the flavour and creaminess of the ice cream. The cappuccino and Spanish Lattes were…",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSURqLUxYeU53EAE"
+    },
+    {
+      "author": "Ali M.",
+      "stars": 4,
+      "text": "They have nice Acai bowls and their coffee is quite decent too",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUN0bUktTmFnEAE"
+    }
+  ],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "inside": {
+      "file": "inside.jpg",
+      "alt": "صورة صالة Lucoo الوردية",
+      "source_url": "https://wanderlog.com/place/details/7444422/lucoo",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة Lucoo ليلًا",
+      "source_url": "https://wanderlog.com/place/details/7444422/lucoo",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "swirl": {
+      "file": "swirl.jpg",
+      "alt": "صورة آيس كريم سوفت مع صوص من Lucoo",
+      "source_url": "https://wanderlog.com/place/details/7444422/lucoo",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "place_id": "ChIJbyCghVH_kT4RQ7lnIPB5URE",
+  "slug": "qaha-specialty-coffee",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#1F5FA8",
+    "rgb": "31, 95, 168",
+    "hover": "#184C87",
+    "ink": "#FFFFFF"
+  },
+  "name": "Qaha Specialty Coffee",
+  "name_lang": "en",
+  "category_label": "قهوة مختصة",
+  "area": "بوشر، مسقط",
+  "address": "4 شارع المها، بوشر، مسقط",
+  "phone": {
+    "display": "+968 9247 8000",
+    "tel": "+96892478000"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Qaha%20Specialty%20Coffee%20%D9%82%D9%87%D8%A7%20%D9%83%D8%A7%D9%81%D9%8A%D9%87%20-%20%D9%81%D8%B1%D8%B9%20%D8%A8%D9%88%D8%B4%D8%B1&query_place_id=ChIJbyCghVH_kT4RQ7lnIPB5URE",
+  "map_query": "Qaha Specialty Coffee, Al Maha St, Bausher, Muscat",
+  "rating": {
+    "value": 4.5,
+    "count": 346,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "أبيض وأزرق، وقهوة مختصة في بوشر",
+    "intro": "مقهى قهوة مختصة في شارع المها ببوشر، يصفه الزوار بأجواء الجزر اليونانية بالأبيض والأزرق، ويفتح حتى الواحدة بعد منتصف الليل.",
+    "image": "hall"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "قهوة مختصة",
+      "مثلّج مختص",
+      "ساندويتش جبن ودجاج",
+      "بوشر",
+      "حتى 1 بعد منتصف الليل"
+    ]
+  },
+  "story": {
+    "eyebrow": "كما يصفها الزوار",
+    "title": "زاوية يونانية في مسقط",
+    "items": [
+      {
+        "label": "الصالة",
+        "title": "جدران بيضاء وأبواب زرقاء",
+        "text": "ديكور يشبه دكانًا في جزيرة يونانية، كما يقول الزوار.",
+        "image": "hall"
+      },
+      {
+        "label": "الفنجان",
+        "title": "قهوة مختصة تُقدّم مع الماء",
+        "text": "يمدح الزوار جودة البن، والمختص المثلّج خاصة.",
+        "image": "tray"
+      },
+      {
+        "label": "الكاونتر",
+        "title": "استقبال يذكره الجميع",
+        "text": "كثير من المراجعات تذكر لطف فريق الكاونتر.",
+        "image": "counter"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "قهوة ولقمة",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.ع",
+    "categories": [
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "مختصة",
+        "items": [
+          {
+            "name": "قهوة اليوم المقطّرة",
+            "desc": "",
+            "price": 2.0
+          },
+          {
+            "name": "مختص مثلّج",
+            "desc": "",
+            "price": 2.2,
+            "mentioned": true
+          },
+          {
+            "name": "فلات وايت",
+            "desc": "",
+            "price": 1.8
+          },
+          {
+            "name": "كورتادو",
+            "desc": "",
+            "price": 1.6
+          }
+        ],
+        "image": "tray"
+      },
+      {
+        "id": "bites",
+        "title": "لقمة",
+        "tagline": "",
+        "items": [
+          {
+            "name": "ساندويتش جبن ودجاج",
+            "desc": "",
+            "price": 2.4,
+            "mentioned": true
+          },
+          {
+            "name": "كرواسون",
+            "desc": "",
+            "price": 1.2
+          }
+        ],
+        "image": "hall"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "W R.",
+      "stars": 5,
+      "text": "They have Mediterranean and Greek atmosphere, when you go inside, it is like you just stepped into a small shop in a narrow street in a greek island, for it is all white and blue, really lovely. Their menu however is not very rich, but they got great coffee.…",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSURCekppYjh3RRAB"
+    },
+    {
+      "author": "Barča S.",
+      "stars": 5,
+      "text": "The best coffee place in Muscat so far! (and I visited already plenty of fancy coffee shops!) Speciality coffee on ice is a must-have, very friendly and quick service, I am definitely visiting this place again:)",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUNXdzRyTmVREAE"
+    },
+    {
+      "author": "Khawla A.",
+      "stars": 5,
+      "text": "Top notch coffee, very friendly staff and wonderful interior gives the vibes of Greece. They have normal milk alternatives too. Wouldn’t recommend it though for people who wanna work for long hours in a coffee, maybe when the hype dies down.",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSUN5OU1pQV9nRRAB"
+    }
+  ],
+  "mentions": [],
+  "visit": {
+    "image": "counter"
+  },
+  "images": {
+    "hall": {
+      "file": "hall.jpg",
+      "alt": "صورة صالة قها كافيه بالأبيض والأزرق",
+      "source_url": "https://wanderlog.com/place/details/9573108/qaha-specialty-coffee-",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "tray": {
+      "file": "tray.jpg",
+      "alt": "صورة صينية قهوة وماء من قها",
+      "source_url": "https://wanderlog.com/place/details/9573108/qaha-specialty-coffee-",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "counter": {
+      "file": "counter.jpg",
+      "alt": "صورة كاونتر قها كافيه في بوشر",
+      "source_url": "https://wanderlog.com/place/details/9573108/qaha-specialty-coffee-",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت",
+        "time": "9 ص – 1 ص"
+      },
+      {
+        "days": "الأحد – الخميس",
+        "time": "6 ص – 1 ص"
+      },
+      {
+        "days": "الجمعة",
+        "time": "9 ص – 1 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

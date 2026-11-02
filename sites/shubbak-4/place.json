@@ -1,0 +1,176 @@
+{
+  "place_id": "ChIJ16MvzQjbwxURFf5FLiOvv_o",
+  "slug": "shubbak-4",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#178F86",
+    "rgb": "23, 143, 134",
+    "hover": "#12756E",
+    "ink": "#FFFFFF"
+  },
+  "name": "شبّاك 4",
+  "name_lang": "ar",
+  "category_label": "آيس كريم سوفت سيرف",
+  "area": "حي الزهراء، جدة",
+  "address": "شارع علي الطنطاوي، حي الزهراء، جدة",
+  "phone": {
+    "display": "+966 55 084 0404",
+    "tel": "+966550840404"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Shubbak%204%20%7C%20%D8%B4%D8%A8%D9%91%D8%A7%D9%83%204&query_place_id=ChIJ16MvzQjbwxURFf5FLiOvv_o",
+  "map_query": "Shubbak 4, Al Zahra, Jeddah",
+  "rating": {
+    "value": 4.4,
+    "count": 940,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "سوفت سيرف من الشبّاك حتى الثانية فجرًا",
+    "intro": "محل آيس كريم في حي الزهراء بجدة، يذكر زواره نكهات البطيخ والبينا كولادا والزعفران والكراميل المملّح، ويفتح يوميًا حتى الثانية فجرًا.",
+    "image": "cone"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "نكهات يذكرها الزوار",
+    "items": [
+      "بطيخ",
+      "بينا كولادا",
+      "زعفران",
+      "كراميل مملّح",
+      "حتى 2 فجرًا"
+    ]
+  },
+  "story": {
+    "eyebrow": "من الشبّاك",
+    "title": "اطلب من الشبّاك",
+    "items": [
+      {
+        "label": "الكوب",
+        "title": "سوفت سيرف ناعم",
+        "text": "قوام ناعم كريمي يمدحه الزوار في مراجعاتهم.",
+        "image": "cone"
+      },
+      {
+        "label": "النكهات",
+        "title": "من البطيخ إلى الزعفران",
+        "text": "لوحة النكهات معلّقة عند الشبّاك وتتغير.",
+        "image": "flavors"
+      },
+      {
+        "label": "المكان",
+        "title": "شبّاك على الشارع",
+        "text": "محل صغير بواجهة بيضاء وشبابيك تركوازية في الزهراء.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "النكهات",
+    "eyebrow": "كوب أو كون",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.س",
+    "categories": [
+      {
+        "id": "soft",
+        "title": "سوفت سيرف",
+        "tagline": "كوب وسط",
+        "items": [
+          {
+            "name": "بطيخ",
+            "desc": "",
+            "price": 16
+          },
+          {
+            "name": "بينا كولادا",
+            "desc": "",
+            "price": 16
+          },
+          {
+            "name": "زعفران",
+            "desc": "",
+            "price": 18
+          },
+          {
+            "name": "كراميل مملّح",
+            "desc": "",
+            "price": 18
+          }
+        ],
+        "image": "cone"
+      },
+      {
+        "id": "extra",
+        "title": "إضافات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "صوص إضافي",
+            "desc": "",
+            "price": 4
+          },
+          {
+            "name": "كون مقرمش",
+            "desc": "",
+            "price": 3
+          }
+        ],
+        "image": "cone"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "cone": {
+      "file": "cone.jpg",
+      "alt": "صورة كوب سوفت سيرف من شبّاك 4",
+      "source_url": "https://wanderlog.com/place/details/4571495/shubbak-4--",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "flavors": {
+      "file": "flavors.jpg",
+      "alt": "صورة لوحة نكهات شبّاك 4",
+      "source_url": "https://wanderlog.com/place/details/4571495/shubbak-4--",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة شبّاك 4 في حي الزهراء",
+      "source_url": "https://wanderlog.com/place/details/4571495/shubbak-4--",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "1 م – 2 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "place_id": "ChIJzQFW6V6vST4RTAY8X9PwQLk",
+  "slug": "anayat-sweets",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#C2410C",
+    "rgb": "194, 65, 12",
+    "hover": "#A1360A",
+    "ink": "#FFFFFF"
+  },
+  "name": "Anayat Sweets",
+  "name_lang": "en",
+  "category_label": "حلويات وفطور باكستاني",
+  "area": "شارع الحضرمي، المنامة",
+  "address": "شارع الحضرمي، المنامة",
+  "phone": {
+    "display": "+973 1722 3297",
+    "tel": "+97317223297"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Anayat%20Sweets&query_place_id=ChIJzQFW6V6vST4RTAY8X9PwQLk",
+  "map_query": "Anayat Sweets, Al Hadrami Ave, Manama",
+  "rating": {
+    "value": 4.3,
+    "count": 876,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "حلوى بوري على الفطور في شارع الحضرمي",
+    "intro": "محل حلويات في شارع الحضرمي بالمنامة، يقصده الزوار لفطور الحلوى بوري قبل الظهر ولصواني الحلويات الملوّنة، ويفتح من السادسة صباحًا.",
+    "image": "rolls"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "حلوى بوري",
+      "حمّص",
+      "حلويات ملوّنة",
+      "من 6 صباحًا",
+      "شارع الحضرمي"
+    ]
+  },
+  "story": {
+    "eyebrow": "صباحًا ومساءً",
+    "title": "من الفطور إلى العلبة",
+    "items": [
+      {
+        "label": "الفطور",
+        "title": "حلوى بوري قبل الظهر",
+        "text": "يذكر الزوار أنها طبق فطور، فاطلبها قبل الظهيرة.",
+        "image": "puri"
+      },
+      {
+        "label": "الصواني",
+        "title": "حلويات بالألوان",
+        "text": "فترينة طويلة بصواني الحلويات المختلفة.",
+        "image": "tray"
+      },
+      {
+        "label": "الهدية",
+        "title": "حلويات مزيّنة",
+        "text": "قطع ملفوفة ومزيّنة بالورد تصلح للضيافة.",
+        "image": "rolls"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "فطور وحلويات",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.ب",
+    "categories": [
+      {
+        "id": "breakfast",
+        "title": "الفطور",
+        "tagline": "قبل الظهر",
+        "items": [
+          {
+            "name": "حلوى بوري (طبق)",
+            "desc": "",
+            "price": 1.2
+          },
+          {
+            "name": "حمّص مع بوري",
+            "desc": "",
+            "price": 1.0
+          }
+        ],
+        "image": "puri"
+      },
+      {
+        "id": "sweets",
+        "title": "الحلويات (بالكيلو)",
+        "tagline": "من الفترينة",
+        "items": [
+          {
+            "name": "حلويات مشكّلة",
+            "desc": "",
+            "price": 4.5
+          },
+          {
+            "name": "حلوى بالحليب",
+            "desc": "",
+            "price": 4.0
+          },
+          {
+            "name": "حلويات بالمكسرات",
+            "desc": "",
+            "price": 5.5
+          }
+        ],
+        "image": "tray"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "tray"
+  },
+  "images": {
+    "rolls": {
+      "file": "rolls.jpg",
+      "alt": "صورة حلويات ملفوفة ومزيّنة من عنايت",
+      "source_url": "https://wanderlog.com/place/details/10175398/anayat-sweets",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "tray": {
+      "file": "tray.jpg",
+      "alt": "صورة فترينة الحلويات في عنايت",
+      "source_url": "https://wanderlog.com/place/details/10175398/anayat-sweets",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "puri": {
+      "file": "puri.jpg",
+      "alt": "صورة طبق حلوى بوري من عنايت",
+      "source_url": "https://wanderlog.com/place/details/10175398/anayat-sweets",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "6:10 ص – 10:30 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}
