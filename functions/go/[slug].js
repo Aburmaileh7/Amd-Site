@@ -17,5 +17,5 @@ export async function onRequestGet({ params, request, env }) {
   if (env.GO_LOG && !PREVIEW_BOT.test(agent)) {
     await env.GO_LOG.put(`tap:${slug}:${channel}`, new Date().toISOString(), { expirationTtl: 60 * 60 * 24 * 90 });
   }
-  return new Response(null, { status: 302, headers: { Location: to, 'Cache-Control': 'no-store', 'X-Robots-Tag': 'noindex' } });
+  return new Response(null, { status: 302, headers: { Location: to, 'Cache-Control': 'no-store', 'X-Robots-Tag': 'noindex', 'Referrer-Policy': 'no-referrer' } });
 }
