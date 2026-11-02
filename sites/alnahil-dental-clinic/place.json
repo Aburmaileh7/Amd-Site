@@ -1,0 +1,124 @@
+{
+  "place_id": "amd-notion-40c5cb524e4481818a5ef5ac394c2897",
+  "slug": "alnahil-dental-clinic",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "صفحات المحل العامة",
+  "accent": {
+    "hex": "#8C6D1F",
+    "rgb": "140, 109, 31",
+    "hover": "#725919",
+    "ink": "#FFFFFF"
+  },
+  "name": "مركز النهيل للأسنان",
+  "name_lang": "ar",
+  "category_label": "عيادة أسنان",
+  "area": "حولي، الكويت",
+  "address": "شارع 139 خلف مجمع النقرة الجنوبي، مقابل المغرب إكسبرس بجانب صيدلية العاصمة، حولي",
+  "phone": {
+    "display": "+965 6966 1022",
+    "tel": "+96569661022"
+  },
+  "directions_url": "https://www.google.com/maps?cid=7267489351508830015",
+  "map_query": "AlNahil Dental Clinic, Hawally",
+  "rating": {
+    "value": 4.8,
+    "count": 39,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "9 ص – 9 م"
+      },
+      {
+        "days": "الخميس",
+        "time": "9 ص – 6 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "دليل Zavis (من Google Maps)"
+  },
+  "hero": {
+    "headline": "عيادة أسنان خلف مجمع النقرة في حولي",
+    "intro": "مركز النهيل للأسنان في حولي، تقييمه 4.8 من 39 مراجعة على Google، ويذكر المرضى تعامل الطاقم المهذب ومساعدته في كل زيارة.",
+    "image": "c_mirror"
+  },
+  "sections": [
+    "visit",
+    "proof",
+    "menu",
+    "amenities"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من وصف العيادة في الدليل المنشور، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "طب الأسنان العام",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل الزيارة",
+    "title": "معلومات الزيارة",
+    "image": "c_tools",
+    "items": [
+      {
+        "icon": "car",
+        "title": "كيف تصل",
+        "text": "خلف مجمع النقرة الجنوبي، مقابل المغرب إكسبرس وبجانب صيدلية العاصمة."
+      },
+      {
+        "icon": "clock",
+        "title": "أوقات العمل",
+        "text": "من 9 صباحًا حتى 9 مساءً، والخميس حتى 6، والجمعة مغلق."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل مهيأ",
+        "text": "مدخل مهيأ لذوي الإعاقة، حسب الدليل المنشور."
+      }
+    ]
+  },
+  "visit": {
+    "image": "c_glove"
+  },
+  "images": {
+    "c_mirror": {
+      "id": "photo-1606811971618-4486d14f3f99",
+      "alt": "صورة توضيحية: فحص أسنان بالمرآة",
+      "page": "https://unsplash.com/photos/8BkF0sTC6Uo"
+    },
+    "c_tools": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان"
+    },
+    "c_glove": {
+      "id": "photo-1771442873038-dda05b6ca447",
+      "alt": "صورة توضيحية: يد بقفاز تحمل أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/98eodnv1abo"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

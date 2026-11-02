@@ -1,0 +1,128 @@
+{
+  "place_id": "amd-notion-40c5cb524e4481708e14f445b8dd98d5",
+  "slug": "al-maha-dental-clinic",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "صفحات المحل العامة",
+  "accent": {
+    "hex": "#4A5568",
+    "rgb": "74, 85, 104",
+    "hover": "#3C4555",
+    "ink": "#FFFFFF"
+  },
+  "name": "Al Maha Dental Clinic",
+  "name_lang": "en",
+  "category_label": "عيادة أسنان",
+  "area": "ابن سينا، الدوحة",
+  "address": "روضة الخليل، ابن سينا، الدوحة",
+  "phone": {
+    "display": "+974 4431 2222",
+    "tel": "+97444312222"
+  },
+  "directions_url": "https://www.google.com/maps?cid=8050139037408147274",
+  "map_query": "Al Maha Dental Clinic, Ibn Seena, Doha",
+  "rating": {
+    "value": 4.3,
+    "count": 71,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "10 ص – 9 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "دليل Zavis (من Google Maps)"
+  },
+  "hero": {
+    "headline": "عيادة أسنان في ابن سينا بالدوحة",
+    "intro": "عيادة المها لطب الأسنان في ابن سينا بالدوحة، تقييمها 4.3 من 71 مراجعة على Google، ويذكر المرضى أسلوبها الهادئ المطمئن لمن يقلق من العلاج.",
+    "image": "c_talk"
+  },
+  "sections": [
+    "proof",
+    "menu",
+    "amenities",
+    "visit"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من وصف العيادة في الدليل المنشور، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تنظيف الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تجميل الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "الترميمات",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل الزيارة",
+    "title": "معلومات الزيارة",
+    "image": "c_tools",
+    "items": [
+      {
+        "icon": "check",
+        "title": "أجواء مطمئنة",
+        "text": "يذكر المرضى لطف الطاقم التمريضي واهتمامه."
+      },
+      {
+        "icon": "clock",
+        "title": "أوقات العمل",
+        "text": "من 10 صباحًا حتى 9 مساءً، من السبت إلى الخميس."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل مهيأ",
+        "text": "مدخل ومواقف وجلسات مهيأة، حسب الدليل المنشور."
+      }
+    ]
+  },
+  "visit": {
+    "image": "c_glove"
+  },
+  "images": {
+    "c_talk": {
+      "id": "photo-1777331903190-341a3dd0441b",
+      "alt": "صورة توضيحية: طبيب أسنان يتحدث مع مريض",
+      "page": "https://unsplash.com/photos/Bg81yWKZlMg"
+    },
+    "c_tools": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان"
+    },
+    "c_glove": {
+      "id": "photo-1771442873038-dda05b6ca447",
+      "alt": "صورة توضيحية: يد بقفاز تحمل أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/98eodnv1abo"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

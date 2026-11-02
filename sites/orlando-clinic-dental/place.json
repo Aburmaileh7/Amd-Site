@@ -1,0 +1,133 @@
+{
+  "place_id": "amd-notion-40c5cb524e4481bd926fdaaa2a13a98c",
+  "slug": "orlando-clinic-dental",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "صفحات المحل العامة",
+  "accent": {
+    "hex": "#1A7F64",
+    "rgb": "26, 127, 100",
+    "hover": "#156852",
+    "ink": "#FFFFFF"
+  },
+  "name": "Orlando Clinic Dental",
+  "name_lang": "en",
+  "category_label": "عيادة أسنان",
+  "area": "السالمية، الكويت",
+  "address": "شارع 8، السالمية",
+  "phone": {
+    "display": "+965 6090 2061",
+    "tel": "+96560902061"
+  },
+  "directions_url": "https://www.google.com/maps?cid=6284109965895162738",
+  "map_query": "Orlando Clinic Dental Dr Rateb Dwaik, Salmiya",
+  "rating": {
+    "value": 5.0,
+    "count": 99,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "10 ص – 9 م"
+      },
+      {
+        "days": "الخميس",
+        "time": "10 ص – 5 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "دليل Zavis (من Google Maps)"
+  },
+  "hero": {
+    "headline": "زراعة الأسنان في السالمية مع د. راتب الدويك",
+    "intro": "عيادة أورلاندو لطب الأسنان في السالمية بإشراف د. راتب الدويك، تقييمها 5.0 من 99 مراجعة على Google، وتقدّم الزراعة والخلع والعلاج الترميمي.",
+    "image": "c_xray"
+  },
+  "sections": [
+    "menu",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من وصف العيادة في الدليل المنشور، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "زراعة الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "خلع الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "العلاج الترميمي",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل الزيارة",
+    "title": "معلومات الزيارة",
+    "image": "c_bright",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "أوقات العمل",
+        "text": "من 10 صباحًا حتى 9 مساءً، والخميس حتى 5، والجمعة مغلق."
+      },
+      {
+        "icon": "calendar",
+        "title": "الحجز بالهاتف",
+        "text": "اتصلوا بالعيادة لحجز موعد."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل مهيأ",
+        "text": "مدخل ومواقف مهيأة، حسب الدليل المنشور."
+      }
+    ]
+  },
+  "visit": {
+    "image": "c_glove"
+  },
+  "images": {
+    "c_xray": {
+      "id": "photo-1588776814546-1ffcf47267a5",
+      "alt": "صورة توضيحية: طبيب يراجع صور أشعة للأسنان",
+      "page": "https://unsplash.com/photos/v_2FRXEba94"
+    },
+    "c_bright": {
+      "id": "photo-1598256989800-fe5f95da9787",
+      "alt": "صورة توضيحية: كرسي أسنان في عيادة مضيئة",
+      "page": "https://unsplash.com/photos/XJptUS8nbhs"
+    },
+    "c_glove": {
+      "id": "photo-1771442873038-dda05b6ca447",
+      "alt": "صورة توضيحية: يد بقفاز تحمل أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/98eodnv1abo"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

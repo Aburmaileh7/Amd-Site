@@ -1,0 +1,121 @@
+{
+  "place_id": "amd-notion-40c5cb524e4481d8a1ebcfcbb6bd81ff",
+  "slug": "scottish-dental-center",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "صفحات المحل العامة",
+  "accent": {
+    "hex": "#15616D",
+    "rgb": "21, 97, 109",
+    "hover": "#114F59",
+    "ink": "#FFFFFF"
+  },
+  "name": "Scottish Dental Center",
+  "name_lang": "en",
+  "category_label": "عيادة أسنان",
+  "area": "المويجعي، العين",
+  "address": "شارع خليفة بن زايد، المويجعي، العين",
+  "phone": {
+    "display": "+971 3 767 4888",
+    "tel": "+97137674888"
+  },
+  "directions_url": "https://www.google.com/maps?cid=17104182187424281286",
+  "map_query": "Scottish Dental Center, Al Muwaiji, Al Ain",
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "9 ص – 9 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "دليل Zavis (من Google Maps)"
+  },
+  "layout": {
+    "hero": "full"
+  },
+  "hero": {
+    "headline": "مركز أسنان على شارع خليفة بن زايد بالعين",
+    "intro": "المركز الإسكتلندي لطب الأسنان في المويجعي بالعين، يستقبل المرضى من السبت إلى الخميس، ويقبل تأمين ضمان وثقة حسب الدليل المنشور.",
+    "image": "c_glove"
+  },
+  "sections": [
+    "menu",
+    "amenities",
+    "visit"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من وصف العيادة في الدليل المنشور، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "طب الأسنان العام",
+            "desc": ""
+          },
+          {
+            "name": "الاستشارات",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل الزيارة",
+    "title": "معلومات الزيارة",
+    "image": "c_chair",
+    "items": [
+      {
+        "icon": "shield",
+        "title": "ضمان وثقة",
+        "text": "يقبل تأمين ضمان وثقة، حسب الدليل المنشور."
+      },
+      {
+        "icon": "clock",
+        "title": "أوقات العمل",
+        "text": "من 9 صباحًا حتى 9 مساءً، من السبت إلى الخميس."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل مهيأ",
+        "text": "مدخل ومواقف ودورة مياه مهيأة، حسب الدليل المنشور."
+      }
+    ]
+  },
+  "visit": {
+    "image": "c_probe"
+  },
+  "images": {
+    "c_glove": {
+      "id": "photo-1771442873038-dda05b6ca447",
+      "alt": "صورة توضيحية: يد بقفاز تحمل أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/98eodnv1abo"
+    },
+    "c_chair": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات"
+    },
+    "c_probe": {
+      "id": "photo-1606811856475-5e6fcdc6e509",
+      "alt": "صورة توضيحية: مرآة وأداة فحص أسنان",
+      "page": "https://unsplash.com/photos/ux18C551ghI"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

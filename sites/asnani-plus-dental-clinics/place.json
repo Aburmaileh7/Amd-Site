@@ -1,0 +1,135 @@
+{
+  "place_id": "amd-notion-40c5cb524e4481a89ebffaa4a355627e",
+  "slug": "asnani-plus-dental-clinics",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "صفحات المحل العامة",
+  "accent": {
+    "hex": "#2F855A",
+    "rgb": "47, 133, 90",
+    "hover": "#266D49",
+    "ink": "#FFFFFF"
+  },
+  "name": "Asnani Plus Dental Clinics",
+  "name_lang": "en",
+  "category_label": "عيادة أسنان",
+  "area": "السلامة، جدة",
+  "address": "طريق الأمير سلطان الفرعي، حي السلامة، جدة 23525",
+  "phone": {
+    "display": "+966 54 552 8472",
+    "tel": "+966545528472"
+  },
+  "directions_url": "https://www.google.com/maps?cid=5827500205759988308",
+  "map_query": "Asnani Plus Dental Clinics, As Salamah, Jeddah",
+  "rating": {
+    "value": 4.6,
+    "count": 1072,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "9 ص – 9 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "دليل Zavis (من Google Maps)"
+  },
+  "layout": {
+    "hero": "full"
+  },
+  "hero": {
+    "headline": "زراعة وتبييض وتنظيف الأسنان في حي السلامة",
+    "intro": "عيادات أسناني بلس في حي السلامة بجدة، تقييمها 4.6 من 1072 مراجعة على Google، وتقدّم الخلع والزراعة والتنظيف والتبييض مع إمكانية تقسيط العلاج.",
+    "image": "c_chair"
+  },
+  "sections": [
+    "menu",
+    "amenities",
+    "proof",
+    "visit"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من وصف العيادة في الدليل المنشور، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "خلع الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "زراعة الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تنظيف الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "تبييض الأسنان",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل الزيارة",
+    "title": "معلومات الزيارة",
+    "image": "c_glove",
+    "items": [
+      {
+        "icon": "check",
+        "title": "تقسيط العلاج",
+        "text": "يمكن توزيع تكلفة العلاج على دفعات، كما يذكر المرضى في الدليل."
+      },
+      {
+        "icon": "clock",
+        "title": "أوقات العمل",
+        "text": "من 9 صباحًا حتى 9 مساءً، من السبت إلى الخميس."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل مهيأ",
+        "text": "مدخل ومواقف وجلسات مهيأة لذوي الإعاقة، حسب الدليل المنشور."
+      }
+    ]
+  },
+  "visit": {
+    "image": "c_bright"
+  },
+  "images": {
+    "c_chair": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات"
+    },
+    "c_glove": {
+      "id": "photo-1771442873038-dda05b6ca447",
+      "alt": "صورة توضيحية: يد بقفاز تحمل أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/98eodnv1abo"
+    },
+    "c_bright": {
+      "id": "photo-1598256989800-fe5f95da9787",
+      "alt": "صورة توضيحية: كرسي أسنان في عيادة مضيئة",
+      "page": "https://unsplash.com/photos/XJptUS8nbhs"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

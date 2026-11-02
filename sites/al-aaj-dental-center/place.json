@@ -1,0 +1,128 @@
+{
+  "place_id": "amd-notion-40c5cb524e4481aebbb8cfb89a518ccc",
+  "slug": "al-aaj-dental-center",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "صفحات المحل العامة",
+  "accent": {
+    "hex": "#2E7D32",
+    "rgb": "46, 125, 50",
+    "hover": "#256629",
+    "ink": "#FFFFFF"
+  },
+  "name": "Al-Aaj Dental Center",
+  "name_lang": "en",
+  "category_label": "عيادة أسنان",
+  "area": "الدوحة",
+  "address": "شارع البيئة، الدوحة",
+  "phone": {
+    "display": "+974 4417 9165",
+    "tel": "+97444179165"
+  },
+  "directions_url": "https://www.google.com/maps?cid=216886050913891590",
+  "map_query": "Al-Aaj Dental Center, Environment St, Doha",
+  "rating": {
+    "value": 4.0,
+    "count": 14,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "9 ص – 9 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "دليل Zavis (من Google Maps)"
+  },
+  "hero": {
+    "headline": "مركز أسنان بأجهزة حديثة في الدوحة",
+    "intro": "مركز العاج لطب الأسنان في الدوحة يقدّم الفحص والعلاج وجراحة الفم، ويذكر المرضى نظافة المكان وحداثة الأجهزة وتنظيم الإدارة.",
+    "image": "c_bright"
+  },
+  "sections": [
+    "menu",
+    "amenities",
+    "proof",
+    "visit"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من وصف العيادة في الدليل المنشور، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "فحص الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "علاج الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "جراحة الفم",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل الزيارة",
+    "title": "معلومات الزيارة",
+    "image": "c_probe",
+    "items": [
+      {
+        "icon": "check",
+        "title": "أجهزة حديثة",
+        "text": "يذكر المرضى أن الأجهزة جديدة والمكان نظيف."
+      },
+      {
+        "icon": "clock",
+        "title": "أوقات العمل",
+        "text": "من 9 صباحًا حتى 9 مساءً، من السبت إلى الخميس."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل مهيأ",
+        "text": "مدخل ومواقف ودورة مياه مهيأة، حسب الدليل المنشور."
+      }
+    ]
+  },
+  "visit": {
+    "image": "c_chair"
+  },
+  "images": {
+    "c_bright": {
+      "id": "photo-1598256989800-fe5f95da9787",
+      "alt": "صورة توضيحية: كرسي أسنان في عيادة مضيئة",
+      "page": "https://unsplash.com/photos/XJptUS8nbhs"
+    },
+    "c_probe": {
+      "id": "photo-1606811856475-5e6fcdc6e509",
+      "alt": "صورة توضيحية: مرآة وأداة فحص أسنان",
+      "page": "https://unsplash.com/photos/ux18C551ghI"
+    },
+    "c_chair": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

@@ -1,0 +1,126 @@
+{
+  "place_id": "amd-notion-40c5cb524e4481c48850db64da303533",
+  "slug": "plus-dental-center",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "صفحات المحل العامة",
+  "accent": {
+    "hex": "#3E5C76",
+    "rgb": "62, 92, 118",
+    "hover": "#324B60",
+    "ink": "#FFFFFF"
+  },
+  "name": "PLUS Dental Center",
+  "name_lang": "en",
+  "category_label": "عيادة أسنان",
+  "area": "الجابرية، حولي",
+  "address": "برج كلوفر، شارع 1، الجابرية",
+  "phone": {
+    "display": "+965 1800 084",
+    "tel": "+9651800084"
+  },
+  "directions_url": "https://www.google.com/maps?cid=11032844325768137750",
+  "map_query": "PLUS Dental Center, Clover Tower, Jabriya",
+  "rating": {
+    "value": 4.9,
+    "count": 55,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "9 ص – 10 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "2 م – 10 م"
+      }
+    ],
+    "per_day": null,
+    "source": "دليل Zavis (من Google Maps)"
+  },
+  "layout": {
+    "hero": "full"
+  },
+  "hero": {
+    "headline": "مركز أسنان في برج كلوفر بالجابرية",
+    "intro": "مركز بلس لطب الأسنان في الجابرية، تقييمه 4.9 من 55 مراجعة على Google، ويفتح كل أيام الأسبوع، والجمعة من الثانية ظهرًا.",
+    "image": "c_chair"
+  },
+  "sections": [
+    "proof",
+    "visit",
+    "menu",
+    "amenities"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من وصف العيادة في الدليل المنشور، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "طب الأسنان العام",
+            "desc": ""
+          },
+          {
+            "name": "علاج العصب",
+            "desc": ""
+          },
+          {
+            "name": "العلاجات التخصصية",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل الزيارة",
+    "title": "معلومات الزيارة",
+    "image": "c_talk",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "مفتوح كل الأسبوع",
+        "text": "من 9 صباحًا حتى 10 مساءً، والجمعة من 2 ظهرًا."
+      },
+      {
+        "icon": "calendar",
+        "title": "الحجز بالهاتف",
+        "text": "اتصلوا بالمركز لحجز موعد."
+      }
+    ]
+  },
+  "visit": {
+    "image": "c_probe"
+  },
+  "images": {
+    "c_chair": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات"
+    },
+    "c_talk": {
+      "id": "photo-1777331903190-341a3dd0441b",
+      "alt": "صورة توضيحية: طبيب أسنان يتحدث مع مريض",
+      "page": "https://unsplash.com/photos/Bg81yWKZlMg"
+    },
+    "c_probe": {
+      "id": "photo-1606811856475-5e6fcdc6e509",
+      "alt": "صورة توضيحية: مرآة وأداة فحص أسنان",
+      "page": "https://unsplash.com/photos/ux18C551ghI"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}
