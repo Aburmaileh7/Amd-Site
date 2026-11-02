@@ -11,7 +11,7 @@ export const THEMES = {
   services_pro:  { hero: 'split', story: 'stack',      label: 'خدمات وشركات' },
   gulf_luxe:     { hero: 'full',  story: 'horizontal', label: 'مطعم أو مقهى فاخر' }
 };
-export const SECTIONS = ['story', 'menu', 'proof', 'reviews', 'amenities', 'visit'];
+export const SECTIONS = ['story', 'menu', 'proof', 'reviews', 'amenities', 'visit', 'marquee'];
 export const ICONS = ['sky', 'calendar', 'bag', 'car', 'access', 'check', 'wifi', 'tree', 'family', 'clock', 'tooth', 'shield', 'coffee'];
 
 const isStr = (v) => typeof v === 'string' && v.trim().length > 0;
@@ -39,14 +39,15 @@ export function checkPlace(p, slug) {
   if (p.directions_url) req(/^https:\/\/(www\.)?google\.[a-z.]+\/maps|^https:\/\/maps\.app\.goo\.gl\//.test(p.directions_url), 'directions_url must be a Google Maps https link');
   if (p.rating) req(typeof p.rating.value === 'number' && Number.isInteger(p.rating.count) && isStr(p.rating.source), 'rating needs value, count, source');
 
-  // images: an Unsplash id, or the business's own photo (sites/<slug>/img/<file>) with the link of the post it came from.
+  // images: an Unsplash id, or a real photo of the place (sites/<slug>/img/<file>) with the link where it was found.
   // Every referenced key must exist.
   const imgs = p.images || {};
   for (const [k, v] of Object.entries(imgs)) {
     if (v && v.file) {
       req(OWN_FILE.test(v.file), `images.${k}.file must be a plain lowercase .jpg/.jpeg/.png/.webp name`);
-      req(/^https:\/\//.test(v.source_url || ''), `images.${k}.source_url must be the https link of the business's own post/page`);
-      req(isStr(v.alt) && v.alt.startsWith('صورة من حساب'), `images.${k}.alt must start with "صورة من حساب"`);
+      req(/^https:\/\//.test(v.source_url || ''), `images.${k}.source_url must be the https link where the photo was found`);
+      req(isStr(v.alt) && v.alt.startsWith('صورة'), `images.${k}.alt must start with "صورة"`);
+      if (v.credit !== undefined) req(isStr(v.credit) && v.credit.length <= 40, `images.${k}.credit must be a short label`);
     } else {
       req(v && UNSPLASH_ID.test(v.id || ''), `images.${k}.id must be an Unsplash photo id (or use file + source_url)`);
       req(v && isStr(v.alt) && v.alt.startsWith('صورة توضيحية'), `images.${k}.alt must start with "صورة توضيحية"`);

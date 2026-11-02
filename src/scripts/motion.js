@@ -136,6 +136,45 @@ if (!reduce) {
       return () => tween.scrollTrigger && tween.scrollTrigger.kill();
     }
   });
+
+  // marquee strip: endless, sped up by scrolling (RTL: moves right)
+  document.querySelectorAll('[data-marquee]').forEach((track) => {
+    const row = track.firstElementChild;
+    const loop = gsap.fromTo(track, { x: 0 }, { x: () => row.offsetWidth, duration: () => row.offsetWidth / 60, ease: 'none', repeat: -1 });
+    ScrollTrigger.create({ onUpdate: (s) => gsap.to(loop, { timeScale: 1 + Math.min(Math.abs(s.getVelocity()) / 400, 3), duration: .2, overwrite: true,
+      onComplete: () => gsap.to(loop, { timeScale: 1, duration: .8 }) }) });
+  });
+
+  // reading progress line in the accent colour
+  const bar = document.createElement('div');
+  bar.className = 'progress-line'; bar.setAttribute('aria-hidden', 'true');
+  document.body.appendChild(bar);
+  gsap.to(bar, { scaleX: 1, ease: 'none', scrollTrigger: { start: 0, end: 'max', scrub: .3 } });
+
+  // hero photo breathes slowly when the site asks for it
+  if (root.dataset.hero === 'kenburns') gsap.to('[data-hero-media] img, [data-hero-side] img', { scale: 1.08, duration: 14, ease: 'sine.inOut', yoyo: true, repeat: -1 });
+
+  // fine pointers only: magnetic buttons and tilting photos
+  if (window.matchMedia('(pointer: fine)').matches) {
+    document.querySelectorAll('.btn').forEach((b) => {
+      b.addEventListener('pointermove', (e) => {
+        const r = b.getBoundingClientRect();
+        gsap.to(b, { x: (e.clientX - r.left - r.width / 2) * .18, y: (e.clientY - r.top - r.height / 2) * .3, duration: .4, ease: 'power3.out' });
+      });
+      b.addEventListener('pointerleave', () => gsap.to(b, { x: 0, y: 0, duration: .6, ease: 'elastic.out(1, .5)' }));
+    });
+    document.querySelectorAll('[data-tilt], [data-hero-side], .panel__media').forEach((el) => {
+      el.addEventListener('pointermove', (e) => {
+        const r = el.getBoundingClientRect();
+        gsap.to(el, { rotateY: ((e.clientX - r.left) / r.width - .5) * 8, rotateX: -((e.clientY - r.top) / r.height - .5) * 8, transformPerspective: 900, duration: .5, ease: 'power3.out' });
+      });
+      el.addEventListener('pointerleave', () => gsap.to(el, { rotateX: 0, rotateY: 0, duration: .8, ease: 'power3.out' }));
+    });
+  }
 } else {
   document.querySelectorAll('[data-reveal],[data-hero-in]').forEach((el) => { el.style.opacity = 1; el.style.transform = 'none'; });
 }
+
+// a site's own motion (sites/<slug>/site.js) runs after this, with gsap ready
+window.gsap = gsap; window.ScrollTrigger = ScrollTrigger; window.AMD_REDUCED_MOTION = reduce;
+window.AMD_READY = true; window.dispatchEvent(new Event('amd:ready'));

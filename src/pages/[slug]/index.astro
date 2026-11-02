@@ -10,6 +10,11 @@ import Amenities from '../../components/Amenities.astro';
 import Visit from '../../components/Visit.astro';
 import MapDialog from '../../components/MapDialog.astro';
 import BrandMark from '../../components/BrandMark.astro';
+import Marquee from '../../components/Marquee.astro';
+
+// a site may carry its own design layer: sites/<slug>/site.css and site.js
+const siteCss = import.meta.glob('/sites/*/site.css', { eager: true, query: '?raw', import: 'default' });
+const siteJs = import.meta.glob('/sites/*/site.js', { eager: true, query: '?raw', import: 'default' });
 
 export function getStaticPaths() {
   const files = import.meta.glob('../../../sites/*/place.json', { eager: true });
@@ -22,18 +27,23 @@ export function getStaticPaths() {
 const { p } = Astro.props;
 const preview = !p.approved;
 const title = preview ? `تصور تجريبي — ${p.name}` : p.name;
-const SECTION = { story: Story, menu: Menu, proof: Proof, reviews: Reviews, amenities: Amenities, visit: Visit };
+const SECTION = { story: Story, menu: Menu, proof: Proof, reviews: Reviews, amenities: Amenities, visit: Visit, marquee: Marquee };
+const ownCss = siteCss[`/sites/${Astro.params.slug}/site.css`];
+const ownJs = siteJs[`/sites/${Astro.params.slug}/site.js`];
+// runs once the shared motion is ready; gets gsap, ScrollTrigger and whether the visitor prefers reduced motion
+const ownJsWrapped = ownJs && `(function run(){ if (!window.AMD_READY) return window.addEventListener('amd:ready', run, { once: true });
+  (function (gsap, ScrollTrigger, reduce) {\n${ownJs}\n})(window.gsap, window.ScrollTrigger, window.AMD_REDUCED_MOTION); })();`;
 const order = p.sections.filter((s) => SECTION[s]);
 const accentStyle = p.accent ? `--glow:${p.accent.hex};--glow-rgb:${p.accent.rgb};--glow-hover:${p.accent.hover || p.accent.hex};--glow-ink:${p.accent.ink || '#fff'}` : undefined;
 const imgs = Object.values(p.images);
 const photoNote = imgs.some((i) => i.file)
-  ? (imgs.some((i) => !i.file) ? 'بعض الصور من حساب المحل وبعضها توضيحية.' : 'الصور من حساب المحل.')
+  ? (imgs.some((i) => !i.file) ? 'بعض الصور حقيقية للمكان وبعضها توضيحية.' : 'الصور حقيقية للمكان من مصادر عامة.')
   : 'الصور توضيحية.';
 const themeColor = { rooftop_dark: '#0D0E11', cafe_light: '#F7F3EC', heritage_warm: '#F2E8D8', clinic_clean: '#F4F8F8',
   beauty_soft: '#FAF3F1', bakery_cream: '#FBF5EA', services_pro: '#F5F6F8', gulf_luxe: '#121010' }[p.theme];
 ---
 <!doctype html>
-<html lang="ar" dir="rtl" data-theme={p.theme} style={accentStyle}>
+<html lang="ar" dir="rtl" data-theme={p.theme} data-site={Astro.params.slug} data-hero={p.motion?.hero} style={accentStyle}>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -43,6 +53,7 @@ const themeColor = { rooftop_dark: '#0D0E11', cafe_light: '#F7F3EC', heritage_wa
   <meta name="description" content={p.hero.intro || p.hero.headline} />
   <link rel="preconnect" href="https://images.unsplash.com" />
   <script is:inline>document.documentElement.classList.add('js');</script>
+  {ownCss && <style is:inline set:html={ownCss} />}
 </head>
 <body>
   <a class="skip" href="#main">تخطَّ إلى المحتوى</a>
@@ -76,12 +87,14 @@ const themeColor = { rooftop_dark: '#0D0E11', cafe_light: '#F7F3EC', heritage_wa
   <MapDialog p={p} />
 
   <script>import '../../scripts/motion.js';</script>
+  {ownJsWrapped && <script is:inline set:html={ownJsWrapped} />}
 </body>
 </html>
 
 <style is:global>
   .skip { position: absolute; inset-inline-start: 16px; top: -60px; z-index: 100; background: var(--glow); color: var(--glow-ink); padding: .5rem 1rem; border-radius: 6px; }
   .skip:focus { top: 12px; }
+  .progress-line { position: fixed; inset-inline: 0; top: 0; height: 3px; z-index: 70; background: var(--glow); transform: scaleX(0); transform-origin: right; pointer-events: none; }
   .preview-bar { position: relative; z-index: 60; background: #000; color: #EEE8DE; font-size: .8rem; line-height: 1.5; text-align: center; padding: .5rem 16px; }
   .site-header { position: fixed; inset-inline: 0; top: 34px; z-index: 50; transition: background-color .4s, top .4s, border-color .4s; border-bottom: 1px solid transparent; }
   .site-header.is-solid { top: 0; background: rgba(var(--bg-rgb), .92); border-color: var(--line); backdrop-filter: blur(10px); }

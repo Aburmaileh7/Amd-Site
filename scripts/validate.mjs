@@ -12,12 +12,21 @@ for (const slug of slugs) {
   let p;
   try { p = JSON.parse(readFileSync(f, 'utf8')); } catch (e) { console.error(`✗ ${slug}: invalid JSON (${e.message})`); failed++; continue; }
   const { errors, warn } = checkPlace(p, slug);
-  // the business's own photos must exist next to place.json and stay small
+  // real photos of the place must exist next to place.json and stay small
   for (const [k, v] of Object.entries(p.images || {})) {
     if (!v?.file) continue;
     const img = `sites/${slug}/img/${v.file}`;
     if (!existsSync(img)) errors.push(`images.${k}: ${img} not found`);
     else if (statSync(img).size > 600 * 1024) errors.push(`images.${k}: ${img} is over 600 KB, resize it`);
+  }
+  // the site's own design layer: small, self-contained, no outside requests
+  for (const f of ['site.css', 'site.js']) {
+    const path = `sites/${slug}/${f}`;
+    if (!existsSync(path)) continue;
+    const src = readFileSync(path, 'utf8');
+    if (src.length > 24 * 1024) errors.push(`${f} is over 24 KB`);
+    if (/https?:\/\/|@import|\bfetch\s*\(|XMLHttpRequest|\bimport\s*\(|<\/script/i.test(src)) errors.push(`${f} must not load or call anything outside the site`);
+    if (f === 'site.js' && !/\breduce\b/.test(src)) errors.push('site.js must respect reduced motion (check `reduce`)');
   }
   warn.forEach((w) => console.warn(`! ${slug}: ${w}`));
   if (errors.length) { failed++; errors.forEach((e) => console.error(`✗ ${slug}: ${e}`)); }

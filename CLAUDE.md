@@ -11,7 +11,7 @@ For **each** place:
 1. Pick a slug: latin lowercase with dashes from the name (e.g. `cielo-cafe`). If `sites/<slug>` exists for a *different* place_id, append `-2`.
 2. Write `sites/<slug>/place.json` following `sites/san-rooftop/place.json` (rooftop), `sites/cielo-cafe/place.json` (cafe, full hero), `sites/the-couch-coffee-house/place.json` (cafe, split hero + story). Also store `"place_id"` and `"batch_id"` at the top level.
 3. `npm run validate -- <slug>` must pass. Then `npm run build` and `node scripts/qa.mjs <slug>`. Look at `qa-out/<slug>/*.png` yourself (mobile + desktop) and fix anything that looks broken, empty, cramped or clipped.
-4. Commit `sites/<slug>/place.json` and `sites/<slug>/img/` only (never commit dist/ or qa-out/).
+4. Commit `sites/<slug>/` (place.json, img/, site.css, site.js) only (never commit dist/ or qa-out/).
 
 When every place is done: `git pull --rebase` then push. Pushing to `main` deploys. If you can only push to a `claude/...` branch, push there; the workflow merges it into `main` and deploys.
 Finally write a one-line summary per place: slug, theme, URL `https://amd-demos.pages.dev/<slug>/`, and anything the owner should verify.
@@ -38,10 +38,18 @@ Make every site feel specific to *this* place: choose `sections` order, a `story
 - **Mentions** (`mentions`, `"mentioned": true` on menu items): only dishes/drinks named in reviews, one item per entry, ≤ 4 words.
 - **Menu**: real menu is unknown, so it is a *sample*: `"sample": true` + the standard note. Realistic local prices for the category in the place's country currency, from `lead.country` (Jordan د.أ · UAE د.إ · Saudi Arabia ر.س · Qatar ر.ق · Kuwait د.ك · Oman ر.ع · Bahrain د.ب; missing → Jordan). Clinics: services only, no prices, no medical promises.
 - **WhatsApp** only when `lead.whatsapp_confirmed` is `TRUE`.
-- **Images — the business's own photos first**: take 3–6 photos from the business's *own* social media or website (Instagram, Facebook, TikTok, their site): food/drinks, the place, their work. Never photos where people's faces are the subject, never customer photos, never Google Maps photos, never another business's photos. Download each, resize to ≤ 1600 px wide and ≤ 600 KB, save as `sites/<slug>/img/<name>.jpg` (lowercase, dashes), and reference it as `{ "file": "<name>.jpg", "alt": "صورة من حساب المحل على إنستغرام: …", "source_url": "<link of that post or page>" }`. These show the badge «من حساب المحل». If the business asks, remove their photos.
-- **Images — fallback**: when the business's own photos aren't reachable (private account, login wall, too few usable ones), use Unsplash: free (not Unsplash+), relevant to the place type; `alt` starts with `صورة توضيحية`. Find ids by fetching `https://unsplash.com/s/photos/<query>` and reading photo ids (`photo-…`). Mixing both kinds on one site is fine.
+- **Images — real photos of the place first**: the site must show the real place. Take 3–6 real photos of *this* business from anywhere public: its own Instagram/Facebook/TikTok/website, its Google Maps listing, delivery apps, directories, press articles. Food/drinks, the place, the work. Never photos where a person's face is the subject, never photos of a different place. Download each, resize to ≤ 1600 px wide and ≤ 600 KB, save as `sites/<slug>/img/<name>.jpg` (lowercase, dashes), and reference it as `{ "file": "<name>.jpg", "alt": "صورة …", "source_url": "<page where it was found>", "credit": "<short label, e.g. من حساب المحل / من خرائط Google>" }`. The label shows on the photo. If the business asks, remove their photos.
+- **Images — fallback only**: if fewer than 3 real photos exist anywhere, fill the gaps with Unsplash: free (not Unsplash+), relevant; `alt` starts with `صورة توضيحية`. Find ids by fetching `https://unsplash.com/s/photos/<query>` and reading photo ids (`photo-…`).
+- **Facts**: also real only, from any public source about this place (Google Maps, its pages, directories, articles). Set `"data_source"` to a short phrase naming where they came from.
 - Copy: natural Arabic (Gulf places: neutral Gulf-friendly Arabic, no Jordanian dialect, local area names), concrete details, no empty slogans ("تجربة لا تُنسى", "الأفضل"), headline 4–9 words, intro 15–30 words.
 - Keep `approved: false` (preview banner + noindex). Only the owner's approval changes it.
+
+## Be the expert designer — no fixed template
+You are a senior web designer pitching this business. The site must make the owner say "wow, this is *my* place". Before writing, decide a one-line concept from what is special about the place (e.g. "a bakery that smells of butter at 7am", "a quiet majlis with gold light"). Then:
+- Pick the theme, accent, hero layout and `sections` order from that concept — never copy another site's setup.
+- Use the motion system fully: `motion.hero: "kenburns"` for photo-led places, a `marquee` section (`{ "label", "items": [3–6 short real items: signature dishes, services, the area] }`), the horizontal story when there are 3+ strong items. Buttons are magnetic and photos tilt on desktop automatically; a reading-progress line runs on every site.
+- Add at least one **signature moment of your own** in `sites/<slug>/site.css` and/or `sites/<slug>/site.js`, scoped with `[data-site="<slug>"]`: e.g. a texture or gradient that matches the place, a headline that animates in its own way, a section that reveals differently, a colour shift while scrolling. `site.js` runs with `gsap`, `ScrollTrigger` and `reduce` (true when the visitor prefers reduced motion — then do nothing animated). Both files ≤ 24 KB, no outside URLs, no fetch/imports; `npm run validate` checks this.
+- Check QA screenshots like a picky client: hierarchy, spacing, contrast, Arabic typography, nothing clipped on mobile.
 
 ## Code changes
 Prefer data over code. Change components only when a site needs something the system can't express, keep it generic (works for all sites), re-run QA on all sites after.

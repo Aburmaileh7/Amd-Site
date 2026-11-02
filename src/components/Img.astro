@@ -1,13 +1,13 @@
 ---
 // A site photo with responsive sizes and the mandatory badge. Two kinds:
 // - illustrative Unsplash photo: { id, alt }
-// - the business's own photo from its social media: { file, alt, source_url }, stored in sites/<slug>/img/ and credited on the photo
+// - a real photo of the place from anywhere public: { file, alt, source_url, credit? }, stored in sites/<slug>/img/ and labelled on the photo
 const { img, sizes = '100vw', eager = false, cls = '', pos = '50% 50%' } = Astro.props;
 const own = import.meta.glob('/sites/*/img/*.{jpg,jpeg,png,webp}', { eager: true, query: '?url', import: 'default' });
 let src, srcset, badge;
 if (img.file) {
   src = own[`/sites/${Astro.params.slug}/img/${img.file}`];
-  badge = 'من حساب المحل';
+  badge = img.credit || 'صورة حقيقية للمكان';
 } else {
   const base = `https://images.unsplash.com/${img.id}?auto=format&fit=crop&q=75`;
   src = `${base}&w=1400`;

@@ -10,13 +10,14 @@ try { ({ chromium } = await import('playwright')); }
 catch { console.error('playwright not installed: npm i -D playwright (browsers are preinstalled in Claude sessions)'); process.exit(2); }
 
 const TYPES = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.css': 'text/css', '.woff2': 'font/woff2', '.woff': 'font/woff', '.svg': 'image/svg+xml' };
+const PORT = Number(process.env.QA_PORT) || 4399; // set QA_PORT when two QA runs share a machine
 const server = createServer((req, res) => {
   let path = join('dist', decodeURIComponent(req.url.split('?')[0]));
   if (existsSync(path) && statSync(path).isDirectory()) path = join(path, 'index.html');
   if (!existsSync(path)) { res.writeHead(404); return res.end(); }
   res.writeHead(200, { 'content-type': TYPES[extname(path)] || 'application/octet-stream' });
   res.end(readFileSync(path));
-}).listen(4399);
+}).listen(PORT);
 
 const slugs = process.argv.slice(2).length ? process.argv.slice(2)
   : readdirSync('sites', { withFileTypes: true }).filter((d) => d.isDirectory()).map((d) => d.name);
@@ -29,7 +30,7 @@ for (const slug of slugs) {
     const page = await browser.newPage({ viewport: { width: w, height: h } });
     const errors = [];
     page.on('pageerror', (e) => errors.push(e.message));
-    await page.goto(`http://localhost:4399/${slug}/`); await page.waitForTimeout(1800);
+    await page.goto(`http://localhost:${PORT}/${slug}/`); await page.waitForTimeout(1800);
     await page.screenshot({ path: `${out}/${vp}-0.png` });
     const total = await page.evaluate(() => document.documentElement.scrollHeight);
     for (let i = 1; i <= 6; i++) {
