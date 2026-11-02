@@ -1,0 +1,188 @@
+{
+  "place_id": "ChIJFUaPHujRwxUReiqw1-tbdXY",
+  "slug": "sweet-bread-bakery",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "bakery_cream",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#B07A12",
+    "rgb": "176, 122, 18",
+    "hover": "#946510",
+    "ink": "#FFFFFF"
+  },
+  "name": "Sweet Bread bakery",
+  "name_lang": "en",
+  "category_label": "مخبز",
+  "area": "حي الأندلس، جدة",
+  "address": "شارع الأمة الإسلامية، حي الأندلس، جدة",
+  "phone": {
+    "display": "+966 12 233 7073",
+    "tel": "+966122337073"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Sweet%20Bread%20bakery&query_place_id=ChIJFUaPHujRwxUReiqw1-tbdXY",
+  "map_query": "Sweet Bread bakery, Al Andalus, Jeddah",
+  "rating": {
+    "value": 4.3,
+    "count": 1118,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "كيك صغير وكب كيك التمر في الأندلس",
+    "intro": "مخبز في حي الأندلس بجدة، يذكر زواره الكيك الصغير وكب كيك التمر والكيك بالفواكه والمافن، بتقييم 4.3 من أكثر من ألف مراجعة.",
+    "image": "inside"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "story",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "كب كيك التمر",
+      "كيك الفواكه",
+      "مافن",
+      "ساندويتشات",
+      "حي الأندلس"
+    ]
+  },
+  "story": {
+    "eyebrow": "للعائلة كلها",
+    "title": "شيء لكل واحد",
+    "items": [
+      {
+        "label": "الفترينة",
+        "title": "قطع صغيرة بالحجم",
+        "text": "كيك بحجم القضمة وكب كيك التمر، مما يذكره الزوار كثيرًا.",
+        "image": "inside"
+      },
+      {
+        "label": "المالح",
+        "title": "ساندويتشات جاهزة",
+        "text": "ساندويتشات مغلّفة للطلب السريع.",
+        "image": "sandwich"
+      },
+      {
+        "label": "المحل",
+        "title": "في مجمّع حيّ",
+        "text": "واجهة على ممشى في حي الأندلس، تفتح من السابعة صباحًا.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "حلو ومالح",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.س",
+    "categories": [
+      {
+        "id": "cakes",
+        "title": "الكيك",
+        "tagline": "بالحجم الصغير",
+        "items": [
+          {
+            "name": "كب كيك التمر",
+            "desc": "",
+            "price": 9
+          },
+          {
+            "name": "كيك الفواكه (شريحة)",
+            "desc": "",
+            "price": 14
+          },
+          {
+            "name": "مافن التوت",
+            "desc": "",
+            "price": 11
+          },
+          {
+            "name": "علبة قطع صغيرة",
+            "desc": "",
+            "price": 45
+          }
+        ],
+        "image": "inside"
+      },
+      {
+        "id": "sand",
+        "title": "الساندويتشات",
+        "tagline": "جاهزة",
+        "items": [
+          {
+            "name": "ساندويتش ديك رومي",
+            "desc": "",
+            "price": 18
+          },
+          {
+            "name": "ساندويتش جبن وخضار",
+            "desc": "",
+            "price": 16
+          }
+        ],
+        "image": "sandwich"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "inside": {
+      "file": "inside.jpg",
+      "alt": "صورة رفوف وفترينة Sweet Bread من الداخل",
+      "source_url": "https://wanderlog.com/place/details/11555750/sweet-bread-bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "sandwich": {
+      "file": "sandwich.jpg",
+      "alt": "صورة ساندويتش من Sweet Bread",
+      "source_url": "https://wanderlog.com/place/details/11555750/sweet-bread-bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة Sweet Bread bakery",
+      "source_url": "https://wanderlog.com/place/details/11555750/sweet-bread-bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت",
+        "time": "7:30 ص – 11:30 م"
+      },
+      {
+        "days": "الأحد – الأربعاء",
+        "time": "7 ص – 11 م"
+      },
+      {
+        "days": "الخميس",
+        "time": "7 ص – 11:30 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "7:30 ص – 11:30 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

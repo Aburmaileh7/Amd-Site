@@ -1,0 +1,189 @@
+{
+  "place_id": "ChIJW-paWwCvST4RgnjZcPcpIpM",
+  "slug": "almarzooq-bakery",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "bakery_cream",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#B91C1C",
+    "rgb": "185, 28, 28",
+    "hover": "#991717",
+    "ink": "#FFFFFF"
+  },
+  "name": "Almarzooq Bakery",
+  "name_lang": "en",
+  "category_label": "مخبز ووجبات",
+  "area": "توبلي، البحرين",
+  "address": "شارع 23، توبلي، البحرين",
+  "phone": {
+    "display": "+973 1778 6040",
+    "tel": "+97317786040"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Almarzooq%20Bakery&query_place_id=ChIJW-paWwCvST4RgnjZcPcpIpM",
+  "map_query": "Almarzooq Bakery, Avenue 23, Tubli, Bahrain",
+  "rating": {
+    "value": 4.1,
+    "count": 1182,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "يفتح الساعة 5:30 فجرًا، والخبز ساخن",
+    "intro": "مخبز المرزوق في توبلي يفتح من الخامسة والنصف فجرًا حتى الحادية عشرة ليلًا، بخبز يومي وكيك للمناسبات ووجبات، وتقييم 4.1 من أكثر من ألف مراجعة.",
+    "image": "front"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "من 5:30 فجرًا",
+      "خبز يومي",
+      "كيك المناسبات",
+      "وجبات",
+      "توبلي"
+    ]
+  },
+  "story": {
+    "eyebrow": "يومك من المرزوق",
+    "title": "من الفجر إلى العشاء",
+    "items": [
+      {
+        "label": "الفجر",
+        "title": "الخبز من 5:30",
+        "text": "يفتح المخبز قبل شروق الشمس طوال الأسبوع.",
+        "image": "front"
+      },
+      {
+        "label": "المناسبات",
+        "title": "كيك يكتب عليه اسمك",
+        "text": "كيك أعياد الميلاد بالكتابة والزينة.",
+        "image": "cake"
+      },
+      {
+        "label": "الغداء",
+        "title": "وجبات جاهزة",
+        "text": "وجبات مشاوي مع البطاطس والتبولة.",
+        "image": "meal"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "خبز وكيك ووجبات",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.ب",
+    "categories": [
+      {
+        "id": "bread",
+        "title": "المخبوزات",
+        "tagline": "من الفجر",
+        "items": [
+          {
+            "name": "خبز عربي (ربطة)",
+            "desc": "",
+            "price": 0.3
+          },
+          {
+            "name": "صمون",
+            "desc": "",
+            "price": 0.2
+          },
+          {
+            "name": "فطيرة جبن",
+            "desc": "",
+            "price": 0.3
+          }
+        ],
+        "image": "front"
+      },
+      {
+        "id": "cake",
+        "title": "الكيك",
+        "tagline": "بالطلب",
+        "items": [
+          {
+            "name": "كيك عيد ميلاد (صغير)",
+            "desc": "",
+            "price": 7.0
+          },
+          {
+            "name": "كيك بالكتابة (وسط)",
+            "desc": "",
+            "price": 10.0
+          }
+        ],
+        "image": "cake"
+      },
+      {
+        "id": "meals",
+        "title": "الوجبات",
+        "tagline": "غداء وعشاء",
+        "items": [
+          {
+            "name": "وجبة مشاوي لحم",
+            "desc": "",
+            "price": 3.2
+          },
+          {
+            "name": "وجبة شيش طاووق",
+            "desc": "",
+            "price": 2.8
+          }
+        ],
+        "image": "meal"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "meal"
+  },
+  "images": {
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة مبنى مخبز المرزوق في توبلي",
+      "source_url": "https://wanderlog.com/place/details/14909602/almarzooq-bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "meal": {
+      "file": "meal.jpg",
+      "alt": "صورة وجبة مشاوي وتبولة من مخبز المرزوق",
+      "source_url": "https://wanderlog.com/place/details/14909602/almarzooq-bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "cake": {
+      "file": "cake.jpg",
+      "alt": "صورة كيكة عيد ميلاد من مخبز المرزوق",
+      "source_url": "https://wanderlog.com/place/details/14909602/almarzooq-bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "5:30 ص – 11 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

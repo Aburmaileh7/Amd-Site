@@ -1,0 +1,184 @@
+{
+  "place_id": "ChIJsVCJApGzij4RgopVg6Vzk-k",
+  "slug": "nawa-cafe",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#3F7D4E",
+    "rgb": "63, 125, 78",
+    "hover": "#326540",
+    "ink": "#FFFFFF"
+  },
+  "name": "NAWA Cafe",
+  "name_lang": "en",
+  "category_label": "كافيه وفطور",
+  "area": "الطوية، العين",
+  "address": "شارع البنفسج، مبنى 15، استاد هزاع بن زايد، الطوية، العين",
+  "phone": {
+    "display": "+971 50 658 4176",
+    "tel": "+971506584176"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=NAWA%20Cafe&query_place_id=ChIJsVCJApGzij4RgopVg6Vzk-k",
+  "map_query": "NAWA Cafe, Hazza Bin Zayed Stadium, Al Ain",
+  "rating": {
+    "value": 4.6,
+    "count": 545,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "فطور بين النباتات في مدينة الحدائق",
+    "intro": "كافيه عند استاد هزاع بن زايد في العين، بنباتات معلّقة وصوت نافورة، يذكر زواره الفرنش توست بالنوتيلا وسفرة الفطور، ويفتح من السادسة والنصف صباحًا.",
+    "image": "spread"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "فرنش توست بالنوتيلا",
+      "سفرة فطور",
+      "لاتيه",
+      "من 6:30 صباحًا",
+      "استاد هزاع"
+    ]
+  },
+  "story": {
+    "eyebrow": "من مراجعات الزوار",
+    "title": "صباح في NAWA",
+    "items": [
+      {
+        "label": "السفرة",
+        "title": "فطور عربي للمجموعة",
+        "text": "صحون صغيرة متعددة على صينية واحدة.",
+        "image": "spread"
+      },
+      {
+        "label": "الفنجان",
+        "title": "لاتيه على الرخام",
+        "text": "قهوة تُقدّم بفناجين ملوّنة.",
+        "image": "latte"
+      },
+      {
+        "label": "المكان",
+        "title": "نباتات ونافورة",
+        "text": "سقف من النباتات المعلّقة وصوت الماء، كما يصف الزوار.",
+        "image": "inside"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "فطور وقهوة",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.إ",
+    "categories": [
+      {
+        "id": "bf",
+        "title": "الفطور",
+        "tagline": "من 6:30 صباحًا",
+        "items": [
+          {
+            "name": "فرنش توست بالنوتيلا",
+            "desc": "",
+            "price": 39
+          },
+          {
+            "name": "سفرة فطور عربي (لشخصين)",
+            "desc": "",
+            "price": 85
+          },
+          {
+            "name": "شكشوكة",
+            "desc": "",
+            "price": 34
+          }
+        ],
+        "image": "spread"
+      },
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "ساخنة",
+        "items": [
+          {
+            "name": "لاتيه",
+            "desc": "",
+            "price": 19
+          },
+          {
+            "name": "سبانيش لاتيه",
+            "desc": "",
+            "price": 22
+          },
+          {
+            "name": "قهوة عربية",
+            "desc": "",
+            "price": 15
+          }
+        ],
+        "image": "latte"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "inside"
+  },
+  "images": {
+    "spread": {
+      "file": "spread.jpg",
+      "alt": "صورة سفرة فطور عربي من NAWA",
+      "source_url": "https://wanderlog.com/place/details/7509155/nawa-cafe",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "latte": {
+      "file": "latte.jpg",
+      "alt": "صورة لاتيه على رخام في NAWA",
+      "source_url": "https://wanderlog.com/place/details/7509155/nawa-cafe",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "inside": {
+      "file": "inside.jpg",
+      "alt": "صورة صالة NAWA بالنباتات المعلّقة",
+      "source_url": "https://wanderlog.com/place/details/7509155/nawa-cafe",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت",
+        "time": "7 ص – 1 ص"
+      },
+      {
+        "days": "الأحد – الخميس",
+        "time": "6:30 ص – 12 ص"
+      },
+      {
+        "days": "الجمعة",
+        "time": "7 ص – 1 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

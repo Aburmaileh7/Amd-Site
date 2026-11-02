@@ -1,0 +1,171 @@
+{
+  "place_id": "ChIJP0yDk6XbwxURZRuAm6Op55g",
+  "slug": "emmer-bakery",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "bakery_cream",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#9C5B2E",
+    "rgb": "156, 91, 46",
+    "hover": "#82491F",
+    "ink": "#FFFFFF"
+  },
+  "name": "Emmer bakery",
+  "name_lang": "en",
+  "category_label": "مخبز وكافيه",
+  "area": "حي النعيم، جدة",
+  "address": "الأمل، حي النعيم، جدة",
+  "phone": {
+    "display": "+966 56 916 8283",
+    "tel": "+966569168283"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Emmer%20bakery&query_place_id=ChIJP0yDk6XbwxURZRuAm6Op55g",
+  "map_query": "Emmer bakery, Al Naeem, Jeddah",
+  "rating": {
+    "value": 4.5,
+    "count": 723,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "معجنات الصباح من فرن حي النعيم",
+    "intro": "مخبز في حي النعيم بجدة، يذكر زواره البريوش بالشوكولاتة وكرواسون البيكان والزعتر، بتقييم 4.5 من أكثر من 700 مراجعة على Google.",
+    "image": "front"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "بريوش الشوكولاتة",
+      "كرواسون البيكان",
+      "كرواسون الزعتر",
+      "بريتزل",
+      "حي النعيم"
+    ]
+  },
+  "story": {
+    "eyebrow": "من مراجعات الزوار",
+    "title": "ما يطلبه زوار Emmer",
+    "items": [
+      {
+        "label": "الفرن",
+        "title": "معجنات حلوة ومالحة",
+        "text": "البريوش بالشوكولاتة وكرواسون البيكان من أكثر ما يذكره الزوار.",
+        "image": "pastry"
+      },
+      {
+        "label": "الرفوف",
+        "title": "خبز يُعرض على الرفوف",
+        "text": "رفوف خشبية مفتوحة تعرض خبز اليوم داخل المحل.",
+        "image": "shelves"
+      },
+      {
+        "label": "الواجهة",
+        "title": "جلسة دافئة في النعيم",
+        "text": "واجهة مضيئة وجلسات داخلية لمن يحب الفطور على مهل.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "من الفرن",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.س",
+    "categories": [
+      {
+        "id": "pastry",
+        "title": "المعجنات",
+        "tagline": "طازجة صباحًا",
+        "items": [
+          {
+            "name": "بريوش الشوكولاتة",
+            "desc": "",
+            "price": 16
+          },
+          {
+            "name": "كرواسون البيكان",
+            "desc": "",
+            "price": 18
+          },
+          {
+            "name": "كرواسون الزعتر",
+            "desc": "",
+            "price": 14
+          },
+          {
+            "name": "بريتزل",
+            "desc": "",
+            "price": 12
+          }
+        ],
+        "image": "pastry"
+      },
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "ساخنة وباردة",
+        "items": [
+          {
+            "name": "قهوة مقطّرة V60",
+            "desc": "",
+            "price": 19
+          },
+          {
+            "name": "فلات وايت",
+            "desc": "",
+            "price": 18
+          },
+          {
+            "name": "سبانيش لاتيه",
+            "desc": "",
+            "price": 20
+          }
+        ],
+        "image": "front"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "shelves"
+  },
+  "images": {
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة Emmer Bakery مساءً",
+      "source_url": "https://wanderlog.com/place/details/9573472/emmer-bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "pastry": {
+      "file": "pastry.jpg",
+      "alt": "صورة معجّنة مزيّنة بالجرجير من Emmer",
+      "source_url": "https://wanderlog.com/place/details/9573472/emmer-bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "shelves": {
+      "file": "shelves.jpg",
+      "alt": "صورة رفوف الخبز داخل Emmer Bakery",
+      "source_url": "https://wanderlog.com/place/details/9573472/emmer-bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  }
+}

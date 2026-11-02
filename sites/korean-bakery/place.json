@@ -1,0 +1,176 @@
+{
+  "place_id": "ChIJAfbrOA2mST4RinWfXgFEzuY",
+  "slug": "korean-bakery",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "bakery_cream",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#A07722",
+    "rgb": "160, 119, 34",
+    "hover": "#86631B",
+    "ink": "#FFFFFF"
+  },
+  "name": "المخبز الكوري",
+  "name_lang": "ar",
+  "category_label": "مخبز وكيك",
+  "area": "البسيتين، البحرين",
+  "address": "البسيتين، البحرين",
+  "phone": {
+    "display": "+973 1766 6808",
+    "tel": "+97317666808"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Korean%20Bakery&query_place_id=ChIJAfbrOA2mST4RinWfXgFEzuY",
+  "map_query": "Korean Bakery, Busaiteen, Bahrain",
+  "rating": {
+    "value": 4.1,
+    "count": 364,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "كيك الكراميل وخبز الجاودار في البسيتين",
+    "intro": "مخبز في البسيتين يذكر زواره كيك الكراميل وخبز البطاطس والجاودار، وكيكًا بدون سكر لمن يتبع حمية، ويفتح يوميًا من السادسة صباحًا.",
+    "image": "cake"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "story",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "كيك الكراميل",
+      "خبز البطاطس",
+      "خبز الجاودار",
+      "كيك بدون سكر",
+      "من 6 صباحًا"
+    ]
+  },
+  "story": {
+    "eyebrow": "يذكره الزوار",
+    "title": "أكثر من مجرد خبز",
+    "items": [
+      {
+        "label": "الكيك",
+        "title": "كيك عيد ميلاد بالكراميل",
+        "text": "من أكثر ما يمدحه الزوار في المراجعات.",
+        "image": "cake"
+      },
+      {
+        "label": "الفترينة",
+        "title": "قطع جاهزة للطلب",
+        "text": "حلويات مغلّفة بالقطعة.",
+        "image": "case"
+      },
+      {
+        "label": "الصحة",
+        "title": "كيك بدون سكر",
+        "text": "خيار يذكره زوار يتبعون حمية خاصة.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "خبز وكيك",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.ب",
+    "categories": [
+      {
+        "id": "bread",
+        "title": "الخبز",
+        "tagline": "يوميًا",
+        "items": [
+          {
+            "name": "خبز البطاطس",
+            "desc": "",
+            "price": 0.5
+          },
+          {
+            "name": "خبز الجاودار",
+            "desc": "",
+            "price": 0.9
+          },
+          {
+            "name": "خبز الحبوب الكاملة",
+            "desc": "",
+            "price": 0.8
+          }
+        ],
+        "image": "cake"
+      },
+      {
+        "id": "cake",
+        "title": "الكيك",
+        "tagline": "للمناسبات",
+        "items": [
+          {
+            "name": "كيك الكراميل (كامل)",
+            "desc": "",
+            "price": 9.0
+          },
+          {
+            "name": "كيك بدون سكر (كامل)",
+            "desc": "",
+            "price": 10.0
+          },
+          {
+            "name": "قطعة حلى",
+            "desc": "",
+            "price": 1.2
+          }
+        ],
+        "image": "cake"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "cake": {
+      "file": "cake.jpg",
+      "alt": "صورة كيكة شوكولاتة بشعار المخبز الكوري",
+      "source_url": "https://wanderlog.com/place/details/14909599/korean-bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة المخبز الكوري في البسيتين",
+      "source_url": "https://wanderlog.com/place/details/14909599/korean-bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "case": {
+      "file": "case.jpg",
+      "alt": "صورة فترينة الحلويات في المخبز الكوري",
+      "source_url": "https://wanderlog.com/place/details/14909599/korean-bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "6 ص – 11 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

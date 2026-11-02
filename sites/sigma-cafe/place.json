@@ -1,0 +1,176 @@
+{
+  "place_id": "ChIJmaJbyZSzij4REn1AbpTseYM",
+  "slug": "sigma-cafe",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#7A1F2B",
+    "rgb": "122, 31, 43",
+    "hover": "#621822",
+    "ink": "#FFFFFF"
+  },
+  "name": "Sigma cafe",
+  "name_lang": "en",
+  "category_label": "كافيه وفطور طوال اليوم",
+  "area": "الطوية، العين",
+  "address": "الطوية، جفير عبيد، العين",
+  "phone": {
+    "display": "+971 54 529 2219",
+    "tel": "+971545292219"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Sigma%20cafe&query_place_id=ChIJmaJbyZSzij4REn1AbpTseYM",
+  "map_query": "Sigma cafe, Al Tiwayya, Al Ain",
+  "rating": {
+    "value": 4.5,
+    "count": 317,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "فطور طوال اليوم في الطوية",
+    "intro": "كافيه في الطوية بالعين يقدّم الفطور والبرانش والسموذي والقهوة طوال اليوم، ويفتح يوميًا من الثامنة صباحًا حتى منتصف الليل، بتقييم 4.5.",
+    "image": "front"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "فطور طوال اليوم",
+      "برانش",
+      "سموذي",
+      "قهوة",
+      "الطوية"
+    ]
+  },
+  "story": {
+    "eyebrow": "من الصباح إلى منتصف الليل",
+    "title": "يوم في Sigma",
+    "items": [
+      {
+        "label": "8 صباحًا",
+        "title": "فطور متى ما شئت",
+        "text": "الفطور متاح طوال ساعات العمل.",
+        "image": "latte"
+      },
+      {
+        "label": "الظهر",
+        "title": "جلسة خارجية بالنباتات",
+        "text": "ممر بالأشجار وطاولات أمام المحل.",
+        "image": "front"
+      },
+      {
+        "label": "المساء",
+        "title": "قهوة للطريق",
+        "text": "أكواب Sigma للطلب السريع حتى منتصف الليل.",
+        "image": "cup"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "طوال اليوم",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.إ",
+    "categories": [
+      {
+        "id": "bf",
+        "title": "الفطور",
+        "tagline": "كل الأوقات",
+        "items": [
+          {
+            "name": "شكشوكة",
+            "desc": "",
+            "price": 38
+          },
+          {
+            "name": "بيض بنديكت",
+            "desc": "",
+            "price": 45
+          },
+          {
+            "name": "بانكيك",
+            "desc": "",
+            "price": 36
+          }
+        ],
+        "image": "latte"
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "ساخن وبارد",
+        "items": [
+          {
+            "name": "لاتيه",
+            "desc": "",
+            "price": 20
+          },
+          {
+            "name": "سموذي فواكه",
+            "desc": "",
+            "price": 26
+          },
+          {
+            "name": "كورتادو",
+            "desc": "",
+            "price": 18
+          }
+        ],
+        "image": "cup"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة Sigma cafe وجلستها الخارجية",
+      "source_url": "https://wanderlog.com/place/details/1323394/sigma-cafe",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "cup": {
+      "file": "cup.jpg",
+      "alt": "صورة كوب قهوة بشعار Sigma",
+      "source_url": "https://wanderlog.com/place/details/1323394/sigma-cafe",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "latte": {
+      "file": "latte.jpg",
+      "alt": "صورة لاتيه وحلى في Sigma",
+      "source_url": "https://wanderlog.com/place/details/1323394/sigma-cafe",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "8 ص – 12 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "place_id": "ChIJ986rlCLFRT4RSpBMl3vlTC8",
+  "slug": "flamingo-coffee-bar",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#D9546F",
+    "rgb": "217, 84, 111",
+    "hover": "#BC425B",
+    "ink": "#FFFFFF"
+  },
+  "name": "Flamingo Coffee Bar & Bakery",
+  "name_lang": "en",
+  "category_label": "كافيه ومخبز",
+  "area": "شارع أبا الحنبر، الدوحة",
+  "address": "شارع أبا الحنبر، الدوحة",
+  "phone": {
+    "display": "+974 5030 0074",
+    "tel": "+97450300074"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Flamingo%20Coffee%20Bar%20%26%20Bakery&query_place_id=ChIJ986rlCLFRT4RSpBMl3vlTC8",
+  "map_query": "Flamingo Coffee Bar & Bakery, Aba Alhambar Street, Doha",
+  "rating": {
+    "value": 4.2,
+    "count": 41,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "كيك أقل سكرًا، وقهوة بسعر معقول",
+    "intro": "كافيه ومخبز في شارع أبا الحنبر بالدوحة، يقول زواره إن الكيك فيه أقل حلاوة من غيره، ويذكرون كيك الجزر والبراونيز مع الشوكولاتة.",
+    "image": "mango"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "story",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "كيك الجزر",
+      "براونيز",
+      "كيك المانجو",
+      "قهوة",
+      "أبا الحنبر"
+    ]
+  },
+  "story": {
+    "eyebrow": "يقول الزوار",
+    "title": "لماذا Flamingo",
+    "items": [
+      {
+        "label": "الكيك",
+        "title": "حلو بدون مبالغة",
+        "text": "كيك الجزر \"مضبوط\"، والبراونيز مع غمسة شوكولاتة.",
+        "image": "case"
+      },
+      {
+        "label": "المانجو",
+        "title": "قطع مغلّفة بالقطعة",
+        "text": "كل قطعة تُغلّف وحدها، للجلسة أو للتوصيل.",
+        "image": "mango"
+      },
+      {
+        "label": "الجلسة",
+        "title": "صالة وردية هادئة",
+        "text": "إضاءة معلّقة وطاولات بيضاء.",
+        "image": "inside"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "حلى وقهوة",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.ق",
+    "categories": [
+      {
+        "id": "cake",
+        "title": "الكيك",
+        "tagline": "بالقطعة",
+        "items": [
+          {
+            "name": "كيك الجزر",
+            "desc": "",
+            "price": 20
+          },
+          {
+            "name": "براونيز مع صوص الشوكولاتة",
+            "desc": "",
+            "price": 18
+          },
+          {
+            "name": "كيك المانجو",
+            "desc": "",
+            "price": 22
+          }
+        ],
+        "image": "mango"
+      },
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "",
+        "items": [
+          {
+            "name": "لاتيه",
+            "desc": "",
+            "price": 18
+          },
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 17
+          },
+          {
+            "name": "آيس لاتيه",
+            "desc": "",
+            "price": 20
+          }
+        ],
+        "image": "mango"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "inside"
+  },
+  "images": {
+    "mango": {
+      "file": "mango.jpg",
+      "alt": "صورة قطعة كيك المانجو من Flamingo",
+      "source_url": "https://wanderlog.com/place/details/1661101/flamingo-coffee-bar--bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "case": {
+      "file": "case.jpg",
+      "alt": "صورة فترينة الحلويات في Flamingo",
+      "source_url": "https://wanderlog.com/place/details/1661101/flamingo-coffee-bar--bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "inside": {
+      "file": "inside.jpg",
+      "alt": "صورة صالة Flamingo الوردية",
+      "source_url": "https://wanderlog.com/place/details/1661101/flamingo-coffee-bar--bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  }
+}

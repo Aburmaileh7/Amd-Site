@@ -1,0 +1,155 @@
+{
+  "place_id": "ChIJVTGp4eqEzz8RTk5cbyel4Ro",
+  "slug": "pause-coffee-roasters",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "gulf_luxe",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#C27C46",
+    "rgb": "194, 124, 70",
+    "hover": "#A8693A",
+    "ink": "#1A1206"
+  },
+  "name": "Pause Coffee Roasters",
+  "name_lang": "en",
+  "category_label": "محمصة ومقهى",
+  "area": "شارع مبارك الكبير، مدينة الكويت",
+  "address": "برج مريم، شارع مبارك الكبير، مدينة الكويت",
+  "phone": {
+    "display": "+965 9944 6417",
+    "tel": "+96599446417"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Pause%20Coffee%20Roasters&query_place_id=ChIJVTGp4eqEzz8RTk5cbyel4Ro",
+  "map_query": "Pause Coffee Roasters, Mariam Tower, Mubarak Al Kabeer St, Kuwait City",
+  "rating": {
+    "value": 4.4,
+    "count": 258,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "إسبريسو وV60 من محمصة في برج مريم",
+    "intro": "محمصة ومقهى في برج مريم بشارع مبارك الكبير، يذكر زوارها الإسبريسو والبن الإثيوبي على V60 والكولد برو الكولومبي، بتقييم 4.4 على Google.",
+    "image": "bar"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "إسبريسو",
+      "إثيوبي V60",
+      "كولد برو كولومبي",
+      "تحميص محلي",
+      "برج مريم"
+    ]
+  },
+  "story": {
+    "eyebrow": "توقّف قليلًا",
+    "title": "ثلاث طرق للقهوة في Pause",
+    "items": [
+      {
+        "label": "البار",
+        "title": "إسبريسو يمدحه الزوار",
+        "text": "من أكثر ما يُذكر في المراجعات، مع معرفة الفريق بالبن.",
+        "image": "bar"
+      },
+      {
+        "label": "اللوح",
+        "title": "قائمة على الحائط",
+        "text": "لوحة سوداء تعرض المشروبات الساخنة والمثلجة.",
+        "image": "board"
+      },
+      {
+        "label": "المثلج",
+        "title": "كولد برو كولومبي",
+        "text": "يذكره الزوار بالاسم مع البن الإثيوبي على V60.",
+        "image": "bar"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "من المحمصة",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.ك",
+    "categories": [
+      {
+        "id": "hot",
+        "title": "ساخن",
+        "tagline": "من البار",
+        "items": [
+          {
+            "name": "إسبريسو",
+            "desc": "",
+            "price": 1.25
+          },
+          {
+            "name": "إثيوبي V60",
+            "desc": "",
+            "price": 2.25
+          },
+          {
+            "name": "فلات وايت",
+            "desc": "",
+            "price": 1.75
+          }
+        ],
+        "image": "bar"
+      },
+      {
+        "id": "cold",
+        "title": "بارد",
+        "tagline": "مثلج",
+        "items": [
+          {
+            "name": "كولد برو كولومبي",
+            "desc": "",
+            "price": 2.25
+          },
+          {
+            "name": "آيس لونغ بلاك",
+            "desc": "",
+            "price": 1.75
+          }
+        ],
+        "image": "board"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "board"
+  },
+  "images": {
+    "bar": {
+      "file": "bar.jpg",
+      "alt": "صورة بار القهوة الداكن في Pause",
+      "source_url": "https://wanderlog.com/place/details/9416954/pause-coffee-roasters",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "board": {
+      "file": "board.jpg",
+      "alt": "صورة صالة Pause ولوحة المشروبات",
+      "source_url": "https://wanderlog.com/place/details/9416954/pause-coffee-roasters",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  }
+}

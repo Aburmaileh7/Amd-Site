@@ -1,0 +1,160 @@
+{
+  "place_id": "ChIJhdVQb-WEzz8Rx53Bp3Ejytk",
+  "slug": "lets-coffee",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#B5651D",
+    "rgb": "181, 101, 29",
+    "hover": "#975418",
+    "ink": "#FFFFFF"
+  },
+  "name": "Let's Coffee",
+  "name_lang": "en",
+  "category_label": "محمصة وكافيه",
+  "area": "القبلة، مدينة الكويت",
+  "address": "شارع علي السالم، القبلة، مدينة الكويت",
+  "phone": {
+    "display": "+965 9221 6402",
+    "tel": "+96592216402"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Let%27s%20Coffee&query_place_id=ChIJhdVQb-WEzz8Rx53Bp3Ejytk",
+  "map_query": "Let's Coffee, Ali Al-Salem Street, Qibla, Kuwait City",
+  "rating": {
+    "value": 4.4,
+    "count": 260,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "كراميل مملّح من صنع المحمصة",
+    "intro": "محمصة وكافيه في شارع علي السالم بالقبلة، بخلطات وبن من منشأ واحد، ومجموعة توقيع منها مشروب الكراميل المملّح المصنوع في المحل.",
+    "image": "caramel"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "story",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "كراميل مملّح",
+      "بن منشأ واحد",
+      "خلطات المحمصة",
+      "شارع علي السالم"
+    ]
+  },
+  "story": {
+    "eyebrow": "من المحمصة",
+    "title": "قهوة Let's",
+    "items": [
+      {
+        "label": "التوقيع",
+        "title": "كراميل مملّح من صنعهم",
+        "text": "من مجموعة التوقيع التي يعرضها المحل.",
+        "image": "caramel"
+      },
+      {
+        "label": "الفنجان",
+        "title": "بن بمنشأ واحد",
+        "text": "خيارات من الخلطات والبن أحادي المنشأ.",
+        "image": "cup"
+      },
+      {
+        "label": "الواجهة",
+        "title": "في القبلة",
+        "text": "واجهة بنقوش بيضاء وجلسة خارجية على شارع علي السالم.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "مجموعة التوقيع",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.ك",
+    "categories": [
+      {
+        "id": "sig",
+        "title": "التوقيع",
+        "tagline": "من صنع المحل",
+        "items": [
+          {
+            "name": "آيس كراميل مملّح",
+            "desc": "",
+            "price": 1.75
+          },
+          {
+            "name": "سبانيش لاتيه",
+            "desc": "",
+            "price": 1.75
+          }
+        ],
+        "image": "caramel"
+      },
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "ساخنة",
+        "items": [
+          {
+            "name": "كورتادو",
+            "desc": "",
+            "price": 1.25
+          },
+          {
+            "name": "قهوة منشأ واحد V60",
+            "desc": "",
+            "price": 2.0
+          },
+          {
+            "name": "إسبريسو",
+            "desc": "",
+            "price": 1.0
+          }
+        ],
+        "image": "cup"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "caramel": {
+      "file": "caramel.jpg",
+      "alt": "صورة مشروب الكراميل المملّح من Let's Coffee",
+      "source_url": "https://wanderlog.com/place/details/1514564/lets-coffee",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة Let's Coffee في القبلة",
+      "source_url": "https://wanderlog.com/place/details/1514564/lets-coffee",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "cup": {
+      "file": "cup.jpg",
+      "alt": "صورة فنجان قهوة على البار في Let's Coffee",
+      "source_url": "https://wanderlog.com/place/details/1514564/lets-coffee",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  }
+}
