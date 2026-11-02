@@ -1,0 +1,10 @@
+---
+// Amd web monogram, drawn in the current text colour so it fits every theme.
+import raw from '../assets/brand/amad-monogram-ink.svg?raw';
+const { size = 22, cls = '' } = Astro.props;
+const svg = raw
+  .replace(/<title>.*?<\/title>/, '')
+  .replace(/fill="#[0-9A-Fa-f]{6}"/, 'fill="currentColor"')
+  .replace('<svg ', `<svg aria-hidden="true" focusable="false" height="${size}" width="${Math.round(size * 0.795)}" `);
+---
+<span class={`brandmark ${cls}`} set:html={svg} />

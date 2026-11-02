@@ -1,6 +1,6 @@
 # amd-site
 
-مصنع المواقع التجريبية لـ Amad Web. كل محل في `sites/<slug>/place.json`، ويُنشر على `https://amd-demos.pages.dev/<slug>/`.
+مصنع المواقع التجريبية لـ Amd web. كل محل في `sites/<slug>/place.json`، ويُنشر على `https://amd-demos.pages.dev/<slug>/`.
 
 ```bash
 npm ci

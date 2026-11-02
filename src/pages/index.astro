@@ -1,17 +1,19 @@
 ---
 // Root of the demo host: no list of demos (each owner only gets their own link).
+import wordmark from '../assets/brand/amad-wordmark-gold-light.svg?raw';
 ---
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex, nofollow" />
-  <title>Amad Web</title>
+  <title>Amd web</title>
   <style>
-    body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: #0D0E11; color: #EEE8DE; font-family: system-ui, sans-serif; text-align: center; }
-    h1 { font-weight: 300; font-size: clamp(2rem, 6vw, 3.5rem); margin: 0 0 .5rem; }
+    body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: #0D0E11; color: #EEE8DE; font-family: system-ui, sans-serif; text-align: center; padding: 16px; }
+    .mark svg { width: min(220px, 55vw); height: auto; display: block; margin: 0 auto 1.5rem; }
+    h1 { font-weight: 300; font-size: clamp(1.6rem, 5vw, 2.6rem); margin: 0 0 .5rem; letter-spacing: .04em; }
     p { color: #A29C92; }
   </style>
 </head>
-<body><main><h1>Amad Web</h1><p>مواقع تجريبية للمحلات. اطلب رابط موقعك من فريقنا.</p></main></body>
+<body><main><div class="mark" set:html={wordmark} /><h1 lang="en">Amd web</h1><p>مواقع تجريبية للمحلات. اطلب رابط موقعك من فريقنا.</p></main></body>
 </html>

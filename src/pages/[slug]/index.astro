@@ -9,6 +9,7 @@ import Reviews from '../../components/Reviews.astro';
 import Amenities from '../../components/Amenities.astro';
 import Visit from '../../components/Visit.astro';
 import MapDialog from '../../components/MapDialog.astro';
+import BrandMark from '../../components/BrandMark.astro';
 
 export function getStaticPaths() {
   const files = import.meta.glob('../../../sites/*/place.json', { eager: true });
@@ -45,7 +46,7 @@ const themeColor = { rooftop_dark: '#0D0E11', cafe_light: '#F7F3EC', heritage_wa
 </head>
 <body>
   <a class="skip" href="#main">تخطَّ إلى المحتوى</a>
-  {preview && <div class="preview-bar" role="note">{p.banner} {photoNote}</div>}
+  {preview && <div class="preview-bar" role="note"><BrandMark size={16} /> {p.banner} {photoNote}</div>}
 
   <header class="site-header" data-header>
     <div class="wrap site-header__in">
@@ -66,9 +67,10 @@ const themeColor = { rooftop_dark: '#0D0E11', cafe_light: '#F7F3EC', heritage_wa
   <footer class="site-footer">
     <div class="wrap site-footer__in">
       {preview
-        ? <p>موقع تجريبي من تصميم {p.agency}، ولا يمثل الموقع الرسمي لـ <span lang={p.name_lang || 'ar'}>{p.name}</span>. البيانات من Google Maps{p.menu?.sample ? '، والمنيو نموذجي' : ''}.</p>
+        ? <p>موقع تجريبي من تصميم {p.agency}، ولا يمثل الموقع الرسمي لـ <span lang={p.name_lang || 'ar'}>{p.name}</span>. البيانات من {p.data_source || 'Google Maps'}{p.menu?.sample ? '، والمنيو نموذجي' : ''}.</p>
         : <p>© {new Date().getFullYear()} {p.name}</p>}
-      <p class="muted">صور توضيحية من <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a>.</p>
+      {imgs.some((i) => !i.file) && <p class="muted">صور توضيحية من <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a>.</p>}
+      <p class="site-credit"><BrandMark size={28} /> <span lang="en">Amd web</span></p>
     </div>
   </footer>
   <MapDialog p={p} />
@@ -94,4 +96,7 @@ const themeColor = { rooftop_dark: '#0D0E11', cafe_light: '#F7F3EC', heritage_wa
   @media (max-width: 420px) { .nav-menu { display: none; } }
   .site-footer { border-top: 1px solid var(--line); padding-block: 32px; font-size: .85rem; color: var(--muted); }
   .site-footer__in { display: flex; flex-wrap: wrap; gap: 8px 32px; justify-content: space-between; }
+  .brandmark { display: inline-flex; vertical-align: middle; }
+  .preview-bar .brandmark { color: #C9A96A; margin-inline-end: 4px; }
+  .site-credit { display: inline-flex; align-items: center; gap: 8px; color: var(--glow); font-family: var(--font-ui); letter-spacing: .02em; }
 </style>

@@ -74,9 +74,9 @@ export function checkPlace(p, slug) {
 export function normalize(p) {
   const t = THEMES[p.theme] || THEMES.cafe_light;
   return {
-    agency: 'Amad Web',
+    agency: 'Amd web',
     approved: false,
-    banner: `هذا موقع تجريبي من تصميم ${p.agency || 'Amad Web'} — غير معتمد من إدارة المحل.`,
+    banner: `هذا موقع تجريبي من تصميم ${p.agency || 'Amd web'} — غير معتمد من إدارة المحل.`,
     sections: ['story', 'menu', 'proof', 'reviews', 'amenities', 'visit'],
     images: {},
     ...p,

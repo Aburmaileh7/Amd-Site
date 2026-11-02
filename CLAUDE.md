@@ -1,4 +1,4 @@
-# Amad Web — demo sites factory
+# Amd web — demo sites factory
 
 Astro + GSAP. One folder per business: `sites/<slug>/place.json` → built to `/<slug>/`.
 Deployed by GitHub Actions to Cloudflare Pages project `amd-demos` → `https://amd-demos.pages.dev/<slug>/`.
