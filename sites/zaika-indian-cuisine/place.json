@@ -1,0 +1,269 @@
+{
+  "place_id": "ChIJEXRvlkKhHBURzJOgfxHFkbE",
+  "slug": "zaika-indian-cuisine",
+  "theme": "heritage_warm",
+  "layout": {
+    "hero": "full"
+  },
+  "accent": {
+    "hex": "#D9822B",
+    "rgb": "217, 130, 43",
+    "hover": "#B96C20",
+    "ink": "#1F1308"
+  },
+  "name": "Zaika Indian Cuisine",
+  "name_lang": "en",
+  "category_label": "مطعم مأكولات هندية",
+  "area": "دابوق، عمّان",
+  "address": "دابوق، شارع وصفي التل، عمّان",
+  "phone": {
+    "display": "+962 7 7020 9050",
+    "tel": "+962770209050"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Zaika%20Indian%20Cuisine&query_place_id=ChIJEXRvlkKhHBURzJOgfxHFkbE",
+  "map_query": "Zaika Indian Cuisine, Dabouq, Wasfi Al Tal St, Amman, Jordan",
+  "rating": {
+    "value": 4.8,
+    "count": 1394,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "12 م – 12 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "مطبخ هندي وجلسات على السطح في دابوق",
+    "intro": "مطعم هندي في دابوق بجلسات داخلية وعلى السطح، يقدّم الغداء والعشاء والتوصيل، ويفتح يوميًا من الظهر حتى منتصف الليل.",
+    "image": "hero"
+  },
+  "sections": [
+    "menu",
+    "story",
+    "proof",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "من 12 ظهرًا حتى منتصف الليل",
+    "title": "يوم في زايكا",
+    "items": [
+      {
+        "time": "12:00 م",
+        "label": "الظهر",
+        "title": "غداء هندي",
+        "text": "يفتح المطعم عند الثانية عشرة ظهرًا، ويقول زبون إن الغداء كان ممتازًا.",
+        "image": "table"
+      },
+      {
+        "time": "مساءً",
+        "label": "السطح",
+        "title": "جلسة على السطح",
+        "text": "يوفّر المطعم جلسات على السطح وفي الهواء الطلق، مع واي فاي مجاني.",
+        "image": "dusk"
+      },
+      {
+        "time": "12:00 ص",
+        "label": "الختام",
+        "title": "عشاء متأخر أو توصيل",
+        "text": "العشاء حتى منتصف الليل، وتتوفر خدمة التوصيل والطلب السفري.",
+        "image": "candle"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "مأكولات هندية",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والتوصيل",
+    "categories": [
+      {
+        "id": "starters",
+        "title": "المقبلات",
+        "tagline": "للبداية",
+        "image": "table",
+        "items": [
+          {
+            "name": "سمبوسة خضار",
+            "desc": "",
+            "price": 4.5
+          },
+          {
+            "name": "دجاج تكا",
+            "desc": "",
+            "price": 7
+          },
+          {
+            "name": "باكورا",
+            "desc": "",
+            "price": 4.5
+          }
+        ]
+      },
+      {
+        "id": "mains",
+        "title": "الأطباق الرئيسية",
+        "tagline": "مع الأرز أو النان",
+        "image": "grill",
+        "items": [
+          {
+            "name": "دجاج بالزبدة",
+            "desc": "",
+            "price": 12
+          },
+          {
+            "name": "دجاج كاري",
+            "desc": "",
+            "price": 11
+          },
+          {
+            "name": "لحم فيندالو",
+            "desc": "",
+            "price": 14
+          },
+          {
+            "name": "باني باتر",
+            "desc": "جبنة هندية بصلصة الطماطم.",
+            "price": 10
+          }
+        ]
+      },
+      {
+        "id": "rice",
+        "title": "الأرز والخبز",
+        "tagline": "",
+        "image": "candle",
+        "items": [
+          {
+            "name": "برياني دجاج",
+            "desc": "",
+            "price": 11
+          },
+          {
+            "name": "نان بالزبدة",
+            "desc": "",
+            "price": 2
+          },
+          {
+            "name": "نان بالثوم",
+            "desc": "",
+            "price": 2.5
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Muntha A.",
+      "stars": 5,
+      "text": "تجربة مميزة الاكل كتير زاكي والخدمه رائعه",
+      "source_ref": "r1"
+    },
+    {
+      "author": "محمد ا.",
+      "stars": 5,
+      "text": "مطعم يقدم أكلات هندية وجلسات جميلة الاكل عنده لذيذ جداً ونظيف الأسعار لديه متوسطة لمرتفعة",
+      "source_ref": "r3"
+    },
+    {
+      "author": "Diyaa D.",
+      "stars": 5,
+      "text": "الاكل رائع والمكان اروع",
+      "source_ref": "r7"
+    },
+    {
+      "author": "Amani H.",
+      "stars": 5,
+      "text": "Staff is amazing",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Shaden E.",
+      "stars": 5,
+      "text": "It was amazing food more than perfect 😍",
+      "source_ref": "r5"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": "dusk",
+    "items": [
+      {
+        "icon": "sky",
+        "title": "جلسات على السطح",
+        "text": "وجلسات في الهواء الطلق."
+      },
+      {
+        "icon": "wifi",
+        "title": "واي فاي مجاني",
+        "text": ""
+      },
+      {
+        "icon": "bag",
+        "title": "توصيل وطلب سفري",
+        "text": ""
+      },
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجوزات",
+        "text": ""
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للعائلات والأطفال",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف وخدمة ركن",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "dusk"
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1760454477181-4d2d1f7e30ce",
+      "alt": "صورة توضيحية: جلسات على سطح وقت الغروب",
+      "page": "https://unsplash.com/photos/two-people-sit-at-tables-on-a-rooftop-at-sunset-ftQxXRLVwXw"
+    },
+    "table": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    },
+    "grill": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز",
+      "page": "https://unsplash.com/photos/a-platter-of-grilled-meats-with-rice-and-pita-bread-2j17J8psiTw"
+    },
+    "candle": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/a-dimly-lit-restaurant-table-with-a-single-candle-9jNYTFpa2gs"
+    },
+    "dusk": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة",
+      "page": "https://unsplash.com/photos/the-sun-is-setting-over-a-city-street-3FeDWYfZYxY"
+    }
+  },
+  "approved": false,
+  "agency": "Amad Web",
+  "batch_id": "b202611020629"
+}

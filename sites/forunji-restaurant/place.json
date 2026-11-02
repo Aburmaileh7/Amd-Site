@@ -1,0 +1,228 @@
+{
+  "place_id": "ChIJHyter8yhHBURUGJi1ukQf-E",
+  "slug": "forunji-restaurant",
+  "theme": "heritage_warm",
+  "accent": {
+    "hex": "#C8531F",
+    "rgb": "200, 83, 31",
+    "hover": "#A8441A",
+    "ink": "#FFFFFF"
+  },
+  "name": "مطعم فورنجي",
+  "name_lang": "ar",
+  "category_label": "مطعم فلافل وسندويشات",
+  "area": "خلدا، عمّان",
+  "address": "شارع وصفي التل 254، عمّان",
+  "phone": {
+    "display": "+962 7 7741 1114",
+    "tel": "+962777411114"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D9%81%D9%88%D8%B1%D9%86%D8%AC%D9%8A&query_place_id=ChIJHyter8yhHBURUGJi1ukQf-E",
+  "map_query": "مطعم فورنجي، شارع وصفي التل، عمّان",
+  "rating": {
+    "value": 4.2,
+    "count": 292,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "8 ص – 12 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "فلافل وسندويشات من الثامنة صباحًا حتى منتصف الليل",
+    "intro": "مطعم فلافل على شارع وصفي التل، يقدّم الفطور والغداء والعشاء والمخبوزات، مع توصيل وطلب سفري وخيارات نباتية.",
+    "image": "hero"
+  },
+  "sections": [
+    "menu",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "فلافل ومخبوزات",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للطلب والاستفسار",
+    "categories": [
+      {
+        "id": "sandwiches",
+        "title": "السندويشات",
+        "tagline": "للفطور والغداء",
+        "image": "table",
+        "items": [
+          {
+            "name": "ساندويش فلافل",
+            "desc": "",
+            "price": 1,
+            "mentioned": true
+          },
+          {
+            "name": "ساندويش حمص",
+            "desc": "",
+            "price": 1
+          },
+          {
+            "name": "ساندويش بطاطا",
+            "desc": "",
+            "price": 1.25
+          },
+          {
+            "name": "ساندويش فول",
+            "desc": "",
+            "price": 1
+          }
+        ]
+      },
+      {
+        "id": "trend",
+        "title": "المخبوزات",
+        "tagline": "",
+        "image": "grill",
+        "items": [
+          {
+            "name": "خبز شراك بالبطاطا",
+            "desc": "",
+            "price": 2.5,
+            "mentioned": true
+          },
+          {
+            "name": "فطيرة جبنة",
+            "desc": "",
+            "price": 1.5
+          },
+          {
+            "name": "فطيرة زعتر",
+            "desc": "",
+            "price": 1
+          }
+        ]
+      },
+      {
+        "id": "plates",
+        "title": "صحون",
+        "tagline": "",
+        "image": "candle",
+        "items": [
+          {
+            "name": "صحن فلافل",
+            "desc": "",
+            "price": 3
+          },
+          {
+            "name": "صحن حمص",
+            "desc": "",
+            "price": 3
+          },
+          {
+            "name": "منسف سادة",
+            "desc": "",
+            "price": 4.5
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "فلافل",
+    "سندويشات",
+    "خبز الشراك مع البطاطا"
+  ],
+  "reviews": [
+    {
+      "author": "Laurence A.",
+      "stars": 5,
+      "text": "المكان يجمع بين النظافة العالية، الجودة الفائقة، والابتكار الدائم في تقديم المخبوزات والوجبات. … خبز الشراك مع البطاطا … طعم فريد، لذيذ جداً، وفكرة إبداعية تستحق التجربة بجدارة.",
+      "source_ref": "r4"
+    },
+    {
+      "author": "MR M.",
+      "stars": 4,
+      "text": "انصح به ، الطعم والمذاق ممتاز ، معاملة الموظفين لبقه ويعطيكم العافية جميعاً 🌹🌹",
+      "source_ref": "r6"
+    },
+    {
+      "author": "eliana",
+      "stars": 4,
+      "text": "i order here almost every day , very delicious i love the falafel here",
+      "source_ref": "r7"
+    },
+    {
+      "author": "jasmine",
+      "stars": 4,
+      "text": "amazing falafel and sandwiches",
+      "source_ref": "r8"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": "table",
+    "items": [
+      {
+        "icon": "bag",
+        "title": "توصيل وطلب سفري",
+        "text": "وتسليم بدون تلامس."
+      },
+      {
+        "icon": "clock",
+        "title": "من 8 ص حتى 12 ص",
+        "text": "فطور وغداء وعشاء."
+      },
+      {
+        "icon": "check",
+        "title": "خيارات نباتية",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": ""
+      },
+      {
+        "icon": "access",
+        "title": "مدخل مهيأ للكراسي المتحركة",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "table"
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    },
+    "table": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    },
+    "grill": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز",
+      "page": "https://unsplash.com/photos/a-platter-of-grilled-meats-with-rice-and-pita-bread-2j17J8psiTw"
+    },
+    "candle": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/a-dimly-lit-restaurant-table-with-a-single-candle-9jNYTFpa2gs"
+    }
+  },
+  "approved": false,
+  "agency": "Amad Web",
+  "batch_id": "b202611020629"
+}

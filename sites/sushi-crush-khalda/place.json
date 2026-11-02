@@ -1,0 +1,262 @@
+{
+  "place_id": "ChIJXWvL2yChHBURL6I-zPbskpk",
+  "slug": "sushi-crush-khalda",
+  "theme": "heritage_warm",
+  "accent": {
+    "hex": "#B3262E",
+    "rgb": "179, 38, 46",
+    "hover": "#951E25",
+    "ink": "#FFFFFF"
+  },
+  "name": "Sushi Crush Khalda",
+  "name_lang": "en",
+  "category_label": "مطعم سوشي ومأكولات يابانية",
+  "area": "تلاع العلي، عمّان",
+  "address": "شارع وصفي التل، تلاع العلي، عمّان",
+  "phone": {
+    "display": "+962 7 9612 2196",
+    "tel": "+962796122196"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Sushi%20Crush%20Khalda&query_place_id=ChIJXWvL2yChHBURL6I-zPbskpk",
+  "map_query": "Sushi Crush Khalda, Wasfi Al Tal St, Amman, Jordan",
+  "rating": {
+    "value": 4.7,
+    "count": 2848,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "1 م – 11 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "سوشي طازج على شارع وصفي التل",
+    "intro": "مطعم سوشي ومأكولات يابانية في تلاع العلي، بجلسات داخلية وخارجية وطلب سفري، يفتح كل يوم من الواحدة ظهرًا حتى الحادية عشرة مساءً.",
+    "image": "hero"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "كل يوم من 1 م حتى 11 م",
+    "title": "غداء وعشاء على الطاولة",
+    "items": [
+      {
+        "time": "1:00 م",
+        "label": "الظهيرة",
+        "title": "غداء",
+        "text": "يفتح المطعم عند الواحدة ظهرًا، والغداء من الأوقات التي يشتهر بها على Google.",
+        "image": "table"
+      },
+      {
+        "time": "مساءً",
+        "label": "الجلسة",
+        "title": "جلسة داخلية أو في الخارج",
+        "text": "مقاعد داخل المكان وأخرى في الهواء الطلق، مع خدمة على الطاولة وإمكانية الحجز.",
+        "image": "candle"
+      },
+      {
+        "time": "11:00 م",
+        "label": "الختام",
+        "title": "عشاء أو طلب سفري",
+        "text": "العشاء متاح حتى الحادية عشرة، ويمكن أخذ الطلب معك.",
+        "image": "dusk"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "مأكولات يابانية",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والطلب",
+    "categories": [
+      {
+        "id": "rolls",
+        "title": "رولات السوشي",
+        "tagline": "للمشاركة",
+        "image": "table",
+        "items": [
+          {
+            "name": "رول كاليفورنيا",
+            "desc": "",
+            "price": 7.5
+          },
+          {
+            "name": "رول سلمون",
+            "desc": "",
+            "price": 9
+          },
+          {
+            "name": "رول تمبورا روبيان",
+            "desc": "",
+            "price": 9.5
+          },
+          {
+            "name": "رول نباتي",
+            "desc": "خيار وأفوكادو.",
+            "price": 6.5
+          }
+        ]
+      },
+      {
+        "id": "sashimi",
+        "title": "ساشيمي ونيغيري",
+        "tagline": "",
+        "image": "candle",
+        "items": [
+          {
+            "name": "نيغيري سلمون (قطعتان)",
+            "desc": "",
+            "price": 5
+          },
+          {
+            "name": "ساشيمي سلمون",
+            "desc": "",
+            "price": 11
+          },
+          {
+            "name": "نيغيري روبيان (قطعتان)",
+            "desc": "",
+            "price": 4.5
+          }
+        ]
+      },
+      {
+        "id": "hot",
+        "title": "أطباق ساخنة",
+        "tagline": "",
+        "image": "grill",
+        "items": [
+          {
+            "name": "نودلز بالدجاج",
+            "desc": "",
+            "price": 8.5
+          },
+          {
+            "name": "أرز مقلي بالخضار",
+            "desc": "",
+            "price": 6.5
+          },
+          {
+            "name": "دجاج تيرياكي",
+            "desc": "",
+            "price": 9.5
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "سوشي"
+  ],
+  "reviews": [
+    {
+      "author": "Aroub M.",
+      "stars": 5,
+      "text": "Our fav place to spend time and eat a very delicious sushi in amman ! Thankyou laith @ khelda branch for your perfect service ! And all staff 🙏🏼",
+      "source_ref": "r8"
+    },
+    {
+      "author": "Farah A.",
+      "stars": 5,
+      "text": "So fresh and delicious",
+      "source_ref": "r6"
+    },
+    {
+      "author": "Natalie",
+      "stars": 5,
+      "text": "Rashed provided the best service, and he was very nice.",
+      "source_ref": "r4"
+    },
+    {
+      "author": "mr h.",
+      "stars": 5,
+      "text": "Very good experience",
+      "source_ref": "r1"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": "dusk",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات خارجية وداخلية",
+        "text": "مع خدمة على الطاولة."
+      },
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجوزات",
+        "text": ""
+      },
+      {
+        "icon": "bag",
+        "title": "طلب سفري",
+        "text": ""
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للعائلات والمجموعات",
+        "text": "وكراسي عالية للأطفال."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": "في الموقع وعلى الشارع."
+      },
+      {
+        "icon": "check",
+        "title": "خيارات نباتية",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "dusk"
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/a-dimly-lit-restaurant-table-with-a-single-candle-9jNYTFpa2gs"
+    },
+    "table": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    },
+    "candle": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/a-dimly-lit-restaurant-table-with-a-single-candle-9jNYTFpa2gs"
+    },
+    "grill": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز",
+      "page": "https://unsplash.com/photos/a-platter-of-grilled-meats-with-rice-and-pita-bread-2j17J8psiTw"
+    },
+    "dusk": {
+      "id": "photo-1760454477181-4d2d1f7e30ce",
+      "alt": "صورة توضيحية: جلسات على سطح وقت الغروب",
+      "page": "https://unsplash.com/photos/two-people-sit-at-tables-on-a-rooftop-at-sunset-ftQxXRLVwXw"
+    }
+  },
+  "approved": false,
+  "agency": "Amad Web",
+  "batch_id": "b202611020629"
+}

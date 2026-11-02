@@ -1,0 +1,268 @@
+{
+  "place_id": "ChIJK-9VOA-hHBUREf05rHxt4vU",
+  "slug": "qamar-khalda-restaurant",
+  "theme": "heritage_warm",
+  "layout": {
+    "hero": "full"
+  },
+  "accent": {
+    "hex": "#2F6B5A",
+    "rgb": "47, 107, 90",
+    "hover": "#255646",
+    "ink": "#FFFFFF"
+  },
+  "name": "مطعم قمر خلدا",
+  "name_lang": "ar",
+  "category_label": "مطعم عربي وبوفيه",
+  "area": "خلدا، عمّان",
+  "address": "خلدا، عمّان",
+  "phone": {
+    "display": "+962 7 7917 7877",
+    "tel": "+962779177877"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D9%82%D9%85%D8%B1%20%D8%AE%D9%84%D8%AF%D8%A7&query_place_id=ChIJK-9VOA-hHBUREf05rHxt4vU",
+  "map_query": "مطعم قمر خلدا، عمّان، الأردن",
+  "rating": {
+    "value": 3.9,
+    "count": 431,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا عدا الثلاثاء",
+        "time": "9 ص – 11 م"
+      },
+      {
+        "days": "الثلاثاء",
+        "time": "9 ص – 11:30 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "مطعم عربي بجلسات متنوعة وبوفيه مفتوح في خلدا",
+    "intro": "مطعم عربي يفتح من التاسعة صباحًا حتى الحادية عشرة مساءً، بجلسات داخلية وخارجية وعلى السطح، ويستقبل الحفلات العائلية.",
+    "image": "hero"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "من 9 ص حتى 11 م",
+    "title": "من الفطور إلى العشاء",
+    "items": [
+      {
+        "time": "9:00 ص",
+        "label": "الصباح",
+        "title": "الفطور",
+        "text": "يفتح المطعم عند التاسعة صباحًا، ويُعدّ الإفطار من الأوقات التي يشتهر بها على Google.",
+        "image": "table"
+      },
+      {
+        "time": "الظهر",
+        "label": "البوفيه",
+        "title": "بوفيه مفتوح",
+        "text": "يذكر زوار البوفيه المفتوح، وقد وصف أحدهم الحلويات بأنها خفيفة، وكتبت زائرة أنه يشمل المشروبات الغازية.",
+        "image": "grill"
+      },
+      {
+        "time": "مساءً",
+        "label": "المناسبات",
+        "title": "حفلات وجلسات",
+        "text": "حجز قاعة لاحتفال عائلي ذكره أحد الزوار، مع جلسات داخلية وخارجية وعلى السطح.",
+        "image": "dusk"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "أطباق عربية وبوفيه",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والاستفسار",
+    "categories": [
+      {
+        "id": "grill",
+        "title": "المشاوي",
+        "tagline": "",
+        "image": "grill",
+        "items": [
+          {
+            "name": "كباب",
+            "desc": "",
+            "price": 9,
+            "mentioned": true
+          },
+          {
+            "name": "شيش طاووق",
+            "desc": "",
+            "price": 8.5
+          },
+          {
+            "name": "مشاوي مشكلة",
+            "desc": "",
+            "price": 14
+          }
+        ]
+      },
+      {
+        "id": "starters",
+        "title": "المقبلات",
+        "tagline": "للمشاركة",
+        "image": "table",
+        "items": [
+          {
+            "name": "حمص بالطحينة",
+            "desc": "",
+            "price": 3
+          },
+          {
+            "name": "فتوش",
+            "desc": "",
+            "price": 4
+          },
+          {
+            "name": "متبل",
+            "desc": "",
+            "price": 3.5
+          }
+        ]
+      },
+      {
+        "id": "sweet",
+        "title": "الحلويات والمشروبات",
+        "tagline": "",
+        "image": "sweet",
+        "items": [
+          {
+            "name": "كنافة نابلسية",
+            "desc": "",
+            "price": 4,
+            "mentioned": true
+          },
+          {
+            "name": "شاي",
+            "desc": "",
+            "price": 1.5
+          },
+          {
+            "name": "قهوة عربية",
+            "desc": "",
+            "price": 2.5
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "بوفيه مفتوح",
+    "كباب",
+    "حلويات"
+  ],
+  "reviews": [
+    {
+      "author": "Izzat A.",
+      "stars": 5,
+      "text": "حجزنا القاعه لاحتفال عائلي و كانت الخدمه و الاكل فوق المتوقع الاكل رائع و طاقم الموظفين و الاداره على اعلى مستوى من الخبره و التعاون",
+      "source_ref": "r6"
+    },
+    {
+      "author": "Batool A.",
+      "stars": 5,
+      "text": "المكان كثير حلو وجوه مريح والاكل كثير زاكي عندهم بوفيه شامل مي ومشروبات غازية قد ما بدك مريحين بالتعامل والخدمة سريعه",
+      "source_ref": "r7"
+    },
+    {
+      "author": "حسن ا.",
+      "stars": 4,
+      "text": "جميل و اسم على مسمى وتنوع الاطباق والجلسات والسعر لما يقدم جيد جداااا",
+      "source_ref": "r2"
+    },
+    {
+      "author": "itaf a.",
+      "stars": 5,
+      "text": "رائع طعام واستقبال",
+      "source_ref": "r3"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما يوفره المكان",
+    "image": "dusk",
+    "items": [
+      {
+        "icon": "sky",
+        "title": "جلسات على السطح وفي الخارج",
+        "text": "إلى جانب الجلوس الداخلي."
+      },
+      {
+        "icon": "calendar",
+        "title": "حجوزات",
+        "text": "الحجز موصى به للغداء والعشاء."
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للعائلات والأطفال",
+        "text": "قائمة أطفال وكراسي عالية."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف وخدمة ركن",
+        "text": "بعضها مجاني وبعضها مدفوع."
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": ""
+      },
+      {
+        "icon": "coffee",
+        "title": "قهوة وحلويات",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "dusk"
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1760454477181-4d2d1f7e30ce",
+      "alt": "صورة توضيحية: جلسات على سطح وقت الغروب",
+      "page": "https://unsplash.com/photos/two-people-sit-at-tables-on-a-rooftop-at-sunset-ftQxXRLVwXw"
+    },
+    "table": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات",
+      "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-drinks-ssMrF3Yn6II"
+    },
+    "grill": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز",
+      "page": "https://unsplash.com/photos/a-platter-of-grilled-meats-with-rice-and-pita-bread-2j17J8psiTw"
+    },
+    "sweet": {
+      "id": "photo-1778447812923-88a9e3e6b567",
+      "alt": "صورة توضيحية: حلوى بالفستق الحلبي",
+      "page": "https://unsplash.com/photos/a-delicate-pastry-filled-with-chopped-pistachios-NzNFM69MMnI"
+    },
+    "dusk": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة",
+      "page": "https://unsplash.com/photos/the-sun-is-setting-over-a-city-street-3FeDWYfZYxY"
+    }
+  },
+  "approved": false,
+  "agency": "Amad Web",
+  "batch_id": "b202611020629"
+}
