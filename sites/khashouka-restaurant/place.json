@@ -1,0 +1,277 @@
+{
+  "slug": "khashouka-restaurant",
+  "place_id": "ChIJQWXFYGChHBURyLsGtqwADO8",
+  "batch_id": "b202611020720",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#8A5A12",
+    "rgb": "138, 90, 18",
+    "hover": "#6F4810",
+    "ink": "#FFFFFF"
+  },
+  "name": "مطعم خاشوكة",
+  "name_lang": "ar",
+  "category_label": "مطعم عربي",
+  "area": "زهران، عمّان",
+  "address": "شارع سعد عبدو شموط، زهران، عمّان",
+  "phone": {
+    "display": "+962 7 7012 1211",
+    "tel": "+962770121211"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%AE%D8%A7%D8%B4%D9%88%D9%83%D8%A9&query_place_id=ChIJQWXFYGChHBURyLsGtqwADO8",
+  "map_query": "مطعم خاشوكة, Saad Abdo Shmoot St, Amman, Jordan",
+  "rating": {
+    "value": 4.4,
+    "count": 4942,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "كل أيام الأسبوع",
+        "time": "8 ص – 11:30 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "فطور وغداء وعشاء من الثامنة صباحًا في زهران",
+    "intro": "مطعم عربي في شارع سعد عبدو شموط يفتح كل يوم من الثامنة صباحًا حتى 11:30 مساءً، بجلسات خارجية وقهوة وحلويات.",
+    "image": "coffee"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "يوم كامل في مكان واحد",
+    "title": "من فطور الصباح إلى العشاء",
+    "items": [
+      {
+        "label": "الفطور",
+        "title": "يبدأ من الثامنة",
+        "text": "يشتهر المكان بالفطور، ويوصي بحجز الفطور المتأخر في أوقات الزحام.",
+        "image": "spread"
+      },
+      {
+        "label": "الغداء",
+        "title": "طاولات للمجموعات",
+        "text": "مناسب للمجموعات والعائلات، مع جلوس داخلي وخارجي وخدمة طاولة.",
+        "image": "grill"
+      },
+      {
+        "label": "المساء",
+        "title": "قهوة وحلويات حتى 11:30",
+        "text": "قهوة وتشكيلة شاي وحلويات، والمطبخ يعمل حتى ساعات متأخرة.",
+        "image": "sweet"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "فطور ووجبات عربية",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والاستفسار",
+    "categories": [
+      {
+        "id": "breakfast",
+        "title": "الفطور",
+        "tagline": "حتى الظهر",
+        "image": "spread",
+        "items": [
+          {
+            "name": "فول بالطحينة",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "حمص بالزيت",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "بيض بالبندورة",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "صحن لبنة وزيتون",
+            "desc": "",
+            "price": 3
+          },
+          {
+            "name": "منقوشة زعتر",
+            "desc": "",
+            "price": 1.5
+          }
+        ]
+      },
+      {
+        "id": "mains",
+        "title": "الأطباق الرئيسية",
+        "tagline": "للغداء والعشاء",
+        "image": "grill",
+        "items": [
+          {
+            "name": "مشاوي مشكلة",
+            "desc": "مع أرز وخبز.",
+            "price": 11
+          },
+          {
+            "name": "شيش طاووق",
+            "desc": "",
+            "price": 8.5
+          },
+          {
+            "name": "ورق عنب",
+            "desc": "",
+            "price": 5
+          },
+          {
+            "name": "فتة حمص",
+            "desc": "",
+            "price": 5.5
+          }
+        ]
+      },
+      {
+        "id": "hot",
+        "title": "مشروبات وحلويات",
+        "tagline": "",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "شاي بالنعناع",
+            "desc": "",
+            "price": 2
+          },
+          {
+            "name": "قهوة عربية",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "كنافة نابلسية",
+            "desc": "",
+            "price": 4
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Anas A.",
+      "stars": 5,
+      "text": "Top breakfast in town",
+      "source_ref": "r7"
+    },
+    {
+      "author": "Mohammad D.",
+      "stars": 5,
+      "text": "قعدة جميله و الخدمه سريعه الاسعار جيده لمتوسطه",
+      "source_ref": "r4"
+    },
+    {
+      "author": "يوسف ا.",
+      "stars": 5,
+      "text": "مبدئياً الجو العام والأكل والموظفين كل شي كان مرتب ونظيف 👏🏼",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Ayat A.",
+      "stars": 5,
+      "text": "المكان والاكل والستاف يجننون 🤗❤️",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Mohammad H.",
+      "stars": 5,
+      "text": "Excellent food",
+      "source_ref": "r6"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما ستجده في المطعم",
+    "image": "spread",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات داخلية وخارجية",
+        "text": ""
+      },
+      {
+        "icon": "coffee",
+        "title": "قهوة وشاي وحلويات",
+        "text": ""
+      },
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجوزات",
+        "text": "يوصى بالحجز للفطور المتأخر والغداء."
+      },
+      {
+        "icon": "bag",
+        "title": "طلبات سفري وتوصيل",
+        "text": ""
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للأطفال",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف سيارات",
+        "text": "مجانية ومدفوعة."
+      }
+    ]
+  },
+  "visit": {
+    "image": "city"
+  },
+  "images": {
+    "spread": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات",
+      "page": "https://unsplash.com/photos/photo-1704742205592-15191a615455"
+    },
+    "grill": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز",
+      "page": "https://unsplash.com/photos/photo-1777716003985-68fed08d0c7e"
+    },
+    "coffee": {
+      "id": "photo-1774791500971-ddaafd214520",
+      "alt": "صورة توضيحية: دلة قهوة عربية وتمر",
+      "page": "https://unsplash.com/photos/photo-1774791500971-ddaafd214520"
+    },
+    "sweet": {
+      "id": "photo-1778447812923-88a9e3e6b567",
+      "alt": "صورة توضيحية: حلوى بالفستق الحلبي",
+      "page": "https://unsplash.com/photos/photo-1778447812923-88a9e3e6b567"
+    },
+    "city": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة",
+      "page": "https://unsplash.com/photos/photo-1572279815221-92b091e941c2"
+    }
+  }
+}

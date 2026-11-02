@@ -1,0 +1,179 @@
+{
+  "slug": "dr-hala-al-yamani-dental-center",
+  "place_id": "ChIJtYhpCxGgHBURQXlrzCd0y8U",
+  "batch_id": "b202611020720",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#0F766E",
+    "rgb": "15, 118, 110",
+    "hover": "#0B5F58",
+    "ink": "#FFFFFF"
+  },
+  "name": "مركز د. هالة اليماني لطب الأسنان",
+  "name_lang": "ar",
+  "category_label": "عيادة أسنان وزراعة",
+  "area": "الشميساني، عمّان",
+  "address": "مجمع 96، شارع الشريف ناصر بن جميل، الطابق الأول، الشميساني، عمّان",
+  "phone": {
+    "display": "+962 7 9572 0813",
+    "tel": "+962795720813"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Dr.%20Hala%20Al%20Yamani%20Dental%20Center&query_place_id=ChIJtYhpCxGgHBURQXlrzCd0y8U",
+  "map_query": "Dr. Hala Al Yamani Dental Center, Shmesani, Amman, Jordan",
+  "rating": {
+    "value": 5,
+    "count": 1064,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الثلاثاء",
+        "time": "9 ص – 5 م"
+      },
+      {
+        "days": "الأربعاء",
+        "time": "9 ص – 5 ص"
+      },
+      {
+        "days": "الخميس",
+        "time": "9 ص – 3 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "د. هالة اليماني: عيادة أسنان في الشميساني",
+    "intro": "مركز في الطابق الأول بالشميساني يقدّم الزراعة والحشوات والتبييض وعلاج العصب، ويصفه مراجعوه بالنظافة والالتزام بالمواعيد.",
+    "image": "dental"
+  },
+  "sections": [
+    "menu",
+    "proof",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما يقدّمه المركز",
+    "note": "الخدمات مأخوذة من تصنيفات المركز على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع المركز.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "زراعة الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "دواعم الأسنان واللثة",
+            "desc": ""
+          },
+          {
+            "name": "الحشوات",
+            "desc": ""
+          },
+          {
+            "name": "علاج العصب",
+            "desc": ""
+          },
+          {
+            "name": "تبييض الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "التركيبات",
+            "desc": ""
+          },
+          {
+            "name": "خدمات الطوارئ",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Family A.",
+      "stars": 5,
+      "text": "مركز رائع وكثير لطيفين وشغل نظيف ما شاء الله",
+      "source_ref": "r1"
+    },
+    {
+      "author": "mohammed D.",
+      "stars": 5,
+      "text": "ماشاءالله على المركز كله تمام التمام وشغلهم مرتب كتير",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Maher A.",
+      "stars": 5,
+      "text": "Great dentist , Very professional, friendly, and clean , they help you very fast",
+      "source_ref": "r12"
+    },
+    {
+      "author": "محمد ا.",
+      "stars": 5,
+      "text": "مركز راقي وكثير نظيف ومنظم جدا في المواعيد والطاقم متمكن في شغله.",
+      "source_ref": "r10"
+    },
+    {
+      "author": "Joseph M.",
+      "stars": 5,
+      "text": "عدا عن دقه المواعيد والنظافة والأسعار المناسبه",
+      "source_ref": "r14"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental2",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "الحجز بموعد",
+        "text": "تحديد موعد مطلوب قبل الزيارة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة",
+        "text": "بطاقات ائتمان وسحب آلي."
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": "مدخل ودورة مياه مهيأة."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental2"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/photo-1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/photo-1629909613654-28e377c37b09"
+    }
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "slug": "meat-and-cheese-abdoun",
+  "place_id": "ChIJqUSsl5ShHBURcGlHlS5s2aU",
+  "batch_id": "b202611020720",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#B91C1C",
+    "rgb": "185, 28, 28",
+    "hover": "#991B1B",
+    "ink": "#FFFFFF"
+  },
+  "name": "Meat and Cheese Abdoun",
+  "name_lang": "en",
+  "category_label": "مطعم همبرغر",
+  "area": "زهران، عمّان",
+  "address": "شارع المزار، زهران، عمّان",
+  "phone": {
+    "display": "+962 7 8860 0111",
+    "tel": "+962788600111"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Meat%20and%20Cheese%20Abdoun&query_place_id=ChIJqUSsl5ShHBURcGlHlS5s2aU",
+  "map_query": "Meat and Cheese Abdoun, Amman, Jordan",
+  "rating": {
+    "value": 4.9,
+    "count": 7678,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "كل أيام الأسبوع",
+        "time": "12 م – 2 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "همبرغر في زهران حتى الثانية فجرًا",
+    "intro": "مطعم همبرغر في شارع المزار يفتح كل يوم من الظهر حتى الثانية فجرًا، بجلسات داخلية وخارجية وطلبات سفري وتوصيل.",
+    "image": "candle"
+  },
+  "sections": [
+    "menu",
+    "reviews",
+    "story",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "متى تزورنا",
+    "title": "من الظهر إلى ما بعد منتصف الليل",
+    "items": [
+      {
+        "label": "الغداء",
+        "title": "يفتح عند الثانية عشرة",
+        "text": "أبواب المطعم مفتوحة كل يوم من الظهر، والمكان معروف بالغداء والعشاء.",
+        "image": "spread"
+      },
+      {
+        "label": "العشاء",
+        "title": "جلسات داخلية وخارجية",
+        "text": "جلوس داخل المكان أو في الهواء الطلق، مع قائمة أطفال ومواقف مجانية.",
+        "image": "grill"
+      },
+      {
+        "label": "السهر",
+        "title": "حتى الثانية فجرًا",
+        "text": "مأكولات متوفرة في ساعات متأخرة من الليل طوال أيام الأسبوع.",
+        "image": "city"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "همبرغر ووجبات سريعة",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والطلبات الخارجية",
+    "categories": [
+      {
+        "id": "burgers",
+        "title": "البرجر",
+        "tagline": "لحم بقري",
+        "image": "grill",
+        "items": [
+          {
+            "name": "برجر كلاسيك",
+            "desc": "لحم بقري، جبنة، خس وبندورة.",
+            "price": 6.5
+          },
+          {
+            "name": "تشيز برجر دبل",
+            "desc": "قطعتان من اللحم مع جبنة مضاعفة.",
+            "price": 9
+          },
+          {
+            "name": "برجر دجاج مقرمش",
+            "desc": "",
+            "price": 6
+          },
+          {
+            "name": "برجر مشروم وسويس",
+            "desc": "",
+            "price": 8
+          }
+        ]
+      },
+      {
+        "id": "sides",
+        "title": "الجانبية",
+        "tagline": "",
+        "image": "spread",
+        "items": [
+          {
+            "name": "بطاطا مقلية",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "حلقات بصل",
+            "desc": "",
+            "price": 3
+          },
+          {
+            "name": "كول سلو",
+            "desc": "",
+            "price": 2
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "باردة",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "مشروب غازي",
+            "desc": "",
+            "price": 1.5
+          },
+          {
+            "name": "ليموناضة",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "ميلك شيك",
+            "desc": "",
+            "price": 4
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Hashem K.",
+      "stars": 5,
+      "text": "Amazing food great burgers and service very nice place, special thanks to chef rashed for amazing help and service",
+      "source_ref": "r7"
+    },
+    {
+      "author": "Laith",
+      "stars": 5,
+      "text": "great food and atmosphere thanks to the staff and chef rashed",
+      "source_ref": "r6"
+    },
+    {
+      "author": "Yazan",
+      "stars": 5,
+      "text": "Best burger place in Jordan by far",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Qusai a.",
+      "stars": 5,
+      "text": "Great food Great team Unforgettable taste",
+      "source_ref": "r1"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما ستجده في المطعم",
+    "image": "spread",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات داخلية وخارجية",
+        "text": ""
+      },
+      {
+        "icon": "bag",
+        "title": "طلبات سفري وتوصيل",
+        "text": "مع تسليم بدون تلامس."
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للأطفال",
+        "text": "قائمة أطفال وكراسي عالية."
+      },
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجوزات",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": "في الموقف وعلى الشارع."
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "city"
+  },
+  "images": {
+    "candle": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/photo-1775340965364-64be29c25f1c"
+    },
+    "spread": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات",
+      "page": "https://unsplash.com/photos/photo-1704742205592-15191a615455"
+    },
+    "city": {
+      "id": "photo-1572279815221-92b091e941c2",
+      "alt": "صورة توضيحية: غروب الشمس فوق شارع في مدينة",
+      "page": "https://unsplash.com/photos/photo-1572279815221-92b091e941c2"
+    },
+    "grill": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز",
+      "page": "https://unsplash.com/photos/photo-1777716003985-68fed08d0c7e"
+    },
+    "coffee": {
+      "id": "photo-1774791500971-ddaafd214520",
+      "alt": "صورة توضيحية: دلة قهوة عربية وتمر",
+      "page": "https://unsplash.com/photos/photo-1774791500971-ddaafd214520"
+    }
+  }
+}

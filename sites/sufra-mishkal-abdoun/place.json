@@ -1,0 +1,277 @@
+{
+  "slug": "sufra-mishkal-abdoun",
+  "place_id": "ChIJd1NXeIOhHBURdtqJkPybZVI",
+  "batch_id": "b202611020720",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#4D6B3A",
+    "rgb": "77, 107, 58",
+    "hover": "#3E562F",
+    "ink": "#FFFFFF"
+  },
+  "name": "سفرة مشكل عبدون",
+  "name_lang": "ar",
+  "category_label": "مطعم عربي",
+  "area": "زهران، عمّان",
+  "address": "شارع الشجرة 6، زهران، عمّان",
+  "phone": {
+    "display": "+962 7 9100 0259",
+    "tel": "+962791000259"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D8%B3%D9%81%D8%B1%D8%A9%20%D9%85%D8%B4%D9%83%D9%84%20%D8%B9%D8%A8%D8%AF%D9%88%D9%86&query_place_id=ChIJd1NXeIOhHBURdtqJkPybZVI",
+  "map_query": "سفرة مشكل عبدون, Amman, Jordan",
+  "rating": {
+    "value": 4.6,
+    "count": 1904,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "كل أيام الأسبوع",
+        "time": "8 ص – 10 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "أكل بيتي طازج في عبدون من الثامنة صباحًا",
+    "intro": "مطعم عربي في شارع الشجرة يقدّم الفطور والغداء والعشاء كل يوم حتى العاشرة مساءً، مع مدفأة وجلسات خارجية.",
+    "image": "spread"
+  },
+  "sections": [
+    "menu",
+    "reviews",
+    "story",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "مجلس الأسرة",
+    "title": "فطور هادئ وغداء مع العائلة",
+    "items": [
+      {
+        "label": "الفطور",
+        "title": "من الثامنة صباحًا",
+        "text": "الفطور من أكثر ما يشتهر به المكان، ويوصى بحجز الفطور المتأخر.",
+        "image": "spread"
+      },
+      {
+        "label": "الغداء",
+        "title": "أكل يخرج من الفرن ساخنًا",
+        "text": "يصف زبائن المكان أكله بأنه طازج وبيتي الطعم.",
+        "image": "grill"
+      },
+      {
+        "label": "الشتاء",
+        "title": "مدفأة وقهوة وحلويات",
+        "text": "أجواء هادئة مع مدفأة وتشكيلة شاي وقهوة وحلويات.",
+        "image": "candle"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "أكل بيتي",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المطعم، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.أ",
+    "foot": "للحجز والاستفسار",
+    "categories": [
+      {
+        "id": "breakfast",
+        "title": "الفطور",
+        "tagline": "",
+        "image": "spread",
+        "items": [
+          {
+            "name": "فول بالطحينة",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "بيض بالجبنة",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "لبنة بالزيت",
+            "desc": "",
+            "price": 3
+          },
+          {
+            "name": "فطيرة سبانخ",
+            "desc": "",
+            "price": 2
+          }
+        ]
+      },
+      {
+        "id": "mains",
+        "title": "الأطباق الرئيسية",
+        "tagline": "",
+        "image": "grill",
+        "items": [
+          {
+            "name": "دجاج صاجية",
+            "desc": "مع أرز وسلطة.",
+            "price": 8.5,
+            "mentioned": true
+          },
+          {
+            "name": "سلطة جرجير",
+            "desc": "",
+            "price": 4.5,
+            "mentioned": true
+          },
+          {
+            "name": "مقلوبة",
+            "desc": "",
+            "price": 7
+          },
+          {
+            "name": "كبة مشوية",
+            "desc": "",
+            "price": 6.5
+          }
+        ]
+      },
+      {
+        "id": "hot",
+        "title": "مشروبات وحلويات",
+        "tagline": "",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "شاي",
+            "desc": "",
+            "price": 2
+          },
+          {
+            "name": "قهوة",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "كنافة",
+            "desc": "",
+            "price": 4
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "دجاج صاجية",
+    "سلطة جرجير"
+  ],
+  "reviews": [
+    {
+      "author": "Sara H.",
+      "stars": 5,
+      "text": "such amazing food i always come here with my friends and family, their food is always served right out of the stoves, i especially love their chicken sajiyeh and their rocca salad, everything is super yummy and tastes homemade",
+      "source_ref": "r5"
+    },
+    {
+      "author": "Fahad A.",
+      "stars": 5,
+      "text": "كانت تجربتي على الفطور جميلة، والأكل لذيذ والخدمة ممتازة. شكرًا للموظفة إسراء على حسن تعاملها واهتمامها، ما قصّرت 🌷",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Hussam A.",
+      "stars": 5,
+      "text": "Staff بجنن اكلهم زاكي",
+      "source_ref": "r3"
+    },
+    {
+      "author": "Firas B.",
+      "stars": 5,
+      "text": "Very clean and tatey food",
+      "source_ref": "r4"
+    },
+    {
+      "author": "محمد ا.",
+      "stars": 5,
+      "text": "لذيذ وصحي",
+      "source_ref": "r1"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ما ستجده في المطعم",
+    "image": "spread",
+    "items": [
+      {
+        "icon": "tree",
+        "title": "جلسات داخلية وخارجية",
+        "text": "مع مدفأة للأيام الباردة."
+      },
+      {
+        "icon": "coffee",
+        "title": "قهوة وشاي وحلويات",
+        "text": ""
+      },
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجوزات",
+        "text": "يوصى بحجز الفطور المتأخر."
+      },
+      {
+        "icon": "bag",
+        "title": "طلبات سفري وتوصيل",
+        "text": "مع تسليم بدون تلامس."
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للأطفال",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": ""
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": "مدخل وموقف ودورة مياه."
+      }
+    ]
+  },
+  "visit": {
+    "image": "candle"
+  },
+  "images": {
+    "spread": {
+      "id": "photo-1704742205592-15191a615455",
+      "alt": "صورة توضيحية: طاولة عليها صحون طعام ومشروبات",
+      "page": "https://unsplash.com/photos/photo-1704742205592-15191a615455"
+    },
+    "grill": {
+      "id": "photo-1777716003985-68fed08d0c7e",
+      "alt": "صورة توضيحية: طبق مشاوي مع أرز وخبز",
+      "page": "https://unsplash.com/photos/photo-1777716003985-68fed08d0c7e"
+    },
+    "coffee": {
+      "id": "photo-1774791500971-ddaafd214520",
+      "alt": "صورة توضيحية: دلة قهوة عربية وتمر",
+      "page": "https://unsplash.com/photos/photo-1774791500971-ddaafd214520"
+    },
+    "candle": {
+      "id": "photo-1775340965364-64be29c25f1c",
+      "alt": "صورة توضيحية: طاولة مطعم مضاءة بشمعة في المساء",
+      "page": "https://unsplash.com/photos/photo-1775340965364-64be29c25f1c"
+    }
+  }
+}
