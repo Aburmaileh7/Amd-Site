@@ -1,0 +1,159 @@
+{
+  "place_id": "ChIJJcGPjRChHBURtmTlFTduue4",
+  "slug": "palesta-dental-center",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#1F5F8B",
+    "rgb": "31, 95, 139",
+    "hover": "#174A6D",
+    "ink": "#FFFFFF"
+  },
+  "name": "Palesta Dental Center",
+  "name_lang": "en",
+  "category_label": "مركز أسنان",
+  "area": "وادي السير، عمّان",
+  "address": "Complex No 32، شارع بخيت العيسى، وادي السير، عمّان",
+  "phone": {
+    "display": "+962 6 581 6800",
+    "tel": "+96265816800"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Palesta%20Dental%20Center&query_place_id=ChIJJcGPjRChHBURtmTlFTduue4",
+  "map_query": "Palesta Dental Center, Complex No 32, Bakhit Al Issa St, Amman, Jordan",
+  "rating": {
+    "value": 4.2,
+    "count": 155,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "9 ص – 7 م"
+      },
+      {
+        "days": "الخميس",
+        "time": "9 ص – 2 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "مركز أسنان في وادي السير للكبار والأطفال",
+    "intro": "مركز بإشراف عدة أطباء في مجمع على شارع بخيت العيسى، يذكر مراجعوه علاج أسنان الأطفال وتنظيف الأسنان وعلاج العصب.",
+    "image": "dental"
+  },
+  "sections": [
+    "menu",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "فحص وتنظيف الأسنان",
+            "desc": "فحوصات دورية وإزالة الجير."
+          },
+          {
+            "name": "أسنان الأطفال",
+            "desc": ""
+          },
+          {
+            "name": "علاج العصب",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Saja A.",
+      "stars": 5,
+      "text": "صراحه عياده جدا جدا رائعه و دكتوره ديمه القضاه من اروع الدكاتره يلي ممكن يعالجو الاسنان خصوصا للاطفال جدا لطيفه … بنتي كتير كتير بترتاح معها",
+      "source_ref": "r1"
+    },
+    {
+      "author": "Al L.",
+      "stars": 5,
+      "text": "Always great and kind service with Dr. Dima. I go for regular checkup and dental cleaning and since it is consistently a good experience, I keep coming back.",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Tatum J.",
+      "stars": 5,
+      "text": "Dr. Dima is the best dentist I have ever been to. My teeth have never felt cleaner. The environment in the office is so welcoming and calm.",
+      "source_ref": "r3"
+    },
+    {
+      "author": "Rasha A.",
+      "stars": 5,
+      "text": "I usually feel very anxious when undergoing dental procedures, but the doctor made the entire process completely painless and stress-free.",
+      "source_ref": "r6"
+    },
+    {
+      "author": "Jo W.",
+      "stars": 5,
+      "text": "Doctor Dima is so very kind and gentle, and her assistant is one of the best I have seen. They made sure I was comfortable throughout my root canal treatment",
+      "source_ref": "r10"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "الموعد مطلوب",
+        "text": "يُفضّل حجز موعد قبل الزيارة."
+      },
+      {
+        "icon": "check",
+        "title": "تسهيلات لذوي الإعاقة الحركية",
+        "text": "دورة مياه تستوعب الكراسي المتحركة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة والجوال",
+        "text": "بطاقات ائتمان وسحب آلي وNFC."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/1629909613654-28e377c37b09"
+    }
+  },
+  "batch_id": "b202611020837"
+}

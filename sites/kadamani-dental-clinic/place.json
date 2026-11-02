@@ -1,0 +1,157 @@
+{
+  "place_id": "ChIJBz6b6Q6hHBURg3oq1Dl2gA0",
+  "slug": "kadamani-dental-clinic",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#B05A7A",
+    "rgb": "176, 90, 122",
+    "hover": "#8F4862",
+    "ink": "#FFFFFF"
+  },
+  "name": "Kadamani Dental Clinic | عيادة الدكتورة هديل قضماني",
+  "name_lang": "en",
+  "category_label": "عيادة أسنان",
+  "area": "تلاع العلي، عمّان",
+  "address": "شارع عامر بن مالك، تلاع العلي، عمّان",
+  "phone": {
+    "display": "+962 7 9707 9097",
+    "tel": "+962797079097"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Kadamani%20Dental%20Clinic%20%7C%20%D8%B9%D9%8A%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1%D8%A9%20%D9%87%D8%AF%D9%8A%D9%84%20%D9%82%D8%B6%D9%85%D8%A7%D9%86%D9%8A&query_place_id=ChIJBz6b6Q6hHBURg3oq1Dl2gA0",
+  "map_query": "Kadamani Dental Clinic, Amer Bin Malik St, Amman, Jordan",
+  "rating": {
+    "value": 4.9,
+    "count": 125,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "كل أيام الأسبوع",
+        "time": "9 ص – 5 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "عيادة د. هديل قضماني في تلاع العلي، ابتسامة طبيعية",
+    "intro": "عيادة بتصميم وردي هادئ يذكر مراجعوها شرح الدكتورة لكل خطوة، وتنظيف الأسنان وتبييضها وتركيب الفينير.",
+    "image": "dental2"
+  },
+  "sections": [
+    "proof",
+    "reviews",
+    "menu",
+    "visit",
+    "amenities"
+  ],
+  "story": null,
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من تصنيفات العيادة على Google وتعليقات المراجعين، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "فحص واستشارة",
+            "desc": "شرح الحالة والإجراءات خطوة بخطوة."
+          },
+          {
+            "name": "تنظيف الأسنان وتبييضها",
+            "desc": ""
+          },
+          {
+            "name": "فينير الأسنان",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Rawan M.",
+      "stars": 5,
+      "text": "تجربتي مع الدكتورة كانت جدًا مريحة، من أول ما دخلت حسّيت باهتمامها وحرصها إني أكون مرتاحة. متعاونة وخلوقة، وبتشرح كل خطوة بكل هدوء …",
+      "source_ref": "r2"
+    },
+    {
+      "author": "Moath A.",
+      "stars": 5,
+      "text": "Dr.Hadeel was amazing, I did cleaning and whitening the results are wonderful.",
+      "source_ref": "r4"
+    },
+    {
+      "author": "Mahmoud R.",
+      "stars": 5,
+      "text": "Absolutely amazing experience with Dr Hadeel Qadmani My veneers turned out beautiful elegant and incredibly natural …",
+      "source_ref": "r12"
+    },
+    {
+      "author": "Jad F.",
+      "stars": 5,
+      "text": "I highly recommend Kadamani dental clinic! Dr. Hadeel Kadamani and the her team are incredibly helpful, patient, and professional. They take the time to explain every procedure …",
+      "source_ref": "r13"
+    },
+    {
+      "author": "Taqwa A.",
+      "stars": 4,
+      "text": "شكل العيادة مريح نفسيا كله pink 💕 و الدكتورة لطيفة كتعامل جدا",
+      "source_ref": "r9"
+    },
+    {
+      "author": "Feras K.",
+      "stars": 5,
+      "text": "صراحه شغل ممتاز والدكتورة رائعه وايدها خفيفه وتعاملهم ممتاز ودقيقين بالوقت وبالشغل",
+      "source_ref": "r1"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "dental2",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "المواعيد مُوصى بها",
+        "text": "يُفضّل حجز موعد قبل الزيارة."
+      },
+      {
+        "icon": "check",
+        "title": "تسهيلات لذوي الإعاقة الحركية",
+        "text": "دورة مياه تستوعب الكراسي المتحركة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة والجوال",
+        "text": "بطاقات ائتمان وسحب آلي وNFC."
+      }
+    ]
+  },
+  "visit": {
+    "image": "dental2"
+  },
+  "images": {
+    "dental": {
+      "id": "photo-1606811841689-23dfddce3e95",
+      "alt": "صورة توضيحية: كرسي عيادة أسنان وأدوات",
+      "page": "https://unsplash.com/photos/1606811841689-23dfddce3e95"
+    },
+    "dental2": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/1629909613654-28e377c37b09"
+    }
+  },
+  "batch_id": "b202611020837"
+}
