@@ -1,0 +1,104 @@
+{
+  "place_id": "amd-notion-40c5cb524e4481a3a9c9efad525ebd11",
+  "slug": "arabian-dental-center",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#8C3B5E",
+    "rgb": "140, 59, 94",
+    "hover": "#712F4C",
+    "ink": "#FFFFFF"
+  },
+  "name": "مركز عربيان لطب الأسنان",
+  "name_lang": "ar",
+  "category_label": "مركز أسنان",
+  "area": "الرفاع، البحرين",
+  "phone": {
+    "display": "+973 1700 6364",
+    "tel": "+97317006364"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Arabian%20Dental%20Center%2C%204HQ8%2B2P9%2C%20Riffa%2C%20Bahrain",
+  "map_query": "Arabian Dental Center, 4HQ8+2P9, Riffa, Bahrain",
+  "rating": {
+    "value": 5,
+    "count": 3,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "علاج وترميم الأسنان في الرفاع",
+    "intro": "مركز أسنان في الرفاع يقدّم العلاج العام وترميم الأسنان. اتصلوا بالمركز لحجز موعد ومعرفة الأوقات المتاحة.",
+    "image": "d_gloves"
+  },
+  "sections": [
+    "menu",
+    "amenities",
+    "proof",
+    "visit"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما يقدّمه المركز",
+    "note": "الخدمات مأخوذة من دليل المركز المنشور، وللتفاصيل يُرجى التواصل مع المركز.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "علاج الأسنان العام",
+            "desc": ""
+          },
+          {
+            "name": "ترميم الأسنان",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "d_xray",
+    "items": [
+      {
+        "icon": "access",
+        "title": "دورة مياه للكراسي المتحركة",
+        "text": "مهيأة لمستخدمي الكراسي المتحركة."
+      },
+      {
+        "icon": "calendar",
+        "title": "الحجز بالهاتف",
+        "text": "اتصلوا بالمركز لتحديد موعد."
+      }
+    ]
+  },
+  "visit": {
+    "image": "d_office"
+  },
+  "images": {
+    "d_gloves": {
+      "id": "photo-1771442873038-dda05b6ca447",
+      "alt": "صورة توضيحية: يد بقفاز تحمل أدوات فحص الأسنان",
+      "page": "https://unsplash.com/photos/98eodnv1abo"
+    },
+    "d_xray": {
+      "id": "photo-1588776814546-1ffcf47267a5",
+      "alt": "صورة توضيحية: طبيب يراجع صور أشعة للأسنان",
+      "page": "https://unsplash.com/photos/v_2FRXEba94"
+    },
+    "d_office": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: عيادة أسنان حديثة",
+      "page": "https://unsplash.com/photos/e7MJLM5VGjY"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

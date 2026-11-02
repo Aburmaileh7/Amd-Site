@@ -1,0 +1,146 @@
+{
+  "place_id": "amd-notion-40c5cb524e44819bad44f14983f62de8",
+  "slug": "dar-al-qasimiah-dental-clinic",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#1F6F8B",
+    "rgb": "31, 111, 139",
+    "hover": "#185870",
+    "ink": "#FFFFFF"
+  },
+  "name": "Dar Al Qasimiah Dental Clinic",
+  "name_lang": "en",
+  "category_label": "عيادة أسنان",
+  "area": "القاسمية، الشارقة",
+  "address": "39 شارع الشيخ صقر بن خالد القاسمي، المحطة، القاسمية، الشارقة",
+  "phone": {
+    "display": "+971 6 564 5416",
+    "tel": "+97165645416"
+  },
+  "directions_url": "https://www.google.com/maps?cid=7608871904822325468",
+  "map_query": "Dar AL Qasimiah Dental Clinic, Sheikh Saqr Bin Khalid Al Qasimi St, Sharjah",
+  "rating": {
+    "value": 4.8,
+    "count": 127,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "الأحد – الخميس",
+        "time": "10 ص – 11 م"
+      },
+      {
+        "days": "الجمعة – السبت",
+        "time": "2 م – 11 م"
+      }
+    ],
+    "per_day": null,
+    "source": "دليل Zavis"
+  },
+  "hero": {
+    "headline": "عيادة أسنان في القاسمية تفتح حتى 11 مساءً",
+    "intro": "عيادة طب أسنان عام في القاسمية بالشارقة، تقييمها 4.8 من 127 مراجعة على Google، وتستقبل المرضى يوميًا حتى الحادية عشرة ليلًا.",
+    "image": "d_talk"
+  },
+  "sections": [
+    "reviews",
+    "menu",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من دليل العيادة المنشور، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "طب الأسنان العام",
+            "desc": ""
+          },
+          {
+            "name": "خدمات التمريض",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "arjhon j.",
+      "text": "…The doctor is very professional, gentle, and patient.",
+      "source_ref": "https://www.zavis.ai/directory/sharjah/dental/dar-al-qasimiah-dental-clinic-sharjah"
+    },
+    {
+      "author": "CRISTINE",
+      "text": "…But the Doctor was friendly and I didn't experience any pain during procedure.",
+      "source_ref": "https://www.zavis.ai/directory/sharjah/dental/dar-al-qasimiah-dental-clinic-sharjah"
+    },
+    {
+      "author": "Sathiyaseelan C.",
+      "text": "…dr naveen is very professional and know his work.",
+      "source_ref": "https://www.zavis.ai/directory/sharjah/dental/dar-al-qasimiah-dental-clinic-sharjah"
+    },
+    {
+      "author": "Hami N.",
+      "text": "…She's calm, patient and takes the time to explain every procedure in simple words…",
+      "source_ref": "https://www.zavis.ai/directory/sharjah/dental/dar-al-qasimiah-dental-clinic-sharjah"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "d_wait",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "دوام مسائي",
+        "text": "مفتوحة حتى 11 مساءً كل أيام الأسبوع."
+      },
+      {
+        "icon": "shield",
+        "title": "تقبل التأمين",
+        "text": "منها ضمان وAXA وCigna وMetLife وأورينت وNAS، حسب الدليل المنشور."
+      },
+      {
+        "icon": "calendar",
+        "title": "الحجز بالهاتف",
+        "text": "اتصلوا بالعيادة لحجز موعد."
+      }
+    ]
+  },
+  "visit": {
+    "image": "d_office"
+  },
+  "images": {
+    "d_talk": {
+      "id": "photo-1777331903190-341a3dd0441b",
+      "alt": "صورة توضيحية: طبيب أسنان يتحدث مع مريض",
+      "page": "https://unsplash.com/photos/Bg81yWKZlMg"
+    },
+    "d_wait": {
+      "id": "photo-1762625570087-6d98fca29531",
+      "alt": "صورة توضيحية: غرفة انتظار",
+      "page": "https://unsplash.com/photos/pxOQ-P97sA8"
+    },
+    "d_office": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: عيادة أسنان حديثة",
+      "page": "https://unsplash.com/photos/e7MJLM5VGjY"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

@@ -1,0 +1,133 @@
+{
+  "place_id": "amd-notion-40c5cb524e4481ecbde6f79f687c6abf",
+  "slug": "al-itqan-dental-clinic",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "accent": {
+    "hex": "#3A7D44",
+    "rgb": "58, 125, 68",
+    "hover": "#2E6436",
+    "ink": "#FFFFFF"
+  },
+  "name": "Al Itqan Dental Clinic",
+  "name_lang": "en",
+  "category_label": "عيادة أسنان",
+  "area": "المجاز 3، الشارقة",
+  "address": "شارع الخالدية، بناية المبارك، الطابق الأول، شقة 109، المجاز 3، الشارقة",
+  "directions_url": "https://www.google.com/maps?cid=918951025053518577",
+  "map_query": "AL Itqan Dental Clinic, Al Khalidia St, Al Majaz 3, Sharjah",
+  "rating": {
+    "value": 4.9,
+    "count": 88,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "1 م – 9 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "دليل Zavis"
+  },
+  "hero": {
+    "headline": "عيادة أسنان في المجاز بتقييم 4.9",
+    "intro": "عيادة طب أسنان عام في بناية المبارك بالمجاز 3، يقيّمها مرضاها 4.9 من 88 مراجعة، وتستقبلكم من الواحدة ظهرًا حتى التاسعة مساءً.",
+    "image": "d_chair"
+  },
+  "sections": [
+    "menu",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من دليل العيادة المنشور، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "طب الأسنان العام",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Ahmad",
+      "text": "…He made me feel comfortable and explained the procedures thoroughly.",
+      "source_ref": "https://www.zavis.ai/directory/sharjah/dental/al-itqan-dental-clinic-sharjah"
+    },
+    {
+      "author": "Azra H.",
+      "text": "…he is very friendly and hospitable.",
+      "source_ref": "https://www.zavis.ai/directory/sharjah/dental/al-itqan-dental-clinic-sharjah"
+    },
+    {
+      "author": "Amro A.",
+      "text": "…the prices were affordable .Highly recommended",
+      "source_ref": "https://www.zavis.ai/directory/sharjah/dental/al-itqan-dental-clinic-sharjah"
+    },
+    {
+      "author": "Claui C.",
+      "text": "…I was satisfied by the service.",
+      "source_ref": "https://www.zavis.ai/directory/sharjah/dental/al-itqan-dental-clinic-sharjah"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "معلومات الزيارة",
+    "image": "d_tools",
+    "items": [
+      {
+        "icon": "check",
+        "title": "العربية والإنجليزية",
+        "text": "الفريق يتحدث اللغتين."
+      },
+      {
+        "icon": "clock",
+        "title": "دوام بعد الظهر",
+        "text": "من 1 م حتى 9 م، والجمعة مغلق."
+      }
+    ]
+  },
+  "visit": {
+    "image": "d_exam"
+  },
+  "images": {
+    "d_chair": {
+      "id": "photo-1598256989800-fe5f95da9787",
+      "alt": "صورة توضيحية: كرسي أسنان في عيادة مضيئة",
+      "page": "https://unsplash.com/photos/XJptUS8nbhs"
+    },
+    "d_tools": {
+      "id": "photo-1606811856475-5e6fcdc6e509",
+      "alt": "صورة توضيحية: مرآة وأداة فحص أسنان",
+      "page": "https://unsplash.com/photos/ux18C551ghI"
+    },
+    "d_exam": {
+      "id": "photo-1606811971618-4486d14f3f99",
+      "alt": "صورة توضيحية: فحص أسنان بالمرآة",
+      "page": "https://unsplash.com/photos/8BkF0sTC6Uo"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

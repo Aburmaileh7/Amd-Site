@@ -1,0 +1,156 @@
+{
+  "place_id": "amd-notion-40c5cb524e448148adf4d9d856df79e4",
+  "slug": "bakehouse-muscat",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full"
+  },
+  "accent": {
+    "hex": "#B4532A",
+    "rgb": "180, 83, 42",
+    "hover": "#933F1E",
+    "ink": "#FFFFFF"
+  },
+  "name": "BAKEHOUSE",
+  "name_lang": "en",
+  "category_label": "مخبز",
+  "area": "شارع المزون، مسقط",
+  "address": "شارع المزون، مسقط",
+  "phone": {
+    "display": "+968 9909 1640",
+    "tel": "+96899091640"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=BAKEHOUSE%2C%20Al%20Mazoon%20St%2C%20Muscat%2C%20Oman",
+  "map_query": "BAKEHOUSE, Al Mazoon St, Muscat, Oman",
+  "hero": {
+    "headline": "خبز ومعجنات طازجة على شارع المزون",
+    "intro": "مخبز في شارع المزون بمسقط. اتصلوا بنا لمعرفة أصناف اليوم وأوقات العمل، أو مرّوا علينا مباشرة.",
+    "image": "basket"
+  },
+  "sections": [
+    "menu",
+    "visit"
+  ],
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "أصنافنا",
+    "eyebrow": "من الفرن",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.ع",
+    "foot": "للطلب المسبق",
+    "categories": [
+      {
+        "id": "bread",
+        "title": "خبز",
+        "tagline": "يوميًا",
+        "image": "bag",
+        "items": [
+          {
+            "name": "خبز العجين المخمّر",
+            "desc": "",
+            "price": 1.2
+          },
+          {
+            "name": "باغيت",
+            "desc": "",
+            "price": 0.5
+          },
+          {
+            "name": "خبز بالحبوب الكاملة",
+            "desc": "",
+            "price": 1
+          }
+        ]
+      },
+      {
+        "id": "pastry",
+        "title": "معجنات",
+        "tagline": "",
+        "image": "pastries",
+        "items": [
+          {
+            "name": "كرواسون",
+            "desc": "",
+            "price": 0.5
+          },
+          {
+            "name": "فطيرة جبن",
+            "desc": "",
+            "price": 0.6
+          },
+          {
+            "name": "سينابون",
+            "desc": "",
+            "price": 0.9
+          },
+          {
+            "name": "مافن بالتوت",
+            "desc": "",
+            "price": 0.8
+          }
+        ]
+      },
+      {
+        "id": "cakes",
+        "title": "كيك وحلويات",
+        "tagline": "بالقطعة",
+        "image": "cupcake",
+        "items": [
+          {
+            "name": "قطعة كيك شوكولاتة",
+            "desc": "",
+            "price": 1.3
+          },
+          {
+            "name": "كب كيك",
+            "desc": "",
+            "price": 0.7
+          },
+          {
+            "name": "كيك العسل",
+            "desc": "",
+            "price": 1.4
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "visit": {
+    "image": "shelf"
+  },
+  "images": {
+    "basket": {
+      "id": "photo-1608198093002-ad4e005484ec",
+      "alt": "صورة توضيحية: خبز في سلة من القش",
+      "page": "https://unsplash.com/photos/brown-bread-on-brown-wicker-basket-N4gtuEZ5gWc"
+    },
+    "bag": {
+      "id": "photo-1599819055803-717bba43890f",
+      "alt": "صورة توضيحية: خبز على كيس ورقي",
+      "page": "https://unsplash.com/photos/brown-bread-on-brown-paper-bag-XNNurImW1xM"
+    },
+    "pastries": {
+      "id": "photo-1534432182912-63863115e106",
+      "alt": "صورة توضيحية: معجنات وكيك في واجهة مخبز",
+      "page": "https://unsplash.com/photos/bakery-pastries-and-crumb-cake-n49BjsFf5dI"
+    },
+    "cupcake": {
+      "id": "photo-1563729784474-d77dbb933a9e",
+      "alt": "صورة توضيحية: كب كيك",
+      "page": "https://unsplash.com/photos/baked-cupcake-S2jw81lfrG0"
+    },
+    "shelf": {
+      "id": "photo-1568254183919-78a4f43a2877",
+      "alt": "صورة توضيحية: أرغفة خبز على رفوف مخبز",
+      "page": "https://unsplash.com/photos/breads-in-display-shelf-go3DT3PpIw4"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

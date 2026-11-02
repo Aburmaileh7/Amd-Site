@@ -1,0 +1,125 @@
+{
+  "place_id": "amd-notion-40c5cb524e44818baa4addff7e7ad4c8",
+  "slug": "sammys-bakeshop",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "split"
+  },
+  "accent": {
+    "hex": "#C0392B",
+    "rgb": "192, 57, 43",
+    "hover": "#9E2E23",
+    "ink": "#FFFFFF"
+  },
+  "name": "Sammy's Bakeshop",
+  "name_lang": "en",
+  "category_label": "مخبز فلبيني",
+  "area": "مسقط",
+  "phone": {
+    "display": "+968 9467 5800",
+    "tel": "+96894675800"
+  },
+  "hero": {
+    "headline": "خبز فلبيني طازج في مسقط",
+    "intro": "مخبز في مسقط يخبز الخبز والحلويات على الطريقة الفلبينية. اتصلوا بنا لمعرفة أصناف اليوم وحجز طلبكم.",
+    "image": "tray"
+  },
+  "sections": [
+    "menu",
+    "visit"
+  ],
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "أصنافنا",
+    "eyebrow": "خبز وحلويات",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.ع",
+    "foot": "للطلب",
+    "categories": [
+      {
+        "id": "bread",
+        "title": "خبز",
+        "tagline": "كل صباح",
+        "image": "bag",
+        "items": [
+          {
+            "name": "بانديسال (10 حبات)",
+            "desc": "",
+            "price": 0.5
+          },
+          {
+            "name": "سبانش بريد",
+            "desc": "",
+            "price": 0.3
+          },
+          {
+            "name": "خبز جوز الهند",
+            "desc": "",
+            "price": 0.3
+          },
+          {
+            "name": "إنسايمادا",
+            "desc": "",
+            "price": 0.4
+          }
+        ]
+      },
+      {
+        "id": "cakes",
+        "title": "كيك وحلويات",
+        "tagline": "",
+        "image": "cupcake",
+        "items": [
+          {
+            "name": "كيك أوبي",
+            "desc": "",
+            "price": 4.5
+          },
+          {
+            "name": "شيفون كيك",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "ليتشي فلان",
+            "desc": "",
+            "price": 1.5
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "visit": {
+    "image": "shelf"
+  },
+  "images": {
+    "tray": {
+      "id": "photo-1483695028939-5bb13f8648b0",
+      "alt": "صورة توضيحية: مخبوزات على صينية",
+      "page": "https://unsplash.com/photos/close-up-photography-of-baked-treats-on-tray-qZ5lPCPvdXE"
+    },
+    "bag": {
+      "id": "photo-1599819055803-717bba43890f",
+      "alt": "صورة توضيحية: خبز على كيس ورقي",
+      "page": "https://unsplash.com/photos/brown-bread-on-brown-paper-bag-XNNurImW1xM"
+    },
+    "cupcake": {
+      "id": "photo-1563729784474-d77dbb933a9e",
+      "alt": "صورة توضيحية: كب كيك",
+      "page": "https://unsplash.com/photos/baked-cupcake-S2jw81lfrG0"
+    },
+    "shelf": {
+      "id": "photo-1568254183919-78a4f43a2877",
+      "alt": "صورة توضيحية: أرغفة خبز على رفوف مخبز",
+      "page": "https://unsplash.com/photos/breads-in-display-shelf-go3DT3PpIw4"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

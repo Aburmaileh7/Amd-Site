@@ -1,0 +1,108 @@
+{
+  "place_id": "amd-notion-40c5cb524e448166acffd3ad7d07474c",
+  "slug": "dr-zakaria-saleh-dental-clinic",
+  "theme": "clinic_clean",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full"
+  },
+  "accent": {
+    "hex": "#2B5797",
+    "rgb": "43, 87, 151",
+    "hover": "#22467A",
+    "ink": "#FFFFFF"
+  },
+  "name": "عيادة د. زكريا صالح لطب الأسنان",
+  "name_lang": "ar",
+  "category_label": "عيادة أسنان",
+  "area": "المنامة، البحرين",
+  "phone": {
+    "display": "+973 1771 0410",
+    "tel": "+97317710410"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Dr.%20Zakaria%20Saleh%20Dental%20Clinic%2C%20Manama%2C%20Bahrain",
+  "map_query": "Dr. Zakaria Saleh Dental Clinic, Manama, Bahrain",
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "9:30 ص – 12:30 م"
+      },
+      {
+        "days": "السبت – الخميس",
+        "time": "4:30 م – 8:30 م"
+      }
+    ],
+    "per_day": null,
+    "source": "موقع العيادة"
+  },
+  "hero": {
+    "headline": "عيادة د. زكريا صالح لطب الأسنان في المنامة",
+    "intro": "فحوصات دورية، تنظيف، حشوات، تبييض وطب أسنان الطوارئ، بفترتين صباحية ومسائية من السبت إلى الخميس.",
+    "image": "d_exam"
+  },
+  "sections": [
+    "menu",
+    "visit"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تقدّمه العيادة",
+    "note": "الخدمات مأخوذة من موقع العيادة، وللتفاصيل يُرجى التواصل مع العيادة.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الخدمات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "الفحوصات الدورية",
+            "desc": ""
+          },
+          {
+            "name": "تنظيف الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "حشوات الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "أطقم الأسنان والفينير",
+            "desc": ""
+          },
+          {
+            "name": "طب أسنان الطوارئ",
+            "desc": ""
+          },
+          {
+            "name": "تبييض الأسنان",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "visit": {
+    "image": "d_office"
+  },
+  "images": {
+    "d_exam": {
+      "id": "photo-1606811971618-4486d14f3f99",
+      "alt": "صورة توضيحية: فحص أسنان بالمرآة",
+      "page": "https://unsplash.com/photos/8BkF0sTC6Uo"
+    },
+    "d_office": {
+      "id": "photo-1629909613654-28e377c37b09",
+      "alt": "صورة توضيحية: عيادة أسنان حديثة",
+      "page": "https://unsplash.com/photos/e7MJLM5VGjY"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

@@ -1,0 +1,188 @@
+{
+  "place_id": "amd-notion-40c5cb524e44811995bbe54bec770e74",
+  "slug": "mitchi-oman",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "split"
+  },
+  "accent": {
+    "hex": "#9A6B3F",
+    "rgb": "154, 107, 63",
+    "hover": "#7E5632",
+    "ink": "#FFFFFF"
+  },
+  "name": "Mitchi",
+  "name_lang": "en",
+  "category_label": "مخبز فرنسي",
+  "area": "مسقط",
+  "phone": {
+    "display": "+968 9776 6884",
+    "tel": "+96897766884"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=H7FX%2BW9R%2C%20Muscat%2C%20Oman",
+  "map_query": "H7FX+W9R, Muscat, Oman",
+  "rating": {
+    "value": 4.3,
+    "count": 58,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "7 ص – 11 م"
+      }
+    ],
+    "per_day": null,
+    "source": "دليل Leadstal"
+  },
+  "hero": {
+    "headline": "مخبز فرنسي صغير بجلسات مريحة في مسقط",
+    "intro": "معجنات وحلويات فرنسية مع القهوة، يفتح يوميًا من السابعة صباحًا حتى الحادية عشرة ليلًا، ويقيّمه زبائنه 4.3 على Google.",
+    "image": "croissants"
+  },
+  "sections": [
+    "menu",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "من الفرن إلى الطاولة",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.ع",
+    "foot": "للطلب والاستفسار",
+    "categories": [
+      {
+        "id": "viennoiserie",
+        "title": "معجنات فرنسية",
+        "tagline": "طازجة كل صباح",
+        "image": "croissant2",
+        "items": [
+          {
+            "name": "كرواسون بالزبدة",
+            "desc": "",
+            "price": 0.6
+          },
+          {
+            "name": "كرواسون باللوز",
+            "desc": "",
+            "price": 0.9
+          },
+          {
+            "name": "بان أو شوكولا",
+            "desc": "",
+            "price": 0.8
+          },
+          {
+            "name": "كرواسون جبن وزعتر",
+            "desc": "",
+            "price": 0.9
+          }
+        ]
+      },
+      {
+        "id": "sweets",
+        "title": "حلويات",
+        "tagline": "قطعة مع القهوة",
+        "image": "tarts",
+        "items": [
+          {
+            "name": "تارت فواكه",
+            "desc": "",
+            "price": 1.4
+          },
+          {
+            "name": "إكلير شوكولاتة",
+            "desc": "",
+            "price": 1.2
+          },
+          {
+            "name": "ميل فوي",
+            "desc": "",
+            "price": 1.5
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "قهوة ومشروبات",
+        "tagline": "",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "إسبريسو",
+            "desc": "",
+            "price": 0.9
+          },
+          {
+            "name": "كابتشينو",
+            "desc": "",
+            "price": 1.3
+          },
+          {
+            "name": "لاتيه",
+            "desc": "",
+            "price": 1.4
+          },
+          {
+            "name": "شاي بالحليب",
+            "desc": "",
+            "price": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Mickael J.",
+      "text": "This French bakery is a delightful spot with comfortable seating, ideal for enjoying a cup of coffee",
+      "source_ref": "https://leadstal.com/sb/mitchi-oman"
+    },
+    {
+      "author": "Samz W.",
+      "text": "Thier team of talented chefs and dedicated staff are committed to delivering excellence in both taste and presentation.",
+      "source_ref": "https://leadstal.com/sb/mitchi-oman"
+    }
+  ],
+  "visit": {
+    "image": "shelf"
+  },
+  "images": {
+    "croissants": {
+      "id": "photo-1623334044303-241021148842",
+      "alt": "صورة توضيحية: كرواسون طازج على طاولة",
+      "page": "https://unsplash.com/photos/a-bunch-of-croissants-that-are-on-a-table-sqkXyyj4WdE"
+    },
+    "croissant2": {
+      "id": "photo-1555507036-ab1f4038808a",
+      "alt": "صورة توضيحية: قطعتا كرواسون",
+      "page": "https://unsplash.com/photos/two-brown-croissants-m9pzwmxm2rk"
+    },
+    "tarts": {
+      "id": "photo-1583338917451-face2751d8d5",
+      "alt": "صورة توضيحية: تارت فواكه وكيك في واجهة مخبز",
+      "page": "https://unsplash.com/photos/bakery-display-with-fruit-tarts-1WmlAiYgnoI"
+    },
+    "coffee": {
+      "id": "photo-1690983326252-ce6205fb7055",
+      "alt": "صورة توضيحية: كوب قهوة بين حبوب البن",
+      "page": "https://unsplash.com/photos/a-cup-of-coffee-surrounded-by-coffee-beans-KU7PjmjArlQ"
+    },
+    "shelf": {
+      "id": "photo-1568254183919-78a4f43a2877",
+      "alt": "صورة توضيحية: أرغفة خبز على رفوف مخبز",
+      "page": "https://unsplash.com/photos/breads-in-display-shelf-go3DT3PpIw4"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}

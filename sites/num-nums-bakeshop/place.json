@@ -1,0 +1,125 @@
+{
+  "place_id": "amd-notion-40c5cb524e4481e5abc0c275a885a9dc",
+  "slug": "num-nums-bakeshop",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amad Web",
+  "layout": {
+    "hero": "full"
+  },
+  "accent": {
+    "hex": "#6B4FA0",
+    "rgb": "107, 79, 160",
+    "hover": "#563F82",
+    "ink": "#FFFFFF"
+  },
+  "name": "Num Nums Bakeshop",
+  "name_lang": "en",
+  "category_label": "مخبز فلبيني",
+  "area": "مسقط",
+  "phone": {
+    "display": "+968 9544 3322",
+    "tel": "+96895443322"
+  },
+  "hero": {
+    "headline": "مخبوزات بيتية على الطريقة الفلبينية",
+    "intro": "مخبز صغير في مسقط يقدّم الخبز والكيك على الطريقة الفلبينية. اتصلوا بنا لمعرفة الأصناف المتوفرة اليوم.",
+    "image": "dough"
+  },
+  "sections": [
+    "menu",
+    "visit"
+  ],
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "أصنافنا",
+    "eyebrow": "الأكثر طلبًا",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.ع",
+    "foot": "للطلب",
+    "categories": [
+      {
+        "id": "bread",
+        "title": "خبز",
+        "tagline": "طازج يوميًا",
+        "image": "basket",
+        "items": [
+          {
+            "name": "بانديسال (10 حبات)",
+            "desc": "",
+            "price": 0.5
+          },
+          {
+            "name": "مونغو بريد",
+            "desc": "",
+            "price": 0.35
+          },
+          {
+            "name": "تشيز بريد",
+            "desc": "",
+            "price": 0.35
+          }
+        ]
+      },
+      {
+        "id": "sweets",
+        "title": "حلويات",
+        "tagline": "للمناسبات",
+        "image": "tarts",
+        "items": [
+          {
+            "name": "كيك أوبي",
+            "desc": "",
+            "price": 4.5
+          },
+          {
+            "name": "إنسايمادا",
+            "desc": "",
+            "price": 0.4
+          },
+          {
+            "name": "براونيز (علبة)",
+            "desc": "",
+            "price": 2
+          },
+          {
+            "name": "ليتشي فلان",
+            "desc": "",
+            "price": 1.5
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "visit": {
+    "image": "shelf"
+  },
+  "images": {
+    "dough": {
+      "id": "photo-1517686469429-8bdb88b9f907",
+      "alt": "صورة توضيحية: تحضير العجين بالشوبك",
+      "page": "https://unsplash.com/photos/person-making-dough-beside-brown-wooden-rolling-pin-tOYiQxF9-Ys"
+    },
+    "basket": {
+      "id": "photo-1608198093002-ad4e005484ec",
+      "alt": "صورة توضيحية: خبز في سلة من القش",
+      "page": "https://unsplash.com/photos/brown-bread-on-brown-wicker-basket-N4gtuEZ5gWc"
+    },
+    "tarts": {
+      "id": "photo-1583338917451-face2751d8d5",
+      "alt": "صورة توضيحية: تارت فواكه وكيك في واجهة مخبز",
+      "page": "https://unsplash.com/photos/bakery-display-with-fruit-tarts-1WmlAiYgnoI"
+    },
+    "shelf": {
+      "id": "photo-1568254183919-78a4f43a2877",
+      "alt": "صورة توضيحية: أرغفة خبز على رفوف مخبز",
+      "page": "https://unsplash.com/photos/breads-in-display-shelf-go3DT3PpIw4"
+    }
+  },
+  "whatsapp": null,
+  "story": null,
+  "mentions": [],
+  "batch_id": "amd-gulf-20261102"
+}
