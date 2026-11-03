@@ -1,0 +1,189 @@
+{
+  "place_id": "ChIJ2bmScdTPwxURUis5wKJecLk",
+  "slug": "blu-jam",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "bakery_cream",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#1F4E9C",
+    "rgb": "31, 78, 156",
+    "hover": "#173D7A",
+    "ink": "#FFFFFF"
+  },
+  "name": "Blu Jam",
+  "name_lang": "en",
+  "category_label": "مخبز ومعجنات",
+  "area": "حي الحمراء، جدة",
+  "address": "حي الحمراء، جدة",
+  "phone": {
+    "display": "+966 56 155 5999",
+    "tel": "+966561555999"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Blu%20Jam&query_place_id=ChIJ2bmScdTPwxURUis5wKJecLk",
+  "map_query": "Blu Jam, next to pizza lenuo restaurant, Al-Hamra'a, Al maady street, Jeddah 23212, Saudi Arabia",
+  "rating": {
+    "value": 4.5,
+    "count": 603,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "رفوف كرواسون وإكلير من السابعة حتى الواحدة",
+    "intro": "مخبز في شارع المعادي بحي الحمراء، فيه كاونتر أزرق طويل مليء بالكرواسون والكيك والإكلير، بتقييم 4.5 من أكثر من 600 مراجعة.",
+    "image": "shelf"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "كرواسون",
+      "إكلير",
+      "كيك",
+      "شارع المعادي",
+      "حتى 1 بعد منتصف الليل"
+    ]
+  },
+  "story": {
+    "eyebrow": "زاوية زرقاء في الحمراء",
+    "title": "كل شيء معروض أمامك",
+    "items": [
+      {
+        "label": "الرف",
+        "title": "كرواسون مصفوف بالترتيب",
+        "text": "رف خشبي طويل يعرض الكرواسون بأنواعه من الصباح.",
+        "image": "shelf"
+      },
+      {
+        "label": "الكاونتر",
+        "title": "أزرق من أوله لآخره",
+        "text": "كاونتر بلون اسم المحل يجمع القهوة والحلويات في مكان واحد.",
+        "image": "counter"
+      },
+      {
+        "label": "الثلاجة",
+        "title": "كيك وإكلير",
+        "text": "ثلاجة عرض طويلة للقطع الباردة والكيك.",
+        "image": "cases"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.س",
+    "categories": [
+      {
+        "id": "pastry",
+        "title": "المعجنات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "كرواسون سادة",
+            "desc": "",
+            "price": 10
+          },
+          {
+            "name": "كرواسون لوز",
+            "desc": "",
+            "price": 15
+          },
+          {
+            "name": "بان أو شوكولا",
+            "desc": "",
+            "price": 13
+          }
+        ],
+        "image": "shelf"
+      },
+      {
+        "id": "cakes",
+        "title": "الكيك والإكلير",
+        "tagline": "",
+        "items": [
+          {
+            "name": "إكلير شوكولاتة",
+            "desc": "",
+            "price": 17
+          },
+          {
+            "name": "قطعة كيك",
+            "desc": "",
+            "price": 22
+          }
+        ],
+        "image": "cases"
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "لاتيه",
+            "desc": "",
+            "price": 17
+          },
+          {
+            "name": "شاي بالحليب",
+            "desc": "",
+            "price": 10
+          }
+        ],
+        "image": "counter"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "counter"
+  },
+  "images": {
+    "shelf": {
+      "file": "shelf.jpg",
+      "alt": "صورة رف الكرواسون المصفوف في Blu Jam",
+      "source_url": "https://wanderlog.com/place/details/9406600",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "counter": {
+      "file": "counter.jpg",
+      "alt": "صورة الكاونتر الأزرق والحلويات في Blu Jam",
+      "source_url": "https://wanderlog.com/place/details/9406600",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "cases": {
+      "file": "cases.jpg",
+      "alt": "صورة ثلاجة عرض الحلويات في Blu Jam",
+      "source_url": "https://wanderlog.com/place/details/9406600",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "7 ص – 1 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

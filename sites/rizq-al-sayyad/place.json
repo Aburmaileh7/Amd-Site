@@ -1,0 +1,184 @@
+{
+  "place_id": "ChIJYQyRGADpST4RlCQifmHnMkE",
+  "slug": "rizq-al-sayyad",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#1E6FA8",
+    "rgb": "30, 111, 168",
+    "hover": "#175A88",
+    "ink": "#FFFFFF"
+  },
+  "name": "رزق الصياد",
+  "name_lang": "ar",
+  "category_label": "مأكولات بحرية",
+  "area": "حي الجسر، الخبر",
+  "address": "حي الجسر، الخبر",
+  "phone": {
+    "display": "+966 53 661 9766",
+    "tel": "+966536619766"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Rizq%20Al%20Sayyad&query_place_id=ChIJYQyRGADpST4RlCQifmHnMkE",
+  "map_query": "Rizq Al Sayyad, King Fahd Causeway, Al Jisr, Al Khobar 34714, Saudi Arabia",
+  "rating": {
+    "value": 4.6,
+    "count": 248,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "صواني سمك وروبيان على طريق الجسر",
+    "intro": "مطعم مأكولات بحرية في حي الجسر بالخبر، يقدّم صواني السمك المشوي والمقلي مع الرز، بتقييم 4.6 على Google.",
+    "image": "tray"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "سمك مشوي",
+      "روبيان",
+      "صواني عائلية",
+      "حي الجسر",
+      "حتى 11:30 مساءً"
+    ]
+  },
+  "story": {
+    "eyebrow": "من البحر إلى الصينية",
+    "title": "صيد اليوم",
+    "items": [
+      {
+        "label": "المشوي",
+        "title": "سمك بالبهارات",
+        "text": "سمك مشوي بتتبيلة حمراء ويُقدّم مع الليمون والخس.",
+        "image": "fish"
+      },
+      {
+        "label": "الصواني",
+        "title": "للعائلة والجمعة",
+        "text": "صواني كبيرة فيها السمك والروبيان فوق الرز.",
+        "image": "tray"
+      },
+      {
+        "label": "المكان",
+        "title": "على طريق الجسر",
+        "text": "واجهة مضيئة على الطريق إلى جسر الملك فهد.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.س",
+    "categories": [
+      {
+        "id": "grill",
+        "title": "المشويات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "سمك هامور مشوي (كيلو)",
+            "desc": "",
+            "price": 95
+          },
+          {
+            "name": "سمك سبيطي مشوي",
+            "desc": "",
+            "price": 70
+          }
+        ],
+        "image": "fish"
+      },
+      {
+        "id": "trays",
+        "title": "الصواني",
+        "tagline": "",
+        "items": [
+          {
+            "name": "صينية رزق الصياد العائلية",
+            "desc": "",
+            "price": 180
+          },
+          {
+            "name": "صينية روبيان ورز",
+            "desc": "",
+            "price": 85
+          }
+        ],
+        "image": "tray"
+      },
+      {
+        "id": "sides",
+        "title": "المقبلات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "سلطة خضراء",
+            "desc": "",
+            "price": 15
+          },
+          {
+            "name": "حمص",
+            "desc": "",
+            "price": 14
+          }
+        ],
+        "image": "front"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "fish": {
+      "file": "fish.jpg",
+      "alt": "صورة سمك مشوي بالبهارات مع الليمون",
+      "source_url": "https://wanderlog.com/place/details/13553285",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "tray": {
+      "file": "tray.jpg",
+      "alt": "صورة صينية سمك وروبيان على رز",
+      "source_url": "https://wanderlog.com/place/details/13553285",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة مطعم رزق الصياد ليلًا",
+      "source_url": "https://wanderlog.com/place/details/13553285",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "10 ص – 11:30 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

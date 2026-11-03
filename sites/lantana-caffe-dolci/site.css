@@ -1,0 +1,11 @@
+[data-site="lantana-caffe-dolci"] .marquee,[data-site="lantana-caffe-dolci"] .visit{position:relative}
+[data-site="lantana-caffe-dolci"] .marquee::before{content:"";position:absolute;inset:-14px 0 auto 0;height:14px;background:radial-gradient(14px 10px at 14px 0,transparent 12px,rgba(43, 127, 134,.55) 13px,transparent 14px) 0 0/28px 14px repeat-x;animation:amdwave 6s linear infinite}
+@keyframes amdwave{to{background-position:-280px 0}}
+@media (prefers-reduced-motion:reduce){[data-site="lantana-caffe-dolci"] .marquee::before{animation:none}}
+[data-site="lantana-caffe-dolci"] .amd-open{display:inline-flex;align-items:center;gap:.5em;margin-block:.2rem .9rem;padding:.42em .95em;border-radius:999px;font:600 .92rem var(--font-ui);background:rgba(var(--glow-rgb),.12);color:var(--ink);border:1px solid rgba(var(--glow-rgb),.35)}
+[data-site="lantana-caffe-dolci"] .amd-open b{width:.6em;height:.6em;border-radius:50%;background:#2E9E5B;box-shadow:0 0 0 0 rgba(46,158,91,.6);animation:amdpulse 2s infinite}
+[data-site="lantana-caffe-dolci"] .amd-open.is-closed b{background:#B4483C;animation:none}
+@keyframes amdpulse{70%{box-shadow:0 0 0 10px rgba(46,158,91,0)}100%{box-shadow:0 0 0 0 rgba(46,158,91,0)}}
+@media (prefers-reduced-motion:reduce){[data-site="lantana-caffe-dolci"] .amd-open b{animation:none}}
+[data-site="lantana-caffe-dolci"] .amd-caret::after{content:"|";margin-inline-start:2px;animation:amdcaret .8s steps(1) infinite}
+@keyframes amdcaret{50%{opacity:0}}

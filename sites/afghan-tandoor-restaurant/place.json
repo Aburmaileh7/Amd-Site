@@ -1,0 +1,214 @@
+{
+  "place_id": "ChIJlXSaptlbXz4Rvnth8aC80Fc",
+  "slug": "afghan-tandoor-restaurant",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#9E2B25",
+    "rgb": "158, 43, 37",
+    "hover": "#7E221D",
+    "ink": "#FFFFFF"
+  },
+  "name": "Afghan Tandoor",
+  "name_lang": "en",
+  "category_label": "مطعم أفغاني",
+  "area": "أبو شغارة، الشارقة",
+  "address": "أبو شغارة، الشارقة",
+  "phone": {
+    "display": "+971 6 559 9356",
+    "tel": "+97165599356"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Afghan%20Tandoor%20Restaurant&query_place_id=ChIJlXSaptlbXz4Rvnth8aC80Fc",
+  "map_query": "Afghan Tandoor Restaurant, King Abdul Aziz St, Bu Shaghara - Hay Al Qasimiah - Sharjah, United Arab Emirates",
+  "rating": {
+    "value": 4.7,
+    "count": 1994,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "تنور أفغاني في أبو شغارة حتى الثانية فجرًا",
+    "intro": "مطعم أفغاني على شارع الملك عبدالعزيز في الشارقة بتقييم 4.7 من قرابة 2,000 مراجعة، يذكر زواره التندوري والكباب، وفيه غرف خاصة للعائلات.",
+    "image": "chicken"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "reviews",
+    "marquee",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "تندوري",
+      "شابلي كباب",
+      "رز بخاري",
+      "غرف عائلية",
+      "حتى 2 فجرًا"
+    ]
+  },
+  "story": {
+    "eyebrow": "من التنور إلى السفرة",
+    "title": "الطعم الأفغاني",
+    "items": [
+      {
+        "label": "التنور",
+        "title": "دجاج تندوري",
+        "text": "دجاج متبل ومشوي في التنور، يذكره الزوار بأنه طري وغني بالعصارة.",
+        "image": "chicken"
+      },
+      {
+        "label": "العائلة",
+        "title": "غرف خاصة",
+        "text": "غرف خاصة للعائلات لمن يفضّل جلسة هادئة.",
+        "image": "lounge"
+      },
+      {
+        "label": "الواجهة",
+        "title": "على شارع الملك عبدالعزيز",
+        "text": "واجهة مضيئة بالنباتات في أبو شغارة.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.إ",
+    "categories": [
+      {
+        "id": "grill",
+        "title": "من التنور",
+        "tagline": "",
+        "items": [
+          {
+            "name": "دجاج تندوري",
+            "desc": "",
+            "price": 32
+          },
+          {
+            "name": "شابلي كباب",
+            "desc": "",
+            "price": 28
+          },
+          {
+            "name": "مشاوي أفغانية مشكلة",
+            "desc": "",
+            "price": 75
+          }
+        ],
+        "image": "chicken"
+      },
+      {
+        "id": "rice",
+        "title": "الرز",
+        "tagline": "",
+        "items": [
+          {
+            "name": "رز بخاري باللحم",
+            "desc": "",
+            "price": 45
+          },
+          {
+            "name": "رز كابلي",
+            "desc": "",
+            "price": 40
+          }
+        ],
+        "image": "lounge"
+      },
+      {
+        "id": "bread",
+        "title": "الخبز",
+        "tagline": "",
+        "items": [
+          {
+            "name": "خبز تنور",
+            "desc": "",
+            "price": 3
+          }
+        ],
+        "image": "front"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Shaikh A.",
+      "stars": 5,
+      "text": "My family had an amazing dinner last night at Afghan Tandoor Restaurant in Abu Shagara, Sharjah, and the name truly lives up to its reputation. The chicken tandoori, prepared in the traditional tandoor, was incredibly juicy and full of flavor. The mouth-watering kebab…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2tsWk5tTkpaWFpZZVdaT00wVkdhMHB6WlZsa1JtYxAB"
+    },
+    {
+      "author": "Gokul R.",
+      "stars": 5,
+      "text": "Had a great dining experience at Afghan Tandoor where I ordered chapli kebab and the mixed Afghan grill platter with Bukhari rice, everything was absolutely delicious. Good marinated meat and well flovoured rice. A special mention to Shurouk for the excellent and…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2pscVZVWkdRVFJ3WldsRFZtVXhlRFJWV1V0MmFIYxAB"
+    },
+    {
+      "author": "Maria M.",
+      "stars": 5,
+      "text": "I’ve visited Afghan Tandoor many times—probably around ten—and it has become one of my favorite restaurants in sharjha.The food is always delicious, with tender and juicy meat cooked to perfection. Each meal begins with complimentary salad and soup, and they even serve…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2w4d2FuTlFWRGxUYkZnM1NWUklNWEl4WldKU2JHYxAB"
+    },
+    {
+      "author": "Ahtesham A.",
+      "stars": 5,
+      "text": "Afghan Tandoor is an amazing place for delicious and authentic Afghan food. The flavors are rich, the meat is perfectly tender, and the tandoor aroma makes the food even better. The portions are generous, prices are reasonable, and the service is friendly and quick.…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2taTVFraDBVbDgzYzI1bE1HTk5lbnBYVmtoaloxRRAB"
+    }
+  ],
+  "mentions": [
+    "دجاج تندوري",
+    "شابلي كباب",
+    "رز بخاري"
+  ],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "lounge": {
+      "file": "lounge.jpg",
+      "alt": "صورة جلسة الاستقبال داخل Afghan Tandoor",
+      "source_url": "https://wanderlog.com/place/details/4071131",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة مطعم Afghan Tandoor ليلًا",
+      "source_url": "https://wanderlog.com/place/details/4071131",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "chicken": {
+      "file": "chicken.jpg",
+      "alt": "صورة دجاج تندوري مع السلطة",
+      "source_url": "https://wanderlog.com/place/details/4071131",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "12 م – 2 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

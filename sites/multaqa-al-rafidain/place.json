@@ -1,0 +1,184 @@
+{
+  "place_id": "ChIJk-GtdfPjST4RqKHCwN_7_A4",
+  "slug": "multaqa-al-rafidain",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#B5332A",
+    "rgb": "181, 51, 42",
+    "hover": "#932820",
+    "ink": "#FFFFFF"
+  },
+  "name": "مشويات ملتقى الرافدين",
+  "name_lang": "ar",
+  "category_label": "مشويات",
+  "area": "طيبة، الدمام",
+  "address": "طيبة، الدمام",
+  "phone": {
+    "display": "+966 55 754 3259",
+    "tel": "+966557543259"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B4%D9%88%D9%8A%D8%A7%D8%AA%20%D9%85%D9%84%D8%AA%D9%82%D9%8A%20%D8%A7%D9%84%D8%B1%D8%A7%D9%81%D8%AF%D9%8A%D9%86%20-%20%D8%B7%D9%8A%D8%A8%D8%A9&query_place_id=ChIJk-GtdfPjST4RqKHCwN_7_A4",
+  "map_query": "مشويات ملتقي الرافدين - طيبة, Al Imam Muhammad Ibn Abd Al Wahab, B4, Dammam, Saudi Arabia",
+  "rating": {
+    "value": 4.7,
+    "count": 9211,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "مشويات على الفحم حتى الواحدة فجرًا",
+    "intro": "مطعم مشويات في حي طيبة بالدمام بتقييم 4.7 من أكثر من 9,000 مراجعة، فيه صالة عائلية واسعة ويستقبل الطلبات المسبقة للمناسبات.",
+    "image": "plate"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "مشويات",
+      "أرز",
+      "مقبلات حارة وباردة",
+      "طلبات للمناسبات",
+      "حتى 1 فجرًا"
+    ]
+  },
+  "story": {
+    "eyebrow": "ملتقى الرافدين",
+    "title": "الفحم يتكلم",
+    "items": [
+      {
+        "label": "الصحن",
+        "title": "مشويات من الفحم",
+        "text": "أطباق مشويات تُقدّم ساخنة مع الخضار المشوية.",
+        "image": "plate"
+      },
+      {
+        "label": "الصالة",
+        "title": "مكان للتجمعات",
+        "text": "صالة داخلية مرتبة تناسب العزايم والجمعات.",
+        "image": "hall"
+      },
+      {
+        "label": "الواجهة",
+        "title": "في قلب طيبة",
+        "text": "واجهة كبيرة مضيئة على شارع الإمام محمد بن عبدالوهاب.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.س",
+    "categories": [
+      {
+        "id": "grill",
+        "title": "المشويات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "مشكل مشويات",
+            "desc": "",
+            "price": 65
+          },
+          {
+            "name": "كباب لحم",
+            "desc": "",
+            "price": 45
+          },
+          {
+            "name": "أوصال دجاج",
+            "desc": "",
+            "price": 38
+          }
+        ],
+        "image": "plate"
+      },
+      {
+        "id": "rice",
+        "title": "الأرز",
+        "tagline": "",
+        "items": [
+          {
+            "name": "رز بالمكسرات",
+            "desc": "",
+            "price": 18
+          }
+        ],
+        "image": "hall"
+      },
+      {
+        "id": "starters",
+        "title": "المقبلات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "متبل",
+            "desc": "",
+            "price": 14
+          },
+          {
+            "name": "سلطة عراقية",
+            "desc": "",
+            "price": 15
+          }
+        ],
+        "image": "hall"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "plate": {
+      "file": "plate.jpg",
+      "alt": "صورة طبق مشويات على الطاولة",
+      "source_url": "https://wanderlog.com/place/details/10659427",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة مشويات ملتقى الرافدين ليلًا",
+      "source_url": "https://wanderlog.com/place/details/10659427",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "hall": {
+      "file": "hall.jpg",
+      "alt": "صورة الصالة الداخلية للمطعم",
+      "source_url": "https://wanderlog.com/place/details/10659427",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "12 م – 1 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

@@ -1,0 +1,9 @@
+[data-site="the-tavern-eatery"] .hero__shade{animation:amdflicker 4s infinite steps(1)}
+@keyframes amdflicker{0%,100%{opacity:1}12%{opacity:.93}14%{opacity:1}52%{opacity:.96}54%{opacity:1}}
+[data-site="the-tavern-eatery"] .hero__title{text-shadow:0 0 24px rgba(208, 138, 46,.55),0 0 2px rgba(208, 138, 46,.9)}
+@media (prefers-reduced-motion:reduce){[data-site="the-tavern-eatery"] .hero__shade{animation:none}}
+[data-site="the-tavern-eatery"] .amd-open{display:inline-flex;align-items:center;gap:.5em;margin-block:.2rem .9rem;padding:.42em .95em;border-radius:999px;font:600 .92rem var(--font-ui);background:rgba(var(--glow-rgb),.12);color:var(--ink);border:1px solid rgba(var(--glow-rgb),.35)}
+[data-site="the-tavern-eatery"] .amd-open b{width:.6em;height:.6em;border-radius:50%;background:#2E9E5B;box-shadow:0 0 0 0 rgba(46,158,91,.6);animation:amdpulse 2s infinite}
+[data-site="the-tavern-eatery"] .amd-open.is-closed b{background:#B4483C;animation:none}
+@keyframes amdpulse{70%{box-shadow:0 0 0 10px rgba(46,158,91,0)}100%{box-shadow:0 0 0 0 rgba(46,158,91,0)}}
+@media (prefers-reduced-motion:reduce){[data-site="the-tavern-eatery"] .amd-open b{animation:none}}

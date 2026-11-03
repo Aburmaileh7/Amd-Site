@@ -1,0 +1,148 @@
+{
+  "place_id": "ChIJ-aGfnCNfXz4R8kqc2L770Ao",
+  "slug": "storie-cafe",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#C2577A",
+    "rgb": "194, 87, 122",
+    "hover": "#A2465F",
+    "ink": "#FFFFFF"
+  },
+  "name": "Storie Cafe",
+  "name_lang": "en",
+  "category_label": "مقهى ومكتبة صغيرة",
+  "area": "مويلح، الشارقة",
+  "address": "مويلح، الشارقة",
+  "phone": {
+    "display": "+971 56 606 4087",
+    "tel": "+971566064087"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Storie%20Cafe%20%D8%B3%D8%AA%D9%88%D8%B1%D9%8A%20%D9%83%D8%A7%D9%81%D9%8A%D9%87&query_place_id=ChIJ-aGfnCNfXz4R8kqc2L770Ao",
+  "map_query": "Storie Cafe ستوري كافيه, Muwaileh Commercial - Industrial Area - Sharjah, United Arab Emirates",
+  "rating": {
+    "value": 4.5,
+    "count": 951,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "قهوة ولاتيه الورد بين رفوف الكتب",
+    "intro": "مقهى في مويلح بالشارقة فيه مكتبة صغيرة للقرّاء، يذكر زواره لاتيه القرفة والورد وأطباق الفطور الملونة، بتقييم 4.5 من قرابة ألف مراجعة.",
+    "image": "cups"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "لاتيه القرفة والورد",
+      "مكتبة صغيرة",
+      "أطباق فطور",
+      "مويلح"
+    ]
+  },
+  "story": {
+    "eyebrow": "فصل من Storie",
+    "title": "اقرأ واشرب على مهلك",
+    "items": [
+      {
+        "label": "الأكواب",
+        "title": "لاتيه بالألوان",
+        "text": "أكواب لاتيه بألوان مختلفة على طاولة خشب.",
+        "image": "cups"
+      },
+      {
+        "label": "الفطور",
+        "title": "طبق مليء بالألوان",
+        "text": "فطور كامل بالبيض والخضار والسجق.",
+        "image": "breakfast"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.إ",
+    "categories": [
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "",
+        "items": [
+          {
+            "name": "لاتيه القرفة والورد",
+            "desc": "",
+            "price": 24
+          },
+          {
+            "name": "ماتشا لاتيه",
+            "desc": "",
+            "price": 25
+          },
+          {
+            "name": "فلات وايت",
+            "desc": "",
+            "price": 19
+          }
+        ],
+        "image": "cups"
+      },
+      {
+        "id": "food",
+        "title": "الفطور",
+        "tagline": "",
+        "items": [
+          {
+            "name": "فطور Storie الكامل",
+            "desc": "",
+            "price": 48
+          },
+          {
+            "name": "وعاء شيا وردي",
+            "desc": "",
+            "price": 32
+          }
+        ],
+        "image": "breakfast"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "cups"
+  },
+  "images": {
+    "breakfast": {
+      "file": "breakfast.jpg",
+      "alt": "صورة طبق فطور ملون في Storie Cafe",
+      "source_url": "https://wanderlog.com/place/details/1415991",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "cups": {
+      "file": "cups.jpg",
+      "alt": "صورة ثلاثة أكواب لاتيه داخل Storie Cafe",
+      "source_url": "https://wanderlog.com/place/details/1415991",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  }
+}

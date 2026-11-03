@@ -1,0 +1,184 @@
+{
+  "place_id": "ChIJh6q0ibGnST4RnQGCtwTRA6w",
+  "slug": "our-old-house",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#2F8C8C",
+    "rgb": "47, 140, 140",
+    "hover": "#257070",
+    "ink": "#FFFFFF"
+  },
+  "name": "بيتنا القديم",
+  "name_lang": "ar",
+  "category_label": "مطعم بحريني شعبي",
+  "area": "طريق اللؤلؤ، المحرق",
+  "address": "طريق اللؤلؤ، المحرق",
+  "phone": {
+    "display": "+973 3878 0002",
+    "tel": "+97338780002"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Our%20Old%20House%20-%20Bahraini%20Traditional%20Restaurant%20%28%D8%A8%D9%8A%D8%AA%D9%86%D8%A7%20%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85%20-%20%D9%85%D8%B7%D8%B9%D9%85%20%D8%A8%D8%AD%D8%B1%D9%8A%D9%86%D9%8A%20%D8%B4%D8%B9%D8%A8%D9%8A%29&query_place_id=ChIJh6q0ibGnST4RnQGCtwTRA6w",
+  "map_query": "Our Old House - Bahraini Traditional Restaurant (بيتنا القديم - مطعم بحريني شعبي), Shaikh Abdullah Bin Hamah Ave, Muharraq, Bahrain",
+  "rating": {
+    "value": 4.2,
+    "count": 633,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "أكل بحريني شعبي كأنك في بيت جدتك",
+    "intro": "مطعم بحريني شعبي على طريق اللؤلؤ في المحرق، يذكر زواره الروبيان المقلي بطحين الرز والعصائر الطازجة، بتقييم 4.2 من أكثر من 600 مراجعة.",
+    "image": "facade"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "روبيان مقلي",
+      "قبقب",
+      "عصائر طازجة",
+      "طريق اللؤلؤ",
+      "المحرق"
+    ]
+  },
+  "story": {
+    "eyebrow": "حكاية البيت",
+    "title": "طعم المحرق القديم",
+    "items": [
+      {
+        "label": "الواجهة",
+        "title": "نوافذ خشب زرقاء",
+        "text": "بيت قديم بنوافذ خشبية على طريق اللؤلؤ.",
+        "image": "facade"
+      },
+      {
+        "label": "السفرة",
+        "title": "قبقب وروبيان",
+        "text": "أطباق بحرية على سفرة بألوان شعبية.",
+        "image": "crab"
+      },
+      {
+        "label": "المدخل",
+        "title": "باب مفتوح للضيوف",
+        "text": "مدخل صغير يضيء في المساء.",
+        "image": "door"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.ب",
+    "categories": [
+      {
+        "id": "sea",
+        "title": "البحري",
+        "tagline": "",
+        "items": [
+          {
+            "name": "روبيان مقلي بطحين الرز",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "قبقب بالبهارات",
+            "desc": "",
+            "price": 4
+          },
+          {
+            "name": "مموش مقلي",
+            "desc": "",
+            "price": 3
+          }
+        ],
+        "image": "crab"
+      },
+      {
+        "id": "rice",
+        "title": "الرز",
+        "tagline": "",
+        "items": [
+          {
+            "name": "مچبوس دجاج",
+            "desc": "",
+            "price": 2.5
+          }
+        ],
+        "image": "door"
+      },
+      {
+        "id": "juice",
+        "title": "العصائر",
+        "tagline": "",
+        "items": [
+          {
+            "name": "عصير ليمون ونعناع",
+            "desc": "",
+            "price": 1
+          },
+          {
+            "name": "عصير مانجو",
+            "desc": "",
+            "price": 1.2
+          }
+        ],
+        "image": "facade"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "door"
+  },
+  "images": {
+    "facade": {
+      "file": "facade.jpg",
+      "alt": "صورة واجهة بيتنا القديم بالنوافذ الخشبية",
+      "source_url": "https://wanderlog.com/place/details/7444969",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "door": {
+      "file": "door.jpg",
+      "alt": "صورة مدخل بيتنا القديم ليلًا",
+      "source_url": "https://wanderlog.com/place/details/7444969",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "crab": {
+      "file": "crab.jpg",
+      "alt": "صورة طبق قبقب وروبيان على سفرة ملونة",
+      "source_url": "https://wanderlog.com/place/details/7444969",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "8 ص – 6 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

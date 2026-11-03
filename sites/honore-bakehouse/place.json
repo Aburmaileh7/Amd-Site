@@ -1,0 +1,195 @@
+{
+  "place_id": "ChIJOxg2ZZ9fXz4R_qu8Z1-kF2c",
+  "slug": "honore-bakehouse",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "bakery_cream",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#8A6A4F",
+    "rgb": "138, 106, 79",
+    "hover": "#6F5540",
+    "ink": "#FFFFFF"
+  },
+  "name": "HONORÉ Bakehouse",
+  "name_lang": "en",
+  "category_label": "مخبز فرنسي",
+  "area": "مويلح التجارية، الشارقة",
+  "address": "مويلح التجارية، الشارقة",
+  "phone": {
+    "display": "+971 56 355 1100",
+    "tel": "+971563551100"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=HONOR%C3%89%20BAKEHOUSE&query_place_id=ChIJOxg2ZZ9fXz4R_qu8Z1-kF2c",
+  "map_query": "HONORÉ BAKEHOUSE, Khalid Bin Sultan Al Qasimi Boulevard, Muwaileh Commercial - Sharjah, United Arab Emirates",
+  "rating": {
+    "value": 4.7,
+    "count": 1074,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "معجنات فرنسية في مويلح من السابعة صباحًا",
+    "intro": "مقهى ومخبز فرنسي على شارع خالد بن سلطان القاسمي في الشارقة، يذكر زواره الكرواسون والسينابون والكيك، بتقييم 4.7 من أكثر من ألف مراجعة.",
+    "image": "pastry"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "كرواسون",
+      "سينابون",
+      "كيك",
+      "قهوة",
+      "مويلح"
+    ]
+  },
+  "story": {
+    "eyebrow": "صباح في HONORÉ",
+    "title": "الفرنسي على طريقة الشارقة",
+    "items": [
+      {
+        "label": "العرض",
+        "title": "قطعة قطعة",
+        "text": "معجنات اليوم مصفوفة على الرخام مع اسم كل قطعة.",
+        "image": "pastry"
+      },
+      {
+        "label": "الفطور",
+        "title": "كرواسون محشو",
+        "text": "كرواسون بالبيض والصوص مع قهوة ساخنة.",
+        "image": "brunch"
+      },
+      {
+        "label": "الجلسة",
+        "title": "واجهة زجاج وكراسي خارجية",
+        "text": "جلسة خارجية صغيرة أمام الواجهة في مويلح.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.إ",
+    "categories": [
+      {
+        "id": "pastry",
+        "title": "المعجنات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "كرواسون زبدة",
+            "desc": "",
+            "price": 12
+          },
+          {
+            "name": "سينابون",
+            "desc": "",
+            "price": 16
+          },
+          {
+            "name": "كرواسون لوز",
+            "desc": "",
+            "price": 17
+          }
+        ],
+        "image": "pastry"
+      },
+      {
+        "id": "brunch",
+        "title": "الفطور",
+        "tagline": "",
+        "items": [
+          {
+            "name": "كرواسون بالبيض",
+            "desc": "",
+            "price": 34
+          },
+          {
+            "name": "كرواسون حلوم",
+            "desc": "",
+            "price": 29
+          }
+        ],
+        "image": "brunch"
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "شوكولاتة ساخنة",
+            "desc": "",
+            "price": 22
+          },
+          {
+            "name": "فلات وايت",
+            "desc": "",
+            "price": 20
+          }
+        ],
+        "image": "cup"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "brunch": {
+      "file": "brunch.jpg",
+      "alt": "صورة كرواسون محشو وقهوة على طاولة HONORÉ",
+      "source_url": "https://wanderlog.com/place/details/11993430",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "cup": {
+      "file": "cup.jpg",
+      "alt": "صورة فنجان شوكولاتة ساخنة",
+      "source_url": "https://wanderlog.com/place/details/11993430",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة HONORÉ Bakehouse والجلسة الخارجية",
+      "source_url": "https://wanderlog.com/place/details/11993430",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "pastry": {
+      "file": "pastry.jpg",
+      "alt": "صورة المعجنات معروضة على الرخام",
+      "source_url": "https://wanderlog.com/place/details/11993430",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "7 ص – 11 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

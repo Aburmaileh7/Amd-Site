@@ -1,0 +1,166 @@
+{
+  "place_id": "ChIJ7wxuwhZZXz4RicM2f04Eft8",
+  "slug": "omani-sweets-factory",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#B8741A",
+    "rgb": "184, 116, 26",
+    "hover": "#94600F",
+    "ink": "#FFFFFF"
+  },
+  "name": "المصنع العماني للحلوى",
+  "name_lang": "ar",
+  "category_label": "حلوى عمانية",
+  "area": "حلوان، الشارقة",
+  "address": "حلوان، الشارقة",
+  "phone": {
+    "display": "+971 6 567 1628",
+    "tel": "+97165671628"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Omani%20Sweets%20Factory&query_place_id=ChIJ7wxuwhZZXz4RicM2f04Eft8",
+  "map_query": "Omani Sweets Factory, 8CWJ+9W3, Al Abar - Halwan - Sharjah, United Arab Emirates",
+  "rating": {
+    "value": 4.6,
+    "count": 304,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "حلوى عمانية بالزعفران في قلب الشارقة",
+    "intro": "محل حلوى عمانية في حلوان بالشارقة، صاحبه عماني، ويذكر زواره الحلوى السادة والحلوى بالمكسرات وأن طعمها غير مبالغ في السكر.",
+    "image": "bowl"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "حلوى سادة",
+      "حلوى بالمكسرات",
+      "زعفران",
+      "للضيافة والمناسبات",
+      "حلوان"
+    ]
+  },
+  "story": {
+    "eyebrow": "حلوى البيت العماني",
+    "title": "زعفران وصبر",
+    "items": [
+      {
+        "label": "السادة",
+        "title": "الطعم الأصلي",
+        "text": "حلوى سادة بالزعفران، يمدحها الزوار لأنها غير مبالغ في سكرها.",
+        "image": "bowl"
+      },
+      {
+        "label": "المكسرات",
+        "title": "جوز وفستق",
+        "text": "حلوى مزينة بالمكسرات للضيافة.",
+        "image": "pot"
+      },
+      {
+        "label": "المحل",
+        "title": "في حلوان",
+        "text": "محل على الشارع في منطقة العابر – حلوان بالشارقة.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.إ",
+    "categories": [
+      {
+        "id": "halwa",
+        "title": "الحلوى",
+        "tagline": "بالكيلو",
+        "items": [
+          {
+            "name": "حلوى سادة (كيلو)",
+            "desc": "",
+            "price": 60
+          },
+          {
+            "name": "حلوى بالمكسرات (كيلو)",
+            "desc": "",
+            "price": 80
+          }
+        ],
+        "image": "bowl"
+      },
+      {
+        "id": "gift",
+        "title": "للضيافة",
+        "tagline": "",
+        "items": [
+          {
+            "name": "قِدر ضيافة صغير",
+            "desc": "",
+            "price": 95
+          },
+          {
+            "name": "علبة هدية",
+            "desc": "",
+            "price": 120
+          }
+        ],
+        "image": "pot"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "pot": {
+      "file": "pot.jpg",
+      "alt": "صورة حلوى عمانية بالجوز في قِدر للتقديم",
+      "source_url": "https://wanderlog.com/place/details/1846104",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "bowl": {
+      "file": "bowl.jpg",
+      "alt": "صورة حلوى عمانية بالفستق والجوز في وعاء خشبي",
+      "source_url": "https://wanderlog.com/place/details/1846104",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة المصنع العماني للحلوى",
+      "source_url": "https://wanderlog.com/place/details/1846104",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "8 ص – 10:30 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

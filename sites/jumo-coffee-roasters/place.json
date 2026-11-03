@@ -1,0 +1,213 @@
+{
+  "place_id": "ChIJEyiamuSEzz8RTV_Egjp50kI",
+  "slug": "jumo-coffee-roasters",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "gulf_luxe",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#A5302A",
+    "rgb": "165, 48, 42",
+    "hover": "#83261F",
+    "ink": "#FFFFFF"
+  },
+  "name": "JUMO Coffee Roasters",
+  "name_lang": "en",
+  "category_label": "محمصة ومقهى",
+  "area": "بيت السدو، مدينة الكويت",
+  "address": "بيت السدو، مدينة الكويت",
+  "phone": {
+    "display": "+965 9691 4392",
+    "tel": "+96596914392"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=JUMO%20COFFEE%20ROASTERS%20-%20Main%20Branch&query_place_id=ChIJEyiamuSEzz8RTV_Egjp50kI",
+  "map_query": "JUMO COFFEE ROASTERS - Main Branch, Near National Library, Inside Sadu House, 15 Arabian Gulf St, Kuwait City, Kuwait",
+  "rating": {
+    "value": 4.4,
+    "count": 174,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "قهوة مختصة داخل بيت السدو",
+    "intro": "محمصة ومقهى داخل بيت السدو التراثي على شارع الخليج العربي، يفتح من السادسة صباحًا، ويذكر زواره الكرك والفلات وايت والجلسة الهادئة.",
+    "image": "door"
+  },
+  "sections": [
+    "story",
+    "reviews",
+    "marquee",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "شاي كرك",
+      "فلات وايت",
+      "بيت السدو",
+      "شارع الخليج العربي",
+      "من 6 صباحًا"
+    ]
+  },
+  "story": {
+    "eyebrow": "قهوة في بيت قديم",
+    "title": "بين الأبواب الخشبية",
+    "items": [
+      {
+        "label": "المدخل",
+        "title": "بيت السدو",
+        "text": "المقهى داخل بيت السدو، بجوار معرض النسيج.",
+        "image": "door"
+      },
+      {
+        "label": "الكوب",
+        "title": "قهوة على الطريق",
+        "text": "قهوة مثلجة تأخذها معك على كورنيش الخليج.",
+        "image": "iced"
+      },
+      {
+        "label": "الطاولة",
+        "title": "قهوة وكيك",
+        "text": "كوب ساخن مع قطعة كيك في الحوش.",
+        "image": "cup"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.ك",
+    "categories": [
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "",
+        "items": [
+          {
+            "name": "فلات وايت",
+            "desc": "",
+            "price": 1.75
+          },
+          {
+            "name": "إسبريسو",
+            "desc": "",
+            "price": 1.25
+          },
+          {
+            "name": "قهوة مقطّرة",
+            "desc": "",
+            "price": 2
+          }
+        ],
+        "image": "cup"
+      },
+      {
+        "id": "tea",
+        "title": "الشاي",
+        "tagline": "",
+        "items": [
+          {
+            "name": "شاي كرك",
+            "desc": "",
+            "price": 1
+          }
+        ],
+        "image": "door"
+      },
+      {
+        "id": "sweet",
+        "title": "الحلو",
+        "tagline": "",
+        "items": [
+          {
+            "name": "كيكة الشوكولاتة",
+            "desc": "",
+            "price": 2.25
+          },
+          {
+            "name": "تيراميسو",
+            "desc": "",
+            "price": 2.5
+          }
+        ],
+        "image": "cup"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "serene",
+      "stars": 5,
+      "text": "Great coffee (and it comes with a free donut, yum!). Chic decor and friendly staff. Checked all the boxes and more. Be sure to visit the textile gallery next door!",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUNCMlo2X0RnEAE"
+    },
+    {
+      "author": "Rashed A.",
+      "stars": 5,
+      "text": "Best Karak tea, and also best flat white coffee",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSUNUanVHOXdnRRAB"
+    },
+    {
+      "author": "Fahad A.",
+      "stars": 5,
+      "text": "Nice atmosphere. Love their coffee 💙 located at Sadu House. It has a unique vibe. Instagram @fahadtrips",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSURhdjhtampnRRAB"
+    },
+    {
+      "author": "Talal A.",
+      "stars": 5,
+      "text": "Roastry one fine Cafe, located inside Bait Albader (Historical landmark) the atmosphere is so cozy and beautiful highly recommended for a coffee break in the middle of the day, idol for having a friend gathering. Coffee and espresso and much more for quite menu with…",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSURlaHZlN1p3EAE"
+    }
+  ],
+  "mentions": [
+    "شاي كرك",
+    "فلات وايت"
+  ],
+  "visit": {
+    "image": "door"
+  },
+  "images": {
+    "door": {
+      "file": "door.jpg",
+      "alt": "صورة مدخل JUMO داخل بيت السدو",
+      "source_url": "https://wanderlog.com/place/details/1514563",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "iced": {
+      "file": "iced.jpg",
+      "alt": "صورة كوب قهوة مثلجة من JUMO وأبراج الكويت خلفه",
+      "source_url": "https://wanderlog.com/place/details/1514563",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "cup": {
+      "file": "cup.jpg",
+      "alt": "صورة كوب قهوة وقطعة كيك في JUMO",
+      "source_url": "https://wanderlog.com/place/details/1514563",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "6 ص – 10:30 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

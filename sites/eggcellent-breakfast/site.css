@@ -1,0 +1,8 @@
+[data-site="eggcellent-breakfast"] .hero::after{content:"";position:absolute;width:min(46vw,420px);aspect-ratio:1;border-radius:50%;inset-inline-start:-8vw;top:-10vw;pointer-events:none;z-index:-1;background:radial-gradient(circle,rgb(224, 161, 0) 0 38%,rgba(255,255,255,.95) 39% 100%);opacity:.35;animation:amdbob 7s ease-in-out infinite}
+@keyframes amdbob{50%{transform:translateY(18px) rotate(8deg)}}
+@media (prefers-reduced-motion:reduce){[data-site="eggcellent-breakfast"] .hero::after{animation:none}}
+[data-site="eggcellent-breakfast"] .amd-open{display:inline-flex;align-items:center;gap:.5em;margin-block:.2rem .9rem;padding:.42em .95em;border-radius:999px;font:600 .92rem var(--font-ui);background:rgba(var(--glow-rgb),.12);color:var(--ink);border:1px solid rgba(var(--glow-rgb),.35)}
+[data-site="eggcellent-breakfast"] .amd-open b{width:.6em;height:.6em;border-radius:50%;background:#2E9E5B;box-shadow:0 0 0 0 rgba(46,158,91,.6);animation:amdpulse 2s infinite}
+[data-site="eggcellent-breakfast"] .amd-open.is-closed b{background:#B4483C;animation:none}
+@keyframes amdpulse{70%{box-shadow:0 0 0 10px rgba(46,158,91,0)}100%{box-shadow:0 0 0 0 rgba(46,158,91,0)}}
+@media (prefers-reduced-motion:reduce){[data-site="eggcellent-breakfast"] .amd-open b{animation:none}}

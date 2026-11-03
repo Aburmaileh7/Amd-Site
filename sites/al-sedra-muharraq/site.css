@@ -1,0 +1,2 @@
+[data-site="al-sedra-muharraq"] .hero::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:-1;opacity:.12;background-image:radial-gradient(circle at 50% 50%,transparent 9px,rgb(78, 122, 58) 10px,transparent 11px),radial-gradient(circle at 0 0,transparent 9px,rgb(78, 122, 58) 10px,transparent 11px);background-size:28px 28px}
+[data-site="al-sedra-muharraq"] .photo{border-radius:120px 120px 14px 14px;overflow:hidden}

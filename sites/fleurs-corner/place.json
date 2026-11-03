@@ -1,0 +1,166 @@
+{
+  "place_id": "ChIJSea0ORibzz8Rr4Ys80Jz8Kk",
+  "slug": "fleurs-corner",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#C24A86",
+    "rgb": "194, 74, 134",
+    "hover": "#A13C6F",
+    "ink": "#FFFFFF"
+  },
+  "name": "Fleur's Corner",
+  "name_lang": "en",
+  "category_label": "مقهى بحديقة",
+  "area": "الخالدية، مدينة الكويت",
+  "address": "الخالدية، مدينة الكويت",
+  "phone": {
+    "display": "+965 2209 1212",
+    "tel": "+96522091212"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Fleur%27s%20Corner%20Khaldiya&query_place_id=ChIJSea0ORibzz8Rr4Ys80Jz8Kk",
+  "map_query": "Fleur's Corner Khaldiya, 9 28 St, Kuwait City, Kuwait",
+  "rating": {
+    "value": 4.5,
+    "count": 492,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "لاتيه الورد في حديقة الخالدية",
+    "intro": "مقهى في الخالدية بجلسة خارجية بين الجهنميات والأشجار، يذكر زواره لاتيه الورد والخدمة الودودة، بتقييم 4.5 من قرابة 500 مراجعة.",
+    "image": "garden"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "marquee",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "لاتيه الورد",
+      "حديقة خارجية",
+      "كرواسون",
+      "الخالدية",
+      "من 6 صباحًا"
+    ]
+  },
+  "story": {
+    "eyebrow": "زاوية فلور",
+    "title": "قهوة بين الورد",
+    "items": [
+      {
+        "label": "الحديقة",
+        "title": "جهنمية وطاولات خشب",
+        "text": "جلسة خارجية بين الأشجار والورد.",
+        "image": "garden"
+      },
+      {
+        "label": "الطاولة",
+        "title": "كرواسون ولاتيه",
+        "text": "فطور بسيط على طاولة رخام.",
+        "image": "croissant"
+      },
+      {
+        "label": "الداخل",
+        "title": "هادئ ومرتب",
+        "text": "كاونتر صغير وجلسات مريحة.",
+        "image": "inside"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.ك",
+    "categories": [
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "",
+        "items": [
+          {
+            "name": "لاتيه الورد",
+            "desc": "",
+            "price": 1.9
+          },
+          {
+            "name": "سبانش لاتيه",
+            "desc": "",
+            "price": 1.75
+          }
+        ],
+        "image": "croissant"
+      },
+      {
+        "id": "bakery",
+        "title": "المخبوزات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "كرواسون زبدة",
+            "desc": "",
+            "price": 1
+          },
+          {
+            "name": "كيكة اليوم",
+            "desc": "",
+            "price": 1.75
+          }
+        ],
+        "image": "inside"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "garden"
+  },
+  "images": {
+    "inside": {
+      "file": "inside.jpg",
+      "alt": "صورة الكاونتر الداخلي في Fleur's Corner",
+      "source_url": "https://wanderlog.com/place/details/3308063",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "croissant": {
+      "file": "croissant.jpg",
+      "alt": "صورة كرواسون ولاتيه على طاولة رخام",
+      "source_url": "https://wanderlog.com/place/details/3308063",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "garden": {
+      "file": "garden.jpg",
+      "alt": "صورة واجهة Fleur's Corner والحديقة",
+      "source_url": "https://wanderlog.com/place/details/3308063",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "6 ص – 11 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

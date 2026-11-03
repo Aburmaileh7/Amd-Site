@@ -1,0 +1,194 @@
+{
+  "place_id": "ChIJycipLTavST4RoZz-I5Yia0k",
+  "slug": "bindaira-cafe",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "gulf_luxe",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#B2302F",
+    "rgb": "178, 48, 47",
+    "hover": "#8F2726",
+    "ink": "#FFFFFF"
+  },
+  "name": "مقهى البنديرة",
+  "name_lang": "ar",
+  "category_label": "مقهى ومطعم شرقي",
+  "area": "العدلية، المنامة",
+  "address": "العدلية، المنامة",
+  "phone": {
+    "display": "+973 1774 4066",
+    "tel": "+97317744066"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Bindaira%20Cafe%20-%20Adliya&query_place_id=ChIJycipLTavST4RoZz-I5Yia0k",
+  "map_query": "Bindaira Cafe - Adliya, Building 171 Rd No 2608, Manama, Bahrain",
+  "rating": {
+    "value": 4.2,
+    "count": 3628,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "كباب وكنافة وقهوة عربية في العدلية",
+    "intro": "مقهى ومطعم شرقي في العدلية بثريات وأقواس وجلسات زجاجية، يفتح من الصباح حتى بعد منتصف الليل، بتقييم 4.2 من أكثر من 3,600 مراجعة.",
+    "image": "arches"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "كباب",
+      "كنافة",
+      "قهوة عربية وتمر",
+      "العدلية",
+      "حتى 1:30 فجرًا"
+    ]
+  },
+  "story": {
+    "eyebrow": "ليالي العدلية",
+    "title": "ثريات وأقواس",
+    "items": [
+      {
+        "label": "القاعة",
+        "title": "أقواس وثريا",
+        "text": "ديكور شرقي بأقواس حجرية وثريا كبيرة.",
+        "image": "arches"
+      },
+      {
+        "label": "الطبق",
+        "title": "كباب على الخبز",
+        "text": "كباب مشوي مع البطاطس والخضار.",
+        "image": "kebab"
+      },
+      {
+        "label": "الجلسة",
+        "title": "زجاج وكنب أحمر",
+        "text": "جلسات مريحة تحت سقف زجاجي.",
+        "image": "lounge"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.ب",
+    "categories": [
+      {
+        "id": "grill",
+        "title": "المشويات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "كباب لحم",
+            "desc": "",
+            "price": 3.2
+          },
+          {
+            "name": "شيش طاووق",
+            "desc": "",
+            "price": 2.8
+          }
+        ],
+        "image": "kebab"
+      },
+      {
+        "id": "sweet",
+        "title": "الحلو",
+        "tagline": "",
+        "items": [
+          {
+            "name": "كنافة",
+            "desc": "",
+            "price": 2
+          },
+          {
+            "name": "تمر وقهوة عربية",
+            "desc": "",
+            "price": 1
+          }
+        ],
+        "image": "lounge"
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "شاي كرك",
+            "desc": "",
+            "price": 0.6
+          },
+          {
+            "name": "ليمون ونعناع",
+            "desc": "",
+            "price": 1.2
+          }
+        ],
+        "image": "glass"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "glass"
+  },
+  "images": {
+    "glass": {
+      "file": "glass.jpg",
+      "alt": "صورة الجلسة الزجاجية داخل مقهى البنديرة",
+      "source_url": "https://wanderlog.com/place/details/1461354",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "kebab": {
+      "file": "kebab.jpg",
+      "alt": "صورة طبق كباب مع البطاطس",
+      "source_url": "https://wanderlog.com/place/details/1461354",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "arches": {
+      "file": "arches.jpg",
+      "alt": "صورة الأقواس والثريا داخل مقهى البنديرة",
+      "source_url": "https://wanderlog.com/place/details/1461354",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "lounge": {
+      "file": "lounge.jpg",
+      "alt": "صورة جلسة الكنب الأحمر تحت الثريا",
+      "source_url": "https://wanderlog.com/place/details/1461354",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "9:30 ص – 1:30 ص"
+      },
+      {
+        "days": "الخميس – الجمعة",
+        "time": "9:30 ص – 2:30 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "place_id": "ChIJs7-HAADf0z0RHvrq7TPICkw",
+  "slug": "lantana-caffe-dolci",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#2B7F86",
+    "rgb": "43, 127, 134",
+    "hover": "#21666C",
+    "ink": "#FFFFFF"
+  },
+  "name": "Lantana Caffe & Dolci",
+  "name_lang": "en",
+  "category_label": "مقهى وحلويات",
+  "area": "البليد، صلالة",
+  "address": "البليد، صلالة",
+  "phone": {
+    "display": "+968 9749 7710",
+    "tel": "+96897497710"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Lantana%20Caffe%20%26%20Dolci&query_place_id=ChIJs7-HAADf0z0RHvrq7TPICkw",
+  "map_query": "Lantana Caffe & Dolci, 243M+Q6F, Salalah, Oman",
+  "rating": {
+    "value": 3.9,
+    "count": 392,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "فطور وحلويات على شاطئ البليد",
+    "intro": "مقهى قريب من شاطئ البليد في صلالة بنوافذ واسعة ونور طبيعي، يفتح من الثامنة صباحًا حتى الواحدة بعد منتصف الليل.",
+    "image": "tea"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "شاي العصر",
+      "بيض بنديكت",
+      "إطلالة بحر",
+      "البليد",
+      "حتى 1 فجرًا"
+    ]
+  },
+  "story": {
+    "eyebrow": "يوم على البليد",
+    "title": "من الفطور إلى الليل",
+    "items": [
+      {
+        "label": "العصرية",
+        "title": "حلويات أمام البحر",
+        "text": "حامل حلويات وشاي على طاولة تطل على الموج.",
+        "image": "tea"
+      },
+      {
+        "label": "الفطور",
+        "title": "بيض بنديكت",
+        "text": "فطور بعيد عن شمس الظهر.",
+        "image": "eggs"
+      },
+      {
+        "label": "الليل",
+        "title": "لافتة مضيئة",
+        "text": "المقهى يبقى مفتوحًا حتى الواحدة بعد منتصف الليل.",
+        "image": "night"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.ع",
+    "categories": [
+      {
+        "id": "breakfast",
+        "title": "الفطور",
+        "tagline": "",
+        "items": [
+          {
+            "name": "بيض بنديكت",
+            "desc": "",
+            "price": 3.2
+          },
+          {
+            "name": "كرواسون بالجبن",
+            "desc": "",
+            "price": 1.8
+          }
+        ],
+        "image": "eggs"
+      },
+      {
+        "id": "dolci",
+        "title": "الحلويات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "حامل شاي العصر لشخصين",
+            "desc": "",
+            "price": 7.5
+          },
+          {
+            "name": "تشيز كيك",
+            "desc": "",
+            "price": 2
+          }
+        ],
+        "image": "tea"
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "لاتيه",
+            "desc": "",
+            "price": 1.6
+          },
+          {
+            "name": "عصير توت",
+            "desc": "",
+            "price": 1.5
+          }
+        ],
+        "image": "night"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "night"
+  },
+  "images": {
+    "night": {
+      "file": "night.jpg",
+      "alt": "صورة لافتة Lantana المضيئة ليلًا",
+      "source_url": "https://wanderlog.com/place/details/10717829",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "tea": {
+      "file": "tea.jpg",
+      "alt": "صورة حامل حلويات وشاي أمام البحر",
+      "source_url": "https://wanderlog.com/place/details/10717829",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "eggs": {
+      "file": "eggs.jpg",
+      "alt": "صورة طبق بيض بنديكت",
+      "source_url": "https://wanderlog.com/place/details/10717829",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "8 ص – 1 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

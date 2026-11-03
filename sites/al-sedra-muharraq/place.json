@@ -1,0 +1,149 @@
+{
+  "place_id": "ChIJT2zvjOmnST4Rzlt3jqJ5teg",
+  "slug": "al-sedra-muharraq",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#4E7A3A",
+    "rgb": "78, 122, 58",
+    "hover": "#3E622E",
+    "ink": "#FFFFFF"
+  },
+  "name": "السدرة",
+  "name_lang": "ar",
+  "category_label": "مطعم ومقهى",
+  "area": "المحرق",
+  "address": "المحرق",
+  "phone": {
+    "display": "+973 3999 6645",
+    "tel": "+97339996645"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%E2%80%8FAL%20SEDRA&query_place_id=ChIJT2zvjOmnST4Rzlt3jqJ5teg",
+  "map_query": "‏AL SEDRA, 53 bldg 355, Shop 40 road, Muharraq, Bahrain",
+  "rating": {
+    "value": 4.5,
+    "count": 486,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "فطور بحريني تحت سقف من الأوراق",
+    "intro": "مطعم ومقهى في المحرق قرب طريق اللؤلؤ، يذكر زواره الفطور التقليدي المحضّر بعناية والخدمة الدافئة، بتقييم 4.5 على Google.",
+    "image": "vines"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "فطور بحريني",
+      "بلاليط",
+      "خبز رقاق",
+      "المحرق",
+      "طريق اللؤلؤ"
+    ]
+  },
+  "story": {
+    "eyebrow": "صباح في المحرق",
+    "title": "ظل السدرة",
+    "items": [
+      {
+        "label": "الجلسة",
+        "title": "سقف أخضر",
+        "text": "جلسة بطاولات خشب تحت سقف من النباتات المتدلية.",
+        "image": "vines"
+      },
+      {
+        "label": "المكان",
+        "title": "قرب طريق اللؤلؤ",
+        "text": "محل صغير في حي المحرق القديم.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.ب",
+    "categories": [
+      {
+        "id": "breakfast",
+        "title": "الفطور البحريني",
+        "tagline": "",
+        "items": [
+          {
+            "name": "بلاليط",
+            "desc": "",
+            "price": 1.8
+          },
+          {
+            "name": "خبز رقاق بالبيض",
+            "desc": "",
+            "price": 1.2
+          },
+          {
+            "name": "باجلا",
+            "desc": "",
+            "price": 1
+          }
+        ],
+        "image": "vines"
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "شاي حليب",
+            "desc": "",
+            "price": 0.4
+          },
+          {
+            "name": "قهوة عربية",
+            "desc": "",
+            "price": 0.5
+          }
+        ],
+        "image": "front"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "vines": {
+      "file": "vines.jpg",
+      "alt": "صورة الجلسة تحت سقف النباتات في السدرة",
+      "source_url": "https://wanderlog.com/place/details/14071582",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة السدرة ليلًا",
+      "source_url": "https://wanderlog.com/place/details/14071582",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  }
+}

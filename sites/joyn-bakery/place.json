@@ -1,0 +1,184 @@
+{
+  "place_id": "ChIJU1EADPjZwxURy3qXYnlBHA0",
+  "slug": "joyn-bakery",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "bakery_cream",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#2F5D46",
+    "rgb": "47, 93, 70",
+    "hover": "#244A37",
+    "ink": "#FFFFFF"
+  },
+  "name": "Joyn Bakery",
+  "name_lang": "en",
+  "category_label": "مخبز وحلويات",
+  "area": "حي المحمدية، جدة",
+  "address": "حي المحمدية، جدة",
+  "phone": {
+    "display": "+966 56 769 6660",
+    "tel": "+966567696660"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Joyn%20bakery&query_place_id=ChIJU1EADPjZwxURy3qXYnlBHA0",
+  "map_query": "Joyn bakery, Haleemah Al-Sa'adiyah, Al Mohammadiyyah, Jeddah 23623, Saudi Arabia",
+  "rating": {
+    "value": 4,
+    "count": 381,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "برطمانات كوكيز وتارت كراميل في المحمدية",
+    "intro": "مخبز صغير في شارع حليمة السعدية بجدة يجمع بين النكهات الأوروبية والعربية: ساندويتشات وتغميسات وتارت كراميل، وبرطمانات كوكيز جاهزة للإهداء.",
+    "image": "jars"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "marquee",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "برطمانات للإهداء",
+      "تارت الكراميل",
+      "ساندويتشات",
+      "تغميسات",
+      "حي المحمدية"
+    ]
+  },
+  "story": {
+    "eyebrow": "من رفوف Joyn",
+    "title": "هدية في برطمان",
+    "items": [
+      {
+        "label": "الرفوف",
+        "title": "برطمانات جاهزة",
+        "text": "كوكيز وكراكرز في برطمانات زجاجية مرتبة على رفوف خشب.",
+        "image": "jars"
+      },
+      {
+        "label": "الحلى",
+        "title": "تارت كراميل",
+        "text": "تارت بقشرة مقرمشة يذكره الزوار بين أبرز الحلويات.",
+        "image": "pie"
+      },
+      {
+        "label": "الجلسة",
+        "title": "واجهة بيضاء وخضراء",
+        "text": "جلسة خارجية صغيرة على شارع حليمة السعدية للفطور الهادئ.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.س",
+    "categories": [
+      {
+        "id": "sweet",
+        "title": "الحلويات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تارت الكراميل",
+            "desc": "",
+            "price": 24
+          },
+          {
+            "name": "تارت الفواكه",
+            "desc": "",
+            "price": 22
+          }
+        ],
+        "image": "pie"
+      },
+      {
+        "id": "jars",
+        "title": "البرطمانات",
+        "tagline": "للإهداء",
+        "items": [
+          {
+            "name": "برطمان كوكيز",
+            "desc": "",
+            "price": 45
+          },
+          {
+            "name": "برطمان كراكرز",
+            "desc": "",
+            "price": 39
+          }
+        ],
+        "image": "jars"
+      },
+      {
+        "id": "savory",
+        "title": "المالح",
+        "tagline": "",
+        "items": [
+          {
+            "name": "ساندويتش حلومي",
+            "desc": "",
+            "price": 28
+          },
+          {
+            "name": "طبق تغميسات",
+            "desc": "",
+            "price": 32
+          }
+        ],
+        "image": "front"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة Joyn Bakery في المحمدية",
+      "source_url": "https://wanderlog.com/place/details/4385461",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "jars": {
+      "file": "jars.jpg",
+      "alt": "صورة رفوف برطمانات الكوكيز والبسكويت",
+      "source_url": "https://wanderlog.com/place/details/4385461",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "pie": {
+      "file": "pie.jpg",
+      "alt": "صورة تارت الكراميل مع القشطة",
+      "source_url": "https://wanderlog.com/place/details/4385461",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "9 ص – 11 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

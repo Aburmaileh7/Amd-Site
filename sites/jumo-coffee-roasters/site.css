@@ -1,0 +1,7 @@
+[data-site="jumo-coffee-roasters"] .marquee{border-block:10px solid transparent;border-image:repeating-linear-gradient(90deg,rgb(165, 48, 42) 0 18px,#1d1d1b 18px 22px,#f2e6d0 22px 34px,#1d1d1b 34px 38px) 10}
+[data-site="jumo-coffee-roasters"] .hero__content::after{content:"";display:block;width:min(260px,60%);height:12px;margin-top:22px;background:repeating-linear-gradient(45deg,rgb(165, 48, 42) 0 6px,transparent 6px 12px),repeating-linear-gradient(-45deg,rgb(165, 48, 42) 0 6px,transparent 6px 12px);opacity:.8}
+[data-site="jumo-coffee-roasters"] .amd-open{display:inline-flex;align-items:center;gap:.5em;margin-block:.2rem .9rem;padding:.42em .95em;border-radius:999px;font:600 .92rem var(--font-ui);background:rgba(var(--glow-rgb),.12);color:var(--ink);border:1px solid rgba(var(--glow-rgb),.35)}
+[data-site="jumo-coffee-roasters"] .amd-open b{width:.6em;height:.6em;border-radius:50%;background:#2E9E5B;box-shadow:0 0 0 0 rgba(46,158,91,.6);animation:amdpulse 2s infinite}
+[data-site="jumo-coffee-roasters"] .amd-open.is-closed b{background:#B4483C;animation:none}
+@keyframes amdpulse{70%{box-shadow:0 0 0 10px rgba(46,158,91,0)}100%{box-shadow:0 0 0 0 rgba(46,158,91,0)}}
+@media (prefers-reduced-motion:reduce){[data-site="jumo-coffee-roasters"] .amd-open b{animation:none}}

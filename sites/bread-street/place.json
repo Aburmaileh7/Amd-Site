@@ -1,0 +1,184 @@
+{
+  "place_id": "ChIJt7MpMQCFzz8RtZlOu64NPRE",
+  "slug": "bread-street",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "bakery_cream",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#C8402E",
+    "rgb": "200, 64, 46",
+    "hover": "#A33324",
+    "ink": "#FFFFFF"
+  },
+  "name": "Bread Street",
+  "name_lang": "en",
+  "category_label": "مخبز ودلي",
+  "area": "مركز جابر الأحمد الثقافي، مدينة الكويت",
+  "address": "مركز جابر الأحمد الثقافي، مدينة الكويت",
+  "phone": {
+    "display": "+965 9667 2295",
+    "tel": "+96596672295"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Bread%20Street&query_place_id=ChIJt7MpMQCFzz8RtZlOu64NPRE",
+  "map_query": "Bread Street, Sheikh Jaber Al-Ahmad Culture Centre, Arabian Gulf St, Kuwait City, Kuwait",
+  "rating": {
+    "value": 4.5,
+    "count": 290,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "مخبز صغير بروح ريترو في مركز جابر الثقافي",
+    "intro": "مايكرو بيكري ودلي في مركز الشيخ جابر الأحمد الثقافي، يذكر زواره تارتين الفطر والفرنش توست السميك، بتقييم 4.5 على Google.",
+    "image": "toast"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "تارتين الفطر",
+      "فرنش توست سميك",
+      "خبز اليوم",
+      "مركز جابر الثقافي",
+      "من 8 صباحًا"
+    ]
+  },
+  "story": {
+    "eyebrow": "شارع الخبز",
+    "title": "صغير ومليان تفاصيل",
+    "items": [
+      {
+        "label": "الجلسة",
+        "title": "ديكور ريترو",
+        "text": "كراسي معدن ولوحات ملونة على الجدار.",
+        "image": "inside"
+      },
+      {
+        "label": "الطاولة",
+        "title": "توست وقهوة",
+        "text": "ساندويتشات على خبز محمّص مع القهوة.",
+        "image": "toast"
+      },
+      {
+        "label": "الواجهة",
+        "title": "تحت المظلة",
+        "text": "واجهة بحروف كبيرة داخل مركز جابر الأحمد الثقافي.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.ك",
+    "categories": [
+      {
+        "id": "tartine",
+        "title": "التارتين",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تارتين الفطر والبيض",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "تارتين الأفوكادو",
+            "desc": "",
+            "price": 3.25
+          }
+        ],
+        "image": "toast"
+      },
+      {
+        "id": "sweet",
+        "title": "الحلو",
+        "tagline": "",
+        "items": [
+          {
+            "name": "فرنش توست سميك",
+            "desc": "",
+            "price": 3.25
+          },
+          {
+            "name": "كرواسون",
+            "desc": "",
+            "price": 1.25
+          }
+        ],
+        "image": "inside"
+      },
+      {
+        "id": "drinks",
+        "title": "القهوة",
+        "tagline": "",
+        "items": [
+          {
+            "name": "فلات وايت",
+            "desc": "",
+            "price": 1.75
+          },
+          {
+            "name": "لاتيه مثلج",
+            "desc": "",
+            "price": 2
+          }
+        ],
+        "image": "front"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "inside": {
+      "file": "inside.jpg",
+      "alt": "صورة الجلسة الداخلية بطابع ريترو في Bread Street",
+      "source_url": "https://wanderlog.com/place/details/13423803",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "toast": {
+      "file": "toast.jpg",
+      "alt": "صورة ساندويتش توست بالبيض مع القهوة",
+      "source_url": "https://wanderlog.com/place/details/13423803",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة Bread Street والجلسات",
+      "source_url": "https://wanderlog.com/place/details/13423803",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "8 ص – 11 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

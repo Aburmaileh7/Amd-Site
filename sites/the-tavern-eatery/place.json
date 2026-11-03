@@ -1,0 +1,196 @@
+{
+  "place_id": "ChIJn7Cz_HqvST4RQZ7WTEYt-Ro",
+  "slug": "the-tavern-eatery",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "rooftop_dark",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#D08A2E",
+    "rgb": "208, 138, 46",
+    "hover": "#AD7024",
+    "ink": "#1a140c"
+  },
+  "name": "The Tavern",
+  "name_lang": "en",
+  "category_label": "مطعم وألعاب",
+  "area": "المنامة",
+  "address": "المنامة",
+  "phone": {
+    "display": "+973 3689 5555",
+    "tel": "+97336895555"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=The%20Tavern%20Eatery%20and%20Hobbies&query_place_id=ChIJn7Cz_HqvST4RQZ7WTEYt-Ro",
+  "map_query": "The Tavern Eatery and Hobbies, Restaurant 935, 0338, 973 Road 3830, Manama 973, Bahrain",
+  "rating": {
+    "value": 4.8,
+    "count": 289,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "مطعم بروح القرون الوسطى وألعاب الطاولة",
+    "intro": "مطعم في المنامة بديكور خشبي وأجواء خيالية تشبه حانات القصص القديمة، بتقييم 4.8 على Google، ويذكر زواره برانش الديك الرومي للعائلة.",
+    "image": "feast"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "برانش الديك الرومي",
+      "ألعاب طاولة",
+      "ديكور خيالي",
+      "للعائلة",
+      "المنامة"
+    ]
+  },
+  "story": {
+    "eyebrow": "ادخل الحكاية",
+    "title": "خشب وشموع وألعاب",
+    "items": [
+      {
+        "label": "القاعة",
+        "title": "كأنها من فيلم",
+        "text": "طاولات خشب ورفوف ونباتات معلقة.",
+        "image": "hall"
+      },
+      {
+        "label": "الوليمة",
+        "title": "سفرة كاملة",
+        "text": "أطباق كثيرة للمشاركة على طاولة واحدة.",
+        "image": "feast"
+      },
+      {
+        "label": "المدخل",
+        "title": "لافتة اللعبة",
+        "text": "مدخل بلافتات ملونة لعشاق الألعاب.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.ب",
+    "categories": [
+      {
+        "id": "feast",
+        "title": "الولائم",
+        "tagline": "",
+        "items": [
+          {
+            "name": "برانش الديك الرومي",
+            "desc": "",
+            "price": 12
+          },
+          {
+            "name": "طبق المغامر المشكل",
+            "desc": "",
+            "price": 8
+          }
+        ],
+        "image": "feast"
+      },
+      {
+        "id": "mains",
+        "title": "الأطباق",
+        "tagline": "",
+        "items": [
+          {
+            "name": "رز بالثوم",
+            "desc": "",
+            "price": 1.5
+          },
+          {
+            "name": "خبز الذرة",
+            "desc": "",
+            "price": 1.5
+          }
+        ],
+        "image": "hall"
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "عصير التوت",
+            "desc": "",
+            "price": 2
+          },
+          {
+            "name": "شوكولاتة ساخنة",
+            "desc": "",
+            "price": 2
+          }
+        ],
+        "image": "front"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "hall": {
+      "file": "hall.jpg",
+      "alt": "صورة القاعة الخشبية والنباتات في The Tavern",
+      "source_url": "https://wanderlog.com/place/details/12861118",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "feast": {
+      "file": "feast.jpg",
+      "alt": "صورة سفرة مليئة بالأطباق على طاولة خشب",
+      "source_url": "https://wanderlog.com/place/details/12861118",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة مدخل The Tavern ولافتة اللعبة",
+      "source_url": "https://wanderlog.com/place/details/12861118",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت",
+        "time": "1 م – 12 منتصف الليل"
+      },
+      {
+        "days": "الأحد – الأربعاء",
+        "time": "5 م – 12 منتصف الليل"
+      },
+      {
+        "days": "الخميس",
+        "time": "5 م – 2 ص"
+      },
+      {
+        "days": "الجمعة",
+        "time": "1 م – 2 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

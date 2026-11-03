@@ -1,0 +1,5 @@
+[data-site="storie-cafe"] main{--amd-p:0}
+[data-site="storie-cafe"] .proof,[data-site="storie-cafe"] .visit{background:linear-gradient(180deg,transparent,rgba(194, 87, 122,calc(.04 + var(--amd-p) * .16)))}
+[data-site="storie-cafe"] .amd-caret::after{content:"|";margin-inline-start:2px;animation:amdcaret .8s steps(1) infinite}
+@keyframes amdcaret{50%{opacity:0}}
+[data-site="storie-cafe"] .amd-chip{display:inline-block;margin-top:18px;padding:.5em 1.1em;border-radius:999px;font:700 .95rem var(--font-ui);background:rgb(194, 87, 122);color:#fff;transform:rotate(-2deg)}

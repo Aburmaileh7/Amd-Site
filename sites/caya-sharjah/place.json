@@ -1,0 +1,188 @@
+{
+  "place_id": "ChIJ3bwUksH19T4RyTioSaeP0Vg",
+  "slug": "caya-sharjah",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "gulf_luxe",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#5E7D4A",
+    "rgb": "94, 125, 74",
+    "hover": "#4B643B",
+    "ink": "#FFFFFF"
+  },
+  "name": "caya",
+  "name_lang": "en",
+  "category_label": "مطعم ومقهى",
+  "area": "المدينة الجامعية، الشارقة",
+  "address": "المدينة الجامعية، الشارقة",
+  "phone": {
+    "display": "+971 56 480 4682",
+    "tel": "+971564804682"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Caya&query_place_id=ChIJ3bwUksH19T4RyTioSaeP0Vg",
+  "map_query": "Caya, Sharjah Arab Cultural Capital Monument, Al Dhaid Rd, University City - Sharjah, United Arab Emirates",
+  "rating": {
+    "value": 4.8,
+    "count": 6135,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "بيتزا الحطب ومساحة خضراء للعائلة",
+    "intro": "مطعم ومقهى عند نصب الشارقة عاصمة الثقافة العربية، فيه مساحة عشب واسعة يلعب فيها الأطفال، بتقييم 4.8 من أكثر من 6,000 مراجعة.",
+    "image": "front"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "بيتزا الحطب",
+      "مساحة خضراء",
+      "للعائلة والأطفال",
+      "المدينة الجامعية",
+      "من 8 صباحًا"
+    ]
+  },
+  "story": {
+    "eyebrow": "يوم في caya",
+    "title": "أقواس وعشب وفرن",
+    "items": [
+      {
+        "label": "المدخل",
+        "title": "أقواس عند الغروب",
+        "text": "مبنى بأقواس مضيئة عند نصب الشارقة عاصمة الثقافة.",
+        "image": "front"
+      },
+      {
+        "label": "الفرن",
+        "title": "بيتزا بعجينة منتفخة",
+        "text": "بيتزا بأطراف محمّرة وإضافات موسمية.",
+        "image": "pizza"
+      },
+      {
+        "label": "السفرة",
+        "title": "للمشاركة",
+        "text": "أطباق كبيرة تُطلب للمشاركة مع العائلة.",
+        "image": "table"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.إ",
+    "categories": [
+      {
+        "id": "pizza",
+        "title": "البيتزا",
+        "tagline": "",
+        "items": [
+          {
+            "name": "بيتزا مارجريتا",
+            "desc": "",
+            "price": 48
+          },
+          {
+            "name": "بيتزا الرمان والجبن",
+            "desc": "",
+            "price": 58
+          }
+        ],
+        "image": "pizza"
+      },
+      {
+        "id": "mains",
+        "title": "الأطباق",
+        "tagline": "",
+        "items": [
+          {
+            "name": "رز بالدجاج المشوي",
+            "desc": "",
+            "price": 62
+          },
+          {
+            "name": "سلطة البيت",
+            "desc": "",
+            "price": 38
+          }
+        ],
+        "image": "table"
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "موهيتو نعناع",
+            "desc": "",
+            "price": 28
+          },
+          {
+            "name": "عصير برتقال",
+            "desc": "",
+            "price": 22
+          }
+        ],
+        "image": "table"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة مدخل caya بالأقواس والإضاءة عند الغروب",
+      "source_url": "https://wanderlog.com/place/details/4364117",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "pizza": {
+      "file": "pizza.jpg",
+      "alt": "صورة بيتزا بالرمان والتوت مع الخبز",
+      "source_url": "https://wanderlog.com/place/details/4364117",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "table": {
+      "file": "table.jpg",
+      "alt": "صورة سفرة فيها بيتزا ورز ومشروبات",
+      "source_url": "https://wanderlog.com/place/details/4364117",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأحد",
+        "time": "8 ص – 1 ص"
+      },
+      {
+        "days": "الاثنين – الجمعة",
+        "time": "8 ص – 12 منتصف الليل"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

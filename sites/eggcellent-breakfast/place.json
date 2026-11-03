@@ -1,0 +1,188 @@
+{
+  "place_id": "ChIJScYfeMKEzz8ROpIXDF9rbl0",
+  "slug": "eggcellent-breakfast",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#E0A100",
+    "rgb": "224, 161, 0",
+    "hover": "#B88400",
+    "ink": "#1d1a14"
+  },
+  "name": "Eggcellent",
+  "name_lang": "en",
+  "category_label": "مطعم فطور",
+  "area": "شارع الشهداء، مدينة الكويت",
+  "address": "شارع الشهداء، مدينة الكويت",
+  "phone": {
+    "display": "+965 2245 8447",
+    "tel": "+96522458447"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Eggcellent%20Breakfast&query_place_id=ChIJScYfeMKEzz8ROpIXDF9rbl0",
+  "map_query": "Eggcellent Breakfast, Al-Shuhada St, Kuwait City, Kuwait",
+  "rating": {
+    "value": 4.3,
+    "count": 289,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "كل أطباق البيض، بلمسة جديدة",
+    "intro": "مطعم فطور على شارع الشهداء متخصص في أطباق البيض، يفتح من السادسة والنصف صباحًا حتى العصر، وفيه جلسة خارجية تحت المظلات.",
+    "image": "burger"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "برجر البيض",
+      "ساندويتش بيض",
+      "فطور حتى العصر",
+      "شارع الشهداء"
+    ]
+  },
+  "story": {
+    "eyebrow": "صباح Eggcellent",
+    "title": "البيض بطل الطبق",
+    "items": [
+      {
+        "label": "البرجر",
+        "title": "بيضة فوق كل شيء",
+        "text": "برجر فطور بالبيض مع بطاطس.",
+        "image": "burger"
+      },
+      {
+        "label": "الساندويتش",
+        "title": "بيض طري في خبز",
+        "text": "ساندويتش بيض مخفوق في خبز مستدير.",
+        "image": "bagel"
+      },
+      {
+        "label": "الجلسة",
+        "title": "تحت المظلات",
+        "text": "جلسة خارجية بطاولات خشب.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "د.ك",
+    "categories": [
+      {
+        "id": "eggs",
+        "title": "أطباق البيض",
+        "tagline": "",
+        "items": [
+          {
+            "name": "برجر البيض",
+            "desc": "",
+            "price": 2.75
+          },
+          {
+            "name": "ساندويتش البيض والجبن",
+            "desc": "",
+            "price": 2.25
+          },
+          {
+            "name": "شكشوكة",
+            "desc": "",
+            "price": 2.5
+          }
+        ],
+        "image": "burger"
+      },
+      {
+        "id": "sides",
+        "title": "جانبي",
+        "tagline": "",
+        "items": [
+          {
+            "name": "بطاطس",
+            "desc": "",
+            "price": 1
+          },
+          {
+            "name": "هاش براون",
+            "desc": "",
+            "price": 1
+          }
+        ],
+        "image": "bagel"
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "عصير برتقال",
+            "desc": "",
+            "price": 1.5
+          },
+          {
+            "name": "قهوة أمريكية",
+            "desc": "",
+            "price": 1.25
+          }
+        ],
+        "image": "front"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "burger": {
+      "file": "burger.jpg",
+      "alt": "صورة برجر بالبيض مع البطاطس",
+      "source_url": "https://wanderlog.com/place/details/3308055",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة الجلسة الخارجية لمطعم Eggcellent",
+      "source_url": "https://wanderlog.com/place/details/3308055",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "bagel": {
+      "file": "bagel.jpg",
+      "alt": "صورة ساندويتش بيض في خبز مستدير",
+      "source_url": "https://wanderlog.com/place/details/3308055",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "6:30 ص – 3:30 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

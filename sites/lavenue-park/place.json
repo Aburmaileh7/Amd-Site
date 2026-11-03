@@ -1,0 +1,182 @@
+{
+  "place_id": "ChIJ52t0pfHf0z0RYXHO82SY8nM",
+  "slug": "lavenue-park",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "gulf_luxe",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#B08D3C",
+    "rgb": "176, 141, 60",
+    "hover": "#8F722F",
+    "ink": "#1a160c"
+  },
+  "name": "L'AVENUE Park",
+  "name_lang": "en",
+  "category_label": "مطعم ومقهى",
+  "area": "شارع النهضة، صلالة",
+  "address": "شارع النهضة، صلالة",
+  "phone": {
+    "display": "+968 9331 3270",
+    "tel": "+96893313270"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=L%E2%80%99AVENUE%20Park&query_place_id=ChIJ52t0pfHf0z0RYXHO82SY8nM",
+  "map_query": "L’AVENUE Park, شارع النهضة، صلالة،, Salalah, Oman",
+  "rating": {
+    "value": 4.2,
+    "count": 1175,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "فطور هادئ بين الأشجار في صلالة",
+    "intro": "مطعم ومقهى على شارع النهضة في صلالة، يذكر زواره بيض L'AVENUE على البريوش وسلطة البحر المتوسط والتشيز كيك بالشوكولاتة.",
+    "image": "gate"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "بيض على البريوش",
+      "سلطة متوسطية",
+      "تشيز كيك شوكولاتة",
+      "شارع النهضة"
+    ]
+  },
+  "story": {
+    "eyebrow": "ادخل من البوابة",
+    "title": "حديقة في وسط المدينة",
+    "items": [
+      {
+        "label": "البوابة",
+        "title": "ممر بين الأشجار",
+        "text": "بوابات متتالية تأخذك إلى الجلسة.",
+        "image": "gate"
+      },
+      {
+        "label": "الفطور",
+        "title": "سفرة كاملة",
+        "text": "فطور بالفول والبيض والخبز والأطباق الصغيرة.",
+        "image": "spread"
+      },
+      {
+        "label": "المدخل",
+        "title": "زجاج وأشجار",
+        "text": "مدخل زجاجي تحت ظل الشجر.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.ع",
+    "categories": [
+      {
+        "id": "breakfast",
+        "title": "الفطور",
+        "tagline": "",
+        "items": [
+          {
+            "name": "بيض L'AVENUE على البريوش",
+            "desc": "",
+            "price": 2.8
+          },
+          {
+            "name": "فطور عربي لشخصين",
+            "desc": "",
+            "price": 6
+          }
+        ],
+        "image": "spread"
+      },
+      {
+        "id": "mains",
+        "title": "الأطباق",
+        "tagline": "",
+        "items": [
+          {
+            "name": "سلطة البحر المتوسط",
+            "desc": "",
+            "price": 2.5
+          },
+          {
+            "name": "باستا ألفريدو بالدجاج",
+            "desc": "",
+            "price": 3.8
+          }
+        ],
+        "image": "front"
+      },
+      {
+        "id": "sweet",
+        "title": "الحلو",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تشيز كيك شوكولاتة",
+            "desc": "",
+            "price": 2
+          }
+        ],
+        "image": "gate"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "spread": {
+      "file": "spread.jpg",
+      "alt": "صورة سفرة فطور كاملة في L'AVENUE Park",
+      "source_url": "https://wanderlog.com/place/details/3041643",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة مدخل L'AVENUE Park الزجاجي",
+      "source_url": "https://wanderlog.com/place/details/3041643",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "gate": {
+      "file": "gate.jpg",
+      "alt": "صورة بوابة الترحيب في L'AVENUE Park",
+      "source_url": "https://wanderlog.com/place/details/3041643",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "8 ص – 12 منتصف الليل"
+      },
+      {
+        "days": "الخميس – الجمعة",
+        "time": "8 ص – 1 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "place_id": "ChIJhYKoSQzbwxURnmIJtoNwk5w",
+  "slug": "le-beurre-bakery",
+  "batch_id": "amd-gulf-20261103",
+  "theme": "bakery_cream",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#C98A1B",
+    "rgb": "201, 138, 27",
+    "hover": "#A87112",
+    "ink": "#1d1a14"
+  },
+  "name": "Le Beurre Bakery",
+  "name_lang": "en",
+  "category_label": "مخبز كرواسون",
+  "area": "حي الزهراء، جدة",
+  "address": "حي الزهراء، جدة",
+  "phone": {
+    "display": "+966 53 668 2382",
+    "tel": "+966536682382"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Le%20Beurre%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D9%84%D9%88%D8%A8%D9%8A%D8%BA&query_place_id=ChIJhYKoSQzbwxURnmIJtoNwk5w",
+  "map_query": "Le Beurre Bakery مخبز لوبيغ, Al Batarji, Al Zahra, Jeddah 23522, Saudi Arabia",
+  "rating": {
+    "value": 4.5,
+    "count": 919,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "كرواسون بالزبدة من السادسة والنصف صباحًا",
+    "intro": "مخبز كرواسون وقهوة في حي الزهراء بجدة، يذكر زواره البان أو شوكولا بالغاناش، وطابق علوي هادئ للعمل، بتقييم 4.5 من أكثر من 900 مراجعة.",
+    "image": "pain"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أبرز ما يميّز المكان",
+    "items": [
+      "بان أو شوكولا بالغاناش",
+      "كرواسون مالح وحلو",
+      "قهوة مختصة",
+      "طابق علوي للعمل",
+      "من 6:30 صباحًا"
+    ]
+  },
+  "story": {
+    "eyebrow": "من الفرن إلى الطابق العلوي",
+    "title": "طبقات من الزبدة",
+    "items": [
+      {
+        "label": "الصباح",
+        "title": "يفتح مع الفجر",
+        "text": "الأبواب تفتح السادسة والنصف كل يوم، والكرواسون يخرج من الفرن مع أول فنجان.",
+        "image": "pain"
+      },
+      {
+        "label": "الكاونتر",
+        "title": "حلو ومالح",
+        "text": "كرواسون محشو للفطور وقطع بالكاسترد والفواكه للحلى.",
+        "image": "sandwich"
+      },
+      {
+        "label": "الطابق الثاني",
+        "title": "مكان للعمل بهدوء",
+        "text": "جلسة علوية يذكرها الزوار للعمل وحدك أو مع زملائك.",
+        "image": "upstairs"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "نموذج",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.س",
+    "categories": [
+      {
+        "id": "sweet",
+        "title": "الحلو",
+        "tagline": "من الفرن",
+        "items": [
+          {
+            "name": "بان أو شوكولا بالغاناش",
+            "desc": "",
+            "price": 16
+          },
+          {
+            "name": "كرواسون بالزبدة",
+            "desc": "",
+            "price": 12
+          },
+          {
+            "name": "كرواسون كاسترد وتوت",
+            "desc": "",
+            "price": 19
+          }
+        ],
+        "image": "trays"
+      },
+      {
+        "id": "savory",
+        "title": "المالح",
+        "tagline": "للفطور",
+        "items": [
+          {
+            "name": "كرواسون حبش وجبن",
+            "desc": "",
+            "price": 24
+          },
+          {
+            "name": "كرواسون زعتر وجبنة",
+            "desc": "",
+            "price": 18
+          }
+        ],
+        "image": "sandwich"
+      },
+      {
+        "id": "drinks",
+        "title": "القهوة",
+        "tagline": "",
+        "items": [
+          {
+            "name": "سبانش لاتيه",
+            "desc": "",
+            "price": 19
+          },
+          {
+            "name": "قهوة اليوم",
+            "desc": "",
+            "price": 14
+          }
+        ],
+        "image": "upstairs"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "images": {
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة Le Beurre في حي الزهراء",
+      "source_url": "https://wanderlog.com/place/details/12097996",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "trays": {
+      "file": "trays.jpg",
+      "alt": "صورة صواني الكرواسون والقهوة على الطاولة",
+      "source_url": "https://wanderlog.com/place/details/12097996",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "pain": {
+      "file": "pain.jpg",
+      "alt": "صورة قريبة لقطعة بان أو شوكولا مقرمشة",
+      "source_url": "https://wanderlog.com/place/details/12097996",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "sandwich": {
+      "file": "sandwich.jpg",
+      "alt": "صورة كرواسون محشو وكرواسون بالكاسترد على صينية خشب",
+      "source_url": "https://wanderlog.com/place/details/12097996",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "upstairs": {
+      "file": "upstairs.jpg",
+      "alt": "صورة كرواسون وقهوة في الجلسة الداخلية",
+      "source_url": "https://wanderlog.com/place/details/12097996",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "6:30 ص – 11 م"
+      },
+      {
+        "days": "الخميس – الجمعة",
+        "time": "6:30 ص – 2 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}
