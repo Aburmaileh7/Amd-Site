@@ -1,0 +1,1 @@
+(function(){if(reduce)return;var c=document.querySelector('.hero__content');if(!c)return;var s=document.createElement('div');s.className='amd-steam';s.setAttribute('aria-hidden','true');s.innerHTML='<i></i><i></i><i></i>';c.prepend(s);})();

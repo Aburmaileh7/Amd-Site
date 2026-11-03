@@ -1,0 +1,8 @@
+[data-site="mughal-biryani-dammam"] .hero__content{position:relative}
+[data-site="mughal-biryani-dammam"] .amd-steam{position:absolute;inset-inline-start:12%;top:-10px;width:120px;height:90px;pointer-events:none}
+[data-site="mughal-biryani-dammam"] .amd-steam i{position:absolute;bottom:0;width:26px;height:26px;border-radius:50%;background:rgba(var(--glow-rgb),.35);filter:blur(10px);animation:amdsteam 3.6s ease-in infinite}
+[data-site="mughal-biryani-dammam"] .amd-steam i:nth-child(2){left:40px;animation-delay:1.2s}
+[data-site="mughal-biryani-dammam"] .amd-steam i:nth-child(3){left:80px;animation-delay:2.4s}
+@keyframes amdsteam{0%{transform:translateY(0) scale(.6);opacity:0}30%{opacity:.9}100%{transform:translateY(-80px) scale(1.6);opacity:0}}
+@media (prefers-reduced-motion:reduce){[data-site="mughal-biryani-dammam"] .amd-steam{display:none}}
+[data-site="mughal-biryani-dammam"] .menu{background-image:radial-gradient(rgba(var(--glow-rgb),.18) 1.5px,transparent 1.6px);background-size:22px 22px}

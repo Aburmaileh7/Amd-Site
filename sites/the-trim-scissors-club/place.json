@@ -1,0 +1,248 @@
+{
+  "place_id": "amd-notion-40d5cb524e448107812df86a92e9437f",
+  "slug": "the-trim-scissors-club",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "صفحة الحجز العامة للصالون على Fresha",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#B08D57",
+    "rgb": "176, 141, 87",
+    "hover": "#94743F",
+    "ink": "#14110C"
+  },
+  "name": "The Trim Scissors Club",
+  "name_lang": "en",
+  "category_label": "صالون حلاقة رجالي",
+  "area": "العدلية، المنامة",
+  "address": "مبنى 1461، طريق 2728، مجمع 327، العدلية، المنامة",
+  "phone": {
+    "display": "+973 6660 6613",
+    "tel": "+97366606613"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=The%20Trim%20Scissors%20Club%20Adliya%20Manama%20Bahrain",
+  "map_query": "The Trim Scissors Club, Adliya, Manama, Bahrain",
+  "rating": {
+    "value": 5.0,
+    "count": 900,
+    "source": "Fresha"
+  },
+  "hero": {
+    "headline": "فيد نظيف وحلاقة بالموس في قلب العدلية",
+    "intro": "صالون رجالي بأرضية الشطرنج والمرايا السوداء، يفتح يوميًا حتى منتصف الليل تقريبًا، وتقييمه 5.0 من 900 مراجعة على Fresha.",
+    "image": "interior"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "من قائمة الخدمات",
+    "items": [
+      "سكن فيد",
+      "تيبر فيد",
+      "حلاقة بالموس",
+      "تحديد اللحية",
+      "علاج فروة الرأس"
+    ]
+  },
+  "story": {
+    "eyebrow": "داخل الصالون",
+    "title": "كرسي واحد، تفاصيل كثيرة",
+    "items": [
+      {
+        "label": "المكان",
+        "title": "أرضية الشطرنج",
+        "text": "كراسي جلد سوداء ومغاسل بيضاء على أرضية مربعات بالأبيض والأسود.",
+        "image": "interior"
+      },
+      {
+        "label": "الشغل",
+        "title": "دقة في الفيد",
+        "text": "زبون يكتب أنه حصل على أنظف فيد، وآخر يقول إنهم يعرفون قص الشعر المجعد.",
+        "image": "chair"
+      },
+      {
+        "label": "الرف",
+        "title": "منتجات العناية",
+        "text": "علاجات لفروة الرأس والقشرة وتغذية الشعر ضمن الخدمات المنشورة.",
+        "image": "work"
+      },
+      {
+        "label": "المدخل",
+        "title": "باب زجاجي في العدلية",
+        "text": "المبنى 1461 على طريق 2728، والمواقف متوفرة حسب صفحة الحجز.",
+        "image": "door"
+      }
+    ]
+  },
+  "menu": {
+    "title": "الخدمات والأسعار",
+    "eyebrow": "من صفحة الحجز",
+    "currency": "د.ب",
+    "sample": false,
+    "note": "الخدمات والأسعار منقولة من صفحة الحجز المنشورة للصالون على Fresha، وقد تتغير.",
+    "categories": [
+      {
+        "id": "cuts",
+        "title": "القصات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "قصة شعر بسيطة",
+            "desc": "",
+            "price": 2
+          },
+          {
+            "name": "قصة فيد حديثة",
+            "desc": "",
+            "price": 3
+          },
+          {
+            "name": "سكن فيد / تيبر فيد",
+            "desc": "",
+            "price": 3
+          },
+          {
+            "name": "هاي فيد",
+            "desc": "",
+            "price": 3.5
+          },
+          {
+            "name": "بومبادور",
+            "desc": "",
+            "price": 3
+          }
+        ],
+        "image": "chair"
+      },
+      {
+        "id": "beard",
+        "title": "اللحية والحلاقة",
+        "tagline": "",
+        "items": [
+          {
+            "name": "حلاقة تقليدية بالموس",
+            "desc": "",
+            "price": 1.5
+          },
+          {
+            "name": "تخفيف وتحديد بسيط للحية",
+            "desc": "",
+            "price": 2
+          },
+          {
+            "name": "تشذيب وتصفيف اللحية / فيد",
+            "desc": "",
+            "price": 3
+          }
+        ],
+        "image": "work"
+      },
+      {
+        "id": "care",
+        "title": "اللون والعناية",
+        "tagline": "",
+        "items": [
+          {
+            "name": "صبغة كاملة (عادية)",
+            "desc": "",
+            "price": 2
+          },
+          {
+            "name": "صبغة كاملة (فاخرة)",
+            "desc": "",
+            "price": 6
+          },
+          {
+            "name": "علاج تغذية الشعر",
+            "desc": "",
+            "price": 3
+          },
+          {
+            "name": "علاج تنظيف فروة الرأس",
+            "desc": "",
+            "price": 6
+          }
+        ],
+        "image": "interior"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Ali R.",
+      "stars": 5,
+      "text": "Absolute perfection Tayyab took their time paid close attention to the detail, and gave me the cleanest fade",
+      "source_ref": "https://www.fresha.com/a/the-trim-scissors-club-manama-the-trim-scissors-club-building-1461-road-2728-block-327-adliya-manama-bahrain-xc9yqzoi"
+    },
+    {
+      "author": "Abbas A.",
+      "stars": 5,
+      "text": "Ive been looking for a good barber for so long am happy i found this barbershop they know how to cut curly hair!!!",
+      "source_ref": "https://www.fresha.com/a/the-trim-scissors-club-manama-the-trim-scissors-club-building-1461-road-2728-block-327-adliya-manama-bahrain-xc9yqzoi"
+    },
+    {
+      "author": "Roshan",
+      "stars": 5,
+      "text": "You did an amazing job  Zain Thanks you",
+      "source_ref": "https://www.fresha.com/a/the-trim-scissors-club-manama-the-trim-scissors-club-building-1461-road-2728-block-327-adliya-manama-bahrain-xc9yqzoi"
+    },
+    {
+      "author": "Marios",
+      "stars": 5,
+      "text": "Good service.",
+      "source_ref": "https://www.fresha.com/a/the-trim-scissors-club-manama-the-trim-scissors-club-building-1461-road-2728-block-327-adliya-manama-bahrain-xc9yqzoi"
+    }
+  ],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "10 ص – 11:55 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Fresha"
+  },
+  "visit": {
+    "image": "door"
+  },
+  "whatsapp": null,
+  "images": {
+    "interior": {
+      "file": "interior.jpg",
+      "alt": "صورة داخل صالون The Trim Scissors Club",
+      "source_url": "https://www.fresha.com/a/the-trim-scissors-club-manama-the-trim-scissors-club-building-1461-road-2728-block-327-adliya-manama-bahrain-xc9yqzoi",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "chair": {
+      "file": "chair.jpg",
+      "alt": "صورة كراسي الحلاقة والمرايا في الصالون",
+      "source_url": "https://www.fresha.com/a/the-trim-scissors-club-manama-the-trim-scissors-club-building-1461-road-2728-block-327-adliya-manama-bahrain-xc9yqzoi",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "work": {
+      "file": "work.jpg",
+      "alt": "صورة حلاق يعمل على قصة شعر داخل الصالون",
+      "source_url": "https://www.fresha.com/a/the-trim-scissors-club-manama-the-trim-scissors-club-building-1461-road-2728-block-327-adliya-manama-bahrain-xc9yqzoi",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "door": {
+      "file": "door.jpg",
+      "alt": "صورة مدخل الصالون في العدلية ليلًا",
+      "source_url": "https://www.fresha.com/a/the-trim-scissors-club-manama-the-trim-scissors-club-building-1461-road-2728-block-327-adliya-manama-bahrain-xc9yqzoi",
+      "credit": "من صفحة الحجز على Fresha"
+    }
+  }
+}

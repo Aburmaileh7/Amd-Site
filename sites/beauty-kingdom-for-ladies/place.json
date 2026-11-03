@@ -1,0 +1,250 @@
+{
+  "place_id": "amd-notion-40d5cb524e448120b26affd57b3d0f41",
+  "slug": "beauty-kingdom-for-ladies",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "صفحة الحجز العامة للصالون على Fresha",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#7A1F3D",
+    "rgb": "122, 31, 61",
+    "hover": "#621832",
+    "ink": "#FFFFFF"
+  },
+  "name": "Beauty Kingdom for Ladies",
+  "name_lang": "en",
+  "category_label": "صالون وسبا نسائي",
+  "area": "الدوحة، قطر",
+  "address": "8G42+464، الدوحة",
+  "phone": {
+    "display": "+974 5544 2831",
+    "tel": "+97455442831"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=8G42%2B464%20Doha%20Qatar",
+  "map_query": "8G42+464, Doha, Qatar",
+  "rating": {
+    "value": 4.9,
+    "count": 302,
+    "source": "Fresha"
+  },
+  "hero": {
+    "headline": "حمام مغربي ومساج وباديكير بكراسي عنابية",
+    "intro": "صالون وسبا للسيدات في الدوحة، يفتح يوميًا من 9 صباحًا حتى 8 مساءً، وتقييمه 4.9 من 302 مراجعة على Fresha.",
+    "image": "spa"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "أقسام المملكة",
+    "title": "غرفة لكل خدمة",
+    "items": [
+      {
+        "label": "السبا",
+        "title": "سريران للمساج",
+        "text": "غرفة هادئة بستائر بنية لجلسات المساج والحمام المغربي.",
+        "image": "spa"
+      },
+      {
+        "label": "الباديكير",
+        "title": "الكراسي العنابية",
+        "text": "ثلاثة كراسي باديكير بلون عنابي وزهور على الطاولة.",
+        "image": "pedi"
+      },
+      {
+        "label": "الشعر",
+        "title": "مغاسل ومرايا",
+        "text": "قص الشعر للسيدات والأطفال وقص الغرّة ضمن القائمة.",
+        "image": "hair"
+      },
+      {
+        "label": "الأظافر",
+        "title": "جدار الألوان",
+        "text": "طاولات مناكير بيضاء أمام جدار من طلاءات الأظافر.",
+        "image": "nails"
+      }
+    ]
+  },
+  "menu": {
+    "title": "الخدمات والأسعار",
+    "eyebrow": "من صفحة الحجز",
+    "currency": "ر.ق",
+    "sample": false,
+    "note": "الخدمات والأسعار منقولة من صفحة الحجز المنشورة على Fresha، وقد تتغير.",
+    "categories": [
+      {
+        "id": "spa",
+        "title": "السبا",
+        "tagline": "",
+        "items": [
+          {
+            "name": "مساج استرخاء للجسم",
+            "desc": "",
+            "price": 500
+          },
+          {
+            "name": "حمام مغربي خاص",
+            "desc": "",
+            "price": 800
+          },
+          {
+            "name": "تنظيف البشرة",
+            "desc": "",
+            "price": 800
+          }
+        ],
+        "image": "spa"
+      },
+      {
+        "id": "nails",
+        "title": "الأظافر",
+        "tagline": "",
+        "items": [
+          {
+            "name": "مناكير روسي",
+            "desc": "",
+            "price": 100
+          },
+          {
+            "name": "باديكير روسي",
+            "desc": "",
+            "price": 120
+          },
+          {
+            "name": "مناكير عادي",
+            "desc": "",
+            "price": 160
+          },
+          {
+            "name": "باديكير عادي",
+            "desc": "",
+            "price": 200
+          }
+        ],
+        "image": "pedi"
+      },
+      {
+        "id": "hair",
+        "title": "الشعر",
+        "tagline": "",
+        "items": [
+          {
+            "name": "قص شعر",
+            "desc": "",
+            "price": 150
+          },
+          {
+            "name": "قص شعر أطفال",
+            "desc": "",
+            "price": 100
+          },
+          {
+            "name": "قص غرّة",
+            "desc": "",
+            "price": 50
+          }
+        ],
+        "image": "hair"
+      },
+      {
+        "id": "brows",
+        "title": "الحواجب والوجه",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تحديد الحواجب",
+            "desc": "",
+            "price": 40
+          },
+          {
+            "name": "تشقير الحواجب",
+            "desc": "",
+            "price": 35
+          },
+          {
+            "name": "تشقير كامل الوجه",
+            "desc": "",
+            "price": 60
+          }
+        ],
+        "image": "nails"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Enita J.",
+      "stars": 5,
+      "text": "This is my second session with Joan and it was really worth it. Joan is incredibly knowledgeable and attentive, and the treatment itself was so relaxing. I could genuinely feel the difference afterwards as I felt lighter",
+      "source_ref": "https://www.fresha.com/a/beauty-kingdom-for-ladies-doha-8g42-464-doha-qatar-q63x68d4"
+    },
+    {
+      "author": "Maria G.",
+      "stars": 5,
+      "text": "All are friendly and so accurate.  I love visiting",
+      "source_ref": "https://www.fresha.com/a/beauty-kingdom-for-ladies-doha-8g42-464-doha-qatar-q63x68d4"
+    },
+    {
+      "author": "Amy",
+      "stars": 5,
+      "text": "Great service. Very polite and professional staff",
+      "source_ref": "https://www.fresha.com/a/beauty-kingdom-for-ladies-doha-8g42-464-doha-qatar-q63x68d4"
+    }
+  ],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "9 ص – 8 م"
+      }
+    ],
+    "per_day": 11,
+    "source": "Fresha"
+  },
+  "visit": {
+    "image": "lobby"
+  },
+  "whatsapp": null,
+  "images": {
+    "spa": {
+      "file": "spa.jpg",
+      "alt": "صورة غرفة المساج في Beauty Kingdom",
+      "source_url": "https://www.fresha.com/a/beauty-kingdom-for-ladies-doha-8g42-464-doha-qatar-q63x68d4",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "pedi": {
+      "file": "pedi.jpg",
+      "alt": "صورة كراسي الباديكير العنابية",
+      "source_url": "https://www.fresha.com/a/beauty-kingdom-for-ladies-doha-8g42-464-doha-qatar-q63x68d4",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "hair": {
+      "file": "hair.jpg",
+      "alt": "صورة مغاسل الشعر والمرايا في الصالون",
+      "source_url": "https://www.fresha.com/a/beauty-kingdom-for-ladies-doha-8g42-464-doha-qatar-q63x68d4",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "nails": {
+      "file": "nails.jpg",
+      "alt": "صورة طاولات المناكير وجدار الألوان",
+      "source_url": "https://www.fresha.com/a/beauty-kingdom-for-ladies-doha-8g42-464-doha-qatar-q63x68d4",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "lobby": {
+      "file": "lobby.jpg",
+      "alt": "صورة صالة الصالون الرئيسية",
+      "source_url": "https://www.fresha.com/a/beauty-kingdom-for-ladies-doha-8g42-464-doha-qatar-q63x68d4",
+      "credit": "من صفحة الحجز على Fresha"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+[data-site="the-trim-scissors-club"] .proof{background:repeating-conic-gradient(rgba(var(--glow-rgb),.07) 0 25%,transparent 0 50%) 0 0/56px 56px}
+[data-site="the-trim-scissors-club"] .hero__media{overflow:hidden}
+[data-site="the-trim-scissors-club"] .amd-blade{position:absolute;inset-block:0;width:2px;inset-inline-start:0;background:linear-gradient(transparent,rgb(var(--glow-rgb)),transparent);box-shadow:0 0 18px rgb(var(--glow-rgb));pointer-events:none;z-index:3;opacity:0}
+[data-site="the-trim-scissors-club"] .marquee__track li::before{content:"✂";display:inline-block;margin-inline-end:.5em;color:rgb(var(--glow-rgb));transform:rotate(-90deg)}

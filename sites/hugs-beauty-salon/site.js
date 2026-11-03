@@ -1,0 +1,2 @@
+(function(){var h=document.querySelector('.hero__headline');if(h&&!reduce){h.style.setProperty('--swash',0);gsap.to(h,{'--swash':1,duration:1.2,delay:1,ease:'power3.out'});}
+if(reduce)return;gsap.utils.toArray('.panel, .panel-m').forEach(function(el,i){gsap.from(el,{y:50,clipPath:'inset(12% 0 12% 0 round 22px)',opacity:0,duration:1,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 85%'}});});})();

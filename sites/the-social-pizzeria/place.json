@@ -1,0 +1,220 @@
+{
+  "place_id": "ChIJoTSmy3bjLj4RW9V5ep1aqVs",
+  "slug": "the-social-pizzeria",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "gulf_luxe",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#C9A86A",
+    "rgb": "201, 168, 106",
+    "hover": "#AE8F52",
+    "ink": "#14110A"
+  },
+  "name": "The Social Pizzeria",
+  "name_lang": "en",
+  "category_label": "بيتزيريا نابولية",
+  "area": "حي الربيع، الرياض",
+  "address": "7099 طريق الثمامة، الربيع، الرياض 13315",
+  "phone": {
+    "display": "+966 50 546 0225",
+    "tel": "+966505460225"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=The%20Social%20Pizzeria%20Riyadh&query_place_id=ChIJoTSmy3bjLj4RW9V5ep1aqVs",
+  "map_query": "The Social Pizzeria, Ar Rabi, Riyadh",
+  "rating": {
+    "value": 4.4,
+    "count": 2625,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "بيتزا نابولية وبوراتا على طريق الثمامة",
+    "intro": "بيتزيريا هادئة في حي الربيع، يذكر زوارها بيتزا الترافل والبوراتا واللازانيا وخبز التغميس بالزيتون. أكثر من 2,600 مراجعة على Google.",
+    "image": "lasagna"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "على الطاولة",
+    "title": "من الفرن إلى الرخام",
+    "items": [
+      {
+        "label": "الطبق",
+        "title": "لازانيا في طبقها",
+        "text": "لازانيا تخرج في صحن خزفي على طاولة رخام، من الأطباق التي يذكرها الزوار.",
+        "image": "lasagna"
+      },
+      {
+        "label": "المكان",
+        "title": "صالة THE SOCIAL",
+        "text": "جدار أبيض عالٍ عليه الاسم، وجلسات بيج هادئة. زائر يكتب: ما فيه موسيقى ودخلنا بسرعة.",
+        "image": "hall"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "بيتزا وباستا",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.س",
+    "categories": [
+      {
+        "id": "pizza",
+        "title": "البيتزا",
+        "tagline": "",
+        "items": [
+          {
+            "name": "مارغريتا",
+            "desc": "",
+            "price": 52
+          },
+          {
+            "name": "بيتزا الترافل",
+            "desc": "",
+            "price": 78
+          },
+          {
+            "name": "بيتزا بوراتا",
+            "desc": "",
+            "price": 74
+          },
+          {
+            "name": "بيبروني",
+            "desc": "",
+            "price": 62
+          }
+        ],
+        "image": "lasagna"
+      },
+      {
+        "id": "pasta",
+        "title": "الباستا",
+        "tagline": "",
+        "items": [
+          {
+            "name": "بيني أرابياتا",
+            "desc": "",
+            "price": 58
+          },
+          {
+            "name": "فيتوتشيني ألفريدو",
+            "desc": "",
+            "price": 64
+          },
+          {
+            "name": "لازانيا",
+            "desc": "",
+            "price": 66
+          },
+          {
+            "name": "ريزوتو الزعفران",
+            "desc": "",
+            "price": 72
+          }
+        ],
+        "image": "hall"
+      },
+      {
+        "id": "start",
+        "title": "المقبلات والحلى",
+        "tagline": "",
+        "items": [
+          {
+            "name": "سلطة سيزر",
+            "desc": "",
+            "price": 42
+          },
+          {
+            "name": "سلطة بوراتا",
+            "desc": "",
+            "price": 54
+          },
+          {
+            "name": "تيراميسو",
+            "desc": "",
+            "price": 36
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "ملاك ا.",
+      "stars": 5,
+      "text": "الاكل لذيذ خصوصا بيتزا الترافل قمة اللذاذه .. والله يسعد بلال خدمته جدا رائعه",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25ka1kxb3dRbGxITTAxUGRGRjBjM0ZoVGtSaFNuYxAB"
+    },
+    {
+      "author": "Ab",
+      "stars": 5,
+      "text": "صراحه اكلهم لذيذ و خدمتهم سريعه و ما يحتاج حجز مسبق دخلنا بسرعه في مواقف و مافي موسيقى بيتزا ١٠/١٠ مكرونه ١٠/١٠ سلطه بوراتا ١٠/١٠",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2twd05rWkZTalU1TlU1a1dUSlJSV290VjBsbVNHYxAB"
+    },
+    {
+      "author": "Arwa I.",
+      "stars": 5,
+      "text": "الاكل بشكل عام لذيذ الخدمه رائعه ومحترمين والمكان شرح وجميل وهادي يقدمون ايضاً خبز مع تغميس خلطه زيتون ولذيذه",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25CUmFFaENMVkpMUTFoRmNVcDZTVXhQVjBOaU9IYxAB"
+    },
+    {
+      "author": "Amjad",
+      "stars": 5,
+      "text": "كانت تجربة موفقة والحمدلله بداية من الموظف الخلوق عبدالرحمن خدمة وتعامل فوق الممتاز ،  الله يعطيه عافيه الى الاطباق اللذيذة ❤️😋 بنك ريكوتا - لازانيا - والبيتزا اللذيذة",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT201MlRsQnhiSGRUVm10Zk1HWjRVRTlUVm1SQkxVRRAB"
+    }
+  ],
+  "mentions": [
+    "بيتزا الترافل",
+    "سلطة بوراتا",
+    "لازانيا",
+    "بيني ريكوتا"
+  ],
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "1 م – 1 ص"
+      },
+      {
+        "days": "الخميس – الجمعة",
+        "time": "1 م – 2 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  },
+  "visit": {
+    "image": "hall"
+  },
+  "whatsapp": null,
+  "images": {
+    "lasagna": {
+      "file": "lasagna.jpg",
+      "alt": "صورة لازانيا على طاولة رخام في The Social",
+      "source_url": "https://wanderlog.com/ar/place/details/2103152",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "hall": {
+      "file": "hall.jpg",
+      "alt": "صورة صالة المطعم والجدار باسم THE SOCIAL",
+      "source_url": "https://wanderlog.com/ar/place/details/2103152",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  }
+}

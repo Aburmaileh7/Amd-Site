@@ -1,0 +1,271 @@
+{
+  "place_id": "amd-notion-40d5cb524e4481c4a9cded2038448a6c",
+  "slug": "mtayyiba-beauty-lounge",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "صفحة الحجز العامة للصالون على Fresha",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#A8662B",
+    "rgb": "168, 102, 43",
+    "hover": "#8C5222",
+    "ink": "#FFFFFF"
+  },
+  "name": "مطيّبة",
+  "name_lang": "ar",
+  "category_label": "صالون نسائي",
+  "area": "عسكر، البحرين",
+  "address": "مبنى 190M، طريق 5703، مجمع 957، جو، عسكر",
+  "phone": {
+    "display": "+973 3883 0083",
+    "tel": "+97338830083"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Mtayyiba%20Beauty%20Lounge%20Askar%20Bahrain",
+  "map_query": "Mtayyiba Beauty Lounge, Askar, Bahrain",
+  "rating": {
+    "value": 4.8,
+    "count": 259,
+    "source": "Fresha"
+  },
+  "hero": {
+    "headline": "سدر ووسمة وسنفرة بالقهوة العربية",
+    "intro": "صالون نسائي في عسكر يقدّم خلطات تقليدية للشعر والجسم مع المناكير والسشوار، وتذكر زبوناته الضيافة بالقهوة العربية. تقييمه 4.8 من 259 مراجعة.",
+    "image": "herbs"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "story",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "من قائمة الخدمات",
+    "items": [
+      "سدر",
+      "عشبة الوسمة",
+      "زيت الثوم الأسود",
+      "سنفرة القهوة العربية",
+      "مناكير روسي"
+    ]
+  },
+  "story": {
+    "eyebrow": "في مطيّبة",
+    "title": "من الخلطة إلى الحناء",
+    "items": [
+      {
+        "label": "الخلطات",
+        "title": "سدر ووسمة وزيوت",
+        "text": "خلطات للشعر في أوانٍ ذهبية: سدر، وزيوت دافئة، وزيت بالثوم الأسود.",
+        "image": "herbs"
+      },
+      {
+        "label": "الرف",
+        "title": "آية وألوان",
+        "text": "رف طلاءات الأظافر تحت آية مكتوبة بالخط العربي.",
+        "image": "shelf"
+      },
+      {
+        "label": "الحناء",
+        "title": "نقش على اليدين",
+        "text": "حناء على سجادة حمراء، من الأعمال المنشورة في صفحة الصالون.",
+        "image": "henna"
+      },
+      {
+        "label": "الشعر",
+        "title": "ويفي وسشوار",
+        "text": "زبونة تكتب أن شغلهم حلو للاستشوار والويفي والستريت.",
+        "image": "waves"
+      }
+    ]
+  },
+  "menu": {
+    "title": "الخدمات والأسعار",
+    "eyebrow": "من صفحة الحجز",
+    "currency": "د.ب",
+    "sample": false,
+    "note": "الخدمات والأسعار منقولة من صفحة الحجز المنشورة على Fresha، وقد تتغير.",
+    "categories": [
+      {
+        "id": "trad",
+        "title": "الخلطات التقليدية",
+        "tagline": "",
+        "items": [
+          {
+            "name": "سدر",
+            "desc": "",
+            "price": 5.5
+          },
+          {
+            "name": "زيوت دافئة",
+            "desc": "",
+            "price": 5.5
+          },
+          {
+            "name": "زيت بالثوم الأسود",
+            "desc": "",
+            "price": 6.6
+          },
+          {
+            "name": "عشبة الوسمة",
+            "desc": "",
+            "price": 4.4
+          },
+          {
+            "name": "سنفرة القهوة العربية",
+            "desc": "",
+            "price": 4.4
+          }
+        ],
+        "image": "herbs"
+      },
+      {
+        "id": "nails",
+        "title": "الأظافر",
+        "tagline": "",
+        "items": [
+          {
+            "name": "مناكير كلاسيك",
+            "desc": "",
+            "price": 4.4
+          },
+          {
+            "name": "بديكير كلاسيك",
+            "desc": "",
+            "price": 5.5
+          },
+          {
+            "name": "مناكير روسي",
+            "desc": "",
+            "price": 8.8
+          },
+          {
+            "name": "بديكير روسي",
+            "desc": "",
+            "price": 9.9
+          },
+          {
+            "name": "تلميع ياباني",
+            "desc": "",
+            "price": 4.4
+          }
+        ],
+        "image": "shelf"
+      },
+      {
+        "id": "hair",
+        "title": "الشعر",
+        "tagline": "",
+        "items": [
+          {
+            "name": "غسيل الشعر",
+            "desc": "",
+            "price": 2.2
+          },
+          {
+            "name": "غسيل وتجفيف سريع",
+            "desc": "",
+            "price": 3.3
+          },
+          {
+            "name": "قص أطراف",
+            "desc": "",
+            "price": 5.5
+          }
+        ],
+        "image": "waves"
+      },
+      {
+        "id": "home",
+        "title": "في البيت",
+        "tagline": "",
+        "items": [
+          {
+            "name": "عناية منزلية للشعر والأظافر",
+            "desc": "",
+            "price": 27.5
+          },
+          {
+            "name": "عناية منزلية للشعر والجسم",
+            "desc": "",
+            "price": 27.5
+          }
+        ],
+        "image": "candle"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Lulwa U.",
+      "stars": 5,
+      "text": "صالون نظيف ومرتب وراحه نفسيه  والموظفات يدلعون الكستمر وشغلهم وايد حلو والضيافه قهوه  العربيه 😍 الله يرزقكم من حيث لا تحتسبون",
+      "source_ref": "https://www.fresha.com/a/mtayyiba-beauty-lounge-askar-mtayyiba-beauty-lounge-5703-askar-957-bahrain-zudg72an"
+    },
+    {
+      "author": "Fatima A.",
+      "stars": 5,
+      "text": "ساميتا انسانة رائعة وشغلها حلو للاستشوار او الويفي او الستريت وحتى ال منكير وجميع الكادر اللي في الصالون رائعون كل الشكر لكي ياصاحبة الصالون الصالون جدا جميل ومريح",
+      "source_ref": "https://www.fresha.com/a/mtayyiba-beauty-lounge-askar-mtayyiba-beauty-lounge-5703-askar-957-bahrain-zudg72an"
+    },
+    {
+      "author": "Noora",
+      "stars": 5,
+      "text": "Professional services and lovely staff. Highly recommended! Thanks ❤️",
+      "source_ref": "https://www.fresha.com/a/mtayyiba-beauty-lounge-askar-mtayyiba-beauty-lounge-5703-askar-957-bahrain-zudg72an"
+    }
+  ],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "10 ص – 9 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Fresha"
+  },
+  "visit": {
+    "image": "candle"
+  },
+  "whatsapp": null,
+  "images": {
+    "herbs": {
+      "file": "herbs.jpg",
+      "alt": "صورة خلطات السدر والوسمة في أوانٍ ذهبية",
+      "source_url": "https://www.fresha.com/a/mtayyiba-beauty-lounge-askar-mtayyiba-beauty-lounge-5703-askar-957-bahrain-zudg72an",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "shelf": {
+      "file": "shelf.jpg",
+      "alt": "صورة رف طلاءات الأظافر تحت آية بالخط العربي",
+      "source_url": "https://www.fresha.com/a/mtayyiba-beauty-lounge-askar-mtayyiba-beauty-lounge-5703-askar-957-bahrain-zudg72an",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "henna": {
+      "file": "henna.jpg",
+      "alt": "صورة نقش حناء على اليدين من أعمال الصالون",
+      "source_url": "https://www.fresha.com/a/mtayyiba-beauty-lounge-askar-mtayyiba-beauty-lounge-5703-askar-957-bahrain-zudg72an",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "waves": {
+      "file": "waves.jpg",
+      "alt": "صورة شعر مموج من أعمال الصالون",
+      "source_url": "https://www.fresha.com/a/mtayyiba-beauty-lounge-askar-mtayyiba-beauty-lounge-5703-askar-957-bahrain-zudg72an",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "candle": {
+      "file": "candle.jpg",
+      "alt": "صورة شموع ومبخرة على طاولة باسم مطيّبة",
+      "source_url": "https://www.fresha.com/a/mtayyiba-beauty-lounge-askar-mtayyiba-beauty-lounge-5703-askar-957-bahrain-zudg72an",
+      "credit": "من صفحة الحجز على Fresha"
+    }
+  }
+}

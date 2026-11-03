@@ -1,0 +1,1 @@
+(function(){if(reduce)return;gsap.utils.toArray('.stat__num').forEach(function(n){gsap.fromTo(n,{color:'#7A1F3D'},{color:'#B8925A',ease:'none',scrollTrigger:{trigger:n,start:'top 85%',end:'top 35%',scrub:true}});});})();

@@ -1,0 +1,1 @@
+(function(){if(reduce)return;var v=document.querySelector('.visit__shade');if(!v)return;gsap.fromTo(v,{'--glow-x':'20%'},{'--glow-x':'80%',ease:'none',scrollTrigger:{trigger:'.visit__inner',start:'top bottom',end:'bottom top',scrub:true}});})();

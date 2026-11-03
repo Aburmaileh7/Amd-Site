@@ -1,0 +1,2 @@
+(function(){if(reduce)return;var v=document.querySelector('.visit__bg');if(v)gsap.fromTo(v,{filter:'hue-rotate(-12deg) brightness(.9)'},{filter:'hue-rotate(12deg) brightness(1.05)',ease:'sine.inOut',scrollTrigger:{trigger:v,start:'top bottom',end:'bottom top',scrub:true}});
+var m=document.querySelector('.marquee');if(m)gsap.from(m,{scaleY:0,transformOrigin:'50% 50%',duration:.8,ease:'power4.out',scrollTrigger:{trigger:m,start:'top 90%'}});})();

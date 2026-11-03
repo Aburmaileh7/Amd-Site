@@ -1,0 +1,132 @@
+{
+  "place_id": "amd-notion-40c5cb524e448199a369f3038de53e28",
+  "slug": "al-salam-medical-centre-ajman",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "clinic_clean",
+  "data_source": "قائمة المركز على خرائط Google ودليل Zavis",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#5E9C34",
+    "rgb": "94, 156, 52",
+    "hover": "#4C8229",
+    "ink": "#FFFFFF"
+  },
+  "name": "Al Salam Medical Centre",
+  "name_lang": "en",
+  "category_label": "مركز طبي وعيادة أسنان",
+  "area": "عجمان، مقابل لولو هايبرماركت",
+  "address": "محل 1، بناية الشيخ ناصر، شارع الاتحاد، مقابل لولو هايبرماركت، عجمان",
+  "phone": {
+    "display": "+971 6 742 9993",
+    "tel": "+97167429993"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Al%20Salam%20Medical%20Centre%20Al%20Ittihad%20Street%20Ajman%20opp%20Lulu%20Hypermarket",
+  "map_query": "Al Salam Medical Centre, Al Ittihad Street, Ajman",
+  "rating": {
+    "value": 4.8,
+    "count": 20,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "عيادة أسنان وطب عام على شارع الاتحاد",
+    "intro": "مركز طبي في بناية الشيخ ناصر مقابل لولو هايبرماركت بعجمان، يصفه أحد المراجعين بأنه من أقدم العيادات في عجمان. تقييمه 4.8 من 20 مراجعة.",
+    "image": "dental"
+  },
+  "sections": [
+    "menu",
+    "amenities",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "في المركز",
+    "sample": false,
+    "note": "الأقسام مأخوذة من صور المركز ومراجعات المراجعين على Google. للمواعيد والأسعار اتصل بالمركز.",
+    "categories": [
+      {
+        "id": "svc",
+        "title": "الأقسام",
+        "tagline": "",
+        "items": [
+          {
+            "name": "عيادة الأسنان",
+            "desc": ""
+          },
+          {
+            "name": "الطب العام",
+            "desc": ""
+          },
+          {
+            "name": "الاستشارات",
+            "desc": ""
+          }
+        ],
+        "image": "dental"
+      }
+    ]
+  },
+  "amenities": {
+    "eyebrow": "قبل الزيارة",
+    "title": "معلومات الزيارة",
+    "image": "waiting",
+    "items": [
+      {
+        "icon": "tooth",
+        "title": "عيادة أسنان مجهزة",
+        "text": "كرسي أسنان وغرفة علاج مستقلة كما في صور المركز."
+      },
+      {
+        "icon": "family",
+        "title": "انتظار للرجال",
+        "text": "صالة انتظار مخصصة للرجال بلوحة واضحة."
+      },
+      {
+        "icon": "clock",
+        "title": "يفتح مساءً",
+        "text": "حسب خرائط Google يغلق المركز الساعة 9:30 مساءً."
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Sultan M.",
+      "stars": 5,
+      "text": "من أقدم العيادة فى عجمان ويستحق الزيارة والأسعار مناسبة والعلاج والعناية جيده",
+      "source_ref": "https://www.google.com/maps/place/Al+Salam+Medical+Centre/@25.4059182,55.4438121,17z"
+    },
+    {
+      "author": "NNJX",
+      "stars": 5,
+      "text": "عيادة ممتازة",
+      "source_ref": "https://www.google.com/maps/place/Al+Salam+Medical+Centre/@25.4059182,55.4438121,17z"
+    }
+  ],
+  "mentions": [],
+  "visit": {
+    "image": "waiting"
+  },
+  "whatsapp": null,
+  "story": null,
+  "images": {
+    "dental": {
+      "file": "dental.jpg",
+      "alt": "صورة غرفة الأسنان بالكرسي الأخضر في المركز",
+      "source_url": "https://www.google.com/maps/place/Al+Salam+Medical+Centre/@25.4059182,55.4438121,17z",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "waiting": {
+      "file": "waiting.jpg",
+      "alt": "صورة صالة الانتظار في المركز",
+      "source_url": "https://www.google.com/maps/place/Al+Salam+Medical+Centre/@25.4059182,55.4438121,17z",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    }
+  }
+}

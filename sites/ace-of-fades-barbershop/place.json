@@ -1,0 +1,235 @@
+{
+  "place_id": "amd-notion-40d5cb524e4481b5b47bc081716faebb",
+  "slug": "ace-of-fades-barbershop",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "صفحة الحجز العامة للمحل على Fresha",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#7FB069",
+    "rgb": "127, 176, 105",
+    "hover": "#679A52",
+    "ink": "#0E1A0A"
+  },
+  "name": "Ace of Fades",
+  "name_lang": "en",
+  "category_label": "باربرشوب رجالي",
+  "area": "شارع 18 نوفمبر، مسقط",
+  "address": "خلف الفير، شارع 18 نوفمبر، سكة 4831، مسقط",
+  "phone": {
+    "display": "+968 9120 8800",
+    "tel": "+96891208800"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Ace%20of%20Fades%20Barbershop%2018%20November%20Street%20Muscat",
+  "map_query": "Ace of Fades Barbershop, 18th November Street, Muscat",
+  "rating": {
+    "value": 4.9,
+    "count": 377,
+    "source": "Fresha"
+  },
+  "hero": {
+    "headline": "فيد ولحية بالموس خلف الفير",
+    "intro": "باربرشوب بديكور أسود وجدار أخضر في شارع 18 نوفمبر، يفتح يوميًا من 10 صباحًا حتى 11 مساءً، وتقييمه 4.9 من 377 مراجعة.",
+    "image": "floor"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "المحل",
+    "title": "أسود، أخضر، ونيون",
+    "items": [
+      {
+        "label": "الصالة",
+        "title": "كراسي سوداء صف واحد",
+        "text": "كراسي حلاقة جلد أسود وأرضية رمادية تحت إضاءة بيضاء.",
+        "image": "floor"
+      },
+      {
+        "label": "الجدار",
+        "title": "جدار أخضر ونيون",
+        "text": "جدار نباتات أخضر وشعار نيون فوق ركن الاستقبال.",
+        "image": "wall"
+      },
+      {
+        "label": "الغسيل",
+        "title": "مغسلة وكرسي استرخاء",
+        "text": "غسيل الشعر بدينار واحد حسب قائمة الخدمات المنشورة.",
+        "image": "wash"
+      },
+      {
+        "label": "الانتظار",
+        "title": "كنبة ومرايا",
+        "text": "ركن انتظار بكنبة سوداء ومرايا كبيرة وتيشيرتات المحل على الجدار.",
+        "image": "lounge"
+      }
+    ]
+  },
+  "menu": {
+    "title": "الخدمات والأسعار",
+    "eyebrow": "من صفحة الحجز",
+    "currency": "ر.ع",
+    "sample": false,
+    "note": "الخدمات والأسعار منقولة من صفحة الحجز المنشورة على Fresha، وقد تتغير.",
+    "categories": [
+      {
+        "id": "cut",
+        "title": "القص",
+        "tagline": "",
+        "items": [
+          {
+            "name": "قص شعر",
+            "desc": "",
+            "price": 5
+          },
+          {
+            "name": "قص شعر + لحية",
+            "desc": "",
+            "price": 6
+          },
+          {
+            "name": "حلاقة زيرو",
+            "desc": "",
+            "price": 3
+          },
+          {
+            "name": "قص شعر للأطفال (5 سنوات فأكثر)",
+            "desc": "",
+            "price": 3
+          }
+        ],
+        "image": "floor"
+      },
+      {
+        "id": "beard",
+        "title": "اللحية",
+        "tagline": "",
+        "items": [
+          {
+            "name": "حلاقة اللحية",
+            "desc": "",
+            "price": 2
+          },
+          {
+            "name": "صبغ اللحية",
+            "desc": "",
+            "price": 5
+          },
+          {
+            "name": "حنة اللحية",
+            "desc": "",
+            "price": 3
+          }
+        ],
+        "image": "lounge"
+      },
+      {
+        "id": "care",
+        "title": "العناية",
+        "tagline": "",
+        "items": [
+          {
+            "name": "غسيل شعر",
+            "desc": "",
+            "price": 1
+          },
+          {
+            "name": "تنظيف وجه",
+            "desc": "",
+            "price": 10
+          },
+          {
+            "name": "تنظيف عميق للوجه",
+            "desc": "",
+            "price": 15
+          },
+          {
+            "name": "ماسك أسود",
+            "desc": "",
+            "price": 2
+          }
+        ],
+        "image": "wash"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "A.",
+      "stars": 5,
+      "text": "The beard cut was amazing, professional with razor and professional. Recommend if you want to get clean beard trim",
+      "source_ref": "https://www.fresha.com/a/ace-of-fades-barbershop-muscat-ace-of-fades-behind-al-fair-18-nov-street-way-4831-130-s7jemqvt"
+    },
+    {
+      "author": "Abdolrahman A.",
+      "stars": 5,
+      "text": "first impression is the last impression. Everything was great it's my first time and I tried the full package. Excellent job",
+      "source_ref": "https://www.fresha.com/a/ace-of-fades-barbershop-muscat-ace-of-fades-behind-al-fair-18-nov-street-way-4831-130-s7jemqvt"
+    },
+    {
+      "author": "Sam S.",
+      "stars": 5,
+      "text": "Titi is the best in town. 10/10",
+      "source_ref": "https://www.fresha.com/a/ace-of-fades-barbershop-muscat-ace-of-fades-behind-al-fair-18-nov-street-way-4831-130-s7jemqvt"
+    },
+    {
+      "author": "Abdo H.",
+      "stars": 5,
+      "text": "Great in fades.",
+      "source_ref": "https://www.fresha.com/a/ace-of-fades-barbershop-muscat-ace-of-fades-behind-al-fair-18-nov-street-way-4831-130-s7jemqvt"
+    }
+  ],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "10 ص – 11 م"
+      }
+    ],
+    "per_day": 13,
+    "source": "Fresha"
+  },
+  "visit": {
+    "image": "wall"
+  },
+  "whatsapp": null,
+  "images": {
+    "floor": {
+      "file": "floor.jpg",
+      "alt": "صورة صالة Ace of Fades بالكراسي السوداء",
+      "source_url": "https://www.fresha.com/a/ace-of-fades-barbershop-muscat-ace-of-fades-behind-al-fair-18-nov-street-way-4831-130-s7jemqvt",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "wall": {
+      "file": "wall.jpg",
+      "alt": "صورة الجدار الأخضر وشعار النيون في المحل",
+      "source_url": "https://www.fresha.com/a/ace-of-fades-barbershop-muscat-ace-of-fades-behind-al-fair-18-nov-street-way-4831-130-s7jemqvt",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "wash": {
+      "file": "wash.jpg",
+      "alt": "صورة مغسلة الشعر في المحل",
+      "source_url": "https://www.fresha.com/a/ace-of-fades-barbershop-muscat-ace-of-fades-behind-al-fair-18-nov-street-way-4831-130-s7jemqvt",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "lounge": {
+      "file": "lounge.jpg",
+      "alt": "صورة ركن الانتظار في المحل",
+      "source_url": "https://www.fresha.com/a/ace-of-fades-barbershop-muscat-ace-of-fades-behind-al-fair-18-nov-street-way-4831-130-s7jemqvt",
+      "credit": "من صفحة الحجز على Fresha"
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "place_id": "ChIJZU9FjB37ST4RrDjpTwz82NY",
+  "slug": "mughal-biryani-dammam",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "heritage_warm",
+  "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#D9822B",
+    "rgb": "217, 130, 43",
+    "hover": "#BB6C1E",
+    "ink": "#1A0F05"
+  },
+  "name": "مغل برياني",
+  "name_lang": "ar",
+  "category_label": "مطعم برياني",
+  "area": "العدامة، الدمام",
+  "address": "الشارع العاشر، العدامة، الدمام 32242",
+  "phone": {
+    "display": "+966 56 109 5255",
+    "tel": "+966561095255"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Mughal%20Biryani%20Dammam&query_place_id=ChIJZU9FjB37ST4RrDjpTwz82NY",
+  "map_query": "Mughal Biryani, Al Adamah, Dammam",
+  "rating": {
+    "value": 4.4,
+    "count": 366,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "برياني وسمبوسة وشاي كرك في العدامة",
+    "intro": "مطعم مغل برياني في الدمام، يمدح زواره البرياني والسمبوسة والسبرنج رول والكرك ونظافة المحل. يفتح يوميًا 11:30 ص – 11:30 م.",
+    "image": "front"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "ورد في مراجعات الزوار",
+    "items": [
+      "برياني",
+      "سمبوسة",
+      "سبرنج رول",
+      "شاي كرك",
+      "كاتشي"
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "برياني وكرك",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "currency": "ر.س",
+    "categories": [
+      {
+        "id": "biryani",
+        "title": "البرياني",
+        "tagline": "",
+        "items": [
+          {
+            "name": "برياني دجاج",
+            "desc": "",
+            "price": 22
+          },
+          {
+            "name": "برياني لحم",
+            "desc": "",
+            "price": 30
+          },
+          {
+            "name": "برياني مغلي",
+            "desc": "",
+            "price": 26
+          },
+          {
+            "name": "كاتشي برياني",
+            "desc": "",
+            "price": 32
+          }
+        ],
+        "image": "biryani"
+      },
+      {
+        "id": "sides",
+        "title": "المقبلات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "سمبوسة (4 حبات)",
+            "desc": "",
+            "price": 8
+          },
+          {
+            "name": "سبرنج رول",
+            "desc": "",
+            "price": 10
+          },
+          {
+            "name": "رايتا",
+            "desc": "",
+            "price": 4
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "شاي كرك",
+            "desc": "",
+            "price": 3
+          },
+          {
+            "name": "لبن",
+            "desc": "",
+            "price": 4
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "majde a.",
+      "stars": 5,
+      "text": "مطعم ممتاز جدا جدا جربوا السبرنج رول ياهو لذيذ والبرياني حقه ممتازه برياني نكهة برياني صح والنظافة ماشاء الله مهتمين فيها بشكل عام ماتندم وجرب شاي الكرك عنده وبتدعيلي",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSUQxOVAzZjJ3RRAB"
+    },
+    {
+      "author": "Abeer",
+      "stars": 5,
+      "text": "برياني لذيييييذ وعندهم سمبوسه لذيذه ارجع له مره ومرتين وثلاث",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2s4MGJVdHRNME5wVlhSRWJrSlljVVptUVRSUU9VRRAB"
+    },
+    {
+      "author": "MKA ع.",
+      "stars": 5,
+      "text": "انا طلبت اكثر من مرة عدة أصناف وكلها متميزة. أيضا: المحل نظيف والتعامل راقي وهناك سرعة في إنجاز العمل",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUQxeGRySlRnEAE"
+    },
+    {
+      "author": "Majd a.",
+      "stars": 5,
+      "text": "تجربه ممتازة جربت الكاتشي جدا لذيذ والمطعم نظيف",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSUNYcmFtYW5nRRAB"
+    }
+  ],
+  "mentions": [
+    "برياني",
+    "سمبوسة",
+    "شاي كرك",
+    "سبرنج رول"
+  ],
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "11:30 ص – 11:30 م"
+      }
+    ],
+    "per_day": 12,
+    "source": "Google Maps"
+  },
+  "visit": {
+    "image": "front"
+  },
+  "whatsapp": null,
+  "images": {
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة مطعم مغل برياني في العدامة",
+      "source_url": "https://wanderlog.com/ar/place/details/10691578",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "biryani": {
+      "id": "photo-1589302168068-964664d93dc0",
+      "alt": "صورة توضيحية: طبق برياني",
+      "page": "https://unsplash.com/photos/photo-1589302168068-964664d93dc0"
+    }
+  }
+}

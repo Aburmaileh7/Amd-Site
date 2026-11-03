@@ -1,0 +1,122 @@
+{
+  "place_id": "amd-notion-40d5cb524e4481dbbc79f33f265b3b8c",
+  "slug": "fitness-power-gym-khaleej",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "services_pro",
+  "data_source": "قائمة النادي على خرائط Google",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#E5C400",
+    "rgb": "229, 196, 0",
+    "hover": "#C4A800",
+    "ink": "#141200"
+  },
+  "name": "Fitness Power Gym",
+  "name_lang": "en",
+  "category_label": "نادي رياضي بمسبح",
+  "area": "حي الخليج، الرياض",
+  "address": "شارع بحر العرب، الخليج، الرياض 13224",
+  "phone": {
+    "display": "+966 55 925 0095",
+    "tel": "+966559250095"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Fitness%20Power%20Gym%20Al%20Khaleej%20Riyadh&query_place_id=ChIJ33-qshYALz4RRPRPdvtRnEc",
+  "map_query": "Fitness Power Gym, Al Khaleej, Riyadh",
+  "rating": {
+    "value": 4.0,
+    "count": 756,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "حديد ومسبح داخلي في حي الخليج",
+    "intro": "نادي رياضي على شارع بحر العرب بالرياض، يذكر أعضاؤه السباحة والحديد والمدربين، ويفتح حتى ساعات متأخرة. 756 مراجعة على Google.",
+    "image": "pool"
+  },
+  "sections": [
+    "menu",
+    "marquee",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أكثر ما يذكره الأعضاء",
+    "items": [
+      "السباحة",
+      "الحديد",
+      "المدربين",
+      "الساونا",
+      "الاستقبال"
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "المرافق",
+    "eyebrow": "ما في النادي",
+    "sample": false,
+    "note": "المرافق مذكورة في صور النادي ومراجعات الأعضاء على Google. الاشتراكات والأسعار عبر الاتصال.",
+    "categories": [
+      {
+        "id": "fac",
+        "title": "المرافق",
+        "tagline": "",
+        "items": [
+          {
+            "name": "مسبح داخلي",
+            "desc": ""
+          },
+          {
+            "name": "ساونا",
+            "desc": ""
+          },
+          {
+            "name": "صالة حديد وأجهزة",
+            "desc": ""
+          },
+          {
+            "name": "مدربون في الصالة",
+            "desc": ""
+          }
+        ],
+        "image": "weights"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Ahmed N.",
+      "stars": 5,
+      "text": "النادي حلو ونظيف واجهزته زينه وحتى المدربين نفسهم زينه والاستقبال وجههم بشوش ومحترمين جداً",
+      "source_ref": "https://www.google.com/maps/place/?q=place_id:ChIJ33-qshYALz4RRPRPdvtRnEc"
+    },
+    {
+      "author": "Mohammed K.",
+      "stars": 5,
+      "text": "اشكر الكباتن في الجيم التعامل باحترام و تدريب بشكل احترافي…",
+      "source_ref": "https://www.google.com/maps/place/?q=place_id:ChIJ33-qshYALz4RRPRPdvtRnEc"
+    }
+  ],
+  "mentions": [],
+  "visit": {
+    "image": "pool"
+  },
+  "whatsapp": null,
+  "images": {
+    "pool": {
+      "file": "pool.jpg",
+      "alt": "صورة المسبح الداخلي في Fitness Power Gym",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJ33-qshYALz4RRPRPdvtRnEc",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "weights": {
+      "id": "photo-1576678927484-cc907957088c",
+      "alt": "صورة توضيحية: رف دمبلز في صالة حديد",
+      "page": "https://unsplash.com/photos/photo-1576678927484-cc907957088c"
+    }
+  }
+}

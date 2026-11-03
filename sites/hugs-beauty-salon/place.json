@@ -1,0 +1,229 @@
+{
+  "place_id": "amd-notion-40d5cb524e44810a9127d34100eb13fd",
+  "slug": "hugs-beauty-salon",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "صفحة الحجز العامة للصالون على Fresha",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#A0826D",
+    "rgb": "160, 130, 109",
+    "hover": "#86695A",
+    "ink": "#FFFFFF"
+  },
+  "name": "Hugs Beauty Salon",
+  "name_lang": "en",
+  "category_label": "صالون نسائي",
+  "area": "الأنصب، مسقط",
+  "address": "أنصب هايتس بارك، الأنصب، مسقط",
+  "phone": {
+    "display": "+968 9844 1119",
+    "tel": "+96898441119"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Hugs%20Beauty%20Salon%20Al%20Ansab%20Heights%20Park%20Muscat",
+  "map_query": "Hugs Beauty Salon, Al Ansab Heights Park, Muscat",
+  "rating": {
+    "value": 4.9,
+    "count": 245,
+    "source": "Fresha"
+  },
+  "hero": {
+    "headline": "مناكير روسي وجل بلمسة هادئة في الأنصب",
+    "intro": "صالون نسائي في أنصب هايتس بمسقط، تمدح زبوناته دقة الأظافر ولطف الفريق، وتقييمه 4.9 من 245 مراجعة على Fresha.",
+    "image": "corner"
+  },
+  "sections": [
+    "menu",
+    "story",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "عند Hugs",
+    "title": "تفاصيل صغيرة تريحك",
+    "items": [
+      {
+        "label": "الاستقبال",
+        "title": "كنبة وبطانية",
+        "text": "ركن انتظار بكرسي مريح ووسادة بأوراق خضراء.",
+        "image": "corner"
+      },
+      {
+        "label": "الاسم",
+        "title": "Hugs بالضوء الدافئ",
+        "text": "شعار الصالون مضاء على جدار حجري بجانب نبتة خضراء.",
+        "image": "sign"
+      },
+      {
+        "label": "الأظافر",
+        "title": "روسي، جل، وتمديد",
+        "text": "من المناكير العادي إلى التمديد بالأكريليك، حسب قائمة الحجز.",
+        "image": "nails"
+      }
+    ]
+  },
+  "menu": {
+    "title": "الخدمات والأسعار",
+    "eyebrow": "من صفحة الحجز",
+    "currency": "ر.ع",
+    "sample": false,
+    "note": "الخدمات والأسعار منقولة من صفحة الحجز المنشورة على Fresha، وقد تتغير.",
+    "categories": [
+      {
+        "id": "nails",
+        "title": "الأظافر",
+        "tagline": "",
+        "items": [
+          {
+            "name": "مناكير روسي",
+            "desc": "",
+            "price": 8
+          },
+          {
+            "name": "مناكير روسي + جل",
+            "desc": "",
+            "price": 10
+          },
+          {
+            "name": "مناكير VIP",
+            "desc": "",
+            "price": 12
+          },
+          {
+            "name": "باديكير عادي",
+            "desc": "",
+            "price": 12
+          },
+          {
+            "name": "تمديد أظافر بالجل",
+            "desc": "",
+            "price": 30
+          }
+        ],
+        "image": "nails"
+      },
+      {
+        "id": "face",
+        "title": "البشرة",
+        "tagline": "",
+        "items": [
+          {
+            "name": "Hydra Summum",
+            "desc": "",
+            "price": 30
+          },
+          {
+            "name": "Lift Summum",
+            "desc": "",
+            "price": 35
+          },
+          {
+            "name": "Hydra Peeling",
+            "desc": "",
+            "price": 30
+          }
+        ],
+        "image": "corner"
+      },
+      {
+        "id": "hair",
+        "title": "الشعر والحواجب",
+        "tagline": "",
+        "items": [
+          {
+            "name": "قص وتصفيف",
+            "desc": "",
+            "price": 4
+          },
+          {
+            "name": "تقشير فروة الرأس",
+            "desc": "",
+            "price": 15
+          },
+          {
+            "name": "تسريحة ريترو (شعر متوسط)",
+            "desc": "",
+            "price": 22
+          },
+          {
+            "name": "تنظيف الحواجب بالخيط",
+            "desc": "",
+            "price": 5
+          }
+        ],
+        "image": "sign"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Myr A.",
+      "stars": 5,
+      "text": "Obsessed with my nails 🤍 She’s so gentle and careful, and the results are literally perfect. ✨",
+      "source_ref": "https://www.fresha.com/a/hugs-beauty-salon-muscat-al-ansab-heights-park-h83w-235-ansab-heights-park-hy6iljvf"
+    },
+    {
+      "author": "Reem A.",
+      "stars": 5,
+      "text": "Azade is the best her work is always flawless",
+      "source_ref": "https://www.fresha.com/a/hugs-beauty-salon-muscat-al-ansab-heights-park-h83w-235-ansab-heights-park-hy6iljvf"
+    },
+    {
+      "author": "Amna S.",
+      "stars": 5,
+      "text": "the friendly and professional staff, and the the service was excellent",
+      "source_ref": "https://www.fresha.com/a/hugs-beauty-salon-muscat-al-ansab-heights-park-h83w-235-ansab-heights-park-hy6iljvf"
+    },
+    {
+      "author": "Meera A.",
+      "stars": 5,
+      "text": "very nice and sweet and the nails are perfect 🫶🏼",
+      "source_ref": "https://www.fresha.com/a/hugs-beauty-salon-muscat-al-ansab-heights-park-h83w-235-ansab-heights-park-hy6iljvf"
+    }
+  ],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "10 ص – 9 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Fresha"
+  },
+  "visit": {
+    "image": "sign"
+  },
+  "whatsapp": null,
+  "images": {
+    "corner": {
+      "file": "corner.jpg",
+      "alt": "صورة ركن الانتظار في صالون Hugs",
+      "source_url": "https://www.fresha.com/a/hugs-beauty-salon-muscat-al-ansab-heights-park-h83w-235-ansab-heights-park-hy6iljvf",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "sign": {
+      "file": "sign.jpg",
+      "alt": "صورة شعار Hugs المضاء داخل الصالون",
+      "source_url": "https://www.fresha.com/a/hugs-beauty-salon-muscat-al-ansab-heights-park-h83w-235-ansab-heights-park-hy6iljvf",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "nails": {
+      "id": "photo-1610992015762-45dca7fa3a85",
+      "alt": "صورة توضيحية: أظافر بطلاء نود",
+      "page": "https://unsplash.com/photos/photo-1610992015762-45dca7fa3a85"
+    },
+    "nails2": {
+      "id": "photo-1604654894610-df63bc536371",
+      "alt": "صورة توضيحية: أظافر بطلاء داكن",
+      "page": "https://unsplash.com/photos/photo-1604654894610-df63bc536371"
+    }
+  }
+}

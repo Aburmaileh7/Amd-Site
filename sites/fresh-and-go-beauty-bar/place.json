@@ -1,0 +1,221 @@
+{
+  "place_id": "amd-notion-40d5cb524e44819ea907fecbd80c26be",
+  "slug": "fresh-and-go-beauty-bar",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "صفحة الحجز العامة للصالون على Fresha",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#B8945A",
+    "rgb": "184, 148, 90",
+    "hover": "#9C7A43",
+    "ink": "#1B140A"
+  },
+  "name": "Fresh & Go Beauty Bar",
+  "name_lang": "en",
+  "category_label": "بيوتي بار نسائي",
+  "area": "شارع روض العين، الدوحة",
+  "address": "شارع روض العين، الدوحة",
+  "phone": {
+    "display": "+974 5077 0755",
+    "tel": "+97450770755"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Fresh%20%26%20Go%20Beauty%20Bar%20Rawd%20Al%20Ain%20Street%20Doha",
+  "map_query": "Fresh & Go Beauty Bar, Rawd Al Ain Street, Doha",
+  "rating": {
+    "value": 4.9,
+    "count": 634,
+    "source": "Fresha"
+  },
+  "hero": {
+    "headline": "سبراي تان وسشوار وأظافر في صالة بيضاء وذهبية",
+    "intro": "بيوتي بار في شارع روض العين بالدوحة، معروف بسبراي التان والباديكير، بتقييم 4.9 من 634 مراجعة على Fresha.",
+    "image": "salon"
+  },
+  "sections": [
+    "menu",
+    "story",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "eyebrow": "الصالة",
+    "title": "كل زاوية لخدمة",
+    "items": [
+      {
+        "label": "الشعر",
+        "title": "مغاسل بإطار ذهبي",
+        "text": "كراسي غسيل رمادية بإطارات ذهبية، وباقات سشوار مستقيم أو مموج.",
+        "image": "wash"
+      },
+      {
+        "label": "الأظافر",
+        "title": "محطة الباديكير",
+        "text": "كرسي باديكير مرتفع، وزبونة تكتب أنه أفضل باديكير جربته.",
+        "image": "pedi"
+      },
+      {
+        "label": "الجلسات",
+        "title": "غرفة العلاجات",
+        "text": "غرفة مستقلة لجلسات التدليك والعلاج بالخشب حسب قائمة الخدمات.",
+        "image": "room"
+      }
+    ]
+  },
+  "menu": {
+    "title": "الخدمات والأسعار",
+    "eyebrow": "من صفحة الحجز",
+    "currency": "ر.ق",
+    "sample": false,
+    "note": "الخدمات والأسعار منقولة من صفحة الحجز المنشورة على Fresha، وقد تتغير.",
+    "categories": [
+      {
+        "id": "tan",
+        "title": "سبراي تان",
+        "tagline": "",
+        "items": [
+          {
+            "name": "بخاخ تان في الصالون (جلسة)",
+            "desc": "",
+            "price": 250
+          },
+          {
+            "name": "تسمير الوجه بالرش",
+            "desc": "",
+            "price": 50
+          },
+          {
+            "name": "سبراي تان منزلي",
+            "desc": "",
+            "price": 400
+          },
+          {
+            "name": "باقة تان لمدة شهر",
+            "desc": "",
+            "price": 725
+          }
+        ],
+        "image": "salon"
+      },
+      {
+        "id": "hair",
+        "title": "السشوار",
+        "tagline": "",
+        "items": [
+          {
+            "name": "باقة 4 زيارات سشوار",
+            "desc": "",
+            "price": 490
+          },
+          {
+            "name": "باقة 5 زيارات سشوار",
+            "desc": "",
+            "price": 590
+          }
+        ],
+        "image": "wash"
+      },
+      {
+        "id": "body",
+        "title": "الجلسات",
+        "tagline": "",
+        "items": [
+          {
+            "name": "باقة 10 جلسات تدليك تقليدي",
+            "desc": "",
+            "price": 1950
+          },
+          {
+            "name": "باقة 10 جلسات خاصة",
+            "desc": "",
+            "price": 2490
+          }
+        ],
+        "image": "room"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Sammy B.",
+      "stars": 5,
+      "text": "Best Spray Tan in Doha",
+      "source_ref": "https://www.fresha.com/a/fresh-go-beauty-bar-doha-rawd-al-ain-street-eho96dvf"
+    },
+    {
+      "author": "Sona D.",
+      "stars": 5,
+      "text": "The best pedicure ever. Great job! Thanks",
+      "source_ref": "https://www.fresha.com/a/fresh-go-beauty-bar-doha-rawd-al-ain-street-eho96dvf"
+    },
+    {
+      "author": "Feriel S.",
+      "stars": 5,
+      "text": "She is an amazing lady! ❤️ I absolutely love her. She is so kind, always welcoming you with a beautiful smile. Thank you so much for your assistance and for making my nail art experience so wonderful! 💅🏻🥰",
+      "source_ref": "https://www.fresha.com/a/fresh-go-beauty-bar-doha-rawd-al-ain-street-eho96dvf"
+    },
+    {
+      "author": "Lyndill C.",
+      "stars": 5,
+      "text": "Great service! Very happy with my tan!",
+      "source_ref": "https://www.fresha.com/a/fresh-go-beauty-bar-doha-rawd-al-ain-street-eho96dvf"
+    }
+  ],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "10:30 ص – 8 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "10 ص – 4 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Fresha"
+  },
+  "visit": {
+    "image": "lounge"
+  },
+  "whatsapp": null,
+  "images": {
+    "salon": {
+      "file": "salon.jpg",
+      "alt": "صورة صالة Fresh & Go البيضاء من الداخل",
+      "source_url": "https://www.fresha.com/a/fresh-go-beauty-bar-doha-rawd-al-ain-street-eho96dvf",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "wash": {
+      "file": "wash.jpg",
+      "alt": "صورة كراسي غسيل الشعر بالإطار الذهبي",
+      "source_url": "https://www.fresha.com/a/fresh-go-beauty-bar-doha-rawd-al-ain-street-eho96dvf",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "pedi": {
+      "file": "pedi.jpg",
+      "alt": "صورة كرسي الباديكير في الصالون",
+      "source_url": "https://www.fresha.com/a/fresh-go-beauty-bar-doha-rawd-al-ain-street-eho96dvf",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "room": {
+      "file": "room.jpg",
+      "alt": "صورة غرفة الجلسات في الصالون",
+      "source_url": "https://www.fresha.com/a/fresh-go-beauty-bar-doha-rawd-al-ain-street-eho96dvf",
+      "credit": "من صفحة الحجز على Fresha"
+    },
+    "lounge": {
+      "file": "lounge.jpg",
+      "alt": "صورة ركن الأظافر قرب النافذة",
+      "source_url": "https://www.fresha.com/a/fresh-go-beauty-bar-doha-rawd-al-ain-street-eho96dvf",
+      "credit": "من صفحة الحجز على Fresha"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+[data-site="hugs-beauty-salon"] .hero__headline{position:relative;padding-bottom:.35em}
+[data-site="hugs-beauty-salon"] .hero__headline::after{content:"";position:absolute;inset-inline-start:0;bottom:0;width:min(220px,60%);height:10px;border-radius:50%;border-bottom:2px solid rgb(var(--glow-rgb));transform-origin:right;transform:scaleX(var(--swash,1))}
+[data-site="hugs-beauty-salon"] .story{overflow-x:clip}

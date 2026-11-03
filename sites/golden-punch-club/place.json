@@ -1,0 +1,134 @@
+{
+  "place_id": "amd-notion-40d5cb524e44813c8eededf242c25179",
+  "slug": "golden-punch-club",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "services_pro",
+  "data_source": "قائمة النادي على خرائط Google",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#D4A017",
+    "rgb": "212, 160, 23",
+    "hover": "#B5880F",
+    "ink": "#141005"
+  },
+  "name": "نادي اللكمة الذهبية",
+  "name_lang": "ar",
+  "category_label": "نادي ملاكمة ودفاع عن النفس",
+  "area": "ظهرة لبن، الرياض",
+  "address": "حي المجد، ظهرة لبن، الرياض 13787",
+  "phone": {
+    "display": "+966 59 197 8782",
+    "tel": "+966591978782"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%86%D8%A7%D8%AF%D9%8A%20%D8%A7%D9%84%D9%84%D9%83%D9%85%D8%A9%20%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A%D8%A9%20%D8%B8%D9%87%D8%B1%D8%A9%20%D9%84%D8%A8%D9%86%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6&query_place_id=ChIJ2aK4-oEfLz4R_2aMrCui7ZM",
+  "map_query": "Golden Punch, Dhahrat Laban, Riyadh",
+  "rating": {
+    "value": 4.5,
+    "count": 89,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "ملاكمة ودفاع عن النفس للكبار والصغار",
+    "intro": "مركز Golden Punch في ظهرة لبن بالرياض، يذكر أعضاؤه المدربين بالاسم ويمدحون حصص الأطفال، وتقييمه 4.5 من 89 مراجعة على Google.",
+    "image": "gym"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في النادي",
+    "items": [
+      "ملاكمة",
+      "دفاع عن النفس",
+      "حصص للأطفال",
+      "تدريب شخصي",
+      "أجهزة حديد"
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "التدريب",
+    "eyebrow": "ما يقدّمه النادي",
+    "sample": false,
+    "note": "الخدمات مأخوذة من لافتة النادي ومراجعات الأعضاء. الأسعار والمواعيد عبر الاتصال.",
+    "categories": [
+      {
+        "id": "train",
+        "title": "الحصص",
+        "tagline": "",
+        "items": [
+          {
+            "name": "ملاكمة",
+            "desc": ""
+          },
+          {
+            "name": "دفاع عن النفس",
+            "desc": ""
+          },
+          {
+            "name": "حصص للأطفال",
+            "desc": ""
+          },
+          {
+            "name": "تدريب شخصي",
+            "desc": ""
+          }
+        ],
+        "image": "gloves"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "B Q.",
+      "stars": 5,
+      "text": "نادي ممتاز بصراحة و ادارة ممتازة بصراحة صارلي حوالي ست شهور مسجل ولا عندي اي شكوى او اي سلبية تستحق الذكر و بصراحة على الامكانيات الموجودة الادارة ما تقصر خصوصا المدرب مهند يركز على كل شخص و ينتبه للجميع…",
+      "source_ref": "https://www.google.com/maps/place/?q=place_id:ChIJ2aK4-oEfLz4R_2aMrCui7ZM"
+    },
+    {
+      "author": "A Z.",
+      "stars": 5,
+      "text": "بعد رحلة بحث شهرين لقيت هذا النادي بالصدفة النادي جميل و المدرب اسلام البركة بطل و داعم اكبر شي لاحظته بالنادي ما يسعون ورا المكسب المادي ابدا…",
+      "source_ref": "https://www.google.com/maps/place/?q=place_id:ChIJ2aK4-oEfLz4R_2aMrCui7ZM"
+    },
+    {
+      "author": "عايض",
+      "stars": 5,
+      "text": "النادي ممتاز جدا و المدرب ممتاز يساعدك ويعلمك ويوقف معك لين تخلص…",
+      "source_ref": "https://www.google.com/maps/place/?q=place_id:ChIJ2aK4-oEfLz4R_2aMrCui7ZM"
+    }
+  ],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "whatsapp": null,
+  "images": {
+    "gym": {
+      "file": "gym.jpg",
+      "alt": "صورة أجهزة الحديد داخل نادي اللكمة الذهبية",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJ2aK4-oEfLz4R_2aMrCui7ZM",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة مركز اللكمة الذهبية في ظهرة لبن",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJ2aK4-oEfLz4R_2aMrCui7ZM",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "gloves": {
+      "id": "photo-1549719386-74dfcbf7dbed",
+      "alt": "صورة توضيحية: قفازات ملاكمة على أرضية الحلبة",
+      "page": "https://unsplash.com/photos/photo-1549719386-74dfcbf7dbed"
+    }
+  }
+}

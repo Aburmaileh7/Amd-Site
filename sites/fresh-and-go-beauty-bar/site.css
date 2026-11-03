@@ -1,0 +1,4 @@
+[data-site="fresh-and-go-beauty-bar"] .card,[data-site="fresh-and-go-beauty-bar"] .item{border-inline-start:2px solid rgba(var(--glow-rgb),.55)}
+[data-site="fresh-and-go-beauty-bar"] .card{border-radius:4px 22px 4px 22px}
+[data-site="fresh-and-go-beauty-bar"] .hero__media{position:relative;overflow:hidden}
+[data-site="fresh-and-go-beauty-bar"] .amd-mist{position:absolute;inset:0;z-index:2;pointer-events:none;background:linear-gradient(100deg,transparent 30%,rgba(214,170,110,.45) 50%,transparent 70%);transform:translateX(120%)}

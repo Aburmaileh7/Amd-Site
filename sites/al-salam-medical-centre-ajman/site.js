@@ -1,0 +1,1 @@
+(function(){if(reduce)return;var m=document.querySelector('.hero__media, .hero__side');if(m)gsap.fromTo(m,{clipPath:'inset(0 100% 0 0 round 24px)'},{clipPath:'inset(0 0% 0 0 round 24px)',duration:1.3,delay:.4,ease:'expo.out'});})();
