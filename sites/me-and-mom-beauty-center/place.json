@@ -26,13 +26,15 @@
   "hero": {
     "headline": "حمام مغربي وخلطات طبيعية للشعر في الدوحة",
     "intro": "مركز مي اند موم للتجميل في الدوحة، معروف بخلطات الشعر الطبيعية والحمام المغربي والمساج والأظافر، وتقييمه 5.0 من 11 مراجعة على Salonist.",
-    "image": "b_towel"
+    "image": "towels"
   },
   "sections": [
+    "marquee",
+    "story",
     "menu",
     "reviews",
-    "proof",
     "amenities",
+    "proof",
     "visit"
   ],
   "menu": {
@@ -72,7 +74,8 @@
             "desc": "",
             "price": 250
           }
-        ]
+        ],
+        "image": "towels"
       },
       {
         "id": "hair",
@@ -99,7 +102,8 @@
             "desc": "",
             "price": 30
           }
-        ]
+        ],
+        "image": "salon"
       },
       {
         "id": "body",
@@ -126,7 +130,8 @@
             "desc": "",
             "price": 300
           }
-        ]
+        ],
+        "image": "massage"
       },
       {
         "id": "kids",
@@ -148,7 +153,8 @@
             "desc": "",
             "price": 20
           }
-        ]
+        ],
+        "image": "nails"
       }
     ]
   },
@@ -172,7 +178,7 @@
   "amenities": {
     "eyebrow": "قبل الزيارة",
     "title": "معلومات الزيارة",
-    "image": "b_brush",
+    "image": "reception",
     "items": [
       {
         "icon": "family",
@@ -192,30 +198,97 @@
     ]
   },
   "visit": {
-    "image": "b_stones"
+    "image": "villa"
   },
   "images": {
-    "b_towel": {
-      "id": "photo-1620733723572-11c53f73a416",
-      "alt": "صورة توضيحية: منشفة وشموع ومعطّر في جلسة سبا",
-      "page": "https://unsplash.com/photos/W7AyAs7azHc"
+    "towels": {
+      "file": "towels.jpg",
+      "alt": "صورة مناشف مطرزة بشعار Me & Mom مع زيوت وأحجار مساج",
+      "source_url": "https://www.google.com/maps/place/Me+And+Mom+Beauty+Center/@25.3452904,51.4618048,17z",
+      "credit": "من صور قائمة المحل على خرائط Google"
     },
-    "b_brush": {
-      "id": "photo-1786359410255-f0144e1a38e0",
-      "alt": "صورة توضيحية: منتجات عناية وفرشاة جسم خشبية",
-      "page": "https://unsplash.com/photos/fdnjoFzPGrM"
+    "massage": {
+      "file": "massage-room.jpg",
+      "alt": "صورة غرفة المساج بكرسيين ورديين وجدار ورد",
+      "source_url": "https://www.google.com/maps/place/Me+And+Mom+Beauty+Center/@25.3452904,51.4618048,17z",
+      "credit": "من صور قائمة المحل على خرائط Google"
     },
-    "b_stones": {
-      "id": "photo-1600334089648-b0d9d3028eb2",
-      "alt": "صورة توضيحية: جلسة مساج بالأحجار الساخنة",
-      "page": "https://unsplash.com/photos/ZbzYDboN7fg"
+    "salon": {
+      "file": "salon.jpg",
+      "alt": "صورة قسم الشعر بمرايا مقوسة وثريات",
+      "source_url": "https://www.google.com/maps/place/Me+And+Mom+Beauty+Center/@25.3452904,51.4618048,17z",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "reception": {
+      "file": "reception.jpg",
+      "alt": "صورة الاستقبال بواجهة فسيفساء وثريات زجاجية",
+      "source_url": "https://www.google.com/maps/place/Me+And+Mom+Beauty+Center/@25.3452904,51.4618048,17z",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "villa": {
+      "file": "villa.jpg",
+      "alt": "صورة مدخل فيلا المركز البيضاء بلوحة Me & Mom",
+      "source_url": "https://www.google.com/maps/place/Me+And+Mom+Beauty+Center/@25.3452904,51.4618048,17z",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "nails": {
+      "file": "nails.jpg",
+      "alt": "صورة يدين أثناء طلاء الأظافر بالأحمر",
+      "source_url": "https://www.google.com/maps/place/Me+And+Mom+Beauty+Center/@25.3452904,51.4618048,17z",
+      "credit": "من صور قائمة المحل على خرائط Google"
     }
   },
   "whatsapp": {
     "number": "97466864411",
     "display": "+974 6686 4411"
   },
-  "story": null,
+  "story": {
+    "eyebrow": "داخل الفيلا",
+    "title": "من المدخل الحجري إلى غرفة المساج",
+    "items": [
+      {
+        "label": "المدخل",
+        "title": "فيلا بيضاء ونافورة حجرية",
+        "text": "ممر عشب يقود إلى باب المركز ولوحته.",
+        "image": "villa"
+      },
+      {
+        "label": "الاستقبال",
+        "title": "فسيفساء وثريات زجاجية",
+        "text": "هنا تبدأ الزيارة وحجز الخدمة.",
+        "image": "reception"
+      },
+      {
+        "label": "الشعر",
+        "title": "مرايا مقوسة لخلطات الشعر",
+        "text": "قسم الشعر حيث تُطبّق الخلطات الطبيعية التي يعرف بها المركز.",
+        "image": "salon"
+      },
+      {
+        "label": "المساج",
+        "title": "غرفة مساج بجدار ورد",
+        "text": "مناشف مطرزة باسم المركز وزيوت جاهزة على الطاولة.",
+        "image": "massage"
+      }
+    ]
+  },
   "mentions": [],
-  "batch_id": "amd-gulf-20261102"
+  "batch_id": "amd-gulf-20261102",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "marquee": {
+    "label": "من خدمات المركز",
+    "items": [
+      "حمام مغربي",
+      "خلطات شعر طبيعية",
+      "مساج",
+      "مناكير وباديكير",
+      "حناء للأطفال"
+    ]
+  }
 }

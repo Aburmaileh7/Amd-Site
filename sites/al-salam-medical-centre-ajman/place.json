@@ -111,7 +111,7 @@
   ],
   "mentions": [],
   "visit": {
-    "image": "waiting"
+    "image": "entrance"
   },
   "whatsapp": null,
   "story": null,
@@ -125,6 +125,12 @@
     "waiting": {
       "file": "waiting.jpg",
       "alt": "صورة صالة الانتظار في المركز",
+      "source_url": "https://www.google.com/maps/place/Al+Salam+Medical+Centre/@25.4059182,55.4438121,17z",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "entrance": {
+      "file": "entrance.jpg",
+      "alt": "صورة مدخل مركز السلام الطبي ولوحته داخل البناية",
       "source_url": "https://www.google.com/maps/place/Al+Salam+Medical+Centre/@25.4059182,55.4438121,17z",
       "credit": "من صور قائمة المحل على خرائط Google"
     }

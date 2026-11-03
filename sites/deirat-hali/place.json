@@ -39,7 +39,7 @@
   "hero": {
     "headline": "مشاوي وكنافة وجلسات عائلية في رأس الخيمة",
     "intro": "مطعم وكافيه عربي في رأس الخيمة منذ 2018، بأربع صالات منها قسم للعائلات، يذكر زواره المشاوي المشكلة والحمّص والستيك، ويفتح حتى منتصف الليل.",
-    "image": "hall"
+    "image": "grill"
   },
   "sections": [
     "marquee",
@@ -73,7 +73,7 @@
         "label": "المشاوي",
         "title": "مشاوي مشكلة وحمّص",
         "text": "من أكثر ما يمدحه الزوار، مع ستيك الدجاج بالصوص.",
-        "image": "hall"
+        "image": "grill"
       },
       {
         "label": "الحلى",
@@ -115,7 +115,7 @@
             "mentioned": true
           }
         ],
-        "image": "hall"
+        "image": "grill"
       },
       {
         "id": "mezze",
@@ -191,6 +191,12 @@
       "file": "kunafa.jpg",
       "alt": "صورة كنافة بالجبن من ديرة هلي",
       "source_url": "https://wanderlog.com/place/details/3308211/deirat-hali-restaurant-and-cafe-ras-al-khaimah-",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "grill": {
+      "file": "grill.jpg",
+      "alt": "صورة طبق مشاوي مشكلة مع خبز وحمّص وطماطم مشوية",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Deirat+Hali+Ras+Al+Khaimah",
       "credit": "من صور قائمة المحل على خرائط Google"
     }
   },

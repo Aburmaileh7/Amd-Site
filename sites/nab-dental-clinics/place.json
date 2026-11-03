@@ -4,7 +4,7 @@
   "theme": "clinic_clean",
   "approved": false,
   "agency": "Amd web",
-  "data_source": "صفحات المحل العامة",
+  "data_source": "قائمة العيادة على خرائط Google ودليل Zavis",
   "accent": {
     "hex": "#7B5EA7",
     "rgb": "123, 94, 167",
@@ -24,7 +24,7 @@
   "map_query": "Nab Dental Clinics, Al Anabis, Madinah",
   "rating": {
     "value": 4.9,
-    "count": 976,
+    "count": 1101,
     "source": "Google"
   },
   "hours": {
@@ -43,13 +43,15 @@
   },
   "hero": {
     "headline": "تجميل الأسنان في العنابس حتى الثانية فجرًا",
-    "intro": "عيادات ناب لطب وتجميل الأسنان في المدينة المنورة، تقييمها 4.9 من 976 مراجعة على Google، وتستقبل المرضى من الثامنة صباحًا حتى الثانية فجرًا.",
-    "image": "c_probe"
+    "intro": "عيادات ناب لطب وتجميل الأسنان على طريق الملك عبدالله الفرعي في العنابس بالمدينة المنورة، تقييمها 4.9 من أكثر من 1,100 مراجعة على Google، وتستقبل حتى الثانية فجرًا.",
+    "image": "reception"
   },
   "sections": [
-    "proof",
-    "amenities",
+    "marquee",
     "menu",
+    "reviews",
+    "amenities",
+    "proof",
     "visit"
   ],
   "menu": {
@@ -75,15 +77,35 @@
             "name": "طب الأسنان العام",
             "desc": ""
           }
-        ]
+        ],
+        "image": "room"
       }
     ]
   },
-  "reviews": [],
+  "reviews": [
+    {
+      "author": "Lamar D.",
+      "stars": 5,
+      "text": "العيادة جدا مرتبه وتعاملهم احترافي دخلت عند الدكتورة الاخصائيه رغدا حبيب يدها خفيفه ومحترفة ماشا الله تبارك الله",
+      "source_ref": "https://www.google.com/maps/place/Nab+Dental+clinics/@24.4770358,39.582991,17z/data=!4m6!3m5!1s0x27ff001b8d31efe3:0x6aee2785554b5629"
+    },
+    {
+      "author": "Rasha K.",
+      "stars": 5,
+      "text": "اخدت بناتي ال٣ عند الدكتور مصطفى والممرضه ايمان ماشاء الله تعامل زوق نظافه لو في ١٠ نجوم لاعطيتهم…",
+      "source_ref": "https://www.google.com/maps/place/Nab+Dental+clinics/@24.4770358,39.582991,17z/data=!4m6!3m5!1s0x27ff001b8d31efe3:0x6aee2785554b5629"
+    },
+    {
+      "author": "Bayan S.",
+      "stars": 5,
+      "text": "من لايشكر الناس لايشكر الله ، مشكورين على حسن ضيافتهم واستقبالهم ، اضطريت انتظر ساعتين عندهم لانه عندي موعد في محل قريب عليهم ورحبو فيني بشكل لبق جدا وقدمو لي ضيافه مجانيه قهوه ومويه…",
+      "source_ref": "https://www.google.com/maps/place/Nab+Dental+clinics/@24.4770358,39.582991,17z/data=!4m6!3m5!1s0x27ff001b8d31efe3:0x6aee2785554b5629"
+    }
+  ],
   "amenities": {
     "eyebrow": "قبل الزيارة",
     "title": "معلومات الزيارة",
-    "image": "c_bright",
+    "image": "xray",
     "items": [
       {
         "icon": "clock",
@@ -103,27 +125,55 @@
     ]
   },
   "visit": {
-    "image": "c_xray"
+    "image": "lights"
   },
   "images": {
-    "c_probe": {
-      "id": "photo-1606811856475-5e6fcdc6e509",
-      "alt": "صورة توضيحية: مرآة وأداة فحص أسنان",
-      "page": "https://unsplash.com/photos/ux18C551ghI"
+    "reception": {
+      "file": "reception.jpg",
+      "alt": "صورة استقبال عيادات ناب بالرخام والنباتات وشعار العيادة",
+      "source_url": "https://www.google.com/maps/place/Nab+Dental+clinics/@24.4770358,39.582991,17z/data=!4m6!3m5!1s0x27ff001b8d31efe3:0x6aee2785554b5629",
+      "credit": "من صور قائمة المحل على خرائط Google"
     },
-    "c_bright": {
-      "id": "photo-1598256989800-fe5f95da9787",
-      "alt": "صورة توضيحية: كرسي أسنان في عيادة مضيئة",
-      "page": "https://unsplash.com/photos/XJptUS8nbhs"
+    "room": {
+      "file": "treatment-room.jpg",
+      "alt": "صورة غرفة علاج بكرسي أسنان أحمر وإضاءة سقف دائرية",
+      "source_url": "https://www.google.com/maps/place/Nab+Dental+clinics/@24.4770358,39.582991,17z/data=!4m6!3m5!1s0x27ff001b8d31efe3:0x6aee2785554b5629",
+      "credit": "من صور قائمة المحل على خرائط Google"
     },
-    "c_xray": {
-      "id": "photo-1588776814546-1ffcf47267a5",
-      "alt": "صورة توضيحية: طبيب يراجع صور أشعة للأسنان",
-      "page": "https://unsplash.com/photos/v_2FRXEba94"
+    "xray": {
+      "file": "panoramic-xray.jpg",
+      "alt": "صورة جهاز الأشعة البانورامية في العيادة",
+      "source_url": "https://www.google.com/maps/place/Nab+Dental+clinics/@24.4770358,39.582991,17z/data=!4m6!3m5!1s0x27ff001b8d31efe3:0x6aee2785554b5629",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "lights": {
+      "file": "lights.jpg",
+      "alt": "صورة الممر بإضاءات معلقة وألواح خشبية وعبارة ما شاء الله",
+      "source_url": "https://www.google.com/maps/place/Nab+Dental+clinics/@24.4770358,39.582991,17z/data=!4m6!3m5!1s0x27ff001b8d31efe3:0x6aee2785554b5629",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "office": {
+      "file": "office.jpg",
+      "alt": "صورة مكتب الاستشارة برفوف خشبية",
+      "source_url": "https://www.google.com/maps/place/Nab+Dental+clinics/@24.4770358,39.582991,17z/data=!4m6!3m5!1s0x27ff001b8d31efe3:0x6aee2785554b5629",
+      "credit": "من صور قائمة المحل على خرائط Google"
     }
   },
   "whatsapp": null,
   "story": null,
   "mentions": [],
-  "batch_id": "amd-gulf-20261102"
+  "batch_id": "amd-gulf-20261102",
+  "layout": {
+    "hero": "split"
+  },
+  "marquee": {
+    "label": "من خدمات العيادة",
+    "items": [
+      "تجميل الأسنان",
+      "العلاج الترميمي",
+      "طب الأسنان العام",
+      "أشعة بانورامية",
+      "حتى 2 فجرًا"
+    ]
+  }
 }

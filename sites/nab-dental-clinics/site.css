@@ -1,0 +1,10 @@
+/* Nab: open until 2am — the page drifts from day to night as you scroll */
+[data-site="nab-dental-clinics"]{--nab-night:0}
+[data-site="nab-dental-clinics"] .nab-sky{position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:linear-gradient(180deg,rgba(28,20,60,.0),rgba(28,20,60,.10));opacity:var(--nab-night)}
+[data-site="nab-dental-clinics"] .nab-moon{position:fixed;top:84px;inset-inline-start:24px;width:14px;height:14px;border-radius:50%;
+  box-shadow:-4px 0 0 0 rgb(var(--glow-rgb));opacity:calc(.25 + var(--nab-night)*.75);pointer-events:none;z-index:5;
+  transform:translateY(calc((1 - var(--nab-night))*-8px))}
+[data-site="nab-dental-clinics"] .marquee{background:linear-gradient(90deg,rgba(var(--glow-rgb),.08),rgba(var(--glow-rgb),.18),rgba(var(--glow-rgb),.08))}
+@media (prefers-reduced-motion:reduce){[data-site="nab-dental-clinics"] .nab-moon{transform:none}}
+@media (max-width:520px){[data-site="nab-dental-clinics"] .brand{font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:62vw}}

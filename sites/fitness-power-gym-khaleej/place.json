@@ -7,8 +7,8 @@
   "theme": "services_pro",
   "data_source": "قائمة النادي على خرائط Google",
   "layout": {
-    "hero": "split",
-    "story": "stack"
+    "hero": "full",
+    "story": "horizontal"
   },
   "accent": {
     "hex": "#E5C400",
@@ -35,11 +35,12 @@
   "hero": {
     "headline": "حديد ومسبح داخلي في حي الخليج",
     "intro": "نادي رياضي على شارع بحر العرب بالرياض، يذكر أعضاؤه السباحة والحديد والمدربين، ويفتح حتى ساعات متأخرة. 756 مراجعة على Google.",
-    "image": "pool"
+    "image": "floor"
   },
   "sections": [
-    "menu",
     "marquee",
+    "story",
+    "menu",
     "reviews",
     "proof",
     "visit"
@@ -83,7 +84,7 @@
             "desc": ""
           }
         ],
-        "image": "weights"
+        "image": "reception"
       }
     ]
   },
@@ -99,6 +100,12 @@
       "stars": 5,
       "text": "اشكر الكباتن في الجيم التعامل باحترام و تدريب بشكل احترافي…",
       "source_ref": "https://www.google.com/maps/place/?q=place_id:ChIJ33-qshYALz4RRPRPdvtRnEc"
+    },
+    {
+      "author": "Aziz A.",
+      "stars": 5,
+      "text": "النادي جداً رائع ودايم يوفر الأجهزة اللازمة وعمل صيانة خاصة بشكل دوري وسعره جداً مناسب والمدرب عبدالله مدرب مميز جدًا، أخلاق عالية وتعامل راقٍ، ومتعاون مع الجميع. يهتم بالتفاصيل ويحرص على تصحيح التمارين بطريقة صحيحة…",
+      "source_ref": "https://www.google.com/maps/place/?q=place_id:ChIJ33-qshYALz4RRPRPdvtRnEc"
     }
   ],
   "mentions": [],
@@ -113,10 +120,44 @@
       "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJ33-qshYALz4RRPRPdvtRnEc",
       "credit": "من صور قائمة المحل على خرائط Google"
     },
-    "weights": {
-      "id": "photo-1576678927484-cc907957088c",
-      "alt": "صورة توضيحية: رف دمبلز في صالة حديد",
-      "page": "https://unsplash.com/photos/photo-1576678927484-cc907957088c"
+    "floor": {
+      "file": "floor.jpg",
+      "alt": "صورة صالة الحديد بالأعمدة الصفراء والأجهزة",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJ33-qshYALz4RRPRPdvtRnEc",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "reception": {
+      "file": "reception.jpg",
+      "alt": "صورة استقبال النادي بشعار Fitness Power الأخضر",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJ33-qshYALz4RRPRPdvtRnEc",
+      "credit": "من صور قائمة المحل على خرائط Google"
     }
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "story": {
+    "eyebrow": "داخل النادي",
+    "title": "حديد ومسبح تحت سقف واحد",
+    "items": [
+      {
+        "label": "الحديد",
+        "title": "صالة حديد واسعة",
+        "text": "أجهزة وأوزان حرة بين أعمدة صفراء، ويذكر الأعضاء الحديد والمدربين.",
+        "image": "floor"
+      },
+      {
+        "label": "المسبح",
+        "title": "مسبح داخلي",
+        "text": "السباحة من أكثر ما يتكرر في مراجعات الأعضاء.",
+        "image": "pool"
+      },
+      {
+        "label": "الاستقبال",
+        "title": "اشتراكك يبدأ من هنا",
+        "text": "استقبال على شارع بحر العرب في حي الخليج، ويفتح حتى ساعات متأخرة.",
+        "image": "reception"
+      }
+    ]
   }
 }

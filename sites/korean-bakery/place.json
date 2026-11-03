@@ -70,15 +70,21 @@
       },
       {
         "label": "الفترينة",
-        "title": "قطع جاهزة للطلب",
-        "text": "حلويات مغلّفة بالقطعة.",
-        "image": "case"
+        "title": "فترينة البسكويت والمعمول",
+        "text": "صواني بسكويت ومعمول وحلويات بالقطعة، جاهزة للضيافة.",
+        "image": "cookies"
       },
       {
-        "label": "الصحة",
-        "title": "كيك بدون سكر",
-        "text": "خيار يذكره زوار يتبعون حمية خاصة.",
-        "image": "front"
+        "label": "المحل",
+        "title": "رفوف دائرية حول عمود خشبي",
+        "text": "خشب فاتح وإضاءة دافئة، والحلويات معروضة حول العمود في وسط المحل.",
+        "image": "interior"
+      },
+      {
+        "label": "الكيك",
+        "title": "تشيز كيك محروق بالتوت",
+        "text": "من الحلويات التي تظهر في صور المحل على Google، بجانب كيك المناسبات.",
+        "image": "basque"
       }
     ]
   },
@@ -111,7 +117,7 @@
             "price": 0.8
           }
         ],
-        "image": "cake"
+        "image": "savory"
       },
       {
         "id": "cake",
@@ -159,6 +165,30 @@
     "case": {
       "file": "case.jpg",
       "alt": "صورة فترينة الحلويات في المخبز الكوري",
+      "source_url": "https://wanderlog.com/place/details/14909599/korean-bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "interior": {
+      "file": "interior.jpg",
+      "alt": "صورة داخل المخبز الكوري: عمود خشبي ورفوف دائرية للحلويات",
+      "source_url": "https://wanderlog.com/place/details/14909599/korean-bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "cookies": {
+      "file": "cookies.jpg",
+      "alt": "صورة فترينة البسكويت والمعمول في المخبز",
+      "source_url": "https://wanderlog.com/place/details/14909599/korean-bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "savory": {
+      "file": "savory.jpg",
+      "alt": "صورة صواني المعجنات والخبز المالح",
+      "source_url": "https://wanderlog.com/place/details/14909599/korean-bakery",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "basque": {
+      "file": "basque.jpg",
+      "alt": "صورة تشيز كيك محروق بالتوت من المخبز",
       "source_url": "https://wanderlog.com/place/details/14909599/korean-bakery",
       "credit": "من صور قائمة المحل على خرائط Google"
     }

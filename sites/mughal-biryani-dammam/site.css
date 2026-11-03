@@ -6,3 +6,4 @@
 @keyframes amdsteam{0%{transform:translateY(0) scale(.6);opacity:0}30%{opacity:.9}100%{transform:translateY(-80px) scale(1.6);opacity:0}}
 @media (prefers-reduced-motion:reduce){[data-site="mughal-biryani-dammam"] .amd-steam{display:none}}
 [data-site="mughal-biryani-dammam"] .menu{background-image:radial-gradient(rgba(var(--glow-rgb),.18) 1.5px,transparent 1.6px);background-size:22px 22px}
+[data-site="mughal-biryani-dammam"] .hero__shade{background:linear-gradient(to top,var(--bg) 6%,rgba(var(--bg-rgb),.93) 42%,rgba(var(--bg-rgb),.45) 72%,rgba(var(--bg-rgb),.55) 100%),radial-gradient(60% 50% at 80% 100%,rgba(var(--glow-rgb),.16),transparent 70%)}

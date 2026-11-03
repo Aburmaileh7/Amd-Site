@@ -9,3 +9,4 @@
 [data-site="anayat-sweets"] .amd-open.is-closed b{background:#B4483C;animation:none}
 @keyframes amdpulse{70%{box-shadow:0 0 0 10px rgba(46,158,91,0)}100%{box-shadow:0 0 0 0 rgba(46,158,91,0)}}
 @media (prefers-reduced-motion:reduce){[data-site="anayat-sweets"] .amd-open b{animation:none}}
+[data-site="anayat-sweets"] .hero__shade{background:linear-gradient(to top,var(--bg) 6%,rgba(var(--bg-rgb),.93) 42%,rgba(var(--bg-rgb),.5) 72%,rgba(var(--bg-rgb),.6) 100%)}

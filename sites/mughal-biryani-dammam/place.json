@@ -7,8 +7,8 @@
   "theme": "heritage_warm",
   "data_source": "قائمة المحل على Google Maps (عبر Wanderlog)",
   "layout": {
-    "hero": "split",
-    "story": "stack"
+    "hero": "full",
+    "story": "horizontal"
   },
   "accent": {
     "hex": "#D9822B",
@@ -35,10 +35,11 @@
   "hero": {
     "headline": "برياني وسمبوسة وشاي كرك في العدامة",
     "intro": "مطعم مغل برياني في الدمام، يمدح زواره البرياني والسمبوسة والسبرنج رول والكرك ونظافة المحل. يفتح يوميًا 11:30 ص – 11:30 م.",
-    "image": "front"
+    "image": "biryani"
   },
   "sections": [
     "marquee",
+    "story",
     "menu",
     "reviews",
     "proof",
@@ -88,7 +89,7 @@
             "price": 32
           }
         ],
-        "image": "biryani"
+        "image": "kacchi"
       },
       {
         "id": "sides",
@@ -110,7 +111,8 @@
             "desc": "",
             "price": 4
           }
-        ]
+        ],
+        "image": "samosa"
       },
       {
         "id": "drinks",
@@ -174,20 +176,72 @@
     "source": "Google Maps"
   },
   "visit": {
-    "image": "front"
+    "image": "shopfront"
   },
   "whatsapp": null,
   "images": {
-    "front": {
-      "file": "front.jpg",
-      "alt": "صورة واجهة مطعم مغل برياني في العدامة",
-      "source_url": "https://wanderlog.com/ar/place/details/10691578",
+    "biryani": {
+      "file": "biryani.jpg",
+      "alt": "صورة طبق برياني لحم بالليمون والفلفل الأخضر من مغل برياني",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJZU9FjB37ST4RrDjpTwz82NY",
       "credit": "من صور قائمة المحل على خرائط Google"
     },
-    "biryani": {
-      "id": "photo-1589302168068-964664d93dc0",
-      "alt": "صورة توضيحية: طبق برياني",
-      "page": "https://unsplash.com/photos/photo-1589302168068-964664d93dc0"
+    "kacchi": {
+      "file": "kacchi.jpg",
+      "alt": "صورة صينية كاتشي برياني مع كباب وبيض",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJZU9FjB37ST4RrDjpTwz82NY",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "samosa": {
+      "file": "samosa.jpg",
+      "alt": "صورة سمبوسة وسبرنج رول مع الصوص",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJZU9FjB37ST4RrDjpTwz82NY",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "kebab": {
+      "file": "kebab.jpg",
+      "alt": "صورة قطعتي كباب مع صوص أخضر وأحمر",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJZU9FjB37ST4RrDjpTwz82NY",
+      "credit": "من صور قائمة المحل على خرائط Google"
+    },
+    "shopfront": {
+      "file": "shopfront.jpg",
+      "alt": "صورة واجهة مطعم مغل برياني في العدامة",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJZU9FjB37ST4RrDjpTwz82NY",
+      "credit": "من صور قائمة المحل على خرائط Google"
     }
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "story": {
+    "eyebrow": "ورد في مراجعات الزوار",
+    "title": "من القدر إلى الطاولة",
+    "items": [
+      {
+        "label": "البرياني",
+        "title": "برياني بحبة الأرز الطويلة",
+        "text": "الطبق الذي يتكرر في المراجعات، يقدَّم بالليمون والفلفل الأخضر.",
+        "image": "biryani"
+      },
+      {
+        "label": "كاتشي",
+        "title": "كاتشي للعزايم والجمعات",
+        "text": "صينية كبيرة باللحم والبيض والكباب حول الأرز.",
+        "image": "kacchi"
+      },
+      {
+        "label": "المقبلات",
+        "title": "سمبوسة وسبرنج رول",
+        "text": "يذكرها الزوار مع البرياني، مقرمشة ومع الصوص.",
+        "image": "samosa"
+      },
+      {
+        "label": "المحل",
+        "title": "على الشارع العاشر في العدامة",
+        "text": "محل نظيف بواجهة حمراء، ويمدح الزوار نظافته.",
+        "image": "shopfront"
+      }
+    ]
   }
 }
