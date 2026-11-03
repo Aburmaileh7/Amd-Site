@@ -5,18 +5,23 @@ const { p } = Astro.props;
 const reviews = (p.reviews || []).filter((r) => r && r.text);
 const fmt = (n) => n.toLocaleString('en-US');
 const stars = (n) => Array.from({ length: 5 }, (_, i) => i < Math.round(n));
+// Name the real source: "Google" only when every review came from Google (Apify review ids or a google.* link);
+// reviews copied from directories or other public pages get a neutral label.
+const fromGoogle = (ref) => !/^https?:\/\//.test(ref || '') || /(^|\.)google\./.test((() => { try { return new URL(ref).hostname; } catch { return ''; } })());
+const allGoogle = reviews.every((r) => fromGoogle(r.source_ref));
+const sourceLabel = allGoogle ? `من مراجعات ${p.rating?.source || 'Google'}` : 'من مراجعات منشورة للزوار';
 ---
 {reviews.length > 0 && (
 <section class="rev" aria-labelledby="rev-title">
   <div class="wrap rev__head">
     <div>
-      <p class="eyebrow" data-reveal>من مراجعات {p.rating.source}</p>
+      <p class="eyebrow" data-reveal>{sourceLabel}</p>
       <h2 id="rev-title" class="rev__title" data-reveal>ماذا يقول الزوار</h2>
     </div>
   </div>
 
 
-    <div class="rev__rail" data-rail tabindex="0" aria-label="مراجعات الزوار، مرّر أفقيًا">
+    <div class="rev__rail" data-rail tabindex="0" role="region" aria-label="مراجعات الزوار، مرّر أفقيًا">
       {reviews.map((r) => (
         <figure class="card" data-card>
           {r.stars && (
@@ -24,8 +29,8 @@ const stars = (n) => Array.from({ length: 5 }, (_, i) => i < Math.round(n));
             {stars(r.stars).map((on) => <span class={on ? 'on' : ''} aria-hidden="true"></span>)}
           </div>
           )}
-          <blockquote>{r.text}</blockquote>
-          <figcaption><strong>{r.author}</strong>{r.when && <span class="muted"> · {r.when}</span>}</figcaption>
+          <blockquote dir="auto">{r.text}</blockquote>
+          <figcaption><strong dir="auto">{r.author}</strong>{r.when && <span class="muted"> · {r.when}</span>}</figcaption>
         </figure>
       ))}
     </div>

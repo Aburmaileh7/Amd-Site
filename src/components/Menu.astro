@@ -3,7 +3,9 @@ import Img from './Img.astro';
 const { p } = Astro.props;
 const m = p.menu;
 const priced = m && m.kind !== 'services';
-const price = (n) => Number(n).toFixed(2);
+// Omani rial, Kuwaiti and Bahraini dinar are written with 3 decimals (0.600), the rest with 2.
+const decimals = ['ر.ع', 'د.ك', 'د.ب'].includes(m?.currency) ? 3 : 2;
+const price = (n) => Number(n).toFixed(decimals);
 ---
 {m && m.categories?.length > 0 && (
 <section class={`menu ${priced ? '' : 'menu--services'}`} id="menu" aria-labelledby="menu-title">
@@ -69,7 +71,7 @@ const price = (n) => Number(n).toFixed(2);
     radial-gradient(70% 50% at 100% 0%, rgba(var(--glow-rgb), .07), transparent 60%), var(--bg); border-top: 1px solid var(--line); }
   .menu__head { display: grid; gap: 20px; margin-bottom: 40px; }
   @media (min-width: 900px) { .menu__head { grid-template-columns: 1fr 380px; align-items: end; } }
-  .menu__title { font-size: clamp(3.4rem, 12vw, 8rem); font-weight: var(--display-weight); letter-spacing: -.03em; line-height: 1; }
+  .menu__title { font-size: clamp(3.4rem, 12vw, 8rem); font-weight: var(--display-weight); letter-spacing: normal; line-height: 1; }
   .menu__sample { font-size: .85rem; line-height: 1.7; color: var(--muted); border: 1px dashed rgba(var(--glow-rgb), .45); border-radius: 10px; padding: 12px 14px; display: flex; gap: 10px; }
   .dot { flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--glow); margin-top: 8px; }
 

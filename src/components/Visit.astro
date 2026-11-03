@@ -2,18 +2,21 @@
 import Img from './Img.astro';
 const { p } = Astro.props;
 const img = p.visit?.image ? p.images[p.visit.image] : null;
+// The photo sits under the shade, so its own badge would be hidden; show the label above the shade instead.
+const badge = img && (img.file ? (img.credit || 'صورة حقيقية للمكان') : 'صورة توضيحية');
 ---
 <section class={`visit ${img ? '' : 'visit--plain'}`} id="visit" aria-labelledby="visit-title">
   {img && (
     <>
       <div class="visit__bg" data-parallax="12" aria-hidden="true"><Img img={img} sizes="100vw" pos="50% 40%" /></div>
       <div class="visit__shade" aria-hidden="true"></div>
+      <span class="photo__badge visit__badge">{badge}</span>
     </>
   )}
 
   <div class="wrap visit__inner">
     <p class="eyebrow" data-reveal>زيارتنا</p>
-    <h2 id="visit-title" class="visit__title"><span data-line><span>{p.address}</span></span></h2>
+    <h2 id="visit-title" class="visit__title"><span data-line><span>{p.address || p.area || p.name}</span></span></h2>
 
     <div class="visit__cols">
       {p.hours?.rows?.length > 0 && (
@@ -44,13 +47,14 @@ const img = p.visit?.image ? p.images[p.visit.image] : null;
   .visit { position: relative; isolation: isolate; overflow: hidden; padding-block: clamp(110px, 16vw, 200px); }
   .visit__bg { position: absolute; inset: -12% 0; z-index: -2; }
   .visit__bg :global(.photo) { height: 100%; }
-  .visit__bg :global(.photo__badge) { bottom: auto; top: calc(12% + 16px); }
+  .visit__bg :global(.photo__badge) { display: none; }
+  .visit__badge { position: absolute; top: 16px; inset-inline-start: auto; inset-inline-end: 16px; bottom: auto; z-index: 1; }
   .visit__shade { position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, var(--bg) 0%, rgba(var(--bg-rgb), .78) 30%, rgba(var(--bg-rgb), .86) 70%, var(--bg) 100%); }
   .visit__inner { display: grid; gap: 18px; }
-  .visit__title { font-size: clamp(2.6rem, 9vw, 6.5rem); font-weight: var(--display-weight); letter-spacing: -.02em; }
+  .visit__title { font-size: clamp(2.6rem, 9vw, 6.5rem); font-weight: var(--display-weight); letter-spacing: normal; }
   .visit__cols { display: grid; gap: 32px; margin-top: 32px; }
   @media (min-width: 860px) { .visit__cols { grid-template-columns: 1fr 1fr auto; align-items: end; } }
-  .label { font-size: .8rem; letter-spacing: .08em; color: var(--muted); font-family: var(--font-ui); }
+  .label { font-size: .8rem; letter-spacing: normal; color: var(--muted); font-family: var(--font-ui); }
   .big { font-family: var(--font-ui); font-size: clamp(1.5rem, 3.4vw, 2.2rem); font-weight: 500; text-decoration: none; display: inline-block; }
   .phone:hover { color: var(--glow); }
   .small { font-size: .82rem; }

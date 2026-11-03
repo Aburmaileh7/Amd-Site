@@ -78,7 +78,7 @@ const themeColor = { rooftop_dark: '#0D0E11', cafe_light: '#F7F3EC', heritage_wa
   <footer class="site-footer">
     <div class="wrap site-footer__in">
       {preview
-        ? <p>موقع تجريبي من تصميم {p.agency}، ولا يمثل الموقع الرسمي لـ <span lang={p.name_lang || 'ar'}>{p.name}</span>. البيانات من {p.data_source || 'Google Maps'}{p.menu?.sample ? '، والمنيو نموذجي' : ''}.</p>
+        ? <p>موقع تجريبي من تصميم {p.agency}، ولا يمثّل <span lang={p.name_lang || 'ar'}>{p.name}</span> رسميًا. البيانات من {p.data_source || 'Google Maps'}{p.menu?.sample ? '، والمنيو نموذجي' : ''}.</p>
         : <p>© {new Date().getFullYear()} {p.name}</p>}
       {imgs.some((i) => !i.file) && <p class="muted">صور توضيحية من <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a>.</p>}
       <p class="site-credit"><BrandMark size={28} /> <span lang="en">Amd web</span></p>

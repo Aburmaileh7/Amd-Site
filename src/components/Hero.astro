@@ -56,7 +56,8 @@ const primary = p.directions_url
 
 <style>
   .hero { position: relative; isolation: isolate; overflow: hidden; }
-  .hero__title { font-size: clamp(3rem, 12vw, 8.5rem); font-weight: var(--display-weight); letter-spacing: -.03em; line-height: 1; font-family: var(--font-d); }
+  .hero__title { font-size: clamp(3rem, 12vw, 8.5rem); font-weight: var(--display-weight); letter-spacing: normal; line-height: 1; font-family: var(--font-d); }
+  .hero__title:lang(en) { letter-spacing: -.03em; }
   .hero__headline { font-family: var(--font-ui); font-size: clamp(1.25rem, 3.4vw, 1.9rem); font-weight: 500; max-width: 22em; text-wrap: balance; }
   .hero__intro { max-width: 34em; font-size: 1.05rem; }
   .hero__content { display: grid; gap: 18px; align-content: end; }

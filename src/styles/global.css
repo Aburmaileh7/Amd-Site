@@ -141,7 +141,7 @@ p { margin: 0; }
 :focus-visible { outline: 2px solid var(--glow); outline-offset: 4px; border-radius: 4px; }
 
 .wrap { width: min(100% - 2 * var(--gutter), var(--maxw)); margin-inline: auto; }
-.eyebrow { font-family: var(--font-ui); font-size: .82rem; letter-spacing: .08em; color: var(--glow); font-weight: 500; }
+.eyebrow { font-family: var(--font-ui); font-size: .82rem; letter-spacing: normal; color: var(--glow); font-weight: 500; }
 .muted { color: var(--muted); }
 .ltr { direction: ltr; unicode-bidi: isolate; }
 
