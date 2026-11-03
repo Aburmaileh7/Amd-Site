@@ -1,0 +1,210 @@
+{
+  "place_id": "amd-notion-40d5cb524e4481af8ff0e7f28de3f98f",
+  "slug": "beauty-hunters-doha",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "حساب المحل العام على إنستغرام",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#5B3A29",
+    "rgb": "91, 58, 41",
+    "hover": "#462C1F",
+    "ink": "#FFFFFF"
+  },
+  "name": "Beauty Hunters",
+  "name_lang": "en",
+  "category_label": "صالون نسائي للأظافر والرموش والشعر",
+  "area": "اللؤلؤة والخليج الغربي، الدوحة",
+  "address": "بورتو أرابيا، اللؤلؤة · فندق دوسيت الدوحة، الخليج الغربي",
+  "phone": {
+    "display": "+974 3377 7587",
+    "tel": "+97433777587"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Beauty%20Hunters%20Ladies%20Salon%2C%20Porto%20Arabia%2C%20The%20Pearl%2C%20Doha",
+  "map_query": "Beauty Hunters Ladies Salon, Porto Arabia, The Pearl, Doha",
+  "hero": {
+    "headline": "بالياج عسلي وأظافر بنقش الدانتيل",
+    "intro": "صالون نسائي بفرعين في اللؤلؤة والخليج الغربي للأظافر والرموش والحواجب والشعر والسبا، يستقبلكم يوميًا من 10 صباحًا حتى 8 مساءً.",
+    "image": "balayage"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في الفرعين",
+    "items": [
+      "أظافر",
+      "رموش",
+      "حواجب",
+      "مكياج دائم",
+      "شعر",
+      "سبا"
+    ]
+  },
+  "story": {
+    "eyebrow": "من حساب الصالون",
+    "title": "تفاصيل تلفت النظر",
+    "items": [
+      {
+        "label": "الشعر",
+        "title": "بالياج عسلي",
+        "text": "شعر طويل بتدرّج عسلي وتموج خفيف.",
+        "image": "balayage"
+      },
+      {
+        "label": "الأظافر",
+        "title": "نقش الدانتيل",
+        "text": "أظافر طويلة بلون داكن ونقش يشبه الدانتيل.",
+        "image": "lace"
+      },
+      {
+        "label": "اللون",
+        "title": "عنابي لامع",
+        "text": "أظافر قصيرة بلون عنابي مع خواتم ذهبية.",
+        "image": "wine"
+      },
+      {
+        "label": "كلاسيك",
+        "title": "أحمر واحد",
+        "text": "ظفر لوزي بأحمر صريح.",
+        "image": "red"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "كما في حساب الصالون",
+    "sample": false,
+    "note": "الخدمات من وصف الحساب على إنستغرام. الأسعار والمواعيد بالاتصال على رقم الفرع.",
+    "categories": [
+      {
+        "id": "c0",
+        "title": "الأظافر",
+        "tagline": "",
+        "items": [
+          {
+            "name": "مناكير وبديكير",
+            "desc": ""
+          },
+          {
+            "name": "جل ونقش",
+            "desc": ""
+          },
+          {
+            "name": "تركيب أظافر",
+            "desc": ""
+          }
+        ],
+        "image": "lace"
+      },
+      {
+        "id": "c1",
+        "title": "الرموش والحواجب",
+        "tagline": "",
+        "items": [
+          {
+            "name": "رموش",
+            "desc": ""
+          },
+          {
+            "name": "حواجب",
+            "desc": ""
+          },
+          {
+            "name": "مكياج دائم",
+            "desc": ""
+          }
+        ],
+        "image": "wine"
+      },
+      {
+        "id": "c2",
+        "title": "الشعر والسبا",
+        "tagline": "",
+        "items": [
+          {
+            "name": "صبغة وبالياج",
+            "desc": ""
+          },
+          {
+            "name": "تسريح",
+            "desc": ""
+          },
+          {
+            "name": "سبا",
+            "desc": ""
+          }
+        ],
+        "image": "blonde"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "10 ص – 8 م"
+      },
+      {
+        "days": "فرع اللؤلؤة",
+        "time": "+974 3377 7587"
+      },
+      {
+        "days": "فرع الخليج الغربي",
+        "time": "+974 7477 7103"
+      }
+    ],
+    "per_day": null,
+    "source": "إنستغرام"
+  },
+  "visit": {
+    "image": "blonde"
+  },
+  "whatsapp": null,
+  "images": {
+    "balayage": {
+      "file": "balayage.jpg",
+      "alt": "صورة شعر طويل ببالياج عسلي من أعمال الصالون",
+      "source_url": "https://www.instagram.com/beautyhuntersdoha/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "lace": {
+      "file": "lace.jpg",
+      "alt": "صورة أظافر داكنة بنقش دانتيل",
+      "source_url": "https://www.instagram.com/beautyhuntersdoha/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "wine": {
+      "file": "wine.jpg",
+      "alt": "صورة أظافر عنابية مع خواتم ذهبية",
+      "source_url": "https://www.instagram.com/beautyhuntersdoha/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "red": {
+      "file": "red.jpg",
+      "alt": "صورة ظفر لوزي بلون أحمر",
+      "source_url": "https://www.instagram.com/beautyhuntersdoha/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "blonde": {
+      "file": "blonde.jpg",
+      "alt": "صورة شعر أشقر مموج من أعمال الصالون",
+      "source_url": "https://www.instagram.com/beautyhuntersdoha/",
+      "credit": "من حساب المحل على إنستغرام"
+    }
+  }
+}

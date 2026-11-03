@@ -1,0 +1,5 @@
+(function(){var H=[[660, 1260], [660, 1260], [660, 1260], [660, 1260], [660, 1260], [660, 1260], [660, 1260]],off=180;var c=document.querySelector('.hero__intro');if(!c)return;var n=new Date(Date.now()+off*6e4),d=n.getUTCDay(),m=n.getUTCHours()*60+n.getUTCMinutes();
+function on(day,t){var h=H[day];if(!h)return false;return h[1]>h[0]?(t>=h[0]&&t<h[1]):(t>=h[0]||t<h[1]);}
+var prev=H[(d+6)%7],o=on(d,m)||(prev&&prev[1]<prev[0]&&m<prev[1]);var p=document.createElement('p');p.className='amd-open'+(o?' is-open':'');
+p.innerHTML='<i aria-hidden="true"></i>'+(o?'مفتوح الآن حسب أوقات الدوام المنشورة':'مغلق الآن، نرحّب بكم في أوقات الدوام');c.after(p);})();
+(function(){var h=document.querySelector('.hero');if(!h)return;for(var i=0;i<3;i++){var d=document.createElement('i');d.className='amd-drop';d.setAttribute('aria-hidden','true');h.appendChild(d);}if(reduce){gsap.set('.amd-drop',{display:'none'});return;}gsap.fromTo('.amd-drop',{scale:0,opacity:.9},{scale:22,opacity:0,duration:3.2,ease:'power1.out',stagger:1.05,repeat:-1});})();

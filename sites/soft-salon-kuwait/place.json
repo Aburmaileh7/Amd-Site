@@ -1,0 +1,155 @@
+{
+  "place_id": "amd-notion-40d5cb524e4481558f11f86064927def",
+  "slug": "soft-salon-kuwait",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "حساب المحل العام على إنستغرام",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#9A6B4F",
+    "rgb": "154, 107, 79",
+    "hover": "#7E5640",
+    "ink": "#FFFFFF"
+  },
+  "name": "SOFT",
+  "name_lang": "en",
+  "category_label": "صالون وسبا",
+  "area": "الرقعي، الكويت",
+  "address": "الرقعي، الدور الأول",
+  "phone": {
+    "display": "+965 5500 5094",
+    "tel": "+96555005094"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Soft%20Salon%2C%20Al%20Riggae%2C%20Kuwait",
+  "map_query": "Soft Salon, Al Riggae, Kuwait",
+  "hero": {
+    "headline": "فرنش بقلوب صغيرة وباقات من 7 د.ك",
+    "intro": "صالون وسبا في الرقعي للأظافر والرموش والحواجب وخلطات الشعر، بباقات منشورة بأسعارها، والدوام من 10 صباحًا حتى 10 مساءً.",
+    "image": "hearts"
+  },
+  "sections": [
+    "menu",
+    "marquee",
+    "story",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في SOFT",
+    "items": [
+      "فرنش",
+      "رموش",
+      "حواجب",
+      "خلطة شعر",
+      "ويفي"
+    ]
+  },
+  "story": {
+    "eyebrow": "من حساب الصالون",
+    "title": "أظافر بتفاصيل صغيرة",
+    "items": [
+      {
+        "label": "قلوب",
+        "title": "فرنش بقلب",
+        "text": "أظافر لوزية نود بأطراف فرنش وقلوب حمراء صغيرة.",
+        "image": "hearts"
+      },
+      {
+        "label": "أحمر",
+        "title": "أطراف حمراء",
+        "text": "فرنش أحمر بقلب على أظافر قصيرة.",
+        "image": "red"
+      },
+      {
+        "label": "أسود",
+        "title": "فرنش أسود وأبيض",
+        "text": "أطراف سوداء ببقع بيضاء على أظافر طويلة.",
+        "image": "black"
+      },
+      {
+        "label": "ناعم",
+        "title": "نود قصير",
+        "text": "أظافر قصيرة بلون نود وفرنش أبيض خفيف.",
+        "image": "nude"
+      }
+    ]
+  },
+  "menu": {
+    "title": "الباقات",
+    "eyebrow": "منشورة في حساب الصالون",
+    "currency": "د.ك",
+    "sample": false,
+    "note": "الباقات والأسعار منقولة من منشورات الصالون على إنستغرام وقد تتغير.",
+    "categories": [
+      {
+        "id": "pk",
+        "title": "باقات الصالون",
+        "tagline": "",
+        "image": "nude",
+        "items": [
+          {
+            "name": "باقة 3: خلطة طبيعية للشعر + استشوار",
+            "desc": "",
+            "price": 7
+          },
+          {
+            "name": "باقة 1: بدكير منكير + صبغ يد وقدم + خلطة شعر + استشوار",
+            "desc": "",
+            "price": 15
+          },
+          {
+            "name": "باقة 2: بدكير منكير + صبغ يد وقدم + خلطة شعر + ويفي",
+            "desc": "",
+            "price": 17
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "10 ص – 10 م"
+      }
+    ],
+    "per_day": null,
+    "source": "إنستغرام"
+  },
+  "visit": {
+    "image": "red"
+  },
+  "whatsapp": null,
+  "images": {
+    "hearts": {
+      "file": "hearts.jpg",
+      "alt": "صورة أظافر فرنش بقلوب حمراء صغيرة",
+      "source_url": "https://www.instagram.com/softsallon/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "red": {
+      "file": "red.jpg",
+      "alt": "صورة أظافر بأطراف حمراء وقلب",
+      "source_url": "https://www.instagram.com/softsallon/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "black": {
+      "file": "black.jpg",
+      "alt": "صورة أظافر فرنش أسود وأبيض",
+      "source_url": "https://www.instagram.com/softsallon/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "nude": {
+      "file": "nude.jpg",
+      "alt": "صورة أظافر نود قصيرة",
+      "source_url": "https://www.instagram.com/softsallon/",
+      "credit": "من حساب المحل على إنستغرام"
+    }
+  }
+}

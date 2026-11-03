@@ -1,0 +1,5 @@
+[data-site="le-melange-sweets"] .amd-ribbon{position:absolute;inset-inline:0;bottom:18%;height:10px;background:linear-gradient(90deg,#C9A24A,#F2D88A,#C9A24A);transform-origin:right center;z-index:2;pointer-events:none}
+[data-site="le-melange-sweets"] .hero{position:relative}
+[data-site="le-melange-sweets"] .amd-open{display:inline-flex;align-items:center;gap:.5rem;margin:.9rem 0 0;font-size:.95rem;font-weight:600}
+[data-site="le-melange-sweets"] .amd-open i{width:.6rem;height:.6rem;border-radius:50%;background:#9a9a9a}
+[data-site="le-melange-sweets"] .amd-open.is-open i{background:#1f9d55;box-shadow:0 0 0 4px rgba(31,157,85,.18)}

@@ -1,0 +1,4 @@
+[data-site="car-spa-dubai"] .hero__headline{background:linear-gradient(100deg,currentColor 40%,#E9EEF2 50%,currentColor 60%);background-size:300% 100%;background-position:var(--ch,100%) 0;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:inherit}
+[data-site="car-spa-dubai"] .amd-open{display:inline-flex;align-items:center;gap:.5rem;margin:.9rem 0 0;font-size:.95rem;font-weight:600}
+[data-site="car-spa-dubai"] .amd-open i{width:.6rem;height:.6rem;border-radius:50%;background:#9a9a9a}
+[data-site="car-spa-dubai"] .amd-open.is-open i{background:#1f9d55;box-shadow:0 0 0 4px rgba(31,157,85,.18)}

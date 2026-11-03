@@ -1,0 +1,5 @@
+(function(){var H=[[600, 1200], [600, 1200], [600, 1200], [600, 1200], [600, 1200], [600, 1200], [600, 1200]],off=180;var c=document.querySelector('.hero__intro');if(!c)return;var n=new Date(Date.now()+off*6e4),d=n.getUTCDay(),m=n.getUTCHours()*60+n.getUTCMinutes();
+function on(day,t){var h=H[day];if(!h)return false;return h[1]>h[0]?(t>=h[0]&&t<h[1]):(t>=h[0]||t<h[1]);}
+var prev=H[(d+6)%7],o=on(d,m)||(prev&&prev[1]<prev[0]&&m<prev[1]);var p=document.createElement('p');p.className='amd-open'+(o?' is-open':'');
+p.innerHTML='<i aria-hidden="true"></i>'+(o?'مفتوح الآن حسب أوقات الدوام المنشورة':'مغلق الآن، نرحّب بكم في أوقات الدوام');c.after(p);})();
+(function(){var C=['#5B3A29','#7B1E2B','#C21E2B','#2A2A2A'];var root=document.querySelector('[data-site="beauty-hunters-doha"]')||document.documentElement;if(reduce)return;gsap.utils.toArray('.panel,.panel-m').forEach(function(p,i){ScrollTrigger.create({trigger:p,start:'top center',onEnter:function(){root.style.setProperty('--polish',C[i%C.length]);},onEnterBack:function(){root.style.setProperty('--polish',C[i%C.length]);}});});})();

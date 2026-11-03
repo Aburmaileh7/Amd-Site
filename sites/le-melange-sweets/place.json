@@ -1,0 +1,173 @@
+{
+  "place_id": "amd-notion-40d5cb524e448123bb0ecd6f3bbba648",
+  "slug": "le-melange-sweets",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "gulf_luxe",
+  "data_source": "حساب المحل العام على إنستغرام",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#3FB5A5",
+    "rgb": "63, 181, 165",
+    "hover": "#2E9688",
+    "ink": "#06201C"
+  },
+  "name": "Le Mélange",
+  "name_lang": "en",
+  "category_label": "حلويات وكيك وكنافة",
+  "area": "المنامة، البحرين",
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Le%20Melange%20Sweets%2C%20Manama%2C%20Bahrain",
+  "map_query": "Le Melange Sweets, Manama, Bahrain",
+  "hero": {
+    "headline": "علب حلويات مغربية بشريطة ذهبية",
+    "intro": "محل حلويات في المنامة: كيك وكنافة وحلويات مغربية وموالح، بالطلب والتوصيل على واتساب، وموجود على طلبات وجاهز وكيتا.",
+    "image": "tray"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "story",
+    "visit"
+  ],
+  "marquee": {
+    "label": "من رفوف المحل",
+    "items": [
+      "كنافة",
+      "حلويات مغربية",
+      "كيك",
+      "موالح",
+      "علب هدايا"
+    ]
+  },
+  "story": {
+    "eyebrow": "في Le Mélange",
+    "title": "علبة تُهدى وصينية تُضيَّف",
+    "items": [
+      {
+        "label": "الصينية",
+        "title": "صفوف مرصوصة",
+        "text": "كعب غزال وغريبة ومعمول مرصوصة صفوفًا في صينية واحدة.",
+        "image": "tray"
+      },
+      {
+        "label": "العلبة",
+        "title": "لون النعناع",
+        "text": "علبة بلون النعناع فيها أصابع محشوة بالفستق وشريطة.",
+        "image": "mint"
+      },
+      {
+        "label": "الهدية",
+        "title": "شريطة ذهبية",
+        "text": "صندوق حلويات مربوط بشريطة يُسلَّم هدية.",
+        "image": "gift"
+      }
+    ]
+  },
+  "menu": {
+    "title": "الحلويات",
+    "eyebrow": "قائمة تجريبية",
+    "currency": "د.ب",
+    "sample": true,
+    "note": "قائمة تجريبية للعرض فقط. الأصناف من حساب المحل والأسعار للتوضيح، والأسعار الحقيقية عبر واتساب.",
+    "categories": [
+      {
+        "id": "mor",
+        "title": "حلويات مغربية",
+        "tagline": "",
+        "image": "box",
+        "items": [
+          {
+            "name": "علبة حلويات مشكّلة (1 كغ)",
+            "desc": "",
+            "price": 9
+          },
+          {
+            "name": "كعب غزال",
+            "desc": "",
+            "price": 6
+          },
+          {
+            "name": "غريبة باللوز",
+            "desc": "",
+            "price": 5
+          }
+        ]
+      },
+      {
+        "id": "kn",
+        "title": "كنافة وكيك",
+        "tagline": "",
+        "image": "mint",
+        "items": [
+          {
+            "name": "صينية كنافة",
+            "desc": "",
+            "price": 7
+          },
+          {
+            "name": "كيكة مناسبة",
+            "desc": "",
+            "price": 15
+          },
+          {
+            "name": "موالح مشكّلة",
+            "desc": "",
+            "price": 4.5
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "10 ص – 10 م"
+      }
+    ],
+    "per_day": null,
+    "source": "إنستغرام"
+  },
+  "visit": {
+    "image": "box"
+  },
+  "whatsapp": {
+    "number": "97366636632",
+    "display": "+973 6663 6632"
+  },
+  "images": {
+    "tray": {
+      "file": "tray.jpg",
+      "alt": "صورة صينية حلويات مغربية مرصوصة",
+      "source_url": "https://www.instagram.com/lemelange_sweet/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "mint": {
+      "file": "mint.jpg",
+      "alt": "صورة علبة حلويات بلون النعناع",
+      "source_url": "https://www.instagram.com/lemelange_sweet/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "gift": {
+      "file": "gift.jpg",
+      "alt": "صورة صندوق حلويات مربوط بشريطة",
+      "source_url": "https://www.instagram.com/lemelange_sweet/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "box": {
+      "file": "box.jpg",
+      "alt": "صورة علبة حلويات مشكّلة مع شاي",
+      "source_url": "https://www.instagram.com/lemelange_sweet/",
+      "credit": "من حساب المحل على إنستغرام"
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "place_id": "amd-notion-40d5cb524e4481b79e12ccac08a06787",
+  "slug": "drop-hair-nail-spa",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "حساب المحل العام على إنستغرام",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#6E7F4E",
+    "rgb": "110, 127, 78",
+    "hover": "#58663E",
+    "ink": "#FFFFFF"
+  },
+  "name": "DROP",
+  "name_lang": "en",
+  "category_label": "سبا للشعر والأظافر",
+  "area": "صباح السالم، الكويت",
+  "address": "صباح السالم، قطعة 1، شارع 123، مبنى C، الدور الثاني",
+  "phone": {
+    "display": "+965 2202 0858",
+    "tel": "+96522020858"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=DROP%20Hair%20and%20Nail%20Spa%2C%20Sabah%20Al%20Salem%2C%20Kuwait",
+  "map_query": "DROP Hair and Nail Spa, Sabah Al Salem, Kuwait",
+  "hero": {
+    "headline": "خلطات طبيعية للفروة في صباح السالم",
+    "intro": "سبا للشعر والأظافر في صباح السالم، بماسكات الأفوكادو والمشاط الأخضر والزنجبيل، مع خدمة منازل وتقسيط عبر ديمة.",
+    "image": "room"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "visit"
+  ],
+  "marquee": {
+    "label": "من خلطات DROP",
+    "items": [
+      "ماسك الأفوكادو",
+      "المشاط الأخضر",
+      "الزنجبيل للفروة",
+      "خدمة منازل",
+      "تقسيط مع ديمة"
+    ]
+  },
+  "story": {
+    "eyebrow": "من حساب DROP",
+    "title": "كل خلطة في وعائها",
+    "items": [
+      {
+        "label": "الصالة",
+        "title": "أبيض وهادئ",
+        "text": "صالة بإضاءة ناعمة وكراسي غسيل في الدور الثاني.",
+        "image": "room"
+      },
+      {
+        "label": "الخلطات",
+        "title": "صينية الماسكات",
+        "text": "صينية بثلاث خلطات خضراء وصفراء مع أوراق وبامية طازجة.",
+        "image": "tray"
+      },
+      {
+        "label": "الزنجبيل",
+        "title": "للفروة",
+        "text": "زنجبيل طازج في وعاء معدني، يشرح الحساب فوائده للفروة.",
+        "image": "ginger"
+      },
+      {
+        "label": "الأفوكادو",
+        "title": "ماسك بالفرشاة",
+        "text": "ماسك أفوكادو يُمدّ بالفرشاة على الشعر.",
+        "image": "avocado"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "من حساب DROP",
+    "sample": false,
+    "note": "الخدمات من منشورات السبا على إنستغرام. الأسعار والمواعيد بالاتصال.",
+    "categories": [
+      {
+        "id": "c0",
+        "title": "الفروة والشعر",
+        "tagline": "",
+        "items": [
+          {
+            "name": "ماسك الأفوكادو",
+            "desc": ""
+          },
+          {
+            "name": "خلطة المشاط الأخضر",
+            "desc": ""
+          },
+          {
+            "name": "علاج الزنجبيل للفروة",
+            "desc": ""
+          },
+          {
+            "name": "كورس الخلطات الطبيعية",
+            "desc": ""
+          }
+        ],
+        "image": "avocado"
+      },
+      {
+        "id": "c1",
+        "title": "الأظافر وغيرها",
+        "tagline": "",
+        "items": [
+          {
+            "name": "مناكير وبديكير",
+            "desc": ""
+          },
+          {
+            "name": "خدمة منازل",
+            "desc": ""
+          },
+          {
+            "name": "تقسيط مع ديمة",
+            "desc": ""
+          }
+        ],
+        "image": "tray"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "11 ص – 9 م"
+      }
+    ],
+    "per_day": null,
+    "source": "إنستغرام"
+  },
+  "visit": {
+    "image": "wall"
+  },
+  "whatsapp": null,
+  "images": {
+    "room": {
+      "file": "room.jpg",
+      "alt": "صورة صالة DROP البيضاء بكراسي الغسيل",
+      "source_url": "https://www.instagram.com/dropkwt/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "tray": {
+      "file": "tray.jpg",
+      "alt": "صورة صينية خلطات خضراء وصفراء",
+      "source_url": "https://www.instagram.com/dropkwt/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "ginger": {
+      "file": "ginger.jpg",
+      "alt": "صورة زنجبيل طازج في وعاء معدني",
+      "source_url": "https://www.instagram.com/dropkwt/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "avocado": {
+      "file": "avocado.jpg",
+      "alt": "صورة ماسك أفوكادو بالفرشاة",
+      "source_url": "https://www.instagram.com/dropkwt/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "wall": {
+      "file": "wall.jpg",
+      "alt": "صورة جدار الاستقبال باسم DROP",
+      "source_url": "https://www.instagram.com/dropkwt/",
+      "credit": "من حساب المحل على إنستغرام"
+    }
+  }
+}

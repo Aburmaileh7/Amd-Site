@@ -1,0 +1,5 @@
+[data-site="womens-oasis-salon"] .marquee{background-image:radial-gradient(circle at 10px -4px,transparent 12px,rgba(122,46,74,.16) 13px 15px,transparent 16px);background-size:20px 14px;background-repeat:repeat-x;background-position:var(--wv,0) 100%}
+[data-site="womens-oasis-salon"] .hero__headline{text-wrap:balance}
+[data-site="womens-oasis-salon"] .amd-open{display:inline-flex;align-items:center;gap:.5rem;margin:.9rem 0 0;font-size:.95rem;font-weight:600}
+[data-site="womens-oasis-salon"] .amd-open i{width:.6rem;height:.6rem;border-radius:50%;background:#9a9a9a}
+[data-site="womens-oasis-salon"] .amd-open.is-open i{background:#1f9d55;box-shadow:0 0 0 4px rgba(31,157,85,.18)}

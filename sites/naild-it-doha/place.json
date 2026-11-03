@@ -1,0 +1,165 @@
+{
+  "place_id": "amd-notion-40d5cb524e44817a9878fc98004a9a3a",
+  "slug": "naild-it-doha",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "حساب المحل العام على إنستغرام",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#C9849A",
+    "rgb": "201, 132, 154",
+    "hover": "#B06C83",
+    "ink": "#2A1219"
+  },
+  "name": "NAIL'D IT",
+  "name_lang": "en",
+  "category_label": "صالون أظافر",
+  "area": "قناة كارتييه، اللؤلؤة، الدوحة",
+  "address": "قناة كارتييه، جزيرة اللؤلؤة، الدوحة",
+  "phone": {
+    "display": "+974 4427 7727",
+    "tel": "+97444277727"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=NAIL%27D%20IT%2C%20Qanat%20Quartier%2C%20The%20Pearl%2C%20Doha",
+  "map_query": "NAIL'D IT, Qanat Quartier, The Pearl, Doha",
+  "hero": {
+    "headline": "أظافر نود ووردي على قناة كارتييه",
+    "intro": "صالون أظافر في قناة كارتييه باللؤلؤة يقدّم ألوان النود والوردي والفرنش، والحجز بالاتصال أو على واتساب.",
+    "image": "nude"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "visit"
+  ],
+  "marquee": {
+    "label": "ألوان الصالون",
+    "items": [
+      "نود",
+      "وردي",
+      "فرنش",
+      "لوزي طويل",
+      "قهوة الصباح"
+    ]
+  },
+  "story": {
+    "eyebrow": "من حساب الصالون",
+    "title": "لون هادئ يدوم",
+    "items": [
+      {
+        "label": "نود",
+        "title": "أظافر قصيرة ناعمة",
+        "text": "أظافر نود قصيرة بلمعة خفيفة.",
+        "image": "nude"
+      },
+      {
+        "label": "لوزي",
+        "title": "وردي طويل",
+        "text": "أظافر لوزية طويلة بلون وردي فاتح مع خواتم.",
+        "image": "almond"
+      },
+      {
+        "label": "الوردي",
+        "title": "The perfect pink",
+        "text": "يدان على وسادة الصالون الوردية بلون اختارته الزبونة.",
+        "image": "pink"
+      },
+      {
+        "label": "الصباح",
+        "title": "كوب قهوة الصالون",
+        "text": "كوب قهوة وردي يحمل اسم الصالون.",
+        "image": "cup"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "من حساب الصالون",
+    "sample": false,
+    "note": "الخدمات من منشورات الصالون. الأسعار والمواعيد بالاتصال أو واتساب.",
+    "categories": [
+      {
+        "id": "c0",
+        "title": "اليدين",
+        "tagline": "",
+        "items": [
+          {
+            "name": "مناكير",
+            "desc": ""
+          },
+          {
+            "name": "جل نود ووردي",
+            "desc": ""
+          },
+          {
+            "name": "فرنش",
+            "desc": ""
+          },
+          {
+            "name": "تطويل بالشكل اللوزي",
+            "desc": ""
+          }
+        ],
+        "image": "almond"
+      },
+      {
+        "id": "c1",
+        "title": "القدمين",
+        "tagline": "",
+        "items": [
+          {
+            "name": "بديكير",
+            "desc": ""
+          },
+          {
+            "name": "جل للقدمين",
+            "desc": ""
+          }
+        ],
+        "image": "pink"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "cup"
+  },
+  "whatsapp": {
+    "number": "97460077727",
+    "display": "+974 6007 7727"
+  },
+  "images": {
+    "nude": {
+      "file": "nude.jpg",
+      "alt": "صورة أظافر نود قصيرة من أعمال الصالون",
+      "source_url": "https://www.instagram.com/wenailditdoha/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "almond": {
+      "file": "almond.jpg",
+      "alt": "صورة أظافر لوزية وردية طويلة",
+      "source_url": "https://www.instagram.com/wenailditdoha/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "pink": {
+      "file": "pink.jpg",
+      "alt": "صورة يدين بأظافر وردية على وسادة الصالون",
+      "source_url": "https://www.instagram.com/wenailditdoha/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "cup": {
+      "file": "cup.jpg",
+      "alt": "صورة كوب قهوة وردي باسم الصالون",
+      "source_url": "https://www.instagram.com/wenailditdoha/",
+      "credit": "من حساب المحل على إنستغرام"
+    }
+  }
+}

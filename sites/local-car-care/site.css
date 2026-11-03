@@ -1,0 +1,2 @@
+[data-site="local-car-care"] .hero__media::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 40%,rgba(255,255,255,.22) 50%,transparent 60%);background-size:250% 100%;background-position:var(--gl,120%) 0;pointer-events:none}
+[data-site="local-car-care"] .hero__media{position:relative}

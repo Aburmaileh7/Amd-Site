@@ -1,0 +1,1 @@
+(function(){if(reduce)return;var m=document.querySelector('.hero__media');if(!m)return;gsap.fromTo(m,{'--gl':'120%'},{'--gl':'-20%',duration:2.2,delay:.8,ease:'power2.inOut',repeat:-1,repeatDelay:4});})();

@@ -1,0 +1,163 @@
+{
+  "place_id": "amd-notion-40d5cb524e4481b9a9edf00eff5a051a",
+  "slug": "mesoo-salon-spa",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "حساب المحل العام على إنستغرام",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#7C5A3A",
+    "rgb": "124, 90, 58",
+    "hover": "#64482E",
+    "ink": "#FFFFFF"
+  },
+  "name": "ميسو",
+  "name_lang": "ar",
+  "category_label": "صالون وسبا نسائي",
+  "area": "الرفاع، البحرين",
+  "phone": {
+    "display": "+973 6666 6596",
+    "tel": "+97366666596"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Mesoo%20Salon%20and%20Spa%2C%20Riffa%2C%20Bahrain",
+  "map_query": "Mesoo Salon and Spa, Riffa, Bahrain",
+  "hero": {
+    "headline": "تموجات بنية وجلسة قدم بالورد في الرفاع",
+    "intro": "صالون وسبا في الرفاع بإدارة سارة ومشاعل العيد، للتسريحات والتمويج وعلاج تشققات القدم، والمواعيد بالاتصال.",
+    "image": "brown"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "story",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في ميسو",
+    "items": [
+      "تمويج",
+      "تسريحات سهرة",
+      "كيراتين",
+      "علاج القدم",
+      "ماء الورد"
+    ]
+  },
+  "story": {
+    "eyebrow": "من حساب ميسو",
+    "title": "قبل السهرة وبعدها",
+    "items": [
+      {
+        "label": "تمويج",
+        "title": "بني بتدرّج",
+        "text": "شعر طويل بتموجات بنية واسعة أمام جدار الورد.",
+        "image": "brown"
+      },
+      {
+        "label": "سهرة",
+        "title": "نصف رفعة سوداء",
+        "text": "تسريحة نصف رفعة بتموجات سوداء طويلة.",
+        "image": "black"
+      },
+      {
+        "label": "ناعم",
+        "title": "قصّة مستقيمة",
+        "text": "شعر بني مستقيم حتى الكتف بعد العلاج.",
+        "image": "bob"
+      },
+      {
+        "label": "القدم",
+        "title": "وعاء بالورد",
+        "text": "جلسة علاج تشققات القدم مع وعاء ماء وبتلات ورد.",
+        "image": "feet"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "من حساب ميسو",
+    "sample": false,
+    "note": "الخدمات من منشورات الصالون على إنستغرام. الأسعار والمواعيد بالاتصال.",
+    "categories": [
+      {
+        "id": "c0",
+        "title": "الشعر",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تمويج وسشوار",
+            "desc": ""
+          },
+          {
+            "name": "تسريحات سهرة",
+            "desc": ""
+          },
+          {
+            "name": "علاج وتنعيم",
+            "desc": ""
+          }
+        ],
+        "image": "black"
+      },
+      {
+        "id": "c1",
+        "title": "السبا",
+        "tagline": "",
+        "items": [
+          {
+            "name": "علاج تشققات القدم",
+            "desc": ""
+          },
+          {
+            "name": "بديكير بالورد",
+            "desc": ""
+          }
+        ],
+        "image": "feet"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "waves"
+  },
+  "whatsapp": null,
+  "images": {
+    "brown": {
+      "file": "brown.jpg",
+      "alt": "صورة شعر بني مموج من أعمال الصالون",
+      "source_url": "https://www.instagram.com/mesoosalon/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "black": {
+      "file": "black.jpg",
+      "alt": "صورة تسريحة نصف رفعة بتموجات سوداء",
+      "source_url": "https://www.instagram.com/mesoosalon/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "bob": {
+      "file": "bob.jpg",
+      "alt": "صورة شعر بني مستقيم حتى الكتف",
+      "source_url": "https://www.instagram.com/mesoosalon/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "feet": {
+      "file": "feet.jpg",
+      "alt": "صورة جلسة علاج القدم مع وعاء ورد",
+      "source_url": "https://www.instagram.com/mesoosalon/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "waves": {
+      "file": "waves.jpg",
+      "alt": "صورة تموجات بنية أمام جدار الورد",
+      "source_url": "https://www.instagram.com/mesoosalon/",
+      "credit": "من حساب المحل على إنستغرام"
+    }
+  }
+}

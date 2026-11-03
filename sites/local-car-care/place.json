@@ -1,0 +1,163 @@
+{
+  "place_id": "amd-notion-40d5cb524e44814096f6eb9eeedcc7dd",
+  "slug": "local-car-care",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "services_pro",
+  "data_source": "حساب المحل العام على إنستغرام",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#C8A15A",
+    "rgb": "200, 161, 90",
+    "hover": "#A9843F",
+    "ink": "#15100A"
+  },
+  "name": "Local Car Care",
+  "name_lang": "en",
+  "category_label": "حماية وتلميع السيارات",
+  "area": "مصفح 14، أبوظبي",
+  "address": "مصفح 14، أبوظبي",
+  "phone": {
+    "display": "+971 50 822 1766",
+    "tel": "+971508221766"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Local%20Car%20Care%2C%20Musaffah%2C%20Abu%20Dhabi",
+  "map_query": "Local Car Care, Musaffah, Abu Dhabi",
+  "hero": {
+    "headline": "حماية PPF وسيراميك لسيارات أبوظبي",
+    "intro": "ورشة عناية فاخرة في مصفح 14: أفلام حماية الطلاء، وطبقات السيراميك، والتلميع والترميم، والحجز بالاتصال على الرقم المنشور.",
+    "image": "ferrari"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "marquee",
+    "visit"
+  ],
+  "marquee": {
+    "label": "من الورشة",
+    "items": [
+      "PPF",
+      "سيراميك",
+      "تلميع",
+      "ترميم",
+      "تغليف بالألوان"
+    ]
+  },
+  "story": {
+    "eyebrow": "من حساب الورشة",
+    "title": "سيارات مرّت من مصفح",
+    "items": [
+      {
+        "label": "كشف",
+        "title": "فيراري سوداء",
+        "text": "فيراري مكشوفة بلمعة كاملة تحت شعار الورشة.",
+        "image": "ferrari"
+      },
+      {
+        "label": "دفع رباعي",
+        "title": "جي كلاس",
+        "text": "مرسيدس جي كلاس سوداء بعد التلميع على أرضية الورشة.",
+        "image": "gclass"
+      },
+      {
+        "label": "كهربائية",
+        "title": "تيسلا مطفأة اللون",
+        "text": "تيسلا بلون أسود مطفأ تحت إضاءة السقف.",
+        "image": "tesla"
+      },
+      {
+        "label": "لون",
+        "title": "أحمر يلمع",
+        "text": "فيراري حمراء بعد العناية، من منشورات الورشة.",
+        "image": "red"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "من حساب الورشة",
+    "sample": false,
+    "note": "الخدمات كما في وصف الحساب. الأسعار والمواعيد بالاتصال.",
+    "categories": [
+      {
+        "id": "c0",
+        "title": "الحماية",
+        "tagline": "",
+        "items": [
+          {
+            "name": "أفلام حماية الطلاء PPF",
+            "desc": ""
+          },
+          {
+            "name": "طبقة سيراميك",
+            "desc": ""
+          }
+        ],
+        "image": "tesla"
+      },
+      {
+        "id": "c1",
+        "title": "العناية",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تلميع وتنظيف تفصيلي",
+            "desc": ""
+          },
+          {
+            "name": "ترميم",
+            "desc": ""
+          }
+        ],
+        "image": "gclass"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "whatsapp": null,
+  "images": {
+    "ferrari": {
+      "file": "ferrari.jpg",
+      "alt": "صورة سيارة فيراري سوداء مكشوفة في الورشة",
+      "source_url": "https://www.instagram.com/local.car/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "gclass": {
+      "file": "gclass.jpg",
+      "alt": "صورة مرسيدس جي كلاس سوداء في الورشة",
+      "source_url": "https://www.instagram.com/local.car/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "tesla": {
+      "file": "tesla.jpg",
+      "alt": "صورة سيارة تيسلا بلون أسود مطفأ",
+      "source_url": "https://www.instagram.com/local.car/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "red": {
+      "file": "red.jpg",
+      "alt": "صورة فيراري حمراء في الورشة",
+      "source_url": "https://www.instagram.com/local.car/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة ورشة Local Car Care في مصفح",
+      "source_url": "https://www.instagram.com/local.car/",
+      "credit": "من حساب المحل على إنستغرام"
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "place_id": "amd-notion-40d5cb524e44818581dfdb56386007de",
+  "slug": "noor-bakes",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "bakery_cream",
+  "data_source": "حساب المحل العام على إنستغرام",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#B8862E",
+    "rgb": "184, 134, 46",
+    "hover": "#966C22",
+    "ink": "#1E1606"
+  },
+  "name": "Noor Bakes",
+  "name_lang": "en",
+  "category_label": "كيك مناسبات حسب الطلب",
+  "area": "المنامة وقلالي، البحرين",
+  "phone": {
+    "display": "+973 3636 9245",
+    "tel": "+97336369245"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Al%20Nawayth%20Cakes%2C%20Bahrain",
+  "map_query": "Al Nawayth Cakes, Bahrain",
+  "hero": {
+    "headline": "كيكة عرسك وميلادك، مرسومة باسمك",
+    "intro": "مخبز كيك في المنامة وقلالي يصمّم كيك الأعراس والخطوبة وأعياد الميلاد بالأسماء والتواريخ والورد الطبيعي، والطلب عبر واتساب.",
+    "image": "white"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "visit"
+  ],
+  "marquee": {
+    "label": "من طلبات الزبائن",
+    "items": [
+      "كيك أعراس بطبقات",
+      "كب كيك خطوبة",
+      "ورد ذهبي",
+      "كيك أطفال",
+      "أسماء وتواريخ"
+    ]
+  },
+  "story": {
+    "eyebrow": "من حساب Noor Bakes",
+    "title": "كل كيكة لمناسبة واحدة",
+    "items": [
+      {
+        "label": "عرس",
+        "title": "طبقتان وورد أبيض",
+        "text": "كيكة بيضاء بطبقتين وورد طبيعي، وعلى قاعدتها اسما العروسين والتاريخ.",
+        "image": "white"
+      },
+      {
+        "label": "زفاف",
+        "title": "أربع طبقات وورد ذهبي",
+        "text": "كيكة طويلة بأربع طبقات بيضاء وورد ذهبي على جانبها.",
+        "image": "gold"
+      },
+      {
+        "label": "خطوبة",
+        "title": "صينية كب كيك",
+        "text": "كب كيك بنقوش ذهبية حول قطعة تحمل اسمي المخطوبين.",
+        "image": "cups"
+      },
+      {
+        "label": "ميلاد",
+        "title": "كريمة وتوت",
+        "text": "كيكة كريمة بيضاء يعلوها التوت تحت باقة ورد.",
+        "image": "berry"
+      }
+    ]
+  },
+  "menu": {
+    "title": "نماذج الطلبات",
+    "eyebrow": "قائمة تجريبية",
+    "currency": "د.ب",
+    "sample": true,
+    "note": "قائمة تجريبية للعرض فقط. الأسعار الحقيقية حسب التصميم والحجم عبر واتساب.",
+    "categories": [
+      {
+        "id": "wed",
+        "title": "أعراس وخطوبة",
+        "tagline": "",
+        "image": "gold",
+        "items": [
+          {
+            "name": "كيكة طبقتين بورد طبيعي",
+            "desc": "",
+            "price": 45
+          },
+          {
+            "name": "كيكة زفاف 4 طبقات",
+            "desc": "",
+            "price": 110
+          },
+          {
+            "name": "صينية كب كيك خطوبة (24 حبة)",
+            "desc": "",
+            "price": 28
+          }
+        ]
+      },
+      {
+        "id": "bd",
+        "title": "أعياد ميلاد",
+        "tagline": "",
+        "image": "berry",
+        "items": [
+          {
+            "name": "كيكة كريمة وتوت",
+            "desc": "",
+            "price": 18
+          },
+          {
+            "name": "كيكة أطفال بشخصية",
+            "desc": "",
+            "price": 30
+          },
+          {
+            "name": "كيكة بشكل مجسّم",
+            "desc": "",
+            "price": 40
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "فرع المنامة",
+        "time": "8 ص – 1 ص"
+      },
+      {
+        "days": "فرع قلالي",
+        "time": "11 ص – 11 م"
+      }
+    ],
+    "per_day": null,
+    "source": "إنستغرام"
+  },
+  "visit": {
+    "image": "drum"
+  },
+  "whatsapp": {
+    "number": "97336369945",
+    "display": "+973 3636 9945"
+  },
+  "images": {
+    "white": {
+      "file": "white.jpg",
+      "alt": "صورة كيكة عرس بيضاء بطبقتين وورد طبيعي",
+      "source_url": "https://www.instagram.com/al_nawayth_cakes/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "gold": {
+      "file": "gold.jpg",
+      "alt": "صورة كيكة زفاف بأربع طبقات وورد ذهبي",
+      "source_url": "https://www.instagram.com/al_nawayth_cakes/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "cups": {
+      "file": "cups.jpg",
+      "alt": "صورة صينية كب كيك لخطوبة",
+      "source_url": "https://www.instagram.com/al_nawayth_cakes/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "berry": {
+      "file": "berry.jpg",
+      "alt": "صورة كيكة كريمة بالتوت",
+      "source_url": "https://www.instagram.com/al_nawayth_cakes/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "drum": {
+      "file": "drum.jpg",
+      "alt": "صورة كيكة مزخرفة بنقوش الحناء والورد",
+      "source_url": "https://www.instagram.com/al_nawayth_cakes/",
+      "credit": "من حساب المحل على إنستغرام"
+    }
+  }
+}

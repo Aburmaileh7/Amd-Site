@@ -1,0 +1,199 @@
+{
+  "place_id": "amd-notion-40d5cb524e4481ab9c05cfc40bb1ac7c",
+  "slug": "womens-oasis-salon",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "حساب الصالون على إنستغرام وقائمته على خرائط Google",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#7A2E4A",
+    "rgb": "122, 46, 74",
+    "hover": "#5F2239",
+    "ink": "#FFFFFF"
+  },
+  "name": "واحة المرأة",
+  "name_lang": "ar",
+  "category_label": "صالون تجميل نسائي",
+  "area": "الخوير، مسقط",
+  "address": "خلف بانوراما مول، الخوير، مسقط",
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Women%27s%20Oasis%20Salon%2C%20Al%20Khuwair%2C%20Muscat",
+  "map_query": "Women's Oasis Salon, Al Khuwair, Muscat",
+  "rating": {
+    "value": 4.4,
+    "count": 80,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "تموجات وأظافر وسبا خلف بانوراما مول",
+    "intro": "صالون نسائي في الخوير بمسقط للشعر والأظافر والبشرة والسبا. الحجز والاستفسار على واتساب، والدوام من 10 صباحًا حتى 8 مساءً عدا الأحد.",
+    "image": "curls"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "من منشورات الصالون",
+    "items": [
+      "تموجات",
+      "هايلايت",
+      "فيشل الدرما بلانينج",
+      "بديكير",
+      "أظافر عنابي"
+    ]
+  },
+  "story": {
+    "eyebrow": "في واحة المرأة",
+    "title": "من الكرسي إلى المرآة",
+    "items": [
+      {
+        "label": "الشعر",
+        "title": "تموجات سوداء طويلة",
+        "text": "لفّات واسعة على شعر طويل، من أعمال الصالون المنشورة في حسابه.",
+        "image": "curls"
+      },
+      {
+        "label": "اللون",
+        "title": "تموج بني دافئ",
+        "text": "لفّات متتالية من الجذور حتى الأطراف على لون بني.",
+        "image": "brown"
+      },
+      {
+        "label": "الأظافر",
+        "title": "لوز بلون عنابي",
+        "text": "أظافر عنابية مع إصبع لامع، والصالون ينشر دليلًا لأشكال الأظافر من البيضاوي إلى الستيليتو.",
+        "image": "nails"
+      },
+      {
+        "label": "القدم",
+        "title": "جلسة البديكير",
+        "text": "جلسة قدم بالقفازات والمنتجات، يسمّيها الصالون في منشوره جلسة دلع.",
+        "image": "pedi"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "من حساب الصالون",
+    "sample": false,
+    "note": "الخدمات مأخوذة من منشورات الصالون على إنستغرام. الأسعار والمواعيد عبر واتساب.",
+    "categories": [
+      {
+        "id": "c0",
+        "title": "الشعر",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تموجات وسشوار",
+            "desc": ""
+          },
+          {
+            "name": "صبغة وهايلايت",
+            "desc": ""
+          },
+          {
+            "name": "عناية بمنتجات AP للشعر",
+            "desc": ""
+          }
+        ],
+        "image": "brown"
+      },
+      {
+        "id": "c1",
+        "title": "الأظافر",
+        "tagline": "",
+        "items": [
+          {
+            "name": "مناكير",
+            "desc": ""
+          },
+          {
+            "name": "بديكير",
+            "desc": ""
+          },
+          {
+            "name": "أشكال الأظافر: لوزي، كوفن، ستيليتو",
+            "desc": ""
+          }
+        ],
+        "image": "nails"
+      },
+      {
+        "id": "c2",
+        "title": "البشرة والقدم",
+        "tagline": "",
+        "items": [
+          {
+            "name": "فيشل الدرما بلانينج",
+            "desc": ""
+          },
+          {
+            "name": "تنظيف كعب القدم",
+            "desc": ""
+          }
+        ],
+        "image": "pedi"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا عدا الأحد",
+        "time": "10 ص – 8 م"
+      }
+    ],
+    "per_day": null,
+    "source": "إنستغرام"
+  },
+  "visit": {
+    "image": "waves"
+  },
+  "whatsapp": {
+    "number": "96898095123",
+    "display": "+968 9809 5123"
+  },
+  "images": {
+    "curls": {
+      "file": "curls.jpg",
+      "alt": "صورة تموجات سوداء طويلة من أعمال الصالون",
+      "source_url": "https://www.instagram.com/womensoasis_salon_om/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "brown": {
+      "file": "brown.jpg",
+      "alt": "صورة تموجات على شعر بني من أعمال الصالون",
+      "source_url": "https://www.instagram.com/womensoasis_salon_om/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "nails": {
+      "file": "nails.jpg",
+      "alt": "صورة أظافر بلون عنابي من أعمال الصالون",
+      "source_url": "https://www.instagram.com/womensoasis_salon_om/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "pedi": {
+      "file": "pedi.jpg",
+      "alt": "صورة جلسة بديكير في الصالون",
+      "source_url": "https://www.instagram.com/womensoasis_salon_om/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "waves": {
+      "file": "waves.jpg",
+      "alt": "صورة شعر مموج داخل الصالون",
+      "source_url": "https://www.instagram.com/womensoasis_salon_om/",
+      "credit": "من حساب المحل على إنستغرام"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+[data-site="noor-bakes"] .amd-petal{position:absolute;width:12px;height:16px;border-radius:60% 0 60% 0;background:#F3E3C3;box-shadow:inset -2px -2px 0 rgba(184,134,46,.35);pointer-events:none;z-index:2}
+[data-site="noor-bakes"] .hero__media,[data-site="noor-bakes"] .hero__side{position:relative}
+[data-site="noor-bakes"] .amd-open{display:inline-flex;align-items:center;gap:.5rem;margin:.9rem 0 0;font-size:.95rem;font-weight:600}
+[data-site="noor-bakes"] .amd-open i{width:.6rem;height:.6rem;border-radius:50%;background:#9a9a9a}
+[data-site="noor-bakes"] .amd-open.is-open i{background:#1f9d55;box-shadow:0 0 0 4px rgba(31,157,85,.18)}

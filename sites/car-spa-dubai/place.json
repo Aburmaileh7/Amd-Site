@@ -1,0 +1,163 @@
+{
+  "place_id": "amd-notion-40d5cb524e44812f9aabd0d092e74b21",
+  "slug": "car-spa-dubai",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "services_pro",
+  "data_source": "حساب المحل العام على إنستغرام",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#8C9AA6",
+    "rgb": "140, 154, 166",
+    "hover": "#73818D",
+    "ink": "#0E1217"
+  },
+  "name": "Car Spa",
+  "name_lang": "en",
+  "category_label": "غسيل وتلميع سيارات",
+  "area": "دبي",
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Car%20Spa%20car%20wash%20and%20detailing%2C%20Dubai",
+  "map_query": "Car Spa car wash and detailing, Dubai",
+  "hero": {
+    "headline": "لمعة كلاسيكية لسيارات دبي منذ 2018",
+    "intro": "مركز غسيل وتلميع سيارات بفرعين في دبي، يعمل يوميًا من 9 صباحًا حتى 8 مساءً، من السيارات الكلاسيكية إلى الدفع الرباعي.",
+    "image": "classic"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في Car Spa",
+    "items": [
+      "غسيل",
+      "تلميع",
+      "تنظيف داخلي",
+      "حماية",
+      "فرعان في دبي"
+    ]
+  },
+  "story": {
+    "eyebrow": "من حساب Car Spa",
+    "title": "ما يدخل الورشة",
+    "items": [
+      {
+        "label": "كلاسيك",
+        "title": "مرسيدس قديمة",
+        "text": "مرسيدس سوداء كلاسيكية بعد العناية تحت إضاءة الورشة.",
+        "image": "classic"
+      },
+      {
+        "label": "الأرضية",
+        "title": "اسم الورشة",
+        "text": "جي كلاس سوداء تقف فوق شعار Car Spa المرسوم على الأرض.",
+        "image": "floor"
+      },
+      {
+        "label": "الصف",
+        "title": "ديفندر متتالية",
+        "text": "سيارات ديفندر مصفوفة داخل الورشة بانتظار التسليم.",
+        "image": "row"
+      },
+      {
+        "label": "فخامة",
+        "title": "رولز رويس",
+        "text": "سيارتا رولز رويس داخل المركز.",
+        "image": "rolls"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "من حساب Car Spa",
+    "sample": false,
+    "note": "الخدمات كما في وصف الحساب على إنستغرام. الأسعار والمواعيد عبر رسالة إنستغرام.",
+    "categories": [
+      {
+        "id": "c0",
+        "title": "الغسيل والتلميع",
+        "tagline": "",
+        "items": [
+          {
+            "name": "غسيل خارجي",
+            "desc": ""
+          },
+          {
+            "name": "تلميع",
+            "desc": ""
+          },
+          {
+            "name": "تنظيف داخلي تفصيلي",
+            "desc": ""
+          }
+        ],
+        "image": "floor"
+      },
+      {
+        "id": "c1",
+        "title": "الحماية",
+        "tagline": "",
+        "items": [
+          {
+            "name": "حماية الطلاء",
+            "desc": ""
+          },
+          {
+            "name": "عناية بالسيارات الكلاسيكية",
+            "desc": ""
+          }
+        ],
+        "image": "rolls"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "9 ص – 8 م"
+      }
+    ],
+    "per_day": null,
+    "source": "إنستغرام"
+  },
+  "visit": {
+    "image": "row"
+  },
+  "whatsapp": null,
+  "images": {
+    "classic": {
+      "file": "classic.jpg",
+      "alt": "صورة مرسيدس سوداء كلاسيكية في المركز",
+      "source_url": "https://www.instagram.com/carspadubai/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "floor": {
+      "file": "floor.jpg",
+      "alt": "صورة جي كلاس فوق شعار المركز على الأرض",
+      "source_url": "https://www.instagram.com/carspadubai/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "row": {
+      "file": "row.jpg",
+      "alt": "صورة سيارات ديفندر مصفوفة في الورشة",
+      "source_url": "https://www.instagram.com/carspadubai/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "rolls": {
+      "file": "rolls.jpg",
+      "alt": "صورة سيارتي رولز رويس داخل المركز",
+      "source_url": "https://www.instagram.com/carspadubai/",
+      "credit": "من حساب المحل على إنستغرام"
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "place_id": "amd-notion-40d5cb524e44818eba23c0d9627577a6",
+  "slug": "dawan-dammam",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "heritage_warm",
+  "data_source": "حساب المحل العام على إنستغرام",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#B5541C",
+    "rgb": "181, 84, 28",
+    "hover": "#934415",
+    "ink": "#FFFFFF"
+  },
+  "name": "مطعم دوعن",
+  "name_lang": "ar",
+  "category_label": "أكلات شعبية ومندي",
+  "area": "حي العدامة، الدمام",
+  "address": "حي العدامة، الدمام",
+  "phone": {
+    "display": "+966 56 643 2166",
+    "tel": "+966566432166"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%AF%D9%88%D8%B9%D9%86%20%D9%84%D9%84%D8%A3%D9%83%D9%84%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B4%D8%B9%D8%A8%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B9%D8%AF%D8%A7%D9%85%D8%A9%20%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D9%85",
+  "map_query": "مطعم دوعن للأكلات الشعبية العدامة الدمام",
+  "hero": {
+    "headline": "مندي وحنيذ على صواني العدامة",
+    "intro": "مطعم أكلات شعبية في حي العدامة بالدمام يقدّم صواني المندي والحنيذ والرز البخاري، والطلب بالاتصال على الرقم المنشور.",
+    "image": "mandi"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "marquee",
+    "visit"
+  ],
+  "marquee": {
+    "label": "من مطبخ دوعن",
+    "items": [
+      "مندي لحم",
+      "حنيذ",
+      "رز بخاري",
+      "خبز تنور",
+      "صواني ولائم"
+    ]
+  },
+  "story": {
+    "eyebrow": "من حساب المطعم",
+    "title": "صينية بعد صينية",
+    "items": [
+      {
+        "label": "المندي",
+        "title": "لحم على رز أصفر",
+        "text": "صينية رز بالزعفران يعلوها لحم مندي مطهو طويلًا.",
+        "image": "mandi"
+      },
+      {
+        "label": "الولائم",
+        "title": "صفّ صواني",
+        "text": "صواني رز ولحم مصفوفة على الطاولة الطويلة للطلبات الكبيرة.",
+        "image": "row"
+      },
+      {
+        "label": "الحنيذ",
+        "title": "لحم وورق الألمنيوم",
+        "text": "حنيذ مفروش على ورق ألمنيوم بعد خروجه من الفرن.",
+        "image": "haneeth"
+      },
+      {
+        "label": "التنور",
+        "title": "خبز ودخان",
+        "text": "لحم على الفحم وخبز تنور ساخن.",
+        "image": "grill"
+      }
+    ]
+  },
+  "menu": {
+    "title": "المنيو",
+    "eyebrow": "قائمة تجريبية",
+    "currency": "ر.س",
+    "sample": true,
+    "note": "قائمة تجريبية للعرض فقط. الأسعار للتوضيح، والأسعار الحقيقية بالاتصال على المطعم.",
+    "categories": [
+      {
+        "id": "m",
+        "title": "المندي والحنيذ",
+        "tagline": "",
+        "image": "haneeth",
+        "items": [
+          {
+            "name": "نفر مندي لحم",
+            "desc": "",
+            "price": 55
+          },
+          {
+            "name": "نص حاشي حنيذ",
+            "desc": "",
+            "price": 65
+          },
+          {
+            "name": "نص دجاج مندي",
+            "desc": "",
+            "price": 22
+          }
+        ]
+      },
+      {
+        "id": "w",
+        "title": "الولائم",
+        "tagline": "",
+        "image": "row",
+        "items": [
+          {
+            "name": "صينية مندي لحم (4 أشخاص)",
+            "desc": "",
+            "price": 190
+          },
+          {
+            "name": "ذبيحة نعيمي كاملة مع الرز",
+            "desc": "",
+            "price": 1500
+          },
+          {
+            "name": "رز بخاري إضافي",
+            "desc": "",
+            "price": 15
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "visit": {
+    "image": "front"
+  },
+  "whatsapp": null,
+  "images": {
+    "mandi": {
+      "file": "mandi.jpg",
+      "alt": "صورة صينية مندي لحم على رز أصفر",
+      "source_url": "https://www.instagram.com/dawan_dammam/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "row": {
+      "file": "row.jpg",
+      "alt": "صورة صواني رز ولحم مصفوفة",
+      "source_url": "https://www.instagram.com/dawan_dammam/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "haneeth": {
+      "file": "haneeth.jpg",
+      "alt": "صورة حنيذ على ورق ألمنيوم",
+      "source_url": "https://www.instagram.com/dawan_dammam/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "grill": {
+      "file": "grill.jpg",
+      "alt": "صورة لحم على الفحم مع خبز تنور",
+      "source_url": "https://www.instagram.com/dawan_dammam/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة مطعم دوعن ليلًا",
+      "source_url": "https://www.instagram.com/dawan_dammam/",
+      "credit": "من حساب المحل على إنستغرام"
+    }
+  }
+}

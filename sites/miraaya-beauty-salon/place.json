@@ -1,0 +1,177 @@
+{
+  "place_id": "amd-notion-40d5cb524e44817ebaceffd1e7d3fa23",
+  "slug": "miraaya-beauty-salon",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "حساب المحل العام على إنستغرام",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#6B3FA0",
+    "rgb": "107, 63, 160",
+    "hover": "#563283",
+    "ink": "#FFFFFF"
+  },
+  "name": "Miraaya",
+  "name_lang": "en",
+  "category_label": "صالون نسائي بخمسة فروع",
+  "area": "الحد، القضيبية، الرفاع، البسيتين، المحرق",
+  "phone": {
+    "display": "+973 3400 9286",
+    "tel": "+97334009286"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Miraaya%20Beauty%20Salon%2C%20Bahrain",
+  "map_query": "Miraaya Beauty Salon, Bahrain",
+  "hero": {
+    "headline": "خمسة فروع، وهايلايت يلمع في كل واحد",
+    "intro": "صالون نسائي في الحد والقضيبية والرفاع والبسيتين والمحرق، للهايلايت والبروتين وتركيب الأظافر، مفتوح يوميًا من 9 صباحًا حتى 9 مساءً.",
+    "image": "ombre"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "visit"
+  ],
+  "marquee": {
+    "label": "الفروع",
+    "items": [
+      "الحد",
+      "القضيبية",
+      "الرفاع",
+      "البسيتين",
+      "المحرق"
+    ]
+  },
+  "story": {
+    "eyebrow": "من حساب Miraaya",
+    "title": "ألوان من الفروع الخمسة",
+    "items": [
+      {
+        "label": "أومبريه",
+        "title": "من الداكن إلى العسلي",
+        "text": "شعر طويل مستقيم بتدرّج من الأسود إلى العسلي.",
+        "image": "ombre"
+      },
+      {
+        "label": "هايلايت",
+        "title": "عنابي على كامل الشعر",
+        "text": "هايلايت عنابي على شعر متوسط بتموج خفيف.",
+        "image": "global"
+      },
+      {
+        "label": "تسريحة",
+        "title": "نصف رفعة بمشبك",
+        "text": "تموجات عنابية بنصف رفعة ومشبك ذهبي.",
+        "image": "halfup"
+      },
+      {
+        "label": "الأظافر",
+        "title": "تركيب وتصميم",
+        "text": "أظافر طويلة بأطراف داكنة تحت جهاز التجفيف.",
+        "image": "nails"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "من حساب Miraaya",
+    "sample": false,
+    "note": "الخدمات من منشورات الصالون. الأسعار والمواعيد على واتساب.",
+    "categories": [
+      {
+        "id": "c0",
+        "title": "الشعر",
+        "tagline": "",
+        "items": [
+          {
+            "name": "هايلايت كامل",
+            "desc": ""
+          },
+          {
+            "name": "أومبريه",
+            "desc": ""
+          },
+          {
+            "name": "بروتين عضوي",
+            "desc": ""
+          },
+          {
+            "name": "وصلات شعر طبيعي",
+            "desc": ""
+          }
+        ],
+        "image": "global"
+      },
+      {
+        "id": "c1",
+        "title": "الأظافر",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تركيب أظافر",
+            "desc": ""
+          },
+          {
+            "name": "تصميم ونقش",
+            "desc": ""
+          }
+        ],
+        "image": "nails"
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "9 ص – 9 م"
+      }
+    ],
+    "per_day": null,
+    "source": "إنستغرام"
+  },
+  "visit": {
+    "image": "halfup"
+  },
+  "whatsapp": {
+    "number": "97333032467",
+    "display": "+973 3303 2467"
+  },
+  "images": {
+    "ombre": {
+      "file": "ombre.jpg",
+      "alt": "صورة شعر طويل بتدرّج أومبريه",
+      "source_url": "https://www.instagram.com/miraaya_beauty_salon/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "global": {
+      "file": "global.jpg",
+      "alt": "صورة هايلايت عنابي على كامل الشعر",
+      "source_url": "https://www.instagram.com/miraaya_beauty_salon/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "halfup": {
+      "file": "halfup.jpg",
+      "alt": "صورة تسريحة نصف رفعة بتموجات عنابية",
+      "source_url": "https://www.instagram.com/miraaya_beauty_salon/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "nails": {
+      "file": "nails.jpg",
+      "alt": "صورة أظافر طويلة تحت جهاز التجفيف",
+      "source_url": "https://www.instagram.com/miraaya_beauty_salon/",
+      "credit": "من حساب المحل على إنستغرام"
+    }
+  }
+}

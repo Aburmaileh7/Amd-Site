@@ -1,0 +1,5 @@
+[data-site="beauty-hunters-doha"]{--polish:#5B3A29}
+[data-site="beauty-hunters-doha"] .marquee{border-block:6px solid var(--polish);transition:border-color .6s}
+[data-site="beauty-hunters-doha"] .amd-open{display:inline-flex;align-items:center;gap:.5rem;margin:.9rem 0 0;font-size:.95rem;font-weight:600}
+[data-site="beauty-hunters-doha"] .amd-open i{width:.6rem;height:.6rem;border-radius:50%;background:#9a9a9a}
+[data-site="beauty-hunters-doha"] .amd-open.is-open i{background:#1f9d55;box-shadow:0 0 0 4px rgba(31,157,85,.18)}
