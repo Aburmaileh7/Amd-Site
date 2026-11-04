@@ -1,6 +1,6 @@
-/* Sugar: cherry-blossom prints on white panelling. Petals drift over the hero and the gold of the taps edges every photo. */
+/* Sugar: white panelling, grey velvet seats and gold taps in Q Mall. Soft light petals drift over the hero and the gold of the taps edges every photo. */
 [data-site="sugar-salon-qatar"] .petals{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:2}
-[data-site="sugar-salon-qatar"] .petal{position:absolute;top:-24px;width:14px;height:10px;border-radius:14px 2px 14px 2px;background:radial-gradient(circle at 30% 30%,#fbe3ea,#e9a7b9);opacity:.85}
+[data-site="sugar-salon-qatar"] .petal{position:absolute;top:-24px;width:14px;height:10px;border-radius:14px 2px 14px 2px;background:radial-gradient(circle at 30% 30%,#f5eedd,#d9c48a);opacity:.85}
 [data-site="sugar-salon-qatar"] .story .panel__media{outline:1px solid rgba(201,162,74,.55);outline-offset:-10px}
 [data-site="sugar-salon-qatar"] .story__title{position:relative;padding-bottom:.6rem}
 [data-site="sugar-salon-qatar"] .story__title::after{content:"";position:absolute;inset-inline-start:0;bottom:0;width:var(--gold,0%);max-width:180px;height:2px;background:linear-gradient(90deg,#C9A24A,#e9c97a)}

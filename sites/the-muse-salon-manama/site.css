@@ -4,7 +4,9 @@
 [data-site="the-muse-salon-manama"] .hero__title{font-weight:300}
 [data-site="the-muse-salon-manama"] .hero__title span span{border-bottom:3px solid #C8A45A;padding-bottom:.08em}
 [data-site="the-muse-salon-manama"] .item__price{color:#8A6A2E;font-weight:600}
-[data-site="the-muse-salon-manama"] .marquee{background:#2E2A26;color:#F4EDE1}
-[data-site="the-muse-salon-manama"] .marquee .marquee__dot{background:#C8A45A}
+[data-site="the-muse-salon-manama"] .marquee{background:#1C1916;color:#F4EDE1}
+[data-site="the-muse-salon-manama"] .marquee li{color:#F4EDE1;font-weight:500}
+[data-site="the-muse-salon-manama"] .marquee .marquee__dot{background:#F2C46D}
+[data-site="the-muse-salon-manama"] .marquee__row li{color:#F4EDE1}
 [data-site="the-muse-salon-manama"] .visit__title{font-size:clamp(2.2rem,6vw,4.4rem)}
 @media (prefers-reduced-motion:reduce){[data-site="the-muse-salon-manama"] .mu-frame{clip-path:none}}

@@ -1,4 +1,4 @@
-// Sugar: a few blossom petals (from the pink prints on the salon walls) fall slowly across the hero,
+// Sugar: a few soft petals (from the white panelling and warm light in the Q Mall salon) fall slowly across the hero,
 // and a gold line draws under the story title like the gilt on the taps.
 (function(){
   if(reduce){document.documentElement.style.setProperty('--gold','180px');return;}

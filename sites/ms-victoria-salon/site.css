@@ -7,4 +7,10 @@
 [data-site="ms-victoria-salon"] .marquee{background-color:#fffaf0;background-image:repeating-linear-gradient(90deg,rgba(226,180,60,.16) 0 40px,transparent 40px 80px)}
 [data-site="ms-victoria-salon"] .panel__media img{border-radius:999px 999px 18px 18px}
 @media (max-width:640px){[data-site="ms-victoria-salon"] .awning{height:34px}}
-[data-site="ms-victoria-salon"] .eyebrow{color:#7A5C0E;font-weight:700}
+[data-site="ms-victoria-salon"] .eyebrow{color:#5C450C;font-weight:700;font-size:.86rem}
+[data-site="ms-victoria-salon"] .rev__title{color:#2B2310}
+[data-site="ms-victoria-salon"] .card blockquote{color:#2B2310}
+[data-site="ms-victoria-salon"] .card figcaption strong{color:#2B2310}
+[data-site="ms-victoria-salon"] .card .muted{color:#5C5170}
+[data-site="ms-victoria-salon"] .hero__headline{color:#2B2310}
+[data-site="ms-victoria-salon"] .hero__intro{color:#3B3320}

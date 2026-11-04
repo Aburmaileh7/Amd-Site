@@ -1,9 +1,18 @@
 /* Mima Chic: the gold palm-leaf logo on the salon wall. Fronds unfurl beside the headline and a velvet nap runs through the marquee. */
 [data-site="mima-chic-salon"] .hero__content{position:relative}
-[data-site="mima-chic-salon"] .frond{position:absolute;inset-inline-start:-4px;top:-118px;width:120px;height:120px;pointer-events:none}
-[data-site="mima-chic-salon"] .frond path{fill:none;stroke:#A8862B;stroke-width:3;stroke-linecap:round}
+[data-site="mima-chic-salon"] .frond{position:absolute;inset-inline-start:8px;top:-132px;width:180px;height:180px;pointer-events:none;filter:drop-shadow(0 3px 8px rgba(107,122,46,.35))}
+[data-site="mima-chic-salon"] .frond path{fill:none;stroke:#8A6E1F;stroke-width:5;stroke-linecap:round}
 [data-site="mima-chic-salon"] .marquee{background:linear-gradient(180deg,#f2e7c4,#e8d79e);color:#2f3311}
-@media (max-width:640px){[data-site="mima-chic-salon"] .frond{width:84px;height:84px;top:-88px}}
-[data-site="mima-chic-salon"] .hero .eyebrow{color:#4a5520;font-weight:700}
-[data-site="mima-chic-salon"] .hero__content{padding-top:120px}
-@media (max-width:640px){[data-site="mima-chic-salon"] .hero__content{padding-top:92px}}
+@media (max-width:640px){[data-site="mima-chic-salon"] .frond{width:140px;height:140px;top:-104px}}
+[data-site="mima-chic-salon"] .hero .eyebrow{color:#3E4D18;font-weight:700;font-size:.86rem}
+[data-site="mima-chic-salon"] .hero__content{padding-top:150px}
+@media (max-width:640px){[data-site="mima-chic-salon"] .hero__content{padding-top:132px}}
+/* Intro over the velvet chairs photo: strengthen contrast so the text reads clearly */
+[data-site="mima-chic-salon"] .hero__intro{color:#2E1D24;font-weight:500}
+[data-site="mima-chic-salon"] .hero__headline{color:#1F1A12}
+[data-site="mima-chic-salon"] .hero__title{color:#1F1A12}
+/* Round photos: the frame must be round too, not a square gold edge around a circle */
+[data-site="mima-chic-salon"] .panel__media{border-radius:50%;overflow:hidden;box-shadow:0 10px 28px rgba(107,122,46,.18);outline:none;border:3px solid #A8862B}
+[data-site="mima-chic-salon"] .panel__media .photo{aspect-ratio:1;border-radius:50%;outline:none}
+[data-site="mima-chic-salon"] .hero__side{border-radius:50%;overflow:hidden;border:3px solid #A8862B}
+[data-site="mima-chic-salon"] .hero__side .photo{border-radius:50%}

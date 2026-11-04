@@ -64,12 +64,6 @@
     "title": "أبيض وذهبي وكراسي ناعمة",
     "items": [
       {
-        "label": "الشعر",
-        "title": "مرايا بإطار ذهبي",
-        "text": "طاولة بيضاء طويلة أمام مرايا بإطار ذهبي وكراسي سوداء.",
-        "image": "mirrors"
-      },
-      {
         "label": "الأظافر",
         "title": "كراسي بيج منفوخة",
         "text": "طاولات المناكير البيضاء وكراسي بيج بنقش منتفخ.",
@@ -94,7 +88,6 @@
         "id": "hair",
         "title": "الشعر",
         "tagline": "",
-        "image": "mirrors",
         "items": [
           {
             "name": "غسيل شعر",
@@ -153,14 +146,12 @@
             "desc": "",
             "price": 10
           }
-        ],
-        "image": "desk"
+        ]
       },
       {
         "id": "nails",
         "title": "الأظافر",
         "tagline": "",
-        "image": "nails",
         "items": [
           {
             "name": "مناكير The Muse",
@@ -193,7 +184,6 @@
         "id": "lash",
         "title": "الرموش والحواجب",
         "tagline": "",
-        "image": "desk",
         "items": [
           {
             "name": "خدمات الحواجب",
@@ -242,8 +232,7 @@
             "desc": "",
             "price": 3
           }
-        ],
-        "image": "mirrors"
+        ]
       }
     ]
   },
@@ -276,9 +265,7 @@
     "per_day": null,
     "source": "Fresha"
   },
-  "visit": {
-    "image": "desk"
-  },
+  "visit": {},
   "whatsapp": null,
   "images": {
     "mirrors": {
