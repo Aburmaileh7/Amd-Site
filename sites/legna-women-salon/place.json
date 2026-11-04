@@ -1,0 +1,307 @@
+{
+  "place_id": "amd-notion-40e5cb524e4481029673e7a56f43f672",
+  "slug": "legna-women-salon",
+  "batch_id": "amd-gulf-20261104",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "صفحة الحجز على Fresha وقائمة الصالون على خرائط Google",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#B85C7A",
+    "rgb": "184, 92, 122",
+    "hover": "#9E4A66",
+    "ink": "#FFFFFF"
+  },
+  "name": "Legna",
+  "name_lang": "en",
+  "category_label": "صالون نسائي للأظافر والرموش",
+  "area": "الغانم القديم، الدوحة",
+  "address": "7GHQ+38X، الغانم القديم، الدوحة",
+  "phone": {
+    "display": "+974 6004 5172",
+    "tel": "+97460045172"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Legna%20Women%20Salon%20Doha",
+  "map_query": "Legna Women Salon, Al Ghanim, Doha",
+  "rating": {
+    "value": 5.0,
+    "count": 150,
+    "source": "Fresha"
+  },
+  "hero": {
+    "headline": "مناكير روسي بأظافر تشبه الطبيعية",
+    "intro": "صالون نسائي في الغانم القديم بالدوحة، متخصص في تنظيف المناكير الروسي وتركيب الأظافر والرموش، بمنتجات عضوية، يوميًا حتى 10 مساءً.",
+    "image": "french"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "menu",
+    "story",
+    "reviews",
+    "proof",
+    "marquee",
+    "visit"
+  ],
+  "marquee": {
+    "label": "عند ليغنا",
+    "items": [
+      "مناكير روسي",
+      "فرنش",
+      "جل بولش",
+      "رموش كلاسيك",
+      "لامينيشن حواجب",
+      "نانو بروتين"
+    ]
+  },
+  "story": {
+    "eyebrow": "من صفحة الصالون",
+    "title": "شغل يد على كل ظفر",
+    "items": [
+      {
+        "label": "الفرنش",
+        "title": "أطراف بيضاء ناعمة",
+        "text": "أظافر لوزية بفرنش أبيض فوق لون وردي شفاف.",
+        "image": "french"
+      },
+      {
+        "label": "الرسم",
+        "title": "أخضر زيتوني بنقاط",
+        "text": "لون أخضر هادئ مع نقاط صغيرة على ظفر واحد.",
+        "image": "olive"
+      },
+      {
+        "label": "الاستقبال",
+        "title": "باب ذهبي بنقش يوناني",
+        "text": "استقبال وردي وحاجز ذهبي بنقش متكرر، والشعار على المكتب.",
+        "image": "reception"
+      }
+    ]
+  },
+  "menu": {
+    "title": "الخدمات والأسعار",
+    "eyebrow": "من صفحة الحجز",
+    "currency": "ر.ق",
+    "sample": false,
+    "note": "الأسعار من صفحة الصالون على Fresha وتبدأ من الرقم المذكور (بعد خصم الحجز المعروض هناك)، وقد تتغير.",
+    "categories": [
+      {
+        "id": "mani",
+        "title": "المناكير",
+        "tagline": "",
+        "image": "french",
+        "items": [
+          {
+            "name": "مناكير روسي مع طلاء عادي",
+            "desc": "30 دقيقة",
+            "price": 72
+          },
+          {
+            "name": "مناكير تنظيف عادي",
+            "desc": "25 دقيقة",
+            "price": 27
+          },
+          {
+            "name": "جل بولش",
+            "desc": "40 دقيقة",
+            "price": 72
+          },
+          {
+            "name": "فرنش",
+            "desc": "10 دقائق",
+            "price": 22.5
+          },
+          {
+            "name": "رسم كامل",
+            "desc": "30 دقيقة",
+            "price": 27
+          },
+          {
+            "name": "مناكير كومبينادا",
+            "desc": "ساعة ونصف",
+            "price": 135
+          },
+          {
+            "name": "تعبئة التركيب",
+            "desc": "ساعتان",
+            "price": 144
+          }
+        ]
+      },
+      {
+        "id": "pedi",
+        "title": "البديكير",
+        "tagline": "",
+        "image": "olive",
+        "items": [
+          {
+            "name": "بديكير سبا مع طلاء عادي",
+            "desc": "45 دقيقة",
+            "price": 72
+          },
+          {
+            "name": "بديكير تنظيف عادي",
+            "desc": "25 دقيقة",
+            "price": 36
+          },
+          {
+            "name": "جل بولش للقدمين",
+            "desc": "30 دقيقة",
+            "price": 67.5
+          },
+          {
+            "name": "سبا بديكير",
+            "desc": "ساعة",
+            "price": 135
+          }
+        ]
+      },
+      {
+        "id": "lash",
+        "title": "الرموش والحواجب",
+        "tagline": "",
+        "image": "reception",
+        "items": [
+          {
+            "name": "رموش كلاسيك",
+            "desc": "ساعتان",
+            "price": 162
+          },
+          {
+            "name": "رموش هايبرد",
+            "desc": "ساعتان ونصف",
+            "price": 202.5
+          },
+          {
+            "name": "رموش فوليوم",
+            "desc": "3 ساعات",
+            "price": 225
+          },
+          {
+            "name": "لفت الرموش",
+            "desc": "45 دقيقة",
+            "price": 135
+          },
+          {
+            "name": "لامينيشن الحواجب",
+            "desc": "45 دقيقة",
+            "price": 135
+          },
+          {
+            "name": "صبغ الحواجب",
+            "desc": "30 دقيقة",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "id": "hair",
+        "title": "الشعر",
+        "tagline": "",
+        "image": "reception",
+        "items": [
+          {
+            "name": "قص شعر",
+            "desc": "45 دقيقة",
+            "price": 72
+          },
+          {
+            "name": "سشوار قصير",
+            "desc": "30 دقيقة",
+            "price": 72
+          },
+          {
+            "name": "صبغة مع غسيل وسشوار",
+            "desc": "قصير",
+            "price": 135
+          },
+          {
+            "name": "زيت ساخن",
+            "desc": "ساعة وربع",
+            "price": 94.5
+          },
+          {
+            "name": "نانو بروتين",
+            "desc": "قصير",
+            "price": 315
+          },
+          {
+            "name": "وصلات كيراتين نانو",
+            "desc": "4 ساعات",
+            "price": 1170
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "S.",
+      "stars": 5,
+      "text": "It’s was booked with Ms Legna, but at the end Claoudia who did the service for me, she was so kind and professional, I like my new nail set it’s clean and perfect 😍",
+      "source_ref": "https://www.fresha.com/a/legna-women-salon-doha-old-alghanem-7ghq-38x-jtfvipcn"
+    },
+    {
+      "author": "Sarah",
+      "stars": 5,
+      "text": "She was great at her job, i have never had a better experience",
+      "source_ref": "https://www.fresha.com/a/legna-women-salon-doha-old-alghanem-7ghq-38x-jtfvipcn"
+    },
+    {
+      "author": "Jade R.",
+      "stars": 5,
+      "text": "Always does such a good job 🌸",
+      "source_ref": "https://www.fresha.com/a/legna-women-salon-doha-old-alghanem-7ghq-38x-jtfvipcn"
+    },
+    {
+      "author": "Verónica",
+      "stars": 5,
+      "text": "Excelente como siempre.. feliz con mis uñas 🙏🙏🙏",
+      "source_ref": "https://www.fresha.com/a/legna-women-salon-doha-old-alghanem-7ghq-38x-jtfvipcn"
+    }
+  ],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "10 ص – 10 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "1 م – 10 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Fresha"
+  },
+  "visit": {
+    "image": "reception"
+  },
+  "whatsapp": null,
+  "images": {
+    "french": {
+      "file": "french.jpg",
+      "alt": "صورة أظافر لوزية بفرنش أبيض مع خاتم ذهبي",
+      "source_url": "https://www.fresha.com/a/legna-women-salon-doha-old-alghanem-7ghq-38x-jtfvipcn",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "olive": {
+      "file": "olive.jpg",
+      "alt": "صورة أظافر بلون أخضر زيتوني ونقاط صغيرة",
+      "source_url": "https://www.fresha.com/a/legna-women-salon-doha-old-alghanem-7ghq-38x-jtfvipcn",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "reception": {
+      "file": "reception.jpg",
+      "alt": "صورة استقبال الصالون الوردي وحاجز ذهبي",
+      "source_url": "https://www.fresha.com/a/legna-women-salon-doha-old-alghanem-7ghq-38x-jtfvipcn",
+      "credit": "من صفحة المحل على Fresha"
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "place_id": "amd-notion-40e5cb524e44816c999fccb499c56f31",
+  "slug": "three-brothers-barbershop",
+  "batch_id": "amd-gulf-20261104",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "صفحة الحجز على Fresha وقائمة الصالون على خرائط Google",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#7E8F5E",
+    "rgb": "126, 143, 94",
+    "hover": "#687A4B",
+    "ink": "#FFFFFF"
+  },
+  "name": "Three Brothers",
+  "name_lang": "en",
+  "category_label": "صالون حلاقة رجالي وحمام مغربي",
+  "area": "مويلح التجارية، الشارقة",
+  "address": "محل 3، مويلح التجارية، المنطقة الصناعية، الشارقة",
+  "phone": {
+    "display": "+971 50 433 7020",
+    "tel": "+971504337020"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Three%20Brothers%20Barbershop%20Muwailih%20Sharjah",
+  "map_query": "Three Brothers Barbershop, Muwailih Commercial, Sharjah",
+  "rating": {
+    "value": 5.0,
+    "count": 515,
+    "source": "Fresha"
+  },
+  "hero": {
+    "headline": "حلاقة تحت أقواس بيضاء",
+    "intro": "صالون رجالي في مويلح بالشارقة للقص واللحية والعناية والحمام المغربي والمساج، مع مواقف للسيارات، يفتح يوميًا حتى 12 منتصف الليل.",
+    "image": "arches"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في الصالون",
+    "items": [
+      "TB VIP Cut",
+      "قص ولحية",
+      "حمام مغربي",
+      "بروتين الشعر",
+      "مساج رياضي",
+      "قص أطفال"
+    ]
+  },
+  "story": {
+    "eyebrow": "داخل الصالون",
+    "title": "مكان واسع بأقواس ومرايا",
+    "items": [
+      {
+        "label": "الصالة",
+        "title": "أقواس على طول الجدار",
+        "text": "مرايا مقوسة وثريا دائرية فوق كراسي الحلاقة، وجلسة انتظار بيضاء في الوسط.",
+        "image": "arches"
+      },
+      {
+        "label": "الكراسي",
+        "title": "كراسي جلد وعدّة جاهزة",
+        "text": "كراسي حلاقة بين نباتات خضراء وعربات أدوات مرتبة.",
+        "image": "chairs"
+      },
+      {
+        "label": "العناية",
+        "title": "ركن الأظافر والقدمين",
+        "text": "كراسي بديكير رمادية ورفوف منتجات، للأظافر والمساج.",
+        "image": "pedi"
+      }
+    ]
+  },
+  "menu": {
+    "title": "الخدمات والأسعار",
+    "eyebrow": "من صفحة الحجز",
+    "currency": "د.إ",
+    "sample": false,
+    "note": "الخدمات والأسعار منقولة من صفحة الصالون على Fresha، وقد تتغير.",
+    "categories": [
+      {
+        "id": "cut",
+        "title": "القص واللحية",
+        "tagline": "",
+        "image": "chairs",
+        "items": [
+          {
+            "name": "TB VIP Cut Signature",
+            "desc": "ساعة ونصف",
+            "price": 199
+          },
+          {
+            "name": "قص كلاسيك مع اللحية",
+            "desc": "ساعة",
+            "price": 99
+          },
+          {
+            "name": "قص وتسريح",
+            "desc": "45 دقيقة",
+            "price": 60
+          },
+          {
+            "name": "ترتيب اللحية",
+            "desc": "30 دقيقة",
+            "price": 45
+          },
+          {
+            "name": "قص ولحية للطلاب",
+            "desc": "ساعة",
+            "price": 75
+          },
+          {
+            "name": "قص أطفال",
+            "desc": "40 دقيقة",
+            "price": 42
+          }
+        ]
+      },
+      {
+        "id": "color",
+        "title": "الصبغة والعلاجات",
+        "tagline": "",
+        "image": "arches",
+        "items": [
+          {
+            "name": "صبغة شعر أسود أو بني",
+            "desc": "45 دقيقة",
+            "price": 49
+          },
+          {
+            "name": "صبغة اللحية",
+            "desc": "30 دقيقة",
+            "price": 35
+          },
+          {
+            "name": "بروتين للشعر القصير",
+            "desc": "يبدأ من",
+            "price": 299
+          },
+          {
+            "name": "زيت ساخن وسبا الشعر",
+            "desc": "30 دقيقة",
+            "price": 69
+          },
+          {
+            "name": "علاج فروة بشجرة الشاي",
+            "desc": "ساعة",
+            "price": 99
+          },
+          {
+            "name": "فيشل ملكي",
+            "desc": "ساعة",
+            "price": 99
+          }
+        ]
+      },
+      {
+        "id": "bath",
+        "title": "الحمام المغربي والمساج",
+        "tagline": "",
+        "image": "pedi",
+        "items": [
+          {
+            "name": "حمام مغربي ملكي",
+            "desc": "ساعة",
+            "price": 199
+          },
+          {
+            "name": "حمام مغربي VIP",
+            "desc": "ساعة وربع",
+            "price": 299
+          },
+          {
+            "name": "مساج كامل الجسم",
+            "desc": "ساعة",
+            "price": 139
+          },
+          {
+            "name": "مساج رياضي",
+            "desc": "45 دقيقة",
+            "price": 99
+          },
+          {
+            "name": "مساج الرأس",
+            "desc": "30 دقيقة",
+            "price": 49
+          },
+          {
+            "name": "مساج القدمين",
+            "desc": "30 دقيقة",
+            "price": 49
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Abd Alkreem H.",
+      "stars": 5,
+      "text": "Amazing barbershop with a really welcoming vibe. Big thanks to Khalil, he's a true professional, pays attention to every detail and always gets the cut exactly how I want it. Super friendly and easy to talk to, which makes the whole visit relaxing.",
+      "source_ref": "https://www.fresha.com/a/three-brothers-barbershop-sharjah-three-brothers-barber-shop-3-muwailih-commercial-industrial-area-sharjah-fu0qj9oh"
+    },
+    {
+      "author": "Mohammed",
+      "stars": 5,
+      "text": "11 سنه حلاقة مع العالمي الشاطر المبدع بلال فوق الممتاز كالعادة",
+      "source_ref": "https://www.fresha.com/a/three-brothers-barbershop-sharjah-three-brothers-barber-shop-3-muwailih-commercial-industrial-area-sharjah-fu0qj9oh"
+    },
+    {
+      "author": "Ayham A.",
+      "stars": 5,
+      "text": "من افضل الصالونات بالامارات والحلاق بلال افضل الحلاقين بالعالم",
+      "source_ref": "https://www.fresha.com/a/three-brothers-barbershop-sharjah-three-brothers-barber-shop-3-muwailih-commercial-industrial-area-sharjah-fu0qj9oh"
+    },
+    {
+      "author": "ali",
+      "stars": 5,
+      "text": "افضل حلاقة عند المبدع بلال",
+      "source_ref": "https://www.fresha.com/a/three-brothers-barbershop-sharjah-three-brothers-barber-shop-3-muwailih-commercial-industrial-area-sharjah-fu0qj9oh"
+    }
+  ],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "10 ص – 12 منتصف الليل"
+      },
+      {
+        "days": "الجمعة",
+        "time": "1:30 م – 12 منتصف الليل"
+      }
+    ],
+    "per_day": null,
+    "source": "Fresha"
+  },
+  "visit": {
+    "image": "chairs"
+  },
+  "whatsapp": null,
+  "images": {
+    "arches": {
+      "file": "arches.jpg",
+      "alt": "صورة صالة الصالون بمرايا مقوسة وثريا دائرية",
+      "source_url": "https://www.fresha.com/a/three-brothers-barbershop-sharjah-three-brothers-barber-shop-3-muwailih-commercial-industrial-area-sharjah-fu0qj9oh",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "chairs": {
+      "file": "chairs.jpg",
+      "alt": "صورة كراسي الحلاقة بين النباتات أمام مرايا مقوسة",
+      "source_url": "https://www.fresha.com/a/three-brothers-barbershop-sharjah-three-brothers-barber-shop-3-muwailih-commercial-industrial-area-sharjah-fu0qj9oh",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "pedi": {
+      "file": "pedi.jpg",
+      "alt": "صورة ركن البديكير بكراسي رمادية ورفوف منتجات",
+      "source_url": "https://www.fresha.com/a/three-brothers-barbershop-sharjah-three-brothers-barber-shop-3-muwailih-commercial-industrial-area-sharjah-fu0qj9oh",
+      "credit": "من صفحة المحل على Fresha"
+    }
+  }
+}

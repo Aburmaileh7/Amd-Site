@@ -1,0 +1,281 @@
+{
+  "place_id": "amd-notion-40e5cb524e44817aaa6cf8d51c6d34f9",
+  "slug": "elite-athlete-barber",
+  "batch_id": "amd-gulf-20261104",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "services_pro",
+  "data_source": "صفحة الحجز على Fresha وقائمة المحل على خرائط Google",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#6EC6F0",
+    "rgb": "110, 198, 240",
+    "hover": "#4FB2E2",
+    "ink": "#06131B"
+  },
+  "name": "Elite Athlete Barber",
+  "name_lang": "en",
+  "category_label": "حلاق رجالي ومساج رياضي",
+  "area": "المنامة، البحرين",
+  "address": "Road 28، المنامة",
+  "phone": {
+    "display": "+973 6663 2633",
+    "tel": "+97366632633"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Elite%20Athlete%20Barber%20Road%2028%20Manama",
+  "map_query": "Elite Athlete Barber, Road 28, Manama",
+  "rating": {
+    "value": 5.0,
+    "count": 476,
+    "source": "Fresha"
+  },
+  "hero": {
+    "headline": "قصة نظيفة في 25 دقيقة",
+    "intro": "حلاق في المنامة يخدم الرياضيين والأطفال: قص وحلاقة لحية وفيشل وتدليك رياضي، يفتح يوميًا من 10 صباحًا حتى 12 منتصف الليل.",
+    "image": "chairs"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "story",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في المحل",
+    "items": [
+      "قص شعر",
+      "حلاقة اللحية",
+      "فيشل ديلوكس",
+      "مساج رياضي",
+      "فوطة حارة وباردة",
+      "قص أطفال"
+    ]
+  },
+  "story": {
+    "eyebrow": "من داخل المحل",
+    "title": "مكان مرتّب مثل غرفة التبديل",
+    "items": [
+      {
+        "label": "الكراسي",
+        "title": "مرآة مقوّسة بإضاءة",
+        "text": "كراسي سوداء أمام مرايا بإطار مضيء، ورفوف مرتبة للأدوات.",
+        "image": "chairs"
+      },
+      {
+        "label": "الغسيل",
+        "title": "ركن غسيل الشعر",
+        "text": "مغسلة بكرسي مريح خلف رف خشبي، قبل القص وبعده.",
+        "image": "wash"
+      },
+      {
+        "label": "العناية",
+        "title": "كرسي البديكير",
+        "text": "كرسي سبا للقدمين بين النباتات، للمناكير والبديكير.",
+        "image": "spa"
+      }
+    ]
+  },
+  "menu": {
+    "title": "الخدمات والأسعار",
+    "eyebrow": "من صفحة الحجز",
+    "currency": "د.ب",
+    "sample": false,
+    "note": "الخدمات والأسعار منقولة من صفحة المحل على Fresha، وقد تتغير.",
+    "categories": [
+      {
+        "id": "hair",
+        "title": "الشعر واللحية",
+        "tagline": "",
+        "image": "chairs",
+        "items": [
+          {
+            "name": "قص شعر",
+            "desc": "25 دقيقة",
+            "price": 3
+          },
+          {
+            "name": "قص شعر أطفال",
+            "desc": "20 دقيقة",
+            "price": 2
+          },
+          {
+            "name": "تسريحة شعر",
+            "desc": "10 دقائق",
+            "price": 2
+          },
+          {
+            "name": "حلاقة اللحية",
+            "desc": "25 دقيقة",
+            "price": 3
+          },
+          {
+            "name": "ELITE Classic",
+            "desc": "55 دقيقة · 3 خدمات",
+            "price": 7
+          },
+          {
+            "name": "صبغ اللحية",
+            "desc": "15 دقيقة",
+            "price": 3
+          }
+        ]
+      },
+      {
+        "id": "care",
+        "title": "العناية بالشعر والبشرة",
+        "tagline": "",
+        "image": "wash",
+        "items": [
+          {
+            "name": "علاج زيت الشعر",
+            "desc": "15 دقيقة",
+            "price": 3
+          },
+          {
+            "name": "جلسة معالجة الفروة من القشرة",
+            "desc": "20 دقيقة",
+            "price": 4
+          },
+          {
+            "name": "علاج الكيراتين",
+            "desc": "ساعة",
+            "price": 10
+          },
+          {
+            "name": "علاج البروتين",
+            "desc": "ساعة",
+            "price": 15
+          },
+          {
+            "name": "فيشل كلاسيك",
+            "desc": "20 دقيقة",
+            "price": 4
+          },
+          {
+            "name": "فيشل ديلوكس",
+            "desc": "30 دقيقة",
+            "price": 7
+          },
+          {
+            "name": "فوطة حارة وباردة",
+            "desc": "5 دقائق",
+            "price": 1
+          }
+        ]
+      },
+      {
+        "id": "body",
+        "title": "المساج والسبا",
+        "tagline": "",
+        "image": "spa",
+        "items": [
+          {
+            "name": "مساج رياضي",
+            "desc": "ساعة",
+            "price": 15
+          },
+          {
+            "name": "مساج تايلندي",
+            "desc": "ساعة",
+            "price": 15
+          },
+          {
+            "name": "مساج استرخاء",
+            "desc": "ساعة",
+            "price": 10
+          },
+          {
+            "name": "مساج الرأس",
+            "desc": "15 دقيقة",
+            "price": 2
+          },
+          {
+            "name": "مناكير وبديكير",
+            "desc": "45 دقيقة",
+            "price": 6
+          },
+          {
+            "name": "سبا القدمين",
+            "desc": "30 دقيقة",
+            "price": 5
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Ali A.",
+      "stars": 5,
+      "text": "The best barber shop in the area !",
+      "source_ref": "https://www.fresha.com/a/elite-athlete-barber-manama-saqiyah-avenue-izrp4ixi"
+    },
+    {
+      "author": "Maitham H.",
+      "stars": 5,
+      "text": "والله أفضل حلاق 💙💙",
+      "source_ref": "https://www.fresha.com/a/elite-athlete-barber-manama-saqiyah-avenue-izrp4ixi"
+    },
+    {
+      "author": "Marko N.",
+      "stars": 5,
+      "text": "Perfect cut",
+      "source_ref": "https://www.fresha.com/a/elite-athlete-barber-manama-saqiyah-avenue-izrp4ixi"
+    },
+    {
+      "author": "Abdolbaset H.",
+      "stars": 5,
+      "text": "The best 👌 👏",
+      "source_ref": "https://www.fresha.com/a/elite-athlete-barber-manama-saqiyah-avenue-izrp4ixi"
+    }
+  ],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "10 ص – 12 منتصف الليل"
+      }
+    ],
+    "per_day": null,
+    "source": "Fresha"
+  },
+  "visit": {
+    "image": "front"
+  },
+  "whatsapp": null,
+  "images": {
+    "chairs": {
+      "file": "chairs.jpg",
+      "alt": "صورة كراسي الحلاقة أمام مرآة مقوسة مضيئة داخل المحل",
+      "source_url": "https://www.fresha.com/a/elite-athlete-barber-manama-saqiyah-avenue-izrp4ixi",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "wash": {
+      "file": "wash.jpg",
+      "alt": "صورة ركن غسيل الشعر داخل المحل",
+      "source_url": "https://www.fresha.com/a/elite-athlete-barber-manama-saqiyah-avenue-izrp4ixi",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "spa": {
+      "file": "spa.jpg",
+      "alt": "صورة كرسي سبا القدمين داخل المحل",
+      "source_url": "https://www.fresha.com/a/elite-athlete-barber-manama-saqiyah-avenue-izrp4ixi",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة المحل الزجاجية ولافتته",
+      "source_url": "https://www.fresha.com/a/elite-athlete-barber-manama-saqiyah-avenue-izrp4ixi",
+      "credit": "من صفحة المحل على Fresha"
+    }
+  }
+}

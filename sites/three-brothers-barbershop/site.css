@@ -1,0 +1,9 @@
+/* Three Brothers: the row of arched mirrors along the wall */
+[data-site="three-brothers-barbershop"] .panel__media,[data-site="three-brothers-barbershop"] .panel-m__visual,[data-site="three-brothers-barbershop"] .hero__side{border-radius:999px 999px 18px 18px;overflow:hidden}
+[data-site="three-brothers-barbershop"] .tb-arches{display:flex;gap:14px;justify-content:flex-start;margin:0 0 30px;height:64px;align-items:flex-end}
+[data-site="three-brothers-barbershop"] .tb-arches i{display:block;width:34px;height:100%;border:2px solid #7E8F5E;border-bottom:0;border-radius:999px 999px 0 0;transform-origin:50% 100%}
+[data-site="three-brothers-barbershop"] .tb-arches i:nth-child(2){height:82%}
+[data-site="three-brothers-barbershop"] .tb-arches i:nth-child(3){height:64%}
+[data-site="three-brothers-barbershop"] .stat__num{color:#7E8F5E}
+[data-site="three-brothers-barbershop"] .item__price{font-weight:600}
+@media (max-width:640px){[data-site="three-brothers-barbershop"] .tb-arches{height:48px}[data-site="three-brothers-barbershop"] .tb-arches i{width:26px}}

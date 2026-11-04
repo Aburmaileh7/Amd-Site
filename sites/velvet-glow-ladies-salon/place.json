@@ -1,0 +1,385 @@
+{
+  "place_id": "amd-notion-40e5cb524e4481678366c618238eb249",
+  "slug": "velvet-glow-ladies-salon",
+  "batch_id": "amd-gulf-20261104",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "صفحة الحجز على Fresha وقائمة الصالون على خرائط Google",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#9C7A4E",
+    "rgb": "156, 122, 78",
+    "hover": "#83653F",
+    "ink": "#FFFFFF"
+  },
+  "name": "Velvet Glow",
+  "name_lang": "en",
+  "category_label": "صالون نسائي",
+  "area": "التعاون، الشارقة",
+  "address": "Avenue Building، محل رقم 5، شارع التعاون، الشارقة",
+  "phone": {
+    "display": "+971 52 135 6677",
+    "tel": "+971521356677"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Velvet%20Glow%20Ladies%20Salon%20Al%20Taawun%20Sharjah",
+  "map_query": "Velvet Glow Ladies Salon, Al Taawun, Sharjah",
+  "rating": {
+    "value": 4.9,
+    "count": 316,
+    "source": "Fresha"
+  },
+  "hero": {
+    "headline": "رخام وذهب ومناكير بلا عجلة",
+    "intro": "صالون نسائي في شارع التعاون بالشارقة: أظافر وشعر وسبا رأس كوري وحمام مغربي، يفتح يوميًا من 10 صباحًا حتى 10 مساءً، والجمعة من 2 ظهرًا.",
+    "image": "hall"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "marquee",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في الصالون",
+    "items": [
+      "مناكير وبديكير",
+      "سبا رأس كوري",
+      "حمام مغربي",
+      "كيراتين",
+      "رموش",
+      "مكياج"
+    ]
+  },
+  "story": {
+    "eyebrow": "جولة في الصالون",
+    "title": "كل ركن له شغله",
+    "items": [
+      {
+        "label": "الشعر",
+        "title": "صالة الرخام",
+        "text": "كراسي بيج ومرايا بإطار ذهبي على أرضية رخام بعروق رمادية.",
+        "image": "hall"
+      },
+      {
+        "label": "الأظافر",
+        "title": "طاولة المناكير",
+        "text": "طاولة بيضاء وكرسي مخملي، والزبونات يذكرن المناكير والبديكير أولًا.",
+        "image": "nails"
+      },
+      {
+        "label": "البديكير",
+        "title": "صف كراسي القدمين",
+        "text": "كراسي بديكير متجاورة بلون الكريم على جدار رخامي.",
+        "image": "pedi"
+      },
+      {
+        "label": "البشرة",
+        "title": "غرفة الفيشل",
+        "text": "سرير ومصباح مكبّر لجلسات الفيشل والرموش.",
+        "image": "facial"
+      },
+      {
+        "label": "الاستقبال",
+        "title": "ركن الانتظار",
+        "text": "كنبة بيضاء وسجادة دائرية بجانب جدار خشبي مضلّع.",
+        "image": "lounge"
+      }
+    ]
+  },
+  "menu": {
+    "title": "الخدمات والأسعار",
+    "eyebrow": "من صفحة الحجز",
+    "currency": "د.إ",
+    "sample": false,
+    "note": "الخدمات والأسعار منقولة من صفحة الصالون على Fresha، وبعضها يبدأ من السعر المذكور.",
+    "categories": [
+      {
+        "id": "nails",
+        "title": "الأظافر",
+        "tagline": "",
+        "image": "nails",
+        "items": [
+          {
+            "name": "مناكير",
+            "desc": "",
+            "price": 40
+          },
+          {
+            "name": "بديكير",
+            "desc": "",
+            "price": 50
+          },
+          {
+            "name": "جل بولش",
+            "desc": "",
+            "price": 50
+          },
+          {
+            "name": "جل مناكير",
+            "desc": "",
+            "price": 100
+          },
+          {
+            "name": "جل بديكير",
+            "desc": "",
+            "price": 120
+          },
+          {
+            "name": "أكريليك",
+            "desc": "",
+            "price": 150
+          },
+          {
+            "name": "أكريليك مع جل مناكير",
+            "desc": "",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "id": "hair",
+        "title": "الشعر",
+        "tagline": "",
+        "image": "hall",
+        "items": [
+          {
+            "name": "قص شعر",
+            "desc": "",
+            "price": 70
+          },
+          {
+            "name": "سشوار",
+            "desc": "يبدأ من",
+            "price": 50
+          },
+          {
+            "name": "سبا الشعر",
+            "desc": "",
+            "price": 120
+          },
+          {
+            "name": "صبغة",
+            "desc": "يبدأ من",
+            "price": 200
+          },
+          {
+            "name": "هايلايت",
+            "desc": "يبدأ من",
+            "price": 250
+          },
+          {
+            "name": "كيراتين",
+            "desc": "يبدأ من",
+            "price": 350
+          },
+          {
+            "name": "وصلات شعر",
+            "desc": "",
+            "price": 400
+          }
+        ]
+      },
+      {
+        "id": "spa",
+        "title": "السبا الكوري والحمام المغربي",
+        "tagline": "",
+        "image": "lounge",
+        "items": [
+          {
+            "name": "سبا كوري",
+            "desc": "ساعة",
+            "price": 200
+          },
+          {
+            "name": "مساج",
+            "desc": "ساعة",
+            "price": 120
+          },
+          {
+            "name": "حمام مغربي عادي",
+            "desc": "",
+            "price": 80
+          },
+          {
+            "name": "حمام مغربي مع مساج",
+            "desc": "",
+            "price": 130
+          },
+          {
+            "name": "حمام مغربي بالأعشاب",
+            "desc": "",
+            "price": 200
+          },
+          {
+            "name": "حمام مغربي خاص",
+            "desc": "",
+            "price": 250
+          }
+        ]
+      },
+      {
+        "id": "face",
+        "title": "البشرة والرموش والمكياج",
+        "tagline": "",
+        "image": "facial",
+        "items": [
+          {
+            "name": "فيشل عادي",
+            "desc": "",
+            "price": 80
+          },
+          {
+            "name": "فيشل عميق",
+            "desc": "",
+            "price": 150
+          },
+          {
+            "name": "رموش 3D",
+            "desc": "",
+            "price": 100
+          },
+          {
+            "name": "رموش شعرة بشعرة",
+            "desc": "يبدأ من",
+            "price": 150
+          },
+          {
+            "name": "مكياج",
+            "desc": "",
+            "price": 150
+          },
+          {
+            "name": "مكياج مع كونتور",
+            "desc": "",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "id": "wax",
+        "title": "الشمع والحواجب",
+        "tagline": "",
+        "image": "pedi",
+        "items": [
+          {
+            "name": "شمع الوجه كامل",
+            "desc": "",
+            "price": 70
+          },
+          {
+            "name": "خيط الوجه كامل",
+            "desc": "",
+            "price": 50
+          },
+          {
+            "name": "شمع الجسم كامل",
+            "desc": "",
+            "price": 200
+          },
+          {
+            "name": "تنظيف الحواجب",
+            "desc": "",
+            "price": 20
+          },
+          {
+            "name": "صبغ الحواجب",
+            "desc": "",
+            "price": 20
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Sara",
+      "stars": 5,
+      "text": "My favorite place to get a manicure and pedicure done ❤️ the staff is always so welcoming and friendly and really good at their work!",
+      "source_ref": "https://www.fresha.com/a/velvet-glow-ladies-salon-sharjah-al-taawun-street-ljmo3a3k"
+    },
+    {
+      "author": "Wala",
+      "stars": 5,
+      "text": "استقبال رائع من الفريق كاملاً من المدام رشا وبقية الفريق ومعاملة رائعة ونظافة سوبرررررر",
+      "source_ref": "https://www.fresha.com/a/velvet-glow-ladies-salon-sharjah-al-taawun-street-ljmo3a3k"
+    },
+    {
+      "author": "Nesrin N.",
+      "stars": 5,
+      "text": "It’s my favorite saloon Khalida very professional and so is Kris no one can fix my hair like Khaleda , she is the best hairstylist",
+      "source_ref": "https://www.fresha.com/a/velvet-glow-ladies-salon-sharjah-al-taawun-street-ljmo3a3k"
+    },
+    {
+      "author": "Maysn",
+      "stars": 5,
+      "text": "جودة الخدمات التعامل الراقي",
+      "source_ref": "https://www.fresha.com/a/velvet-glow-ladies-salon-sharjah-al-taawun-street-ljmo3a3k"
+    }
+  ],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "10 ص – 10 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "2 م – 10 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Fresha"
+  },
+  "visit": {
+    "image": "wash"
+  },
+  "whatsapp": null,
+  "images": {
+    "hall": {
+      "file": "hall.jpg",
+      "alt": "صورة صالة الشعر بكراسي بيج وأرضية رخام",
+      "source_url": "https://www.fresha.com/a/velvet-glow-ladies-salon-sharjah-al-taawun-street-ljmo3a3k",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "nails": {
+      "file": "nails.jpg",
+      "alt": "صورة طاولة المناكير البيضاء وكرسي مخملي",
+      "source_url": "https://www.fresha.com/a/velvet-glow-ladies-salon-sharjah-al-taawun-street-ljmo3a3k",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "pedi": {
+      "file": "pedi.jpg",
+      "alt": "صورة صف كراسي البديكير أمام جدار رخامي",
+      "source_url": "https://www.fresha.com/a/velvet-glow-ladies-salon-sharjah-al-taawun-street-ljmo3a3k",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "facial": {
+      "file": "facial.jpg",
+      "alt": "صورة سرير الفيشل ومصباح مكبّر",
+      "source_url": "https://www.fresha.com/a/velvet-glow-ladies-salon-sharjah-al-taawun-street-ljmo3a3k",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "lounge": {
+      "file": "lounge.jpg",
+      "alt": "صورة ركن الانتظار بكنبة بيضاء وسجادة دائرية",
+      "source_url": "https://www.fresha.com/a/velvet-glow-ladies-salon-sharjah-al-taawun-street-ljmo3a3k",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "wash": {
+      "file": "wash.jpg",
+      "alt": "صورة مغاسل الشعر بأحواض ذهبية",
+      "source_url": "https://www.fresha.com/a/velvet-glow-ladies-salon-sharjah-al-taawun-street-ljmo3a3k",
+      "credit": "من صفحة المحل على Fresha"
+    }
+  }
+}
