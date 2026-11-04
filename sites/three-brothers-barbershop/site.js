@@ -2,7 +2,7 @@
 (function(){
   document.querySelectorAll('.menu__head,.rev__head').forEach(function(h){
     var a=document.createElement('div');a.className='tb-arches';a.setAttribute('aria-hidden','true');
-    a.innerHTML='<i></i><i></i><i></i>';h.prepend(a);
+    a.innerHTML='<i></i><i></i><i></i>';h.parentNode.insertBefore(a,h);
     if(reduce)return;
     gsap.from(a.children,{scaleY:0,duration:.9,stagger:.15,ease:'back.out(1.6)',scrollTrigger:{trigger:h,start:'top 85%',once:true}});
   });

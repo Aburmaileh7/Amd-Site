@@ -6,7 +6,7 @@ const fmt = (n) => n.toLocaleString('en-US');
 ---
 {show && (<section class="proof" aria-labelledby="proof-title">
   <div class="wrap">
-    <h2 id="proof-title" class="visually-hidden">أرقام من Google Maps</h2>
+    <h2 id="proof-title" class="visually-hidden">{`أرقام من ${p.rating?.source || 'Google Maps'}`}</h2>
     {p.rating && <div class="stats">
       <div class="stat" data-reveal>
         <p class="stat__num"><span data-count={p.rating.value} data-decimals="1">{p.rating.value.toFixed(1)}</span></p>

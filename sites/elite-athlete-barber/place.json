@@ -20,13 +20,13 @@
   "name_lang": "en",
   "category_label": "حلاق رجالي ومساج رياضي",
   "area": "المنامة، البحرين",
-  "address": "Road 28، المنامة",
+  "address": "شارع السقية (Saqiyah Avenue)، المنامة",
   "phone": {
     "display": "+973 6663 2633",
     "tel": "+97366632633"
   },
   "directions_url": "https://www.google.com/maps/search/?api=1&query=Elite%20Athlete%20Barber%20Road%2028%20Manama",
-  "map_query": "Elite Athlete Barber, Road 28, Manama",
+  "map_query": "Elite Athlete Barber, Saqiyah Avenue, Manama",
   "rating": {
     "value": 5.0,
     "count": 476,
@@ -49,13 +49,13 @@
     "visit"
   ],
   "marquee": {
-    "label": "في المحل",
+    "label": "هذا الشهر",
     "items": [
-      "قص شعر",
+      "باقة نوفمبر 10 د.ب",
+      "قص شعر 3 د.ب",
       "حلاقة اللحية",
       "فيشل ديلوكس",
       "مساج رياضي",
-      "فوطة حارة وباردة",
       "قص أطفال"
     ]
   },
@@ -94,7 +94,6 @@
         "id": "hair",
         "title": "الشعر واللحية",
         "tagline": "",
-        "image": "chairs",
         "items": [
           {
             "name": "قص شعر",
@@ -132,7 +131,6 @@
         "id": "care",
         "title": "العناية بالشعر والبشرة",
         "tagline": "",
-        "image": "wash",
         "items": [
           {
             "name": "علاج زيت الشعر",
@@ -175,7 +173,6 @@
         "id": "body",
         "title": "المساج والسبا",
         "tagline": "",
-        "image": "spa",
         "items": [
           {
             "name": "مساج رياضي",
@@ -225,16 +222,16 @@
       "source_ref": "https://www.fresha.com/a/elite-athlete-barber-manama-saqiyah-avenue-izrp4ixi"
     },
     {
-      "author": "Marko N.",
+      "author": "Sayed Mahmood A.",
       "stars": 5,
-      "text": "Perfect cut",
-      "source_ref": "https://www.fresha.com/a/elite-athlete-barber-manama-saqiyah-avenue-izrp4ixi"
+      "text": "تسلم ايدك يا اسلام، عشرة على عشرة 👌🏼👌🏼",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=Elite%20Athlete%20Barber%20Road%2028%20Manama"
     },
     {
-      "author": "Abdolbaset H.",
+      "author": "hussain m.",
       "stars": 5,
-      "text": "The best 👌 👏",
-      "source_ref": "https://www.fresha.com/a/elite-athlete-barber-manama-saqiyah-avenue-izrp4ixi"
+      "text": "ممتاز وبجدارة وشغل محترم",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=Elite%20Athlete%20Barber%20Road%2028%20Manama"
     }
   ],
   "mentions": [],

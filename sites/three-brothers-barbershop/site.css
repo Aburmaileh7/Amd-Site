@@ -7,3 +7,4 @@
 [data-site="three-brothers-barbershop"] .stat__num{color:#7E8F5E}
 [data-site="three-brothers-barbershop"] .item__price{font-weight:600}
 @media (max-width:640px){[data-site="three-brothers-barbershop"] .tb-arches{height:48px}[data-site="three-brothers-barbershop"] .tb-arches i{width:26px}}
+[data-site="three-brothers-barbershop"] .visit__title{font-size:clamp(2.2rem,6vw,4.4rem)}

@@ -8,7 +8,7 @@
   "data_source": "صفحة الحجز على Fresha وقائمة الصالون على خرائط Google",
   "layout": {
     "hero": "full",
-    "story": "stack"
+    "story": "horizontal"
   },
   "accent": {
     "hex": "#B85C7A",
@@ -20,7 +20,7 @@
   "name_lang": "en",
   "category_label": "صالون نسائي للأظافر والرموش",
   "area": "الغانم القديم، الدوحة",
-  "address": "7GHQ+38X، الغانم القديم، الدوحة",
+  "address": "الغانم القديم، الدوحة",
   "phone": {
     "display": "+974 6004 5172",
     "tel": "+97460045172"
@@ -35,7 +35,7 @@
   "hero": {
     "headline": "مناكير روسي بأظافر تشبه الطبيعية",
     "intro": "صالون نسائي في الغانم القديم بالدوحة، متخصص في تنظيف المناكير الروسي وتركيب الأظافر والرموش، بمنتجات عضوية، يوميًا حتى 10 مساءً.",
-    "image": "french"
+    "image": "herofr"
   },
   "motion": {
     "hero": "kenburns"
@@ -71,9 +71,21 @@
       },
       {
         "label": "الرسم",
-        "title": "أخضر زيتوني بنقاط",
-        "text": "لون أخضر هادئ مع نقاط صغيرة على ظفر واحد.",
-        "image": "olive"
+        "title": "أزرق مع توت صغير",
+        "text": "أظافر قصيرة بأطراف زرقاء ورسم توت وأوراق على ظفرين.",
+        "image": "blue"
+      },
+      {
+        "label": "الرموش",
+        "title": "رموش كثيفة مرتبة",
+        "text": "تركيب رموش فوليوم بخط متساوٍ من الزاوية إلى الزاوية.",
+        "image": "lashes"
+      },
+      {
+        "label": "الشعر",
+        "title": "أحمر طويل لامع",
+        "text": "صبغة حمراء على شعر طويل مع تموج خفيف.",
+        "image": "red"
       },
       {
         "label": "الاستقبال",
@@ -165,7 +177,7 @@
         "id": "lash",
         "title": "الرموش والحواجب",
         "tagline": "",
-        "image": "reception",
+        "image": "lashes",
         "items": [
           {
             "name": "رموش كلاسيك",
@@ -203,7 +215,7 @@
         "id": "hair",
         "title": "الشعر",
         "tagline": "",
-        "image": "reception",
+        "image": "silk",
         "items": [
           {
             "name": "قص شعر",
@@ -300,6 +312,36 @@
     "reception": {
       "file": "reception.jpg",
       "alt": "صورة استقبال الصالون الوردي وحاجز ذهبي",
+      "source_url": "https://www.fresha.com/a/legna-women-salon-doha-old-alghanem-7ghq-38x-jtfvipcn",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "herofr": {
+      "file": "hero-french.jpg",
+      "alt": "صورة أظافر لوزية بفرنش أبيض مع خاتم ذهبي",
+      "source_url": "https://www.fresha.com/a/legna-women-salon-doha-old-alghanem-7ghq-38x-jtfvipcn",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "blue": {
+      "file": "blue.jpg",
+      "alt": "صورة أظافر قصيرة بأطراف زرقاء ورسم توت صغير",
+      "source_url": "https://www.fresha.com/a/legna-women-salon-doha-old-alghanem-7ghq-38x-jtfvipcn",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "lashes": {
+      "file": "lashes.jpg",
+      "alt": "صورة رموش مركّبة كثيفة من أعمال الصالون",
+      "source_url": "https://www.fresha.com/a/legna-women-salon-doha-old-alghanem-7ghq-38x-jtfvipcn",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "silk": {
+      "file": "silk.jpg",
+      "alt": "صورة شعر بني طويل ناعم بعد العلاج",
+      "source_url": "https://www.fresha.com/a/legna-women-salon-doha-old-alghanem-7ghq-38x-jtfvipcn",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "red": {
+      "file": "red.jpg",
+      "alt": "صورة شعر طويل مصبوغ بالأحمر من أعمال الصالون",
       "source_url": "https://www.fresha.com/a/legna-women-salon-doha-old-alghanem-7ghq-38x-jtfvipcn",
       "credit": "من صفحة المحل على Fresha"
     }

@@ -1,8 +1,8 @@
 /* Velvet Glow: the grey veins of the marble floor and the brushed gold of the mirror frames */
-[data-site="velvet-glow-ladies-salon"] body{background-image:linear-gradient(115deg,transparent 48%,rgba(120,110,100,.07) 49%,transparent 50.5%),linear-gradient(32deg,transparent 62%,rgba(120,110,100,.05) 62.6%,transparent 63.5%),linear-gradient(160deg,transparent 30%,rgba(156,122,78,.05) 30.4%,transparent 31%);background-size:900px 900px,700px 700px,1100px 1100px;background-attachment:fixed}
-[data-site="velvet-glow-ladies-salon"] .hero__title span span{background:linear-gradient(100deg,currentColor 0 40%,#C9A66B 48%,#F1DDB4 50%,#C9A66B 52%,currentColor 60% 100%);background-size:250% 100%;background-position:100% 0;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+[data-site="velvet-glow-ladies-salon"] .hero__title span span{background:linear-gradient(100deg,currentColor 0 40%,#B8935C 47%,#E9D2A6 50%,#B8935C 53%,currentColor 60% 100%);background-size:250% 100%;background-position:100% 0;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
 [data-site="velvet-glow-ladies-salon"] .hero__side img,[data-site="velvet-glow-ladies-salon"] .panel__media img{border:1px solid rgba(156,122,78,.55);outline:6px solid rgba(156,122,78,.12);outline-offset:-12px}
 [data-site="velvet-glow-ladies-salon"] .item__price{color:#83653F;font-weight:600}
 [data-site="velvet-glow-ladies-salon"] .vg-vein{position:absolute;inset-inline:0;top:0;height:2px;background:linear-gradient(90deg,transparent,#C9A66B,transparent);transform-origin:100% 50%;transform:scaleX(0);pointer-events:none}
 [data-site="velvet-glow-ladies-salon"] .menu,[data-site="velvet-glow-ladies-salon"] .rev{position:relative}
 @media (prefers-reduced-motion:reduce){[data-site="velvet-glow-ladies-salon"] .hero__title span span{background-position:50% 0}}
+[data-site="velvet-glow-ladies-salon"] .visit__title{font-size:clamp(2.2rem,6vw,4.4rem)}

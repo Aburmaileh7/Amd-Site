@@ -5,3 +5,4 @@
 [data-site="legna-women-salon"] .item:hover .item__name::before,[data-site="legna-women-salon"] .item.is-done .item__name::before{opacity:1;transform:scale(1.1)}
 [data-site="legna-women-salon"] .hero__headline{font-weight:600}
 @media (prefers-reduced-motion:reduce){[data-site="legna-women-salon"] .lg-key{clip-path:none}}
+[data-site="legna-women-salon"] .visit__title{font-size:clamp(2.2rem,6vw,4.4rem)}

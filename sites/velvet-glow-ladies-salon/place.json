@@ -7,7 +7,7 @@
   "theme": "beauty_soft",
   "data_source": "صفحة الحجز على Fresha وقائمة الصالون على خرائط Google",
   "layout": {
-    "hero": "split",
+    "hero": "full",
     "story": "horizontal"
   },
   "accent": {
@@ -20,7 +20,7 @@
   "name_lang": "en",
   "category_label": "صالون نسائي",
   "area": "التعاون، الشارقة",
-  "address": "Avenue Building، محل رقم 5، شارع التعاون، الشارقة",
+  "address": "شارع التعاون، الشارقة",
   "phone": {
     "display": "+971 52 135 6677",
     "tel": "+971521356677"

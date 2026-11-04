@@ -1,10 +1,12 @@
 /* Elite Athlete: the arched LED mirror over the barber chair becomes the page's light */
 [data-site="elite-athlete-barber"] .hero__content{position:relative}
-[data-site="elite-athlete-barber"] .hero__content::before{content:"";position:absolute;inset-inline-start:-28px;top:-40px;width:min(430px,82vw);height:calc(100% + 80px);border:2px solid rgba(110,198,240,.85);border-bottom:0;border-radius:999px 999px 0 0;box-shadow:0 0 18px rgba(110,198,240,.55),inset 0 0 18px rgba(110,198,240,.25);pointer-events:none;z-index:-1;clip-path:inset(var(--arch,0%) 0 0 0)}
+[data-site="elite-athlete-barber"] .hero__content::before{content:"";position:absolute;inset-inline-start:-28px;top:2.2em;width:min(430px,82vw);height:calc(100% + 20px);border:2px solid rgba(110,198,240,.85);border-bottom:0;border-radius:999px 999px 0 0;box-shadow:0 0 18px rgba(110,198,240,.55),inset 0 0 18px rgba(110,198,240,.25);pointer-events:none;z-index:-1;clip-path:inset(var(--arch,0%) 0 0 0)}
 [data-site="elite-athlete-barber"] .item__desc{font-variant-numeric:tabular-nums;letter-spacing:normal;color:rgba(110,198,240,.9)}
 [data-site="elite-athlete-barber"] .item{transition:background-color .5s ease}
 [data-site="elite-athlete-barber"] .item.is-lap{background:linear-gradient(90deg,transparent,rgba(110,198,240,.08))}
 [data-site="elite-athlete-barber"] .item.is-lap .item__price{color:#6EC6F0}
 [data-site="elite-athlete-barber"] .marquee{border-block:2px solid rgba(110,198,240,.35)}
-@media (max-width:640px){[data-site="elite-athlete-barber"] .hero__content::before{inset-inline-start:-12px;top:-24px;height:calc(100% + 48px)}}
+@media (max-width:640px){[data-site="elite-athlete-barber"] .hero__content::before{inset-inline-start:-12px;top:2em;height:calc(100% + 10px)}}
 @media (prefers-reduced-motion:reduce){[data-site="elite-athlete-barber"] .hero__content::before{clip-path:none}}
+@media (min-width:900px){[data-site="elite-athlete-barber"] .hero__shade{opacity:.62}}
+[data-site="elite-athlete-barber"] .hero .eyebrow{color:#0E5A7E;font-weight:600}
