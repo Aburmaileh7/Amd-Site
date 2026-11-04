@@ -1,0 +1,9 @@
+/* Ms Victoria: the yellow-and-white beach-umbrella stripe of the salon becomes an awning that unrolls over the hero */
+[data-site="ms-victoria-salon"] .awning{position:absolute;inset-inline:0;top:0;height:46px;z-index:3;pointer-events:none;transform-origin:top center;
+  background:repeating-linear-gradient(90deg,#E2B43C 0 34px,#fffaf0 34px 68px);
+  -webkit-mask:radial-gradient(17px at 17px 100%,transparent 98%,#000) 0 0/34px 100% repeat-x;mask:radial-gradient(17px at 17px 100%,transparent 98%,#000) 0 0/34px 100% repeat-x;
+  filter:drop-shadow(0 4px 6px rgba(120,90,20,.18))}
+[data-site="ms-victoria-salon"] .marquee{position:relative;padding-top:52px}
+[data-site="ms-victoria-salon"] .marquee{background-color:#fffaf0;background-image:repeating-linear-gradient(90deg,rgba(226,180,60,.16) 0 40px,transparent 40px 80px)}
+[data-site="ms-victoria-salon"] .panel__media img{border-radius:999px 999px 18px 18px}
+@media (max-width:640px){[data-site="ms-victoria-salon"] .awning{height:34px}}

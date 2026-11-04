@@ -1,0 +1,205 @@
+{
+  "place_id": "amd-notion-40d5cb524e44811784d8d2cb564faacb",
+  "slug": "ms-victoria-salon",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "قائمة الصالون على خرائط Google (Ms victoria salon صالون مس فكتوريا) ومراجعاتها",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#E2B43C",
+    "rgb": "226, 180, 60",
+    "hover": "#C99A22",
+    "ink": "#2B2310"
+  },
+  "name": "صالون مس فكتوريا",
+  "name_lang": "ar",
+  "category_label": "صالون تجميل نسائي",
+  "area": "أم صلال علي، قطر",
+  "address": "أم صلال علي",
+  "phone": {
+    "display": "+974 3377 7666",
+    "tel": "+97433777666"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
+  "map_query": "Ms victoria salon, Umm Salal Ali, Qatar",
+  "rating": {
+    "value": 3.7,
+    "count": 83,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "صالون بأجواء الصيف في أم صلال",
+    "intro": "مظلة مخططة بالأصفر، وقهوة على صينية رمل، ورسومات كرز على الأظافر. صالون نسائي في أم صلال علي للأظافر والشعر وجلسات العناية.",
+    "image": "nails"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "reviews",
+    "visit"
+  ],
+  "marquee": {
+    "label": "عند مس فكتوريا",
+    "items": [
+      "رسومات الأظافر",
+      "فرنش",
+      "الاستشوار",
+      "لكجوري ثيرابي",
+      "قهوة الباريستا",
+      "أم صلال علي"
+    ]
+  },
+  "story": {
+    "eyebrow": "داخل الصالون",
+    "title": "شاطئ صغير داخل الصالون",
+    "items": [
+      {
+        "label": "الاستقبال",
+        "title": "رفوف مقوّسة وصينية رمل",
+        "text": "رفوف بيضاء مقوّسة للمنتجات، وأمامها صينية رمل بكراسي شاطئ صغيرة وكوب قهوة مخطط.",
+        "image": "shelves"
+      },
+      {
+        "label": "القهوة",
+        "title": "قهوة على الرمل",
+        "text": "كوب لاتيه مخطط مغروس في الرمل بين كراسي البحر، تُقدَّم أثناء الانتظار من ركن الباريستا.",
+        "image": "coffee"
+      },
+      {
+        "label": "الأظافر",
+        "title": "تحت المظلة الصفراء",
+        "text": "مظلة شاطئ صفراء بيضاء فوق رف ألوان المناكير، وعليه سؤال الصالون: It's glowing time?",
+        "image": "umbrella"
+      },
+      {
+        "label": "الشعر",
+        "title": "مغسلة بمرآة ذهبية",
+        "text": "ركن غسيل الشعر بصنبور ذهبي وعربة زيوت وورد، وعلى الجدار: This is my perfect time.",
+        "image": "wash"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما يذكره الزبائن",
+    "sample": false,
+    "note": "الخدمات مأخوذة من صور الصالون ومراجعات زبائنه على Google. الأسعار والمواعيد عبر الاتصال.",
+    "categories": [
+      {
+        "id": "nails",
+        "title": "الأظافر",
+        "tagline": "",
+        "items": [
+          {
+            "name": "رسومات على الأظافر",
+            "desc": "مثل الكرز والفيونكات"
+          },
+          {
+            "name": "فرنش",
+            "desc": ""
+          },
+          {
+            "name": "مناكير وبديكير",
+            "desc": ""
+          }
+        ],
+        "image": "french"
+      },
+      {
+        "id": "hair",
+        "title": "الشعر والعناية",
+        "tagline": "",
+        "items": [
+          {
+            "name": "الاستشوار",
+            "desc": ""
+          },
+          {
+            "name": "لكجوري ثيرابي",
+            "desc": "جلسة عناية واسترخاء"
+          },
+          {
+            "name": "خلطات الشعر",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Khamisa",
+      "stars": 5,
+      "text": "جربت اللكجوري ثيرابي عند الموظفة منى عجيييب ويرخي الأعصاب ويستاهل الاستشوار كان عند مروه شغلها معروف والمدح سابقها الصالون يستاهل من جميع أنواع الخدمات والتطوير وايد حلو ويخليج تغير جو كانج ف سبا…",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali"
+    },
+    {
+      "author": "Zainab A.",
+      "stars": 5,
+      "text": "✨ تجربة ولا أروع! صالون مس فكتوريا فعلاً يجمع بين الفخامة والاهتمام بالتفاصيل. الأجواء صيفية راقية، والخدمة فوق التوقعات…",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali"
+    }
+  ],
+  "mentions": [
+    "لكجوري ثيرابي",
+    "الاستشوار"
+  ],
+  "visit": {
+    "image": "cart"
+  },
+  "whatsapp": null,
+  "images": {
+    "nails": {
+      "file": "cherry-nails.jpg",
+      "alt": "صورة أظافر برسومات كرز وفيونكات حمراء من الصالون",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
+      "credit": "من خرائط Google"
+    },
+    "french": {
+      "file": "french-nails.jpg",
+      "alt": "صورة أظافر فرنش طويلة من الصالون",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
+      "credit": "من خرائط Google"
+    },
+    "shelves": {
+      "file": "shelves-beach.jpg",
+      "alt": "صورة رفوف مقوّسة وصينية رمل بكراسي شاطئ صغيرة في الاستقبال",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
+      "credit": "من خرائط Google"
+    },
+    "coffee": {
+      "file": "sand-coffee.jpg",
+      "alt": "صورة كوب قهوة مخطط على صينية رمل داخل الصالون",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
+      "credit": "من خرائط Google"
+    },
+    "umbrella": {
+      "file": "umbrella.jpg",
+      "alt": "صورة مظلة صفراء فوق رف ألوان المناكير",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
+      "credit": "من خرائط Google"
+    },
+    "wash": {
+      "file": "wash-station.jpg",
+      "alt": "صورة ركن غسيل الشعر بصنبور ذهبي وعربة زيوت",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
+      "credit": "من خرائط Google"
+    },
+    "cart": {
+      "file": "stripe-cart.jpg",
+      "alt": "صورة عربة مخططة عليها اسم صالون مس فكتوريا",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
+      "credit": "من خرائط Google"
+    }
+  }
+}

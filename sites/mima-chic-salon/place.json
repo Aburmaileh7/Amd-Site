@@ -1,0 +1,201 @@
+{
+  "place_id": "amd-notion-40d5cb524e448180b6f0e6b271989927",
+  "slug": "mima-chic-salon",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "قائمة الصالون على خرائط Google (صالون ميماشيك MimaChic hair & Beauty Centre) ومراجعاتها، وحسابه على إنستغرام @mima_chic_salon",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#6B7A2E",
+    "rgb": "107, 122, 46",
+    "hover": "#566324",
+    "ink": "#FFFFFF"
+  },
+  "name": "صالون ميما شيك",
+  "name_lang": "ar",
+  "category_label": "صالون شعر وتجميل نسائي",
+  "area": "بوشر، مسقط",
+  "address": "بوشر، مسقط",
+  "phone": {
+    "display": "+968 9961 7761",
+    "tel": "+96899617761"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%85%D9%8A%D9%85%D8%A7%D8%B4%D9%8A%D9%83%20MimaChic%20hair%20Beauty%20Centre%20Muscat",
+  "map_query": "MimaChic hair & Beauty Centre, Muscat",
+  "rating": {
+    "value": 5.0,
+    "count": 4,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "كراسي مخمل خردلية وشعار نخلة ذهبي",
+    "intro": "صالون نسائي في بوشر بمسقط: حمام مغربي ودلكة سودانية، وفرد الشعر وتنعيمه، وعناية بالبشرة في غرفة هادئة، والحجز بالاتصال.",
+    "image": "lounge"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "reviews",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في ميما شيك",
+    "items": [
+      "الحمام المغربي",
+      "الدلكة السودانية",
+      "فرد الشعر",
+      "تنعيم الشعر",
+      "العناية بالبشرة",
+      "بوشر"
+    ]
+  },
+  "story": {
+    "eyebrow": "داخل الصالون",
+    "title": "هادئ ونظيف، كما تقول زبوناته",
+    "items": [
+      {
+        "label": "البديكير",
+        "title": "ركن المخمل الخردلي",
+        "text": "كراسي مخمل خردلية ورمادية أمام أحواض رخامية، وشعار النخلة الذهبي على الجدار وإضاءة خافتة على الأرض.",
+        "image": "lounge"
+      },
+      {
+        "label": "البشرة",
+        "title": "غرفة عناية هادئة",
+        "text": "سرير للعناية بالوجه وعربة أدوات مرتبة خلف ستارة خضراء.",
+        "image": "facial"
+      },
+      {
+        "label": "الشعر",
+        "title": "مغاسل وسشوار وجدار ألوان",
+        "text": "مغاسل شعر سوداء ومجفف واقف، وخلفها جدار مليء بألوان المناكير.",
+        "image": "wash"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "ما تذكره الزبونات",
+    "sample": false,
+    "note": "الخدمات مأخوذة من مراجعات الصالون على Google. الأسعار والمواعيد عبر الاتصال.",
+    "categories": [
+      {
+        "id": "body",
+        "title": "الجسم والاسترخاء",
+        "tagline": "",
+        "items": [
+          {
+            "name": "الحمام المغربي",
+            "desc": ""
+          },
+          {
+            "name": "الدلكة السودانية",
+            "desc": ""
+          }
+        ],
+        "image": "palm"
+      },
+      {
+        "id": "hair",
+        "title": "الشعر",
+        "tagline": "",
+        "items": [
+          {
+            "name": "فرد الشعر",
+            "desc": ""
+          },
+          {
+            "name": "تنعيم الشعر",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "id": "care",
+        "title": "العناية",
+        "tagline": "",
+        "items": [
+          {
+            "name": "العناية بالبشرة",
+            "desc": "في غرفة خاصة"
+          },
+          {
+            "name": "مناكير وبديكير",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "suaad y.",
+      "stars": 5,
+      "text": "بصراحة كانت تجربة جميلة🤍 سويت الحمام المغربي والدلكة السودانية مع هند، وكان شغلها يجنن. تعاملها راقي، …",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%85%D9%8A%D9%85%D8%A7%D8%B4%D9%8A%D9%83%20MimaChic%20hair%20Beauty%20Centre%20Muscat"
+    },
+    {
+      "author": "Rehab A.",
+      "stars": 5,
+      "text": "صالون هادي ونظيف وخدمات ممتازة… 🩵",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%85%D9%8A%D9%85%D8%A7%D8%B4%D9%8A%D9%83%20MimaChic%20hair%20Beauty%20Centre%20Muscat"
+    },
+    {
+      "author": "Amira S.",
+      "stars": 5,
+      "text": "فرد الشعر وتنعيمه",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%85%D9%8A%D9%85%D8%A7%D8%B4%D9%8A%D9%83%20MimaChic%20hair%20Beauty%20Centre%20Muscat"
+    }
+  ],
+  "mentions": [
+    "الحمام المغربي",
+    "الدلكة السودانية",
+    "فرد الشعر"
+  ],
+  "visit": {
+    "image": "entrance"
+  },
+  "whatsapp": null,
+  "images": {
+    "lounge": {
+      "file": "velvet-lounge.jpg",
+      "alt": "صورة ركن البديكير بكراسي مخمل خردلية وشعار الصالون الذهبي",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%85%D9%8A%D9%85%D8%A7%D8%B4%D9%8A%D9%83%20MimaChic%20hair%20Beauty%20Centre%20Muscat",
+      "credit": "من خرائط Google"
+    },
+    "facial": {
+      "file": "facial-room.jpg",
+      "alt": "صورة غرفة العناية بالبشرة بسرير وعربة أدوات",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%85%D9%8A%D9%85%D8%A7%D8%B4%D9%8A%D9%83%20MimaChic%20hair%20Beauty%20Centre%20Muscat",
+      "credit": "من خرائط Google"
+    },
+    "wash": {
+      "file": "wash-dryer.jpg",
+      "alt": "صورة مغاسل الشعر ومجفف واقف وجدار ألوان المناكير",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%85%D9%8A%D9%85%D8%A7%D8%B4%D9%8A%D9%83%20MimaChic%20hair%20Beauty%20Centre%20Muscat",
+      "credit": "من خرائط Google"
+    },
+    "palm": {
+      "file": "palm-light.jpg",
+      "alt": "صورة نبتة نخيل أمام ثريا مضيئة داخل الصالون",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%85%D9%8A%D9%85%D8%A7%D8%B4%D9%8A%D9%83%20MimaChic%20hair%20Beauty%20Centre%20Muscat",
+      "credit": "من خرائط Google"
+    },
+    "entrance": {
+      "file": "entrance.jpg",
+      "alt": "صورة مدخل الصالون بطاولة وشعار ذهبي على الجدار",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%85%D9%8A%D9%85%D8%A7%D8%B4%D9%8A%D9%83%20MimaChic%20hair%20Beauty%20Centre%20Muscat",
+      "credit": "من خرائط Google"
+    }
+  }
+}

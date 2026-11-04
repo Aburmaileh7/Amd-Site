@@ -1,0 +1,182 @@
+{
+  "place_id": "amd-notion-40d5cb524e448110aa73f87bb4483618",
+  "slug": "sugar-salon-qatar",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "حساب الصالون على إنستغرام @sugar.spa_qtr، قائمته على خرائط Google (Sugar Spa and Beauty Lounge) وصفحة الحجز sugar-spa.maw3edi.com",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#C9A24A",
+    "rgb": "201, 162, 74",
+    "hover": "#B08A36",
+    "ink": "#2A2118"
+  },
+  "name": "Sugar Salon",
+  "name_lang": "en",
+  "category_label": "صالون وسبا نسائي",
+  "area": "كيو مول، الدوحة",
+  "address": "كيو مول، الدوحة",
+  "phone": {
+    "display": "+974 6699 6346",
+    "tel": "+97466996346"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Sugar%20Spa%20and%20Beauty%20Lounge%20Q%20Mall%20Doha",
+  "map_query": "Sugar Spa and Beauty Lounge, Q Mall, Doha",
+  "rating": {
+    "value": 4.9,
+    "count": 12,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "كراسي وردية وحنفيات ذهبية في كيو مول",
+    "intro": "صالون نسائي في الطابق الأول من كيو مول منذ 2017: شعر وأظافر وحمام مغربي وجلسات استرخاء، مع بطاقة ولاء وخدمات منزلية بالحجز من صفحته.",
+    "image": "lounge"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "عند شوقر",
+    "items": [
+      "كيو مول – الطابق الأول",
+      "الحمام المغربي",
+      "المناكير والبديكير",
+      "خدمات الشعر",
+      "خدمات منزلية",
+      "بطاقة الولاء"
+    ]
+  },
+  "story": {
+    "eyebrow": "داخل الصالون",
+    "title": "زهر الكرز على الجدران وذهب على الرخام",
+    "items": [
+      {
+        "label": "البديكير",
+        "title": "ركن البديكير",
+        "text": "كنبات رمادية ناعمة فوق منصة رخام، وأحواض بيضاء بحنفيات ذهبية، ولوحات زهر وردية خلفها.",
+        "image": "lounge"
+      },
+      {
+        "label": "الممر",
+        "title": "ممر بأرضية خشب",
+        "text": "ممر طويل بإضاءة مخفية في السقف، ومقاعد مخملية على الجانبين حتى النافذة.",
+        "image": "corridor"
+      },
+      {
+        "label": "التفاصيل",
+        "title": "حنفية ذهبية وستارة مخمل",
+        "text": "تفاصيل بلون الذهب والمخمل في كل ركن، من المغاسل إلى الثريات.",
+        "image": "tap"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "من حساب الصالون",
+    "sample": false,
+    "note": "أقسام الخدمات من حساب الصالون على إنستغرام وصفحة الحجز. الأسعار في قائمة الصالون وعند الحجز.",
+    "categories": [
+      {
+        "id": "salon",
+        "title": "في الصالون",
+        "tagline": "",
+        "items": [
+          {
+            "name": "خدمات الشعر",
+            "desc": "قص وصبغ وتسريح"
+          },
+          {
+            "name": "الأظافر",
+            "desc": "مناكير وبديكير في ركن البديكير"
+          },
+          {
+            "name": "الحمام المغربي",
+            "desc": ""
+          },
+          {
+            "name": "جلسات الاسترخاء",
+            "desc": "مساج وعناية بالجسم"
+          },
+          {
+            "name": "الباقات",
+            "desc": "خدمات مجمّعة بسعر واحد"
+          }
+        ]
+      },
+      {
+        "id": "home",
+        "title": "في البيت",
+        "tagline": "",
+        "items": [
+          {
+            "name": "الشعر والأظافر في البيت",
+            "desc": "بالحجز من صفحة الصالون"
+          },
+          {
+            "name": "الوجه والحف في البيت",
+            "desc": ""
+          },
+          {
+            "name": "عناية الجسم في البيت",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "10 ص – 9 م"
+      }
+    ],
+    "per_day": null,
+    "source": "حساب الصالون على إنستغرام"
+  },
+  "visit": {
+    "image": "facade"
+  },
+  "whatsapp": null,
+  "images": {
+    "lounge": {
+      "file": "pedicure-lounge.jpg",
+      "alt": "صورة ركن البديكير بكنبات رمادية وأحواض بحنفيات ذهبية",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sugar%20Spa%20and%20Beauty%20Lounge%20Q%20Mall%20Doha",
+      "credit": "من خرائط Google"
+    },
+    "corridor": {
+      "file": "corridor.jpg",
+      "alt": "صورة ممر الصالون بأرضية خشب ومقاعد مخملية",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sugar%20Spa%20and%20Beauty%20Lounge%20Q%20Mall%20Doha",
+      "credit": "من خرائط Google"
+    },
+    "tap": {
+      "file": "gold-tap.jpg",
+      "alt": "صورة حنفية ذهبية وكنبة مخملية داخل الصالون",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sugar%20Spa%20and%20Beauty%20Lounge%20Q%20Mall%20Doha",
+      "credit": "من خرائط Google"
+    },
+    "facade": {
+      "file": "facade.jpg",
+      "alt": "صورة واجهة الصالون المضاءة ليلًا",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sugar%20Spa%20and%20Beauty%20Lounge%20Q%20Mall%20Doha",
+      "credit": "من خرائط Google"
+    }
+  }
+}
