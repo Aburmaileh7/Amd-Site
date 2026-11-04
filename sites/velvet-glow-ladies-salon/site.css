@@ -6,3 +6,4 @@
 [data-site="velvet-glow-ladies-salon"] .menu,[data-site="velvet-glow-ladies-salon"] .rev{position:relative}
 @media (prefers-reduced-motion:reduce){[data-site="velvet-glow-ladies-salon"] .hero__title span span{background-position:50% 0}}
 [data-site="velvet-glow-ladies-salon"] .visit__title{font-size:clamp(2.2rem,6vw,4.4rem)}
+[data-site="velvet-glow-ladies-salon"] .hero .eyebrow{color:#5E4527;font-weight:600}

@@ -1,5 +1,5 @@
 /* Legna: the gold Greek-key screen at the door and the pink of the reception */
-[data-site="legna-women-salon"] .lg-key{display:block;width:min(260px,70%);height:16px;margin-block:0 26px;border-block:3px solid #C9A24A;background:repeating-linear-gradient(90deg,#C9A24A 0 3px,transparent 3px 9px,#C9A24A 9px 12px,transparent 12px 20px);background-size:100% 6px;background-repeat:no-repeat;background-position:0 50%;clip-path:inset(0 0 0 var(--key,0%))}
+[data-site="legna-women-salon"] .lg-key{display:block;width:min(260px,70%);height:16px;margin:0 var(--gutter,20px) 26px;border-block:3px solid #C9A24A;background:repeating-linear-gradient(90deg,#C9A24A 0 3px,transparent 3px 9px,#C9A24A 9px 12px,transparent 12px 20px);background-size:100% 6px;background-repeat:no-repeat;background-position:0 50%;clip-path:inset(0 0 0 var(--key,0%))}
 [data-site="legna-women-salon"] .menu{background-color:rgba(184,92,122,.06)}
 [data-site="legna-women-salon"] .item__name::before{content:"";display:inline-block;width:.55em;height:.8em;margin-inline-end:.5em;border-radius:50% 50% 45% 45%/60% 60% 40% 40%;background:#B85C7A;opacity:.25;vertical-align:-.05em;transition:opacity .4s,transform .4s}
 [data-site="legna-women-salon"] .item:hover .item__name::before,[data-site="legna-women-salon"] .item.is-done .item__name::before{opacity:1;transform:scale(1.1)}

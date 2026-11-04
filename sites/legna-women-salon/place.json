@@ -35,10 +35,7 @@
   "hero": {
     "headline": "مناكير روسي بأظافر تشبه الطبيعية",
     "intro": "صالون نسائي في الغانم القديم بالدوحة، متخصص في تنظيف المناكير الروسي وتركيب الأظافر والرموش، بمنتجات عضوية، يوميًا حتى 10 مساءً.",
-    "image": "herofr"
-  },
-  "motion": {
-    "hero": "kenburns"
+    "image": "reception"
   },
   "sections": [
     "menu",
@@ -70,12 +67,6 @@
         "image": "french"
       },
       {
-        "label": "الرسم",
-        "title": "أزرق مع توت صغير",
-        "text": "أظافر قصيرة بأطراف زرقاء ورسم توت وأوراق على ظفرين.",
-        "image": "blue"
-      },
-      {
         "label": "الرموش",
         "title": "رموش كثيفة مرتبة",
         "text": "تركيب رموش فوليوم بخط متساوٍ من الزاوية إلى الزاوية.",
@@ -88,10 +79,10 @@
         "image": "red"
       },
       {
-        "label": "الاستقبال",
-        "title": "باب ذهبي بنقش يوناني",
-        "text": "استقبال وردي وحاجز ذهبي بنقش متكرر، والشعار على المكتب.",
-        "image": "reception"
+        "label": "الرسم",
+        "title": "أزرق مع توت صغير",
+        "text": "أظافر قصيرة بأطراف زرقاء ورسم توت وأوراق على ظفرين.",
+        "image": "blue"
       }
     ]
   },
@@ -293,7 +284,7 @@
     "source": "Fresha"
   },
   "visit": {
-    "image": "reception"
+    "image": "silk"
   },
   "whatsapp": null,
   "images": {
@@ -312,12 +303,6 @@
     "reception": {
       "file": "reception.jpg",
       "alt": "صورة استقبال الصالون الوردي وحاجز ذهبي",
-      "source_url": "https://www.fresha.com/a/legna-women-salon-doha-old-alghanem-7ghq-38x-jtfvipcn",
-      "credit": "من صفحة المحل على Fresha"
-    },
-    "herofr": {
-      "file": "hero-french.jpg",
-      "alt": "صورة أظافر لوزية بفرنش أبيض مع خاتم ذهبي",
       "source_url": "https://www.fresha.com/a/legna-women-salon-doha-old-alghanem-7ghq-38x-jtfvipcn",
       "credit": "من صفحة المحل على Fresha"
     },

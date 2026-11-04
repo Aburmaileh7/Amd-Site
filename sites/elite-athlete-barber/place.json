@@ -20,7 +20,7 @@
   "name_lang": "en",
   "category_label": "حلاق رجالي ومساج رياضي",
   "area": "المنامة، البحرين",
-  "address": "شارع السقية (Saqiyah Avenue)، المنامة",
+  "address": "شارع السقية، المنامة",
   "phone": {
     "display": "+973 6663 2633",
     "tel": "+97366632633"
@@ -125,7 +125,8 @@
             "desc": "15 دقيقة",
             "price": 3
           }
-        ]
+        ],
+        "image": "chairs"
       },
       {
         "id": "care",
@@ -167,7 +168,8 @@
             "desc": "5 دقائق",
             "price": 1
           }
-        ]
+        ],
+        "image": "wash"
       },
       {
         "id": "body",
@@ -204,7 +206,8 @@
             "desc": "30 دقيقة",
             "price": 5
           }
-        ]
+        ],
+        "image": "spa"
       }
     ]
   },
@@ -222,16 +225,16 @@
       "source_ref": "https://www.fresha.com/a/elite-athlete-barber-manama-saqiyah-avenue-izrp4ixi"
     },
     {
-      "author": "Sayed Mahmood A.",
+      "author": "Marko N.",
       "stars": 5,
-      "text": "تسلم ايدك يا اسلام، عشرة على عشرة 👌🏼👌🏼",
-      "source_ref": "https://www.google.com/maps/search/?api=1&query=Elite%20Athlete%20Barber%20Road%2028%20Manama"
+      "text": "Perfect cut",
+      "source_ref": "https://www.fresha.com/a/elite-athlete-barber-manama-saqiyah-avenue-izrp4ixi"
     },
     {
-      "author": "hussain m.",
+      "author": "Abdolbaset H.",
       "stars": 5,
-      "text": "ممتاز وبجدارة وشغل محترم",
-      "source_ref": "https://www.google.com/maps/search/?api=1&query=Elite%20Athlete%20Barber%20Road%2028%20Manama"
+      "text": "The best 👌 👏",
+      "source_ref": "https://www.fresha.com/a/elite-athlete-barber-manama-saqiyah-avenue-izrp4ixi"
     }
   ],
   "mentions": [],

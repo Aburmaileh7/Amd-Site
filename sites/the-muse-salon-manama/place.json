@@ -1,0 +1,309 @@
+{
+  "place_id": "amd-notion-40e5cb524e44814cbaa4cb1fa1216279",
+  "slug": "the-muse-salon-manama",
+  "batch_id": "amd-gulf-20261104",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "صفحة الحجز على Fresha وقائمة الصالون على خرائط Google",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#2E2A26",
+    "rgb": "46, 42, 38",
+    "hover": "#1C1916",
+    "ink": "#FFFFFF"
+  },
+  "name": "The Muse",
+  "name_lang": "en",
+  "category_label": "صالون وسبا نسائي",
+  "area": "المنامة، البحرين",
+  "address": "مبنى 850، طريق 3315، المنامة",
+  "phone": {
+    "display": "+973 3963 2226",
+    "tel": "+97339632226"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=The%20Muse%20Salon%20%26%20Spa%20Road%203315%20Manama",
+  "map_query": "The Muse Salon & Spa, Road 3315, Manama",
+  "rating": {
+    "value": 4.7,
+    "count": 60,
+    "source": "Fresha"
+  },
+  "hero": {
+    "headline": "مرايا بإطار ذهبي ومناكير روسي",
+    "intro": "صالون وسبا للسيدات فقط في المنامة: شعر وصبغة وأظافر ورموش وحمام مغربي وحناء، من السبت إلى الخميس 10 صباحًا حتى 9 مساءً.",
+    "image": "mirrors"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "menu",
+    "marquee",
+    "story",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "عند The Muse",
+    "items": [
+      "مناكير روسي",
+      "بالياج",
+      "تركيب رموش",
+      "حمام مغربي",
+      "حناء",
+      "مكياج عرائس"
+    ]
+  },
+  "story": {
+    "eyebrow": "داخل الصالون",
+    "title": "أبيض وذهبي وكراسي ناعمة",
+    "items": [
+      {
+        "label": "الشعر",
+        "title": "مرايا بإطار ذهبي",
+        "text": "طاولة بيضاء طويلة أمام مرايا بإطار ذهبي وكراسي سوداء.",
+        "image": "mirrors"
+      },
+      {
+        "label": "الأظافر",
+        "title": "كراسي بيج منفوخة",
+        "text": "طاولات المناكير البيضاء وكراسي بيج بنقش منتفخ.",
+        "image": "nails"
+      },
+      {
+        "label": "الاستقبال",
+        "title": "رفوف المنتجات",
+        "text": "مكتب أبيض ورفوف منتجات ومصباح معلّق فوق الكرسي.",
+        "image": "desk"
+      }
+    ]
+  },
+  "menu": {
+    "title": "الخدمات والأسعار",
+    "eyebrow": "من صفحة الحجز",
+    "currency": "د.ب",
+    "sample": false,
+    "note": "الأسعار من صفحة الصالون على Fresha وتبدأ من الرقم المذكور، وقد تتغير.",
+    "categories": [
+      {
+        "id": "hair",
+        "title": "الشعر",
+        "tagline": "",
+        "image": "mirrors",
+        "items": [
+          {
+            "name": "غسيل شعر",
+            "desc": "",
+            "price": 1.9
+          },
+          {
+            "name": "قص وتشذيب",
+            "desc": "",
+            "price": 3
+          },
+          {
+            "name": "سشوار",
+            "desc": "",
+            "price": 0.95
+          },
+          {
+            "name": "تمويج",
+            "desc": "",
+            "price": 10
+          },
+          {
+            "name": "فرد بالمكواة",
+            "desc": "",
+            "price": 10
+          }
+        ]
+      },
+      {
+        "id": "color",
+        "title": "الصبغة",
+        "tagline": "",
+        "items": [
+          {
+            "name": "تلوين الجذور",
+            "desc": "",
+            "price": 9.5
+          },
+          {
+            "name": "صبغة كاملة",
+            "desc": "",
+            "price": 30
+          },
+          {
+            "name": "هايلايت وأومبريه وبالياج",
+            "desc": "3 ساعات",
+            "price": 50
+          },
+          {
+            "name": "تونر",
+            "desc": "",
+            "price": 20
+          },
+          {
+            "name": "حناء وصبغة طبيعية",
+            "desc": "",
+            "price": 10
+          }
+        ],
+        "image": "desk"
+      },
+      {
+        "id": "nails",
+        "title": "الأظافر",
+        "tagline": "",
+        "image": "nails",
+        "items": [
+          {
+            "name": "مناكير The Muse",
+            "desc": "",
+            "price": 4.75
+          },
+          {
+            "name": "جل وتركيب كامل",
+            "desc": "",
+            "price": 18
+          },
+          {
+            "name": "تعبئة الجل والتركيب",
+            "desc": "",
+            "price": 18
+          },
+          {
+            "name": "رسم الأظافر",
+            "desc": "",
+            "price": 1.5
+          },
+          {
+            "name": "بديكير The Muse",
+            "desc": "",
+            "price": 6.65
+          }
+        ]
+      },
+      {
+        "id": "lash",
+        "title": "الرموش والحواجب",
+        "tagline": "",
+        "image": "desk",
+        "items": [
+          {
+            "name": "خدمات الحواجب",
+            "desc": "",
+            "price": 3
+          },
+          {
+            "name": "لفت الرموش",
+            "desc": "",
+            "price": 15
+          },
+          {
+            "name": "تركيب رموش كامل",
+            "desc": "",
+            "price": 20
+          },
+          {
+            "name": "تعبئة الرموش",
+            "desc": "",
+            "price": 10
+          }
+        ]
+      },
+      {
+        "id": "spa",
+        "title": "السبا والحناء",
+        "tagline": "",
+        "items": [
+          {
+            "name": "حمام مغربي",
+            "desc": "",
+            "price": 8
+          },
+          {
+            "name": "مساج متخصص",
+            "desc": "ساعة",
+            "price": 14.25
+          },
+          {
+            "name": "مساج الرأس والقدمين",
+            "desc": "",
+            "price": 5
+          },
+          {
+            "name": "حناء",
+            "desc": "",
+            "price": 3
+          }
+        ],
+        "image": "mirrors"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Hanan a.",
+      "stars": 5,
+      "text": "Olga is very detail oriented, she manged to utlize the full potential of the Russian mincure which i liked.",
+      "source_ref": "https://www.fresha.com/a/the-muse-salon-manama-road-no-3315-p145ik09"
+    },
+    {
+      "author": "amal",
+      "stars": 5,
+      "text": "خدمات ممتازة وصالون نظيف وشغلهم ممتاز ومديرة الصالون فاطمة ذوق وحبوبة وعاملة شغلها وزيادة بكل تفاني…",
+      "source_ref": "https://www.fresha.com/a/the-muse-salon-manama-road-no-3315-p145ik09"
+    },
+    {
+      "author": "Entissar A.",
+      "stars": 5,
+      "text": "انا جايتهم من الرياض حبيت كل الخدمات الي سويتها اولا الاستقبال مره عسل وخدموني وحجزو لي قبله بيوم ورتبو لي حجزي…",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=The%20Muse%20Salon%20%26%20Spa%20Road%203315%20Manama"
+    }
+  ],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "الإثنين – السبت",
+        "time": "10 ص – 9 م"
+      },
+      {
+        "days": "الأحد",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": null,
+    "source": "Fresha"
+  },
+  "visit": {
+    "image": "desk"
+  },
+  "whatsapp": null,
+  "images": {
+    "mirrors": {
+      "file": "mirrors.jpg",
+      "alt": "صورة طاولة الشعر البيضاء أمام مرايا بإطار ذهبي",
+      "source_url": "https://www.fresha.com/a/the-muse-salon-manama-road-no-3315-p145ik09",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "nails": {
+      "file": "nails.jpg",
+      "alt": "صورة طاولات المناكير وكراسي بيج منفوخة",
+      "source_url": "https://www.fresha.com/a/the-muse-salon-manama-road-no-3315-p145ik09",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "desk": {
+      "file": "desk.jpg",
+      "alt": "صورة مكتب أبيض ورفوف منتجات داخل الصالون",
+      "source_url": "https://www.fresha.com/a/the-muse-salon-manama-road-no-3315-p145ik09",
+      "credit": "من صفحة المحل على Fresha"
+    }
+  }
+}

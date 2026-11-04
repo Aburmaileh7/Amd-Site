@@ -1,0 +1,278 @@
+{
+  "place_id": "amd-notion-40e5cb524e448157a6a5c5a1a83a5b70",
+  "slug": "bayat-salon-seeb",
+  "batch_id": "amd-gulf-20261104",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "rooftop_dark",
+  "data_source": "صفحة الحجز على Fresha (الصور منشورة على الصفحة نفسها باسم Boulevard Salon) وقائمة المحل على خرائط Google",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#F2C46D",
+    "rgb": "242, 196, 109",
+    "hover": "#E2AF4E",
+    "ink": "#1A1408"
+  },
+  "name": "Bayat Salon",
+  "name_lang": "en",
+  "category_label": "صالون حلاقة رجالي وسبا",
+  "area": "العريمي بوليفارد، السيب",
+  "address": "العريمي بوليفارد، السيب، مسقط",
+  "phone": {
+    "display": "+968 7114 0800",
+    "tel": "+96871140800"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Bayat%20Salon%20Al%20Araimi%20Boulevard%20Seeb",
+  "map_query": "Bayat Salon, Al Araimi Boulevard, Seeb",
+  "rating": {
+    "value": 4.8,
+    "count": 81,
+    "source": "Fresha"
+  },
+  "hero": {
+    "headline": "مرايا مضيئة وحلاقة حتى منتصف الليل",
+    "intro": "صالون رجالي في العريمي بوليفارد بالسيب: قص ولحية وصبغة وعناية بالبشرة ومساج، يوميًا من 10 صباحًا، وحتى قرب منتصف الليل من الخميس إلى السبت.",
+    "image": "mirrors"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "marquee",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في الصالون",
+    "items": [
+      "قص وتحديد لحية 5 ر.ع",
+      "فيد اللحية",
+      "هيدرافيشل",
+      "كيراتين",
+      "مساج كامل",
+      "مناكير وبديكير"
+    ]
+  },
+  "story": {
+    "eyebrow": "داخل الصالون",
+    "title": "ضوء دافئ في كل مرآة",
+    "items": [
+      {
+        "label": "الكراسي",
+        "title": "مرايا بإضاءة ذهبية",
+        "text": "مرايا بشكل حصى مضيئة فوق كراسي حلاقة سوداء.",
+        "image": "mirrors"
+      },
+      {
+        "label": "البشرة",
+        "title": "كرسي الفيشل",
+        "text": "كرسي جلد أسود وجهاز بخار وجهاز هيدرافيشل على الحائط.",
+        "image": "facial"
+      },
+      {
+        "label": "الواجهة",
+        "title": "زجاج على البوليفارد",
+        "text": "واجهة زجاجية داخل العريمي بوليفارد، والإضاءة واضحة من الممر.",
+        "image": "front"
+      }
+    ]
+  },
+  "menu": {
+    "title": "الخدمات والأسعار",
+    "eyebrow": "من صفحة الحجز",
+    "currency": "ر.ع",
+    "sample": false,
+    "note": "الخدمات والأسعار منقولة من صفحة الصالون على Fresha، وقد تتغير.",
+    "categories": [
+      {
+        "id": "hair",
+        "title": "الشعر واللحية",
+        "tagline": "",
+        "image": "mirrors",
+        "items": [
+          {
+            "name": "عرض قص الشعر 3 في 1",
+            "desc": "ساعة و20 دقيقة",
+            "price": 5
+          },
+          {
+            "name": "قص شعر",
+            "desc": "ساعة",
+            "price": 4
+          },
+          {
+            "name": "فيد اللحية",
+            "desc": "30 دقيقة",
+            "price": 3
+          },
+          {
+            "name": "لحية عادية",
+            "desc": "20 دقيقة",
+            "price": 2
+          },
+          {
+            "name": "قص شعر أولاد",
+            "desc": "35 دقيقة",
+            "price": 3
+          },
+          {
+            "name": "سشوار وتسريح",
+            "desc": "15 دقيقة",
+            "price": 2
+          },
+          {
+            "name": "صبغة شعر",
+            "desc": "30 دقيقة",
+            "price": 5
+          }
+        ]
+      },
+      {
+        "id": "care",
+        "title": "العلاجات والبشرة",
+        "tagline": "",
+        "image": "facial",
+        "items": [
+          {
+            "name": "كيراتين",
+            "desc": "ساعة ونصف",
+            "price": 20
+          },
+          {
+            "name": "هايلايت",
+            "desc": "45 دقيقة",
+            "price": 20
+          },
+          {
+            "name": "حمام زيت للشعر",
+            "desc": "45 دقيقة",
+            "price": 6
+          },
+          {
+            "name": "هيدرافيشل",
+            "desc": "ساعة",
+            "price": 20
+          },
+          {
+            "name": "فيشل كلاسيك",
+            "desc": "35 دقيقة",
+            "price": 10
+          },
+          {
+            "name": "فيشل عادي",
+            "desc": "20 دقيقة",
+            "price": 5
+          }
+        ]
+      },
+      {
+        "id": "body",
+        "title": "المساج والأظافر",
+        "tagline": "",
+        "items": [
+          {
+            "name": "مساج كامل الجسم",
+            "desc": "ساعة",
+            "price": 15
+          },
+          {
+            "name": "مساج كامل الجسم",
+            "desc": "30 دقيقة",
+            "price": 9
+          },
+          {
+            "name": "مساج الرأس",
+            "desc": "15 دقيقة",
+            "price": 3
+          },
+          {
+            "name": "مساج القدمين",
+            "desc": "25 دقيقة",
+            "price": 5
+          },
+          {
+            "name": "عرض مناكير وبديكير",
+            "desc": "ساعة و20 دقيقة",
+            "price": 10
+          },
+          {
+            "name": "VIP SPA CARE",
+            "desc": "4 خدمات",
+            "price": 20
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Muhammad Asif N.",
+      "stars": 5,
+      "text": "Had great experience! Will recommend to others. Thankyou for your service.",
+      "source_ref": "https://www.fresha.com/a/bayat-salon-msqt-al-araimi-boulevard-muscat-al-seeb-acyud84j"
+    },
+    {
+      "author": "mohammad omani",
+      "stars": 5,
+      "text": "ممتاز الحلاقة ممتازة كل شي",
+      "source_ref": "https://www.fresha.com/a/bayat-salon-msqt-al-araimi-boulevard-muscat-al-seeb-acyud84j"
+    },
+    {
+      "author": "Yusuf A.",
+      "stars": 5,
+      "text": "ممتاز مصطفى المصري",
+      "source_ref": "https://www.fresha.com/a/bayat-salon-msqt-al-araimi-boulevard-muscat-al-seeb-acyud84j"
+    },
+    {
+      "author": "jo",
+      "stars": 5,
+      "text": "Mostafa is great, kudos.",
+      "source_ref": "https://www.fresha.com/a/bayat-salon-msqt-al-araimi-boulevard-muscat-al-seeb-acyud84j"
+    }
+  ],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "الأحد – الأربعاء",
+        "time": "10 ص – 11 م"
+      },
+      {
+        "days": "الخميس – السبت",
+        "time": "10 ص – 11:55 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Fresha"
+  },
+  "visit": {
+    "image": "front"
+  },
+  "whatsapp": null,
+  "images": {
+    "mirrors": {
+      "file": "mirrors.jpg",
+      "alt": "صورة كراسي الحلاقة أمام مرايا مضيئة بشكل الحصى",
+      "source_url": "https://www.fresha.com/a/bayat-salon-msqt-al-araimi-boulevard-muscat-al-seeb-acyud84j",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "facial": {
+      "file": "facial.jpg",
+      "alt": "صورة كرسي الفيشل وأجهزة العناية بالبشرة",
+      "source_url": "https://www.fresha.com/a/bayat-salon-msqt-al-araimi-boulevard-muscat-al-seeb-acyud84j",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة الواجهة الزجاجية للصالون داخل البوليفارد",
+      "source_url": "https://www.fresha.com/a/bayat-salon-msqt-al-araimi-boulevard-muscat-al-seeb-acyud84j",
+      "credit": "من صفحة المحل على Fresha"
+    }
+  }
+}

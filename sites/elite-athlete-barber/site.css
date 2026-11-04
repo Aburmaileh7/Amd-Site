@@ -8,5 +8,5 @@
 [data-site="elite-athlete-barber"] .marquee{border-block:2px solid rgba(110,198,240,.35)}
 @media (max-width:640px){[data-site="elite-athlete-barber"] .hero__content::before{inset-inline-start:-12px;top:2em;height:calc(100% + 10px)}}
 @media (prefers-reduced-motion:reduce){[data-site="elite-athlete-barber"] .hero__content::before{clip-path:none}}
-@media (min-width:900px){[data-site="elite-athlete-barber"] .hero__shade{opacity:.62}}
+[data-site="elite-athlete-barber"] .hero__shade{opacity:.7}
 [data-site="elite-athlete-barber"] .hero .eyebrow{color:#0E5A7E;font-weight:600}
