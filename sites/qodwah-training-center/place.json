@@ -1,0 +1,166 @@
+{
+  "place_id": "amd-notion-40d5cb524e4481038130c78894c151ea",
+  "slug": "qodwah-training-center",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "services_pro",
+  "data_source": "قائمة المركز على خرائط Google، حسابه على إنستغرام @qodwah.sa، وصفحة المركز qodwah-sa.com",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#1F8A6E",
+    "rgb": "31, 138, 110",
+    "hover": "#17705A",
+    "ink": "#FFFFFF"
+  },
+  "name": "مركز قدوة للتدريب",
+  "name_lang": "ar",
+  "category_label": "مركز تدريب معتمد",
+  "area": "عرقة، الرياض",
+  "address": "حي عرقة، الرياض",
+  "phone": {
+    "display": "+966 50 324 6061",
+    "tel": "+966503246061"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D9%82%D8%AF%D9%88%D8%A9%20%D9%84%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8%20%D8%B9%D8%B1%D9%82%D8%A9%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
+  "map_query": "مركز قدوة للتدريب، عرقة، الرياض",
+  "rating": {
+    "value": 4.3,
+    "count": 12,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "دورات معتمدة في عرقة، صباحًا ومساءً",
+    "intro": "مركز معتمد من المؤسسة العامة للتدريب التقني والمهني، يقدّم دورات في تطوير الذات والقانون والتربية، حضوريًا وعن بُعد، بفترتين من الأحد إلى الخميس.",
+    "image": "bags"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في قدوة",
+    "items": [
+      "دورات القانون",
+      "تطوير الذات",
+      "نادي فن للصغار",
+      "حضوري وعن بُعد",
+      "شهادات معتمدة"
+    ]
+  },
+  "story": {
+    "eyebrow": "داخل المركز",
+    "title": "من حقيبة الترحيب إلى قاعة المحاضرات",
+    "items": [
+      {
+        "label": "الاستقبال",
+        "title": "حقيبة لكل متدرّب",
+        "text": "حقائب ترحيب بشعار المركز ورمز QR تنتظر المتدربين على الطاولات قبل بداية الدورة.",
+        "image": "bags"
+      },
+      {
+        "label": "القاعات",
+        "title": "قاعة تدريب بطاولات واسعة",
+        "text": "قاعة مجهّزة بشاشة عرض وطاولات اجتماعات، تتسع لمجموعات العمل والورش.",
+        "image": "classroom"
+      },
+      {
+        "label": "الفعاليات",
+        "title": "محاضرات وملتقيات",
+        "text": "قاعة كبرى بطاولات مستديرة للمحاضرات العامة والفعاليات، مع لافتات المركز عند المدخل.",
+        "image": "hall"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "البرامج",
+    "eyebrow": "ما يقدّمه المركز",
+    "sample": false,
+    "note": "البرامج مأخوذة من حساب المركز على إنستغرام وصفحته. المواعيد والرسوم عبر الاتصال.",
+    "categories": [
+      {
+        "id": "programs",
+        "title": "الدورات والبرامج",
+        "tagline": "",
+        "items": [
+          {
+            "name": "دورات القانون",
+            "desc": "برامج قانونية بشهادات معتمدة"
+          },
+          {
+            "name": "تطوير الذات",
+            "desc": "دورات في المهارات الشخصية والمهنية"
+          },
+          {
+            "name": "الدورات التربوية",
+            "desc": "برامج للمعلمين والأسرة"
+          },
+          {
+            "name": "نادي فن للصغار",
+            "desc": "أنشطة فنية للأطفال"
+          },
+          {
+            "name": "فعاليات نادي فن",
+            "desc": "ورش وفعاليات فنية"
+          },
+          {
+            "name": "التدريب عن بُعد",
+            "desc": "دورات أونلاين إلى جانب الحضوري"
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "الأحد – الخميس",
+        "time": "10 ص – 2 م، ثم 4 م – 9 م"
+      }
+    ],
+    "per_day": null,
+    "source": "حساب المركز على إنستغرام"
+  },
+  "visit": {
+    "image": "banner"
+  },
+  "whatsapp": null,
+  "images": {
+    "bags": {
+      "file": "welcome-bags.jpg",
+      "alt": "صورة حقائب الترحيب بشعار مركز قدوة على طاولة القاعة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D9%82%D8%AF%D9%88%D8%A9%20%D9%84%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8%20%D8%B9%D8%B1%D9%82%D8%A9%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
+      "credit": "من خرائط Google"
+    },
+    "classroom": {
+      "file": "classroom.jpg",
+      "alt": "صورة قاعة تدريب بطاولات وشاشة عرض في المركز",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D9%82%D8%AF%D9%88%D8%A9%20%D9%84%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8%20%D8%B9%D8%B1%D9%82%D8%A9%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
+      "credit": "من خرائط Google"
+    },
+    "hall": {
+      "file": "lecture-hall.jpg",
+      "alt": "صورة قاعة المحاضرات الكبرى أثناء فعالية في المركز",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D9%82%D8%AF%D9%88%D8%A9%20%D9%84%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8%20%D8%B9%D8%B1%D9%82%D8%A9%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
+      "credit": "من خرائط Google"
+    },
+    "banner": {
+      "file": "hall-banner.jpg",
+      "alt": "صورة لافتة مركز قدوة وطاولات الاستقبال",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D9%82%D8%AF%D9%88%D8%A9%20%D9%84%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8%20%D8%B9%D8%B1%D9%82%D8%A9%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
+      "credit": "من خرائط Google"
+    }
+  }
+}

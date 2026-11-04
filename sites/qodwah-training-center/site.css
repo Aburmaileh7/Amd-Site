@@ -1,0 +1,10 @@
+/* Qodwah: the two daily training shifts drawn as a timetable bar under the intro */
+[data-site="qodwah-training-center"] .shifts{margin-block:1.1rem 1.4rem;max-width:440px}
+[data-site="qodwah-training-center"] .shifts__bar{position:relative;height:14px;border-radius:7px;background:rgba(31,138,110,.12);overflow:hidden}
+[data-site="qodwah-training-center"] .shifts__seg{position:absolute;top:0;bottom:0;background:#1F8A6E;border-radius:7px;transform-origin:right center}
+[data-site="qodwah-training-center"] .shifts__now{position:absolute;top:-4px;bottom:-4px;width:3px;border-radius:2px;background:#C8962E;box-shadow:0 0 0 3px rgba(200,150,46,.25)}
+[data-site="qodwah-training-center"] .shifts__ticks{position:relative;height:1.3em;margin-top:.4rem;font-size:.8rem;color:var(--muted,#5b6670);font-variant-numeric:tabular-nums;letter-spacing:normal}
+[data-site="qodwah-training-center"] .shifts__state{margin-top:.35rem;font-size:.92rem;font-weight:600;color:#17705A;letter-spacing:normal}
+[data-site="qodwah-training-center"] .story .panel__media img{filter:saturate(1.05)}
+[data-site="qodwah-training-center"] .marquee{background:linear-gradient(90deg,rgba(31,138,110,.08),rgba(200,150,46,.08))}
+[data-site="qodwah-training-center"] .shifts__ticks span{position:absolute;top:0;transform:translateX(50%);white-space:nowrap}

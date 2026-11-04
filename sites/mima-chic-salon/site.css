@@ -1,0 +1,10 @@
+/* Mima Chic: the gold palm-leaf logo on the salon wall. Fronds unfurl beside the headline and a velvet nap runs through the marquee. */
+[data-site="mima-chic-salon"] .hero__content{position:relative}
+[data-site="mima-chic-salon"] .frond{position:absolute;inset-inline-end:0;top:-96px;width:110px;height:110px;pointer-events:none;opacity:.9}
+[data-site="mima-chic-salon"] .frond path{fill:none;stroke:#d8b85a;stroke-width:2.2;stroke-linecap:round}
+[data-site="mima-chic-salon"] .marquee{background:linear-gradient(180deg,#f2e7c4,#e8d79e);color:#2f3311}
+[data-site="mima-chic-salon"] .story .panel__media{box-shadow:0 0 0 1px rgba(216,184,90,.6),0 18px 40px -24px rgba(60,60,20,.5)}
+@media (max-width:640px){[data-site="mima-chic-salon"] .frond{width:76px;height:76px;top:-70px}}
+[data-site="mima-chic-salon"] .hero__shade{opacity:.78}
+[data-site="mima-chic-salon"] .hero__intro{color:#2f3311}
+[data-site="mima-chic-salon"] .hero .eyebrow{color:#4a5520;font-weight:700}
