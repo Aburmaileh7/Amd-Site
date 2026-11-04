@@ -7,3 +7,4 @@
 [data-site="ms-victoria-salon"] .marquee{background-color:#fffaf0;background-image:repeating-linear-gradient(90deg,rgba(226,180,60,.16) 0 40px,transparent 40px 80px)}
 [data-site="ms-victoria-salon"] .panel__media img{border-radius:999px 999px 18px 18px}
 @media (max-width:640px){[data-site="ms-victoria-salon"] .awning{height:34px}}
+[data-site="ms-victoria-salon"] .eyebrow{color:#7A5C0E;font-weight:700}

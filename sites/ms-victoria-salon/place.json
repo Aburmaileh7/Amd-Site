@@ -63,27 +63,27 @@
     "title": "شاطئ صغير داخل الصالون",
     "items": [
       {
-        "label": "الاستقبال",
-        "title": "رفوف مقوّسة وصينية رمل",
-        "text": "رفوف بيضاء مقوّسة للمنتجات، وأمامها صينية رمل بكراسي شاطئ صغيرة وكوب قهوة مخطط.",
-        "image": "shelves"
-      },
-      {
         "label": "القهوة",
         "title": "قهوة على الرمل",
         "text": "كوب لاتيه مخطط مغروس في الرمل بين كراسي البحر، تُقدَّم أثناء الانتظار من ركن الباريستا.",
         "image": "coffee"
       },
       {
+        "label": "الانتظار",
+        "title": "قهوة بجانب المرآة",
+        "text": "كوب قهوة على صينية خشب بجانب المرآة والورد، أثناء جلسة الشعر.",
+        "image": "tray"
+      },
+      {
         "label": "الأظافر",
-        "title": "تحت المظلة الصفراء",
-        "text": "مظلة شاطئ صفراء بيضاء فوق رف ألوان المناكير، وعليه سؤال الصالون: It's glowing time?",
-        "image": "umbrella"
+        "title": "فرنش ناعم وطويل",
+        "text": "أظافر فرنش طويلة بلمسة بيضاء، من الأعمال التي ينشرها الصالون في صوره.",
+        "image": "french"
       },
       {
         "label": "الشعر",
         "title": "مغسلة بمرآة ذهبية",
-        "text": "ركن غسيل الشعر بصنبور ذهبي وعربة زيوت وورد، وعلى الجدار: This is my perfect time.",
+        "text": "ركن غسيل الشعر بصنبور ذهبي وعربة زيوت وورد، وإضاءة دافئة خلف الستارة.",
         "image": "wash"
       }
     ]
@@ -112,8 +112,7 @@
             "name": "مناكير وبديكير",
             "desc": ""
           }
-        ],
-        "image": "french"
+        ]
       },
       {
         "id": "hair",
@@ -171,21 +170,9 @@
       "source_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
       "credit": "من خرائط Google"
     },
-    "shelves": {
-      "file": "shelves-beach.jpg",
-      "alt": "صورة رفوف مقوّسة وصينية رمل بكراسي شاطئ صغيرة في الاستقبال",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
-      "credit": "من خرائط Google"
-    },
     "coffee": {
       "file": "sand-coffee.jpg",
       "alt": "صورة كوب قهوة مخطط على صينية رمل داخل الصالون",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
-      "credit": "من خرائط Google"
-    },
-    "umbrella": {
-      "file": "umbrella.jpg",
-      "alt": "صورة مظلة صفراء فوق رف ألوان المناكير",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
       "credit": "من خرائط Google"
     },
@@ -198,6 +185,12 @@
     "cart": {
       "file": "stripe-cart.jpg",
       "alt": "صورة عربة مخططة عليها اسم صالون مس فكتوريا",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
+      "credit": "من خرائط Google"
+    },
+    "tray": {
+      "file": "coffee-tray.jpg",
+      "alt": "صورة كوب قهوة على صينية خشب بجانب مرآة وورد داخل الصالون",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
       "credit": "من خرائط Google"
     }
