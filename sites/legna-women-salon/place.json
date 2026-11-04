@@ -28,8 +28,8 @@
   "directions_url": "https://www.google.com/maps/search/?api=1&query=Legna%20Women%20Salon%20Doha",
   "map_query": "Legna Women Salon, Al Ghanim, Doha",
   "rating": {
-    "value": 5.0,
-    "count": 150,
+    "value": 4.9,
+    "count": 151,
     "source": "Fresha"
   },
   "hero": {
@@ -284,7 +284,7 @@
     "source": "Fresha"
   },
   "visit": {
-    "image": "silk"
+    "image": "olive"
   },
   "whatsapp": null,
   "images": {

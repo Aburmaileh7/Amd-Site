@@ -2,6 +2,6 @@
 [data-site="bayat-salon-seeb"] .hero__content{position:relative}
 [data-site="bayat-salon-seeb"] .by-pebble{position:absolute;z-index:-1;inset-inline-end:-6%;top:-10%;width:min(360px,70vw);aspect-ratio:1.25;border:3px solid rgba(242,196,109,.9);border-radius:58% 42% 55% 45%/48% 60% 40% 52%;box-shadow:0 0 30px rgba(242,196,109,.55),inset 0 0 30px rgba(242,196,109,.3);pointer-events:none}
 [data-site="bayat-salon-seeb"] .item__price{color:#F2C46D}
-[data-site="bayat-salon-seeb"] .panel__media img{border-radius:46% 54% 50% 50%/40% 40% 60% 60%}
+[data-site="bayat-salon-seeb"] .panel__media img{border-radius:120px 120px 22px 22px}
 [data-site="bayat-salon-seeb"] .visit__title{font-size:clamp(2.2rem,6vw,4.4rem)}
-@media (max-width:640px){[data-site="bayat-salon-seeb"] .by-pebble{top:-4%;inset-inline-end:-18%;width:78vw}}
+@media (max-width:640px){[data-site="bayat-salon-seeb"] .by-pebble{top:auto;bottom:calc(100% + 18px);inset-inline-end:auto;inset-inline-start:0;width:46vw}}

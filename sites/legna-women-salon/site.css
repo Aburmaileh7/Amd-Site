@@ -6,3 +6,4 @@
 [data-site="legna-women-salon"] .hero__headline{font-weight:600}
 @media (prefers-reduced-motion:reduce){[data-site="legna-women-salon"] .lg-key{clip-path:none}}
 [data-site="legna-women-salon"] .visit__title{font-size:clamp(2.2rem,6vw,4.4rem)}
+[data-site="legna-women-salon"] .hero .eyebrow{display:inline-block;background:rgba(255,246,249,.92);color:#8E3B57;padding:4px 10px;border-radius:6px;font-weight:600}
