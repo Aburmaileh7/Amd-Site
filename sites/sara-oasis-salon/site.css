@@ -2,3 +2,5 @@
 [data-site="sara-oasis-salon"] .hero__headline{background:linear-gradient(100deg,#fff 0 40%,#f3e3bf 48%,#fff 56% 100%);background-size:250% 100%;background-position:100% 0;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
 [data-site="sara-oasis-salon"] .prism{position:absolute;width:6px;height:6px;transform:rotate(45deg);background:#fff8e6;box-shadow:0 0 10px 3px rgba(243,227,191,.8);border-radius:1px;pointer-events:none;z-index:2;opacity:0}
 @media (prefers-reduced-motion:reduce){[data-site="sara-oasis-salon"] .hero__headline{background-position:50% 0}}
+/* Wide screens: keep the chandelier in frame instead of the nail shelves at the bottom of the tall photo. */
+@media (min-width:701px){[data-site="sara-oasis-salon"] .hero__media img{object-position:50% 15%!important}}

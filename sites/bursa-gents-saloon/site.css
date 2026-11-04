@@ -8,3 +8,12 @@
 [data-site="bursa-gents-saloon"] .marquee{background:linear-gradient(90deg,#f47b3a,#e8425c 45%,#3b3fb4);color:#fff}
 [data-site="bursa-gents-saloon"] .marquee *{color:#fff}
 @media (max-width:640px){[data-site="bursa-gents-saloon"] .skyline{height:80px}[data-site="bursa-gents-saloon"] .skyline svg{height:60px}}
+/* Phone hero: the photo is zoomed to the mural itself (crescent, domes, drawn BURSA lettering) and sits clear above the text, with no ceiling, LED strip or veil. */
+@media (max-width:700px){
+  [data-site="bursa-gents-saloon"] .hero__media{inset:0 0 auto;height:69vw;overflow:hidden}
+  [data-site="bursa-gents-saloon"] .hero__media .photo{position:absolute;inset:auto;top:-26vw;left:-44vw;width:173vw;height:97.3vw!important;margin:0}
+  [data-site="bursa-gents-saloon"] .hero__media .photo img{width:100%;height:100%;object-fit:cover;object-position:50% 50%!important}
+  [data-site="bursa-gents-saloon"] .hero__media .photo__badge{top:auto!important;bottom:calc(2.3vw + 8px);left:calc(44vw + 10px);right:auto}
+  [data-site="bursa-gents-saloon"] .hero__shade{background:linear-gradient(180deg,rgba(var(--bg-rgb),.72) 0,rgba(var(--bg-rgb),0) 62px,rgba(var(--bg-rgb),0) calc(69vw - 34px),var(--bg) 69vw)}
+  [data-site="bursa-gents-saloon"] .hero--full .hero__grid{padding-block:calc(69vw + 6px) 44px}
+}
