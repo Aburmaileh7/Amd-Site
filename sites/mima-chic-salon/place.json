@@ -7,7 +7,7 @@
   "theme": "beauty_soft",
   "data_source": "قائمة الصالون على خرائط Google (صالون ميماشيك MimaChic hair & Beauty Centre) ومراجعاتها، وحسابه على إنستغرام @mima_chic_salon",
   "layout": {
-    "hero": "full",
+    "hero": "split",
     "story": "stack"
   },
   "accent": {
@@ -63,12 +63,6 @@
     "title": "هادئ ونظيف، كما تقول زبوناته",
     "items": [
       {
-        "label": "البديكير",
-        "title": "ركن المخمل الخردلي",
-        "text": "كراسي مخمل خردلية ورمادية أمام أحواض رخامية، وشعار النخلة الذهبي على الجدار وإضاءة خافتة على الأرض.",
-        "image": "lounge"
-      },
-      {
         "label": "البشرة",
         "title": "غرفة عناية هادئة",
         "text": "سرير للعناية بالوجه وعربة أدوات مرتبة خلف ستارة خضراء.",
@@ -102,8 +96,7 @@
             "name": "الدلكة السودانية",
             "desc": ""
           }
-        ],
-        "image": "palm"
+        ]
       },
       {
         "id": "hair",
@@ -149,12 +142,6 @@
       "stars": 5,
       "text": "صالون هادي ونظيف وخدمات ممتازة… 🩵",
       "source_ref": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%85%D9%8A%D9%85%D8%A7%D8%B4%D9%8A%D9%83%20MimaChic%20hair%20Beauty%20Centre%20Muscat"
-    },
-    {
-      "author": "Amira S.",
-      "stars": 5,
-      "text": "فرد الشعر وتنعيمه",
-      "source_ref": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%85%D9%8A%D9%85%D8%A7%D8%B4%D9%8A%D9%83%20MimaChic%20hair%20Beauty%20Centre%20Muscat"
     }
   ],
   "mentions": [
@@ -163,7 +150,7 @@
     "فرد الشعر"
   ],
   "visit": {
-    "image": "entrance"
+    "image": "palm"
   },
   "whatsapp": null,
   "images": {
@@ -188,12 +175,6 @@
     "palm": {
       "file": "palm-light.jpg",
       "alt": "صورة نبتة نخيل أمام ثريا مضيئة داخل الصالون",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%85%D9%8A%D9%85%D8%A7%D8%B4%D9%8A%D9%83%20MimaChic%20hair%20Beauty%20Centre%20Muscat",
-      "credit": "من خرائط Google"
-    },
-    "entrance": {
-      "file": "entrance.jpg",
-      "alt": "صورة مدخل الصالون بطاولة وشعار ذهبي على الجدار",
       "source_url": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%85%D9%8A%D9%85%D8%A7%D8%B4%D9%8A%D9%83%20MimaChic%20hair%20Beauty%20Centre%20Muscat",
       "credit": "من خرائط Google"
     }

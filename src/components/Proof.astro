@@ -3,6 +3,8 @@ const { p } = Astro.props;
 const mentions = p.mentions || [];
 const show = !!p.rating || mentions.length > 0;
 const fmt = (n) => n.toLocaleString('en-US');
+// Arabic counted noun: 3–10 take the plural (تقييمات), round hundreds/thousands the singular (تقييم), the rest تقييمًا.
+const ratingWord = (n) => { const r = n % 100; return r >= 3 && r <= 10 ? 'تقييمات' : r === 0 ? 'تقييم' : 'تقييمًا'; };
 ---
 {show && (<section class="proof" aria-labelledby="proof-title">
   <div class="wrap">
@@ -14,7 +16,7 @@ const fmt = (n) => n.toLocaleString('en-US');
       </div>
       <div class="stat" data-reveal>
         <p class="stat__num"><span data-count={p.rating.count} data-decimals="0">{fmt(p.rating.count)}</span></p>
-        <p class="muted">تقييمًا كتبها الزوار</p>
+        <p class="muted">{ratingWord(p.rating.count)} كتبها الزوار</p>
       </div>
       {p.hours?.per_day && (
         <div class="stat" data-reveal>

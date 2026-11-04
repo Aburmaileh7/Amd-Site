@@ -4,6 +4,8 @@ const { p } = Astro.props;
 const variant = p.layout.hero;            // "full" | "split"
 const img = p.hero.image ? p.images[p.hero.image] : null;
 const fmt = (n) => n.toLocaleString('en-US');
+// Arabic counted noun: 3–10 take the plural (تقييمات), round hundreds/thousands the singular (تقييم), the rest تقييمًا.
+const ratingWord = (n) => { const r = n % 100; return r >= 3 && r <= 10 ? 'تقييمات' : r === 0 ? 'تقييم' : 'تقييمًا'; };
 const primary = p.directions_url
   ? { href: p.directions_url, label: p.cta_label || 'الاتجاهات على الخريطة', ext: true }
   : p.phone ? { href: `tel:${p.phone.tel}`, label: 'اتصل الآن', ext: false } : null;
@@ -39,7 +41,7 @@ const primary = p.directions_url
         <p class="hero__rating" data-hero-in>
           <span class="star" aria-hidden="true"></span>
           <strong>{p.rating.value.toFixed(1)}</strong>
-          <span class="muted">من 5 · {fmt(p.rating.count)} تقييمًا على {p.rating.source}</span>
+          <span class="muted">من 5 · {fmt(p.rating.count)} {ratingWord(p.rating.count)} على {p.rating.source}</span>
         </p>
       )}
     </div>

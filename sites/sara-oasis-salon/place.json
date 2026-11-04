@@ -1,0 +1,215 @@
+{
+  "place_id": "amd-notion-40d5cb524e4481958815d14c0ffc2457",
+  "slug": "sara-oasis-salon",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "gulf_luxe",
+  "data_source": "قائمتا المركز على خرائط Google (مركز واحة سارة بالعزيزية وفرع السويدي) ومراجعاتهما، وحسابه على إنستغرام @saraoasis",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#C8A46A",
+    "rgb": "200, 164, 106",
+    "hover": "#B08C52",
+    "ink": "#1D160C"
+  },
+  "name": "مركز واحة سارة",
+  "name_lang": "ar",
+  "category_label": "مركز تجميل نسائي",
+  "area": "العزيزية والسويدي، الرياض",
+  "address": "العزيزية والسويدي، الرياض",
+  "phone": {
+    "display": "+966 54 725 8183",
+    "tel": "+966547258183"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D9%88%D8%A7%D8%AD%D8%A9%20%D8%B3%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
+  "map_query": "مركز واحة سارة، العزيزية، الرياض",
+  "rating": {
+    "value": 4.0,
+    "count": 1995,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "عريشة خشب وثريا كريستال في الرياض",
+    "intro": "مركز تجميل نسائي في الرياض بفرعين، العزيزية والسويدي: صبغات وقصات وتسريحات ومكياج وعناية بالبشرة والأظافر، والحجز على رقم واحد.",
+    "image": "lounge"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في واحة سارة",
+    "items": [
+      "المكياج",
+      "صبغة الشعر",
+      "التسريحات",
+      "القصات",
+      "العناية بالبشرة",
+      "الأظافر"
+    ]
+  },
+  "story": {
+    "eyebrow": "داخل المركز",
+    "title": "مبنى كامل للعناية، من الاستقبال إلى الاستراحة",
+    "items": [
+      {
+        "label": "الأظافر",
+        "title": "ثريا فوق رفوف الألوان",
+        "text": "ثريا كريستال كبيرة في قبة السقف، وتحتها رفوف OPI لألوان المناكير.",
+        "image": "chandelier"
+      },
+      {
+        "label": "الاستقبال",
+        "title": "كاونتر دائري ورخام لامع",
+        "text": "استقبال دائري بخشب داكن وأرضية رخام بيضاء، وخلفه ستائر مخرّمة.",
+        "image": "reception"
+      },
+      {
+        "label": "المكياج",
+        "title": "لوحات ألوان جاهزة",
+        "text": "لوحات ظلال وكونسيلر وفرش مرتبة على طاولة المكياج، الخدمة التي تكتب عنها الزبونات أكثر من غيرها.",
+        "image": "makeup"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "من حساب المركز",
+    "sample": false,
+    "note": "الأقسام من حساب المركز على إنستغرام ومراجعات زبوناته. الأسعار في قائمة المركز وعند الحجز.",
+    "categories": [
+      {
+        "id": "hair",
+        "title": "الشعر",
+        "tagline": "",
+        "items": [
+          {
+            "name": "صبغة الشعر",
+            "desc": ""
+          },
+          {
+            "name": "قص الشعر",
+            "desc": ""
+          },
+          {
+            "name": "التسريحات",
+            "desc": "للمناسبات"
+          },
+          {
+            "name": "العناية بالشعر",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "id": "face",
+        "title": "الوجه والجمال",
+        "tagline": "",
+        "items": [
+          {
+            "name": "المكياج",
+            "desc": ""
+          },
+          {
+            "name": "الرموش",
+            "desc": ""
+          },
+          {
+            "name": "العناية بالبشرة",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "id": "nails",
+        "title": "الأظافر",
+        "tagline": "",
+        "items": [
+          {
+            "name": "مناكير وبديكير",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "M A.",
+      "stars": 5,
+      "text": "تجربتي مع موني كانت جميلة جدًا، اقترحت علي تسريحة غير اللي كنت مختارتها، وكانت فعلًا الأنسب لفستاني وطلعت أحلى بكثير مما توقعت. ذوقها جميل وشغلها متقن، وتعاملها راقٍ ولطيف. سعيدة جدًا إني عرفتها. بإذن الله بختارها بكل مناسباتي❣️",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D9%88%D8%A7%D8%AD%D8%A9%20%D8%B3%D8%A7%D8%B1%D8%A9%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%AF%D9%8A"
+    },
+    {
+      "author": "Amal",
+      "stars": 5,
+      "text": "غيرت امي لون شعرها عندهم، ماشاء مع انها كانت حاطة حنة زمان و فقدت الأمل يظبط شعرها الا ان سعدية (المسؤوله) ما رضت تبدا اي شي الا بعد تجربة لتتاكد اذا الشعر بيظبط عليه اللون ولا لأ! و طلعت النتيجة خرااااافية! 😭…",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D9%88%D8%A7%D8%AD%D8%A9%20%D8%B3%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6"
+    },
+    {
+      "author": "فرح ا.",
+      "stars": 5,
+      "text": "أجمل الأشياء في المكان حسن الاستقبال ! وفي وحده اسمها حنان بالاستقبال كانت مثال للرقي والذوق تعاملها الراقي، بشوشة ومتعاونة مررره وتهتم بأدق التفاصيل…",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D9%88%D8%A7%D8%AD%D8%A9%20%D8%B3%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6"
+    }
+  ],
+  "mentions": [
+    "صبغة الشعر",
+    "التسريحة",
+    "المكياج"
+  ],
+  "visit": {
+    "image": "facade"
+  },
+  "whatsapp": null,
+  "images": {
+    "chandelier": {
+      "file": "chandelier.jpg",
+      "alt": "صورة ثريا كريستال فوق رفوف ألوان المناكير داخل المركز",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D9%88%D8%A7%D8%AD%D8%A9%20%D8%B3%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
+      "credit": "من خرائط Google"
+    },
+    "lounge": {
+      "file": "pergola-lounge.jpg",
+      "alt": "صورة جلسة الانتظار تحت عريشة خشبية بإضاءة دافئة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D9%88%D8%A7%D8%AD%D8%A9%20%D8%B3%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
+      "credit": "من خرائط Google"
+    },
+    "reception": {
+      "file": "reception.jpg",
+      "alt": "صورة الاستقبال الدائري وأرضية الرخام",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D9%88%D8%A7%D8%AD%D8%A9%20%D8%B3%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
+      "credit": "من خرائط Google"
+    },
+    "makeup": {
+      "file": "makeup.jpg",
+      "alt": "صورة لوحات ألوان المكياج والفرش على الطاولة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D9%88%D8%A7%D8%AD%D8%A9%20%D8%B3%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
+      "credit": "من خرائط Google"
+    },
+    "facade": {
+      "file": "facade-night.jpg",
+      "alt": "صورة واجهة مبنى مركز واحة سارة مضاءة ليلًا",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D9%88%D8%A7%D8%AD%D8%A9%20%D8%B3%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
+      "credit": "من خرائط Google"
+    },
+    "door": {
+      "file": "lounge-door.jpg",
+      "alt": "صورة مدخل جلسة الانتظار الخشبية",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D9%88%D8%A7%D8%AD%D8%A9%20%D8%B3%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6",
+      "credit": "من خرائط Google"
+    }
+  }
+}

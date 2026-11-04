@@ -1,0 +1,219 @@
+{
+  "place_id": "amd-notion-40d5cb524e4481bd9bddf0fc97135c07",
+  "slug": "bursa-gents-saloon",
+  "batch_id": "amd-gulf-20261103",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "rooftop_dark",
+  "data_source": "قائمة الصالون على خرائط Google (Bursa saloon) وصورها، ولافتة الخدمات والدوام على باب المحل",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#F47B3A",
+    "rgb": "244, 123, 58",
+    "hover": "#DD6528",
+    "ink": "#1A0E07"
+  },
+  "name": "صالون بورصة للحلاقة",
+  "name_lang": "ar",
+  "category_label": "صالون حلاقة رجالي تركي",
+  "area": "النعيمية 3، عجمان",
+  "address": "النعيمية 3، عجمان",
+  "phone": {
+    "display": "+971 50 774 6867",
+    "tel": "+971507746867"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Bursa%20saloon%20Al%20Nuaimiya%20Ajman",
+  "map_query": "Bursa saloon, Al Nuaimiya 3, Ajman",
+  "rating": {
+    "value": 4.8,
+    "count": 73,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "حلاقة تركية تحت جسر البوسفور",
+    "intro": "صالون حلاقة رجالي في النعيمية بعجمان، على جداره غروب إسطنبول بجسرها ومآذنها: قص وتحديد لحية وحلاقة وبخار للوجه، من 9:30 صباحًا حتى 12 منتصف الليل.",
+    "image": "mural"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "reviews",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في بورصة",
+    "items": [
+      "قص الشعر",
+      "تحديد اللحية",
+      "الحلاقة",
+      "بخار الوجه",
+      "كيراتين",
+      "النعيمية – عجمان"
+    ]
+  },
+  "story": {
+    "eyebrow": "داخل الصالون",
+    "title": "إسطنبول على الجدار، وعجمان خلف الزجاج",
+    "items": [
+      {
+        "label": "الجدارية",
+        "title": "غروب فوق البوسفور",
+        "text": "جدارية بألوان الغروب: جسر البوسفور ومآذن إسطنبول وهلال أبيض، وفوقها اسم الصالون بالعربي والإنجليزي.",
+        "image": "wide"
+      },
+      {
+        "label": "الكراسي",
+        "title": "كراسي حلاقة أمام واجهة زجاج",
+        "text": "صف كراسي حلاقة حمراء وسوداء، وواجهة زجاج كبيرة تطل على شارع الشيخ خليفة.",
+        "image": "chairs"
+      },
+      {
+        "label": "الأدوات",
+        "title": "رف المنتجات والتعقيم",
+        "text": "رف مرتب لمنتجات الشعر واللحية وجهاز تعقيم للأدوات تحت الجدارية.",
+        "image": "shelf"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "من لافتة المحل",
+    "sample": false,
+    "note": "الخدمات منقولة من اللافتة على باب الصالون. الأسعار عبر الاتصال.",
+    "categories": [
+      {
+        "id": "hair",
+        "title": "الشعر واللحية",
+        "tagline": "",
+        "items": [
+          {
+            "name": "قص الشعر",
+            "desc": ""
+          },
+          {
+            "name": "تصفيف الشعر",
+            "desc": ""
+          },
+          {
+            "name": "تحديد اللحية",
+            "desc": ""
+          },
+          {
+            "name": "الحلاقة",
+            "desc": ""
+          },
+          {
+            "name": "غسيل الشعر",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "id": "care",
+        "title": "العناية",
+        "tagline": "",
+        "items": [
+          {
+            "name": "بخار الوجه",
+            "desc": ""
+          },
+          {
+            "name": "ماسك الوجه",
+            "desc": ""
+          },
+          {
+            "name": "حمام زيت بالبخار للشعر",
+            "desc": ""
+          },
+          {
+            "name": "ماسك الشعر",
+            "desc": ""
+          },
+          {
+            "name": "فرد الشعر",
+            "desc": ""
+          },
+          {
+            "name": "كيراتين",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Ali A.",
+      "stars": 5,
+      "text": "تعامل مع هالصالون اكثر من ١٥ سنة،، افضل و أرقى صالون في عجمان، دقة و جودة في حلاقة، قمة في الأخلاق،، و ترحيب لجميع…",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=Bursa%20saloon%20Al%20Nuaimiya%20Ajman"
+    },
+    {
+      "author": "Abdullah A.",
+      "stars": 5,
+      "text": "الموظفين و المدير تعاملهم راقي و في قمة الاحترام النظافة عندهم فوق كل شي اما الشغل ما شاء الله كلهم فنانين و معلمين في شغلهم من افضل الصالونات الي حلقت عندهم بكل صراحة يحترمونك و يحترمون مواعيد معاك",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=Bursa%20saloon%20Al%20Nuaimiya%20Ajman"
+    }
+  ],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "9:30 ص – 12 منتصف الليل"
+      }
+    ],
+    "per_day": null,
+    "source": "لافتة باب الصالون"
+  },
+  "visit": {
+    "image": "sign"
+  },
+  "whatsapp": null,
+  "images": {
+    "mural": {
+      "file": "mural.jpg",
+      "alt": "صورة جدارية إسطنبول وجسر البوسفور واسم صالون بورصة داخل المحل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Bursa%20saloon%20Al%20Nuaimiya%20Ajman",
+      "credit": "من خرائط Google"
+    },
+    "wide": {
+      "file": "mural-wide.jpg",
+      "alt": "صورة الجدارية بألوان الغروب وهلال أبيض فوق مآذن إسطنبول",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Bursa%20saloon%20Al%20Nuaimiya%20Ajman",
+      "credit": "من خرائط Google"
+    },
+    "chairs": {
+      "file": "chairs.jpg",
+      "alt": "صورة كراسي الحلاقة أمام الواجهة الزجاجية للصالون",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Bursa%20saloon%20Al%20Nuaimiya%20Ajman",
+      "credit": "من خرائط Google"
+    },
+    "shelf": {
+      "file": "shelf.jpg",
+      "alt": "صورة رف منتجات الشعر وجهاز التعقيم تحت الجدارية",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Bursa%20saloon%20Al%20Nuaimiya%20Ajman",
+      "credit": "من خرائط Google"
+    },
+    "front": {
+      "file": "storefront.jpg",
+      "alt": "صورة باب الصالون ولافتة الخدمات والدوام",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Bursa%20saloon%20Al%20Nuaimiya%20Ajman",
+      "credit": "من خرائط Google"
+    },
+    "sign": {
+      "file": "sign.jpg",
+      "alt": "صورة لافتة صالون بورصة للحلاقة فوق المدخل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Bursa%20saloon%20Al%20Nuaimiya%20Ajman",
+      "credit": "من خرائط Google"
+    }
+  }
+}

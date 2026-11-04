@@ -1,0 +1,4 @@
+/* Sara Oasis: the crystal chandelier in the dome. Light glints run across the headline and prisms drift in the hero. */
+[data-site="sara-oasis-salon"] .hero__headline{background:linear-gradient(100deg,#fff 0 40%,#f3e3bf 48%,#fff 56% 100%);background-size:250% 100%;background-position:100% 0;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
+[data-site="sara-oasis-salon"] .prism{position:absolute;width:6px;height:6px;transform:rotate(45deg);background:#fff8e6;box-shadow:0 0 10px 3px rgba(243,227,191,.8);border-radius:1px;pointer-events:none;z-index:2;opacity:0}
+@media (prefers-reduced-motion:reduce){[data-site="sara-oasis-salon"] .hero__headline{background-position:50% 0}}

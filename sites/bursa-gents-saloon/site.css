@@ -1,0 +1,10 @@
+/* Bursa: the Istanbul sunset mural on the shop wall. A skyline silhouette sits on the hero edge and the sky behind it
+   turns from sunset orange to night blue as you scroll, with the crescent rising. */
+[data-site="bursa-gents-saloon"] .skyline{position:absolute;inset-inline:0;bottom:0;height:120px;z-index:2;pointer-events:none;
+  background:linear-gradient(180deg,transparent,rgba(var(--sky,244,123,58),.35))}
+[data-site="bursa-gents-saloon"] .skyline svg{position:absolute;inset-inline:0;bottom:-1px;width:100%;height:90px}
+[data-site="bursa-gents-saloon"] .skyline path{fill:#0f0b14}
+[data-site="bursa-gents-saloon"] .skyline .moon{fill:#f6efe2}
+[data-site="bursa-gents-saloon"] .marquee{background:linear-gradient(90deg,#f47b3a,#e8425c 45%,#3b3fb4);color:#fff}
+[data-site="bursa-gents-saloon"] .marquee *{color:#fff}
+@media (max-width:640px){[data-site="bursa-gents-saloon"] .skyline{height:80px}[data-site="bursa-gents-saloon"] .skyline svg{height:60px}}
