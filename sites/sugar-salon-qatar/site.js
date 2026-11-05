@@ -1,14 +1,14 @@
-// Sugar: a few soft petals (from the white panelling and warm light in the Q Mall salon) fall slowly across the hero,
+// Sugar: pink petals, from the cherry-blossom prints on the salon walls, drift only inside the framed hero photo,
 // and a gold line draws under the story title like the gilt on the taps.
 (function(){
   if(reduce){document.documentElement.style.setProperty('--gold','180px');return;}
-  var hero=document.querySelector('.hero');
-  if(hero){
-    var box=document.createElement('div'); box.className='petals'; box.setAttribute('aria-hidden','true'); hero.appendChild(box);
-    for(var i=0;i<9;i++){
+  var frame=document.querySelector('.hero__side');
+  if(frame){
+    var box=document.createElement('div'); box.className='petals'; box.setAttribute('aria-hidden','true'); frame.appendChild(box);
+    for(var i=0;i<8;i++){
       var p=document.createElement('span'); p.className='petal'; box.appendChild(p);
-      gsap.set(p,{left:(8+i*10.5)+'%',rotation:gsap.utils.random(0,180),scale:gsap.utils.random(.6,1.2)});
-      gsap.to(p,{y:function(){return hero.offsetHeight+40;},x:'+='+gsap.utils.random(-60,60),rotation:'+='+gsap.utils.random(120,360),duration:gsap.utils.random(9,15),delay:i*1.3,repeat:-1,ease:'none'});
+      gsap.set(p,{left:(6+i*12)+'%',rotation:gsap.utils.random(0,180),scale:gsap.utils.random(.6,1.2)});
+      gsap.to(p,{y:function(){return frame.offsetHeight+40;},x:'+='+gsap.utils.random(-40,40),rotation:'+='+gsap.utils.random(120,360),duration:gsap.utils.random(8,13),delay:i*1.1,repeat:-1,ease:'none'});
     }
   }
   var t=document.querySelector('.story__title');

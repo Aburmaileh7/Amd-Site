@@ -33,16 +33,16 @@
     "source": "Google"
   },
   "hero": {
-    "headline": "كراسي مخمل خردلية وشعار نخلة ذهبي",
-    "intro": "صالون نسائي في بوشر بمسقط: حمام مغربي ودلكة سودانية، وفرد الشعر وتنعيمه، وعناية بالبشرة في غرفة هادئة، والحجز بالاتصال.",
+    "headline": "كراسي خردلية تحت الشعار الذهبي",
+    "intro": "صالون نسائي في بوشر بمسقط، مفتوح يوميًا: حمام مغربي ودلكة سودانية، وعلاجات الشعر والأظافر والمكياج والحناء، والحجز بالاتصال.",
     "image": "lounge"
   },
   "motion": {
     "hero": "kenburns"
   },
   "sections": [
-    "story",
     "marquee",
+    "story",
     "menu",
     "reviews",
     "visit"
@@ -52,9 +52,10 @@
     "items": [
       "الحمام المغربي",
       "الدلكة السودانية",
-      "فرد الشعر",
-      "تنعيم الشعر",
-      "العناية بالبشرة",
+      "علاجات الشعر",
+      "بديكير ومنكير",
+      "الحناء",
+      "ميك أب",
       "بوشر"
     ]
   },
@@ -62,6 +63,12 @@
     "eyebrow": "داخل الصالون",
     "title": "هادئ ونظيف، كما تقول زبوناته",
     "items": [
+      {
+        "label": "الاستقبال",
+        "title": "جدار أخضر خلف مكتب أبيض",
+        "text": "مكتب استقبال أبيض بخطوط فضية، أمام جدار من النبات الأخضر.",
+        "image": "reception"
+      },
       {
         "label": "البشرة",
         "title": "غرفة عناية هادئة",
@@ -73,15 +80,22 @@
         "title": "مغاسل وسشوار وجدار ألوان",
         "text": "مغاسل شعر سوداء ومجفف واقف، وخلفها جدار مليء بألوان المناكير.",
         "image": "wash"
+      },
+      {
+        "label": "الانتظار",
+        "title": "كنبة مخمل خضراء",
+        "text": "كنبة خضراء على أرضية رخام، وفوقها رسمة عينين وفراشات على الجدار.",
+        "image": "sofa"
       }
     ]
   },
   "menu": {
     "kind": "services",
     "title": "الخدمات",
-    "eyebrow": "ما تذكره الزبونات",
+    "eyebrow": "من حساب الصالون ومراجعاته",
     "sample": false,
-    "note": "الخدمات مأخوذة من مراجعات الصالون على Google. الأسعار والمواعيد عبر الاتصال.",
+    "note": "الخدمات من حساب الصالون على إنستغرام ومراجعاته على Google. لا توجد أسعار منشورة، فالأسعار والمواعيد عبر الاتصال.",
+    "foot": "رقم الحجز الثاني 93364046، أو",
     "categories": [
       {
         "id": "body",
@@ -90,11 +104,13 @@
         "items": [
           {
             "name": "الحمام المغربي",
-            "desc": ""
+            "desc": "",
+            "mentioned": true
           },
           {
             "name": "الدلكة السودانية",
-            "desc": ""
+            "desc": "",
+            "mentioned": true
           }
         ]
       },
@@ -104,27 +120,50 @@
         "tagline": "",
         "items": [
           {
-            "name": "فرد الشعر",
+            "name": "خدمات الشعر",
             "desc": ""
           },
           {
-            "name": "تنعيم الشعر",
+            "name": "علاجات الشعر",
+            "desc": ""
+          },
+          {
+            "name": "منتجات الشعر والعناية",
+            "desc": "في الصالون"
+          }
+        ]
+      },
+      {
+        "id": "nails",
+        "title": "الأظافر",
+        "tagline": "",
+        "items": [
+          {
+            "name": "بديكير ومنكير",
+            "desc": ""
+          },
+          {
+            "name": "الأظافر",
             "desc": ""
           }
         ]
       },
       {
-        "id": "care",
-        "title": "العناية",
+        "id": "beauty",
+        "title": "الجمال",
         "tagline": "",
         "items": [
           {
-            "name": "العناية بالبشرة",
-            "desc": "في غرفة خاصة"
+            "name": "ميك أب",
+            "desc": ""
           },
           {
-            "name": "مناكير وبديكير",
+            "name": "الحناء",
             "desc": ""
+          },
+          {
+            "name": "العناية بالبشرة",
+            "desc": "في غرفة خاصة"
           }
         ]
       }
@@ -132,22 +171,21 @@
   },
   "reviews": [
     {
-      "author": "suaad y.",
+      "author": "Suaad Y.",
       "stars": 5,
-      "text": "بصراحة كانت تجربة جميلة🤍 سويت الحمام المغربي والدلكة السودانية مع هند، وكان شغلها يجنن. تعاملها راقي، …",
-      "source_ref": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%85%D9%8A%D9%85%D8%A7%D8%B4%D9%8A%D9%83%20MimaChic%20hair%20Beauty%20Centre%20Muscat"
+      "text": "بصراحة كانت تجربة جميلة🤍 سويت الحمام المغربي والدلكة السودانية مع هند، وكان شغلها يجنن. تعاملها راقي، وتهتم بكل التفاصيل، وتحس إنها تشتغل بكل حب واحترافية. طلعت من الجلسة وأنا حاسة بنظافة، انتعاش، ونعومة بشكل يفرق فعلًا…",
+      "source_ref": "https://www.google.com/maps/place/MimaChic/data=!4m2!3m1!1s0x3e91ff0037391811:0xd2b7c746a9e43f31"
     },
     {
       "author": "Rehab A.",
       "stars": 5,
       "text": "صالون هادي ونظيف وخدمات ممتازة… 🩵",
-      "source_ref": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%85%D9%8A%D9%85%D8%A7%D8%B4%D9%8A%D9%83%20MimaChic%20hair%20Beauty%20Centre%20Muscat"
+      "source_ref": "https://www.google.com/maps/place/MimaChic/data=!4m2!3m1!1s0x3e91ff0037391811:0xd2b7c746a9e43f31"
     }
   ],
   "mentions": [
     "الحمام المغربي",
-    "الدلكة السودانية",
-    "فرد الشعر"
+    "الدلكة السودانية"
   ],
   "visit": {
     "image": "palm"
@@ -156,27 +194,49 @@
   "images": {
     "lounge": {
       "file": "velvet-lounge.jpg",
-      "alt": "صورة ركن البديكير بكراسي مخمل خردلية وشعار الصالون الذهبي",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%85%D9%8A%D9%85%D8%A7%D8%B4%D9%8A%D9%83%20MimaChic%20hair%20Beauty%20Centre%20Muscat",
+      "alt": "صورة ركن البديكير بكراسي خردلية ورمادية وشعار MimaChic الذهبي على الجدار",
+      "source_url": "https://www.google.com/maps/place/MimaChic/data=!4m2!3m1!1s0x3e91ff0037391811:0xd2b7c746a9e43f31",
       "credit": "من خرائط Google"
     },
     "facial": {
       "file": "facial-room.jpg",
       "alt": "صورة غرفة العناية بالبشرة بسرير وعربة أدوات",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%85%D9%8A%D9%85%D8%A7%D8%B4%D9%8A%D9%83%20MimaChic%20hair%20Beauty%20Centre%20Muscat",
+      "source_url": "https://www.google.com/maps/place/MimaChic/data=!4m2!3m1!1s0x3e91ff0037391811:0xd2b7c746a9e43f31",
       "credit": "من خرائط Google"
     },
     "wash": {
       "file": "wash-dryer.jpg",
       "alt": "صورة مغاسل الشعر ومجفف واقف وجدار ألوان المناكير",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%85%D9%8A%D9%85%D8%A7%D8%B4%D9%8A%D9%83%20MimaChic%20hair%20Beauty%20Centre%20Muscat",
+      "source_url": "https://www.google.com/maps/place/MimaChic/data=!4m2!3m1!1s0x3e91ff0037391811:0xd2b7c746a9e43f31",
       "credit": "من خرائط Google"
     },
     "palm": {
       "file": "palm-light.jpg",
       "alt": "صورة نبتة نخيل أمام ثريا مضيئة داخل الصالون",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%85%D9%8A%D9%85%D8%A7%D8%B4%D9%8A%D9%83%20MimaChic%20hair%20Beauty%20Centre%20Muscat",
+      "source_url": "https://www.google.com/maps/place/MimaChic/data=!4m2!3m1!1s0x3e91ff0037391811:0xd2b7c746a9e43f31",
+      "credit": "من خرائط Google"
+    },
+    "reception": {
+      "file": "reception-green.jpg",
+      "alt": "صورة مكتب الاستقبال الأبيض أمام جدار نباتي أخضر",
+      "source_url": "https://www.google.com/maps/place/MimaChic/data=!4m2!3m1!1s0x3e91ff0037391811:0xd2b7c746a9e43f31",
+      "credit": "من خرائط Google"
+    },
+    "sofa": {
+      "file": "green-sofa.jpg",
+      "alt": "صورة كنبة مخمل خضراء تحت رسمة عينين وفراشات على الجدار",
+      "source_url": "https://www.google.com/maps/place/MimaChic/data=!4m2!3m1!1s0x3e91ff0037391811:0xd2b7c746a9e43f31",
       "credit": "من خرائط Google"
     }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "10 ص – 10 م"
+      }
+    ],
+    "per_day": null,
+    "source": "حساب الصالون على إنستغرام"
   }
 }

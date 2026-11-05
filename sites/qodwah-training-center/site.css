@@ -4,7 +4,16 @@
 [data-site="qodwah-training-center"] .shifts__seg{position:absolute;top:0;bottom:0;background:#1F8A6E;border-radius:7px;transform-origin:right center}
 [data-site="qodwah-training-center"] .shifts__now{position:absolute;top:-4px;bottom:-4px;width:3px;border-radius:2px;background:#C8962E;box-shadow:0 0 0 3px rgba(200,150,46,.25)}
 [data-site="qodwah-training-center"] .shifts__ticks{position:relative;height:1.3em;margin-top:.4rem;font-size:.8rem;color:var(--muted,#5b6670);font-variant-numeric:tabular-nums;letter-spacing:normal}
+[data-site="qodwah-training-center"] .shifts__ticks span{position:absolute;top:0;transform:translateX(50%);white-space:nowrap}
 [data-site="qodwah-training-center"] .shifts__state{margin-top:.35rem;font-size:.92rem;font-weight:600;color:#17705A;letter-spacing:normal}
 [data-site="qodwah-training-center"] .story .panel__media img{filter:saturate(1.05)}
 [data-site="qodwah-training-center"] .marquee{background:linear-gradient(90deg,rgba(31,138,110,.08),rgba(200,150,46,.08))}
-[data-site="qodwah-training-center"] .shifts__ticks span{position:absolute;top:0;transform:translateX(50%);white-space:nowrap}
+[data-site="qodwah-training-center"] .hero__side img{object-position:50% 68%}
+[data-site="qodwah-training-center"] .panel-m__visual img{object-position:50% 40%}
+/* Phone: a full-width band of the hall in session opens the page, directly under the header */
+@media (max-width:899px){
+  [data-site="qodwah-training-center"] .hero.hero--split{padding-block-start:112px}
+  [data-site="qodwah-training-center"] .hero--split .hero__grid{display:flex;flex-direction:column;gap:24px}
+  [data-site="qodwah-training-center"] .hero__side{order:-1;margin-inline:calc(-1*var(--gutter));border-radius:0}
+  [data-site="qodwah-training-center"] .hero__side .photo{aspect-ratio:1/1;border-radius:0}
+}

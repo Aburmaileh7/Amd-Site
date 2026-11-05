@@ -1,16 +1,28 @@
-/* Ms Victoria: the yellow-and-white beach-umbrella stripe of the salon becomes an awning that unrolls over the hero */
-[data-site="ms-victoria-salon"] .awning{position:absolute;inset-inline:0;top:0;height:46px;z-index:3;pointer-events:none;transform-origin:top center;
+/* Ms Victoria: the yellow-and-white stripe of the salon's ice-cream cart and coffee cup becomes an awning that unrolls over the hero photo */
+[data-site="ms-victoria-salon"] .hero__side{position:relative}
+[data-site="ms-victoria-salon"] .hero__side img{object-position:50% 74%}
+[data-site="ms-victoria-salon"] .hero__side .photo__badge{inset-inline:auto 12px}
+[data-site="ms-victoria-salon"] .awning{position:absolute;inset-inline:0;top:0;height:44px;z-index:3;pointer-events:none;transform-origin:top center;
   background:repeating-linear-gradient(90deg,#E2B43C 0 34px,#fffaf0 34px 68px);
-  -webkit-mask:radial-gradient(17px at 17px 100%,transparent 98%,#000) 0 0/34px 100% repeat-x;mask:radial-gradient(17px at 17px 100%,transparent 98%,#000) 0 0/34px 100% repeat-x;
-  filter:drop-shadow(0 4px 6px rgba(120,90,20,.18))}
-[data-site="ms-victoria-salon"] .marquee{position:relative;padding-top:52px}
+  --sc:radial-gradient(17px at 17px calc(100% - 17px),#000 98%,transparent) 0 0/34px 100% repeat-x,linear-gradient(#000 0 0) 0 0/100% calc(100% - 17px) no-repeat;-webkit-mask:var(--sc);mask:var(--sc);
+  filter:drop-shadow(0 4px 6px rgba(120,90,20,.25))}
 [data-site="ms-victoria-salon"] .marquee{background-color:#fffaf0;background-image:repeating-linear-gradient(90deg,rgba(226,180,60,.16) 0 40px,transparent 40px 80px)}
 [data-site="ms-victoria-salon"] .panel__media img{border-radius:999px 999px 18px 18px}
-@media (max-width:640px){[data-site="ms-victoria-salon"] .awning{height:34px}}
 [data-site="ms-victoria-salon"] .eyebrow{color:#5C450C;font-weight:700;font-size:.86rem}
+[data-site="ms-victoria-salon"] .panel__time{color:#5C450C;font-weight:700}
+[data-site="ms-victoria-salon"] .item__badge{color:#5C450C;border-color:rgba(92,69,12,.45)}
+[data-site="ms-victoria-salon"] .tabs__count{color:#5C450C}
 [data-site="ms-victoria-salon"] .rev__title{color:#2B2310}
-[data-site="ms-victoria-salon"] .card blockquote{color:#2B2310}
+[data-site="ms-victoria-salon"] .card blockquote{color:#2B2310;unicode-bidi:plaintext}
 [data-site="ms-victoria-salon"] .card figcaption strong{color:#2B2310}
 [data-site="ms-victoria-salon"] .card .muted{color:#5C5170}
 [data-site="ms-victoria-salon"] .hero__headline{color:#2B2310}
 [data-site="ms-victoria-salon"] .hero__intro{color:#3B3320}
+/* Phone: the sand tray fills the top of the screen, edge to edge, under the awning */
+@media (max-width:899px){
+  [data-site="ms-victoria-salon"] .hero.hero--split{padding-block-start:108px}
+  [data-site="ms-victoria-salon"] .hero--split .hero__grid{display:flex;flex-direction:column;gap:22px}
+  [data-site="ms-victoria-salon"] .hero__side{order:-1;margin-inline:calc(-1*var(--gutter));border-radius:0}
+  [data-site="ms-victoria-salon"] .hero__side .photo{aspect-ratio:1/1.1;border-radius:0}
+  [data-site="ms-victoria-salon"] .awning{height:36px}
+}

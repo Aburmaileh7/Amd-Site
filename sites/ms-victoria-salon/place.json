@@ -5,7 +5,7 @@
   "approved": false,
   "agency": "Amd web",
   "theme": "beauty_soft",
-  "data_source": "قائمة الصالون على خرائط Google (Ms victoria salon صالون مس فكتوريا) ومراجعاتها",
+  "data_source": "قائمة الصالون على خرائط Google (Ms victoria salon صالون مس فكتوريا) وصوره ومراجعاته",
   "layout": {
     "hero": "split",
     "story": "horizontal"
@@ -34,8 +34,8 @@
   },
   "hero": {
     "headline": "صالون بأجواء الصيف في أم صلال",
-    "intro": "مظلة مخططة بالأصفر، وقهوة على صينية رمل، ورسومات كرز على الأظافر. صالون نسائي في أم صلال علي للأظافر والشعر وجلسات العناية.",
-    "image": "nails"
+    "intro": "قهوة مغروسة في صينية رمل، وثلاجة آيسكريم مخططة، ورسومات كرز على الأظافر. صالون نسائي في أم صلال علي للأظافر والشعر والحمام المغربي.",
+    "image": "coffee"
   },
   "motion": {
     "hero": "kenburns"
@@ -51,40 +51,52 @@
     "label": "عند مس فكتوريا",
     "items": [
       "رسومات الأظافر",
-      "فرنش",
-      "الاستشوار",
+      "الحمام المغربي",
+      "علاجات الشعر الطبيعية",
       "لكجوري ثيرابي",
-      "قهوة الباريستا",
+      "الاستشوار",
       "أم صلال علي"
     ]
   },
   "story": {
     "eyebrow": "داخل الصالون",
-    "title": "شاطئ صغير داخل الصالون",
+    "title": "صيف صغير، ورسومات على الأظافر",
     "items": [
       {
-        "label": "القهوة",
-        "title": "قهوة على الرمل",
-        "text": "كوب لاتيه مخطط مغروس في الرمل بين كراسي البحر، تُقدَّم أثناء الانتظار من ركن الباريستا.",
-        "image": "coffee"
+        "label": "الآيسكريم",
+        "title": "ثلاجة «صيف صالون مس فيكتوريا»",
+        "text": "ثلاجة مخططة بالأصفر والأبيض بجانب كنبة صفراء ونبتة موز، وزبوناته يذكرن الآيسكريم المجاني في حر الصيف.",
+        "image": "cart"
       },
       {
-        "label": "الانتظار",
-        "title": "قهوة بجانب المرآة",
-        "text": "كوب قهوة على صينية خشب بجانب المرآة والورد، أثناء جلسة الشعر.",
+        "label": "الضيافة",
+        "title": "كوب يُسكب على صينية خشب",
+        "text": "مشروب ساخن يُسكب في كوب على صينية خشب، بجانبها ورد وبطاقة صغيرة.",
         "image": "tray"
       },
       {
         "label": "الأظافر",
-        "title": "فرنش ناعم وطويل",
-        "text": "أظافر فرنش طويلة بلمسة بيضاء، من الأعمال التي ينشرها الصالون في صوره.",
+        "title": "كرز وفيونكات حمراء",
+        "text": "حواف فرنش حمراء، وكرز وفيونكات مرسومة على الأظافر بفرشاة رفيعة.",
+        "image": "nails"
+      },
+      {
+        "label": "الأظافر",
+        "title": "فيونكات تركوازية",
+        "text": "أطراف بلون التركواز، وفيونكة صغيرة مرسومة فوق كل ظفر.",
+        "image": "bows"
+      },
+      {
+        "label": "الأظافر",
+        "title": "فرنش طويل لامع",
+        "text": "أظافر طويلة بأطراف بيضاء لامعة، من الأعمال المنشورة في صور الصالون.",
         "image": "french"
       },
       {
-        "label": "الشعر",
-        "title": "مغسلة بمرآة ذهبية",
-        "text": "ركن غسيل الشعر بصنبور ذهبي وعربة زيوت وورد، وإضاءة دافئة خلف الستارة.",
-        "image": "wash"
+        "label": "العناية",
+        "title": "أحجار وزيوت على صينية",
+        "text": "أحجار سوداء مصفوفة على صينية خشب، بجانب زجاجات الزيوت ومبخرة بيضاء.",
+        "image": "stones"
       }
     ]
   },
@@ -93,7 +105,7 @@
     "title": "الخدمات",
     "eyebrow": "ما يذكره الزبائن",
     "sample": false,
-    "note": "الخدمات مأخوذة من صور الصالون ومراجعات زبائنه على Google. الأسعار والمواعيد عبر الاتصال.",
+    "note": "الخدمات مأخوذة من صور الصالون ومراجعات زبائنه على Google، لأن حسابه على إنستغرام مقيّد. الأسعار والمواعيد عبر الاتصال.",
     "categories": [
       {
         "id": "nails",
@@ -102,7 +114,8 @@
         "items": [
           {
             "name": "رسومات على الأظافر",
-            "desc": "مثل الكرز والفيونكات"
+            "desc": "مثل الكرز والفيونكات",
+            "mentioned": true
           },
           {
             "name": "فرنش",
@@ -116,20 +129,39 @@
       },
       {
         "id": "hair",
-        "title": "الشعر والعناية",
+        "title": "الشعر",
         "tagline": "",
         "items": [
           {
+            "name": "علاجات الشعر الطبيعية",
+            "desc": "",
+            "mentioned": true
+          },
+          {
             "name": "الاستشوار",
-            "desc": ""
+            "desc": "",
+            "mentioned": true
+          },
+          {
+            "name": "تسريحات الشعر",
+            "desc": "مثل الكعكة والبوني تيل"
+          }
+        ]
+      },
+      {
+        "id": "care",
+        "title": "العناية والاسترخاء",
+        "tagline": "",
+        "items": [
+          {
+            "name": "الحمام المغربي",
+            "desc": "",
+            "mentioned": true
           },
           {
             "name": "لكجوري ثيرابي",
-            "desc": "جلسة عناية واسترخاء"
-          },
-          {
-            "name": "خلطات الشعر",
-            "desc": ""
+            "desc": "جلسة عناية واسترخاء",
+            "mentioned": true
           }
         ]
       }
@@ -137,62 +169,102 @@
   },
   "reviews": [
     {
-      "author": "Khamisa",
+      "author": "Khamisa 98",
       "stars": 5,
       "text": "جربت اللكجوري ثيرابي عند الموظفة منى عجيييب ويرخي الأعصاب ويستاهل الاستشوار كان عند مروه شغلها معروف والمدح سابقها الصالون يستاهل من جميع أنواع الخدمات والتطوير وايد حلو ويخليج تغير جو كانج ف سبا…",
-      "source_ref": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali"
+      "source_ref": "https://www.google.com/maps/place/Ms+victoria+salon/data=!4m2!3m1!1s0x3e45e3b9c6d1d6f7:0xf4a816a5af80b7f5"
     },
     {
       "author": "Zainab A.",
       "stars": 5,
-      "text": "✨ تجربة ولا أروع! صالون مس فكتوريا فعلاً يجمع بين الفخامة والاهتمام بالتفاصيل. الأجواء صيفية راقية، والخدمة فوق التوقعات…",
-      "source_ref": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali"
+      "text": "✨ تجربة ولا أروع! صالون مس فكتوريا فعلاً يجمع بين الفخامة والاهتمام بالتفاصيل. الأجواء صيفية راقية، والخدمة فوق التوقعات. والتفصيل الأجمل🍦 الآيسكريم المجاني المنعش وسط حر الصيف!…",
+      "source_ref": "https://www.google.com/maps/place/Ms+victoria+salon/data=!4m2!3m1!1s0x3e45e3b9c6d1d6f7:0xf4a816a5af80b7f5"
+    },
+    {
+      "author": "Ghazlan A.",
+      "stars": 5,
+      "text": "The best nails art and best marocon bath ever 10/10",
+      "source_ref": "https://www.google.com/maps/place/Ms+victoria+salon/data=!4m2!3m1!1s0x3e45e3b9c6d1d6f7:0xf4a816a5af80b7f5"
+    },
+    {
+      "author": "Darin S.",
+      "stars": 5,
+      "text": "My forever favorite salon! 💕 Been with them for over 5 years and honestly, their natural hair treatments are a dream! 🌿✨…",
+      "source_ref": "https://www.google.com/maps/place/Ms+victoria+salon/data=!4m2!3m1!1s0x3e45e3b9c6d1d6f7:0xf4a816a5af80b7f5"
     }
   ],
   "mentions": [
+    "رسومات الأظافر",
+    "الحمام المغربي",
     "لكجوري ثيرابي",
     "الاستشوار"
   ],
   "visit": {
-    "image": "cart"
+    "image": "wash"
   },
   "whatsapp": null,
   "images": {
     "nails": {
       "file": "cherry-nails.jpg",
       "alt": "صورة أظافر برسومات كرز وفيونكات حمراء من الصالون",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
+      "source_url": "https://www.google.com/maps/place/Ms+victoria+salon/data=!4m2!3m1!1s0x3e45e3b9c6d1d6f7:0xf4a816a5af80b7f5",
       "credit": "من خرائط Google"
     },
     "french": {
       "file": "french-nails.jpg",
       "alt": "صورة أظافر فرنش طويلة من الصالون",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
+      "source_url": "https://www.google.com/maps/place/Ms+victoria+salon/data=!4m2!3m1!1s0x3e45e3b9c6d1d6f7:0xf4a816a5af80b7f5",
       "credit": "من خرائط Google"
     },
     "coffee": {
       "file": "sand-coffee.jpg",
-      "alt": "صورة كوب قهوة مخطط على صينية رمل داخل الصالون",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
+      "alt": "صورة كوب قهوة مخطط مغروس في صينية رمل بين كراسي بحر صغيرة",
+      "source_url": "https://www.google.com/maps/place/Ms+victoria+salon/data=!4m2!3m1!1s0x3e45e3b9c6d1d6f7:0xf4a816a5af80b7f5",
       "credit": "من خرائط Google"
     },
     "wash": {
       "file": "wash-station.jpg",
       "alt": "صورة ركن غسيل الشعر بصنبور ذهبي وعربة زيوت",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
+      "source_url": "https://www.google.com/maps/place/Ms+victoria+salon/data=!4m2!3m1!1s0x3e45e3b9c6d1d6f7:0xf4a816a5af80b7f5",
       "credit": "من خرائط Google"
     },
     "cart": {
       "file": "stripe-cart.jpg",
-      "alt": "صورة عربة مخططة عليها اسم صالون مس فكتوريا",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
+      "alt": "صورة ثلاجة آيسكريم مخططة بالأصفر عليها اسم صالون مس فيكتوريا بجانب كنبة صفراء",
+      "source_url": "https://www.google.com/maps/place/Ms+victoria+salon/data=!4m2!3m1!1s0x3e45e3b9c6d1d6f7:0xf4a816a5af80b7f5",
       "credit": "من خرائط Google"
     },
     "tray": {
       "file": "coffee-tray.jpg",
-      "alt": "صورة كوب قهوة على صينية خشب بجانب مرآة وورد داخل الصالون",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=Ms%20victoria%20salon%20Umm%20Salal%20Ali",
+      "alt": "صورة مشروب ساخن يُسكب في كوب على صينية خشب بجانب ورد داخل الصالون",
+      "source_url": "https://www.google.com/maps/place/Ms+victoria+salon/data=!4m2!3m1!1s0x3e45e3b9c6d1d6f7:0xf4a816a5af80b7f5",
+      "credit": "من خرائط Google"
+    },
+    "bows": {
+      "file": "bow-nails.jpg",
+      "alt": "صورة أظافر بأطراف تركوازية وفيونكات مرسومة",
+      "source_url": "https://www.google.com/maps/place/Ms+victoria+salon/data=!4m2!3m1!1s0x3e45e3b9c6d1d6f7:0xf4a816a5af80b7f5",
+      "credit": "من خرائط Google"
+    },
+    "stones": {
+      "file": "stones-tray.jpg",
+      "alt": "صورة أحجار سوداء على صينية خشب بجانب زيوت ومبخرة",
+      "source_url": "https://www.google.com/maps/place/Ms+victoria+salon/data=!4m2!3m1!1s0x3e45e3b9c6d1d6f7:0xf4a816a5af80b7f5",
       "credit": "من خرائط Google"
     }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "الأحد",
+        "time": "11 ص – 9 م"
+      },
+      {
+        "days": "باقي أيام الأسبوع",
+        "time": "10 ص – 9 م"
+      }
+    ],
+    "per_day": null,
+    "source": "قائمة الصالون على خرائط Google"
   }
 }
