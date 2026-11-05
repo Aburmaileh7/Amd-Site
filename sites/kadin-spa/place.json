@@ -1,5 +1,5 @@
 {
-  "place_id": "",
+  "place_id": "amd-notion-40d5cb524e448135b7f1e4eaabc484c9",
   "batch_id": "amd-gulf-20261105",
   "slug": "kadin-spa",
   "theme": "beauty_soft",
@@ -10,16 +10,16 @@
     "story": "stack"
   },
   "accent": {
-    "hex": "#5F7D5A",
-    "rgb": "95, 125, 90",
-    "hover": "#4E6A4B",
+    "hex": "#1C2B52",
+    "rgb": "28, 43, 82",
+    "hover": "#131E3B",
     "ink": "#FFFFFF"
   },
   "name": "KADIN.SPA",
   "name_lang": "en",
-  "category_label": "صالون وسبا منزلي بالكويت",
+  "category_label": "صالون وسبا منزلي",
   "area": "الكويت",
-  "address": "خدمة منزلية في جميع مناطق الكويت",
+  "address": "نصلك إلى بيتك في الكويت",
   "phone": {
     "display": "+965 9798 8970",
     "tel": "+96597988970"
@@ -28,186 +28,190 @@
     "number": "96597988970",
     "display": "+965 9798 8970"
   },
-  "directions_url": "https://www.google.com/maps/search/?api=1&query=KADIN.SPA+Kuwait",
-  "map_query": "KADIN.SPA, Kuwait",
+  "booking_url": "https://wa.me/96597988970?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%A3%D9%88%D8%AF%D9%91%20%D8%AD%D8%AC%D8%B2%20%D8%AC%D9%84%D8%B3%D8%A9%20%D9%85%D9%86%D8%B2%D9%84%D9%8A%D8%A9.%20%D9%85%D9%86%D8%B7%D9%82%D8%AA%D9%8A%3A%20",
+  "booking_label": "احجزي على واتساب",
   "hours": {
     "rows": [
       {
         "days": "يوميًا",
-        "time": "12 ظهرًا – 10 مساءً"
+        "time": "12 ظ – 10 م"
       }
     ],
     "per_day": null,
     "source": "حساب KADIN.SPA على إنستغرام"
   },
-  "data_source": "حساب المحل على إنستغرام",
+  "data_source": "حساب KADIN.SPA على إنستغرام",
   "hero": {
-    "headline": "جلسة العناية تصلك إلى باب بيتك",
-    "intro": "صالون وسبا منزلي في الكويت يصل إليك أينما كنت، من الظهر حتى العاشرة مساءً. احجزي جلستك على واتساب وادفعي أونلاين دون رسوم توصيل.",
-    "image": "hero"
-  },
-  "motion": {
-    "hero": "kenburns"
+    "headline": "حقيبة السبا تصل إلى باب بيتك",
+    "intro": "صالون وسبا منزلي في الكويت: بديكير ومنكير ومساج وماسك شعر، من الظهر حتى العاشرة مساءً، بدفع أونلاين ودون رسوم توصيل.",
+    "image": "kit"
   },
   "sections": [
-    "marquee",
     "menu",
+    "marquee",
     "story",
     "amenities",
-    "reviews",
     "visit"
   ],
   "marquee": {
     "label": "خدمات KADIN.SPA",
     "items": [
       "خدمة منزلية",
-      "قص وتصفيف شعر",
-      "مانيكير وباديكير",
-      "مساج وعلاج طبيعي",
-      "ماسك شعر",
-      "دفع أونلاين"
-    ]
-  },
-  "story": {
-    "items": [
-      {
-        "title": "الصالون يأتي إليك",
-        "text": "لا حاجة للخروج من البيت؛ فريق KADIN.SPA يصل إلى منزلك في جميع مناطق الكويت بكل أدوات العناية.",
-        "image": "story-home"
-      },
-      {
-        "title": "حجز على واتساب مباشرة",
-        "text": "كل الحجوزات تتم عبر واتساب على الرقم +965 9798 8970، مع دفع أونلاين وبدون رسوم توصيل.",
-        "image": "story-booking"
-      },
-      {
-        "title": "مواعيد من الظهر حتى العشاء",
-        "text": "نعمل يوميًا من 12 ظهرًا حتى 10 مساءً، لتناسب وقتك بعد الدوام أو في عطلة نهاية الأسبوع.",
-        "image": "story-evening"
-      }
+      "بدون رسوم توصيل",
+      "بديكير ومنكير",
+      "منكير ثابت",
+      "مساج جسم كامل",
+      "ماسك الشعر"
     ]
   },
   "menu": {
-    "kind": "services",
-    "sample": true,
-    "title": "الخدمات",
-    "eyebrow": "خدمة منزلية في الكويت",
-    "note": "قائمة خدمات توضيحية لعرض الشكل فقط، ليست أسعارًا من المحل. الأسعار تُؤخذ من قائمة الأسعار في حسابهم على إنستغرام عند الموافقة.",
+    "title": "العروض والخدمات",
+    "eyebrow": "من حسابنا على إنستغرام",
     "currency": "د.ك",
+    "sample": false,
+    "note": "العروض منقولة كما كُتبت من منشورات الحساب عام 2026 وقد تتغير. قائمة الأسعار الكاملة في تمييز Price list على الحساب، ويؤكدها الفريق على واتساب.",
     "foot": "للاستفسار والحجز",
     "categories": [
       {
-        "id": "hair",
-        "title": "الشعر",
-        "tagline": "قص وتصفيف وعناية",
-        "image": "hair",
+        "id": "offers",
+        "title": "العروض",
+        "tagline": "",
+        "image": "pedicure",
         "items": [
-          { "name": "قص وتصفيف شعر", "desc": "في منزلك" },
-          { "name": "ماسك شعر", "desc": "تغذية وترطيب عميق" },
-          { "name": "صبغة وتسريحة", "desc": "للمناسبات" }
+          {
+            "name": "عرض الزواره: بدكير منكير لافندر",
+            "desc": "حق 3 بنات بنفس البيت",
+            "price": 25
+          },
+          {
+            "name": "عرض: مساج جسم كامل 60 دقيقه + بدكير منكير لافندر",
+            "desc": "",
+            "price": 18
+          },
+          {
+            "name": "عرض الخوات: مساج جسم كامل 60 دقيقه",
+            "desc": "لشخصين في نفس المنزل",
+            "price": 18
+          }
         ]
       },
       {
-        "id": "nails",
-        "title": "الأظافر والعناية",
-        "tagline": "مانيكير وباديكير",
-        "image": "nails",
+        "id": "services",
+        "title": "الخدمات",
+        "tagline": "",
+        "image": "manicure",
         "items": [
-          { "name": "مانيكير", "desc": "تنظيف وتلميع" },
-          { "name": "باديكير", "desc": "عناية كاملة بالقدمين" },
-          { "name": "جل أظافر", "desc": "ألوان ثابتة" }
+          {
+            "name": "بديكير",
+            "desc": ""
+          },
+          {
+            "name": "منكير ثابت",
+            "desc": ""
+          },
+          {
+            "name": "مساج جسم كامل",
+            "desc": "60 دقيقة"
+          },
+          {
+            "name": "ماسك الشعر",
+            "desc": ""
+          }
         ]
+      }
+    ]
+  },
+  "story": {
+    "eyebrow": "كيف تحجزين",
+    "title": "من رسالة واتساب إلى باب بيتك",
+    "items": [
+      {
+        "label": "واتساب",
+        "title": "اكتبي لنا الخدمة ومنطقتك",
+        "text": "رسالة واحدة على واتساب تكفي لتحديد الخدمة والوقت بين الظهر والعاشرة مساءً.",
+        "image": "bags"
       },
       {
-        "id": "spa",
-        "title": "السبا والمساج",
-        "tagline": "استرخاء في بيتك",
-        "image": "spa",
-        "items": [
-          { "name": "مساج استرخائي", "desc": "تخفيف توتر العضلات" },
-          { "name": "تنظيف بشرة", "desc": "عناية يومية" },
-          { "name": "جلسة حمام مغربي", "desc": "تقشير وترطيب" }
-        ]
+        "label": "الدفع",
+        "title": "ادفعي أونلاين",
+        "text": "يتم الدفع أونلاين، ولا توجد رسوم توصيل.",
+        "image": "massage"
+      },
+      {
+        "label": "الوصول",
+        "title": "يصل الفريق إلى بيتك",
+        "text": "الفريق بزيّه الأزرق وأدواته يأتي إليك، ولا حاجة إلى الخروج من البيت.",
+        "image": "team"
+      }
+    ]
+  },
+  "amenities": {
+    "eyebrow": "قبل أن تحجزي",
+    "title": "ما يهمك معرفته",
+    "image": "towels",
+    "items": [
+      {
+        "icon": "check",
+        "title": "خدمة منزلية",
+        "text": "الجلسة في بيتك داخل الكويت، وليس لنا فرع تزورينه."
+      },
+      {
+        "icon": "car",
+        "title": "بدون رسوم توصيل",
+        "text": "لا يضاف إلى الجلسة أي مبلغ للوصول إليك."
+      },
+      {
+        "icon": "clock",
+        "title": "كل يوم",
+        "text": "من 12 ظهرًا حتى 10 مساءً."
       }
     ]
   },
   "mentions": [],
   "reviews": [],
-  "amenities": {
-    "eyebrow": "قبل أن تحجزي",
-    "title": "ماذا يوفره KADIN.SPA",
-    "image": "amen",
-    "items": [
-      {
-        "icon": "calendar",
-        "title": "حجز واتساب",
-        "text": "احجزي مباشرة على +965 9798 8970 دون تعقيد."
-      },
-      {
-        "icon": "check",
-        "title": "دفع أونلاين",
-        "text": "دفع إلكتروني مريح عند تأكيد الحجز."
-      },
-      {
-        "icon": "car",
-        "title": "بدون رسوم توصيل",
-        "text": "الفريق يصل إلى بيتك في الكويت دون رسوم إضافية."
-      },
-      {
-        "icon": "clock",
-        "title": "مواعيد مرنة",
-        "text": "من 12 ظهرًا حتى 10 مساءً يوميًا."
-      }
-    ]
-  },
-  "visit": {
-    "image": "visit"
-  },
+  "visit": {},
   "images": {
-    "hero": {
-      "id": "photo-1600334089648-b0d9d3028eb2",
-      "alt": "صورة توضيحية: جلسة مساج استرخائية على سرير علاجي",
-      "page": "https://unsplash.com/photos/a-person-lying-on-a-massage-table-with-smooth-black-stones-on-their-back"
+    "kit": {
+      "file": "kit-garden.jpg",
+      "alt": "صورة طاولة عليها زهور ومنتجات وحوض بديكير وألوان أظافر",
+      "source_url": "https://www.instagram.com/kadin.spa/reel/DIJ3WHhMAtI/",
+      "credit": "من حساب المحل على إنستغرام"
     },
-    "hair": {
-      "id": "photo-1695527081848-1e46c06e6458",
-      "alt": "صورة توضيحية: مصففة شعر تعمل على شعر عميلة في صالون",
-      "page": "https://unsplash.com/photos/a-woman-getting-her-hair-done-in-a-salon"
+    "bags": {
+      "file": "kit-bags.jpg",
+      "alt": "صورة حقائب ومناشف كحلية مطرزة باسم KADIN SPA",
+      "source_url": "https://www.instagram.com/kadin.spa/reel/CzJTA5TMyM2/",
+      "credit": "من حساب المحل على إنستغرام"
     },
-    "nails": {
-      "id": "photo-1610992015762-45dca7fa3a85",
-      "alt": "صورة توضيحية: يد بأظافر مانيكير وردية فاتحة على سطح أبيض ناعم",
-      "page": "https://unsplash.com/photos/a-hand-with-light-pink-manicured-nails-resting-on-a-soft-white-surface"
+    "team": {
+      "file": "team-hands.jpg",
+      "alt": "صورة يدي عضوة في الفريق بقفازات سوداء وزي أزرق",
+      "source_url": "https://www.instagram.com/kadin.spa/reel/DUoGwO0jfx2/",
+      "credit": "من حساب المحل على إنستغرام"
     },
-    "spa": {
-      "id": "photo-1544161515-4ab6ce6db874",
-      "alt": "صورة توضيحية: جلسة مساج في غرفة سبا هادئة",
-      "page": "https://unsplash.com/photos/woman-lying-with-prone-position"
+    "pedicure": {
+      "file": "pedicure.jpg",
+      "alt": "صورة قدمين في حوض بديكير مع زهور من منشور للحساب",
+      "source_url": "https://www.instagram.com/kadin.spa/p/DTpTI4sjUIe/",
+      "credit": "من حساب المحل على إنستغرام"
     },
-    "story-home": {
-      "id": "photo-1741522509438-a120c0bb5e88",
-      "alt": "صورة توضيحية: مساج على الظهر في أجواء منزلية مريحة",
-      "page": "https://unsplash.com/photos/massage-is-being-administered-to-a-persons-back"
+    "manicure": {
+      "file": "manicure.jpg",
+      "alt": "صورة يدين بمنكير فرنسي من منشور للحساب",
+      "source_url": "https://www.instagram.com/kadin.spa/p/DTpTWnCDRUA/",
+      "credit": "من حساب المحل على إنستغرام"
     },
-    "story-booking": {
-      "id": "photo-1598901986949-f593ff2a31a6",
-      "alt": "صورة توضيحية: عناية بالوجه في ضوء دافئ قبل الحجز",
-      "page": "https://unsplash.com/photos/hands-massaging-a-persons-face-in-a-dimly-lit-room"
+    "massage": {
+      "file": "massage.jpg",
+      "alt": "صورة مساج للقدم من منشور للحساب",
+      "source_url": "https://www.instagram.com/kadin.spa/p/DULK5Phjc2M/",
+      "credit": "من حساب المحل على إنستغرام"
     },
-    "story-evening": {
-      "id": "photo-1600334129128-685c5582fd35",
-      "alt": "صورة توضيحية: مساج بالأحجار الساخنة وزهور بيضاء في مساء هادئ",
-      "page": "https://unsplash.com/photos/a-person-receiving-a-hot-stone-massage"
-    },
-    "amen": {
-      "id": "photo-1706795033728-9232ef548a16",
-      "alt": "صورة توضيحية: تدليك وجه في سبا بأجواء مسائية",
-      "page": "https://unsplash.com/photos/a-woman-getting-a-facial-massage-at-a-spa"
-    },
-    "visit": {
-      "id": "photo-1639162906614-0603b0ae95fd",
-      "alt": "صورة توضيحية: مساج للظهر داخل صالون سبا",
-      "page": "https://unsplash.com/photos/a-woman-getting-a-back-massage-at-a-spa"
+    "towels": {
+      "file": "towels.jpg",
+      "alt": "صورة مناشف وشمعة وصابون من منشور للحساب",
+      "source_url": "https://www.instagram.com/kadin.spa/p/DXmBOeBjYNv/",
+      "credit": "من حساب المحل على إنستغرام"
     }
   }
 }

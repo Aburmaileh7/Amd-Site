@@ -1,7 +1,23 @@
-/* Bayat: the glowing pebble-shaped mirrors above every chair — a soft halo that sits behind the hydrafacial chair photo, not a random ring over the text */
-[data-site="bayat-salon-seeb"] .hero__content{position:relative}
-[data-site="bayat-salon-seeb"] .by-pebble{position:absolute;z-index:-1;inset-inline-end:-4%;top:-16%;width:min(320px,58vw);aspect-ratio:1.25;border:2px solid rgba(242,196,109,.55);border-radius:58% 42% 55% 45%/48% 60% 40% 52%;box-shadow:0 0 24px rgba(242,196,109,.35),inset 0 0 18px rgba(242,196,109,.18);pointer-events:none;opacity:.75}
-[data-site="bayat-salon-seeb"] .item__price{color:#F2C46D}
-[data-site="bayat-salon-seeb"] .panel__media img{border-radius:120px 120px 22px 22px}
-[data-site="bayat-salon-seeb"] .visit__title{font-size:clamp(2.2rem,6vw,4.4rem)}
-@media (max-width:640px){[data-site="bayat-salon-seeb"] .by-pebble{top:auto;bottom:calc(100% + 18px);inset-inline-end:auto;inset-inline-start:0;width:46vw}}
+/* Bayat: every story photo takes the outline of the salon's glowing pebble mirrors, with a warm ring that stays attached to the photo */
+html[data-site="bayat-salon-seeb"] .hero__media img{object-position:50% 40%!important}
+html[data-site="bayat-salon-seeb"] .item__price{color:#F2C46D}
+html[data-site="bayat-salon-seeb"] .panel__media{position:relative;padding:10px}
+html[data-site="bayat-salon-seeb"] .story .panel__media figure.photo{border-radius:58% 42% 55% 45%/48% 60% 40% 52%}
+html[data-site="bayat-salon-seeb"] .by-pebble{position:absolute;inset:0;border:2px solid rgba(242,196,109,.6);border-radius:58% 42% 55% 45%/48% 60% 40% 52%;box-shadow:0 0 22px rgba(242,196,109,.35);pointer-events:none}
+html[data-site="bayat-salon-seeb"] .visit__title{font-size:clamp(2.2rem,6vw,4.4rem)}
+
+/* Phone: the photo owns the top of the first screen, unveiled; the text starts below it on the page colour */
+@media (max-width:700px){
+  html[data-site="bayat-salon-seeb"] .hero__media{inset:0 0 auto;height:50svh;-webkit-mask-image:linear-gradient(to bottom,#000 74%,transparent 100%);mask-image:linear-gradient(to bottom,#000 74%,transparent 100%)}
+  html[data-site="bayat-salon-seeb"] .hero__media img{height:150%;object-position:50% 0!important}
+  html[data-site="bayat-salon-seeb"] .hero__media .photo__badge{top:auto;bottom:30px}
+  html[data-site="bayat-salon-seeb"] .hero__shade{display:none}
+  html[data-site="bayat-salon-seeb"].js .hero--full .hero__grid,html[data-site="bayat-salon-seeb"] .hero--full .hero__grid{padding-block:calc(50svh - 18px) 48px}
+}
+html[data-site="bayat-salon-seeb"] .site-header:not(.is-solid){background:rgba(var(--bg-rgb),.62);backdrop-filter:blur(8px)}
+html[data-site="bayat-salon-seeb"] .site-header:not(.is-solid) nav a,html[data-site="bayat-salon-seeb"] .site-header:not(.is-solid) .nav-btn{color:var(--ink)}
+
+/* Desktop: the shade sits behind the text side only, the rest of the photo stays clear */
+@media (min-width:701px){html[data-site="bayat-salon-seeb"] .hero__shade{background:linear-gradient(to left,rgba(var(--bg-rgb),.94) 0%,rgba(var(--bg-rgb),.8) 40%,rgba(var(--bg-rgb),0) 66%),linear-gradient(to top,var(--bg) 1%,rgba(var(--bg-rgb),0) 18%)!important}}
+html[data-site="bayat-salon-seeb"] .panel__media .photo__badge{bottom:8%;inset-inline-end:14%;inset-inline-start:auto}
+@media (min-width:701px){html[data-site="bayat-salon-seeb"] .hero__media .photo__badge{inset-inline-start:auto;inset-inline-end:16px}}

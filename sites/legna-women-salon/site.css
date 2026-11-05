@@ -7,3 +7,20 @@
 @media (prefers-reduced-motion:reduce){[data-site="legna-women-salon"] .lg-key{clip-path:none}}
 [data-site="legna-women-salon"] .visit__title{font-size:clamp(2.2rem,6vw,4.4rem)}
 [data-site="legna-women-salon"] .hero .eyebrow{display:inline-block;background:rgba(255,246,249,.92);color:#8E3B57;padding:4px 10px;border-radius:6px;font-weight:600}
+html[data-site="legna-women-salon"] .hero__media img{object-position:40% 55%!important}
+
+/* Phone: the photo owns the top of the first screen, unveiled; the text starts below it on the page colour */
+@media (max-width:700px){
+  html[data-site="legna-women-salon"] .hero__media{inset:0 0 auto;height:50svh;-webkit-mask-image:linear-gradient(to bottom,#000 74%,transparent 100%);mask-image:linear-gradient(to bottom,#000 74%,transparent 100%)}
+  html[data-site="legna-women-salon"] .hero__media img{object-position:40% 50%!important}
+  html[data-site="legna-women-salon"] .hero__media .photo__badge{top:auto;bottom:30px}
+  html[data-site="legna-women-salon"] .hero__shade{display:none}
+  html[data-site="legna-women-salon"].js .hero--full .hero__grid,html[data-site="legna-women-salon"] .hero--full .hero__grid{padding-block:calc(50svh - 18px) 48px}
+}
+html[data-site="legna-women-salon"] .site-header:not(.is-solid){background:rgba(var(--bg-rgb),.62);backdrop-filter:blur(8px)}
+html[data-site="legna-women-salon"] .site-header:not(.is-solid) nav a,html[data-site="legna-women-salon"] .site-header:not(.is-solid) .nav-btn{color:var(--ink)}
+
+/* Desktop: the shade sits behind the text side only, the rest of the photo stays clear */
+@media (min-width:701px){html[data-site="legna-women-salon"] .hero__shade{background:linear-gradient(to left,rgba(var(--bg-rgb),.94) 0%,rgba(var(--bg-rgb),.8) 40%,rgba(var(--bg-rgb),0) 66%),linear-gradient(to top,var(--bg) 1%,rgba(var(--bg-rgb),0) 18%)!important}}
+html[data-site="legna-women-salon"] .hero .eyebrow{justify-self:start}
+@media (min-width:701px){html[data-site="legna-women-salon"] .hero__media .photo__badge{inset-inline-start:auto;inset-inline-end:16px}}

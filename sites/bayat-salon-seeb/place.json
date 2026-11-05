@@ -5,10 +5,10 @@
   "approved": false,
   "agency": "Amd web",
   "theme": "rooftop_dark",
-  "data_source": "صفحة الحجز على Fresha (الصور منشورة على الصفحة نفسها باسم Boulevard Salon) وقائمة المحل على خرائط Google",
+  "data_source": "صفحة الحجز على Fresha وقائمة المحل على خرائط Google وحساب @bayat_salon على إنستغرام",
   "layout": {
     "hero": "full",
-    "story": "horizontal"
+    "story": "stack"
   },
   "accent": {
     "hex": "#F2C46D",
@@ -33,9 +33,10 @@
     "source": "Fresha"
   },
   "hero": {
-    "headline": "كرسي هيدرافيشل ومرايا مضيئة حتى منتصف الليل",
+    "headline": "مرايا مضيئة فوق كل كرسي حتى منتصف الليل",
     "intro": "صالون رجالي في العريمي بوليفارد بالسيب: قص ولحية وصبغة وعناية بالبشرة ومساج، يوميًا من 10 صباحًا، وحتى قرب منتصف الليل من الخميس إلى السبت.",
-    "image": "facial"
+    "image": "mirrors",
+    "veil": "light"
   },
   "motion": {
     "hero": "kenburns"
@@ -51,7 +52,7 @@
   "marquee": {
     "label": "في الصالون",
     "items": [
-      "قص وتحديد لحية 5 ر.ع",
+      "قص شعر",
       "فيد اللحية",
       "هيدرافيشل",
       "كيراتين",
@@ -61,13 +62,13 @@
   },
   "story": {
     "eyebrow": "داخل الصالون",
-    "title": "ضوء دافئ في كل مرآة",
+    "title": "ضوء دافئ يراه المار من البوليفارد",
     "items": [
       {
-        "label": "الكراسي",
-        "title": "مرايا بإضاءة ذهبية",
-        "text": "مرايا بشكل حصى مضيئة فوق كراسي حلاقة سوداء.",
-        "image": "mirrors"
+        "label": "الفريق",
+        "title": "فاطمة ومصطفى",
+        "text": "اسمان على صفحة الحجز، ومصطفى مذكور بالاسم في أكثر من مراجعة.",
+        "image": "heart"
       },
       {
         "label": "الواجهة",
@@ -88,12 +89,8 @@
         "id": "hair",
         "title": "الشعر واللحية",
         "tagline": "",
+        "image": "fade",
         "items": [
-          {
-            "name": "عرض قص الشعر 3 في 1",
-            "desc": "ساعة و20 دقيقة",
-            "price": 5
-          },
           {
             "name": "قص شعر",
             "desc": "ساعة",
@@ -121,24 +118,25 @@
           },
           {
             "name": "صبغة شعر",
-            "desc": "30 دقيقة",
+            "desc": "30 دقيقة، والسعر يبدأ من هذا الرقم",
             "price": 5
           }
         ]
       },
       {
         "id": "care",
-        "title": "العلاجات والبشرة",
+        "title": "العناية والمساج والأظافر",
         "tagline": "",
+        "image": "facial",
         "items": [
           {
             "name": "كيراتين",
-            "desc": "ساعة ونصف",
+            "desc": "ساعة ونصف، والسعر يبدأ من هذا الرقم",
             "price": 20
           },
           {
             "name": "هايلايت",
-            "desc": "45 دقيقة",
+            "desc": "45 دقيقة، والسعر يبدأ من هذا الرقم",
             "price": 20
           },
           {
@@ -160,14 +158,7 @@
             "name": "فيشل عادي",
             "desc": "20 دقيقة",
             "price": 5
-          }
-        ]
-      },
-      {
-        "id": "body",
-        "title": "المساج والأظافر",
-        "tagline": "",
-        "items": [
+          },
           {
             "name": "مساج كامل الجسم",
             "desc": "ساعة",
@@ -189,13 +180,13 @@
             "price": 5
           },
           {
-            "name": "عرض مناكير وبديكير",
-            "desc": "ساعة و20 دقيقة",
+            "name": "مناكير وبديكير",
+            "desc": "ساعة و20 دقيقة، بسعر العرض المدرج على Fresha",
             "price": 10
           },
           {
             "name": "VIP SPA CARE",
-            "desc": "4 خدمات",
+            "desc": "ساعتان و15 دقيقة، 4 خدمات",
             "price": 20
           }
         ]
@@ -247,8 +238,8 @@
   "whatsapp": null,
   "images": {
     "mirrors": {
-      "file": "mirrors.jpg",
-      "alt": "صورة كراسي الحلاقة أمام مرايا مضيئة بشكل الحصى",
+      "file": "mirrors-close.jpg",
+      "alt": "صورة مرايا مضيئة بشكل الحصى فوق كراسي الحلاقة",
       "source_url": "https://www.fresha.com/a/bayat-salon-msqt-al-araimi-boulevard-muscat-al-seeb-acyud84j",
       "credit": "من صفحة المحل على Fresha"
     },
@@ -263,6 +254,20 @@
       "alt": "صورة الواجهة الزجاجية للصالون داخل البوليفارد",
       "source_url": "https://www.fresha.com/a/bayat-salon-msqt-al-araimi-boulevard-muscat-al-seeb-acyud84j",
       "credit": "من صفحة المحل على Fresha"
+    },
+    "fade": {
+      "file": "fade.jpg",
+      "alt": "صورة قصة فيد من الخلف من أعمال الصالون",
+      "source_url": "https://www.instagram.com/bayat_salon/reel/DU3AM18jPEC/",
+      "credit": "من حساب المحل على إنستغرام"
+    },
+    "heart": {
+      "file": "heart.jpg",
+      "alt": "صورة يدين على شكل قلب أمام مرآة مضيئة في الصالون",
+      "source_url": "https://www.instagram.com/bayat_salon/reel/DV3w2iMs-KW/",
+      "credit": "من حساب المحل على إنستغرام"
     }
-  }
+  },
+  "booking_url": "https://www.fresha.com/a/bayat-salon-msqt-al-araimi-boulevard-muscat-al-seeb-acyud84j",
+  "booking_label": "احجز على Fresha"
 }

@@ -4,9 +4,27 @@
 [data-site="the-muse-salon-manama"] .hero__title{font-weight:300}
 [data-site="the-muse-salon-manama"] .hero__title span span{border-bottom:3px solid #C8A45A;padding-bottom:.08em}
 [data-site="the-muse-salon-manama"] .item__price{color:#8A6A2E;font-weight:600}
-[data-site="the-muse-salon-manama"] .marquee{background:#1C1916;color:#F4EDE1}
-[data-site="the-muse-salon-manama"] .marquee li{color:#F4EDE1;font-weight:500}
-[data-site="the-muse-salon-manama"] .marquee .marquee__dot{background:#F2C46D}
-[data-site="the-muse-salon-manama"] .marquee__row li{color:#F4EDE1}
 [data-site="the-muse-salon-manama"] .visit__title{font-size:clamp(2.2rem,6vw,4.4rem)}
 @media (prefers-reduced-motion:reduce){[data-site="the-muse-salon-manama"] .mu-frame{clip-path:none}}
+/* site.css sits before the shared stylesheet in <head>, so a selector of equal weight loses to the component's scoped rule (.marquee[data-astro-cid-…]). The html prefix wins. */
+html[data-site="the-muse-salon-manama"] .marquee{background:#1C1916;border-color:#1C1916}
+html[data-site="the-muse-salon-manama"] .marquee__row li{color:#F4EDE1;font-weight:500}
+html[data-site="the-muse-salon-manama"] .marquee__dot{background:#D9B56A}
+/* Only 3 real photos exist and each appears once: the price list runs full width with no empty photo tile beside it */
+html[data-site="the-muse-salon-manama"] .panel-m{grid-template-columns:1fr}
+html[data-site="the-muse-salon-manama"] .panel-m__visual{display:none}
+@media (min-width:900px){html[data-site="the-muse-salon-manama"] .items{display:grid;grid-template-columns:1fr 1fr;column-gap:48px}html[data-site="the-muse-salon-manama"] .item:nth-child(2){border-top:1px solid var(--line)}}
+
+/* Phone: the photo owns the top of the first screen, unveiled; the text starts below it on the page colour */
+@media (max-width:700px){
+  html[data-site="the-muse-salon-manama"] .hero__media{inset:0 0 auto;height:50svh;-webkit-mask-image:linear-gradient(to bottom,#000 74%,transparent 100%);mask-image:linear-gradient(to bottom,#000 74%,transparent 100%)}
+  html[data-site="the-muse-salon-manama"] .hero__media .photo__badge{top:auto;bottom:30px}
+  html[data-site="the-muse-salon-manama"] .hero__shade{display:none}
+  html[data-site="the-muse-salon-manama"].js .hero--full .hero__grid,html[data-site="the-muse-salon-manama"] .hero--full .hero__grid{padding-block:calc(50svh - 18px) 48px}
+}
+html[data-site="the-muse-salon-manama"] .site-header:not(.is-solid){background:rgba(var(--bg-rgb),.62);backdrop-filter:blur(8px)}
+html[data-site="the-muse-salon-manama"] .site-header:not(.is-solid) nav a,html[data-site="the-muse-salon-manama"] .site-header:not(.is-solid) .nav-btn{color:var(--ink)}
+
+/* Desktop: the shade sits behind the text side only, the rest of the photo stays clear */
+@media (min-width:701px){html[data-site="the-muse-salon-manama"] .hero__shade{background:linear-gradient(to left,rgba(var(--bg-rgb),.94) 0%,rgba(var(--bg-rgb),.8) 40%,rgba(var(--bg-rgb),0) 66%),linear-gradient(to top,var(--bg) 1%,rgba(var(--bg-rgb),0) 18%)!important}}
+@media (min-width:701px){html[data-site="the-muse-salon-manama"] .hero__media .photo__badge{inset-inline-start:auto;inset-inline-end:16px}}

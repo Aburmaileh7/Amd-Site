@@ -35,7 +35,8 @@
   "hero": {
     "headline": "مرايا بإطار ذهبي ومناكير روسي",
     "intro": "صالون وسبا للسيدات فقط في المنامة: شعر وصبغة وأظافر ورموش وحمام مغربي وحناء، من الإثنين إلى السبت 10 صباحًا حتى 9 مساءً، والأحد مغلق.",
-    "image": "mirrors"
+    "image": "mirrors",
+    "veil": "light"
   },
   "motion": {
     "hero": "kenburns"
@@ -56,17 +57,17 @@
       "تركيب رموش",
       "حمام مغربي",
       "حناء",
-      "مكياج عرائس"
+      "خدمة منزلية"
     ]
   },
   "story": {
     "eyebrow": "داخل الصالون",
-    "title": "أبيض وذهبي وكراسي ناعمة",
+    "title": "أبيض وذهبي وكراسي مريحة",
     "items": [
       {
         "label": "الأظافر",
-        "title": "كراسي بيج منفوخة",
-        "text": "طاولات المناكير البيضاء وكراسي بيج بنقش منتفخ.",
+        "title": "كراسي بيج مبطّنة",
+        "text": "طاولات المناكير البيضاء وكراسي بيج مبطّنة بقاعدة ذهبية.",
         "image": "nails"
       },
       {
@@ -82,7 +83,7 @@
     "eyebrow": "من صفحة الحجز",
     "currency": "د.ب",
     "sample": false,
-    "note": "الأسعار من صفحة الصالون على Fresha وتبدأ من الرقم المذكور، وقد تتغير.",
+    "note": "الأسعار من صفحة الصالون على Fresha، وقد تتغير. عبارة «من» تعني أن السعر يبدأ من هذا الرقم حسب طول الشعر أو نوع الخدمة.",
     "categories": [
       {
         "id": "hair",
@@ -101,8 +102,8 @@
           },
           {
             "name": "سشوار",
-            "desc": "",
-            "price": 0.95
+            "desc": "شعر قصير إلى متوسط، ويصل إلى 12.350 د.ب للشعر الطويل جدًا",
+            "price": 6.65
           },
           {
             "name": "تمويج",
@@ -123,8 +124,8 @@
         "items": [
           {
             "name": "تلوين الجذور",
-            "desc": "",
-            "price": 9.5
+            "desc": "مع أمونيا، وبدون أمونيا 25 د.ب",
+            "price": 20
           },
           {
             "name": "صبغة كاملة",
@@ -233,6 +234,18 @@
             "price": 3
           }
         ]
+      },
+      {
+        "id": "home",
+        "title": "الخدمة المنزلية",
+        "tagline": "",
+        "items": [
+          {
+            "name": "خدمة منزلية",
+            "desc": "ساعة، كما هي مدرجة على Fresha",
+            "price": 20
+          }
+        ]
       }
     ]
   },
@@ -247,6 +260,24 @@
       "author": "amal",
       "stars": 5,
       "text": "خدمات ممتازة وصالون نظيف وشغلهم ممتاز ومديرة الصالون فاطمة ذوق وحبوبة وعاملة شغلها وزيادة بكل تفاني…",
+      "source_ref": "https://www.fresha.com/a/the-muse-salon-manama-road-no-3315-p145ik09"
+    },
+    {
+      "author": "Manal S.",
+      "stars": 5,
+      "text": "المساج مريح جدا",
+      "source_ref": "https://www.fresha.com/a/the-muse-salon-manama-road-no-3315-p145ik09"
+    },
+    {
+      "author": "lawyer q.",
+      "stars": 5,
+      "text": "I had a wonderful experience with Moon. She is very kind, respectful, and makes you feel comfortable from the first moment. It was my first time trying a Moroccan bath and a massage, and the experience was amazing…",
+      "source_ref": "https://www.fresha.com/a/the-muse-salon-manama-road-no-3315-p145ik09"
+    },
+    {
+      "author": "Hawra M.",
+      "stars": 4,
+      "text": "Nice experience and nice people so friendly",
       "source_ref": "https://www.fresha.com/a/the-muse-salon-manama-road-no-3315-p145ik09"
     }
   ],
@@ -276,7 +307,7 @@
     },
     "nails": {
       "file": "nails.jpg",
-      "alt": "صورة طاولات المناكير وكراسي بيج منفوخة",
+      "alt": "صورة طاولات المناكير وكراسي بيج مبطّنة",
       "source_url": "https://www.fresha.com/a/the-muse-salon-manama-road-no-3315-p145ik09",
       "credit": "من صفحة المحل على Fresha"
     },
@@ -286,5 +317,7 @@
       "source_url": "https://www.fresha.com/a/the-muse-salon-manama-road-no-3315-p145ik09",
       "credit": "من صفحة المحل على Fresha"
     }
-  }
+  },
+  "booking_url": "https://www.fresha.com/a/the-muse-salon-manama-road-no-3315-p145ik09",
+  "booking_label": "احجزي على Fresha"
 }

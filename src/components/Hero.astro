@@ -4,6 +4,14 @@ const { p } = Astro.props;
 const variant = p.layout.hero;            // "full" | "split"
 const img = p.hero.image ? p.images[p.hero.image] : null;
 const fmt = (n) => n.toLocaleString('en-US');
+// Optional place.json fields (leave them out and the output does not change):
+//   hero.veil: "light"  full hero only: fades the shade out above the text, so the top half of the photo stays clear on light themes.
+//   booking_url         https link of a booking page (e.g. Fresha); shown as the main hero button, with the map or call button after it.
+//   booking_label       text of that button; default «احجز الآن».
+const booking = p.booking_url ? { href: p.booking_url, label: p.booking_label || 'احجز الآن' } : null;
+const veilStyle = p.hero.veil === 'light'
+  ? 'background: linear-gradient(to top, var(--bg) 2%, rgba(var(--bg-rgb), .9) 30%, rgba(var(--bg-rgb), .3) 48%, rgba(var(--bg-rgb), 0) 60%)'
+  : undefined;
 // Arabic counted noun: 3–10 take the plural (تقييمات), round hundreds/thousands the singular (تقييم), the rest تقييمًا.
 const ratingWord = (n) => { const r = n % 100; return r >= 3 && r <= 10 ? 'تقييمات' : r === 0 ? 'تقييم' : 'تقييمًا'; };
 const primary = p.directions_url
@@ -14,7 +22,7 @@ const primary = p.directions_url
   {variant === 'full' && img && (
     <>
       <div class="hero__media" data-hero-media><Img img={img} eager pos="50% 60%" /></div>
-      <div class="hero__shade" aria-hidden="true"></div>
+      <div class="hero__shade" aria-hidden="true" style={veilStyle}></div>
     </>
   )}
 
@@ -26,8 +34,10 @@ const primary = p.directions_url
       {p.hero.intro && <p class="hero__intro muted" data-hero-in>{p.hero.intro}</p>}
 
       <div class="hero__actions" data-hero-in>
-        {primary && (
-          <a class="btn btn--glow" href={primary.href} target={primary.ext ? '_blank' : undefined} rel={primary.ext ? 'noopener' : undefined}>
+        {booking && (
+          <a class="btn btn--glow" href={booking.href} target="_blank" rel="noopener">{booking.label}</a>
+        )}{primary && (
+          <a class={booking ? 'btn btn--ghost' : 'btn btn--glow'} href={primary.href} target={primary.ext ? '_blank' : undefined} rel={primary.ext ? 'noopener' : undefined}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
             {primary.label}
           </a>

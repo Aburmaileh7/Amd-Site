@@ -1,5 +1,17 @@
-/* Signature layer for kadin-spa — scoped to [data-site="kadin-spa"] only. */
-[data-site="kadin-spa"] .hero { position: relative; }
-[data-site="kadin-spa"] .hero::after { content: ""; position: absolute; inset: auto 0 0 0; height: 28%; pointer-events: none;
-  background: linear-gradient(to top, rgba(0,0,0,.18), transparent); }
-[data-site="kadin-spa"] .visit { background-image: radial-gradient(circle at 85% 15%, rgba(var(--glow-rgb), .12) 0 120px, transparent 121px); }
+/* KADIN.SPA: the navy and lavender of its own posts, and a navy thread that ties the three booking steps from WhatsApp to the door */
+html[data-site="kadin-spa"] .marquee{background:#1C2B52;border-color:#1C2B52}
+html[data-site="kadin-spa"] .marquee__row li{color:#F0F1F8}
+html[data-site="kadin-spa"] .marquee__dot{background:#B9B6E0}
+html[data-site="kadin-spa"] .item__price{color:#1C2B52;font-weight:600}
+html[data-site="kadin-spa"] .story__track{position:relative}
+html[data-site="kadin-spa"] .ks-thread{position:absolute;inset-block:0 80px;inset-inline-start:0;width:3px;background:#1C2B52;transform-origin:top;border-radius:3px}
+html[data-site="kadin-spa"] .panel{padding-inline-start:20px}
+html[data-site="kadin-spa"] .visit__cta button{display:none}
+@media (max-width:899px){
+  html[data-site="kadin-spa"] .hero--split{padding-block-start:128px}
+  html[data-site="kadin-spa"] .hero__side{order:-1}
+  html[data-site="kadin-spa"] .hero__side .photo{aspect-ratio:1/1}
+  html[data-site="kadin-spa"] .hero--split .hero__grid{gap:22px}
+}
+html[data-site="kadin-spa"] .hero__side img{object-position:50% 34%}
+html[data-site="kadin-spa"] .hero__actions .btn--ghost svg{display:none}

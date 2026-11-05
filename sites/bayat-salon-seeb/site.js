@@ -1,10 +1,8 @@
-// A warm pebble of light, the same shape as the salon's mirrors, glows behind the name and slowly changes its outline like light breathing on glass.
+// Each photo sits inside the outline of the salon's pebble mirrors, and its warm ring drifts and brightens as it scrolls past.
 (function(){
-  var c=document.querySelector('.hero__content');
-  if(!c)return;
-  var p=document.createElement('span');p.className='by-pebble';p.setAttribute('aria-hidden','true');c.prepend(p);
-  if(reduce)return;
-  gsap.from(p,{opacity:0,scale:.85,duration:1.4,delay:.4,ease:'power2.out'});
-  gsap.to(p,{borderRadius:'45% 55% 42% 58%/58% 44% 56% 42%',duration:6,repeat:-1,yoyo:true,ease:'sine.inOut'});
-  gsap.to(p,{boxShadow:'0 0 46px rgba(242,196,109,.75), inset 0 0 36px rgba(242,196,109,.4)',duration:2.4,repeat:-1,yoyo:true,ease:'sine.inOut'});
+  document.querySelectorAll('.panel__media').forEach(function(m){
+    var r=document.createElement('span');r.className='by-pebble';r.setAttribute('aria-hidden','true');m.appendChild(r);
+    if(reduce)return;
+    gsap.fromTo(r,{rotation:-3},{rotation:3,boxShadow:'0 0 46px rgba(242,196,109,.7)',ease:'none',scrollTrigger:{trigger:m,start:'top 90%',end:'bottom 10%',scrub:1}});
+  });
 })();
