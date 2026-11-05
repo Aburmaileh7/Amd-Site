@@ -1,44 +1,40 @@
 {
-  "place_id": "",
+  "place_id": "ChIJr4FzcADf0z0Rw2QBY7xEJMU",
   "batch_id": "amd-gulf-20261105",
   "slug": "bon-roastery-specialty-coffee",
-  "theme": "cafe_light",
+  "theme": "gulf_luxe",
   "approved": false,
   "agency": "Amd web",
+  "data_source": "خرائط Google وصفحة المحل على طلبات",
   "layout": {
     "hero": "full",
-    "story": "stack"
+    "story": "horizontal"
   },
   "accent": {
-    "hex": "#8A4A2B",
-    "rgb": "138, 74, 43",
-    "hover": "#73401F",
-    "ink": "#FFFFFF"
+    "hex": "#D9A679",
+    "rgb": "217, 166, 121",
+    "hover": "#E6BA92",
+    "ink": "#1C120B"
   },
   "name": "BON Roastery & Specialty Coffee",
   "name_lang": "en",
-  "category_label": "محمصة وكافيه مختص في صلالة",
-  "area": "صلالة، عُمان",
-  "address": "صلالة، عُمان",
+  "category_label": "محمصة وكافيه مختص",
+  "area": "جنوب الدهاريز، صلالة",
+  "address": "جنوب الدهاريز، صلالة",
   "phone": {
     "display": "+968 9595 5670",
     "tel": "+96895955670"
   },
-  "whatsapp": {
-    "number": "96895955670",
-    "display": "+968 9595 5670"
-  },
-  "directions_url": "https://www.google.com/maps/search/?api=1&query=BON+Roastery+Specialty+Coffee+Salalah",
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=BON%20Roastery%20%26%20Specialty%20Coffee&query_place_id=ChIJr4FzcADf0z0Rw2QBY7xEJMU",
   "map_query": "BON Roastery & Specialty Coffee, Salalah, Oman",
   "rating": {
     "value": 4.9,
-    "count": 146,
+    "count": 145,
     "source": "Google"
   },
-  "data_source": "خرائط Google — تقييمات العملاء",
   "hero": {
-    "headline": "محمصة تتحمص في صلالة وتُقدَّم طازجة",
-    "intro": "محمصة وكافيه متخصص في صلالة بتقييم 4.9 من 146 مراجعة. قهوة مختصة تُحمَّص وتُقدَّم طازجة، مع مشروبات باردة وحلويات لعشاق القهوة.",
+    "headline": "لاتيه وكيك على خشب داكن، والنخيل خلف الزجاج",
+    "intro": "محمصة وكافيه مختص في جنوب الدهاريز: حبوب من إثيوبيا وكولومبيا والبرازيل والسلفادور، في 60 بارد أو ساخن، وجلسات جلد ورقعة شطرنج على الطاولة.",
     "image": "hero"
   },
   "motion": {
@@ -46,182 +42,429 @@
   },
   "sections": [
     "marquee",
-    "menu",
     "story",
+    "menu",
     "reviews",
-    "amenities",
+    "proof",
     "visit"
   ],
   "marquee": {
-    "label": "BON Roastery",
+    "label": "على طاولة BON",
     "items": [
-      "محمصة مختصة",
-      "صلالة عُمان",
-      "قهوة طازجة",
-      "لاتيه آرت",
-      "مشروبات باردة",
-      "حبوب مختصة"
+      "في 60 بارد",
+      "بون برو سيجنتشر",
+      "إثيوبيا غوجي",
+      "كولومبيا لورا",
+      "كيكة جوز الهند",
+      "جنوب الدهاريز"
     ]
   },
   "story": {
+    "eyebrow": "من صور الزوار",
+    "title": "من المحمصة إلى الطاولة",
     "items": [
       {
-        "title": "قهوة تُحمَّص عندنا",
-        "text": "محمصة في صلالة تتحكم في كل خطوة من التحميص حتى التقديم، لتصلك النكهة طازجة كما قصدها المزارع.",
-        "image": "story-roast"
+        "label": "المحمصة",
+        "title": "حوض التبريد ممتلئ بالحبوب",
+        "text": "في صور الزوار تظهر آلة التحميص والحبوب في حوضها، وعلى الرف أكياس البن جاهزة للبيت. وعلى طلبات ستة أنواع من الحبوب، عبوة 250 جرام من 5.460 إلى 8.840 ر.ع.",
+        "image": "roaster"
       },
       {
-        "title": "تقييم 4.9 من عشاق القهوة",
-        "text": "146 مراجعة على خرائط Google وأكثر من 170 صورة من عملائنا — أرقام تدل على قهوة تستحق الزيارة.",
-        "image": "story-cups"
+        "label": "الطاولة",
+        "title": "رقعة شطرنج بجانب الفنجان",
+        "text": "خشب داكن وكنب جلد بني، ورقعة شطرنج بين فنجان الإسبريسو وصحن الكيك.",
+        "image": "chess"
       },
       {
-        "title": "متوفرون على طلبات",
-        "text": "اطلب الآن عبر طلبات أو تواصل معنا على واتساب +968 9595 5670 لطلبات الحبوب والهدايا.",
-        "image": "story-order"
+        "label": "الواجهة",
+        "title": "مقاعد أمام الزجاج والنخيل",
+        "text": "درج معلّق وطاولة لشخصين، ونخيل خلف الزجاج، وعلب وأكياس قهوة على رفوف الجدار.",
+        "image": "stair"
       }
     ]
   },
   "menu": {
-    "kind": "menu",
-    "sample": true,
     "title": "المنيو",
-    "eyebrow": "محمصة وكافيه — صلالة",
-    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بمنيو طلبات الحقيقي بعد الموافقة.",
+    "eyebrow": "من صفحة المحل على طلبات",
     "currency": "ر.ع",
-    "foot": "للطلبات والتوصيل",
+    "sample": false,
+    "note": "الأصناف والأسعار منقولة من صفحة المحل على طلبات قبل الخصم المعروض هناك، وقد تتغير.",
+    "foot": "للطلبات والاستفسار",
     "categories": [
       {
         "id": "hot",
-        "title": "مشروبات ساخنة",
-        "tagline": "إسبريسو ولاتيه",
-        "image": "hot",
+        "title": "ساخنة",
+        "tagline": "إسبريسو وحليب",
+        "image": "grinders",
         "items": [
-          { "name": "إسبريسو", "desc": "خلطة المحمصة" },
-          { "name": "كابتشينو", "desc": "رغوة حليب كثيفة" },
-          { "name": "قهوة مختصة مقطرة", "desc": "نوتات فاكهية" },
-          { "name": "سبانش لاتيه", "desc": "حليب مكثف" }
+          {
+            "name": "أمريكانو",
+            "price": 1.3
+          },
+          {
+            "name": "كورتادو",
+            "price": 1.5
+          },
+          {
+            "name": "لاتيه",
+            "price": 1.7
+          },
+          {
+            "name": "فلات وايت",
+            "price": 1.7
+          },
+          {
+            "name": "كابتشينو",
+            "price": 1.7
+          },
+          {
+            "name": "لاتيه إسباني",
+            "price": 1.8
+          },
+          {
+            "name": "لاتيه كراميل",
+            "price": 1.8
+          },
+          {
+            "name": "لاتيه فانيليا",
+            "price": 1.8
+          },
+          {
+            "name": "كراميل ماكياتو",
+            "price": 1.8
+          },
+          {
+            "name": "موكا بيضاء",
+            "price": 1.9
+          },
+          {
+            "name": "موكا",
+            "price": 1.9
+          },
+          {
+            "name": "شوكولاتة ساخنة",
+            "price": 2
+          }
         ]
       },
       {
-        "id": "cold",
-        "title": "مشروبات باردة",
-        "tagline": "للأجواء العُمانية",
-        "image": "cold",
+        "id": "filter",
+        "title": "في 60 وكولد برو",
+        "tagline": "مفلترة ومنقوعة",
+        "image": "brew",
         "items": [
-          { "name": "آيس لاتيه", "desc": "منعش" },
-          { "name": "كولد برو", "desc": "استخلاص بطيء" },
-          { "name": "آيس ماتشا", "desc": "أخضر بارد" },
-          { "name": "ليمون بالنعناع", "desc": "طازج" }
+          {
+            "name": "في 60 ساخن كلاسيك",
+            "price": 2.34
+          },
+          {
+            "name": "في 60 ساخن فروتي",
+            "price": 2.21
+          },
+          {
+            "name": "في 60 ساخن فروتي فاخر",
+            "price": 2.6
+          },
+          {
+            "name": "في 60 كلاسيكي بارد",
+            "price": 2.34,
+            "mentioned": true
+          },
+          {
+            "name": "في 60 بارد فروتي",
+            "price": 2.34
+          },
+          {
+            "name": "في 60 بارد فروتي فاخر",
+            "price": 2.6
+          },
+          {
+            "name": "قهوة كولد برو",
+            "price": 2.3
+          },
+          {
+            "name": "بون برو (سيجنتشر)",
+            "price": 2.86
+          },
+          {
+            "name": "كاسكارا",
+            "price": 1.04
+          }
         ]
       },
       {
         "id": "beans",
         "title": "حبوب القهوة",
-        "tagline": "للبيت والمكاتب",
-        "image": "beans",
+        "tagline": "بلد المنشأ والنكهة",
+        "image": "shelf",
         "items": [
-          { "name": "حبوب مختصة 250غ", "desc": "محمصة طازجة" },
-          { "name": "حبوب مختصة 500غ", "desc": "محمصة طازجة" },
-          { "name": "قهوة مطحونة", "desc": "حسب الطلب" },
-          { "name": "علبة هدايا", "desc": "تشكيلة المحمصة" }
+          {
+            "name": "إثيوبيا غوجي (250 جرام)",
+            "price": 7.15,
+            "desc": "زهرية وحمضية وفاكهية"
+          },
+          {
+            "name": "كافا إثيوبيا 250 جرام",
+            "price": 5.85,
+            "desc": "برية من غابات كافا، غنية وترابية"
+          },
+          {
+            "name": "إثيوبيا كافا (1 كجم)",
+            "price": 22.1,
+            "desc": "برية من غابات كافا، غنية وترابية"
+          },
+          {
+            "name": "كولومبيا لورا 250 جرام",
+            "price": 7.15,
+            "desc": "حموضة زاهية وقوام ناعم ونكهة فاكهية"
+          },
+          {
+            "name": "حبوب سيريزا كولومبيا 250 جم",
+            "price": 8.45,
+            "desc": "حلاوة تشبه الكرز وحموضة زاهية"
+          },
+          {
+            "name": "السلفادور غوستا (250 جرام)",
+            "price": 8.84,
+            "desc": "حلاوة عالية ورائحة زهرية"
+          },
+          {
+            "name": "برازيل سانتوس 250 جرام",
+            "price": 5.46,
+            "desc": "البندق وقصب السكر والجوز، حموضة منخفضة وقوام كريمي"
+          },
+          {
+            "name": "برازيل سانتوس 1 كجم",
+            "price": 20.8,
+            "desc": "البندق وقصب السكر والجوز، حموضة منخفضة وقوام كريمي"
+          },
+          {
+            "name": "علبة بون",
+            "price": 24.7,
+            "desc": "بوكس هدايا يضم 4 أنواع من قهوة المصدر الواحد"
+          },
+          {
+            "name": "علبة تقطير القهوة",
+            "price": 5.85,
+            "desc": "أكياس تقطير بحصص فردية"
+          },
+          {
+            "name": "فلتر القهوة (هاريو)",
+            "price": 2.08
+          }
+        ]
+      },
+      {
+        "id": "signature",
+        "title": "مميزة ومثلجة",
+        "tagline": "باردة وبنكهات",
+        "image": "lounge",
+        "items": [
+          {
+            "name": "ديرتي إسبريسو",
+            "price": 2.1
+          },
+          {
+            "name": "فانيلا بروليه",
+            "price": 2.3
+          },
+          {
+            "name": "بيري كانو",
+            "price": 2.3
+          },
+          {
+            "name": "قهوة بونبرو",
+            "price": 2.5
+          },
+          {
+            "name": "أمريكانو مثلج",
+            "price": 1.56
+          },
+          {
+            "name": "آيس فانيليا لاتيه",
+            "price": 1.7
+          },
+          {
+            "name": "لاتيه مثلج",
+            "price": 1.82
+          },
+          {
+            "name": "لاتيه كراميل مثلج",
+            "price": 1.8
+          },
+          {
+            "name": "لاتيه إسباني مثلج",
+            "price": 1.95
+          },
+          {
+            "name": "شيكن وايت موكا مثلج",
+            "price": 2.1
+          }
+        ]
+      },
+      {
+        "id": "matcha",
+        "title": "ماتشا وشاي مثلج",
+        "tagline": "دون قهوة",
+        "items": [
+          {
+            "name": "ماتشا ساخنة",
+            "price": 2.08
+          },
+          {
+            "name": "ماتشا حلوة",
+            "price": 2.08
+          },
+          {
+            "name": "ماتشا الفراولة",
+            "price": 2.34
+          },
+          {
+            "name": "ماتشا المانجو",
+            "price": 2.34
+          },
+          {
+            "name": "ماتشا الفانيليا",
+            "price": 2.34
+          },
+          {
+            "name": "شاي مثلج بالخوخ",
+            "price": 1.7
+          },
+          {
+            "name": "شاي مثلج بالفراولة",
+            "price": 1.7
+          },
+          {
+            "name": "شاي مثلج بالمانجو",
+            "price": 1.7
+          },
+          {
+            "name": "موهيتو مانجو",
+            "price": 1.8
+          },
+          {
+            "name": "موهيتو بالخوخ",
+            "price": 1.8
+          },
+          {
+            "name": "باشن موهيتو",
+            "price": 1.8
+          },
+          {
+            "name": "كركاديه",
+            "price": 1.56
+          }
         ]
       },
       {
         "id": "sweets",
         "title": "حلويات",
-        "tagline": "مع القهوة",
-        "image": "sweets",
+        "tagline": "مع الفنجان",
+        "image": "table",
         "items": [
-          { "name": "كيك قهوة", "desc": "طازج" },
-          { "name": "كرواسون", "desc": "سادة أو زعتر" },
-          { "name": "تشيز كيك", "desc": "بارد" }
+          {
+            "name": "شوكولاتة راوند",
+            "price": 1.9
+          },
+          {
+            "name": "تشيز كيك سنيكرز",
+            "price": 2.08
+          },
+          {
+            "name": "كيكة جوز الهند",
+            "price": 2.6,
+            "mentioned": true
+          }
         ]
       }
     ]
   },
-  "mentions": [],
-  "reviews": [],
-  "amenities": {
-    "eyebrow": "قبل أن تزورنا",
-    "title": "ماذا يوفره BON",
-    "image": "amen",
-    "items": [
-      {
-        "icon": "coffee",
-        "title": "محمصة داخلية",
-        "text": "تحميص طازج في الموقع."
-      },
-      {
-        "icon": "check",
-        "title": "تقييم 4.9",
-        "text": "من 146 مراجعة على Google."
-      },
-      {
-        "icon": "calendar",
-        "title": "متوفر على طلبات",
-        "text": "اطلب القهوة والحلويات للتوصيل."
-      },
-      {
-        "icon": "car",
-        "title": "في صلالة",
-        "text": "موقع سهل في قلب المدينة."
-      }
-    ]
-  },
+  "mentions": [
+    "كيكة النارجيل",
+    "v60 بارد",
+    "إسبريسو"
+  ],
+  "reviews": [
+    {
+      "author": "Aamer H.",
+      "text": "تجربة رهيبة مرّة! القهوة المختصة عندهم موزونة ومضبوطة بالرأس، الجودة والإعداد ولا غلطة والأحلى من القهوة التعامل والأخلاق العالية من الموظف أحمد الهاشمي؛ بشوش وفاهم صح في أنواع المحاصيل واقتراحه للقهوة بمحله تماماً بيض الله وجهك يا أحمد وكل الشكر للإدارة على هالطاقم المبدع",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=BON%20Roastery%20%26%20Specialty%20Coffee&query_place_id=ChIJr4FzcADf0z0Rw2QBY7xEJMU"
+    },
+    {
+      "author": "Ali A.",
+      "text": "بصراحة من افضل و اجمل الكافيهات على مستوى صلاله، القهوه موزونه و السويت لذيذ خذينا v60 بارد و اسبريسو و كيكة النارجيل ١٠/١٠ ، السعر ممتاز مقابل الجوده الحساب كامل ب٥.٣٠٠ ريال",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=BON%20Roastery%20%26%20Specialty%20Coffee&query_place_id=ChIJr4FzcADf0z0Rw2QBY7xEJMU"
+    },
+    {
+      "author": "Hamood S.",
+      "text": "كوفي جميل بكل تفاصيله ويتميز بجودة القهوه بأنواعها ال v60 و signature وكعكة النارجيل ماعليهم كلام …",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=BON%20Roastery%20%26%20Specialty%20Coffee&query_place_id=ChIJr4FzcADf0z0Rw2QBY7xEJMU"
+    }
+  ],
   "visit": {
-    "image": "visit"
+    "image": "front"
   },
   "images": {
     "hero": {
-      "id": "photo-1675306408031-a9aad9f23308",
-      "alt": "صورة توضيحية: حبوب بن محمصة تملأ الإطار",
-      "page": "https://unsplash.com/photos/a-dense-pile-of-roasted-brown-coffee-beans-filling-the-frame"
+      "file": "latte-palms.jpg",
+      "alt": "صورة فنجان لاتيه وقطعة كيك على طاولة خشبية أمام نخيل خلف الزجاج",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=BON%20Roastery%20%26%20Specialty%20Coffee&query_place_id=ChIJr4FzcADf0z0Rw2QBY7xEJMU",
+      "credit": "من خرائط Google"
     },
-    "hot": {
-      "id": "photo-1760175445000-0e01e193d1cd",
-      "alt": "صورة توضيحية: فنجان قهوة برسمة لاتيه آرت",
-      "page": "https://unsplash.com/photos/a-cup-of-coffee-with-latte-art-on-a-saucer"
+    "grinders": {
+      "file": "grinders.jpg",
+      "alt": "صورة طاحونتي قهوة على بار المحل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=BON%20Roastery%20%26%20Specialty%20Coffee&query_place_id=ChIJr4FzcADf0z0Rw2QBY7xEJMU",
+      "credit": "من خرائط Google"
     },
-    "cold": {
-      "id": "photo-1787490736292-a58de44e276f",
-      "alt": "صورة توضيحية: لاتيه بارد مع قهوة مثلجة على صينية خشبية",
-      "page": "https://unsplash.com/photos/a-latte-with-heart-art-and-iced-coffee-on-a-wooden-tray"
+    "lounge": {
+      "file": "lounge.jpg",
+      "alt": "صورة جلسات كنب جلد بني وجدار بإضاءة ذهبية",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=BON%20Roastery%20%26%20Specialty%20Coffee&query_place_id=ChIJr4FzcADf0z0Rw2QBY7xEJMU",
+      "credit": "من خرائط Google"
     },
-    "beans": {
-      "id": "photo-1447933601403-0c6688de566e",
-      "alt": "صورة توضيحية: حبوب بن مختصة محمصة",
-      "page": "https://unsplash.com/photos/coffee-bean-lot"
+    "shelf": {
+      "file": "bean-shelf.jpg",
+      "alt": "صورة أكياس بن على رفوف قرب الواجهة الزجاجية",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=BON%20Roastery%20%26%20Specialty%20Coffee&query_place_id=ChIJr4FzcADf0z0Rw2QBY7xEJMU",
+      "credit": "من خرائط Google"
     },
-    "sweets": {
-      "id": "photo-1674327105074-46dd8319164b",
-      "alt": "صورة توضيحية: كابتشينو على صحن مع ملعقة",
-      "page": "https://unsplash.com/photos/a-cup-of-cappuccino-on-a-saucer-with-a-spoon"
+    "stair": {
+      "file": "stair-seat.jpg",
+      "alt": "صورة طاولة لشخصين بجانب درج معلق وواجهة زجاجية",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=BON%20Roastery%20%26%20Specialty%20Coffee&query_place_id=ChIJr4FzcADf0z0Rw2QBY7xEJMU",
+      "credit": "من خرائط Google"
     },
-    "story-roast": {
-      "id": "photo-1511537190424-bbbab87ac5eb",
-      "alt": "صورة توضيحية: صب حبوب بن على آلة تحميص",
-      "page": "https://unsplash.com/photos/person-pouring-coffee-beans-on-a-machine"
+    "chess": {
+      "file": "chess-sofa.jpg",
+      "alt": "صورة رقعة شطرنج وفنجان وكيك على طاولة أمام كنبة جلد",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=BON%20Roastery%20%26%20Specialty%20Coffee&query_place_id=ChIJr4FzcADf0z0Rw2QBY7xEJMU",
+      "credit": "من خرائط Google"
     },
-    "story-cups": {
-      "id": "photo-1672933647933-42628e319667",
-      "alt": "صورة توضيحية: فنجان كابتشينو على صحن",
-      "page": "https://unsplash.com/photos/a-cup-of-cappuccino-on-a-saucer"
+    "table": {
+      "file": "chess-cake.jpg",
+      "alt": "صورة صينية كيك وأكواب قهوة بجانب رقعة شطرنج من الأعلى",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=BON%20Roastery%20%26%20Specialty%20Coffee&query_place_id=ChIJr4FzcADf0z0Rw2QBY7xEJMU",
+      "credit": "من خرائط Google"
     },
-    "story-order": {
-      "id": "photo-1544931733-7ee200c8ca3c",
-      "alt": "صورة توضيحية: يد تحمل فنجان قهوة جاهزًا للطلب",
-      "page": "https://unsplash.com/photos/person-holding-coffee-cup"
+    "roaster": {
+      "file": "roaster.jpg",
+      "alt": "صورة حبوب قهوة محمصة في حوض تبريد آلة التحميص",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=BON%20Roastery%20%26%20Specialty%20Coffee&query_place_id=ChIJr4FzcADf0z0Rw2QBY7xEJMU",
+      "credit": "من خرائط Google"
     },
-    "amen": {
-      "id": "photo-1602531151551-c51e384ff73c",
-      "alt": "صورة توضيحية: آلة إسبريسو سوداء وبيضاء",
-      "page": "https://unsplash.com/photos/black-and-white-espresso-machine"
+    "front": {
+      "file": "front.jpg",
+      "alt": "صورة واجهة المحل الزجاجية ولافتة BON",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=BON%20Roastery%20%26%20Specialty%20Coffee&query_place_id=ChIJr4FzcADf0z0Rw2QBY7xEJMU",
+      "credit": "من خرائط Google"
     },
-    "visit": {
-      "id": "photo-1625021659159-f63f546d74a7",
-      "alt": "صورة توضيحية: فنجان سيراميك أبيض وسط حبوب بن محمصة",
-      "page": "https://unsplash.com/photos/a-white-ceramic-cup-resting-in-a-pile-of-roasted-coffee-beans"
+    "brew": {
+      "file": "bon-brew.jpg",
+      "alt": "صورة زجاجة بون برو بجانب نصف فاكهة باشن فروت",
+      "source_url": "https://www.talabat.com/oman/restaurant/1119919/bon-roastery-specialty-coffee-janub-ad-dahariz",
+      "credit": "من صفحة طلبات"
     }
   }
 }

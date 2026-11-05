@@ -1,5 +1,22 @@
-/* Signature layer for oya-beauty-salon — scoped to [data-site="oya-beauty-salon"] only. */
-[data-site="oya-beauty-salon"] .hero { position: relative; }
-[data-site="oya-beauty-salon"] .hero::after { content: ""; position: absolute; inset: auto 0 0 0; height: 28%; pointer-events: none;
-  background: linear-gradient(to top, rgba(0,0,0,.18), transparent); }
-[data-site="oya-beauty-salon"] .visit { background-image: radial-gradient(circle at 85% 15%, rgba(var(--glow-rgb), .12) 0 120px, transparent 121px); }
+/* Oya: the salon's teal and its round wall sign. White walls, teal ink; the hero photo sits in an arch that echoes the sign,
+   and one hair-coloured strand draws itself down the page edge as you scroll (site.js). */
+html[data-site="oya-beauty-salon"]{--bg:#F5FAF9;--bg-rgb:245,250,249;--surface:#E4F1EF;--surface-2:#D3E8E5;--ink:#10302E;--ink-rgb:16,48,46;--muted:#4B6663;--line:rgba(16,48,46,.14);--radius:22px}
+html[data-site="oya-beauty-salon"] main{position:relative}
+html[data-site="oya-beauty-salon"] .oy-strand{position:absolute;top:0;inset-inline-end:0;width:44px;z-index:3;pointer-events:none;overflow:visible}
+html[data-site="oya-beauty-salon"] .oy-strand path{fill:none;stroke:#A9743F;stroke-width:2.5;stroke-linecap:round;opacity:.75}
+html[data-site="oya-beauty-salon"] .hero__side{border-radius:clamp(160px,18vw,260px) clamp(160px,18vw,260px) 22px 22px}
+html[data-site="oya-beauty-salon"] .hero__side .photo{aspect-ratio:4/5}
+html[data-site="oya-beauty-salon"] .hero__side .photo img{object-position:50% 40%!important}
+html[data-site="oya-beauty-salon"] .panel-m__plain{background:var(--glow);position:relative;overflow:hidden;height:100%;min-height:260px}
+html[data-site="oya-beauty-salon"] .panel-m__plain::after{content:"";position:absolute;inset:auto -18% -32% auto;width:78%;aspect-ratio:1;border-radius:50%;background:rgba(255,255,255,.1)}
+html[data-site="oya-beauty-salon"] .btn--glow svg{display:none}
+@media (max-width:899px){
+  html[data-site="oya-beauty-salon"] .hero--split{padding-block:calc(52px + 68px + 6px) 56px!important}
+  html[data-site="oya-beauty-salon"] .hero--split .hero__grid{display:flex!important;flex-direction:column;gap:22px;align-items:stretch}
+  html[data-site="oya-beauty-salon"] .hero__side{order:-1;width:min(100%,430px);margin-inline:auto}
+  html[data-site="oya-beauty-salon"] .hero__side .photo{aspect-ratio:1/1}
+  html[data-site="oya-beauty-salon"] .hero__side .photo img{object-position:50% 30%!important}
+  html[data-site="oya-beauty-salon"] .oy-strand{width:14px}
+}
+html[data-site="oya-beauty-salon"] .panel-m__visual::after{background:linear-gradient(to top,rgba(8,40,38,.78),transparent 52%)}
+html[data-site="oya-beauty-salon"] .panel-m__tag,html[data-site="oya-beauty-salon"] .panel-m__name{color:#fff}

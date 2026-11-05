@@ -1,5 +1,24 @@
-/* Signature layer for bon-roastery-specialty-coffee — scoped to [data-site="bon-roastery-specialty-coffee"] only. */
-[data-site="bon-roastery-specialty-coffee"] .hero { position: relative; }
-[data-site="bon-roastery-specialty-coffee"] .hero::after { content: ""; position: absolute; inset: auto 0 0 0; height: 28%; pointer-events: none;
-  background: linear-gradient(to top, rgba(0,0,0,.18), transparent); }
-[data-site="bon-roastery-specialty-coffee"] .visit { background-image: radial-gradient(circle at 85% 15%, rgba(var(--glow-rgb), .12) 0 120px, transparent 121px); }
+/* BON: walnut tables with a chessboard beside the cup. A board band fills square by square on scroll while a knight jumps its L (site.js). */
+html[data-site="bon-roastery-specialty-coffee"]{--bg:#15100C;--bg-rgb:21,16,12;--surface:#20170F;--surface-2:#2C2016;--ink:#F4EADB;--ink-rgb:244,234,219;--muted:#BBAB95;--line:rgba(244,234,219,.14)}
+html[data-site="bon-roastery-specialty-coffee"] .brand{white-space:nowrap}
+html[data-site="bon-roastery-specialty-coffee"] .hero__media .photo img{object-position:50% 76%!important}
+html[data-site="bon-roastery-specialty-coffee"] .bn-board{--c:calc(100vw / 16);position:relative;display:grid;grid-template-columns:repeat(16,1fr);overflow:hidden;background:var(--bg)}
+html[data-site="bon-roastery-specialty-coffee"] .bn-board i{display:block;aspect-ratio:1;background:#3A2415}
+html[data-site="bon-roastery-specialty-coffee"] .bn-board i.l{background:#E8DAC3}
+html[data-site="bon-roastery-specialty-coffee"] .bn-knight{position:absolute;top:0;left:0;width:var(--c);height:var(--c);display:grid;place-items:center;font-size:calc(var(--c) * .68);line-height:1;color:#D9A679;text-shadow:0 1px 0 #15100C;font-family:"Segoe UI Symbol","Noto Sans Symbols2","DejaVu Sans",serif}
+@media (max-width:700px){
+  html[data-site="bon-roastery-specialty-coffee"] .bn-board{--c:12.5vw;grid-template-columns:repeat(8,1fr)}
+  html[data-site="bon-roastery-specialty-coffee"] .bn-board i:nth-child(n+17){display:none}
+  /* phone: the cup and the palms get the first screen, the words sit under them on solid walnut */
+  html[data-site="bon-roastery-specialty-coffee"] .hero--full{min-height:0!important;display:block!important}
+  html[data-site="bon-roastery-specialty-coffee"] .hero__media{inset:0 0 auto!important;height:120vw;overflow:hidden}
+  html[data-site="bon-roastery-specialty-coffee"] .hero__media .photo{height:100%}
+  html[data-site="bon-roastery-specialty-coffee"] .hero__media .photo img{object-position:50% 72%!important}
+  html[data-site="bon-roastery-specialty-coffee"] .hero__media .photo__badge{top:auto!important;bottom:40px}
+  html[data-site="bon-roastery-specialty-coffee"] .hero__shade{background:linear-gradient(180deg,rgba(21,16,12,.62) 0,rgba(21,16,12,0) 120px,rgba(21,16,12,0) calc(120vw - 34px),var(--bg) 120vw)!important}
+  html[data-site="bon-roastery-specialty-coffee"] .hero--full .hero__grid{padding-block:calc(120vw + 44px) 36px!important}
+}
+html[data-site="bon-roastery-specialty-coffee"] .panel-m__visual::after{background:linear-gradient(to top,rgba(12,8,5,.86),transparent 50%)}
+html[data-site="bon-roastery-specialty-coffee"] .panel-m__tag{color:#F0D3B6}
+html[data-site="bon-roastery-specialty-coffee"] .panel-m__name{color:#fff}
+html[data-site="bon-roastery-specialty-coffee"] .panel-m__plain{background:repeating-conic-gradient(#3A2415 0 25%,#2A1A0F 0 50%) 0 0/96px 96px}
