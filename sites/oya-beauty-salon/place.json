@@ -1,0 +1,210 @@
+{
+  "place_id": "",
+  "batch_id": "amd-gulf-20261105",
+  "slug": "oya-beauty-salon",
+  "theme": "beauty_soft",
+  "approved": false,
+  "agency": "Amd web",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#B08D57",
+    "rgb": "176, 141, 87",
+    "hover": "#97763F",
+    "ink": "#FFFFFF"
+  },
+  "name": "Oya Beauty Salon",
+  "name_lang": "en",
+  "category_label": "صالون تجميل في جدحفص، البحرين",
+  "area": "جدحفص، البحرين",
+  "address": "جدحفص، البحرين",
+  "phone": {
+    "display": "+973 3803 1310",
+    "tel": "+97338031310"
+  },
+  "whatsapp": {
+    "number": "97338031310",
+    "display": "+973 3803 1310"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Oya+Beauty+Salon+Jidhafs",
+  "map_query": "Oya Beauty Salon, Jidhafs, Bahrain",
+  "rating": {
+    "value": 4.6,
+    "count": 819,
+    "source": "Google"
+  },
+  "data_source": "خرائط Google — تقييمات العملاء",
+  "hero": {
+    "headline": "صالونك المفضل في جدحفص لعناية يومية",
+    "intro": "صالون تجميل في جدحفص بتقييم 4.6 من أكثر من 800 مراجعة. قص وتصفيف وصبغات وعناية بالأظافر والبشرة — واحجزي على واتساب مباشرة.",
+    "image": "hero"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "story",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "marquee": {
+    "label": "خدمات صالون أويا",
+    "items": [
+      "قص وتصفيف",
+      "صبغات وشعر",
+      "مانيكير وباديكير",
+      "تنظيف بشرة",
+      "تسريحات مناسبات",
+      "جدحفص البحرين"
+    ]
+  },
+  "story": {
+    "items": [
+      {
+        "title": "تقييم يثق به أهل جدحفص",
+        "text": "4.6 من 819 مراجعة على خرائط Google، وأكثر من 300 صورة من داخل الصالون يوثقها عملاؤنا.",
+        "image": "story-trust"
+      },
+      {
+        "title": "عناية متكاملة بالشعر",
+        "text": "من القص اليومي إلى الصبغات والتسريحات للمناسبات، بمنتجات مناسبة لنوع شعرك ومواعيد تناسب يومك.",
+        "image": "story-hair"
+      },
+      {
+        "title": "حجز سريع على واتساب",
+        "text": "رقمنا +973 3803 1310 على واتساب — أرسلي خدمتك المفضلة وسنؤكد موعدك فورًا."
+        ,
+        "image": "story-booking"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "sample": true,
+    "title": "الخدمات",
+    "eyebrow": "صالون أويا — جدحفص",
+    "note": "قائمة خدمات توضيحية لعرض الشكل فقط، ليست أسعارًا من المحل. الأسعار تُستبدل بقائمة الصالون الحقيقية بعد الموافقة.",
+    "currency": "د.ب",
+    "foot": "للحجز على واتساب",
+    "categories": [
+      {
+        "id": "hair",
+        "title": "الشعر",
+        "tagline": "قص وصبغ وتسريح",
+        "image": "hair",
+        "items": [
+          { "name": "قص وتصفيف", "desc": "قص عصري" },
+          { "name": "صبغات", "desc": "ألوان طبيعية وموضة" },
+          { "name": "تسريحة مناسبة", "desc": "حجز مسبق" },
+          { "name": "ماسك علاجي", "desc": "تغذية عميقة" }
+        ]
+      },
+      {
+        "id": "nails",
+        "title": "الأظافر",
+        "tagline": "مانيكير وباديكير",
+        "image": "nails",
+        "items": [
+          { "name": "مانيكير", "desc": "تنظيف وتلميع" },
+          { "name": "باديكير", "desc": "عناية كاملة" },
+          { "name": "جل أظافر", "desc": "ثبات طويل" }
+        ]
+      },
+      {
+        "id": "skin",
+        "title": "البشرة",
+        "tagline": "تنظيف وعناية",
+        "image": "skin",
+        "items": [
+          { "name": "تنظيف بشرة", "desc": "لجميع أنواع البشرة" },
+          { "name": "ماسك وجه", "desc": "نضارة فورية" },
+          { "name": "عناية بالحواجب والرموش", "desc": "تنسيق دقيق" }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل أن تزورينا",
+    "title": "ماذا يوفره الصالون",
+    "image": "amen",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "حجز واتساب",
+        "text": "احجزي على +973 3803 1310 مباشرة."
+      },
+      {
+        "icon": "check",
+        "title": "تقييم 4.6",
+        "text": "من أكثر من 800 مراجعة على Google."
+      },
+      {
+        "icon": "shield",
+        "title": "منتجات آمنة",
+        "text": "عناية مناسبة لأنواع الشعر والبشرة."
+      },
+      {
+        "icon": "family",
+        "title": "في جدحفص",
+        "text": "موقع قريب وسهل الوصول إليه."
+      }
+    ]
+  },
+  "visit": {
+    "image": "visit"
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1781450090585-1a511b7066d9",
+      "alt": "صورة توضيحية: ديكور صالون شعر عصري بكراسٍ ومرايا",
+      "page": "https://unsplash.com/photos/a-modern-hair-salon-interior-with-stylish-chairs-and-mirrors"
+    },
+    "hair": {
+      "id": "photo-1695527081874-b674c46f40fb",
+      "alt": "صورة توضيحية: عميلتان تجلسان في صالون أثناء العناية",
+      "page": "https://unsplash.com/photos/a-couple-of-people-sitting-at-a-table-in-a-room"
+    },
+    "nails": {
+      "id": "photo-1632345031435-8727f6897d53",
+      "alt": "صورة توضيحية: سيدة تحصل على مانيكير في صالون أظافر",
+      "page": "https://unsplash.com/photos/a-woman-getting-her-nails-done-at-a-nail-salon"
+    },
+    "skin": {
+      "id": "photo-1570172619644-dfd03ed5d881",
+      "alt": "صورة توضيحية: تنظيف بشرة وعلاج وجه في سبا",
+      "page": "https://unsplash.com/photos/woman-getting-facial-treatment"
+    },
+    "story-trust": {
+      "id": "photo-1637777277435-3c44f82fd0c9",
+      "alt": "صورة توضيحية: كراسٍ ومرايا داخل صالون شعر",
+      "page": "https://unsplash.com/photos/a-hair-salon-with-chairs-and-a-mirror"
+    },
+    "story-hair": {
+      "id": "photo-1746723378067-83a345ff3160",
+      "alt": "صورة توضيحية: ديكور صالون شعر مع منتجات وعملاء",
+      "page": "https://unsplash.com/photos/a-hair-salon-interior-with-hair-products-and-clients"
+    },
+    "story-booking": {
+      "id": "photo-1626383137804-ff908d2753a2",
+      "alt": "صورة توضيحية: ركن انتظار أنيق داخل صالون تجميل",
+      "page": "https://unsplash.com/photos/woman-in-white-shirt-standing-near-black-leather-chairs"
+    },
+    "amen": {
+      "id": "photo-1695527081827-fdbc4e77be9b",
+      "alt": "صورة توضيحية: غرفة صالون مع كرسي وحوض ونبتة",
+      "page": "https://unsplash.com/photos/a-room-with-a-chair-sink-and-a-plant-in-it"
+    },
+    "visit": {
+      "id": "photo-1626383120723-2a941488860d",
+      "alt": "صورة توضيحية: كرسي صالون بجانب جدار أبيض",
+      "page": "https://unsplash.com/photos/black-and-gray-chair-beside-white-wall"
+    }
+  }
+}

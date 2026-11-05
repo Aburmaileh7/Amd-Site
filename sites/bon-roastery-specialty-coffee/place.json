@@ -1,0 +1,227 @@
+{
+  "place_id": "",
+  "batch_id": "amd-gulf-20261105",
+  "slug": "bon-roastery-specialty-coffee",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amd web",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#8A4A2B",
+    "rgb": "138, 74, 43",
+    "hover": "#73401F",
+    "ink": "#FFFFFF"
+  },
+  "name": "BON Roastery & Specialty Coffee",
+  "name_lang": "en",
+  "category_label": "محمصة وكافيه مختص في صلالة",
+  "area": "صلالة، عُمان",
+  "address": "صلالة، عُمان",
+  "phone": {
+    "display": "+968 9595 5670",
+    "tel": "+96895955670"
+  },
+  "whatsapp": {
+    "number": "96895955670",
+    "display": "+968 9595 5670"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=BON+Roastery+Specialty+Coffee+Salalah",
+  "map_query": "BON Roastery & Specialty Coffee, Salalah, Oman",
+  "rating": {
+    "value": 4.9,
+    "count": 146,
+    "source": "Google"
+  },
+  "data_source": "خرائط Google — تقييمات العملاء",
+  "hero": {
+    "headline": "محمصة تتحمص في صلالة وتُقدَّم طازجة",
+    "intro": "محمصة وكافيه متخصص في صلالة بتقييم 4.9 من 146 مراجعة. قهوة مختصة تُحمَّص وتُقدَّم طازجة، مع مشروبات باردة وحلويات لعشاق القهوة.",
+    "image": "hero"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "story",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "marquee": {
+    "label": "BON Roastery",
+    "items": [
+      "محمصة مختصة",
+      "صلالة عُمان",
+      "قهوة طازجة",
+      "لاتيه آرت",
+      "مشروبات باردة",
+      "حبوب مختصة"
+    ]
+  },
+  "story": {
+    "items": [
+      {
+        "title": "قهوة تُحمَّص عندنا",
+        "text": "محمصة في صلالة تتحكم في كل خطوة من التحميص حتى التقديم، لتصلك النكهة طازجة كما قصدها المزارع.",
+        "image": "story-roast"
+      },
+      {
+        "title": "تقييم 4.9 من عشاق القهوة",
+        "text": "146 مراجعة على خرائط Google وأكثر من 170 صورة من عملائنا — أرقام تدل على قهوة تستحق الزيارة.",
+        "image": "story-cups"
+      },
+      {
+        "title": "متوفرون على طلبات",
+        "text": "اطلب الآن عبر طلبات أو تواصل معنا على واتساب +968 9595 5670 لطلبات الحبوب والهدايا.",
+        "image": "story-order"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "المنيو",
+    "eyebrow": "محمصة وكافيه — صلالة",
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بمنيو طلبات الحقيقي بعد الموافقة.",
+    "currency": "ر.ع",
+    "foot": "للطلبات والتوصيل",
+    "categories": [
+      {
+        "id": "hot",
+        "title": "مشروبات ساخنة",
+        "tagline": "إسبريسو ولاتيه",
+        "image": "hot",
+        "items": [
+          { "name": "إسبريسو", "desc": "خلطة المحمصة" },
+          { "name": "كابتشينو", "desc": "رغوة حليب كثيفة" },
+          { "name": "قهوة مختصة مقطرة", "desc": "نوتات فاكهية" },
+          { "name": "سبانش لاتيه", "desc": "حليب مكثف" }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "مشروبات باردة",
+        "tagline": "للأجواء العُمانية",
+        "image": "cold",
+        "items": [
+          { "name": "آيس لاتيه", "desc": "منعش" },
+          { "name": "كولد برو", "desc": "استخلاص بطيء" },
+          { "name": "آيس ماتشا", "desc": "أخضر بارد" },
+          { "name": "ليمون بالنعناع", "desc": "طازج" }
+        ]
+      },
+      {
+        "id": "beans",
+        "title": "حبوب القهوة",
+        "tagline": "للبيت والمكاتب",
+        "image": "beans",
+        "items": [
+          { "name": "حبوب مختصة 250غ", "desc": "محمصة طازجة" },
+          { "name": "حبوب مختصة 500غ", "desc": "محمصة طازجة" },
+          { "name": "قهوة مطحونة", "desc": "حسب الطلب" },
+          { "name": "علبة هدايا", "desc": "تشكيلة المحمصة" }
+        ]
+      },
+      {
+        "id": "sweets",
+        "title": "حلويات",
+        "tagline": "مع القهوة",
+        "image": "sweets",
+        "items": [
+          { "name": "كيك قهوة", "desc": "طازج" },
+          { "name": "كرواسون", "desc": "سادة أو زعتر" },
+          { "name": "تشيز كيك", "desc": "بارد" }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "ماذا يوفره BON",
+    "image": "amen",
+    "items": [
+      {
+        "icon": "coffee",
+        "title": "محمصة داخلية",
+        "text": "تحميص طازج في الموقع."
+      },
+      {
+        "icon": "check",
+        "title": "تقييم 4.9",
+        "text": "من 146 مراجعة على Google."
+      },
+      {
+        "icon": "calendar",
+        "title": "متوفر على طلبات",
+        "text": "اطلب القهوة والحلويات للتوصيل."
+      },
+      {
+        "icon": "car",
+        "title": "في صلالة",
+        "text": "موقع سهل في قلب المدينة."
+      }
+    ]
+  },
+  "visit": {
+    "image": "visit"
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1675306408031-a9aad9f23308",
+      "alt": "صورة توضيحية: حبوب بن محمصة تملأ الإطار",
+      "page": "https://unsplash.com/photos/a-dense-pile-of-roasted-brown-coffee-beans-filling-the-frame"
+    },
+    "hot": {
+      "id": "photo-1760175445000-0e01e193d1cd",
+      "alt": "صورة توضيحية: فنجان قهوة برسمة لاتيه آرت",
+      "page": "https://unsplash.com/photos/a-cup-of-coffee-with-latte-art-on-a-saucer"
+    },
+    "cold": {
+      "id": "photo-1787490736292-a58de44e276f",
+      "alt": "صورة توضيحية: لاتيه بارد مع قهوة مثلجة على صينية خشبية",
+      "page": "https://unsplash.com/photos/a-latte-with-heart-art-and-iced-coffee-on-a-wooden-tray"
+    },
+    "beans": {
+      "id": "photo-1447933601403-0c6688de566e",
+      "alt": "صورة توضيحية: حبوب بن مختصة محمصة",
+      "page": "https://unsplash.com/photos/coffee-bean-lot"
+    },
+    "sweets": {
+      "id": "photo-1674327105074-46dd8319164b",
+      "alt": "صورة توضيحية: كابتشينو على صحن مع ملعقة",
+      "page": "https://unsplash.com/photos/a-cup-of-cappuccino-on-a-saucer-with-a-spoon"
+    },
+    "story-roast": {
+      "id": "photo-1511537190424-bbbab87ac5eb",
+      "alt": "صورة توضيحية: صب حبوب بن على آلة تحميص",
+      "page": "https://unsplash.com/photos/person-pouring-coffee-beans-on-a-machine"
+    },
+    "story-cups": {
+      "id": "photo-1672933647933-42628e319667",
+      "alt": "صورة توضيحية: فنجان كابتشينو على صحن",
+      "page": "https://unsplash.com/photos/a-cup-of-cappuccino-on-a-saucer"
+    },
+    "story-order": {
+      "id": "photo-1544931733-7ee200c8ca3c",
+      "alt": "صورة توضيحية: يد تحمل فنجان قهوة جاهزًا للطلب",
+      "page": "https://unsplash.com/photos/person-holding-coffee-cup"
+    },
+    "amen": {
+      "id": "photo-1602531151551-c51e384ff73c",
+      "alt": "صورة توضيحية: آلة إسبريسو سوداء وبيضاء",
+      "page": "https://unsplash.com/photos/black-and-white-espresso-machine"
+    },
+    "visit": {
+      "id": "photo-1625021659159-f63f546d74a7",
+      "alt": "صورة توضيحية: فنجان سيراميك أبيض وسط حبوب بن محمصة",
+      "page": "https://unsplash.com/photos/a-white-ceramic-cup-resting-in-a-pile-of-roasted-coffee-beans"
+    }
+  }
+}

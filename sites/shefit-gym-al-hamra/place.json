@@ -1,0 +1,196 @@
+{
+  "place_id": "",
+  "batch_id": "amd-gulf-20261105",
+  "slug": "shefit-gym-al-hamra",
+  "theme": "services_pro",
+  "approved": false,
+  "agency": "Amd web",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#0E5F5B",
+    "rgb": "14, 95, 91",
+    "hover": "#0A4A47",
+    "ink": "#FFFFFF"
+  },
+  "name": "SheFit Gym Al Hamra",
+  "name_lang": "en",
+  "category_label": "نادي نسائي في الحمراء، جدة",
+  "area": "حي الحمراء، جدة",
+  "address": "حي الحمراء، شارع عرفات، جدة",
+  "phone": null,
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=SheFit+Gym+Al+Hamra+Jeddah",
+  "map_query": "SheFit Gym Al Hamra, Arafat St, Jeddah",
+  "data_source": "حساب النادي على إنستغرام",
+  "hero": {
+    "headline": "نادي نسائي هادئ في قلب الحمراء",
+    "intro": "نادي صحي للسيدات في حي الحمراء بجدة، يجمع التمرين والتحول في مكان واحد خاص بك. احجزي كلاساتك عبر Mindbody وتابعي جديدنا على إنستغرام.",
+    "image": "hero"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "story",
+    "amenities",
+    "visit"
+  ],
+  "marquee": {
+    "label": "برامج SheFit",
+    "items": [
+      "نادي نسائي",
+      "تمرين وتحول",
+      "حي الحمراء جدة",
+      "كلاسات جماعية",
+      "حجز Mindbody",
+      "مدربات متخصصات"
+    ]
+  },
+  "story": {
+    "items": [
+      {
+        "title": "مكانك الخاص للتمرين",
+        "text": "نادي صحي للسيدات فقط في الحمراء، أجواء مريحة بعيدة عن الزحام لتتمرني براحتك كل يوم.",
+        "image": "story-private"
+      },
+      {
+        "title": "كلاسات تحجز من جوالك",
+        "text": "الحجز عبر Mindbody مباشرة، مع متابعة جدول الكلاسات ومواعيد المدربات من حسابنا @shefitgym_hamra.",
+        "image": "story-classes"
+      },
+      {
+        "title": "رحلة تحول كاملة",
+        "text": "نركز على التمرين والتحول: برامج منتظمة ومتابعة مستمرة في موقعنا بشارع عرفات بحي الحمراء.",
+        "image": "story-transform"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "sample": true,
+    "title": "البرامج والاشتراكات",
+    "eyebrow": "نادي نسائي — الحمراء جدة",
+    "note": "قائمة توضيحية لعرض الشكل فقط، ليست أسعارًا من النادي. الأسعار والباقات تُستبدل ببيانات النادي بعد الموافقة.",
+    "currency": "ر.س",
+    "foot": "للحجز عبر Mindbody",
+    "categories": [
+      {
+        "id": "classes",
+        "title": "الكلاسات",
+        "tagline": "حجز عبر Mindbody",
+        "image": "classes",
+        "items": [
+          { "name": "كارديو جماعي", "desc": "حرق سعرات" },
+          { "name": "تمارين قوة", "desc": "أوزان حرة" },
+          { "name": "يوغا واسترخاء", "desc": "مرونة وتنفس" }
+        ]
+      },
+      {
+        "id": "plans",
+        "title": "الاشتراكات",
+        "tagline": "باقات شهرية",
+        "image": "plans",
+        "items": [
+          { "name": "اشتراك شهري", "desc": "دخول كامل للنادي" },
+          { "name": "باقة 12 حصة", "desc": "كلاسات مختارة" },
+          { "name": "حصة تجريبية", "desc": "للتعرف على النادي" }
+        ]
+      },
+      {
+        "id": "pt",
+        "title": "برامج فردية",
+        "tagline": "متابعة شخصية",
+        "image": "pt",
+        "items": [
+          { "name": "تدريب شخصي", "desc": "مدربة خاصة" },
+          { "name": "خطة تحول", "desc": "تمرين وتغذية" },
+          { "name": "قياس تركيبة الجسم", "desc": "متابعة دورية" }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل أن تزورينا",
+    "title": "ماذا يوفره النادي",
+    "image": "amen",
+    "items": [
+      {
+        "icon": "family",
+        "title": "للسيدات فقط",
+        "text": "أجواء خاصة ومريحة للتمرين."
+      },
+      {
+        "icon": "calendar",
+        "title": "حجز Mindbody",
+        "text": "احجزي كلاساتك من جوالك مباشرة."
+      },
+      {
+        "icon": "shield",
+        "title": "نادي صحي متكامل",
+        "text": "معدات ومساحات مخصصة للتمرين."
+      },
+      {
+        "icon": "check",
+        "title": "في حي الحمراء",
+        "text": "شارع عرفات، حي الحمراء، جدة."
+      }
+    ]
+  },
+  "visit": {
+    "image": "visit"
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1534438327276-14e5300c3a48",
+      "alt": "صورة توضيحية: عضوة تتمرض وسط معدات رياضية في نادٍ نسائي",
+      "page": "https://unsplash.com/photos/woman-standing-in-centre-of-assorted-workout-gear"
+    },
+    "classes": {
+      "id": "photo-1546483875-ad9014c88eba",
+      "alt": "صورة توضيحية: سيدة تتمرن بالأوزان في كلاس جماعي",
+      "page": "https://unsplash.com/photos/female-performing-an-arm-workout-with-weights"
+    },
+    "plans": {
+      "id": "photo-1586066626871-9e697071bda6",
+      "alt": "صورة توضيحية: رف أوزان مرتب في نادٍ رياضي",
+      "page": "https://unsplash.com/photos/assorted-dark-and-metallic-weights-stored-on-a-rack"
+    },
+    "pt": {
+      "id": "photo-1683587023194-a24e5b6549b0",
+      "alt": "صورة توضيحية: سيدة ترفع وزنًا في تدريب شخصي",
+      "page": "https://unsplash.com/photos/female-in-athletic-top-gripping-a-single-weight"
+    },
+    "story-private": {
+      "id": "photo-1574680088814-c9e8a10d8a4d",
+      "alt": "صورة توضيحية: سيدة بزي رياضي داكن في نادٍ هادئ",
+      "page": "https://unsplash.com/photos/female-wearing-dark-cropped-athletic-top"
+    },
+    "story-classes": {
+      "id": "photo-1734630341082-0fec0e10126c",
+      "alt": "صورة توضيحية: أوزان مصفوفة داخل منشأة رياضية",
+      "page": "https://unsplash.com/photos/multiple-weights-lined-up-inside-a-fitness-facility"
+    },
+    "story-transform": {
+      "id": "photo-1669989179336-b2234d2878df",
+      "alt": "صورة توضيحية: فرد يستخدم جهاز رياضي في رحلة التحول",
+      "page": "https://unsplash.com/photos/individual-using-gym-equipment"
+    },
+    "amen": {
+      "id": "photo-1586401100295-7a8096fd231a",
+      "alt": "صورة توضيحية: أيدٍ تحمل أوزانًا خفيفة بلمسات وردية",
+      "page": "https://unsplash.com/photos/hands-holding-light-coloured-weights-with-pink-accents"
+    },
+    "visit": {
+      "id": "photo-1638536532686-d610adfc8e5c",
+      "alt": "صورة توضيحية: أوزان داكنة مكدسة داخل النادي",
+      "page": "https://unsplash.com/photos/two-dark-weights-stacked-vertically"
+    }
+  }
+}

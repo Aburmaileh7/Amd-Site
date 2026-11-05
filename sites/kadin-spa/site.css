@@ -1,0 +1,5 @@
+/* Signature layer for kadin-spa — scoped to [data-site="kadin-spa"] only. */
+[data-site="kadin-spa"] .hero { position: relative; }
+[data-site="kadin-spa"] .hero::after { content: ""; position: absolute; inset: auto 0 0 0; height: 28%; pointer-events: none;
+  background: linear-gradient(to top, rgba(0,0,0,.18), transparent); }
+[data-site="kadin-spa"] .visit { background-image: radial-gradient(circle at 85% 15%, rgba(var(--glow-rgb), .12) 0 120px, transparent 121px); }

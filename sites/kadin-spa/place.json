@@ -1,0 +1,213 @@
+{
+  "place_id": "",
+  "batch_id": "amd-gulf-20261105",
+  "slug": "kadin-spa",
+  "theme": "beauty_soft",
+  "approved": false,
+  "agency": "Amd web",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#5F7D5A",
+    "rgb": "95, 125, 90",
+    "hover": "#4E6A4B",
+    "ink": "#FFFFFF"
+  },
+  "name": "KADIN.SPA",
+  "name_lang": "en",
+  "category_label": "صالون وسبا منزلي بالكويت",
+  "area": "الكويت",
+  "address": "خدمة منزلية في جميع مناطق الكويت",
+  "phone": {
+    "display": "+965 9798 8970",
+    "tel": "+96597988970"
+  },
+  "whatsapp": {
+    "number": "96597988970",
+    "display": "+965 9798 8970"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=KADIN.SPA+Kuwait",
+  "map_query": "KADIN.SPA, Kuwait",
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "12 ظهرًا – 10 مساءً"
+      }
+    ],
+    "per_day": null,
+    "source": "حساب KADIN.SPA على إنستغرام"
+  },
+  "data_source": "حساب المحل على إنستغرام",
+  "hero": {
+    "headline": "جلسة العناية تصلك إلى باب بيتك",
+    "intro": "صالون وسبا منزلي في الكويت يصل إليك أينما كنت، من الظهر حتى العاشرة مساءً. احجزي جلستك على واتساب وادفعي أونلاين دون رسوم توصيل.",
+    "image": "hero"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "story",
+    "amenities",
+    "reviews",
+    "visit"
+  ],
+  "marquee": {
+    "label": "خدمات KADIN.SPA",
+    "items": [
+      "خدمة منزلية",
+      "قص وتصفيف شعر",
+      "مانيكير وباديكير",
+      "مساج وعلاج طبيعي",
+      "ماسك شعر",
+      "دفع أونلاين"
+    ]
+  },
+  "story": {
+    "items": [
+      {
+        "title": "الصالون يأتي إليك",
+        "text": "لا حاجة للخروج من البيت؛ فريق KADIN.SPA يصل إلى منزلك في جميع مناطق الكويت بكل أدوات العناية.",
+        "image": "story-home"
+      },
+      {
+        "title": "حجز على واتساب مباشرة",
+        "text": "كل الحجوزات تتم عبر واتساب على الرقم +965 9798 8970، مع دفع أونلاين وبدون رسوم توصيل.",
+        "image": "story-booking"
+      },
+      {
+        "title": "مواعيد من الظهر حتى العشاء",
+        "text": "نعمل يوميًا من 12 ظهرًا حتى 10 مساءً، لتناسب وقتك بعد الدوام أو في عطلة نهاية الأسبوع.",
+        "image": "story-evening"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "sample": true,
+    "title": "الخدمات",
+    "eyebrow": "خدمة منزلية في الكويت",
+    "note": "قائمة خدمات توضيحية لعرض الشكل فقط، ليست أسعارًا من المحل. الأسعار تُؤخذ من قائمة الأسعار في حسابهم على إنستغرام عند الموافقة.",
+    "currency": "د.ك",
+    "foot": "للاستفسار والحجز",
+    "categories": [
+      {
+        "id": "hair",
+        "title": "الشعر",
+        "tagline": "قص وتصفيف وعناية",
+        "image": "hair",
+        "items": [
+          { "name": "قص وتصفيف شعر", "desc": "في منزلك" },
+          { "name": "ماسك شعر", "desc": "تغذية وترطيب عميق" },
+          { "name": "صبغة وتسريحة", "desc": "للمناسبات" }
+        ]
+      },
+      {
+        "id": "nails",
+        "title": "الأظافر والعناية",
+        "tagline": "مانيكير وباديكير",
+        "image": "nails",
+        "items": [
+          { "name": "مانيكير", "desc": "تنظيف وتلميع" },
+          { "name": "باديكير", "desc": "عناية كاملة بالقدمين" },
+          { "name": "جل أظافر", "desc": "ألوان ثابتة" }
+        ]
+      },
+      {
+        "id": "spa",
+        "title": "السبا والمساج",
+        "tagline": "استرخاء في بيتك",
+        "image": "spa",
+        "items": [
+          { "name": "مساج استرخائي", "desc": "تخفيف توتر العضلات" },
+          { "name": "تنظيف بشرة", "desc": "عناية يومية" },
+          { "name": "جلسة حمام مغربي", "desc": "تقشير وترطيب" }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [],
+  "amenities": {
+    "eyebrow": "قبل أن تحجزي",
+    "title": "ماذا يوفره KADIN.SPA",
+    "image": "amen",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "حجز واتساب",
+        "text": "احجزي مباشرة على +965 9798 8970 دون تعقيد."
+      },
+      {
+        "icon": "check",
+        "title": "دفع أونلاين",
+        "text": "دفع إلكتروني مريح عند تأكيد الحجز."
+      },
+      {
+        "icon": "car",
+        "title": "بدون رسوم توصيل",
+        "text": "الفريق يصل إلى بيتك في الكويت دون رسوم إضافية."
+      },
+      {
+        "icon": "clock",
+        "title": "مواعيد مرنة",
+        "text": "من 12 ظهرًا حتى 10 مساءً يوميًا."
+      }
+    ]
+  },
+  "visit": {
+    "image": "visit"
+  },
+  "images": {
+    "hero": {
+      "id": "photo-1600334089648-b0d9d3028eb2",
+      "alt": "صورة توضيحية: جلسة مساج استرخائية على سرير علاجي",
+      "page": "https://unsplash.com/photos/a-person-lying-on-a-massage-table-with-smooth-black-stones-on-their-back"
+    },
+    "hair": {
+      "id": "photo-1695527081848-1e46c06e6458",
+      "alt": "صورة توضيحية: مصففة شعر تعمل على شعر عميلة في صالون",
+      "page": "https://unsplash.com/photos/a-woman-getting-her-hair-done-in-a-salon"
+    },
+    "nails": {
+      "id": "photo-1610992015762-45dca7fa3a85",
+      "alt": "صورة توضيحية: يد بأظافر مانيكير وردية فاتحة على سطح أبيض ناعم",
+      "page": "https://unsplash.com/photos/a-hand-with-light-pink-manicured-nails-resting-on-a-soft-white-surface"
+    },
+    "spa": {
+      "id": "photo-1544161515-4ab6ce6db874",
+      "alt": "صورة توضيحية: جلسة مساج في غرفة سبا هادئة",
+      "page": "https://unsplash.com/photos/woman-lying-with-prone-position"
+    },
+    "story-home": {
+      "id": "photo-1741522509438-a120c0bb5e88",
+      "alt": "صورة توضيحية: مساج على الظهر في أجواء منزلية مريحة",
+      "page": "https://unsplash.com/photos/massage-is-being-administered-to-a-persons-back"
+    },
+    "story-booking": {
+      "id": "photo-1598901986949-f593ff2a31a6",
+      "alt": "صورة توضيحية: عناية بالوجه في ضوء دافئ قبل الحجز",
+      "page": "https://unsplash.com/photos/hands-massaging-a-persons-face-in-a-dimly-lit-room"
+    },
+    "story-evening": {
+      "id": "photo-1600334129128-685c5582fd35",
+      "alt": "صورة توضيحية: مساج بالأحجار الساخنة وزهور بيضاء في مساء هادئ",
+      "page": "https://unsplash.com/photos/a-person-receiving-a-hot-stone-massage"
+    },
+    "amen": {
+      "id": "photo-1706795033728-9232ef548a16",
+      "alt": "صورة توضيحية: تدليك وجه في سبا بأجواء مسائية",
+      "page": "https://unsplash.com/photos/a-woman-getting-a-facial-massage-at-a-spa"
+    },
+    "visit": {
+      "id": "photo-1639162906614-0603b0ae95fd",
+      "alt": "صورة توضيحية: مساج للظهر داخل صالون سبا",
+      "page": "https://unsplash.com/photos/a-woman-getting-a-back-massage-at-a-spa"
+    }
+  }
+}
