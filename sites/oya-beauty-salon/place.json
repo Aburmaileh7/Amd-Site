@@ -1,25 +1,26 @@
 {
-  "place_id": "",
+  "place_id": "ChIJ7bcFWXGvST4RiJFajW3bNv8",
   "batch_id": "amd-gulf-20261105",
   "slug": "oya-beauty-salon",
   "theme": "beauty_soft",
   "approved": false,
   "agency": "Amd web",
+  "data_source": "خرائط Google وصفحة فرع جدحفص على Fresha وحساب الصالون على إنستغرام",
   "layout": {
     "hero": "split",
     "story": "stack"
   },
   "accent": {
-    "hex": "#B08D57",
-    "rgb": "176, 141, 87",
-    "hover": "#97763F",
+    "hex": "#17726E",
+    "rgb": "23, 114, 110",
+    "hover": "#115C59",
     "ink": "#FFFFFF"
   },
-  "name": "Oya Beauty Salon",
-  "name_lang": "en",
-  "category_label": "صالون تجميل في جدحفص، البحرين",
-  "area": "جدحفص، البحرين",
-  "address": "جدحفص، البحرين",
+  "name": "صالون اويا",
+  "name_lang": "ar",
+  "category_label": "صالون تجميل وسبا",
+  "area": "فرع جدحفص، البحرين",
+  "address": "مبنى 2041، طريق 2352، جدحفص",
   "phone": {
     "display": "+973 3803 1310",
     "tel": "+97338031310"
@@ -28,18 +29,17 @@
     "number": "97338031310",
     "display": "+973 3803 1310"
   },
-  "directions_url": "https://www.google.com/maps/search/?api=1&query=Oya+Beauty+Salon+Jidhafs",
-  "map_query": "Oya Beauty Salon, Jidhafs, Bahrain",
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D8%A7%D9%88%D9%8A%D8%A7&query_place_id=ChIJ7bcFWXGvST4RiJFajW3bNv8",
+  "map_query": "صالون اويا, Road 2352, Jidhafs, Bahrain",
   "rating": {
     "value": 4.6,
-    "count": 819,
+    "count": 820,
     "source": "Google"
   },
-  "data_source": "خرائط Google — تقييمات العملاء",
   "hero": {
-    "headline": "صالونك المفضل في جدحفص لعناية يومية",
-    "intro": "صالون تجميل في جدحفص بتقييم 4.6 من أكثر من 800 مراجعة. قص وتصفيف وصبغات وعناية بالأظافر والبشرة — واحجزي على واتساب مباشرة.",
-    "image": "hero"
+    "headline": "ويفي وحناء ومساج، وكل سعر مكتوب أمامك",
+    "intro": "فرع جدحفص مفتوح يوميًا من 10 صباحًا إلى 10 مساءً. اختاري من الشعر والأظافر والمساج وخدمات الأطفال، ثم احجزي موعدك على واتساب.",
+    "image": "ponytail"
   },
   "motion": {
     "hero": "kenburns"
@@ -49,162 +49,450 @@
     "menu",
     "story",
     "reviews",
-    "amenities",
+    "proof",
     "visit"
   ],
   "marquee": {
-    "label": "خدمات صالون أويا",
+    "label": "من قائمة الفرع",
     "items": [
-      "قص وتصفيف",
-      "صبغات وشعر",
-      "مانيكير وباديكير",
-      "تنظيف بشرة",
-      "تسريحات مناسبات",
-      "جدحفص البحرين"
+      "حناء للشعر",
+      "اطفال اويا",
+      "ويفي وريترو",
+      "علاج أولابليكس",
+      "مساج الأحجار الساخنة",
+      "حف الحواجب بالخيط"
     ]
   },
   "story": {
+    "eyebrow": "من صفحة الحجز",
+    "title": "ثلاثة أشياء في قائمة اويا",
     "items": [
       {
-        "title": "تقييم يثق به أهل جدحفص",
-        "text": "4.6 من 819 مراجعة على خرائط Google، وأكثر من 300 صورة من داخل الصالون يوثقها عملاؤنا.",
-        "image": "story-trust"
+        "label": "المساج",
+        "title": "من مساج الرأس إلى الأحجار الساخنة",
+        "text": "المساج أكثر ما يتكرر في تقييمات هذا الفرع على Fresha. يبدأ مساج الرأس من 4.400 د.ب، ومساج الأحجار الساخنة من 13.200 د.ب.",
+        "image": "room"
       },
       {
-        "title": "عناية متكاملة بالشعر",
-        "text": "من القص اليومي إلى الصبغات والتسريحات للمناسبات، بمنتجات مناسبة لنوع شعرك ومواعيد تناسب يومك.",
-        "image": "story-hair"
+        "label": "الشعر",
+        "title": "حناء من عندك أو من عند الصالون",
+        "text": "إذا أحضرتِ حناءك فالسعر 2.200 د.ب، وحناء اويا من 5.500 د.ب. وفي القائمة أيضًا ويفي وريترو وأولابليكس وصبغ كامل.",
+        "image": "curls"
       },
       {
-        "title": "حجز سريع على واتساب",
-        "text": "رقمنا +973 3803 1310 على واتساب — أرسلي خدمتك المفضلة وسنؤكد موعدك فورًا."
-        ,
-        "image": "story-booking"
+        "label": "الأظافر",
+        "title": "قسم خاص للصغيرات",
+        "text": "منكير 2.700 د.ب ولون جل 3.300 د.ب، ولقسم اطفال اويا مانيكير وباديكير 4.400 د.ب وصبغ أظافر 1.100 د.ب.",
+        "image": "nails"
       }
     ]
   },
   "menu": {
-    "kind": "services",
-    "sample": true,
-    "title": "الخدمات",
-    "eyebrow": "صالون أويا — جدحفص",
-    "note": "قائمة خدمات توضيحية لعرض الشكل فقط، ليست أسعارًا من المحل. الأسعار تُستبدل بقائمة الصالون الحقيقية بعد الموافقة.",
+    "title": "الخدمات والأسعار",
+    "eyebrow": "فرع جدحفص",
     "currency": "د.ب",
-    "foot": "للحجز على واتساب",
+    "sample": false,
+    "note": "الخدمات والأسعار مختارة من صفحة فرع جدحفص على Fresha كما هي مكتوبة، وقد تتغير.",
+    "foot": "للحجز والاستفسار",
     "categories": [
       {
         "id": "hair",
         "title": "الشعر",
-        "tagline": "قص وصبغ وتسريح",
-        "image": "hair",
+        "tagline": "ويفي وصبغ وحناء",
+        "image": "waves",
         "items": [
-          { "name": "قص وتصفيف", "desc": "قص عصري" },
-          { "name": "صبغات", "desc": "ألوان طبيعية وموضة" },
-          { "name": "تسريحة مناسبة", "desc": "حجز مسبق" },
-          { "name": "ماسك علاجي", "desc": "تغذية عميقة" }
+          {
+            "name": "غسيل الشعر",
+            "price": 1.65,
+            "desc": "25 دقيقة"
+          },
+          {
+            "name": "بيربل شامبو للشعر المصبوغ",
+            "price": 3.3,
+            "desc": "25 دقيقة"
+          },
+          {
+            "name": "استشوار الشعر",
+            "price": 4.4,
+            "desc": "من 40 دقيقة إلى ساعة و20 دقيقة · يبدأ من هذا السعر"
+          },
+          {
+            "name": "ماسكات الشعر",
+            "price": 5.5,
+            "desc": "ساعة ونصف · يبدأ من هذا السعر"
+          },
+          {
+            "name": "علاج الشعر أولابليكس",
+            "price": 10,
+            "desc": "ساعة و15 دقيقة · يبدأ من هذا السعر"
+          },
+          {
+            "name": "حناء للشعر (من الزبونة)",
+            "price": 2.2,
+            "desc": "20 دقيقة"
+          },
+          {
+            "name": "حناء للشعر (حناء من صالون اويا)",
+            "price": 5.5,
+            "desc": "من 30 دقيقة إلى ساعة · يبدأ من هذا السعر"
+          },
+          {
+            "name": "ويڤي",
+            "price": 6.6,
+            "desc": "من ساعة إلى ساعة ونصف · يبدأ من هذا السعر"
+          },
+          {
+            "name": "ريترو ويڤي",
+            "price": 11,
+            "desc": "من ساعة إلى ساعة ونصف · يبدأ من هذا السعر"
+          },
+          {
+            "name": "صبغ الشعر",
+            "price": 11,
+            "desc": "ساعة ونصف · يبدأ من هذا السعر"
+          },
+          {
+            "name": "Hair color - roots only",
+            "price": 7.7,
+            "desc": "ساعة ونصف"
+          }
         ]
       },
       {
         "id": "nails",
         "title": "الأظافر",
-        "tagline": "مانيكير وباديكير",
-        "image": "nails",
+        "tagline": "منكير وبديكير وجل",
+        "image": "polish",
         "items": [
-          { "name": "مانيكير", "desc": "تنظيف وتلميع" },
-          { "name": "باديكير", "desc": "عناية كاملة" },
-          { "name": "جل أظافر", "desc": "ثبات طويل" }
+          {
+            "name": "منكير",
+            "price": 2.7,
+            "desc": "30 دقيقة"
+          },
+          {
+            "name": "بديكير",
+            "price": 3.3,
+            "desc": "ساعة"
+          },
+          {
+            "name": "لون عادي",
+            "price": 1.65,
+            "desc": "20 دقيقة"
+          },
+          {
+            "name": "لون جل",
+            "price": 3.3,
+            "desc": "ساعة"
+          },
+          {
+            "name": "لون جل (فرنج)",
+            "price": 6.6,
+            "desc": "50 دقيقة"
+          },
+          {
+            "name": "نورمل فرنج",
+            "price": 3.3,
+            "desc": "ساعة"
+          },
+          {
+            "name": "قص الأظافر وبردها للقدمين",
+            "price": 1.1,
+            "desc": "15 دقيقة"
+          },
+          {
+            "name": "قص الأظافر وبردها لليدين",
+            "price": 1.1,
+            "desc": "15 دقيقة"
+          },
+          {
+            "name": "إزالة لون الجل",
+            "price": 2.2,
+            "desc": "20 دقيقة"
+          }
         ]
       },
       {
-        "id": "skin",
-        "title": "البشرة",
-        "tagline": "تنظيف وعناية",
-        "image": "skin",
+        "id": "massage",
+        "title": "المساج والفيشل",
+        "tagline": "من 30 دقيقة إلى ساعتين",
         "items": [
-          { "name": "تنظيف بشرة", "desc": "لجميع أنواع البشرة" },
-          { "name": "ماسك وجه", "desc": "نضارة فورية" },
-          { "name": "عناية بالحواجب والرموش", "desc": "تنسيق دقيق" }
+          {
+            "name": "تنظيف البشرة - فيشل",
+            "price": 7.7,
+            "desc": "ساعة و15 دقيقة"
+          },
+          {
+            "name": "مساج الرأس",
+            "price": 4.4,
+            "desc": "30 دقيقة"
+          },
+          {
+            "name": "مساج الرأس والظهر",
+            "price": 4.4,
+            "desc": "من 30 إلى 45 دقيقة · يبدأ من هذا السعر"
+          },
+          {
+            "name": "مساج القدمين",
+            "price": 4.4,
+            "desc": "30 دقيقة"
+          },
+          {
+            "name": "مساج الرأس والرقبة والكتفين",
+            "price": 5.5,
+            "desc": "من 45 دقيقة إلى ساعة · يبدأ من هذا السعر"
+          },
+          {
+            "name": "مساج إسترخاء كلاسيكي",
+            "price": 6.6,
+            "desc": "من ساعة إلى ساعتين · يبدأ من هذا السعر"
+          },
+          {
+            "name": "سبشل مساج سويدي",
+            "price": 8.8,
+            "desc": "من ساعة إلى ساعتين · يبدأ من هذا السعر"
+          },
+          {
+            "name": "المساج بالفوط الدافئة",
+            "price": 11,
+            "desc": "من ساعة إلى ساعتين · يبدأ من هذا السعر"
+          },
+          {
+            "name": "مساج الأحجار الساخنة",
+            "price": 13.2,
+            "desc": "من ساعة إلى ساعتين · يبدأ من هذا السعر"
+          },
+          {
+            "name": "Deep Tissue Massage",
+            "price": 17,
+            "desc": "ساعة"
+          }
+        ]
+      },
+      {
+        "id": "threading",
+        "title": "الحفاف والشمع",
+        "tagline": "بالخيط وبالشمع",
+        "items": [
+          {
+            "name": "حف الحواجب بالخيط",
+            "price": 1.65,
+            "desc": "20 دقيقة"
+          },
+          {
+            "name": "حف الشنب بالخيط",
+            "price": 0.55,
+            "desc": "15 دقيقة"
+          },
+          {
+            "name": "حفاف الجبهة",
+            "price": 0.55,
+            "desc": "10 دقائق"
+          },
+          {
+            "name": "حف الذقن بالخيط",
+            "price": 0.55,
+            "desc": "15 دقيقة"
+          },
+          {
+            "name": "حف الوجه كامل بالخيط",
+            "price": 4.4,
+            "desc": "40 دقيقة"
+          },
+          {
+            "name": "تلوين الحاجب",
+            "price": 2.2,
+            "desc": "20 دقيقة"
+          },
+          {
+            "name": "تقشير اليدين",
+            "price": 2.2,
+            "desc": "20 دقيقة"
+          },
+          {
+            "name": "تقشير القدمين",
+            "price": 2.2,
+            "desc": "20 دقيقة"
+          },
+          {
+            "name": "إزالة شعر اليد بالشمع",
+            "price": 2.2,
+            "desc": "30 دقيقة"
+          },
+          {
+            "name": "إزالة شعر الساقين بالشمع",
+            "price": 4.4,
+            "desc": "40 دقيقة"
+          },
+          {
+            "name": "إزالة شعر الإبطين بالشمع",
+            "price": 1.1,
+            "desc": "10 دقائق"
+          },
+          {
+            "name": "إزالة شعر الجسم الكامل بالشمع (لا يشمل منطقة البكيني)",
+            "price": 13.2,
+            "desc": "ساعة ونصف"
+          }
+        ]
+      },
+      {
+        "id": "kids",
+        "title": "اطفال اويا",
+        "tagline": "خدمات الصغيرات",
+        "items": [
+          {
+            "name": "اطفال اويا - مانيكير وباديكير",
+            "price": 4.4,
+            "desc": "40 دقيقة"
+          },
+          {
+            "name": "اطفال اويا - قص الأظافر (اليد والقدم)",
+            "price": 2.2,
+            "desc": "20 دقيقة"
+          },
+          {
+            "name": "اطفال اويا - صبغ الاظافر",
+            "price": 1.1,
+            "desc": "15 دقيقة"
+          },
+          {
+            "name": "اطفال اويا - استشوار الشعر",
+            "price": 3.3,
+            "desc": "30 دقيقة · يبدأ من هذا السعر"
+          },
+          {
+            "name": "اطفال اويا - ويفي للشعر",
+            "price": 3.3,
+            "desc": "ساعة · يبدأ من هذا السعر"
+          }
+        ]
+      },
+      {
+        "id": "packages",
+        "title": "البكجات",
+        "tagline": "عدة خدمات في موعد واحد",
+        "items": [
+          {
+            "name": "باقة التدليل",
+            "price": 11.4,
+            "desc": "ساعتان ونصف · 3 خدمات"
+          },
+          {
+            "name": "بكج الراحة",
+            "price": 12,
+            "desc": "ساعتان و50 دقيقة · 4 خدمات"
+          },
+          {
+            "name": "الباقة الاقتصادية",
+            "price": 12.1,
+            "desc": "3 ساعات و20 دقيقة · 5 خدمات"
+          },
+          {
+            "name": "الباقة الكلاسيكية",
+            "price": 12.5,
+            "desc": "3 ساعات و40 دقيقة · 5 خدمات · يبدأ من هذا السعر"
+          },
+          {
+            "name": "باقة الاسترخاء",
+            "price": 13.95,
+            "desc": "3 ساعات و10 دقائق · 5 خدمات"
+          },
+          {
+            "name": "بكج الويكند",
+            "price": 15,
+            "desc": "4 ساعات · 4 خدمات · يبدأ من هذا السعر"
+          },
+          {
+            "name": "باقة يوم السبا",
+            "price": 16,
+            "desc": "3 ساعات و45 دقيقة · 4 خدمات"
+          }
         ]
       }
     ]
   },
+  "reviews": [
+    {
+      "author": "Mohamed E.",
+      "stars": 5,
+      "text": "I book for my wife and she came back from the session happy and she said the place is clean and smell good and perfect service and lovely staff, thank you so much 💞",
+      "source_ref": "https://www.fresha.com/a/oya-beauty-salon-and-spa-jidhafs-branch-jdhfs-oya-beauty-salon-and-spa-slwn-wy-jidhafs-unc4smbf"
+    },
+    {
+      "author": "Latifa A.",
+      "stars": 5,
+      "text": "تجربتي في الصالون كانت أكثر من رائعة! ذهبت لجلسة مساج وكانت التجربة فاخرة بكل ما تحمله الكلمة من معنى. من أول لحظة استُقبلت فيها بابتسامة ولباقة، إلى أدق تفاصيل النظافة، الهدوء، والرائحة الزكية في المكان.…",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D8%A7%D9%88%D9%8A%D8%A7&query_place_id=ChIJ7bcFWXGvST4RiJFajW3bNv8"
+    },
+    {
+      "author": "Yousr H.",
+      "stars": 5,
+      "text": "Had a lovely, relaxing massage with Jan. She was professional and amazing! Highly recommend the salon and the staff. 😊",
+      "source_ref": "https://www.fresha.com/a/oya-beauty-salon-and-spa-jidhafs-branch-jdhfs-oya-beauty-salon-and-spa-slwn-wy-jidhafs-unc4smbf"
+    },
+    {
+      "author": "Sara",
+      "stars": 5,
+      "text": "The staff are excellent, and the prices are good and reasonable, Recommend",
+      "source_ref": "https://www.fresha.com/a/oya-beauty-salon-and-spa-jidhafs-branch-jdhfs-oya-beauty-salon-and-spa-slwn-wy-jidhafs-unc4smbf"
+    }
+  ],
   "mentions": [],
-  "reviews": [],
-  "amenities": {
-    "eyebrow": "قبل أن تزورينا",
-    "title": "ماذا يوفره الصالون",
-    "image": "amen",
-    "items": [
+  "hours": {
+    "rows": [
       {
-        "icon": "calendar",
-        "title": "حجز واتساب",
-        "text": "احجزي على +973 3803 1310 مباشرة."
-      },
-      {
-        "icon": "check",
-        "title": "تقييم 4.6",
-        "text": "من أكثر من 800 مراجعة على Google."
-      },
-      {
-        "icon": "shield",
-        "title": "منتجات آمنة",
-        "text": "عناية مناسبة لأنواع الشعر والبشرة."
-      },
-      {
-        "icon": "family",
-        "title": "في جدحفص",
-        "text": "موقع قريب وسهل الوصول إليه."
+        "days": "يوميًا",
+        "time": "10 ص – 10 م"
       }
-    ]
+    ],
+    "per_day": 12,
+    "source": "حساب الصالون وصفحة Fresha"
   },
   "visit": {
-    "image": "visit"
+    "image": "cup"
   },
   "images": {
-    "hero": {
-      "id": "photo-1781450090585-1a511b7066d9",
-      "alt": "صورة توضيحية: ديكور صالون شعر عصري بكراسٍ ومرايا",
-      "page": "https://unsplash.com/photos/a-modern-hair-salon-interior-with-stylish-chairs-and-mirrors"
+    "ponytail": {
+      "file": "ponytail-sign.jpg",
+      "alt": "صورة تسريحة ذيل حصان بتموجات أمام شعار اويا الدائري",
+      "source_url": "https://www.instagram.com/p/DdgGrimIShN/",
+      "credit": "من حساب الصالون"
     },
-    "hair": {
-      "id": "photo-1695527081874-b674c46f40fb",
-      "alt": "صورة توضيحية: عميلتان تجلسان في صالون أثناء العناية",
-      "page": "https://unsplash.com/photos/a-couple-of-people-sitting-at-a-table-in-a-room"
+    "waves": {
+      "file": "waves-side.jpg",
+      "alt": "صورة ذيل حصان طويل بتموجات ناعمة وخلفه شعار الصالون",
+      "source_url": "https://www.instagram.com/p/DewW8WbIxeB/",
+      "credit": "من حساب الصالون"
+    },
+    "curls": {
+      "file": "curls.jpg",
+      "alt": "صورة شعر بني بخصل عسلية وتموجات كبيرة من الخلف",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D8%A7%D9%88%D9%8A%D8%A7&query_place_id=ChIJ7bcFWXGvST4RiJFajW3bNv8",
+      "credit": "من خرائط Google"
     },
     "nails": {
-      "id": "photo-1632345031435-8727f6897d53",
-      "alt": "صورة توضيحية: سيدة تحصل على مانيكير في صالون أظافر",
-      "page": "https://unsplash.com/photos/a-woman-getting-her-nails-done-at-a-nail-salon"
+      "file": "pink-nails.jpg",
+      "alt": "صورة أظافر بلون وردي فاتح على يد زبونة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D8%A7%D9%88%D9%8A%D8%A7&query_place_id=ChIJ7bcFWXGvST4RiJFajW3bNv8",
+      "credit": "من خرائط Google"
     },
-    "skin": {
-      "id": "photo-1570172619644-dfd03ed5d881",
-      "alt": "صورة توضيحية: تنظيف بشرة وعلاج وجه في سبا",
-      "page": "https://unsplash.com/photos/woman-getting-facial-treatment"
+    "polish": {
+      "file": "polish.jpg",
+      "alt": "صورة يد بأظافر وردية تمسك زجاجة طلاء",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D8%A7%D9%88%D9%8A%D8%A7&query_place_id=ChIJ7bcFWXGvST4RiJFajW3bNv8",
+      "credit": "من خرائط Google"
     },
-    "story-trust": {
-      "id": "photo-1637777277435-3c44f82fd0c9",
-      "alt": "صورة توضيحية: كراسٍ ومرايا داخل صالون شعر",
-      "page": "https://unsplash.com/photos/a-hair-salon-with-chairs-and-a-mirror"
+    "room": {
+      "file": "room.jpg",
+      "alt": "صورة زبونة من الخلف أمام رف نباتات على جدار الصالون الأبيض",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D8%A7%D9%88%D9%8A%D8%A7&query_place_id=ChIJ7bcFWXGvST4RiJFajW3bNv8",
+      "credit": "من خرائط Google"
     },
-    "story-hair": {
-      "id": "photo-1746723378067-83a345ff3160",
-      "alt": "صورة توضيحية: ديكور صالون شعر مع منتجات وعملاء",
-      "page": "https://unsplash.com/photos/a-hair-salon-interior-with-hair-products-and-clients"
-    },
-    "story-booking": {
-      "id": "photo-1626383137804-ff908d2753a2",
-      "alt": "صورة توضيحية: ركن انتظار أنيق داخل صالون تجميل",
-      "page": "https://unsplash.com/photos/woman-in-white-shirt-standing-near-black-leather-chairs"
-    },
-    "amen": {
-      "id": "photo-1695527081827-fdbc4e77be9b",
-      "alt": "صورة توضيحية: غرفة صالون مع كرسي وحوض ونبتة",
-      "page": "https://unsplash.com/photos/a-room-with-a-chair-sink-and-a-plant-in-it"
-    },
-    "visit": {
-      "id": "photo-1626383120723-2a941488860d",
-      "alt": "صورة توضيحية: كرسي صالون بجانب جدار أبيض",
-      "page": "https://unsplash.com/photos/black-and-gray-chair-beside-white-wall"
+    "cup": {
+      "file": "cup.jpg",
+      "alt": "صورة كوب ورقي يحمل شعار Oya Beauty Salon & Spa",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D8%A7%D9%88%D9%8A%D8%A7&query_place_id=ChIJ7bcFWXGvST4RiJFajW3bNv8",
+      "credit": "من خرائط Google"
     }
   }
 }
