@@ -1,29 +1,29 @@
 /* Sugar: white panelling, grey velvet seats and gold taps in Q Mall. Petals drift only inside the framed hero photo, and a gold hairline, like the taps, frames it. */
-[data-site="sugar-salon-qatar"] .hero__side{position:relative}
-[data-site="sugar-salon-qatar"] .hero__side::after{content:"";position:absolute;inset:12px;border:1px solid rgba(233,201,122,.9);border-radius:calc(var(--radius) - 6px);pointer-events:none;z-index:2}
-[data-site="sugar-salon-qatar"] .hero__side img{object-position:50% 34%}
-[data-site="sugar-salon-qatar"] .petals{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:2}
-[data-site="sugar-salon-qatar"] .petal{position:absolute;top:-24px;width:14px;height:10px;border-radius:14px 2px 14px 2px;background:radial-gradient(circle at 30% 30%,#f9dfe6,#e59ab0);opacity:.9}
-[data-site="sugar-salon-qatar"] .hero__title{font-size:clamp(2.1rem,6vw,4.4rem);line-height:1.08;letter-spacing:normal}
-[data-site="sugar-salon-qatar"] .story .panel__media{outline:1px solid rgba(201,162,74,.55);outline-offset:-10px}
-[data-site="sugar-salon-qatar"] .story__title{position:relative;padding-bottom:.6rem}
-[data-site="sugar-salon-qatar"] .story__title::after{content:"";position:absolute;inset-inline-start:0;bottom:0;width:var(--gold,0%);max-width:180px;height:2px;background:linear-gradient(90deg,#C9A24A,#e9c97a)}
-[data-site="sugar-salon-qatar"] .marquee{background:#fbeff2}
-[data-site="sugar-salon-qatar"] .hero .eyebrow,[data-site="sugar-salon-qatar"] .eyebrow,[data-site="sugar-salon-qatar"] .panel__time{color:#6F5216;font-weight:700}
-[data-site="sugar-salon-qatar"] .tabs__count{color:#6F5216}
-[data-site="sugar-salon-qatar"] .panel-m__visual{display:none}
-[data-site="sugar-salon-qatar"] .panel-m{grid-template-columns:1fr}
-@media (min-width:900px){[data-site="sugar-salon-qatar"] .items{display:grid;grid-template-columns:1fr 1fr;column-gap:48px}[data-site="sugar-salon-qatar"] .item:nth-child(2){border-top:1px solid var(--line)}}
-[data-site="sugar-salon-qatar"] .card blockquote{unicode-bidi:plaintext}
+html[data-site="sugar-salon-qatar"] .hero__side{position:relative}
+html[data-site="sugar-salon-qatar"] .hero__side::after{content:"";position:absolute;inset:12px;border:1px solid rgba(233,201,122,.9);border-radius:calc(var(--radius) - 6px);pointer-events:none;z-index:2}
+html[data-site="sugar-salon-qatar"] .hero__side img{object-position:50% 34%}
+html[data-site="sugar-salon-qatar"] .petals{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:2}
+html[data-site="sugar-salon-qatar"] .petal{position:absolute;top:-24px;width:14px;height:10px;border-radius:14px 2px 14px 2px;background:radial-gradient(circle at 30% 30%,#f9dfe6,#e59ab0);opacity:.9}
+html[data-site="sugar-salon-qatar"] .hero__title{font-size:clamp(2.5rem,6vw,4.4rem);line-height:1.08;letter-spacing:normal}
+html[data-site="sugar-salon-qatar"] .story .panel__media{outline:1px solid rgba(201,162,74,.55);outline-offset:-10px}
+html[data-site="sugar-salon-qatar"] .story__title{position:relative;padding-bottom:.6rem}
+html[data-site="sugar-salon-qatar"] .story__title::after{content:"";position:absolute;inset-inline-start:0;bottom:0;width:var(--gold,0%);max-width:180px;height:2px;background:linear-gradient(90deg,#C9A24A,#e9c97a)}
+html[data-site="sugar-salon-qatar"] .marquee{background:#fbeff2}
+html[data-site="sugar-salon-qatar"] .hero .eyebrow,html[data-site="sugar-salon-qatar"] .eyebrow,html[data-site="sugar-salon-qatar"] .panel__time{color:#6F5216;font-weight:700}
+html[data-site="sugar-salon-qatar"] .tabs__count{color:#6F5216}
+html[data-site="sugar-salon-qatar"] .panel-m__visual{display:none}
+html[data-site="sugar-salon-qatar"] .panel-m{grid-template-columns:1fr}
+@media (min-width:900px){html[data-site="sugar-salon-qatar"] .items{display:grid;grid-template-columns:1fr 1fr;column-gap:48px}html[data-site="sugar-salon-qatar"] .item:nth-child(2){border-top:1px solid var(--line)}}
+html[data-site="sugar-salon-qatar"] .card blockquote{unicode-bidi:plaintext}
 /* Visit: the night facade stays behind a firm veil so the phone and WhatsApp read clearly */
-[data-site="sugar-salon-qatar"] .visit__shade{background:linear-gradient(180deg,var(--bg) 0%,rgba(var(--bg-rgb),.9) 25%,rgba(var(--bg-rgb),.94) 75%,var(--bg) 100%)}
-[data-site="sugar-salon-qatar"] .visit .wa{color:#6F5216;font-weight:700}
+html[data-site="sugar-salon-qatar"] .visit__shade{background:linear-gradient(180deg,var(--bg) 0%,rgba(var(--bg-rgb),.9) 25%,rgba(var(--bg-rgb),.94) 75%,var(--bg) 100%)}
+html[data-site="sugar-salon-qatar"] .visit .wa{color:#6F5216;font-weight:700}
 /* Phone: the framed corridor comes first, tall, straight under the header */
 @media (max-width:899px){
-  [data-site="sugar-salon-qatar"] .hero.hero--split{padding-block-start:116px}
-  [data-site="sugar-salon-qatar"] .hero--split .hero__grid{display:flex;flex-direction:column;gap:24px}
-  [data-site="sugar-salon-qatar"] .hero__side{order:-1}
-  [data-site="sugar-salon-qatar"] .hero__side .photo{aspect-ratio:1/1.12}
+  html[data-site="sugar-salon-qatar"] .hero.hero--split{padding-block-start:116px}
+  html[data-site="sugar-salon-qatar"] .hero--split .hero__grid{display:flex;flex-direction:column;gap:24px}
+  html[data-site="sugar-salon-qatar"] .hero__side{order:-1}
+  html[data-site="sugar-salon-qatar"] .hero__side .photo{aspect-ratio:1/1.12}
 }
-@media (prefers-reduced-motion:reduce){[data-site="sugar-salon-qatar"] .petals{display:none}[data-site="sugar-salon-qatar"] .story__title::after{width:180px}}
-@media (max-width:640px){[data-site="sugar-salon-qatar"] .brand{font-size:.8rem;white-space:nowrap}}
+@media (prefers-reduced-motion:reduce){html[data-site="sugar-salon-qatar"] .petals{display:none}html[data-site="sugar-salon-qatar"] .story__title::after{width:180px}}
+@media (max-width:640px){html[data-site="sugar-salon-qatar"] .brand{font-size:.8rem;white-space:nowrap}}
