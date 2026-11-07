@@ -1,0 +1,196 @@
+{
+  "place_id": "amd-notion-4115cb52-4e44-81a6-86e1-dff0517aa366",
+  "batch_id": "amd-gulf-20261107",
+  "slug": "sourdough-oman",
+  "theme": "bakery_cream",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google (التقييم والساعات والعنوان) وحساب المخبز على إنستغرام (@sourdough_om) للصور والسيرة، وقائمة طلبات على Talabat",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#A8712C",
+    "rgb": "168, 113, 44",
+    "hover": "#8A5A20",
+    "ink": "#FFFFFF"
+  },
+  "name": "SOURDOUGH OMAN",
+  "name_lang": "en",
+  "category_label": "مخبز ساوردو حرفي عمّاني",
+  "area": "العذيبة، مسقط",
+  "address": "432 شارع 18 نوفمبر، العذيبة، مسقط",
+  "phone": {
+    "display": "+968 9617 3040",
+    "tel": "+96896173040"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=SOURDOUGH+OMAN+Muscat",
+  "map_query": "SOURDOUGH OMAN (Artisan Bakery), 18th November St, Athaiba, Muscat",
+  "rating": {
+    "value": 4.5,
+    "count": 550,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "خميرة طبيعية من العذيبة، منذ السابعة صباحًا",
+    "intro": "مخبز حرفي في العذيبة يخبز أصنافًا مخمّرة طبيعيًا: ساوردو وبريوش ومعجنات وحلويات، من 7 صباحًا حتى 10 مساءً. يعرّف نفسه: خبز مخبوز ببطء وعناية كل يوم.",
+    "image": "hero-loaf"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "reviews",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في ساوردو",
+    "items": [
+      "خميرة طبيعية",
+      "من 7 صباحًا",
+      "العذيبة – شارع 18 نوفمبر",
+      "ويُبنى كل يوم",
+      "47 ألف متابع"
+    ]
+  },
+  "story": {
+    "eyebrow": "خميرة بطيئة، وفريق يصنع الفرق",
+    "title": "طقوس الفرن كل يوم",
+    "items": [
+      {
+        "label": "الصباح",
+        "title": "الأبواب مفتوحة بالسابعة",
+        "text": "بحلول 7 صباحًا أبواب المخبز مفتوحة، والأفران دافئة، والمخبز مليان بما تحبونه – كما يكتب حسابه.",
+        "image": "morning"
+      },
+      {
+        "label": "الخبز",
+        "title": "ساوردو وبريوش وخبز حليب",
+        "text": "خبز مخمّر طبيعيًا: ساوردو، وبريوش طري غني ذهبي، وخبز حليب ياباني، ومعجنات وحلويات تتحدث عنها منشورات الحساب.",
+        "image": "brioche"
+      },
+      {
+        "label": "الفريق",
+        "title": "وراء كل مخبوزات طازجة فريق",
+        "text": "«وراء كل مخبوزات طازجة فريق يصنع الفرق، نُحضّرها بعناية ونقدّمها بكل حب كل يوم» – منشورات الحساب نفسه.",
+        "image": "team"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "title": "المنيو",
+    "eyebrow": "من الفرن",
+    "currency": "ر.ع",
+    "sample": true,
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة. يتوفر الطلب أيضًا على Talabat.",
+    "foot": "للطلب المسبق عبر الهاتف أو Talabat",
+    "categories": [
+      {
+        "id": "sourdough",
+        "title": "الخبز المخمّر",
+        "tagline": "خميرة طبيعية",
+        "image": "loaf",
+        "items": [
+          { "name": "رغيف ساوردو", "desc": "مخمّر طبيعيًا، بالحبوب الكاملة أو بالأبيض.", "price": 2.5 },
+          { "name": "بريوش الساوردو", "desc": "طري وذهبي، مثالي للمشاركة.", "price": 2.2 },
+          { "name": "خبز الحليب الياباني", "desc": "طري وحليبي.", "price": 2.0 },
+          { "name": "باغيت", "desc": "للبيت.", "price": 1.0 }
+        ]
+      },
+      {
+        "id": "pastry",
+        "title": "المعجنات",
+        "tagline": "من الفرن",
+        "image": "crisp",
+        "items": [
+          { "name": "مقرمش من الأطراف طري من الداخل", "desc": "وصف الحساب نفسه للمعجنات المحشوة.", "price": 1.8 },
+          { "name": "بابكا", "desc": "", "price": 1.8 },
+          { "name": "كرواسون", "desc": "سادة أو بالزعتر.", "price": 1.5 },
+          { "name": "سينابون", "desc": "", "price": 1.8 }
+        ]
+      },
+      {
+        "id": "sweets",
+        "title": "الحلويات",
+        "tagline": "مع القهوة",
+        "image": "cake",
+        "items": [
+          { "name": "تشيز كيك", "desc": "بالقطعة، وأحيانًا بنكهات موسمية.", "price": 2.8 },
+          { "name": "كيك شيفون", "desc": "بالقطعة.", "price": 2.5 },
+          { "name": "كوكيز", "desc": "", "price": 1.0 }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت",
+        "time": "7 ص – 10 م"
+      }
+    ],
+    "per_day": null,
+    "source": "خرائط Google وحساب المخبز"
+  },
+  "visit": {
+    "image": "maps-photo"
+  },
+  "images": {
+    "hero-loaf": {
+      "file": "world-bread-day.jpg",
+      "alt": "صورة خبز من منشور يوم الخبز العالمي على حساب ساوردو",
+      "source_url": "https://www.instagram.com/sourdough_om/",
+      "credit": "من حساب المحل"
+    },
+    "loaf": {
+      "file": "womens-day.jpg",
+      "alt": "صورة أخباز متنوعة من حساب المحل",
+      "source_url": "https://www.instagram.com/sourdough_om/",
+      "credit": "من حساب المحل"
+    },
+    "brioche": {
+      "file": "brioche.jpg",
+      "alt": "صورة بريوش الساوردو الذهبي من منشور الحساب",
+      "source_url": "https://www.instagram.com/sourdough_om/",
+      "credit": "من حساب المحل"
+    },
+    "crisp": {
+      "file": "crisp-filled.jpg",
+      "alt": "صورة معجون مقرمش محشو من منشور الحساب",
+      "source_url": "https://www.instagram.com/sourdough_om/",
+      "credit": "من حساب المحل"
+    },
+    "morning": {
+      "file": "morning-7am.jpg",
+      "alt": "صورة مخبز مفتوح في الصباح الباكر",
+      "source_url": "https://www.instagram.com/sourdough_om/",
+      "credit": "من حساب المحل"
+    },
+    "team": {
+      "file": "team-bake.jpg",
+      "alt": "صورة فريق المخبز يحضّر الخبز",
+      "source_url": "https://www.instagram.com/sourdough_om/",
+      "credit": "من حساب المحل"
+    },
+    "cake": {
+      "file": "baguette-babka.jpg",
+      "alt": "صورة معجنات داخل المخبز",
+      "source_url": "https://www.instagram.com/sourdough_om/",
+      "credit": "من حساب المحل"
+    },
+    "maps-photo": {
+      "file": "maps-photo.jpg",
+      "alt": "صورة داخل المخبز من صور خرائط Google",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=SOURDOUGH+OMAN+Muscat",
+      "credit": "من خرائط Google"
+    }
+  }
+}

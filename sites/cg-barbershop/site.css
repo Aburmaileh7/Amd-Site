@@ -1,0 +1,27 @@
+/* CG Barbershop: a classic barbershop pole in motion. Deep ink ground with a red pole stripe
+   as the accent; the hero sits in a tall barbershop arch, and a striped barber line runs
+   down the page edge, twisting as you scroll (site.js). */
+html[data-site="cg-barbershop"]{--bg:#1D1410;--bg-rgb:29,20,16;--surface:#2B1E17;--surface-2:#38281E;--ink:#F5EBE0;--ink-rgb:245,235,224;--muted:#C3A894;--line:rgba(245,235,224,.16);--radius:14px}
+html[data-site="cg-barbershop"] main{position:relative}
+html[data-site="cg-barbershop"] .cg-pole{position:absolute;top:0;inset-inline-end:0;width:34px;height:100%;z-index:3;pointer-events:none;overflow:visible}
+html[data-site="cg-barbershop"] .cg-pole path{fill:none;stroke:#B4412F;stroke-width:3;stroke-linecap:round;opacity:.85}
+html[data-site="cg-barbershop"] .cg-pole .cg-pole-stripe{stroke:#F5EBE0}
+html[data-site="cg-barbershop"] .hero__side{border-radius:clamp(200px,22vw,320px) clamp(200px,22vw,320px) 14px 14px}
+html[data-site="cg-barbershop"] .hero__side .photo{aspect-ratio:4/5}
+html[data-site="cg-barbershop"] .hero__side .photo img{object-position:50% 40%!important}
+html[data-site="cg-barbershop"] .hero__content{position:relative}
+html[data-site="cg-barbershop"] .hero__content::before{content:"";display:block;width:100%;height:10px;border-radius:5px;background:repeating-linear-gradient(45deg,#B4412F 0 12px,#F5EBE0 12px 24px,#23406E 24px 36px);margin-block-end:22px;opacity:.85}
+html[data-site="cg-barbershop"] .panel-m__plain{background:var(--glow);position:relative;overflow:hidden;height:100%;min-height:260px}
+html[data-site="cg-barbershop"] .panel-m__plain::after{content:"";position:absolute;inset:auto -18% -32% auto;width:78%;aspect-ratio:1;border-radius:50%;background:rgba(255,255,255,.08)}
+html[data-site="cg-barbershop"] .btn--glow svg{display:none}
+@media (max-width:899px){
+  html[data-site="cg-barbershop"] .hero--split{padding-block:calc(52px + 68px + 6px) 56px!important}
+  html[data-site="cg-barbershop"] .hero--split .hero__grid{display:flex!important;flex-direction:column;gap:22px;align-items:stretch}
+  html[data-site="cg-barbershop"] .hero__side{order:-1;width:min(100%,420px);margin-inline:auto}
+  html[data-site="cg-barbershop"] .hero__side .photo{aspect-ratio:3/3.4}
+  html[data-site="cg-barbershop"] .hero__side .photo img{object-position:50% 35%!important}
+  html[data-site="cg-barbershop"] .cg-pole{width:14px}
+  html[data-site="cg-barbershop"] .hero__content::before{height:8px;margin-block-end:16px}
+}
+html[data-site="cg-barbershop"] .panel-m__visual::after{background:linear-gradient(to top,rgba(20,12,8,.8),transparent 52%)}
+html[data-site="cg-barbershop"] .panel-m__tag,html[data-site="cg-barbershop"] .panel-m__name{color:#fff}

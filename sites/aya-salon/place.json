@@ -1,0 +1,367 @@
+{
+  "place_id": "amd-notion-4115cb52-4e44-817c-85b1-f97b7c0459cb",
+  "batch_id": "amd-gulf-20261107",
+  "slug": "aya-salon",
+  "theme": "beauty_soft",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google وصفحة الصالون على Fresha (قائمة الخدمات والأسعار والتقييمات وصور المعرض)",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#C0557A",
+    "rgb": "192, 85, 122",
+    "hover": "#A64466",
+    "ink": "#FFFFFF"
+  },
+  "name": "Aya Salon",
+  "name_lang": "en",
+  "category_label": "صالون تجميل نسائي",
+  "area": "المعذر الشمالي، الرياض",
+  "address": "2959 طريق الأمير سلطان بن عبدالعزيز، المعذر الشمالي، الرياض",
+  "phone": {
+    "display": "+966 53 503 0403",
+    "tel": "+966535030403"
+  },
+  "whatsapp": null,
+  "booking_url": "https://www.fresha.com/a/aya-salon-riyadh-2959-prince-sultan-bin-abdulaziz-road-qz0tekfy",
+  "booking_label": "احجزي على Fresha",
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Aya%20Salon%20Riyadh",
+  "map_query": "Aya Salon, Prince Sultan Bin Abdulaziz Road, Al Mathar Ash Shamali, Riyadh",
+  "rating": {
+    "value": 4.9,
+    "count": 928,
+    "source": "Fresha"
+  },
+  "hero": {
+    "headline": "مناكير روسي، ويفي، وكيراتين، والأسعار مكتوبة",
+    "intro": "صالون نسائي في المعذر الشمالي بالرياض: أظافر وشعر وصبغات ومعالجات وسدر وفتلة، يوميًا من 1 ظهرًا إلى 10 مساءً، وعلى Fresha 928 تقييمًا بمتوسط 4.9.",
+    "image": "hero-nails"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "reviews",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في قائمة آية",
+    "items": [
+      "مناكير روسي",
+      "بوتكس الكشمير",
+      "استشوار ويفي",
+      "هايلايت كامل",
+      "إكسير السدر والزيوت",
+      "المعذر الشمالي – الرياض"
+    ]
+  },
+  "story": {
+    "eyebrow": "أكثر ما تطلبه الزبونات",
+    "title": "ثلاثة أشياء تشتهر بها آية",
+    "items": [
+      {
+        "label": "الأظافر",
+        "title": "مناكير روسي بثلاثة أنواع",
+        "text": "كلاسيك 115 ر.س، وروسي 160 ر.س، ومانيكير آية الخاص 165 ر.س — وتركيب أظافر الجل بالطريقة الروسية 640 ر.س. والرسم على 10 أظافر يبدأ من 135 ر.س.",
+        "image": "nails-art"
+      },
+      {
+        "label": "الشعر",
+        "title": "ويفي وصبغ ومعالجات",
+        "text": "استشوار ويفي من 207 ر.س للشعر القصير، وإكسير السدر والزيوت 370 ر.س، وعلاج البوتكس بالكشمير من 600 ر.س، والمعالج الحراري يبدأ من 1,150 ر.س.",
+        "image": "waves"
+      },
+      {
+        "label": "المكان",
+        "title": "استقبال ومساحة للجلوس",
+        "text": "في المعرض صور الاستقبال بكراسٍ مريحة وديكور فني، وبيئة هادئة لموعدك. والدخول يوميًا من الواحدة ظهرًا حتى العاشرة مساءً.",
+        "image": "lobby"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات والأسعار",
+    "eyebrow": "من صفحة الصالون على Fresha",
+    "currency": "ر.س",
+    "sample": false,
+    "note": "الخدمات والأسعار كما هي مكتوبة في صفحة Aya Salon على Fresha، وقد تتغير. الأسعار بالريال السعودي.",
+    "foot": "للحجز والاستفسار عبر الهاتف أو Fresha",
+    "categories": [
+      {
+        "id": "nails-mani",
+        "title": "مناكير وبديكير",
+        "tagline": "كلاسيك وروسي وآية",
+        "items": [
+          { "name": "مانيكير كلاسيك", "price": 115, "desc": "45 دقيقة" },
+          { "name": "بوديكير كلاسيك", "price": 145, "desc": "45 دقيقة" },
+          { "name": "مانيكير آية", "price": 165, "desc": "45 دقيقة" },
+          { "name": "بوديكير آية", "price": 195, "desc": "50 دقيقة" },
+          { "name": "مانيكير وبديكير آية", "price": 360, "desc": "ساعة و45 دقيقة" },
+          { "name": "مانيكير روسي", "price": 160, "desc": "45 دقيقة" },
+          { "name": "بوديكير روسي", "price": 185, "desc": "55 دقيقة" },
+          { "name": "مانيكير وبديكير روسي", "price": 320, "desc": "ساعة و40 دقيقة · خدمتان" },
+          { "name": "مناكير وبديكير بدون لون", "price": 230, "desc": "45 دقيقة · خدمتان" },
+          { "name": "مناكير وبديكير كلاسيك مع لون للأيدي", "price": 260, "desc": "45 دقيقة · 3 خدمات" },
+          { "name": "مناكير وبديكير كلاسيك مع لون لليدين والرجلين", "price": 295, "desc": "45 دقيقة · 4 خدمات" },
+          { "name": "مانيكير أطفال", "price": 50, "desc": "30 دقيقة" }
+        ]
+      },
+      {
+        "id": "nails-art",
+        "title": "أظافر وجل ورسم",
+        "tagline": "تركيب ورسم وجل",
+        "items": [
+          { "name": "لون الأظافر", "price": 35, "desc": "10 دقائق" },
+          { "name": "الرسم على ظفر واحد", "price": 15, "desc": "15 دقيقة" },
+          { "name": "رسم بسيط على 10 أظافر", "price": 135, "desc": "ساعة" },
+          { "name": "رسم بتفاصيل كثيرة على 10 أظافر", "price": 225, "desc": "ساعة ونصف" },
+          { "name": "إصلاح سريع للأظافر", "price": 65, "desc": "30 دقيقة" },
+          { "name": "تركيب أظافر أسبوعية مع اللون", "price": 149, "desc": "ساعة" },
+          { "name": "تركيب أظافر الجل بالطريقة الروسية", "price": 640, "desc": "3 ساعات" },
+          { "name": "مناكير روسي مع لون جل أو بياب", "price": 360, "desc": "ساعة ونصف" },
+          { "name": "بديكير روسي مع لون جل أو بياب", "price": 360, "desc": "ساعتان" },
+          { "name": "لون جل أوفرلي", "price": 245, "desc": "ساعة" },
+          { "name": "بياب أوفرلي", "price": 245, "desc": "ساعة" },
+          { "name": "طلاء جل", "price": 100, "desc": "20 دقيقة" },
+          { "name": "كات آي (رسم على الأظافر)", "price": 289, "desc": "ساعة" },
+          { "name": "تركيب جل لظفر واحد", "price": 55, "desc": "15 دقيقة" },
+          { "name": "إزالة أظافر الجل", "price": 225, "desc": "ساعة" },
+          { "name": "تعبئة أظافر الجل", "price": 480, "desc": "ساعتان" },
+          { "name": "تعبئة البياب", "price": 360, "desc": "ساعة ونصف" },
+          { "name": "إزالة لون بياب أو الجل أو الأظافر الأسبوعية", "price": 115, "desc": "30 دقيقة" },
+          { "name": "لون مناكير للأطفال", "price": 23, "desc": "15 دقيقة" }
+        ]
+      },
+      {
+        "id": "hair",
+        "title": "الشعر والاستشوار",
+        "tagline": "قص وويفي وتسريحات",
+        "items": [
+          { "name": "غسيل الشعر", "price": 35, "desc": "10 دقائق" },
+          { "name": "غسيل شعر خاص", "price": 60, "desc": "ساعة" },
+          { "name": "استشوار ويفي – قصير", "price": 207, "desc": "20 دقيقة" },
+          { "name": "استشوار ويفي – وسط", "price": 265, "desc": "30 دقيقة" },
+          { "name": "استشوار ويفي – طويل", "price": 322, "desc": "40 دقيقة" },
+          { "name": "استشوار ويفي – طويل جدًا", "price": 368, "desc": "45 دقيقة" },
+          { "name": "سشوار الشعر – قصير", "price": 110, "desc": "20 دقيقة" },
+          { "name": "سشوار الشعر – وسط", "price": 161, "desc": "30 دقيقة" },
+          { "name": "سشوار الشعر – طويل", "price": 213, "desc": "30 دقيقة" },
+          { "name": "سشوار الشعر – طويل جدًا", "price": 259, "desc": "45 دقيقة" },
+          { "name": "تسريحة للشعر – وسط", "price": 375, "desc": "ساعة" },
+          { "name": "تسريحة للشعر – طويل", "price": 460, "desc": "ساعة" },
+          { "name": "قص الشعر – قص غرة", "price": 75, "desc": "15 دقيقة" },
+          { "name": "قص الشعر – قص أطراف", "price": 175, "desc": "20 دقيقة" },
+          { "name": "قص الشعر – قص موديل", "price": 230, "desc": "30 دقيقة" },
+          { "name": "قص الشعر – قص بوي", "price": 300, "desc": "45 دقيقة" },
+          { "name": "قص واستشوار", "price": 365, "desc": "ساعة" },
+          { "name": "اكستنشن شعر", "price": 100, "desc": "20 دقيقة" }
+        ]
+      },
+      {
+        "id": "color",
+        "title": "صبغات الشعر",
+        "tagline": "صبغة وهايلايت ورينساج",
+        "items": [
+          { "name": "اختبار خصلة", "price": 50, "desc": "10 دقائق" },
+          { "name": "صبغة الشعر – قصير", "price": 495, "desc": "ساعة" },
+          { "name": "صبغة الشعر – وسط", "price": 610, "desc": "ساعة" },
+          { "name": "صبغة الشعر – طويل", "price": 725, "desc": "ساعة" },
+          { "name": "صبغة الشعر – طويل جدًا", "price": 840, "desc": "ساعة" },
+          { "name": "صبغة الجذور", "price": 305, "desc": "40 دقيقة" },
+          { "name": "دمج للجذور", "price": 460, "desc": "30 دقيقة" },
+          { "name": "صبغة خالية من الأمونيا – جذور", "price": 375, "desc": "40 دقيقة" },
+          { "name": "صبغة خالية من الأمونيا – قصير", "price": 575, "desc": "ساعة" },
+          { "name": "صبغة خالية من الأمونيا – وسط", "price": 775, "desc": "ساعة و20 دقيقة" },
+          { "name": "صبغة خالية من الأمونيا – طويل", "price": 975, "desc": "ساعة ونصف" },
+          { "name": "صبغة خالية من الأمونيا – طويل جدًا", "price": 1175, "desc": "ساعة و40 دقيقة" },
+          { "name": "هايلايت – قصير", "price": 431, "desc": "ساعة و15 دقيقة" },
+          { "name": "هايلايت – وسط", "price": 546, "desc": "ساعة و45 دقيقة" },
+          { "name": "هايلايت – طويل", "price": 661, "desc": "ساعتان" },
+          { "name": "هايلايت – طويل جدًا", "price": 776, "desc": "ساعة" },
+          { "name": "هايلايت كامل – قصير", "price": 1725, "desc": "3 ساعات ونصف" },
+          { "name": "هايلايت كامل – وسط", "price": 2185, "desc": "4 ساعات" },
+          { "name": "هايلايت كامل – طويل", "price": 2875, "desc": "4 ساعات" },
+          { "name": "هايلايت كامل – طويل جدًا", "price": 3450, "desc": "4 ساعات ونصف" },
+          { "name": "رينساج – وسط", "price": 430, "desc": "25 دقيقة" },
+          { "name": "رينساج – طويل", "price": 610, "desc": "25 دقيقة" },
+          { "name": "تريتمنت لمعان للشعر", "price": 161, "desc": "30 دقيقة" }
+        ]
+      },
+      {
+        "id": "treatment",
+        "title": "تغذية وترطيب الشعر",
+        "tagline": "كيراتين ومعالجات",
+        "items": [
+          { "name": "كشف فروة", "price": 50, "desc": "15 دقيقة" },
+          { "name": "فيش كيراتين", "price": 250, "desc": "15 دقيقة" },
+          { "name": "جينيسيس تريتمنت", "price": 350, "desc": "30 دقيقة" },
+          { "name": "تريتمنت لوريال – قصير", "price": 250, "desc": "30 دقيقة" },
+          { "name": "تريتمنت لوريال – وسط", "price": 300, "desc": "30 دقيقة" },
+          { "name": "تريتمنت لوريال – طويل", "price": 350, "desc": "30 دقيقة" },
+          { "name": "ألترنا كافيار تريتمنت", "price": 325, "desc": "30 دقيقة" },
+          { "name": "تريتمنت شوارسكوف", "price": 380, "desc": "30 دقيقة" },
+          { "name": "تنظيف فروة", "price": 250, "desc": "35 دقيقة" },
+          { "name": "سبا فروة الرأس", "price": 330, "desc": "ساعة" },
+          { "name": "سبا فروة الرأس الفاخرة", "price": 530, "desc": "ساعة و40 دقيقة" },
+          { "name": "معالج فيلر – قصير", "price": 300, "desc": "30 دقيقة" },
+          { "name": "معالج فيلر – وسط", "price": 400, "desc": "30 دقيقة" },
+          { "name": "معالج فيلر – طويل", "price": 500, "desc": "30 دقيقة" },
+          { "name": "بوتكس الكشمير آية – قصير", "price": 600, "desc": "ساعة" },
+          { "name": "بوتكس الكشمير آية – وسط", "price": 700, "desc": "ساعة" },
+          { "name": "بوتكس الكشمير آية – طويل", "price": 800, "desc": "ساعة" },
+          { "name": "معالج حراري – قصير", "price": 1150, "desc": "ساعة ونصف" },
+          { "name": "معالج حراري – وسط", "price": 1425, "desc": "ساعتان" },
+          { "name": "معالج حراري – طويل", "price": 1825, "desc": "3 ساعات" },
+          { "name": "معالج حراري – طويل جدًا", "price": 2425, "desc": "3 ساعات" }
+        ]
+      },
+      {
+        "id": "seder",
+        "title": "عناية السدر والزيوت",
+        "tagline": "سدر وزيوت طبيعية",
+        "items": [
+          { "name": "إكسير السدر والزيوت", "price": 370, "desc": "ساعة و40 دقيقة" },
+          { "name": "الزيوت الطبيعية", "price": 225, "desc": "ساعة" },
+          { "name": "سدر مع ترطيب", "price": 200, "desc": "ساعة و20 دقيقة" }
+        ]
+      },
+      {
+        "id": "threading",
+        "title": "فتلة",
+        "tagline": "حواجب ووجه",
+        "items": [
+          { "name": "فتلة وجه كامل", "price": 150, "desc": "45 دقيقة" },
+          { "name": "فتلة حواجب", "price": 90, "desc": "25 دقيقة" },
+          { "name": "فتلة شفة علوية", "price": 57.5, "desc": "15 دقيقة" },
+          { "name": "فتلة ذقن", "price": 57.5, "desc": "ساعة" }
+        ]
+      },
+      {
+        "id": "massage",
+        "title": "مساج",
+        "tagline": "رأس وأكتاف وأقدام",
+        "items": [
+          { "name": "مساج رأس أو أكتاف", "price": 115, "desc": "15 دقيقة" },
+          { "name": "مساج أقدام", "price": 115, "desc": "15 دقيقة" },
+          { "name": "مساج أقدام – 30 دقيقة", "price": 130, "desc": "30 دقيقة" },
+          { "name": "مساج رأس أو أكتاف – 30 دقيقة", "price": 130, "desc": "30 دقيقة" }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Rahaf A.",
+      "stars": 5,
+      "text": "كل شيء جميل جدا المكان مرتب ونظيف اهتمام الموظفات ونفسياتهم وشغل الأخصائيات والضيافة كل التفاصيل هذي حلوة جدا وتبسط العميلة",
+      "source_ref": "https://www.fresha.com/a/aya-salon-riyadh-2959-prince-sultan-bin-abdulaziz-road-qz0tekfy"
+    },
+    {
+      "author": "Lolwah A.",
+      "stars": 5,
+      "text": "Very professional, very kind , excellent service , excellent assistants as well",
+      "source_ref": "https://www.fresha.com/a/aya-salon-riyadh-2959-prince-sultan-bin-abdulaziz-road-qz0tekfy"
+    },
+    {
+      "author": "Rawan A.",
+      "stars": 5,
+      "text": "Gulim is the best, she’s naturally talented and has sense of beauty",
+      "source_ref": "https://www.fresha.com/a/aya-salon-riyadh-2959-prince-sultan-bin-abdulaziz-road-qz0tekfy"
+    },
+    {
+      "author": "Alaa M.",
+      "stars": 5,
+      "text": "The best salon, The staff are very friendly.",
+      "source_ref": "https://www.fresha.com/a/aya-salon-riyadh-2959-prince-sultan-bin-abdulaziz-road-qz0tekfy"
+    }
+  ],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "1 م – 10 م"
+      }
+    ],
+    "per_day": 7,
+    "source": "صفحة الصالون على Fresha وخرائط Google"
+  },
+  "visit": {
+    "image": "workspace"
+  },
+  "images": {
+    "hero-nails": {
+      "file": "floral-nails.jpg",
+      "alt": "صورة أظافر بتصاميم ورود مزخرفة على أصابع يد",
+      "source_url": "https://www.fresha.com/a/aya-salon-riyadh-2959-prince-sultan-bin-abdulaziz-road-qz0tekfy",
+      "credit": "من صفحة الصالون على Fresha"
+    },
+    "nails-art": {
+      "file": "hand-art.jpg",
+      "alt": "صورة يد تُرسم عليها تصاميم أظافر دقيقة أثناء الجلسة",
+      "source_url": "https://www.fresha.com/a/aya-salon-riyadh-2959-prince-sultan-bin-abdulaziz-road-qz0tekfy",
+      "credit": "من صفحة الصالون على Fresha"
+    },
+    "polish-chair": {
+      "file": "polish-chair.jpg",
+      "alt": "صورة رف بطلاءات الأظافر وكرسي مريح داخل الصالون",
+      "source_url": "https://www.fresha.com/a/aya-salon-riyadh-2959-prince-sultan-bin-abdulaziz-road-qz0tekfy",
+      "credit": "من صفحة الصالون على Fresha"
+    },
+    "lobby": {
+      "file": "lobby.jpg",
+      "alt": "صورة منطقة الاستقبال بكراسٍ مريحة وديكور فني",
+      "source_url": "https://www.fresha.com/a/aya-salon-riyadh-2959-prince-sultan-bin-abdulaziz-road-qz0tekfy",
+      "credit": "من صفحة الصالون على Fresha"
+    },
+    "workspace": {
+      "file": "workspace.jpg",
+      "alt": "صورة مساحة العمل داخل الصالون بتصميم عصري وجلسات فاخرة",
+      "source_url": "https://www.fresha.com/a/aya-salon-riyadh-2959-prince-sultan-bin-abdulaziz-road-qz0tekfy",
+      "credit": "من صفحة الصالون على Fresha"
+    },
+    "waves": {
+      "file": "keratin-waves.jpg",
+      "alt": "صورة شعر بتموجات ناعمة ولمعان بعد المعالجة",
+      "source_url": "https://www.fresha.com/a/aya-salon-riyadh-2959-prince-sultan-bin-abdulaziz-road-qz0tekfy",
+      "credit": "من صفحة الصالون على Fresha"
+    },
+    "smooth": {
+      "file": "keratin-smooth.jpg",
+      "alt": "صورة شعر أملس لامع بعد جلسة كيراتين",
+      "source_url": "https://www.fresha.com/a/aya-salon-riyadh-2959-prince-sultan-bin-abdulaziz-road-qz0tekfy",
+      "credit": "من صفحة الصالون على Fresha"
+    },
+    "straight": {
+      "file": "keratin-straight.jpg",
+      "alt": "صورة شعر طويل أملس منسدل بعد المعالجة الحرارية",
+      "source_url": "https://www.fresha.com/a/aya-salon-riyadh-2959-prince-sultan-bin-abdulaziz-road-qz0tekfy",
+      "credit": "من صفحة الصالون على Fresha"
+    },
+    "shine": {
+      "file": "keratin-shine.jpg",
+      "alt": "صورة شعر أمامي لامع بخصل انسيابية بعد المعالجة",
+      "source_url": "https://www.fresha.com/a/aya-salon-riyadh-2959-prince-sultan-bin-abdulaziz-road-qz0tekfy",
+      "credit": "من صفحة الصالون على Fresha"
+    },
+    "portrait": {
+      "file": "keratin-portrait.jpg",
+      "alt": "صورة شعر أملس من الجانب يظهر الانسيابية واللمعان",
+      "source_url": "https://www.fresha.com/a/aya-salon-riyadh-2959-prince-sultan-bin-abdulaziz-road-qz0tekfy",
+      "credit": "من صفحة الصالون على Fresha"
+    },
+    "maps-photo": {
+      "file": "maps-photo.jpg",
+      "alt": "صورة داخل الصالون من صور خرائط Google",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Aya+Salon+Riyadh",
+      "credit": "من خرائط Google"
+    }
+  }
+}

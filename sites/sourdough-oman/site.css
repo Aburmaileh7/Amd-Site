@@ -1,0 +1,25 @@
+/* Sourdough Oman: the quiet colour of a slow ferment. Cream ground, deep wheat ink;
+   the hero sits in a tall loaf arch, and a fine wheat-stem line runs down the page
+   edge, bending with the scroll (site.js). */
+html[data-site="sourdough-oman"]{--bg:#FDF8EE;--bg-rgb:253,248,238;--surface:#F5EBD8;--surface-2:#EDDFC4;--ink:#2E200F;--ink-rgb:46,32,15;--muted:#7A5F33;--line:rgba(46,32,15,.14);--radius:18px}
+html[data-site="sourdough-oman"] main{position:relative}
+html[data-site="sourdough-oman"] .sd-stem{position:absolute;top:0;inset-inline-end:0;width:36px;height:100%;z-index:3;pointer-events:none;overflow:visible}
+html[data-site="sourdough-oman"] .sd-stem path{fill:none;stroke:#A8712C;stroke-width:2.5;stroke-linecap:round;opacity:.85}
+html[data-site="sourdough-oman"] .hero__side{border-radius:clamp(200px,22vw,320px) clamp(200px,22vw,320px) 18px 18px}
+html[data-site="sourdough-oman"] .hero__side .photo{aspect-ratio:4/5}
+html[data-site="sourdough-oman"] .hero__side .photo img{object-position:50% 40%!important}
+html[data-site="sourdough-oman"] .hero__content{position:relative}
+html[data-site="sourdough-oman"] .hero__content::before{content:"";display:block;width:100%;height:5px;border-radius:3px;background:linear-gradient(90deg,#A8712C66,#A8712C);margin-block-end:20px;opacity:.9}
+html[data-site="sourdough-oman"] .panel-m__plain{background:var(--glow);position:relative;overflow:hidden;height:100%;min-height:260px}
+html[data-site="sourdough-oman"] .panel-m__plain::after{content:"";position:absolute;inset:auto -18% -32% auto;width:78%;aspect-ratio:1;border-radius:50%;background:rgba(255,255,255,.14)}
+html[data-site="sourdough-oman"] .btn--glow svg{display:none}
+@media (max-width:899px){
+  html[data-site="sourdough-oman"] .hero--split{padding-block:calc(52px + 68px + 6px) 56px!important}
+  html[data-site="sourdough-oman"] .hero--split .hero__grid{display:flex!important;flex-direction:column;gap:22px;align-items:stretch}
+  html[data-site="sourdough-oman"] .hero__side{order:-1;width:min(100%,420px);margin-inline:auto}
+  html[data-site="sourdough-oman"] .hero__side .photo{aspect-ratio:3/3.4}
+  html[data-site="sourdough-oman"] .hero__side .photo img{object-position:50% 35%!important}
+  html[data-site="sourdough-oman"] .sd-stem{width:14px}
+}
+html[data-site="sourdough-oman"] .panel-m__visual::after{background:linear-gradient(to top,rgba(46,32,15,.78),transparent 52%)}
+html[data-site="sourdough-oman"] .panel-m__tag,html[data-site="sourdough-oman"] .panel-m__name{color:#fff}

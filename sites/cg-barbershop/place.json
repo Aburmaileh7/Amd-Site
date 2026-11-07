@@ -1,0 +1,224 @@
+{
+  "place_id": "amd-notion-4115cb52-4e44-812d-bdd2-c25fb80e9642",
+  "batch_id": "amd-gulf-20261107",
+  "slug": "cg-barbershop",
+  "theme": "beauty_soft",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google (5.0 وتسميات الصالون) والموقع الرسمي cgbarbershop.com (الخدمات والفريق والمراجعات والساعات)",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#B4412F",
+    "rgb": "180, 65, 47",
+    "hover": "#9A3424",
+    "ink": "#FFFFFF"
+  },
+  "name": "CG Barbershop",
+  "name_lang": "en",
+  "category_label": "صالون حلاقة رجالي فاخر",
+  "area": "أرجان روتانا، الصفوح، دبي",
+  "address": "أرجان باي روتانا، مجمع الصفوح، دبي",
+  "phone": {
+    "display": "+971 4 227 4666",
+    "tel": "+97142274666"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=CG%20Barbershop%20Dubai",
+  "map_query": "CG Barbershop, Arjaan by Rotana, Al Sufouh, Dubai",
+  "rating": {
+    "value": 5,
+    "count": 2668,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "قص وتحديد لحية في قلب مدينة الإعلام",
+    "intro": "صالون حلاقة رجالي في أرجان روتانا بالصفوح، دبي: قص وتحديد لحية وعناية بالبشرة، وفريق متخصص بأسمائه وخبراته، يوميًا من 10 صباحًا إلى 8 مساءً، وصف السيارات مجانًا.",
+    "image": "hero-interior"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "story",
+    "reviews",
+    "visit"
+  ],
+  "marquee": {
+    "label": "خدمات CG",
+    "items": [
+      "قص الشعر",
+      "تحديد اللحية",
+      "عناية بالبشرة",
+      "قص + استشوار",
+      "الصفوح – دبي",
+      "صف سيارات مجانًا"
+    ]
+  },
+  "story": {
+    "eyebrow": "ما يتكرر في مراجعات الزبائن",
+    "title": "لماذا يعود الزبائن إلى CG؟",
+    "items": [
+      {
+        "label": "المحترفون",
+        "title": "فريق بأسمائه وخبرته",
+        "text": "في الموقع الرسمي أسماء الحلاقين وسنوات خبرتهم ولغاتهم: كارلوس 27 سنة خبرة، وآلي 21 سنة، وسيرور 18 سنة، وموجان 16 سنة.",
+        "image": "stylist"
+      },
+      {
+        "label": "القص",
+        "title": "من القص الكلاسيكي إلى السكين فيد",
+        "text": "يبدأ كل قص باستشارة، ويتحدث الزبائن عن أفضل سكين فيد في دبي، وعمل نظيف ودقيق مع متابعة شخصية لكل زبون.",
+        "image": "work"
+      },
+      {
+        "label": "المكان",
+        "title": "أجواء هادئة وفاخرة",
+        "text": "زبائن يصفون المكان بأنه هادئ وفاخر، مع منتجات متطورة، وصف سيارات مجانًا عند مدخل الفندق في أرجان روتانا.",
+        "image": "interior-tall"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "من الموقع الرسمي CG",
+    "currency": "د.إ",
+    "sample": false,
+    "note": "الخدمات كما يصفها الموقع الرسمي. الأسعار عبر الاتصال والحجز.",
+    "foot": "للحجز والاستفسار",
+    "categories": [
+      {
+        "id": "hair",
+        "title": "الشعر",
+        "tagline": "قص وتسريحات",
+        "items": [
+          {
+            "name": "قص الشعر",
+            "desc": "من القص الكلاسيكي والسكين فيد إلى قصات أطول وإعادة تصميم كاملة، ويبدأ كل خدمة باستشارة."
+          },
+          {
+            "name": "قص + استشوار",
+            "desc": "قص مع استشوار وتنسيق نهائي."
+          }
+        ]
+      },
+      {
+        "id": "beard",
+        "title": "اللحية",
+        "tagline": "تحديد وتشذيب",
+        "items": [
+          {
+            "name": "تحديد اللحية",
+            "desc": "من ترتيب خفيف إلى إعادة تشكيل كاملة، وتُبنى الخدمة على نمو لحيتك وملامح وجهك."
+          }
+        ]
+      },
+      {
+        "id": "skin",
+        "title": "البشرة",
+        "tagline": "عناية وترطيب",
+        "items": [
+          {
+            "name": "عناية بالبشرة",
+            "desc": "علاج لتنظيف البشرة وترطيبها وتحسين حالتها، من انتعاش سريع إلى جلسة أعمق."
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Naufal A.",
+      "stars": 5,
+      "text": "I’ve gone to my share of barbershops in Dubai, but CG barbershop exceeded expectations of all kinds. Sami is hands down the best barber you can find! He was extremely skilled and professional in a relaxing hip, lux environment.",
+      "source_ref": "https://cgbarbershop.com/"
+    },
+    {
+      "author": "Tim H.",
+      "stars": 5,
+      "text": "Best skin fade of my life from Abidal! Staff were funny and made me feel very comfortable. Highly professional and would definitely recommend.",
+      "source_ref": "https://cgbarbershop.com/"
+    },
+    {
+      "author": "Wilton N.",
+      "stars": 5,
+      "text": "I got a Skin fade & beard trim along with Keratin Short Hair - Wash Application | Straighten | Wash | Style From beginning til end Abidel instilled confidence which made me feel comfortable.",
+      "source_ref": "https://cgbarbershop.com/"
+    },
+    {
+      "author": "Aamir J.",
+      "stars": 5,
+      "text": "My first time there. Overall experience was great. Quality of cut was really professional. They use Dyson products so the entire salon is a Dyson showcase.",
+      "source_ref": "https://cgbarbershop.com/"
+    }
+  ],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "10 ص – 8 م"
+      }
+    ],
+    "per_day": 7,
+    "source": "الموقع الرسمي cgbarbershop.com وخرائط Google"
+  },
+  "visit": {
+    "image": "maps-interior"
+  },
+  "images": {
+    "hero-interior": {
+      "file": "interior.jpg",
+      "alt": "صورة داخل صالون CG مع كراسي الحلاقة والإضاءة",
+      "source_url": "https://cgbarbershop.com/",
+      "credit": "من الموقع الرسمي"
+    },
+    "interior-tall": {
+      "file": "interior-tall.jpg",
+      "alt": "صورة عمودية داخل الصالون تظهر مقاعد الحلاقة",
+      "source_url": "https://cgbarbershop.com/",
+      "credit": "من الموقع الرسمي"
+    },
+    "work": {
+      "file": "work.jpg",
+      "alt": "صورة حلاق يقص شعر زبون داخل الصالون",
+      "source_url": "https://cgbarbershop.com/",
+      "credit": "من الموقع الرسمي"
+    },
+    "stylist": {
+      "file": "stylist.jpg",
+      "alt": "صورة أحد حلاقي فريق CG داخل الصالون",
+      "source_url": "https://cgbarbershop.com/",
+      "credit": "من الموقع الرسمي"
+    },
+    "stylist-2": {
+      "file": "stylist-2.jpg",
+      "alt": "صورة حلاق من فريق CG من الجانب",
+      "source_url": "https://cgbarbershop.com/",
+      "credit": "من الموقع الرسمي"
+    },
+    "stylist-3": {
+      "file": "stylist-3.jpg",
+      "alt": "صورة حلاق آخر من فريق CG",
+      "source_url": "https://cgbarbershop.com/",
+      "credit": "من الموقع الرسمي"
+    },
+    "maps-interior": {
+      "file": "maps-interior.jpg",
+      "alt": "صورة داخل الصالون من صور خرائط Google",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=CG+Barbershop+Dubai",
+      "credit": "من خرائط Google"
+    },
+    "maps-chair": {
+      "file": "maps-chair.jpg",
+      "alt": "صورة كرسي حلاقة داخل الصالون من خرائط Google",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=CG+Barbershop+Dubai",
+      "credit": "من خرائط Google"
+    }
+  }
+}

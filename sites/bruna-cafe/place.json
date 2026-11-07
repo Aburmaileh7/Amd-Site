@@ -1,0 +1,190 @@
+{
+  "place_id": "amd-notion-4115cb52-4e44-81ab-b7e6-fdaca8be9949",
+  "batch_id": "amd-gulf-20261107",
+  "slug": "bruna-cafe",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google (التقييم والساعات والهاتف والموقع) وحساب الكافيه على إنستغرام (@bruna.ksa) للصور والسيرة",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#8A5A2B",
+    "rgb": "138, 90, 43",
+    "hover": "#704723",
+    "ink": "#FFFFFF"
+  },
+  "name": "BRUNA",
+  "name_lang": "en",
+  "category_label": "كافيه قهوة مختصة",
+  "area": "الجبيل، السعودية",
+  "address": "الجبيل، السعودية",
+  "phone": {
+    "display": "+966 56 779 2257",
+    "tel": "+966567792257"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=BRUNA+Cafe+Jubail",
+  "map_query": "BRUNA, Jubail, Saudi Arabia",
+  "rating": {
+    "value": 4.7,
+    "count": 400,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "قهوة مختصة بين أزقة الجبيل القديمة",
+    "intro": "كافيه في الجبيل بهوية مختصة، من الفجر حتى الثانية بعد منتصف الليل، بمشروبات وحلويات يوثقها حسابه على إنستغرام.",
+    "image": "hero"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "reviews",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في برونا",
+    "items": [
+      "قهوة مختصة",
+      "من الفجر حتى 1 ص",
+      "حلويات ومشروبات",
+      "الجبيل",
+      "جلسات هادئة"
+    ]
+  },
+  "story": {
+    "eyebrow": "من صور الحساب",
+    "title": "طقوس برونا اليومية",
+    "items": [
+      {
+        "label": "الصباح",
+        "title": "يفتح من السادسة صباحًا",
+        "text": "تبدأ ساعات العمل في خرائط Google من 6 صباحًا، لقهوة الصباح قبل دوام الجبيل.",
+        "image": "morning"
+      },
+      {
+        "label": "المشروبات",
+        "title": "قهوة مختصة ومشروبات باردة",
+        "text": "يعرّف الحساب نفسه بـ«قهوة مختصة» في الجبيل، وصوره تظهر مشروبات مختصة وحلويات.",
+        "image": "drinks"
+      },
+      {
+        "label": "المساء",
+        "title": "حتى واحدة بعد منتصف الليل",
+        "text": "يغلق المكان عند 1 صباحًا، فسهرة قهوة متأخرة لها موعدها في الجبيل.",
+        "image": "evening"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "title": "المنيو",
+    "eyebrow": "مشروبات وحلويات",
+    "currency": "ر.س",
+    "sample": true,
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "foot": "للاستفسار والطلب",
+    "categories": [
+      {
+        "id": "hot",
+        "title": "مشروبات ساخنة",
+        "tagline": "قهوة مختصة",
+        "image": "drinks",
+        "items": [
+          { "name": "سبانيش لاتيه", "desc": "إسبريسو مع حليب مكثف.", "price": 16 },
+          { "name": "كابتشينو", "desc": "", "price": 14 },
+          { "name": "فلات وايت", "desc": "", "price": 15 },
+          { "name": "قهوة اليوم المختصة", "desc": "تحميص ومصدر موسمي.", "price": 18 }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "مشروبات باردة",
+        "tagline": "مثلجة ومنعشة",
+        "image": "cold",
+        "items": [
+          { "name": "آيس لاتيه", "desc": "", "price": 16 },
+          { "name": "آيس ماتشا لاتيه", "desc": "", "price": 19 },
+          { "name": "ليمون بالنعناع", "desc": "عصير طازج.", "price": 15 },
+          { "name": "موكا مثلجة", "desc": "", "price": 17 }
+        ]
+      },
+      {
+        "id": "bites",
+        "title": "حلويات وخفيفة",
+        "tagline": "مع القهوة",
+        "image": "bites",
+        "items": [
+          { "name": "كيك الشوكولاتة", "desc": "بالقطعة.", "price": 18 },
+          { "name": "كوكيز", "desc": "", "price": 9 },
+          { "name": "كرواسون", "desc": "سادة أو بالزعتر.", "price": 12 }
+        ]
+      }
+    ]
+  },
+  "reviews": [],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت",
+        "time": "6 ص – 1 ص"
+      }
+    ],
+    "per_day": null,
+    "source": "خرائط Google"
+  },
+  "visit": {
+    "image": "maps-photo"
+  },
+  "images": {
+    "hero": {
+      "file": "post-1.jpg",
+      "alt": "صورة كوب قهوة من حساب برونا على إنستغرام",
+      "source_url": "https://www.instagram.com/bruna.ksa/",
+      "credit": "من حساب المحل"
+    },
+    "morning": {
+      "file": "post-2.jpg",
+      "alt": "صورة مشروب صباحي من حساب المحل",
+      "source_url": "https://www.instagram.com/bruna.ksa/",
+      "credit": "من حساب المحل"
+    },
+    "drinks": {
+      "file": "post-3.jpg",
+      "alt": "صورة مشروب قهوة مختصة من حساب المحل",
+      "source_url": "https://www.instagram.com/bruna.ksa/",
+      "credit": "من حساب المحل"
+    },
+    "cold": {
+      "file": "post-4.jpg",
+      "alt": "صورة مشروب بارد من حساب المحل",
+      "source_url": "https://www.instagram.com/bruna.ksa/",
+      "credit": "من حساب المحل"
+    },
+    "bites": {
+      "file": "post-5.jpg",
+      "alt": "صورة حلوى تقدم مع القهوة في برونا",
+      "source_url": "https://www.instagram.com/bruna.ksa/",
+      "credit": "من حساب المحل"
+    },
+    "evening": {
+      "file": "post-6.jpg",
+      "alt": "صورة أجواء المساء في الكافيه",
+      "source_url": "https://www.instagram.com/bruna.ksa/",
+      "credit": "من حساب المحل"
+    },
+    "maps-photo": {
+      "file": "maps-photo.jpg",
+      "alt": "صورة داخل الكافيه من صور خرائط Google",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=BRUNA+Cafe+Jubail",
+      "credit": "من خرائط Google"
+    }
+  }
+}
