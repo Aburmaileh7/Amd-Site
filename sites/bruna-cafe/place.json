@@ -5,7 +5,7 @@
   "theme": "cafe_light",
   "approved": false,
   "agency": "Amd web",
-  "data_source": "خرائط Google (التقييم والساعات والهاتف والموقع) وحساب الكافيه على إنستغرام (@bruna.ksa) للصور والسيرة",
+  "data_source": "خرائط Google (التقييم والساعات والعنوان والهاتف والمراجعات وصور الزوار) وحساب الكافيه على إنستغرام (@bruna.ksa)",
   "layout": {
     "hero": "split",
     "story": "stack"
@@ -19,23 +19,23 @@
   "name": "BRUNA",
   "name_lang": "en",
   "category_label": "كافيه قهوة مختصة",
-  "area": "الجبيل، السعودية",
-  "address": "الجبيل، السعودية",
+  "area": "الجبيل",
+  "address": "طريق الملك عبدالعزيز، ميناء الملك فهد الصناعي، الجبيل",
   "phone": {
     "display": "+966 56 779 2257",
     "tel": "+966567792257"
   },
   "whatsapp": null,
-  "directions_url": "https://www.google.com/maps/search/?api=1&query=BRUNA+Cafe+Jubail",
-  "map_query": "BRUNA, Jubail, Saudi Arabia",
+  "directions_url": "https://www.google.com/maps/place/%D8%A8%D8%B1%D9%88%D9%86%D8%A7+%D9%82%D9%87%D9%88%D8%A9+%D9%85%D8%AE%D8%AA%D8%B5%D8%A9+%7C+BRUNA+speciality+coffee/@26.9615601,49.6744579,17z/data=!4m6!3m5!1s0x3e35a1f4c7b1a59f:0x71262b602eed1848!8m2!3d26.9615601!4d49.6744579!16s%2Fg%2F11rcn4w8n6",
+  "map_query": "BRUNA speciality coffee, King Abdulaziz Rd, Al Jubail 35517",
   "rating": {
     "value": 4.7,
-    "count": 400,
+    "count": 525,
     "source": "Google"
   },
   "hero": {
-    "headline": "قهوة مختصة بين أزقة الجبيل القديمة",
-    "intro": "كافيه في الجبيل بهوية مختصة، من الفجر حتى الثانية بعد منتصف الليل، بمشروبات وحلويات يوثقها حسابه على إنستغرام.",
+    "headline": "قهوة مختصة وحلى من السادسة صباحًا في الجبيل",
+    "intro": "كافيه قهوة مختصة على طريق الملك عبدالعزيز: V60 وفلات وايت وسبانيش لاتيه وحلى بالقطعة، كل يوم من 6 صباحًا حتى بعد منتصف الليل.",
     "image": "hero"
   },
   "motion": {
@@ -46,46 +46,47 @@
     "story",
     "menu",
     "reviews",
+    "proof",
     "visit"
   ],
   "marquee": {
     "label": "في برونا",
     "items": [
-      "قهوة مختصة",
-      "من الفجر حتى 1 ص",
-      "حلويات ومشروبات",
-      "الجبيل",
-      "جلسات هادئة"
+      "V60 كولومبي",
+      "فلات وايت",
+      "سبانيش لاتيه",
+      "كيكة سان سباستيان",
+      "من 6 صباحًا",
+      "الجبيل"
     ]
   },
   "story": {
-    "eyebrow": "من صور الحساب",
-    "title": "طقوس برونا اليومية",
+    "eyebrow": "من خرائط Google وحساب الكافيه",
+    "title": "يوم في برونا",
     "items": [
       {
         "label": "الصباح",
         "title": "يفتح من السادسة صباحًا",
-        "text": "تبدأ ساعات العمل في خرائط Google من 6 صباحًا، لقهوة الصباح قبل دوام الجبيل.",
+        "text": "يفتح برونا كل يوم من 6 صباحًا حسب خرائط Google، لقهوة الصباح قبل الدوام، وفي صوره صندوق قهوة يكفي أكواب الطاولة كلها.",
         "image": "morning"
       },
       {
         "label": "المشروبات",
-        "title": "قهوة مختصة ومشروبات باردة",
-        "text": "يعرّف الحساب نفسه بـ«قهوة مختصة» في الجبيل، وصوره تظهر مشروبات مختصة وحلويات.",
+        "title": "V60 كولومبي وفلات وايت",
+        "text": "يكتب زوار Google عن V60 كولومبي ممتاز وكيكة سان سباستيان، وتتكرر في مراجعاتهم الفلات وايت والسبانيش لاتيه والكوكيز.",
         "image": "drinks"
       },
       {
         "label": "المساء",
-        "title": "حتى واحدة بعد منتصف الليل",
-        "text": "يغلق المكان عند 1 صباحًا، فسهرة قهوة متأخرة لها موعدها في الجبيل.",
+        "title": "جلسة خارجية تحت الأضواء",
+        "text": "في صور الزوار جلسة خارجية تحت أضواء معلّقة أمام الواجهة المقوّسة، والكافيه مفتوح حتى 1 بعد منتصف الليل، وحتى 2 ليلة الخميس والجمعة.",
         "image": "evening"
       }
     ]
   },
   "menu": {
-    "kind": "menu",
     "title": "المنيو",
-    "eyebrow": "مشروبات وحلويات",
+    "eyebrow": "مشروبات وحلى",
     "currency": "ر.س",
     "sample": true,
     "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
@@ -93,51 +94,131 @@
     "categories": [
       {
         "id": "hot",
-        "title": "مشروبات ساخنة",
-        "tagline": "قهوة مختصة",
-        "image": "drinks",
+        "title": "قهوة مختصة",
+        "tagline": "ساخنة",
+        "image": "bar",
         "items": [
-          { "name": "سبانيش لاتيه", "desc": "إسبريسو مع حليب مكثف.", "price": 16 },
-          { "name": "كابتشينو", "desc": "", "price": 14 },
-          { "name": "فلات وايت", "desc": "", "price": 15 },
-          { "name": "قهوة اليوم المختصة", "desc": "تحميص ومصدر موسمي.", "price": 18 }
+          {
+            "name": "V60 كولومبي",
+            "desc": "تقطير يدوي.",
+            "price": 22,
+            "mentioned": true
+          },
+          {
+            "name": "فلات وايت",
+            "price": 16,
+            "mentioned": true
+          },
+          {
+            "name": "سبانيش لاتيه",
+            "price": 17,
+            "mentioned": true
+          },
+          {
+            "name": "كورتادو",
+            "price": 14
+          },
+          {
+            "name": "قهوة اليوم",
+            "desc": "محصول يتغير.",
+            "price": 12
+          }
         ]
       },
       {
         "id": "cold",
         "title": "مشروبات باردة",
-        "tagline": "مثلجة ومنعشة",
+        "tagline": "مثلجة",
         "image": "cold",
         "items": [
-          { "name": "آيس لاتيه", "desc": "", "price": 16 },
-          { "name": "آيس ماتشا لاتيه", "desc": "", "price": 19 },
-          { "name": "ليمون بالنعناع", "desc": "عصير طازج.", "price": 15 },
-          { "name": "موكا مثلجة", "desc": "", "price": 17 }
+          {
+            "name": "آيس سبانيش لاتيه",
+            "price": 18
+          },
+          {
+            "name": "آيس فلات وايت",
+            "price": 17
+          },
+          {
+            "name": "V60 بارد",
+            "price": 22
+          },
+          {
+            "name": "ليمون بالنعناع",
+            "price": 15
+          }
         ]
       },
       {
         "id": "bites",
-        "title": "حلويات وخفيفة",
-        "tagline": "مع القهوة",
+        "title": "حلى",
+        "tagline": "بالقطعة",
         "image": "bites",
         "items": [
-          { "name": "كيك الشوكولاتة", "desc": "بالقطعة.", "price": 18 },
-          { "name": "كوكيز", "desc": "", "price": 9 },
-          { "name": "كرواسون", "desc": "سادة أو بالزعتر.", "price": 12 }
+          {
+            "name": "كيكة سان سباستيان",
+            "price": 26,
+            "mentioned": true
+          },
+          {
+            "name": "كيكة المانجو",
+            "price": 24,
+            "mentioned": true
+          },
+          {
+            "name": "حلى الكاسترد",
+            "price": 18,
+            "mentioned": true
+          },
+          {
+            "name": "كوكيز",
+            "price": 10,
+            "mentioned": true
+          }
         ]
       }
     ]
   },
-  "reviews": [],
-  "mentions": [],
+  "reviews": [
+    {
+      "author": "Mou F.",
+      "stars": 5,
+      "when": "قبل شهر",
+      "text": "Easily one of those places that gets almost everything right. Excellent coffee and desserts, a beautiful space, and a team that makes every visit feel genuinely welcoming. The quality is consistent, the atmosphere is spot on, and the service deserves special credit.",
+      "source_ref": "https://www.google.com/maps/place/%D8%A8%D8%B1%D9%88%D9%86%D8%A7+%D9%82%D9%87%D9%88%D8%A9+%D9%85%D8%AE%D8%AA%D8%B5%D8%A9+%7C+BRUNA+speciality+coffee/@26.9615601,49.6744579,17z/data=!4m6!3m5!1s0x3e35a1f4c7b1a59f:0x71262b602eed1848!8m2!3d26.9615601!4d49.6744579!16s%2Fg%2F11rcn4w8n6"
+    },
+    {
+      "author": "Omar",
+      "stars": 5,
+      "when": "قبل 4 أشهر",
+      "text": "Amazing experience at Bruna Specialty Coffee. Even though they were closing, the two barista girls welcomed us warmly and still served us with great hospitality. The Colombian V60 was excellent, and the San Sebastián cake was amazing too.",
+      "source_ref": "https://www.google.com/maps/place/%D8%A8%D8%B1%D9%88%D9%86%D8%A7+%D9%82%D9%87%D9%88%D8%A9+%D9%85%D8%AE%D8%AA%D8%B5%D8%A9+%7C+BRUNA+speciality+coffee/@26.9615601,49.6744579,17z/data=!4m6!3m5!1s0x3e35a1f4c7b1a59f:0x71262b602eed1848!8m2!3d26.9615601!4d49.6744579!16s%2Fg%2F11rcn4w8n6"
+    },
+    {
+      "author": "Faheem K.",
+      "stars": 5,
+      "when": "قبل 6 أشهر",
+      "text": "Had a good evening spending hours at the beautiful cafe in jubail. A vibrant place having good cold and hot options. Their mango cake and custard deserts made the experience better with the coffee served. Recommended to visit",
+      "source_ref": "https://www.google.com/maps/place/%D8%A8%D8%B1%D9%88%D9%86%D8%A7+%D9%82%D9%87%D9%88%D8%A9+%D9%85%D8%AE%D8%AA%D8%B5%D8%A9+%7C+BRUNA+speciality+coffee/@26.9615601,49.6744579,17z/data=!4m6!3m5!1s0x3e35a1f4c7b1a59f:0x71262b602eed1848!8m2!3d26.9615601!4d49.6744579!16s%2Fg%2F11rcn4w8n6"
+    }
+  ],
+  "mentions": [
+    "V60 كولومبي",
+    "فلات وايت",
+    "كيكة سان سباستيان",
+    "كيكة المانجو"
+  ],
   "hours": {
     "rows": [
       {
-        "days": "السبت",
+        "days": "السبت – الأربعاء",
         "time": "6 ص – 1 ص"
+      },
+      {
+        "days": "الخميس والجمعة",
+        "time": "6 ص – 2 ص"
       }
     ],
-    "per_day": null,
     "source": "خرائط Google"
   },
   "visit": {
@@ -145,45 +226,51 @@
   },
   "images": {
     "hero": {
-      "file": "post-1.jpg",
-      "alt": "صورة كوب قهوة من حساب برونا على إنستغرام",
+      "file": "post-6.jpg",
+      "alt": "صورة أكواب لاتيه وقهوة مقطرة ومشروبات مثلجة تُصب على طاولة برونا",
       "source_url": "https://www.instagram.com/bruna.ksa/",
       "credit": "من حساب المحل"
     },
     "morning": {
-      "file": "post-2.jpg",
-      "alt": "صورة مشروب صباحي من حساب المحل",
+      "file": "post-1.jpg",
+      "alt": "صورة صندوق قهوة BRUNA الأزرق وأكواب تُملأ منه على الطاولة",
       "source_url": "https://www.instagram.com/bruna.ksa/",
       "credit": "من حساب المحل"
     },
     "drinks": {
-      "file": "post-3.jpg",
-      "alt": "صورة مشروب قهوة مختصة من حساب المحل",
-      "source_url": "https://www.instagram.com/bruna.ksa/",
-      "credit": "من حساب المحل"
-    },
-    "cold": {
-      "file": "post-4.jpg",
-      "alt": "صورة مشروب بارد من حساب المحل",
-      "source_url": "https://www.instagram.com/bruna.ksa/",
-      "credit": "من حساب المحل"
-    },
-    "bites": {
-      "file": "post-5.jpg",
-      "alt": "صورة حلوى تقدم مع القهوة في برونا",
+      "file": "post-10.jpg",
+      "alt": "صورة تحضير مشروب بالتقطير اليدوي في كوب برونا",
       "source_url": "https://www.instagram.com/bruna.ksa/",
       "credit": "من حساب المحل"
     },
     "evening": {
-      "file": "post-6.jpg",
-      "alt": "صورة أجواء المساء في الكافيه",
-      "source_url": "https://www.instagram.com/bruna.ksa/",
-      "credit": "من حساب المحل"
+      "file": "night-terrace.jpg",
+      "alt": "صورة الجلسة الخارجية ليلًا تحت أضواء معلّقة أمام واجهة برونا المقوّسة",
+      "source_url": "https://www.google.com/maps/place/%D8%A8%D8%B1%D9%88%D9%86%D8%A7+%D9%82%D9%87%D9%88%D8%A9+%D9%85%D8%AE%D8%AA%D8%B5%D8%A9+%7C+BRUNA+speciality+coffee/@26.9615601,49.6744579,17z/data=!4m6!3m5!1s0x3e35a1f4c7b1a59f:0x71262b602eed1848!8m2!3d26.9615601!4d49.6744579!16s%2Fg%2F11rcn4w8n6",
+      "credit": "من خرائط Google"
+    },
+    "bar": {
+      "file": "espresso-bar.jpg",
+      "alt": "صورة بار القهوة وآلة الإسبريسو داخل الكافيه",
+      "source_url": "https://www.google.com/maps/place/%D8%A8%D8%B1%D9%88%D9%86%D8%A7+%D9%82%D9%87%D9%88%D8%A9+%D9%85%D8%AE%D8%AA%D8%B5%D8%A9+%7C+BRUNA+speciality+coffee/@26.9615601,49.6744579,17z/data=!4m6!3m5!1s0x3e35a1f4c7b1a59f:0x71262b602eed1848!8m2!3d26.9615601!4d49.6744579!16s%2Fg%2F11rcn4w8n6",
+      "credit": "من خرائط Google"
+    },
+    "cold": {
+      "file": "iced-coffees.jpg",
+      "alt": "صورة كوبين قهوة مثلجة بطبقات على صينية",
+      "source_url": "https://www.google.com/maps/place/%D8%A8%D8%B1%D9%88%D9%86%D8%A7+%D9%82%D9%87%D9%88%D8%A9+%D9%85%D8%AE%D8%AA%D8%B5%D8%A9+%7C+BRUNA+speciality+coffee/@26.9615601,49.6744579,17z/data=!4m6!3m5!1s0x3e35a1f4c7b1a59f:0x71262b602eed1848!8m2!3d26.9615601!4d49.6744579!16s%2Fg%2F11rcn4w8n6",
+      "credit": "من خرائط Google"
+    },
+    "bites": {
+      "file": "chocolate-pecan.jpg",
+      "alt": "صورة قطع حلى بالشوكولاتة والبيكان وملح خشن",
+      "source_url": "https://www.google.com/maps/place/%D8%A8%D8%B1%D9%88%D9%86%D8%A7+%D9%82%D9%87%D9%88%D8%A9+%D9%85%D8%AE%D8%AA%D8%B5%D8%A9+%7C+BRUNA+speciality+coffee/@26.9615601,49.6744579,17z/data=!4m6!3m5!1s0x3e35a1f4c7b1a59f:0x71262b602eed1848!8m2!3d26.9615601!4d49.6744579!16s%2Fg%2F11rcn4w8n6",
+      "credit": "من خرائط Google"
     },
     "maps-photo": {
       "file": "maps-photo.jpg",
-      "alt": "صورة داخل الكافيه من صور خرائط Google",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=BRUNA+Cafe+Jubail",
+      "alt": "صورة واجهة برونا المقوّسة ليلًا ولافتة الاسم مضاءة",
+      "source_url": "https://www.google.com/maps/place/%D8%A8%D8%B1%D9%88%D9%86%D8%A7+%D9%82%D9%87%D9%88%D8%A9+%D9%85%D8%AE%D8%AA%D8%B5%D8%A9+%7C+BRUNA+speciality+coffee/@26.9615601,49.6744579,17z/data=!4m6!3m5!1s0x3e35a1f4c7b1a59f:0x71262b602eed1848!8m2!3d26.9615601!4d49.6744579!16s%2Fg%2F11rcn4w8n6",
       "credit": "من خرائط Google"
     }
   }

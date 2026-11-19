@@ -275,14 +275,14 @@
   },
   "images": {
     "hero": {
-      "file": "night-front.jpg",
-      "alt": "صورة واجهة Man Cave Cut ليلًا والشبك الذهبي مضاء من الداخل",
+      "file": "fade-lattice.jpg",
+      "alt": "صورة قصة فيد من الخلف أمام الشبك الذهبي داخل الصالون",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Man%20Cave%20Cut%20Barbershop%20Al%20Khobar",
       "credit": "من خرائط Google"
     },
     "story-fade": {
-      "file": "fade-lattice.jpg",
-      "alt": "صورة قصة فيد من الخلف أمام الشبك الذهبي داخل الصالون",
+      "file": "taper-cut.jpg",
+      "alt": "صورة قصة قصيرة متدرجة وذقن محددة على كرسي الصالون",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Man%20Cave%20Cut%20Barbershop%20Al%20Khobar",
       "credit": "من خرائط Google"
     },
@@ -299,8 +299,8 @@
       "credit": "من خرائط Google"
     },
     "menu-cut": {
-      "file": "taper-cut.jpg",
-      "alt": "صورة قصة قصيرة وذقن محددة من الخلف",
+      "file": "interior-glass.jpg",
+      "alt": "صورة داخل الصالون من خلف الزجاج: الشبك الذهبي والكراسي وجدار الحجر",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Man%20Cave%20Cut%20Barbershop%20Al%20Khobar",
       "credit": "من خرائط Google"
     },
@@ -323,8 +323,8 @@
       "credit": "من حساب الصالون"
     },
     "visit": {
-      "file": "front-evening.jpg",
-      "alt": "صورة مدخل Man Cave Cut في حي الجسر",
+      "file": "front-glass.jpg",
+      "alt": "صورة المدخل الزجاجي لـ Man Cave Cut مساءً مع عمودي الحلاقة على جانبيه",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Man%20Cave%20Cut%20Barbershop%20Al%20Khobar",
       "credit": "من خرائط Google"
     }

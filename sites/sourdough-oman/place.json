@@ -5,7 +5,7 @@
   "theme": "bakery_cream",
   "approved": false,
   "agency": "Amd web",
-  "data_source": "خرائط Google (التقييم والساعات والعنوان) وحساب المخبز على إنستغرام (@sourdough_om) للصور والسيرة، وقائمة طلبات على Talabat",
+  "data_source": "خرائط Google (التقييم والساعات والعنوان والمراجعات وصور الزوار) وصفحة المخبز على طلبات (المنيو والأسعار وصور الأصناف) وحسابه على إنستغرام (@sourdough_om)",
   "layout": {
     "hero": "split",
     "story": "stack"
@@ -26,16 +26,16 @@
     "tel": "+96896173040"
   },
   "whatsapp": null,
-  "directions_url": "https://www.google.com/maps/search/?api=1&query=SOURDOUGH+OMAN+Muscat",
+  "directions_url": "https://www.google.com/maps/place/SOURDOUGH+OMAN+(Artisan+Bakery)/@23.6024985,58.3666077,17z/data=!4m6!3m5!1s0x3e8e01a0746fa2cf:0x5cc200f246adf508!8m2!3d23.6024985!4d58.3666077!16s%2Fg%2F11l327v8x7",
   "map_query": "SOURDOUGH OMAN (Artisan Bakery), 18th November St, Athaiba, Muscat",
   "rating": {
     "value": 4.5,
-    "count": 550,
+    "count": 495,
     "source": "Google"
   },
   "hero": {
-    "headline": "خميرة طبيعية من العذيبة، منذ السابعة صباحًا",
-    "intro": "مخبز حرفي في العذيبة يخبز أصنافًا مخمّرة طبيعيًا: ساوردو وبريوش ومعجنات وحلويات، من 7 صباحًا حتى 10 مساءً. يعرّف نفسه: خبز مخبوز ببطء وعناية كل يوم.",
+    "headline": "ساوردو مخمّر طبيعيًا في العذيبة من السابعة صباحًا",
+    "intro": "مخبز حرفي على شارع 18 نوفمبر: رغيف ساوردو كلاسيكي 600 غرام، وكرواسون بالزبدة الفرنسية، وكيك وقهوة، يوميًا من 7 صباحًا حتى 10 مساءً.",
     "image": "hero-loaf"
   },
   "motion": {
@@ -49,147 +49,286 @@
     "visit"
   ],
   "marquee": {
-    "label": "في ساوردو",
+    "label": "من فرن ساوردو",
     "items": [
-      "خميرة طبيعية",
-      "من 7 صباحًا",
-      "العذيبة – شارع 18 نوفمبر",
-      "ويُبنى كل يوم",
-      "47 ألف متابع"
+      "ساوردو كلاسيكي 600 غرام",
+      "كرواسون بالزبدة",
+      "خبز حليب ياباني",
+      "لاتيه إسباني",
+      "العذيبة – شارع 18 نوفمبر"
     ]
   },
   "story": {
-    "eyebrow": "خميرة بطيئة، وفريق يصنع الفرق",
-    "title": "طقوس الفرن كل يوم",
+    "eyebrow": "من خرائط Google وطلبات",
+    "title": "يوم في ساوردو",
     "items": [
       {
         "label": "الصباح",
-        "title": "الأبواب مفتوحة بالسابعة",
-        "text": "بحلول 7 صباحًا أبواب المخبز مفتوحة، والأفران دافئة، والمخبز مليان بما تحبونه – كما يكتب حسابه.",
-        "image": "morning"
+        "title": "الأبواب مفتوحة من السابعة",
+        "text": "يفتح المخبز يوميًا من 7 صباحًا حتى 10 مساءً، ومعه جلسة خارجية بكراسٍ خشبية تحت المظلة على شارع 18 نوفمبر.",
+        "image": "terrace"
       },
       {
-        "label": "الخبز",
-        "title": "ساوردو وبريوش وخبز حليب",
-        "text": "خبز مخمّر طبيعيًا: ساوردو، وبريوش طري غني ذهبي، وخبز حليب ياباني، ومعجنات وحلويات تتحدث عنها منشورات الحساب.",
-        "image": "brioche"
+        "label": "الفرن",
+        "title": "كرواسون مخمّر طبيعيًا",
+        "text": "في منيو طلبات كرواسون ساوردو بالزبدة الفرنسية، وبين أوه شوكولاته بالشوكولاتة البلجيكية الداكنة، وساندويتش كرواسون بالتونة والبيستو.",
+        "image": "almond"
       },
       {
-        "label": "الفريق",
-        "title": "وراء كل مخبوزات طازجة فريق",
-        "text": "«وراء كل مخبوزات طازجة فريق يصنع الفرق، نُحضّرها بعناية ونقدّمها بكل حب كل يوم» – منشورات الحساب نفسه.",
-        "image": "team"
+        "label": "الطاولة",
+        "title": "لاتيه وكيك بالقطعة",
+        "text": "لاتيه إسباني يذكره زائر بالاسم، وتارت البندق وكيك فيكتوريا وتشيز كيك الماتشا بالقطعة، والحليب النباتي متوفر لكل القهوة.",
+        "image": "table"
       }
     ]
   },
   "menu": {
-    "kind": "menu",
     "title": "المنيو",
-    "eyebrow": "من الفرن",
+    "eyebrow": "من صفحة المخبز على طلبات",
     "currency": "ر.ع",
-    "sample": true,
-    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف والأسعار ليست من المحل، وتُستبدل بالمنيو الحقيقي بعد الموافقة. يتوفر الطلب أيضًا على Talabat.",
-    "foot": "للطلب المسبق عبر الهاتف أو Talabat",
+    "sample": false,
+    "note": "الأصناف والأسعار من صفحة ساوردو على طلبات، وقد تختلف داخل المخبز.",
+    "foot": "للطلب عبر الهاتف أو طلبات",
     "categories": [
       {
         "id": "sourdough",
-        "title": "الخبز المخمّر",
-        "tagline": "خميرة طبيعية",
+        "title": "خبز الساوردو",
+        "tagline": "مخمّر طبيعيًا",
         "image": "loaf",
         "items": [
-          { "name": "رغيف ساوردو", "desc": "مخمّر طبيعيًا، بالحبوب الكاملة أو بالأبيض.", "price": 2.5 },
-          { "name": "بريوش الساوردو", "desc": "طري وذهبي، مثالي للمشاركة.", "price": 2.2 },
-          { "name": "خبز الحليب الياباني", "desc": "طري وحليبي.", "price": 2.0 },
-          { "name": "باغيت", "desc": "للبيت.", "price": 1.0 }
+          {
+            "name": "كلاسيكي",
+            "desc": "600 جرام من ساوردو مخمر طبيعيا أرجنك",
+            "price": 2.438
+          },
+          {
+            "name": "ايطالي تيست",
+            "desc": "600 جرام ساوردو مع زيتون كالاماتا وأعشاب إيطالية",
+            "price": 2.98
+          },
+          {
+            "name": "خبز حليب ياباني",
+            "desc": "دقيق مخمر مع زبدة وحليب",
+            "price": 1.8
+          }
         ]
       },
       {
         "id": "pastry",
         "title": "المعجنات",
-        "tagline": "من الفرن",
-        "image": "crisp",
+        "tagline": "زبدة فرنسية",
+        "image": "croissant",
         "items": [
-          { "name": "مقرمش من الأطراف طري من الداخل", "desc": "وصف الحساب نفسه للمعجنات المحشوة.", "price": 1.8 },
-          { "name": "بابكا", "desc": "", "price": 1.8 },
-          { "name": "كرواسون", "desc": "سادة أو بالزعتر.", "price": 1.5 },
-          { "name": "سينابون", "desc": "", "price": 1.8 }
+          {
+            "name": "كرواسون بالزبدة ساوردو",
+            "desc": "كرواسون مخمر طبيعيا مغلفة بالزبدة الفرنسية",
+            "price": 1.084
+          },
+          {
+            "name": "بين اوه شوكولاته",
+            "desc": "معجنات فرنسية كلاسيكية مغلفة طبيعيا بالشوكولاتة البلجيكية الداكنة",
+            "price": 1.219
+          },
+          {
+            "name": "ساندويتش كرواسون تونة",
+            "desc": "ساندويتش كرواسون التونة الذائبة مع البيستو وأوراق الجرجير",
+            "price": 2.0
+          }
         ]
       },
       {
-        "id": "sweets",
-        "title": "الحلويات",
-        "tagline": "مع القهوة",
-        "image": "cake",
+        "id": "cakes",
+        "title": "كيك",
+        "tagline": "بالقطعة",
+        "image": "tart",
         "items": [
-          { "name": "تشيز كيك", "desc": "بالقطعة، وأحيانًا بنكهات موسمية.", "price": 2.8 },
-          { "name": "كيك شيفون", "desc": "بالقطعة.", "price": 2.5 },
-          { "name": "كوكيز", "desc": "", "price": 1.0 }
+          {
+            "name": "Hazelnut Tart Slice",
+            "desc": "تارت الشوكولاتة مع برالين البندق المكرمل وجناش الشوكولاتة الداكنة",
+            "price": 3.2
+          },
+          {
+            "name": "فيكتورين كيك قطعة",
+            "desc": "إسفنج فيكتوريا، كريمة شانتيلي، صلصة التوت و توت طازج",
+            "price": 3.36
+          },
+          {
+            "name": "تشيز كيك ماتشا",
+            "desc": "إسفنجة شاي أخضر مع تشيز كيك كريمي وقشرة بسكويت غراهام بالزبدة",
+            "price": 3.58
+          },
+          {
+            "name": "شريحة كعكة الغاناش",
+            "desc": "كعكة الشوكولاتة الغنية والرطبة",
+            "price": 3.225
+          }
+        ]
+      },
+      {
+        "id": "coffee",
+        "title": "القهوة",
+        "tagline": "حليب نباتي متوفر",
+        "image": "latte",
+        "items": [
+          {
+            "name": "لاتيه أسباني",
+            "price": 1.896
+          },
+          {
+            "name": "لاتيه اسباني مثلج",
+            "price": 2.032
+          },
+          {
+            "name": "لاتيه",
+            "price": 1.761
+          },
+          {
+            "name": "لاتيه مثلج",
+            "price": 1.896
+          },
+          {
+            "name": "كابتشينو",
+            "price": 1.761
+          },
+          {
+            "name": "فلات وايت",
+            "price": 1.761
+          },
+          {
+            "name": "أمريكانو",
+            "price": 1.355
+          },
+          {
+            "name": "أمريكانو مثلج",
+            "price": 1.49
+          },
+          {
+            "name": "إسبريسو دوبل",
+            "price": 1.355
+          }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "مشروبات صيفية",
+        "tagline": "باردة ومنعشة",
+        "image": "hibiscus",
+        "items": [
+          {
+            "name": "Passion And Omani Zaatar",
+            "desc": "فاكهة الباشن مع الزعتر العماني",
+            "price": 2.5
+          },
+          {
+            "name": "Hibiscus And Rose",
+            "desc": "كركديه حامض وبتلات ورد",
+            "price": 2.6
+          },
+          {
+            "name": "عصير توت بري أحمر بالليمون",
+            "desc": "شراب توت بري أحمر مع عصير الليمون الطازج",
+            "price": 2.58
+          }
         ]
       }
     ]
   },
-  "reviews": [],
+  "reviews": [
+    {
+      "author": "Bahar F.",
+      "stars": 5,
+      "when": "قبل 3 أشهر",
+      "text": "Sourdough Café on 18 November is my absolute go-to. Every time I visit, the vibe just lifts my mood. … It’s cosy, warm, and genuinely welcoming. The staff are consistently friendly, the prices are fair, and the daily bakes are outstanding—everything tastes fresh.",
+      "source_ref": "https://www.google.com/maps/place/SOURDOUGH+OMAN+(Artisan+Bakery)/@23.6024985,58.3666077,17z/data=!4m6!3m5!1s0x3e8e01a0746fa2cf:0x5cc200f246adf508!8m2!3d23.6024985!4d58.3666077!16s%2Fg%2F11l327v8x7"
+    },
+    {
+      "author": "Safana G.",
+      "stars": 5,
+      "when": "قبل 3 أشهر",
+      "text": "Visited Sourdough Oman in Azaiba recently and had a pleasant experience. The café has a warm, cozy atmosphere that’s perfect for a relaxed breakfast or coffee break. The prices are reasonable for an artisan bakery, and the quality is consistent.",
+      "source_ref": "https://www.google.com/maps/place/SOURDOUGH+OMAN+(Artisan+Bakery)/@23.6024985,58.3666077,17z/data=!4m6!3m5!1s0x3e8e01a0746fa2cf:0x5cc200f246adf508!8m2!3d23.6024985!4d58.3666077!16s%2Fg%2F11l327v8x7"
+    },
+    {
+      "author": "M. N.",
+      "stars": 4,
+      "when": "قبل أسبوعين",
+      "text": "… The brioche bread though, we used it to make a dessert at home called \"Um Ali\", and WOW! That bread made ALL the difference!!!",
+      "source_ref": "https://www.google.com/maps/place/SOURDOUGH+OMAN+(Artisan+Bakery)/@23.6024985,58.3666077,17z/data=!4m6!3m5!1s0x3e8e01a0746fa2cf:0x5cc200f246adf508!8m2!3d23.6024985!4d58.3666077!16s%2Fg%2F11l327v8x7"
+    }
+  ],
   "mentions": [],
   "hours": {
     "rows": [
       {
-        "days": "السبت",
+        "days": "يوميًا",
         "time": "7 ص – 10 م"
       }
     ],
-    "per_day": null,
-    "source": "خرائط Google وحساب المخبز"
+    "per_day": 15,
+    "source": "خرائط Google"
   },
   "visit": {
     "image": "maps-photo"
   },
   "images": {
     "hero-loaf": {
-      "file": "world-bread-day.jpg",
-      "alt": "صورة خبز من منشور يوم الخبز العالمي على حساب ساوردو",
-      "source_url": "https://www.instagram.com/sourdough_om/",
-      "credit": "من حساب المحل"
+      "file": "taste-of-italy.jpg",
+      "alt": "صورة رغيف ساوردو بالزيتون والأعشاب بقشرة ذهبية مشقوقة",
+      "source_url": "https://www.talabat.com/ar/oman/restaurant/748985/sourdough-azaiba",
+      "credit": "من صفحة المحل على طلبات"
     },
     "loaf": {
-      "file": "womens-day.jpg",
-      "alt": "صورة أخباز متنوعة من حساب المحل",
-      "source_url": "https://www.instagram.com/sourdough_om/",
-      "credit": "من حساب المحل"
+      "file": "taste-of-italy.jpg",
+      "alt": "صورة رغيف ساوردو بالزيتون والأعشاب بقشرة ذهبية مشقوقة",
+      "source_url": "https://www.talabat.com/ar/oman/restaurant/748985/sourdough-azaiba",
+      "credit": "من صفحة المحل على طلبات"
     },
-    "brioche": {
-      "file": "brioche.jpg",
-      "alt": "صورة بريوش الساوردو الذهبي من منشور الحساب",
-      "source_url": "https://www.instagram.com/sourdough_om/",
-      "credit": "من حساب المحل"
+    "croissant": {
+      "file": "butter-croissant.jpg",
+      "alt": "صورة كرواسون ساوردو بالزبدة بطبقات مقرمشة",
+      "source_url": "https://www.talabat.com/ar/oman/restaurant/748985/sourdough-azaiba",
+      "credit": "من صفحة المحل على طلبات"
     },
-    "crisp": {
-      "file": "crisp-filled.jpg",
-      "alt": "صورة معجون مقرمش محشو من منشور الحساب",
-      "source_url": "https://www.instagram.com/sourdough_om/",
-      "credit": "من حساب المحل"
+    "tart": {
+      "file": "hazelnut-tart.jpg",
+      "alt": "صورة قطعة تارت الشوكولاتة والبندق المكرمل",
+      "source_url": "https://www.talabat.com/ar/oman/restaurant/748985/sourdough-azaiba",
+      "credit": "من صفحة المحل على طلبات"
     },
-    "morning": {
-      "file": "morning-7am.jpg",
-      "alt": "صورة مخبز مفتوح في الصباح الباكر",
-      "source_url": "https://www.instagram.com/sourdough_om/",
-      "credit": "من حساب المحل"
+    "latte": {
+      "file": "latte-art.jpg",
+      "alt": "صورة كوبي لاتيه برسم على الرغوة فوق طاولة خشبية في المخبز",
+      "source_url": "https://www.google.com/maps/place/SOURDOUGH+OMAN+(Artisan+Bakery)/@23.6024985,58.3666077,17z/data=!4m6!3m5!1s0x3e8e01a0746fa2cf:0x5cc200f246adf508!8m2!3d23.6024985!4d58.3666077!16s%2Fg%2F11l327v8x7",
+      "credit": "من خرائط Google"
     },
-    "team": {
-      "file": "team-bake.jpg",
-      "alt": "صورة فريق المخبز يحضّر الخبز",
-      "source_url": "https://www.instagram.com/sourdough_om/",
-      "credit": "من حساب المحل"
+    "hibiscus": {
+      "file": "hibiscus-rose.jpg",
+      "alt": "صورة مشروب الكركديه والورد البارد في كوب بشعار السنبلة",
+      "source_url": "https://www.talabat.com/ar/oman/restaurant/748985/sourdough-azaiba",
+      "credit": "من صفحة المحل على طلبات"
     },
-    "cake": {
-      "file": "baguette-babka.jpg",
-      "alt": "صورة معجنات داخل المخبز",
-      "source_url": "https://www.instagram.com/sourdough_om/",
-      "credit": "من حساب المحل"
+    "terrace": {
+      "file": "terrace.jpg",
+      "alt": "صورة الجلسة الخارجية للمخبز بكراسٍ خشبية ومقعد أخضر",
+      "source_url": "https://www.google.com/maps/place/SOURDOUGH+OMAN+(Artisan+Bakery)/@23.6024985,58.3666077,17z/data=!4m6!3m5!1s0x3e8e01a0746fa2cf:0x5cc200f246adf508!8m2!3d23.6024985!4d58.3666077!16s%2Fg%2F11l327v8x7",
+      "credit": "من خرائط Google"
+    },
+    "almond": {
+      "file": "almond-croissant.jpg",
+      "alt": "صورة كرواسون باللوز على صحن في جلسة المخبز",
+      "source_url": "https://www.google.com/maps/place/SOURDOUGH+OMAN+(Artisan+Bakery)/@23.6024985,58.3666077,17z/data=!4m6!3m5!1s0x3e8e01a0746fa2cf:0x5cc200f246adf508!8m2!3d23.6024985!4d58.3666077!16s%2Fg%2F11l327v8x7",
+      "credit": "من خرائط Google"
+    },
+    "table": {
+      "file": "coffee-table.jpg",
+      "alt": "صورة طاولة عليها لاتيه وقطع كيك وتارت من الأعلى",
+      "source_url": "https://www.google.com/maps/place/SOURDOUGH+OMAN+(Artisan+Bakery)/@23.6024985,58.3666077,17z/data=!4m6!3m5!1s0x3e8e01a0746fa2cf:0x5cc200f246adf508!8m2!3d23.6024985!4d58.3666077!16s%2Fg%2F11l327v8x7",
+      "credit": "من خرائط Google"
     },
     "maps-photo": {
       "file": "maps-photo.jpg",
-      "alt": "صورة داخل المخبز من صور خرائط Google",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=SOURDOUGH+OMAN+Muscat",
+      "alt": "صورة واجهة مخبز ساوردو مساءً على شارع 18 نوفمبر",
+      "source_url": "https://www.google.com/maps/place/SOURDOUGH+OMAN+(Artisan+Bakery)/@23.6024985,58.3666077,17z/data=!4m6!3m5!1s0x3e8e01a0746fa2cf:0x5cc200f246adf508!8m2!3d23.6024985!4d58.3666077!16s%2Fg%2F11l327v8x7",
       "credit": "من خرائط Google"
     }
   }

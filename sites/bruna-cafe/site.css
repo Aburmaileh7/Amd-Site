@@ -1,9 +1,9 @@
 /* Bruna: a brown-haired cafe on the Gulf. Warm bronze ground with a deep espresso ink;
    the hero sits in a tall espresso-pour arch, and a thin crema line runs down the page
    edge, turning from light crema to dark thatch as you scroll (site.js). */
-html[data-site="bruna-cafe"]{--bg:#FBF5EE;--bg-rgb:251,245,238;--surface:#F3E6D8;--surface-2:#EAD7C4;--ink:#2E1B10;--ink-rgb:46,27,16;--muted:#7A5A40;--line:rgba(46,27,16,.14);--radius:18px}
+html[data-site="bruna-cafe"]{--bg:#FBF5EE;--bg-rgb:251,245,238;--surface:#F3E6D8;--surface-2:#EAD7C4;--ink:#2E1B10;--ink-rgb:46,27,16;--muted:#7A5A40;--line:rgba(46,27,16,.14);--radius:18px;--gutter:clamp(30px,5vw,56px)}
 html[data-site="bruna-cafe"] main{position:relative}
-html[data-site="bruna-cafe"] .br-crema{position:absolute;top:0;inset-inline-end:0;width:36px;height:100%;z-index:3;pointer-events:none;overflow:visible}
+html[data-site="bruna-cafe"] .br-crema{position:absolute;top:0;inset-inline-end:0;width:30px;height:100%;z-index:3;pointer-events:none;overflow:visible}
 html[data-site="bruna-cafe"] .br-crema path{fill:none;stroke:#C89B6A;stroke-width:2.5;stroke-linecap:round;opacity:.85}
 html[data-site="bruna-cafe"] .hero__side{border-radius:clamp(200px,22vw,320px) clamp(200px,22vw,320px) 18px 18px}
 html[data-site="bruna-cafe"] .hero__side .photo{aspect-ratio:4/5}
@@ -19,7 +19,7 @@ html[data-site="bruna-cafe"] .btn--glow svg{display:none}
   html[data-site="bruna-cafe"] .hero__side{order:-1;width:min(100%,420px);margin-inline:auto}
   html[data-site="bruna-cafe"] .hero__side .photo{aspect-ratio:3/3.4}
   html[data-site="bruna-cafe"] .hero__side .photo img{object-position:50% 35%!important}
-  html[data-site="bruna-cafe"] .br-crema{width:14px}
+  html[data-site="bruna-cafe"] .br-crema{width:12px}
 }
 html[data-site="bruna-cafe"] .panel-m__visual::after{background:linear-gradient(to top,rgba(46,27,16,.78),transparent 52%)}
 html[data-site="bruna-cafe"] .panel-m__tag,html[data-site="bruna-cafe"] .panel-m__name{color:#fff}

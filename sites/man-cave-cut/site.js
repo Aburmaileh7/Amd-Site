@@ -8,7 +8,7 @@
   document.body.appendChild(pole);
   if (reduce || !gsap) return;
   gsap.to(pole, {
-    backgroundPositionY: '+=1580px', ease: 'none',
+    backgroundPositionY: '+=1130px', ease: 'none',
     scrollTrigger: { start: 0, end: 'max', scrub: .4 }
   });
 })(gsap, ScrollTrigger, reduce);

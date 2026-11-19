@@ -1,4 +1,4 @@
-/* Man Cave Cut: gold lattice at night, with the barber pole from the door running down the page. */
+/* Man Cave Cut: gold lattice at night; a fresh fade framed by the lattice, and a thin gold-and-charcoal pole running down the page. */
 html[data-site="man-cave-cut"] {
   --bg: #101114; --bg-rgb: 16, 17, 20;
   --surface: #191B20; --surface-2: #23252B;
@@ -10,28 +10,46 @@ html[data-site="man-cave-cut"] {
 }
 [data-site="man-cave-cut"] body { background: var(--bg); color: var(--ink); }
 
-html[data-site="man-cave-cut"] .hero__shade {
-  background: linear-gradient(to top, var(--bg) 2%, rgba(var(--bg-rgb), .9) 32%, rgba(var(--bg-rgb), 0) 64%) !important;
-}
+/* Phone: the photo owns the top half, the words sit on the dark below it. */
 @media (max-width: 899px) {
-  [data-site="man-cave-cut"] .hero__media { inset: 0 0 auto; height: 54svh; }
+  html[data-site="man-cave-cut"] .hero__media { top: 0; left: 0; right: 0; bottom: auto; height: 56svh; }
+  [data-site="man-cave-cut"] .hero__media img { object-position: 50% 38% !important; }
   html[data-site="man-cave-cut"] .hero__shade {
-  background: linear-gradient(to bottom, transparent calc(54svh - 70px), var(--bg) 54svh) !important;
+    background:
+      linear-gradient(to bottom, rgba(var(--bg-rgb), .7) 0, rgba(var(--bg-rgb), 0) 130px),
+      linear-gradient(to bottom, transparent calc(56svh - 90px), var(--bg) 56svh) !important;
   }
-  html[data-site="man-cave-cut"] .hero--full .hero__grid { padding-block: calc(54svh + 6px) 48px !important; }
-  [data-site="man-cave-cut"] .hero__title { font-size: clamp(2.6rem, 12vw, 3.6rem); }
-  [data-site="man-cave-cut"] .hero__intro { font-size: 1rem; }
+  html[data-site="man-cave-cut"] .hero--full .hero__grid { padding-block: calc(56svh + 6px) 48px !important; }
+  html[data-site="man-cave-cut"] .hero__title { font-size: clamp(2.6rem, 12vw, 3.6rem); }
+  html[data-site="man-cave-cut"] .hero__intro { font-size: 1rem; }
 }
 
-/* The pole */
-[data-site="man-cave-cut"] .mc-pole {
-  position: fixed; inset-block: 0; inset-inline-end: 0; width: 7px; z-index: 40; pointer-events: none;
-  background-image: repeating-linear-gradient(135deg, #C8202B 0 14px, #F3EEDF 14px 28px, #1D4FA3 28px 42px, #F3EEDF 42px 56px);
-  background-size: 100% 158px;
-  box-shadow: 0 0 0 1px rgba(212, 175, 55, .55);
-}
-@media (min-width: 900px) { [data-site="man-cave-cut"] .mc-pole { width: 12px; } }
-/* On wide screens show the lit room through the glass rather than the sign's phone numbers. */
+/* Desktop: the haircut stands as a tall gold-lit panel on the left; the words keep the dark side. */
 @media (min-width: 900px) {
-  html[data-site="man-cave-cut"] .hero__media img { object-position: 50% 92% !important; }
+  html[data-site="man-cave-cut"] .hero__media { top: 0; bottom: 0; left: 0; right: auto; width: 44%; }
+  [data-site="man-cave-cut"] .hero__media img { object-position: 50% 42% !important; }
+  html[data-site="man-cave-cut"] .hero__shade {
+    background:
+      linear-gradient(to right, rgba(var(--bg-rgb), 0) 0%, rgba(var(--bg-rgb), 0) 34%, rgba(var(--bg-rgb), .75) 41%, var(--bg) 45%),
+      linear-gradient(to bottom, rgba(var(--bg-rgb), .82) 0, rgba(var(--bg-rgb), 0) 150px),
+      linear-gradient(to top, rgba(var(--bg-rgb), .55), rgba(var(--bg-rgb), 0) 30%) !important;
+  }
+  html[data-site="man-cave-cut"] .hero__content { max-width: 52%; margin-inline-start: 0; }
+  html[data-site="man-cave-cut"] .hero__title { font-size: clamp(4rem, 7vw, 6.4rem); }
+  /* thin gold rule tying the panel to the words */
+  [data-site="man-cave-cut"] .hero__media::after {
+    content: ""; position: absolute; inset-block: 18% 18%; right: 0; width: 1px;
+    background: linear-gradient(to bottom, transparent, rgba(var(--glow-rgb), .7), transparent);
+  }
 }
+[data-site="man-cave-cut"] .hero .eyebrow { color: var(--glow); }
+
+/* The pole: the shop's barber pole recoloured to the lattice gold and charcoal, thin enough to stay out of the text. */
+[data-site="man-cave-cut"] .mc-pole {
+  position: fixed; inset-block: 0; inset-inline-end: 0; width: 4px; z-index: 40; pointer-events: none;
+  background-image: repeating-linear-gradient(135deg, rgba(212, 175, 55, .9) 0 10px, #2A2B30 10px 20px);
+  background-size: 100% 113px;
+  opacity: .8;
+}
+@media (min-width: 900px) { [data-site="man-cave-cut"] .mc-pole { width: 6px; } }
+
