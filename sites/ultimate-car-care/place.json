@@ -1,0 +1,271 @@
+{
+  "place_id": "amd-notion-40e5cb524e448190b0f8dc9608806505",
+  "batch_id": "amd-gulf-20261105",
+  "slug": "ultimate-car-care",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "services_pro",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#D2232A",
+    "rgb": "210, 35, 42",
+    "hover": "#E8363D",
+    "ink": "#FFFFFF"
+  },
+  "name": "Ultimate Car Care",
+  "name_lang": "en",
+  "category_label": "تصحيح الطلاء وحمايته",
+  "area": "بوشر، مسقط",
+  "address": "مقابل مستشفى مسقط الخاص، شارع بوشر، محل 315A",
+  "phone": {
+    "display": "+968 9937 0000",
+    "tel": "+96899370000"
+  },
+  "whatsapp": {
+    "number": "96871800070",
+    "display": "+968 7180 0070"
+  },
+  "directions_url": "https://www.google.com/maps/place/Ultimate+Car+Care/@23.5489761,58.3990976,17z/data=!4m6!3m5!1s0x3e91ff49b898be59:0x39082c9d938c6327!8m2!3d23.5489761!4d58.3990976!16s%2Fg%2F11gy70qrz3",
+  "map_query": "Ultimate Car Care, Bausher, Muscat",
+  "rating": {
+    "value": 5.0,
+    "count": 20,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "الأحد – الخميس",
+        "time": "8 ص – 1 م، 3 – 7 م"
+      },
+      {
+        "days": "السبت",
+        "time": "10 ص – 1 م، 3 – 7 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "data_source": "خرائط Google وحساب المحل على إنستغرام (@uccoman)",
+  "hero": {
+    "headline": "جدار المربعات في بوشر، وتحته تستعيد سيارتك لمعتها",
+    "intro": "متخصصون في تصحيح الطلاء وحمايته منذ 2004: فيلم PPF من CarPro بضمان عشر سنوات، طبقات نانو، إعادة طلاء وإصلاح جنوط في ورشة واحدة.",
+    "image": "hero"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "أعمال الورشة",
+    "items": [
+      "CarPro Immortal 2.0",
+      "طبقات نانو",
+      "إعادة طلاء",
+      "تغيير لون",
+      "إصلاح الجنوط",
+      "شارع بوشر"
+    ]
+  },
+  "story": {
+    "eyebrow": "من شغل الورشة",
+    "title": "ما يدخل الورشة ويخرج مختلفًا",
+    "items": [
+      {
+        "title": "فيلم بسماكة 8.4 ميل",
+        "text": "CarPro Immortal 2.0 فيلم حماية ذاتي الالتئام من TPU، مع لاصق Ashland الأمريكي المختبر حتى 70 درجة، وضمان عشر سنوات على الفيلم.",
+        "image": "story-ppf"
+      },
+      {
+        "title": "من الفضي إلى الأسود",
+        "text": "أعادوا طلاء سوبرا MK4 موديل 1993 من الفضي إلى الأسود، وحوّلوا سيارة Formula كلاسيكية موديل 1969 من الأبيض إلى أخضر British Racing.",
+        "image": "story-paint"
+      },
+      {
+        "title": "وبعد التسليم أيضًا",
+        "text": "يذكر الزبائن في مراجعات Google خدمة ما بعد البيع وتعاون العمال والمالك، وتقييم المحل 5.0 من 20 مراجعة.",
+        "image": "story-after"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "sample": false,
+    "title": "الخدمات",
+    "eyebrow": "من حساب المحل على إنستغرام",
+    "note": "الخدمات وأسعار PPF من حساب المحل على إنستغرام (نوفمبر 2026)، والأسعار قبل ضريبة 5%. باقي الأسعار بالسؤال.",
+    "currency": "ر.ع",
+    "foot": "للسؤال عن سعر سيارتك",
+    "categories": [
+      {
+        "id": "protect",
+        "title": "الحماية",
+        "tagline": "PPF وطبقات النانو",
+        "image": "menu-protect",
+        "items": [
+          {
+            "name": "PPF للسيارة كاملة، CarPro Immortal 2.0",
+            "desc": "السعر المعتاد من 1,295 إلى 1,850 ر.ع، وضمان الفيلم 10 سنوات"
+          },
+          {
+            "name": "CarPro Nano Skin",
+            "desc": "السعر المعتاد 240 ر.ع"
+          },
+          {
+            "name": "UVX Premium",
+            "desc": "فيلم نوافذ، السعر المعتاد 240 ر.ع"
+          },
+          {
+            "name": "طبقات النانو",
+            "desc": "Nano Coatings لحماية الطلاء"
+          },
+          {
+            "name": "إزالة PPF",
+            "desc": "إزالة الفيلم القديم قبل تركيب الجديد"
+          }
+        ]
+      },
+      {
+        "id": "paint",
+        "title": "الطلاء والهيكل",
+        "tagline": "تصحيح وإعادة طلاء",
+        "image": "menu-paint",
+        "items": [
+          {
+            "name": "تصحيح الطلاء",
+            "desc": "إزالة الخدوش وإعادة اللمعة"
+          },
+          {
+            "name": "إعادة الطلاء",
+            "desc": "Ultimate Repaint Service"
+          },
+          {
+            "name": "تغيير اللون",
+            "desc": "بما فيه الألوان الخاصة حسب الطلب"
+          },
+          {
+            "name": "أعمال الهيكل",
+            "desc": "Bodyshop"
+          },
+          {
+            "name": "إصلاح الجنوط",
+            "desc": "Alloy repair"
+          }
+        ]
+      },
+      {
+        "id": "clean",
+        "title": "التلميع والتنظيف",
+        "tagline": "من الداخل والخارج",
+        "image": "menu-clean",
+        "items": [
+          {
+            "name": "تلميع السيارة",
+            "desc": "أكثر ما يذكره الزبائن في مراجعات Google"
+          },
+          {
+            "name": "تنظيف شامل",
+            "desc": "المقصورة والهيكل وحجرة المحرك"
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "text": "دراية تامة بتفاصيل العمل الخدمة جداً ممتازة خدمة ما بعد البيع ايضاً ممتازة العمال و المالك جداً متعاونين",
+      "author": "Asaad A.",
+      "stars": 5,
+      "when": "قبل 6 أشهر",
+      "source_ref": "https://www.google.com/maps/place/Ultimate+Car+Care/@23.5489761,58.3990976,17z/data=!4m6!3m5!1s0x3e91ff49b898be59:0x39082c9d938c6327!8m2!3d23.5489761!4d58.3990976!16s%2Fg%2F11gy70qrz3"
+    },
+    {
+      "text": "أفضل مكان متخصص لتلميع السيارات بسلطنة عمان خبرة ... وخامات ... وضمان",
+      "author": "ezzat a.",
+      "stars": 4,
+      "when": "قبل 6 سنوات",
+      "source_ref": "https://www.google.com/maps/place/Ultimate+Car+Care/@23.5489761,58.3990976,17z/data=!4m6!3m5!1s0x3e91ff49b898be59:0x39082c9d938c6327!8m2!3d23.5489761!4d58.3990976!16s%2Fg%2F11gy70qrz3"
+    },
+    {
+      "text": "افضل مكان لخدمة السيارات لكن الأسعار  شويه غالية بس افضل عن باقي المحلات الثانيه",
+      "author": "Ali 7.",
+      "stars": 5,
+      "when": "قبل سنة",
+      "source_ref": "https://www.google.com/maps/place/Ultimate+Car+Care/@23.5489761,58.3990976,17z/data=!4m6!3m5!1s0x3e91ff49b898be59:0x39082c9d938c6327!8m2!3d23.5489761!4d58.3990976!16s%2Fg%2F11gy70qrz3"
+    },
+    {
+      "text": "افضل محل للتلميع والتظيف للسيارات",
+      "author": "المنزل ا.",
+      "stars": 5,
+      "when": "قبل سنة",
+      "source_ref": "https://www.google.com/maps/place/Ultimate+Car+Care/@23.5489761,58.3990976,17z/data=!4m6!3m5!1s0x3e91ff49b898be59:0x39082c9d938c6327!8m2!3d23.5489761!4d58.3990976!16s%2Fg%2F11gy70qrz3"
+    }
+  ],
+  "visit": {
+    "image": "visit"
+  },
+  "images": {
+    "hero": {
+      "file": "workshop-checker-wall.jpg",
+      "alt": "صورة الورشة في بوشر: سيارات فاخرة أمام جدار المربعات الأبيض والأسود",
+      "source_url": "https://www.google.com/maps/place/Ultimate+Car+Care/@23.5489761,58.3990976,17z/data=!4m6!3m5!1s0x3e91ff49b898be59:0x39082c9d938c6327!8m2!3d23.5489761!4d58.3990976!16s%2Fg%2F11gy70qrz3",
+      "credit": "من خرائط Google"
+    },
+    "story-ppf": {
+      "file": "bentley-silver.jpg",
+      "alt": "صورة سيارة بنتلي فضية داخل ورشة Ultimate Car Care",
+      "source_url": "https://www.google.com/maps/place/Ultimate+Car+Care/@23.5489761,58.3990976,17z/data=!4m6!3m5!1s0x3e91ff49b898be59:0x39082c9d938c6327!8m2!3d23.5489761!4d58.3990976!16s%2Fg%2F11gy70qrz3",
+      "credit": "من خرائط Google"
+    },
+    "story-paint": {
+      "file": "bentley-white.jpg",
+      "alt": "صورة سيارة بنتلي بيضاء لامعة أمام المحل بعد العناية",
+      "source_url": "https://www.google.com/maps/place/Ultimate+Car+Care/@23.5489761,58.3990976,17z/data=!4m6!3m5!1s0x3e91ff49b898be59:0x39082c9d938c6327!8m2!3d23.5489761!4d58.3990976!16s%2Fg%2F11gy70qrz3",
+      "credit": "من خرائط Google"
+    },
+    "story-after": {
+      "file": "workshop-row.jpg",
+      "alt": "صورة صف سيارات داخل الورشة والطلاء يعكس الأضواء",
+      "source_url": "https://www.google.com/maps/place/Ultimate+Car+Care/@23.5489761,58.3990976,17z/data=!4m6!3m5!1s0x3e91ff49b898be59:0x39082c9d938c6327!8m2!3d23.5489761!4d58.3990976!16s%2Fg%2F11gy70qrz3",
+      "credit": "من خرائط Google"
+    },
+    "menu-protect": {
+      "file": "mercedes-s-class.jpg",
+      "alt": "صورة مرسيدس داكنة بطلاء لامع أمام المحل",
+      "source_url": "https://www.google.com/maps/place/Ultimate+Car+Care/@23.5489761,58.3990976,17z/data=!4m6!3m5!1s0x3e91ff49b898be59:0x39082c9d938c6327!8m2!3d23.5489761!4d58.3990976!16s%2Fg%2F11gy70qrz3",
+      "credit": "من خرائط Google"
+    },
+    "menu-paint": {
+      "file": "alloy-wheel.jpg",
+      "alt": "صورة جنط وإطار في الورشة أثناء العمل",
+      "source_url": "https://www.google.com/maps/place/Ultimate+Car+Care/@23.5489761,58.3990976,17z/data=!4m6!3m5!1s0x3e91ff49b898be59:0x39082c9d938c6327!8m2!3d23.5489761!4d58.3990976!16s%2Fg%2F11gy70qrz3",
+      "credit": "من خرائط Google"
+    },
+    "menu-clean": {
+      "file": "interior-detail.jpg",
+      "alt": "صورة مقصورة سيارة فاخرة بجلد فاتح بعد التنظيف",
+      "source_url": "https://www.google.com/maps/place/Ultimate+Car+Care/@23.5489761,58.3990976,17z/data=!4m6!3m5!1s0x3e91ff49b898be59:0x39082c9d938c6327!8m2!3d23.5489761!4d58.3990976!16s%2Fg%2F11gy70qrz3",
+      "credit": "من خرائط Google"
+    },
+    "visit": {
+      "file": "shop-front.jpg",
+      "alt": "صورة واجهة Ultimate Car Care في شارع بوشر",
+      "source_url": "https://www.google.com/maps/place/Ultimate+Car+Care/@23.5489761,58.3990976,17z/data=!4m6!3m5!1s0x3e91ff49b898be59:0x39082c9d938c6327!8m2!3d23.5489761!4d58.3990976!16s%2Fg%2F11gy70qrz3",
+      "credit": "من خرائط Google"
+    }
+  }
+}

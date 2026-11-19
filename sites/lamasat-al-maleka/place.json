@@ -1,0 +1,300 @@
+{
+  "place_id": "amd-notion-40e5cb524e448197b491e976781b16d7",
+  "batch_id": "amd-gulf-20261105",
+  "slug": "lamasat-al-maleka",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#6F2C8F",
+    "rgb": "111, 44, 143",
+    "hover": "#5B2276",
+    "ink": "#FFFFFF"
+  },
+  "name": "Lamasat Al Maleka Beauty lounge",
+  "name_lang": "en",
+  "category_label": "صالون تجميل نسائي",
+  "area": "الرميلة 3، عجمان",
+  "address": "محل 7، برج الشرفاء 1، الرميلة 3، عجمان",
+  "phone": {
+    "display": "+971 55 168 3843",
+    "tel": "+971551683843"
+  },
+  "directions_url": "https://www.google.com/maps/place/Lamasat+Al+Maleka+Beauty+lounge/@25.3969051,55.4292325,17z/data=!4m6!3m5!1s0x3e5f59282e6dc135:0x1a262587d4f53c68!8m2!3d25.3969051!4d55.4292325!16s%2Fg%2F11rx3g03k3",
+  "map_query": "Lamasat Al Maleka Beauty lounge, Shoraf Tower 1, Ajman",
+  "rating": {
+    "value": 4.7,
+    "count": 396,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "11 ص – 12:30 ليلًا"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "data_source": "خرائط Google وصفحة الصالون على Fresha وحسابه على إنستغرام (@lamasat_beautysalon)",
+  "hero": {
+    "headline": "حنة وصبغة وأظافر، والباب مفتوح بعد منتصف الليل",
+    "intro": "صالون نسائي في برج الشرفاء بعجمان: نقش حنة، صبغة وبروتين، مانيكير وتنظيف بشرة، يوميًا من الحادية عشرة صباحًا حتى 12:30 ليلًا.",
+    "image": "hero"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "reviews",
+    "amenities",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "خدمات الصالون",
+    "items": [
+      "نقش حنة",
+      "كيراتين وبروتين",
+      "مانيكير وباديكير",
+      "تنظيف بشرة",
+      "مكياج عروس",
+      "برج الشرفاء"
+    ]
+  },
+  "story": {
+    "eyebrow": "من كلام الزبونات",
+    "title": "«الصالون كأنه بيت»",
+    "items": [
+      {
+        "title": "مريح كأنه بيت",
+        "text": "كتبت زبونة أن الصالون كأنه بيت لأنه مريح جدًا، وأخرى جاءت من أبوظبي وأعطته 10 من 10.",
+        "image": "story-home"
+      },
+      {
+        "title": "لون بلا ضرر",
+        "text": "جاءت زبونة بشعر أتعبته الألوان، فخرجت بلون فوق ما توقعت ودون أي ضرر، كما كتبت في مراجعتها.",
+        "image": "story-color"
+      },
+      {
+        "title": "تعالي ومعك طفلك",
+        "text": "كتبت زبونة أنها جاءت ومعها طفل، فساعدها الفريق وتعاون معها.",
+        "image": "story-child"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "sample": false,
+    "title": "الخدمات",
+    "eyebrow": "من Fresha وحساب الصالون",
+    "note": "الخدمات من صفحة الصالون على Fresha وحسابه على إنستغرام ومراجعات الزبونات. السعران المذكوران من منشورات الصالون، وباقي الأسعار بالسؤال.",
+    "currency": "د.إ",
+    "foot": "للحجز والأسعار",
+    "categories": [
+      {
+        "id": "henna",
+        "title": "الحنة والمكياج",
+        "tagline": "نقش حسب طلبك",
+        "image": "menu-henna",
+        "items": [
+          {
+            "name": "نقش حنة",
+            "desc": "بالتصميم الذي تطلبينه، كما كتبت زبونة في مراجعتها"
+          },
+          {
+            "name": "مكياج"
+          },
+          {
+            "name": "مكياج عروس"
+          }
+        ]
+      },
+      {
+        "id": "hair",
+        "title": "الشعر",
+        "tagline": "لون وعلاج",
+        "image": "menu-hair",
+        "items": [
+          {
+            "name": "كيراتين وبروتين Super Nano Supreme",
+            "desc": "يبدأ من 250 درهمًا"
+          },
+          {
+            "name": "علاج الشعر بالزيت والكريم",
+            "desc": "50 درهمًا"
+          },
+          {
+            "name": "صبغة شعر"
+          },
+          {
+            "name": "سبا الشعر"
+          },
+          {
+            "name": "قص شعر"
+          }
+        ]
+      },
+      {
+        "id": "nails",
+        "title": "الأظافر",
+        "tagline": "كل الألوان",
+        "image": "menu-nails",
+        "items": [
+          {
+            "name": "مانيكير"
+          },
+          {
+            "name": "باديكير"
+          },
+          {
+            "name": "تركيب أظافر"
+          }
+        ]
+      },
+      {
+        "id": "face",
+        "title": "الوجه والمساج",
+        "tagline": "بشرة وحواجب",
+        "image": "menu-face",
+        "items": [
+          {
+            "name": "تنظيف بشرة"
+          },
+          {
+            "name": "تنظيف بشرة لحب الشباب"
+          },
+          {
+            "name": "حواجب بالخيط"
+          },
+          {
+            "name": "مساج الظهر"
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "text": "بصراحة صالون جميل ومرتب واستقبالهم ظريف..والأهم  النظافة وخدماتهم متنوعة وشاملة ..وشغلهم كتير حلو ومتقن يعطيهم العافة .. الله يرزقكم وبالتوفيق يارب 💕",
+      "author": "manal m.",
+      "stars": 5,
+      "when": "قبل 4 أشهر",
+      "source_ref": "https://www.google.com/maps/place/Lamasat+Al+Maleka+Beauty+lounge/@25.3969051,55.4292325,17z/data=!4m6!3m5!1s0x3e5f59282e6dc135:0x1a262587d4f53c68!8m2!3d25.3969051!4d55.4292325!16s%2Fg%2F11rx3g03k3"
+    },
+    {
+      "text": "بصراحة معاملة راقية و رائعة عملت شعري صبغة كان مدمر الوان و الاخت رانيا بارك الله فيها عملتلي لون بيجنن فوق ما توقعت بدون اي ضرر تسلم ايدها و كلن معي طفل ساعدوني جدا متعاونين",
+      "author": "Aya M.",
+      "stars": 5,
+      "when": "قبل شهرين",
+      "source_ref": "https://www.google.com/maps/place/Lamasat+Al+Maleka+Beauty+lounge/@25.3969051,55.4292325,17z/data=!4m6!3m5!1s0x3e5f59282e6dc135:0x1a262587d4f53c68!8m2!3d25.3969051!4d55.4292325!16s%2Fg%2F11rx3g03k3"
+    },
+    {
+      "text": "احلى صالون راح تقابلكم صبية محترمة اسمها سارة من اطيب الناس والموظفات شغلهم حلو ونضيف الصالون كانه بيت لانوا مريح جدا . شكرا للخدمة الراقية",
+      "author": "Roor H.",
+      "stars": 5,
+      "when": "قبل شهرين",
+      "source_ref": "https://www.google.com/maps/place/Lamasat+Al+Maleka+Beauty+lounge/@25.3969051,55.4292325,17z/data=!4m6!3m5!1s0x3e5f59282e6dc135:0x1a262587d4f53c68!8m2!3d25.3969051!4d55.4292325!16s%2Fg%2F11rx3g03k3"
+    },
+    {
+      "text": "صالون ممتاز ماشاء الله وخدماته روعه  وصطاف ماشاء الله عليهم خصوصا صفاء وجميله روعه هدول لبنات لفشغل ولا في أسلوب حبيتهم مع أني انا جيتهم من ابوظبي أنا أقيمهم 10/10",
+      "author": "Kawtar J.",
+      "stars": 5,
+      "when": "قبل 5 أشهر",
+      "source_ref": "https://www.google.com/maps/place/Lamasat+Al+Maleka+Beauty+lounge/@25.3969051,55.4292325,17z/data=!4m6!3m5!1s0x3e5f59282e6dc135:0x1a262587d4f53c68!8m2!3d25.3969051!4d55.4292325!16s%2Fg%2F11rx3g03k3"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورينا",
+    "title": "ما يهمك قبل الموعد",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "حتى 12:30 ليلًا",
+        "text": "كل يوم، حسب خرائط Google."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل مهيأ",
+        "text": "المدخل والجلسات ودورة المياه تناسب الكراسي المتحركة."
+      },
+      {
+        "icon": "family",
+        "title": "نشاط تملكه امرأة",
+        "text": "كما هو مسجل في خرائط Google."
+      },
+      {
+        "icon": "calendar",
+        "title": "موعدك بالهاتف",
+        "text": "يستقبل الصالون الحجوزات على 0551683843."
+      }
+    ]
+  },
+  "visit": {
+    "image": "visit"
+  },
+  "images": {
+    "hero": {
+      "file": "henna-hands.jpg",
+      "alt": "صورة نقش حنة على يدين فوق فرو أبيض من أعمال الصالون",
+      "source_url": "https://www.google.com/maps/place/Lamasat+Al+Maleka+Beauty+lounge/@25.3969051,55.4292325,17z/data=!4m6!3m5!1s0x3e5f59282e6dc135:0x1a262587d4f53c68!8m2!3d25.3969051!4d55.4292325!16s%2Fg%2F11rx3g03k3",
+      "credit": "من خرائط Google"
+    },
+    "story-home": {
+      "file": "bride-room.jpg",
+      "alt": "صورة عروس من الخلف داخل الصالون وشعاره على الجدار",
+      "source_url": "https://www.instagram.com/lamasat_beautysalon/",
+      "credit": "من حساب الصالون"
+    },
+    "story-color": {
+      "file": "black-bob.jpg",
+      "alt": "صورة شعر أسود قصير لامع من الخلف بعد العناية",
+      "source_url": "https://www.google.com/maps/place/Lamasat+Al+Maleka+Beauty+lounge/@25.3969051,55.4292325,17z/data=!4m6!3m5!1s0x3e5f59282e6dc135:0x1a262587d4f53c68!8m2!3d25.3969051!4d55.4292325!16s%2Fg%2F11rx3g03k3",
+      "credit": "من خرائط Google"
+    },
+    "story-child": {
+      "file": "red-nails.jpg",
+      "alt": "صورة أظافر طويلة حمراء من أعمال الصالون",
+      "source_url": "https://www.instagram.com/lamasat_beautysalon/",
+      "credit": "من حساب الصالون"
+    },
+    "menu-henna": {
+      "file": "henna-logo.jpg",
+      "alt": "صورة نقش حنة على يد فوق شعار الصالون",
+      "source_url": "https://www.google.com/maps/place/Lamasat+Al+Maleka+Beauty+lounge/@25.3969051,55.4292325,17z/data=!4m6!3m5!1s0x3e5f59282e6dc135:0x1a262587d4f53c68!8m2!3d25.3969051!4d55.4292325!16s%2Fg%2F11rx3g03k3",
+      "credit": "من خرائط Google"
+    },
+    "menu-hair": {
+      "file": "soft-waves.jpg",
+      "alt": "صورة تموجات شعر أسود من الخلف داخل الصالون",
+      "source_url": "https://www.instagram.com/lamasat_beautysalon/",
+      "credit": "من حساب الصالون"
+    },
+    "menu-nails": {
+      "file": "french-nails.jpg",
+      "alt": "صورة أظافر بلون فاتح من أعمال الصالون",
+      "source_url": "https://www.google.com/maps/place/Lamasat+Al+Maleka+Beauty+lounge/@25.3969051,55.4292325,17z/data=!4m6!3m5!1s0x3e5f59282e6dc135:0x1a262587d4f53c68!8m2!3d25.3969051!4d55.4292325!16s%2Fg%2F11rx3g03k3",
+      "credit": "من خرائط Google"
+    },
+    "menu-face": {
+      "file": "facial-room.jpg",
+      "alt": "صورة غرفة العناية بالبشرة وسريرها الأبيض",
+      "source_url": "https://www.google.com/maps/place/Lamasat+Al+Maleka+Beauty+lounge/@25.3969051,55.4292325,17z/data=!4m6!3m5!1s0x3e5f59282e6dc135:0x1a262587d4f53c68!8m2!3d25.3969051!4d55.4292325!16s%2Fg%2F11rx3g03k3",
+      "credit": "من خرائط Google"
+    },
+    "visit": {
+      "file": "night-front.jpg",
+      "alt": "صورة واجهة صالون لمسات ليلًا في برج الشرفاء",
+      "source_url": "https://www.google.com/maps/place/Lamasat+Al+Maleka+Beauty+lounge/@25.3969051,55.4292325,17z/data=!4m6!3m5!1s0x3e5f59282e6dc135:0x1a262587d4f53c68!8m2!3d25.3969051!4d55.4292325!16s%2Fg%2F11rx3g03k3",
+      "credit": "من خرائط Google"
+    }
+  }
+}

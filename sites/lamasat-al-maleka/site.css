@@ -1,0 +1,44 @@
+/* Lamasat Al Maleka: a henna vine that draws itself down the page, on the salon's own purple. */
+html[data-site="lamasat-al-maleka"] {
+  --bg: #FBF6F8; --bg-rgb: 251, 246, 248;
+  --surface: #F3E9F1; --surface-2: #E9DAE7;
+  --ink: #2C1A2E; --ink-rgb: 44, 26, 46;
+  --muted: #6D5A70;
+}
+
+html[data-site="lamasat-al-maleka"] .hero__shade {
+  background: linear-gradient(to top, var(--bg) 4%, rgba(var(--bg-rgb), .95) 44%, rgba(var(--bg-rgb), 0) 70%) !important;
+}
+[data-site="lamasat-al-maleka"] .hero__title { font-size: clamp(2.1rem, 5.4vw, 4.4rem); line-height: 1.08; }
+@media (max-width: 899px) {
+  [data-site="lamasat-al-maleka"] .hero__media { inset: 0 0 auto; height: 46svh; }
+  html[data-site="lamasat-al-maleka"] .hero__shade {
+  background: linear-gradient(to bottom, transparent calc(46svh - 56px), var(--bg) 46svh) !important;
+  }
+  html[data-site="lamasat-al-maleka"] .hero--full .hero__grid { padding-block: calc(46svh + 6px) 48px !important; }
+  [data-site="lamasat-al-maleka"] .hero__title { font-size: clamp(1.9rem, 8.4vw, 2.6rem); }
+  [data-site="lamasat-al-maleka"] .hero__intro { font-size: 1rem; }
+}
+
+/* The vine */
+[data-site="lamasat-al-maleka"] .story,
+[data-site="lamasat-al-maleka"] .rev { position: relative; }
+[data-site="lamasat-al-maleka"] .lm-vine {
+  position: absolute; inset-block-start: 40px; inset-inline-end: 0; width: clamp(44px, 7.4vw, 110px); height: calc(100% - 80px);
+  pointer-events: none; z-index: 0; opacity: .9;
+}
+[data-site="lamasat-al-maleka"] .lm-vine path { fill: none; stroke: #6A3418; stroke-width: 2.4; stroke-linecap: round; stroke-dasharray: 1; }
+[data-site="lamasat-al-maleka"] .lm-vine .leaf { fill: rgba(106, 52, 24, .12); stroke-width: 1.8; }
+[data-site="lamasat-al-maleka"] .story .wrap,
+[data-site="lamasat-al-maleka"] .story__pin { position: relative; z-index: 1; }
+@media (max-width: 899px) { [data-site="lamasat-al-maleka"] .lm-vine { opacity: .35; } }
+
+/* Show the real photos beside the service list too. */
+html[data-site="lamasat-al-maleka"] .menu--services .panel-m__visual { display: block; }
+@media (min-width: 900px) {
+  html[data-site="lamasat-al-maleka"] .menu--services .panel-m { grid-template-columns: .85fr 1.15fr; }
+  html[data-site="lamasat-al-maleka"] .menu--services .items { display: block; }
+}
+@media (max-width: 899px) {
+  html[data-site="lamasat-al-maleka"] .brand { font-size: .82rem; line-height: 1.25; max-width: 11em; }
+}

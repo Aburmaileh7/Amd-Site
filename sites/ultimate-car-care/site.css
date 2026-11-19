@@ -1,0 +1,45 @@
+/* Ultimate Car Care: the black-and-white checker wall of the Bausher workshop. */
+html[data-site="ultimate-car-care"] {
+  --bg: #0E0F12; --bg-rgb: 14, 15, 18;
+  --surface: #17191E; --surface-2: #20232A;
+  --ink: #F4F2EE; --ink-rgb: 244, 242, 238;
+  --muted: #AEB0B6;
+  --line: rgba(244, 242, 238, .14);
+  --radius: 4px;
+  color-scheme: dark;
+}
+[data-site="ultimate-car-care"] body { background: var(--bg); color: var(--ink); }
+
+/* Hero: the workshop stays clear, the words sit under it. */
+html[data-site="ultimate-car-care"] .hero__shade {
+  background: linear-gradient(to top, var(--bg) 2%, rgba(var(--bg-rgb), .9) 30%, rgba(var(--bg-rgb), 0) 62%) !important;
+}
+@media (max-width: 899px) {
+  [data-site="ultimate-car-care"] .hero__media { inset: 0 0 auto; height: 52svh; }
+  html[data-site="ultimate-car-care"] .hero__shade {
+  background: linear-gradient(to bottom, transparent calc(52svh - 70px), var(--bg) 52svh) !important;
+  }
+  html[data-site="ultimate-car-care"] .hero--full .hero__grid { padding-block: calc(52svh + 6px) 48px !important; }
+  [data-site="ultimate-car-care"] .hero__title { font-size: clamp(2.3rem, 11vw, 3.4rem); }
+  [data-site="ultimate-car-care"] .hero__intro { font-size: 1rem; }
+}
+
+/* The checker band: tiles flip one after another as it scrolls through. */
+[data-site="ultimate-car-care"] .ucc-flag {
+  display: grid; grid-template-columns: repeat(var(--cols), 1fr); width: 100%;
+  background: var(--bg); overflow: hidden; perspective: 700px;
+}
+[data-site="ultimate-car-care"] .ucc-flag i { display: block; aspect-ratio: 1; background: #F4F2EE; backface-visibility: hidden; }
+[data-site="ultimate-car-care"] .ucc-flag i.d { background: #17191E; }
+[data-site="ultimate-car-care"] .ucc-flag i.r { background: var(--glow); }
+
+/* Show the real photos beside the service list too. */
+html[data-site="ultimate-car-care"] .menu--services .panel-m__visual { display: block; }
+@media (min-width: 900px) {
+  html[data-site="ultimate-car-care"] .menu--services .panel-m { grid-template-columns: .85fr 1.15fr; }
+  html[data-site="ultimate-car-care"] .menu--services .items { display: block; }
+}
+/* The brand red is too dark for small text on black; small labels use a lighter tint. */
+html[data-site="ultimate-car-care"] .eyebrow,
+html[data-site="ultimate-car-care"] .visit a[href*="wa.me"],
+html[data-site="ultimate-car-care"] .visit a[href*="/go/"] { color: #FF8589; }

@@ -1,0 +1,29 @@
+/* KAYZEN BAKERY: laminated dough. Butter layers that rise apart on scroll, on the brand's bottle green. */
+html[data-site="kayzen-bakery"] {
+  --bg: #FBF6EC; --bg-rgb: 251, 246, 236;
+  --surface: #F3EAD8; --surface-2: #E9DCC2;
+  --muted: #6F5D49;
+}
+
+/* Hero: no veil over the pastry. */
+html[data-site="kayzen-bakery"] .hero__shade {
+  background: linear-gradient(to top, var(--bg) 4%, rgba(var(--bg-rgb), .94) 38%, rgba(var(--bg-rgb), 0) 66%) !important;
+}
+@media (max-width: 899px) {
+  [data-site="kayzen-bakery"] .hero__media { inset: 0 0 auto; height: 52svh; }
+  html[data-site="kayzen-bakery"] .hero__shade {
+  background: linear-gradient(to bottom, transparent calc(52svh - 60px), var(--bg) 52svh) !important;
+  }
+  html[data-site="kayzen-bakery"] .hero--full .hero__grid { padding-block: calc(52svh + 6px) 48px !important; }
+  [data-site="kayzen-bakery"] .hero__title { font-size: clamp(2.3rem, 11vw, 3.4rem); }
+  [data-site="kayzen-bakery"] .hero__intro { font-size: 1rem; }
+}
+
+/* The lamination band */
+[data-site="kayzen-bakery"] .kz-lam {
+  position: relative; height: clamp(120px, 18vw, 200px); overflow: hidden; background: var(--bg);
+}
+[data-site="kayzen-bakery"] .kz-lam svg { position: absolute; inset-inline: -2%; width: 104%; height: 40px; top: 0; }
+[data-site="kayzen-bakery"] .kz-lam path { fill: none; stroke-width: 7; stroke-linecap: round; }
+
+html[data-site="kayzen-bakery"] .panel-m__visual::after { background: linear-gradient(to top, rgba(var(--bg-rgb), .96), rgba(var(--bg-rgb), .75) 26%, transparent 60%); }

@@ -1,0 +1,332 @@
+{
+  "place_id": "amd-notion-40e5cb524e4481b88ae2f0fafcca607c",
+  "batch_id": "amd-gulf-20261105",
+  "slug": "man-cave-cut",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#D4AF37",
+    "rgb": "212, 175, 55",
+    "hover": "#E6C352",
+    "ink": "#15120A"
+  },
+  "name": "Man Cave Cut",
+  "name_lang": "en",
+  "category_label": "صالون حلاقة رجالي",
+  "area": "حي الجسر، الخبر",
+  "address": "عباس مالكي، حي الجسر، الخبر 34714",
+  "phone": {
+    "display": "+966 57 087 4581",
+    "tel": "+966570874581"
+  },
+  "whatsapp": {
+    "number": "966570874581",
+    "display": "+966 57 087 4581"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Man%20Cave%20Cut%20Barbershop%20Al%20Khobar",
+  "map_query": "Man Cave Cut Barbershop, Al Jisr, Al Khobar",
+  "rating": {
+    "value": 4.7,
+    "count": 71,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "12 ظهرًا – 1 ص"
+      },
+      {
+        "days": "الخميس",
+        "time": "12 ظهرًا – 1:30 ص"
+      },
+      {
+        "days": "الجمعة",
+        "time": "12 ظهرًا – 12 منتصف الليل"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "data_source": "خرائط Google وصفحة الصالون على interflow.sa وحسابه على TikTok (@man.cave.salon)",
+  "hero": {
+    "headline": "فيد وذقن خلف شبك ذهبي حتى الواحدة ليلًا",
+    "intro": "حلاقة الشعر 15 ريالًا والذقن 15 ريالًا، ومعها صبغات وبروتين وتنظيف بشرة، في صالون يفتح من الظهر حتى بعد منتصف الليل.",
+    "image": "hero"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "menu",
+    "marquee",
+    "story",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "خدمات الصالون",
+    "items": [
+      "فيد",
+      "تحديد لحية",
+      "حمام زيت",
+      "بروتين للشعر",
+      "تنظيف بشرة",
+      "حي الجسر"
+    ]
+  },
+  "story": {
+    "eyebrow": "من مراجعات Google",
+    "title": "ما يكتبه زبائن الجسر بعد الكرسي",
+    "items": [
+      {
+        "title": "«فاهم وشاطر»",
+        "text": "تتكرر في المراجعات كلمتا فنان وراقي واسم الحلاق محمد، ويكتب عنه زبون أنه فاهم وشاطر في عمله.",
+        "image": "story-fade"
+      },
+      {
+        "title": "قهوة وأدوات نظيفة",
+        "text": "في صور الصالون قهوة تُصب للضيف، ويكتب زبون عن أدوات نظيفة وريحة جميلة في المكان.",
+        "image": "story-coffee"
+      },
+      {
+        "title": "مفتوح بعد يومك",
+        "text": "من 12 ظهرًا حتى الواحدة ليلًا، والخميس حتى 1:30، ولذلك تجد موعدك بعد الدوام وبعد العشاء.",
+        "image": "story-curls"
+      }
+    ]
+  },
+  "menu": {
+    "sample": false,
+    "title": "الأسعار",
+    "eyebrow": "من صفحة الصالون",
+    "note": "الأسعار من صفحة الصالون على interflow.sa، والعروض قد تتغير؛ تأكد منها عند الحجز.",
+    "currency": "ر.س",
+    "foot": "للحجز",
+    "categories": [
+      {
+        "id": "cut",
+        "title": "الحلاقة",
+        "tagline": "شعر وذقن",
+        "image": "menu-cut",
+        "items": [
+          {
+            "name": "حلاقة شعر",
+            "price": 15
+          },
+          {
+            "name": "حلاقة ذقن",
+            "price": 15
+          },
+          {
+            "name": "تحديد شعر",
+            "price": 9
+          },
+          {
+            "name": "شمع تحديد لحية",
+            "price": 15
+          },
+          {
+            "name": "صبغة شعر",
+            "price": 39
+          },
+          {
+            "name": "صبغة ذقن",
+            "price": 19
+          },
+          {
+            "name": "صبغة شنب",
+            "price": 10
+          }
+        ]
+      },
+      {
+        "id": "offers",
+        "title": "العروض",
+        "tagline": "باقات كاملة",
+        "image": "menu-offers",
+        "items": [
+          {
+            "name": "العرض الأول",
+            "price": 36,
+            "desc": "شعر + ذقن + صنفرة + حمام كريم + فوطة باردة + فوطة حارة"
+          },
+          {
+            "name": "العرض الثاني",
+            "price": 46,
+            "desc": "شعر + ذقن + تنظيف بشرة"
+          },
+          {
+            "name": "العرض الثالث",
+            "price": 56,
+            "desc": "شعر + ذقن + حمام زيت + غسيل للشعر + صنفرة"
+          },
+          {
+            "name": "العرض الرابع",
+            "price": 20,
+            "desc": "شعر + ذقن + بخار + صنفرة + كولاجين + فوطة بارد وحار"
+          }
+        ]
+      },
+      {
+        "id": "hair",
+        "title": "عناية بالشعر",
+        "tagline": "غسيل وعلاج",
+        "image": "menu-hair",
+        "items": [
+          {
+            "name": "غسيل شعر",
+            "price": 5
+          },
+          {
+            "name": "استشوار شعر",
+            "price": 15
+          },
+          {
+            "name": "حمام زيت شعر",
+            "price": 24
+          },
+          {
+            "name": "بروتين للشعر",
+            "price": 100
+          }
+        ]
+      },
+      {
+        "id": "face",
+        "title": "عناية بالوجه",
+        "tagline": "بشرة وبخار",
+        "image": "menu-face",
+        "items": [
+          {
+            "name": "لصقة خشم",
+            "price": 5
+          },
+          {
+            "name": "منشفة حار وبارد",
+            "price": 4
+          },
+          {
+            "name": "كولاجين",
+            "price": 6
+          },
+          {
+            "name": "صنفرة",
+            "price": 9
+          },
+          {
+            "name": "بخار",
+            "price": 9
+          },
+          {
+            "name": "شمع كامل للوجه",
+            "price": 29
+          },
+          {
+            "name": "تنظيف للبشرة",
+            "price": 39
+          },
+          {
+            "name": "تنظيف للبشرة (VIP)",
+            "price": 60
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "text": "استغربت من بعض التعليقات قبل اجيهم وحبيت احكم بتجربتي … تجربتي مع الاخ محمد فاهم وشاطر ب عمله وهذا اهم شيء. اسلوب وترحيب ممتاز ومحترم وهذا يدل على شخصية راقية .. ادوات نظيفة وريحة جميلة بالمكان.. شكرا.",
+      "author": "Ahmedkh",
+      "stars": 5,
+      "when": "قبل شهر",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=Man%20Cave%20Cut%20Barbershop%20Al%20Khobar"
+    },
+    {
+      "text": "الحلاق هذا افضل محل حلاقه بالنسبة لي في الشرقيه جربته الصدق الموظف محمود الله يسعده حلقني احلى حلاقك انصحكم فالحلاق ممتاز وكل الموظفين محترمين",
+      "author": "yahia",
+      "stars": 5,
+      "when": "قبل 4 أسابيع",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=Man%20Cave%20Cut%20Barbershop%20Al%20Khobar"
+    },
+    {
+      "text": "من افضل محلات الحلاقه اللي جربتها وشباب زي العسل وشغلهم راقي جدا",
+      "author": "عبدالله ص.",
+      "stars": 5,
+      "when": "قبل 7 أشهر",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=Man%20Cave%20Cut%20Barbershop%20Al%20Khobar"
+    },
+    {
+      "text": "من أفضل الصالونات التي تم زيارتها في المملكه والتعامل راقي جدا والعمل باحترافيه وسلاسه",
+      "author": "Osama M.",
+      "stars": 5,
+      "when": "قبل 3 أشهر",
+      "source_ref": "https://www.google.com/maps/search/?api=1&query=Man%20Cave%20Cut%20Barbershop%20Al%20Khobar"
+    }
+  ],
+  "visit": {
+    "image": "visit"
+  },
+  "images": {
+    "hero": {
+      "file": "night-front.jpg",
+      "alt": "صورة واجهة Man Cave Cut ليلًا والشبك الذهبي مضاء من الداخل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Man%20Cave%20Cut%20Barbershop%20Al%20Khobar",
+      "credit": "من خرائط Google"
+    },
+    "story-fade": {
+      "file": "fade-lattice.jpg",
+      "alt": "صورة قصة فيد من الخلف أمام الشبك الذهبي داخل الصالون",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Man%20Cave%20Cut%20Barbershop%20Al%20Khobar",
+      "credit": "من خرائط Google"
+    },
+    "story-coffee": {
+      "file": "coffee-pour.jpg",
+      "alt": "صورة قهوة تُصب للضيف داخل الصالون",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Man%20Cave%20Cut%20Barbershop%20Al%20Khobar",
+      "credit": "من خرائط Google"
+    },
+    "story-curls": {
+      "file": "curly-cut.jpg",
+      "alt": "صورة قصة شعر مجعد من الخلف على كرسي الصالون",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Man%20Cave%20Cut%20Barbershop%20Al%20Khobar",
+      "credit": "من خرائط Google"
+    },
+    "menu-cut": {
+      "file": "taper-cut.jpg",
+      "alt": "صورة قصة قصيرة وذقن محددة من الخلف",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Man%20Cave%20Cut%20Barbershop%20Al%20Khobar",
+      "credit": "من خرائط Google"
+    },
+    "menu-offers": {
+      "file": "side-part.jpg",
+      "alt": "صورة تسريحة جانبية وذقن محددة على كرسي الصالون",
+      "source_url": "https://www.tiktok.com/@man.cave.salon",
+      "credit": "من حساب الصالون"
+    },
+    "menu-hair": {
+      "file": "hair-serum.jpg",
+      "alt": "صورة منتج عناية بالشعر أمام الشبك الذهبي",
+      "source_url": "https://www.tiktok.com/@man.cave.salon",
+      "credit": "من حساب الصالون"
+    },
+    "menu-face": {
+      "file": "facial-kit.jpg",
+      "alt": "صورة حقيبة أدوات العناية بالبشرة في الصالون",
+      "source_url": "https://www.tiktok.com/@man.cave.salon",
+      "credit": "من حساب الصالون"
+    },
+    "visit": {
+      "file": "front-evening.jpg",
+      "alt": "صورة مدخل Man Cave Cut في حي الجسر",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Man%20Cave%20Cut%20Barbershop%20Al%20Khobar",
+      "credit": "من خرائط Google"
+    }
+  }
+}

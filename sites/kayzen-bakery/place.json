@@ -1,0 +1,372 @@
+{
+  "place_id": "amd-notion-40e5cb524e44813db754cd1add088757",
+  "batch_id": "amd-gulf-20261105",
+  "slug": "kayzen-bakery",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "bakery_cream",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#1F4D3A",
+    "rgb": "31, 77, 58",
+    "hover": "#163B2C",
+    "ink": "#FFFFFF"
+  },
+  "name": "KAYZEN BAKERY",
+  "name_lang": "en",
+  "category_label": "مخبز ومقهى مختص",
+  "area": "شارع كشمير، صحار",
+  "address": "شارع كشمير، صحار",
+  "phone": {
+    "display": "+968 7687 6706",
+    "tel": "+96876876706"
+  },
+  "directions_url": "https://www.google.com/maps/place/KAYZEN+BAKERY/@24.3936207,56.7196461,17z/data=!4m6!3m5!1s0x3e8b45155f5234f3:0xa4ea7d5c02c786b1!8m2!3d24.3936207!4d56.7196461!16s%2Fg%2F11kj_6829m",
+  "map_query": "KAYZEN BAKERY, Kashmir St, Sohar",
+  "rating": {
+    "value": 4.6,
+    "count": 263,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "7:00 ص – 10:00 م"
+      }
+    ],
+    "per_day": 15,
+    "source": "خرائط Google وحساب المخبز"
+  },
+  "data_source": "خرائط Google وصفحة المخبز على طلبات وحسابه على إنستغرام (@kayzen.bakery)",
+  "hero": {
+    "headline": "دانيش وكرواسون من السابعة صباحًا في صحار",
+    "intro": "مخبز مختص في شارع كشمير: كرواسون زبدة ودانيش جبن بالعسل وفطور ساخن وقهوة V60، في صالة واسعة من السابعة صباحًا حتى العاشرة مساءً.",
+    "image": "hero"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "story",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "marquee": {
+    "label": "من فترينة كايزن",
+    "items": [
+      "كرواسون الزبدة",
+      "دانيش الجبن والعسل",
+      "سان سيباستيان",
+      "قهوة V60",
+      "ماتشا مثلجة",
+      "شارع كشمير"
+    ]
+  },
+  "story": {
+    "eyebrow": "كما يصفه الزوار",
+    "title": "تعال قبل أن تفرغ الفترينة",
+    "items": [
+      {
+        "title": "الفترينة تفرغ باكرًا",
+        "text": "كتب أحد الزوار أنه وصل الساعة 11 صباحًا فوجد المخبوزات قد نفدت، فعاد في يوم آخر مبكرًا ولم يندم.",
+        "image": "story-case"
+      },
+      {
+        "title": "صالة واسعة ونوافذ عالية",
+        "text": "سقف مرتفع ونوافذ بطول الجدار وطاولات خشبية تتسع للعائلة، و«المكان واسع» جملة تتكرر في مراجعاتهم.",
+        "image": "story-room"
+      },
+      {
+        "title": "كرواسون وفنجان",
+        "text": "18 مراجعة تذكر الكرواسون و24 تذكر القهوة، ومن الزوار من لا يطلب غير V60.",
+        "image": "story-coffee"
+      }
+    ]
+  },
+  "menu": {
+    "sample": false,
+    "title": "المنيو",
+    "eyebrow": "من صفحة المخبز على طلبات",
+    "note": "الأسعار من صفحة كايزن بيكري اند كافية على طلبات، وقد تختلف داخل المحل.",
+    "currency": "ر.ع",
+    "foot": "للاستفسار",
+    "categories": [
+      {
+        "id": "bakes",
+        "title": "الكرواسون والدانيش",
+        "tagline": "من الفترينة",
+        "image": "menu-bakes",
+        "items": [
+          {
+            "name": "كرواسون الزبدة",
+            "price": 0.95,
+            "desc": "كرواسون محشو بالزبدة",
+            "mentioned": true
+          },
+          {
+            "name": "كرواسون الفستق",
+            "price": 2.4,
+            "desc": "محشو بكريمة الفستق ومغطى بالفستق المطحون"
+          },
+          {
+            "name": "دانيش الجبن والعسل",
+            "price": 1.2,
+            "desc": "دانيش بالجبن مغطى بالعسل"
+          },
+          {
+            "name": "دانيش الجبن والحليب المركز",
+            "price": 1.3,
+            "desc": "دانيش بالجبن مغطى بالحليب المحلى"
+          },
+          {
+            "name": "لفائف شوكليت",
+            "price": 1.6,
+            "desc": "عجينة محشية بالشوكلاته"
+          },
+          {
+            "name": "ثلاثي كرواسون",
+            "price": 6.5,
+            "desc": "اختر أي ثلاثة من الكرواسون الطازج"
+          }
+        ]
+      },
+      {
+        "id": "breakfast",
+        "title": "الفطور",
+        "tagline": "ساخن من المطبخ",
+        "image": "menu-breakfast",
+        "items": [
+          {
+            "name": "فلافل",
+            "price": 1.9,
+            "desc": "خبز أبيض، فلافل، طماطم مخبوزة، طحينة منزلية الصنع، شرائح فلفل هالبينو"
+          },
+          {
+            "name": "آوميليت العادي",
+            "price": 2.0,
+            "desc": "مشروم، فليفلة، بصل"
+          },
+          {
+            "name": "حلومي أفوكادو بالعسل",
+            "price": 2.5,
+            "desc": "خبز الساوردوف، أفوكادو وعسل مزين ببذور ميكس"
+          },
+          {
+            "name": "توسكان أومليت",
+            "price": 2.7,
+            "desc": "بيض، طماطم، سبانخ، جبن، أعشاب"
+          },
+          {
+            "name": "كرواسون لبنه وحلومي",
+            "price": 2.8,
+            "desc": "حلوم مشوي، لبنة كريمية، زعتر، زيتون وأوراق خضراء"
+          },
+          {
+            "name": "بيض الأفوكادو المخفوقة",
+            "price": 3.1,
+            "desc": "خبز عجين مخمر مع البيض المخفوق والأفوكادو"
+          }
+        ]
+      },
+      {
+        "id": "sweets",
+        "title": "الحلويات",
+        "tagline": "على الحوامل",
+        "image": "menu-sweets",
+        "items": [
+          {
+            "name": "San Sebastian With Chocolate",
+            "price": 3.0,
+            "desc": "طبقات شوكولاتة داكنة وحشوة كريمية"
+          },
+          {
+            "name": "كعكة جبن بالتوت أزرق",
+            "price": 3.0,
+            "desc": "قشرة بسكويت بالزبدة وتغطية توت أزرق"
+          },
+          {
+            "name": "كعكة جزر",
+            "price": 2.5,
+            "desc": "مغطاة بكريمة الجبن ومزينة بالجوز"
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "القهوة والماتشا",
+        "tagline": "حار وبارد",
+        "image": "menu-drinks",
+        "items": [
+          {
+            "name": "اسبريسو",
+            "price": 1.2
+          },
+          {
+            "name": "فلات وايت",
+            "price": 1.7
+          },
+          {
+            "name": "كابتشينو",
+            "price": 1.8
+          },
+          {
+            "name": "سبانش لاتيه",
+            "price": 1.95
+          },
+          {
+            "name": "في 60 حار",
+            "price": 2.2,
+            "mentioned": true
+          },
+          {
+            "name": "لاتيه الفستق الساخن",
+            "price": 2.5
+          },
+          {
+            "name": "ايسد فوم ماتشا",
+            "price": 2.4
+          },
+          {
+            "name": "كلاود كوكنت ماتشا",
+            "price": 3.3
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "قهوة V60",
+    "كرواسون",
+    "الفطور"
+  ],
+  "reviews": [
+    {
+      "text": "المكان المفضل دائما في مجال المخبوزات للعائلة جميعاً … الجودة ثابتة ما تتغير ودايم في تنوع في الأنواع .. من ألذ المخبوزات اللي نعتمدها دائماً سواء في المكان او طلبات خارجية .. القهوة كلام ثاني القهوة المفضلة لي V60 😻🤎🤎🤎",
+      "author": "el Maith A.",
+      "stars": 5,
+      "when": "قبل سنة",
+      "source_ref": "https://www.google.com/maps/place/KAYZEN+BAKERY/@24.3936207,56.7196461,17z/data=!4m6!3m5!1s0x3e8b45155f5234f3:0xa4ea7d5c02c786b1!8m2!3d24.3936207!4d56.7196461!16s%2Fg%2F11kj_6829m"
+    },
+    {
+      "text": "ما شاء الله! المكان فاق توقعاتي عنه وفخور بيه وبالقائمين عليه، المخبوزات فوق الرائعة، القهوة حقيقي ممتازة.. رغم وصولي الساعة ١١ صباحًا ماشاء الله المكان مزدحم والمخبوزات كانت خلصت إلا إني أصريت آجي بدري في يوم تاني والحمدلله ما ندمت أبدًا…",
+      "author": "Abdelrahman S.",
+      "stars": 5,
+      "when": "قبل سنتين",
+      "source_ref": "https://www.google.com/maps/place/KAYZEN+BAKERY/@24.3936207,56.7196461,17z/data=!4m6!3m5!1s0x3e8b45155f5234f3:0xa4ea7d5c02c786b1!8m2!3d24.3936207!4d56.7196461!16s%2Fg%2F11kj_6829m"
+    },
+    {
+      "text": "تجربة رائعة💯 المشروبات كانت لذيذة جداً، والمخبوزات طعمها مميز. المكان مرتب وجوه مريح. أنصح به بشدة لأي شخص يحب القهوة والمخبوزات الممتازة",
+      "author": "zamzam",
+      "stars": 5,
+      "when": "قبل 5 أشهر",
+      "source_ref": "https://www.google.com/maps/place/KAYZEN+BAKERY/@24.3936207,56.7196461,17z/data=!4m6!3m5!1s0x3e8b45155f5234f3:0xa4ea7d5c02c786b1!8m2!3d24.3936207!4d56.7196461!16s%2Fg%2F11kj_6829m"
+    },
+    {
+      "text": "المكان جميل جدا والمخبوزات ممتازة. تعامل جميل من الموظفين.",
+      "author": "Saif A.",
+      "stars": 5,
+      "when": "قبل شهر",
+      "source_ref": "https://www.google.com/maps/place/KAYZEN+BAKERY/@24.3936207,56.7196461,17z/data=!4m6!3m5!1s0x3e8b45155f5234f3:0xa4ea7d5c02c786b1!8m2!3d24.3936207!4d56.7196461!16s%2Fg%2F11kj_6829m"
+    }
+  ],
+  "amenities": {
+    "eyebrow": "قبل أن تزورنا",
+    "title": "كيف تصلك مخبوزات كايزن",
+    "image": "amen",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "من 7 صباحًا",
+        "text": "كل يوم حتى 10 مساءً."
+      },
+      {
+        "icon": "bag",
+        "title": "توصيل عبر طلبات",
+        "text": "المنيو نفسه على صفحة المخبز في طلبات."
+      },
+      {
+        "icon": "family",
+        "title": "جلسات عائلية",
+        "text": "صالة واسعة تذكرها مراجعات الزوار."
+      },
+      {
+        "icon": "coffee",
+        "title": "بوكسات التجمعات",
+        "text": "طبق سندويشات ميني مشكل بـ8.000 ر.ع على طلبات."
+      }
+    ]
+  },
+  "visit": {
+    "image": "visit"
+  },
+  "images": {
+    "hero": {
+      "file": "danish-tray.jpg",
+      "alt": "صورة صينية دانيش ذهبي طازج في فترينة كايزن بيكري",
+      "source_url": "https://www.google.com/maps/place/KAYZEN+BAKERY/@24.3936207,56.7196461,17z/data=!4m6!3m5!1s0x3e8b45155f5234f3:0xa4ea7d5c02c786b1!8m2!3d24.3936207!4d56.7196461!16s%2Fg%2F11kj_6829m",
+      "credit": "من خرائط Google"
+    },
+    "story-case": {
+      "file": "bakery-case.jpg",
+      "alt": "صورة فترينة المخبوزات في كايزن بيكري مع بطاقات الأسماء",
+      "source_url": "https://www.google.com/maps/place/KAYZEN+BAKERY/@24.3936207,56.7196461,17z/data=!4m6!3m5!1s0x3e8b45155f5234f3:0xa4ea7d5c02c786b1!8m2!3d24.3936207!4d56.7196461!16s%2Fg%2F11kj_6829m",
+      "credit": "من خرائط Google"
+    },
+    "story-room": {
+      "file": "hall-windows.jpg",
+      "alt": "صورة الصالة بسقفها العالي ونوافذها وطاولاتها الخشبية",
+      "source_url": "https://www.google.com/maps/place/KAYZEN+BAKERY/@24.3936207,56.7196461,17z/data=!4m6!3m5!1s0x3e8b45155f5234f3:0xa4ea7d5c02c786b1!8m2!3d24.3936207!4d56.7196461!16s%2Fg%2F11kj_6829m",
+      "credit": "من خرائط Google"
+    },
+    "story-coffee": {
+      "file": "croissant-coffee.jpg",
+      "alt": "صورة كرواسون وقهوة على طاولة خشبية في كايزن بيكري",
+      "source_url": "https://www.google.com/maps/place/KAYZEN+BAKERY/@24.3936207,56.7196461,17z/data=!4m6!3m5!1s0x3e8b45155f5234f3:0xa4ea7d5c02c786b1!8m2!3d24.3936207!4d56.7196461!16s%2Fg%2F11kj_6829m",
+      "credit": "من خرائط Google"
+    },
+    "menu-breakfast": {
+      "file": "breakfast-spread.jpg",
+      "alt": "صورة فطور كايزن: شكشوكة وخبز طازج وسلطة وفلافل",
+      "source_url": "https://www.google.com/maps/place/KAYZEN+BAKERY/@24.3936207,56.7196461,17z/data=!4m6!3m5!1s0x3e8b45155f5234f3:0xa4ea7d5c02c786b1!8m2!3d24.3936207!4d56.7196461!16s%2Fg%2F11kj_6829m",
+      "credit": "من خرائط Google"
+    },
+    "menu-bakes": {
+      "file": "croissant-box.jpg",
+      "alt": "صورة علبة كرواسون كايزن الخضراء",
+      "source_url": "https://www.instagram.com/kayzen.bakery/",
+      "credit": "من حساب المخبز"
+    },
+    "menu-sweets": {
+      "file": "cheesecake-stands.jpg",
+      "alt": "صورة سان سيباستيان وكعكات على حوامل في الفترينة",
+      "source_url": "https://www.google.com/maps/place/KAYZEN+BAKERY/@24.3936207,56.7196461,17z/data=!4m6!3m5!1s0x3e8b45155f5234f3:0xa4ea7d5c02c786b1!8m2!3d24.3936207!4d56.7196461!16s%2Fg%2F11kj_6829m",
+      "credit": "من خرائط Google"
+    },
+    "menu-drinks": {
+      "file": "iced-matcha.jpg",
+      "alt": "صورة ماتشا مثلجة في كوب كايزن",
+      "source_url": "https://www.google.com/maps/place/KAYZEN+BAKERY/@24.3936207,56.7196461,17z/data=!4m6!3m5!1s0x3e8b45155f5234f3:0xa4ea7d5c02c786b1!8m2!3d24.3936207!4d56.7196461!16s%2Fg%2F11kj_6829m",
+      "credit": "من خرائط Google"
+    },
+    "amen": {
+      "file": "counter-hall.jpg",
+      "alt": "صورة الكاونتر وجلسات الصالة في كايزن بيكري",
+      "source_url": "https://www.google.com/maps/place/KAYZEN+BAKERY/@24.3936207,56.7196461,17z/data=!4m6!3m5!1s0x3e8b45155f5234f3:0xa4ea7d5c02c786b1!8m2!3d24.3936207!4d56.7196461!16s%2Fg%2F11kj_6829m",
+      "credit": "من خرائط Google"
+    },
+    "visit": {
+      "file": "night-sign.jpg",
+      "alt": "صورة واجهة كايزن بيكري ولافتتها المضيئة ليلًا",
+      "source_url": "https://www.google.com/maps/place/KAYZEN+BAKERY/@24.3936207,56.7196461,17z/data=!4m6!3m5!1s0x3e8b45155f5234f3:0xa4ea7d5c02c786b1!8m2!3d24.3936207!4d56.7196461!16s%2Fg%2F11kj_6829m",
+      "credit": "من خرائط Google"
+    }
+  }
+}
