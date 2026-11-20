@@ -33,9 +33,17 @@ if (existsSync(`${dir}/site.js`)) {
 // live page: 200 and the right name
 let live = 'skipped';
 if (!local) {
-  const res = await fetch(`https://amd-demos.pages.dev/${slug}/`);
-  const html = await res.text();
-  live = res.status;
+  // curl with retries: more robust than fetch on flaky connections
+  const { execSync } = await import('node:child_process');
+  let html = '', status = 0;
+  for (let i = 0; i < 3 && status !== 200; i++) {
+    try {
+      const out = execSync(`curl -s --retry 2 --max-time 30 -w "\\n%{http_code}" https://amd-demos.pages.dev/${slug}/`, { encoding: 'utf8', maxBuffer: 20e6 });
+      status = Number(out.slice(out.lastIndexOf('\n') + 1)); html = out.slice(0, out.lastIndexOf('\n'));
+    } catch { status = 0; }
+  }
+  const res = { status };
+  live = status;
   if (res.status !== 200) issues.push(`live status ${res.status}`);
   else if (!html.includes(place.name)) issues.push('live page does not show the business name');
   if (!/noindex/.test(html)) issues.push('live page missing noindex (approved:false pages must not be indexed)');
