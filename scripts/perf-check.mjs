@@ -26,8 +26,10 @@ if (total > 3072) issues.push(`images total ${total} KB > 3 MB`);
 if (existsSync(`${dir}/site.js`)) {
   const js = readFileSync(`${dir}/site.js`, 'utf8');
   if (!/\breduce\b/.test(js)) issues.push('site.js ignores reduce');
-  const bad = js.match(/\b(width|height|top|left|right|bottom|margin\w*|padding\w*)\s*:/g);
-  if (bad) issues.push(`site.js animates layout properties: ${[...new Set(bad)].join(' ')}`);
+  // only tween objects count (static styles on created elements are fine)
+  const tweens = js.match(/gsap\.(to|from|fromTo)\([^;]*?\)/gs) || [];
+  const bad = tweens.flatMap((t) => t.match(/\b(width|height|top|left|right|bottom|margin\w*|padding\w*)\s*:/g) || []);
+  if (bad.length) issues.push(`site.js animates layout properties: ${[...new Set(bad)].join(' ')}`);
 }
 
 // live page: 200 and the right name
