@@ -1,0 +1,209 @@
+{
+  "place_id": "amd-notion-40e5cb524e44818e91ace73886f8bf4d",
+  "batch_id": "amd-gulf-20261120",
+  "slug": "blue-skyline-detailing",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "services_pro",
+  "data_source": "خرائط Google (الهاتف وساعات العمل والموقع والتقييم والمراجعات والصور)",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#1D3FD6",
+    "rgb": "29, 63, 214",
+    "hover": "#1733B0",
+    "ink": "#FFFFFF"
+  },
+  "name": "Blue Skyline Detailing",
+  "name_lang": "en",
+  "category_label": "حماية الطلاء والعناية بالسيارات",
+  "area": "بوشر، مسقط",
+  "phone": {
+    "display": "+968 9522 9686",
+    "tel": "+96895229686"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/place/Blue+Skyline+Detailing/@23.5647377,58.4181113,17z/data=!4m6!3m5!1s0x3e91ffb2152061f3:0x4ea7009af5730357!8m2!3d23.5647377!4d58.4181113!16s%2Fg%2F11v5vzfygy",
+  "map_query": "Blue Skyline Detailing, Bausher, Muscat",
+  "rating": {
+    "value": 5.0,
+    "count": 34,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "10 ص – 10 م"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "hero": {
+    "headline": "فيلم حماية شفاف يُركَّب على طلاء سيارتك",
+    "intro": "ورشة في بوشر بمسقط تركّب PPF لكامل السيارة أو للواجهة، وعازلًا حراريًا، وتلمّع الطلاء وتنظّف المقصورة بالتفصيل، من 10 صباحًا حتى 10 مساءً.",
+    "image": "hero"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "story",
+    "reviews",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في ورشة Blue Skyline",
+    "items": [
+      "PPF لكامل السيارة",
+      "عازل حراري",
+      "تلميع بالماكينة",
+      "تنظيف المقصورة",
+      "بوشر – مسقط"
+    ]
+  },
+  "story": {
+    "eyebrow": "من شغل الورشة",
+    "title": "من الطلاء إلى المقود",
+    "items": [
+      {
+        "label": "الحماية",
+        "title": "PPF وسيارة من الوكالة",
+        "text": "كتب زبون أنه سلّمهم سيارته وهي في فحص الوكالة، فركّبوا PPF لكامل السيارة وعازلًا حراريًا. وآخر يسافر أسبوعيًا ويقول إن واجهة سيارته ما زالت محمية.",
+        "image": "story-ppf"
+      },
+      {
+        "label": "التلميع",
+        "title": "ماكينة تلميع على الطلاء",
+        "text": "في صور الورشة على خرائط Google تلميع بالماكينة على طلاء أصفر، والشعار الأزرق على الجدار خلفه.",
+        "image": "story-polish"
+      },
+      {
+        "label": "المقصورة",
+        "title": "فرشاة على الطبلون",
+        "text": "تنظيف الطبلون والمقود والدرزات بالفرشاة والشفاط، على مقصورات بورش وفولكس فاجن ومرسيدس كما تظهر في صور المحل.",
+        "image": "story-cabin"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "sample": false,
+    "title": "الخدمات",
+    "eyebrow": "من المراجعات وصور الورشة",
+    "note": "الخدمات كما يذكرها الزبائن في مراجعات خرائط Google وكما تظهر في صور الورشة. الأسعار حسب السيارة، اسأل عنها بالاتصال.",
+    "foot": "للسؤال عن سعر سيارتك",
+    "categories": [
+      {
+        "id": "protect",
+        "title": "الحماية",
+        "tagline": "PPF وعازل حراري",
+        "image": "menu-protect",
+        "items": [
+          {
+            "name": "PPF لكامل السيارة",
+            "desc": "فيلم حماية شفاف على كل الطلاء"
+          },
+          {
+            "name": "PPF للواجهة",
+            "desc": "حماية مقدمة السيارة من حصى الطريق"
+          },
+          {
+            "name": "عازل حراري",
+            "desc": "للزجاج"
+          },
+          {
+            "name": "مخفي",
+            "desc": "كما يسميه الزبائن في المراجعات"
+          }
+        ]
+      },
+      {
+        "id": "care",
+        "title": "العناية",
+        "tagline": "تلميع وتنظيف",
+        "image": "menu-care",
+        "items": [
+          {
+            "name": "تلميع الطلاء بالماكينة",
+            "desc": "إزالة الخدوش الخفيفة وإعادة اللمعة"
+          },
+          {
+            "name": "تنظيف المقصورة بالتفصيل",
+            "desc": "شفط ومسح وفرشاة للدرزات"
+          },
+          {
+            "name": "تنظيف المقود والطبلون",
+            "desc": "جلد وكربون وخشب"
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "text": "تعامل راقي منتجهم ممتازة ركبت من عندهم مخفي وPPF خمس سنوات ولحد اللحظة ما اشتكيت منه ، السيارة بشكل أسبوعي اطلع فيه إلى البلد وحقيقة حماية ممتازة لواجهة السيارة شكرا اسرة BLUE SKY LINE",
+      "author": "Abdulmalik A.",
+      "stars": 5,
+      "when": "قبل 3 أشهر",
+      "source_ref": "https://www.google.com/maps/place/Blue+Skyline+Detailing/@23.5647377,58.4181113,17z/data=!4m6!3m5!1s0x3e91ffb2152061f3:0x4ea7009af5730357!8m2!3d23.5647377!4d58.4181113!16s%2Fg%2F11v5vzfygy"
+    },
+    {
+      "text": "تعامل اصحاب المحل جدا راقي وثقة ،، امنتهم على سيارتي وهي فحص من الوكالة ركبت Ppf لكامل السيارة وعازل حراري والنتيجة ولا غلطة",
+      "author": "طاغي ا.",
+      "stars": 5,
+      "when": "قبل 3 أشهر",
+      "source_ref": "https://www.google.com/maps/place/Blue+Skyline+Detailing/@23.5647377,58.4181113,17z/data=!4m6!3m5!1s0x3e91ffb2152061f3:0x4ea7009af5730357!8m2!3d23.5647377!4d58.4181113!16s%2Fg%2F11v5vzfygy"
+    },
+    {
+      "text": "ركبت معهم مخفي لـ٣  سيارات لحد الان والجودة جداً ممتازة، تعامل راقي ،انصح بزيارة المحل",
+      "author": "E.",
+      "stars": 5,
+      "when": "قبل 3 أشهر",
+      "source_ref": "https://www.google.com/maps/place/Blue+Skyline+Detailing/@23.5647377,58.4181113,17z/data=!4m6!3m5!1s0x3e91ffb2152061f3:0x4ea7009af5730357!8m2!3d23.5647377!4d58.4181113!16s%2Fg%2F11v5vzfygy"
+    }
+  ],
+  "images": {
+    "hero": {
+      "file": "ppf-blue-bumper.jpg",
+      "alt": "صورة يدين تشدّان فيلم PPF شفافًا على مقدمة سيارة زرقاء",
+      "source_url": "https://www.google.com/maps/place/Blue+Skyline+Detailing/@23.5647377,58.4181113,17z/data=!4m6!3m5!1s0x3e91ffb2152061f3:0x4ea7009af5730357!8m2!3d23.5647377!4d58.4181113!16s%2Fg%2F11v5vzfygy",
+      "credit": "من خرائط Google"
+    },
+    "story-ppf": {
+      "file": "vw-wheel.jpg",
+      "alt": "صورة مقود فولكس فاجن من الكربون داخل الورشة وسيارة زرقاء خلفه",
+      "source_url": "https://www.google.com/maps/place/Blue+Skyline+Detailing/@23.5647377,58.4181113,17z/data=!4m6!3m5!1s0x3e91ffb2152061f3:0x4ea7009af5730357!8m2!3d23.5647377!4d58.4181113!16s%2Fg%2F11v5vzfygy",
+      "credit": "من خرائط Google"
+    },
+    "story-polish": {
+      "file": "polisher-yellow.jpg",
+      "alt": "صورة ماكينة تلميع على طلاء أصفر وشعار الورشة على الجدار",
+      "source_url": "https://www.google.com/maps/place/Blue+Skyline+Detailing/@23.5647377,58.4181113,17z/data=!4m6!3m5!1s0x3e91ffb2152061f3:0x4ea7009af5730357!8m2!3d23.5647377!4d58.4181113!16s%2Fg%2F11v5vzfygy",
+      "credit": "من خرائط Google"
+    },
+    "story-cabin": {
+      "file": "porsche-dash-brush.jpg",
+      "alt": "صورة فرشاة تنظّف طبلون بورش بجلد بيج",
+      "source_url": "https://www.google.com/maps/place/Blue+Skyline+Detailing/@23.5647377,58.4181113,17z/data=!4m6!3m5!1s0x3e91ffb2152061f3:0x4ea7009af5730357!8m2!3d23.5647377!4d58.4181113!16s%2Fg%2F11v5vzfygy",
+      "credit": "من خرائط Google"
+    },
+    "menu-protect": {
+      "file": "mercedes-wheel.jpg",
+      "alt": "صورة مقود مرسيدس بالخشب والجلد بعد التنظيف",
+      "source_url": "https://www.google.com/maps/place/Blue+Skyline+Detailing/@23.5647377,58.4181113,17z/data=!4m6!3m5!1s0x3e91ffb2152061f3:0x4ea7009af5730357!8m2!3d23.5647377!4d58.4181113!16s%2Fg%2F11v5vzfygy",
+      "credit": "من خرائط Google"
+    },
+    "menu-care": {
+      "file": "interior-vacuum.jpg",
+      "alt": "صورة شفاط ينظّف المقاعد الجلدية داخل سيارة",
+      "source_url": "https://www.google.com/maps/place/Blue+Skyline+Detailing/@23.5647377,58.4181113,17z/data=!4m6!3m5!1s0x3e91ffb2152061f3:0x4ea7009af5730357!8m2!3d23.5647377!4d58.4181113!16s%2Fg%2F11v5vzfygy",
+      "credit": "من خرائط Google"
+    }
+  }
+}

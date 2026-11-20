@@ -1,0 +1,219 @@
+{
+  "place_id": "ChIJN3RCASj_ST4RZ-wZK8Go_i8",
+  "batch_id": "amd-gulf-20261120",
+  "slug": "best-clean",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "services_pro",
+  "data_source": "خرائط Google (العنوان والهاتف وساعات العمل والتقييم والمراجعات والصور)",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#F2B705",
+    "rgb": "242, 183, 5",
+    "hover": "#FFC928",
+    "ink": "#16130A"
+  },
+  "name": "بست كلين",
+  "name_lang": "ar",
+  "category_label": "عناية شاملة بالسيارات",
+  "area": "طريق الخليج، سيهات",
+  "address": "طريق الخليج بعد دوار سيهات، مقابل بندة",
+  "phone": {
+    "display": "+966 50 317 1170",
+    "tel": "+966503171170"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D8%B3%D8%AA%20%D9%83%D9%84%D9%8A%D9%86%20%D9%84%D9%84%D8%B9%D9%86%D8%A7%D9%8A%D8%A9%20%D8%A8%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA&query_place_id=ChIJN3RCASj_ST4RZ-wZK8Go_i8",
+  "map_query": "بست كلين للعناية بالسيارات، طريق الخليج، سيهات",
+  "rating": {
+    "value": 4.7,
+    "count": 297,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "8 ص – 12 ظهرًا، 3 – 11 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "3 – 11 م"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "hero": {
+    "headline": "تلميع ونانو وتظليل تحت أضواء صفراء",
+    "intro": "ورشة عناية شاملة على طريق الخليج بعد دوار سيهات: تلميع داخلي وخارجي، طبقات نانو، تظليل وتلبيس أرضيات، وأرضية مربعات تلمع فيها السيارة قبل التسليم.",
+    "image": "hero"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "reviews",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في ورشة بست كلين",
+    "items": [
+      "تلميع داخلي وخارجي",
+      "طبقات نانو",
+      "تظليل",
+      "تلبيس الأرضية",
+      "طريق الخليج – سيهات"
+    ]
+  },
+  "story": {
+    "eyebrow": "ما يكرره الزبائن",
+    "title": "ثلاثة أشياء تخرج بها سيارتك",
+    "items": [
+      {
+        "label": "التلميع",
+        "title": "سيارة ترجع كأنها جديدة",
+        "text": "أكثر ما يذكره الزبائن في مراجعات Google هو التلميع: داخلي وخارجي، بنظافة ودقة في التفاصيل، والسيارة «طلعت وكالة» كما كتب أحدهم.",
+        "image": "story-polish"
+      },
+      {
+        "label": "الحماية",
+        "title": "نانو وتظليل",
+        "text": "النانو والتظليل من أكثر الكلمات تكرارًا في مراجعات المحل، إلى جانب تلبيس أرضية السيارة من الداخل.",
+        "image": "story-nano"
+      },
+      {
+        "label": "التسليم",
+        "title": "في الوقت المحدد",
+        "text": "يذكر الزبائن استلام السيارة في موعدها، والتعامل الراقي من الفريق. الورشة تفتح صباحًا من 8 حتى 12 ظهرًا، ومساءً من 3 حتى 11.",
+        "image": "story-handover"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "sample": false,
+    "title": "الخدمات",
+    "eyebrow": "من مراجعات الزبائن على Google",
+    "note": "الخدمات كما يذكرها زبائن المحل في مراجعات خرائط Google. الأسعار حسب حجم السيارة وحالتها، اسأل عنها بالاتصال.",
+    "foot": "للسؤال عن سعر سيارتك",
+    "categories": [
+      {
+        "id": "polish",
+        "title": "التلميع",
+        "tagline": "من الداخل والخارج",
+        "image": "menu-polish",
+        "items": [
+          {
+            "name": "تلميع خارجي",
+            "desc": "إعادة اللمعة لطلاء السيارة"
+          },
+          {
+            "name": "تلميع داخلي",
+            "desc": "تنظيف المقصورة بالتفصيل"
+          },
+          {
+            "name": "تلميع داخلي وخارجي",
+            "desc": "الباقة الأكثر ذكرًا في المراجعات"
+          }
+        ]
+      },
+      {
+        "id": "protect",
+        "title": "الحماية",
+        "tagline": "نانو وتظليل وأرضيات",
+        "image": "menu-protect",
+        "items": [
+          {
+            "name": "طبقات نانو",
+            "desc": "حماية للطلاء بعد التلميع"
+          },
+          {
+            "name": "تظليل",
+            "desc": "تظليل زجاج السيارة"
+          },
+          {
+            "name": "تلبيس أرضية السيارة",
+            "desc": "تلبيس أرضية المقصورة"
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "text": "أشكر الأخ محمد في بست كلين – السهيات على حسن التعامل والاحترافية. سويت عنده تلميع للسيارة، والنتيجة كانت ممتازة جدًا والسيارة رجعت كأنها جديدة. شغل نظيف، اهتمام بالتفاصيل، واحترام للعميل. …",
+      "author": "Moyd H.",
+      "stars": 5,
+      "when": "قبل 4 أشهر",
+      "source_ref": "https://www.google.com/maps/place/?q=place_id:ChIJN3RCASj_ST4RZ-wZK8Go_i8"
+    },
+    {
+      "text": "سويت عندهم تلميع داخلي وخارجي وتلبيس الارضيه السياره ماشاء الله الشغل جداً جداً ممتاز نظافة ودقه في العمل والسياره طلعت وكالة …",
+      "author": "حسين ز.",
+      "stars": 5,
+      "when": "قبل سنة",
+      "source_ref": "https://www.google.com/maps/place/?q=place_id:ChIJN3RCASj_ST4RZ-wZK8Go_i8"
+    },
+    {
+      "text": "من احلى الأمكان اللي لمعتة فيها إذا مو أفضلهم خبراء التلميع عندهم ع اكمل وجه وبالأخص الفنان محمد فهمي ذوق واحترام وأسلوب فوق خبرته ف مجاله",
+      "author": "Omar A.",
+      "stars": 5,
+      "when": "قبل شهرين",
+      "source_ref": "https://www.google.com/maps/place/?q=place_id:ChIJN3RCASj_ST4RZ-wZK8Go_i8"
+    }
+  ],
+  "visit": {
+    "image": "visit"
+  },
+  "images": {
+    "hero": {
+      "file": "g-class-lamps.jpg",
+      "alt": "صورة مرسيدس G سوداء لامعة على أرضية مربعات تحت أضواء الورشة الصفراء",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJN3RCASj_ST4RZ-wZK8Go_i8",
+      "credit": "من خرائط Google"
+    },
+    "story-polish": {
+      "file": "lexus-headlight.jpg",
+      "alt": "صورة مقدمة لكزس سوداء بعد التلميع وأضواء السقف تنعكس على الطلاء",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJN3RCASj_ST4RZ-wZK8Go_i8",
+      "credit": "من خرائط Google"
+    },
+    "story-nano": {
+      "file": "lexus-rear-gloss.jpg",
+      "alt": "صورة خلفية لكزس سوداء لامعة داخل الورشة",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJN3RCASj_ST4RZ-wZK8Go_i8",
+      "credit": "من خرائط Google"
+    },
+    "story-handover": {
+      "file": "black-sedan-checker.jpg",
+      "alt": "صورة سيارة سوداء جاهزة للتسليم على أرضية المربعات",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJN3RCASj_ST4RZ-wZK8Go_i8",
+      "credit": "من خرائط Google"
+    },
+    "menu-polish": {
+      "file": "prado-side.jpg",
+      "alt": "صورة جانب برادو بيضاء بعد التلميع",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJN3RCASj_ST4RZ-wZK8Go_i8",
+      "credit": "من خرائط Google"
+    },
+    "menu-protect": {
+      "file": "prado-taillight.jpg",
+      "alt": "صورة الإضاءة الخلفية لبرادو بيضاء داخل الورشة",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJN3RCASj_ST4RZ-wZK8Go_i8",
+      "credit": "من خرائط Google"
+    },
+    "visit": {
+      "file": "shop-front.jpg",
+      "alt": "صورة واجهة بست كلين للعناية الشاملة بالسيارات وسيارات مرسيدس أمامها",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJN3RCASj_ST4RZ-wZK8Go_i8",
+      "credit": "من خرائط Google"
+    }
+  }
+}

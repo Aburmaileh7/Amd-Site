@@ -1,0 +1,211 @@
+{
+  "place_id": "amd-notion-40e5cb524e4481a5abf1dcb31acb3f7e",
+  "batch_id": "amd-gulf-20261120",
+  "slug": "zayan-khan-bakery",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "bakery_cream",
+  "data_source": "خرائط Google (الهاتف وساعات العمل والموقع والتقييم والمراجعات والصور ولوحة المحل)",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#2F7D32",
+    "rgb": "47, 125, 50",
+    "hover": "#25652A",
+    "ink": "#FFFFFF"
+  },
+  "name": "مخبز زيان خان",
+  "name_lang": "ar",
+  "category_label": "مخبز تنور باكستاني",
+  "area": "الوكرة، قطر",
+  "phone": {
+    "display": "+974 7741 0046",
+    "tel": "+97477410046"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/place/Zayan+Khan+Bakery/@25.1561465,51.6025089,17z/data=!4m6!3m5!1s0x3e45cb8fbf77448d:0x52815c4bfca9c7da!8m2!3d25.1561465!4d51.6025089!16s%2Fg%2F11s2zyzq99",
+  "map_query": "Zayan Khan Bakery, Al Wakrah, Qatar",
+  "rating": {
+    "value": 4.6,
+    "count": 76,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "4 ص – 11 م"
+      },
+      {
+        "days": "الخميس",
+        "time": "4 ص – 10:30 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "4 ص – 11:30 م"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "hero": {
+    "headline": "خبز التنور حار من الفجر في الوكرة",
+    "intro": "مخبز باكستاني صغير بين البيوت في الوكرة، يخبز التميس وخبز البسكوت والزعتر والفطائر في التنور أمامك، ويفتح كل يوم من الرابعة فجرًا.",
+    "image": "hero"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "reviews",
+    "visit"
+  ],
+  "marquee": {
+    "label": "على لوحة المخبز",
+    "items": [
+      "خبز تميس",
+      "خبز بسكوت",
+      "زعتر",
+      "فطائر",
+      "الوكرة"
+    ]
+  },
+  "story": {
+    "eyebrow": "من التنور إلى يدك",
+    "title": "رغيف يخرج من التنور وأنت واقف",
+    "items": [
+      {
+        "label": "التنور",
+        "title": "وسادة وعجين وجدار حار",
+        "text": "يُفرد العجين على وسادة التنور ثم يُلصق بجداره الحار. كتب زبون أنهم يخبزون الرغيف وأنت عندهم فتأخذه طازجًا وساخنًا.",
+        "image": "story-tandoor"
+      },
+      {
+        "label": "الزعتر",
+        "title": "زعتر على العجين",
+        "text": "الزعتر يُمد على قرص العجين قبل أن يدخل التنور، وهو من الأصناف المكتوبة على لوحة المخبز مع الفطائر.",
+        "image": "story-zaatar"
+      },
+      {
+        "label": "الوقت",
+        "title": "من الرابعة فجرًا",
+        "text": "اللافتة الخضراء تضيء قبل الفجر: يفتح المخبز يوميًا من 4 صباحًا حتى 11 ليلًا، والجمعة حتى 11:30.",
+        "image": "story-sign"
+      }
+    ]
+  },
+  "menu": {
+    "title": "على لوحة المخبز",
+    "eyebrow": "الأصناف من لوحة المحل",
+    "currency": "ر.ق",
+    "sample": false,
+    "note": "الأصناف كما هي مكتوبة على لوحة المخبز وفي مراجعات خرائط Google. الأسعار غير منشورة، وذكر أحد الزبائن أن الرغيف بريال واحد.",
+    "foot": "للسؤال والطلب بالهاتف",
+    "categories": [
+      {
+        "id": "bread",
+        "title": "الخبز",
+        "tagline": "من التنور",
+        "image": "menu-bread",
+        "items": [
+          {
+            "name": "خبز تميس",
+            "desc": "على لوحة المخبز"
+          },
+          {
+            "name": "خبز بسكوت",
+            "desc": "على لوحة المخبز"
+          },
+          {
+            "name": "خبز بالسمسم",
+            "desc": "يذكره زبون مع الكرك أو الشاي"
+          }
+        ]
+      },
+      {
+        "id": "pies",
+        "title": "الفطائر",
+        "tagline": "زعتر وفطائر تنور",
+        "items": [
+          {
+            "name": "زعتر",
+            "desc": "عجين مدهون بالزعتر"
+          },
+          {
+            "name": "فطائر",
+            "desc": "على لوحة المخبز"
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "text": "مكان راااااائع، نظيف جدا والخبز طعمه رائع وبيعمله اما تكون عنده وتاخده طازة وسخن، والرغيف الواحد ب ١ ريال",
+      "author": "Yahia H.",
+      "stars": 5,
+      "when": "قبل 3 أشهر",
+      "source_ref": "https://www.google.com/maps/place/Zayan+Khan+Bakery/@25.1561465,51.6025089,17z/data=!4m6!3m5!1s0x3e45cb8fbf77448d:0x52815c4bfca9c7da!8m2!3d25.1561465!4d51.6025089!16s%2Fg%2F11s2zyzq99"
+    },
+    {
+      "text": "عندهم خبز انواع انا خذت خبز بالزيت از بالزبده مب متاكد والله بس كان حلو للامانه مع سمسم و حلاته مع كرك او شاي احمر و تاكله في نفس الوقت",
+      "author": "Abdelaziz F.",
+      "stars": 5,
+      "when": "قبل سنتين",
+      "source_ref": "https://www.google.com/maps/place/Zayan+Khan+Bakery/@25.1561465,51.6025089,17z/data=!4m6!3m5!1s0x3e45cb8fbf77448d:0x52815c4bfca9c7da!8m2!3d25.1561465!4d51.6025089!16s%2Fg%2F11s2zyzq99"
+    },
+    {
+      "text": "محل خبز باكستاني تميز وفطائر تنور",
+      "author": "Ehab S.",
+      "stars": 5,
+      "when": "قبل 3 سنوات",
+      "source_ref": "https://www.google.com/maps/place/Zayan+Khan+Bakery/@25.1561465,51.6025089,17z/data=!4m6!3m5!1s0x3e45cb8fbf77448d:0x52815c4bfca9c7da!8m2!3d25.1561465!4d51.6025089!16s%2Fg%2F11s2zyzq99"
+    }
+  ],
+  "visit": {
+    "image": "visit"
+  },
+  "images": {
+    "hero": {
+      "file": "tandoor-naan.jpg",
+      "alt": "صورة رغيف خبز تنور كبير محمّص بنقاط ذهبية",
+      "source_url": "https://www.google.com/maps/place/Zayan+Khan+Bakery/@25.1561465,51.6025089,17z/data=!4m6!3m5!1s0x3e45cb8fbf77448d:0x52815c4bfca9c7da!8m2!3d25.1561465!4d51.6025089!16s%2Fg%2F11s2zyzq99",
+      "credit": "من خرائط Google"
+    },
+    "story-tandoor": {
+      "file": "tandoor-pillow.jpg",
+      "alt": "صورة قرص عجين على وسادة التنور بجانب الشوبك",
+      "source_url": "https://www.google.com/maps/place/Zayan+Khan+Bakery/@25.1561465,51.6025089,17z/data=!4m6!3m5!1s0x3e45cb8fbf77448d:0x52815c4bfca9c7da!8m2!3d25.1561465!4d51.6025089!16s%2Fg%2F11s2zyzq99",
+      "credit": "من خرائط Google"
+    },
+    "story-zaatar": {
+      "file": "zaatar-dough.jpg",
+      "alt": "صورة عجين مدهون بالزعتر على رخام المخبز",
+      "source_url": "https://www.google.com/maps/place/Zayan+Khan+Bakery/@25.1561465,51.6025089,17z/data=!4m6!3m5!1s0x3e45cb8fbf77448d:0x52815c4bfca9c7da!8m2!3d25.1561465!4d51.6025089!16s%2Fg%2F11s2zyzq99",
+      "credit": "من خرائط Google"
+    },
+    "story-sign": {
+      "file": "neon-sign.jpg",
+      "alt": "صورة لافتة مخبز زيان خان المضيئة ليلًا",
+      "source_url": "https://www.google.com/maps/place/Zayan+Khan+Bakery/@25.1561465,51.6025089,17z/data=!4m6!3m5!1s0x3e45cb8fbf77448d:0x52815c4bfca9c7da!8m2!3d25.1561465!4d51.6025089!16s%2Fg%2F11s2zyzq99",
+      "credit": "من خرائط Google"
+    },
+    "menu-bread": {
+      "file": "bakery-kitchen.jpg",
+      "alt": "صورة مطبخ المخبز بالبلاط الأبيض وفوهة التنور",
+      "source_url": "https://www.google.com/maps/place/Zayan+Khan+Bakery/@25.1561465,51.6025089,17z/data=!4m6!3m5!1s0x3e45cb8fbf77448d:0x52815c4bfca9c7da!8m2!3d25.1561465!4d51.6025089!16s%2Fg%2F11s2zyzq99",
+      "credit": "من خرائط Google"
+    },
+    "visit": {
+      "file": "green-front.jpg",
+      "alt": "صورة واجهة مخبز زيان خان الخضراء وصور الخبز عليها",
+      "source_url": "https://www.google.com/maps/place/Zayan+Khan+Bakery/@25.1561465,51.6025089,17z/data=!4m6!3m5!1s0x3e45cb8fbf77448d:0x52815c4bfca9c7da!8m2!3d25.1561465!4d51.6025089!16s%2Fg%2F11s2zyzq99",
+      "credit": "من خرائط Google"
+    }
+  }
+}

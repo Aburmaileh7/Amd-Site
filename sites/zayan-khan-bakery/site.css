@@ -1,0 +1,20 @@
+/* Zayan Khan Bakery: a tandoor between the houses of Al Wakra, lit green before dawn. Warm dough
+   ground, the green of the shop sign as the accent. Signature: a strip of pricked dough (the fork
+   marks on every loaf) that bakes from pale to golden as the visitor scrolls down the page
+   (site.js), and the hero loaf sits in a round tandoor mouth. */
+html[data-site="zayan-khan-bakery"]{--bg:#FAF4E6;--bg-rgb:250,244,230;--surface:#F3E7CC;--surface-2:#EAD8B2;--ink:#2B2113;--ink-rgb:43,33,19;--muted:#6E5C40;--line:rgba(43,33,19,.13);--dough:#EED9AE}
+html[data-site="zayan-khan-bakery"] .hero__side{border-radius:50% 50% 24px 24px / 38% 38% 24px 24px}
+[data-site="zayan-khan-bakery"] .zk-dough{height:46px;margin-block:0;background-color:var(--dough);
+  background-image:radial-gradient(circle at 50% 50%,rgba(70,40,10,.55) 0 2.2px,transparent 3px),radial-gradient(circle at 50% 50%,rgba(70,40,10,.35) 0 1.6px,transparent 2.4px);
+  background-size:34px 23px,34px 23px;background-position:0 0,17px 11px;
+  -webkit-mask:radial-gradient(14px 10px at 50% 0,transparent 98%,#000) 0 0/28px 100%;mask:radial-gradient(14px 10px at 50% 0,transparent 98%,#000) 0 0/28px 100%}
+@media (max-width:899px){
+  html[data-site="zayan-khan-bakery"] .hero--split{padding-block:calc(52px + 68px + 4px) 52px!important}
+  html[data-site="zayan-khan-bakery"] .hero--split .hero__grid{display:flex!important;flex-direction:column;gap:22px}
+  html[data-site="zayan-khan-bakery"] .hero__side{order:-1;width:min(100%,440px);margin-inline:auto}
+  html[data-site="zayan-khan-bakery"] .hero__side .photo{aspect-ratio:1/1}
+  html[data-site="zayan-khan-bakery"] .hero__title{font-size:clamp(2.4rem,11vw,3.3rem)}
+}
+@media (min-width:900px){html[data-site="zayan-khan-bakery"] .hero__side .photo{aspect-ratio:1/1.05}}
+html[data-site="zayan-khan-bakery"] .panel-m__visual::after{background:linear-gradient(to top,rgba(43,33,19,.82),transparent 55%)}
+html[data-site="zayan-khan-bakery"] .panel-m__tag,html[data-site="zayan-khan-bakery"] .panel-m__name{color:#fff}

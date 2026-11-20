@@ -1,0 +1,25 @@
+/* Old Time Barber (صالون الزمن القديم): grey marble, black chairs, and a wall clock whose hands
+   are a pair of gold scissors. Pale stone ground, charcoal ink, the gold of the logo as the accent.
+   Signature: that clock, drawn large beside the reviews, with scissor hands that turn as the
+   visitor scrolls (site.js); the hour hand crawls, the minute hand sweeps. */
+html[data-site="old-time-barber"]{--bg:#F1F0EC;--bg-rgb:241,240,236;--surface:#E6E4DE;--surface-2:#D9D6CE;--ink:#1A1A1A;--ink-rgb:26,26,26;--muted:#55534D;--line:rgba(26,26,26,.13);--radius:3px}
+[data-site="old-time-barber"] .hero__title{font-weight:500}
+[data-site="old-time-barber"] .rev{position:relative;overflow:hidden}
+[data-site="old-time-barber"] .ot-clock{position:absolute;top:clamp(40px,8vw,90px);inset-inline-end:-6%;width:min(62vw,440px);aspect-ratio:1;z-index:0;pointer-events:none;color:#1A1A1A;opacity:.13}
+[data-site="old-time-barber"] .rev>*:not(.ot-clock){position:relative;z-index:1}
+[data-site="old-time-barber"] .ot-clock .hand{transform-box:view-box;transform-origin:100px 100px}
+[data-site="old-time-barber"] .ot-clock .gold{color:#C9A227}
+@media (max-width:899px){
+  html[data-site="old-time-barber"] .hero__media{inset:0 0 auto;height:55svh}
+  [data-site="old-time-barber"] .hero__media img{object-position:50% 45%!important}
+  html[data-site="old-time-barber"] .hero__shade{background:linear-gradient(to bottom,rgba(var(--bg-rgb),.7) 0,rgba(var(--bg-rgb),0) 120px),linear-gradient(to bottom,transparent calc(55svh - 90px),var(--bg) 55svh)!important}
+  html[data-site="old-time-barber"] .hero--full .hero__grid{padding-block:calc(55svh - 10px) 56px!important}
+  [data-site="old-time-barber"] .hero__title{font-size:clamp(2.4rem,11vw,3.4rem)}
+  [data-site="old-time-barber"] .ot-clock{opacity:.09}
+}
+@media (min-width:900px){
+  html[data-site="old-time-barber"] .hero__media{inset:0 auto 0 0;width:47%}
+  [data-site="old-time-barber"] .hero__media img{object-position:50% 50%!important}
+  html[data-site="old-time-barber"] .hero__shade{background:linear-gradient(to right,rgba(var(--bg-rgb),0) 0,rgba(var(--bg-rgb),0) 40%,rgba(var(--bg-rgb),.85) 45%,var(--bg) 48%),linear-gradient(to bottom,rgba(var(--bg-rgb),.75) 0,rgba(var(--bg-rgb),0) 140px)!important}
+  html[data-site="old-time-barber"] .hero__content{max-width:50%;margin-inline-start:0}
+}

@@ -1,0 +1,19 @@
+/* Blue Skyline Detailing: a clear film laid over royal-blue paint. Cool pale ground, deep navy ink,
+   the blue of the car in the hero as the accent. Signature: every photo arrives under a frosted
+   sheet of film that a squeegee line wipes away as it scrolls in (site.js); the hero photo keeps a
+   thin glossy edge where the film meets the paint. */
+html[data-site="blue-skyline-detailing"]{--bg:#EEF2F8;--bg-rgb:238,242,248;--surface:#FFFFFF;--surface-2:#DCE4F2;--ink:#0B1733;--ink-rgb:11,23,51;--muted:#45526E;--line:rgba(11,23,51,.12);--radius:2px}
+[data-site="blue-skyline-detailing"] .hero__side{position:relative;box-shadow:0 0 0 1px rgba(29,63,214,.18)}
+[data-site="blue-skyline-detailing"] .hero__side::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(115deg,transparent 46%,rgba(255,255,255,.38) 49%,rgba(255,255,255,.05) 53%,transparent 56%);background-size:260% 100%;background-position:var(--sheen,140%) 0}
+[data-site="blue-skyline-detailing"] .bs-film{position:absolute;inset:0;z-index:2;pointer-events:none;background:rgba(232,238,250,.78);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+[data-site="blue-skyline-detailing"] .bs-film::before{content:"";position:absolute;top:-4%;bottom:-4%;right:0;width:5px;background:#1D3FD6;box-shadow:0 0 14px 2px rgba(29,63,214,.55)}
+[data-site="blue-skyline-detailing"] .hero__title{color:#0B1733}
+@media (max-width:899px){
+  html[data-site="blue-skyline-detailing"] .hero--split{padding-block:calc(52px + 68px + 4px) 56px!important}
+  html[data-site="blue-skyline-detailing"] .hero--split .hero__grid{display:flex!important;flex-direction:column;gap:22px}
+  html[data-site="blue-skyline-detailing"] .hero__side{order:-1}
+  html[data-site="blue-skyline-detailing"] .hero__side .photo{aspect-ratio:4/3.3}
+  html[data-site="blue-skyline-detailing"] .hero__side .photo img{object-position:50% 55%!important}
+  html[data-site="blue-skyline-detailing"] .hero__title{font-size:clamp(2.3rem,10.5vw,3.2rem)}
+}
+@media (min-width:900px){html[data-site="blue-skyline-detailing"] .hero__side .photo img{object-position:50% 50%!important}}
