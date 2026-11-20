@@ -1,0 +1,296 @@
+{
+  "place_id": "amd-notion-4115cb52-4e44-817e-aea6-f1f0a4aa0543",
+  "batch_id": "amd-gulf-20261120",
+  "slug": "there-coffee-roasters",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google (العنوان والساعات والتقييم والمراجعات والصور) وحساب المحمصة على إنستغرام @there.coffeeroasters",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#2D6478",
+    "rgb": "45, 100, 120",
+    "hover": "#24525F",
+    "ink": "#FFFFFF"
+  },
+  "name": "there° coffee roasters",
+  "name_lang": "en",
+  "category_label": "محمصة ومقهى مختص",
+  "area": "هاربر رو، المنامة",
+  "address": "هاربر رو، المنامة، البحرين",
+  "phone": {
+    "display": "+973 7799 5050",
+    "tel": "+97377995050"
+  },
+  "whatsapp": null,
+  "directions_url": "https://maps.app.goo.gl/ZLVMVEDf9zS4VzJF6",
+  "map_query": "there coffee roasters, Harbour Row, Manama, Bahrain",
+  "rating": {
+    "value": 4.3,
+    "count": 787,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "V60 وسان سباستيان على هاربر رو",
+    "intro": "محمصة ومقهى مختص في المنامة: حبوب تُحمَّص للـV60 والإسبريسو، وبرنش وحلى، من السابعة صباحًا حتى الحادية عشرة ليلًا، والخميس والجمعة حتى منتصف الليل.",
+    "image": "hero"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "story",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "على البار اليوم",
+    "items": [
+      "V60 إثيوبي",
+      "سان سباستيان",
+      "تيراميسو",
+      "أفوغاتو",
+      "فرنش توست",
+      "هاربر رو"
+    ]
+  },
+  "story": {
+    "eyebrow": "من مراجعات Google",
+    "title": "ثلاثة أسباب يعود لها الزوار",
+    "items": [
+      {
+        "label": "البار",
+        "title": "بار حجري وحبوب للـV60",
+        "text": "البار من الحجر الرمادي والمكان أبيض بالكامل. ويكتب الزوار عن تشكيلة حبوب للـV60 تُحضَّر بالدقة نفسها كل مرة.",
+        "image": "bar"
+      },
+      {
+        "label": "الحلى",
+        "title": "سان سباستيان تذكره المراجعات",
+        "text": "تشيز كيك سان سباستيان أكثر صنف حلو يتكرر في المراجعات، ومعه التيراميسو وبودينغ زبدة الفول السوداني والموز.",
+        "image": "cake"
+      },
+      {
+        "label": "الصباح",
+        "title": "فطور مبكر ومساحة للعمل",
+        "text": "المقهى يفتح من السابعة صباحًا، وفي الطابق العلوي مساحة هادئة للدراسة والعمل، كما يكتب أكثر من زائر.",
+        "image": "corner"
+      }
+    ]
+  },
+  "menu": {
+    "title": "المنيو",
+    "eyebrow": "فلتر وإسبريسو وبرنش",
+    "currency": "د.ب",
+    "sample": true,
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف مأخوذة من صور المقهى ومراجعات زواره، والأسعار تقديرية وليست من المقهى، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "foot": "الدفع إلكتروني فقط، حسب حساب المقهى",
+    "categories": [
+      {
+        "id": "filter",
+        "title": "قهوة مقطرة",
+        "tagline": "من حبوب المحمصة",
+        "image": "cup",
+        "items": [
+          {
+            "name": "V60 إثيوبي",
+            "price": 2.8,
+            "mentioned": true
+          },
+          {
+            "name": "V60 حبوب مختارة",
+            "price": 3.2
+          },
+          {
+            "name": "آيس V60",
+            "price": 2.8
+          },
+          {
+            "name": "كولد برو",
+            "price": 2.5
+          }
+        ]
+      },
+      {
+        "id": "espresso",
+        "title": "إسبريسو وحليب",
+        "tagline": "ساخن أو بارد",
+        "items": [
+          {
+            "name": "إسبريسو",
+            "price": 1.6
+          },
+          {
+            "name": "كورتادو",
+            "price": 1.9
+          },
+          {
+            "name": "فلات وايت",
+            "price": 2.2
+          },
+          {
+            "name": "لاتيه",
+            "price": 2.2
+          },
+          {
+            "name": "أفوغاتو",
+            "price": 2.5,
+            "mentioned": true
+          },
+          {
+            "name": "ماتشا لاتيه",
+            "price": 2.5
+          }
+        ]
+      },
+      {
+        "id": "brunch",
+        "title": "برنش",
+        "tagline": "من السابعة صباحًا",
+        "items": [
+          {
+            "name": "إيغز بينيديكت",
+            "price": 4.5,
+            "mentioned": true
+          },
+          {
+            "name": "فرنش توست",
+            "price": 3.8,
+            "mentioned": true
+          },
+          {
+            "name": "توست أفوكادو وفيتا",
+            "price": 3.5
+          },
+          {
+            "name": "كرواسون بالزبدة",
+            "price": 1.2
+          }
+        ]
+      },
+      {
+        "id": "sweets",
+        "title": "حلى",
+        "tagline": "مع القهوة",
+        "items": [
+          {
+            "name": "تشيز كيك سان سباستيان",
+            "price": 2.8,
+            "mentioned": true
+          },
+          {
+            "name": "تيراميسو",
+            "price": 2.8,
+            "mentioned": true
+          },
+          {
+            "name": "بودينغ زبدة الفول السوداني والموز",
+            "price": 2.5,
+            "mentioned": true
+          }
+        ],
+        "image": "iced"
+      }
+    ]
+  },
+  "mentions": [
+    "V60 إثيوبي",
+    "سان سباستيان",
+    "تيراميسو",
+    "أفوغاتو",
+    "فرنش توست",
+    "إيغز بينيديكت"
+  ],
+  "reviews": [
+    {
+      "author": "Rafat R.",
+      "stars": 5,
+      "text": "They have the best San Sebastian cheesecake ever! It tastes like heaven, and the coffee is awesome too. The seating arrangement is comfortable and the noise level is perfect for conversation. The staff are friendly, sweet, and experienced.…",
+      "source_ref": "https://www.google.com/maps/place/there%C2%B0+coffee+roasters/@26.2397576,50.5740819,17z/data=!4m6!3m5!1s0x3e49af6d0c702db1:0x9c3b8501351dea0c"
+    },
+    {
+      "author": "Shaikha E.",
+      "stars": 5,
+      "text": "Hands down, one of the best coffee shops in Bahrain. They have an excellent selection of beans for V60, and it’s consistently brewed to perfection every single time.…",
+      "source_ref": "https://www.google.com/maps/place/there%C2%B0+coffee+roasters/@26.2397576,50.5740819,17z/data=!4m6!3m5!1s0x3e49af6d0c702db1:0x9c3b8501351dea0c"
+    },
+    {
+      "author": "Subhan A.",
+      "stars": 5,
+      "text": "Amazing attention to detail with the breakfast and coffee selection. Egg Benedict was made exactly as asked and well presented. There is a good variety of dishes available. I had a hot latte which was smooth and taste great.…",
+      "source_ref": "https://www.google.com/maps/place/there%C2%B0+coffee+roasters/@26.2397576,50.5740819,17z/data=!4m6!3m5!1s0x3e49af6d0c702db1:0x9c3b8501351dea0c"
+    },
+    {
+      "author": "Khalid W.",
+      "stars": 5,
+      "text": "Very good spot for high quality coffee, with san sebastian cake and fantastic view.…",
+      "source_ref": "https://www.google.com/maps/place/there%C2%B0+coffee+roasters/@26.2397576,50.5740819,17z/data=!4m6!3m5!1s0x3e49af6d0c702db1:0x9c3b8501351dea0c"
+    }
+  ],
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "7 ص – 11 م"
+      },
+      {
+        "days": "الخميس والجمعة",
+        "time": "7 ص – 12 منتصف الليل"
+      }
+    ],
+    "source": "خرائط Google وحساب المقهى على إنستغرام"
+  },
+  "visit": {
+    "image": "facade"
+  },
+  "images": {
+    "hero": {
+      "file": "brunch-table.jpg",
+      "alt": "صورة طاولة خشبية من الأعلى عليها كرواسون وتوست أفوكادو وقهوة",
+      "source_url": "https://www.google.com/maps/place/there%C2%B0+coffee+roasters/@26.2397576,50.5740819,17z/data=!4m6!3m5!1s0x3e49af6d0c702db1:0x9c3b8501351dea0c",
+      "credit": "من خرائط Google"
+    },
+    "bar": {
+      "file": "stone-bar.jpg",
+      "alt": "صورة البار الحجري الرمادي داخل المقهى الأبيض",
+      "source_url": "https://www.google.com/maps/place/there%C2%B0+coffee+roasters/@26.2397576,50.5740819,17z/data=!4m6!3m5!1s0x3e49af6d0c702db1:0x9c3b8501351dea0c",
+      "credit": "من خرائط Google"
+    },
+    "cake": {
+      "file": "san-sebastian.jpg",
+      "alt": "صورة تشيز كيك سان سباستيان مع كوب قهوة على الطاولة",
+      "source_url": "https://www.google.com/maps/place/there%C2%B0+coffee+roasters/@26.2397576,50.5740819,17z/data=!4m6!3m5!1s0x3e49af6d0c702db1:0x9c3b8501351dea0c",
+      "credit": "من خرائط Google"
+    },
+    "corner": {
+      "file": "roastery-corner.jpg",
+      "alt": "صورة ركن البار بجانب القوس الأبيض وأجهزة التحضير",
+      "source_url": "https://www.google.com/maps/place/there%C2%B0+coffee+roasters/@26.2397576,50.5740819,17z/data=!4m6!3m5!1s0x3e49af6d0c702db1:0x9c3b8501351dea0c",
+      "credit": "من خرائط Google"
+    },
+    "iced": {
+      "file": "iced-filter.jpg",
+      "alt": "صورة أكواب قهوة مقطرة مثلجة وماتشا وتشيز كيك على صينية",
+      "source_url": "https://www.google.com/maps/place/there%C2%B0+coffee+roasters/@26.2397576,50.5740819,17z/data=!4m6!3m5!1s0x3e49af6d0c702db1:0x9c3b8501351dea0c",
+      "credit": "من خرائط Google"
+    },
+    "facade": {
+      "file": "harbour-row-sunset.jpg",
+      "alt": "صورة واجهة المقهى الزجاجية على هاربر رو عند الغروب",
+      "source_url": "https://www.google.com/maps/place/there%C2%B0+coffee+roasters/@26.2397576,50.5740819,17z/data=!4m6!3m5!1s0x3e49af6d0c702db1:0x9c3b8501351dea0c",
+      "credit": "من خرائط Google"
+    },
+    "cup": {
+      "file": "cup-by-water.jpg",
+      "alt": "صورة كوب قهوة بشعار there على طاولة بجانب الماء",
+      "source_url": "https://www.google.com/maps/place/there%C2%B0+coffee+roasters/@26.2397576,50.5740819,17z/data=!4m6!3m5!1s0x3e49af6d0c702db1:0x9c3b8501351dea0c",
+      "credit": "من خرائط Google"
+    }
+  }
+}

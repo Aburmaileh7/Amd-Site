@@ -1,0 +1,20 @@
+/* 212 Café: the lift ride to the 30th floor. Night-sky ground, pistachio accent from the
+   café's green entrance; a floor indicator rides the page edge and counts 0 to 30 as you scroll. */
+html[data-site="212-cafe"]{--bg:#0C1118;--bg-rgb:12,17,24;--surface:#141B25;--surface-2:#1C2531}
+html[data-site="212-cafe"] .hero__media img{object-position:50% 62%!important}
+html[data-site="212-cafe"] .lift{position:fixed;inset-inline-end:clamp(10px,2vw,26px);bottom:clamp(18px,4vh,40px);z-index:40;display:flex;flex-direction:column;align-items:center;gap:8px;pointer-events:none;font-family:var(--font-ui)}
+html[data-site="212-cafe"] .lift__track{width:2px;height:clamp(70px,14vh,140px);background:rgba(200,214,110,.18);position:relative;border-radius:2px;overflow:hidden}
+html[data-site="212-cafe"] .lift__fill{position:absolute;inset:auto 0 0 0;height:100%;background:#C8D66E;transform-origin:50% 100%;transform:scaleY(var(--lift,1))}
+html[data-site="212-cafe"] .lift__box{min-width:46px;padding:6px 8px;border-radius:10px;background:rgba(12,17,24,.82);border:1px solid rgba(200,214,110,.35);text-align:center;color:#EEF3D2;line-height:1.1}
+html[data-site="212-cafe"] .lift__num{display:block;font-size:1.15rem;font-weight:700;font-variant-numeric:tabular-nums;color:#C8D66E}
+html[data-site="212-cafe"] .lift__label{display:block;font-size:.62rem;opacity:.8}
+html[data-site="212-cafe"] .lift.is-top .lift__box{border-color:#C8D66E;box-shadow:0 0 0 3px rgba(200,214,110,.18)}
+@media (max-width:640px){html[data-site="212-cafe"] .lift__track{display:none}html[data-site="212-cafe"] .lift{bottom:84px}}
+@media (max-width:899px){
+  html[data-site="212-cafe"] .hero__media{bottom:auto;height:52svh}
+  html[data-site="212-cafe"] .hero__media img{object-position:50% 92%!important}
+  html[data-site="212-cafe"] .lift{top:136px;bottom:auto;flex-direction:row}
+  html[data-site="212-cafe"] .lift__box{padding:4px 7px}
+  html[data-site="212-cafe"] .lift__num{font-size:.95rem}
+}
+@media (min-width:900px){html[data-site="212-cafe"] .hero__media img{object-position:50% 86%!important}}
