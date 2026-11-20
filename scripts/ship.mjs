@@ -47,4 +47,6 @@ for (const s of slugs) {
   result.live[s] = code === '200' ? `https://amd-demos.pages.dev/${s}/` : `not live (${code})`;
 }
 result.ok = Object.values(result.live).every((v) => v.startsWith('https'));
+// the workflow merged the branch into origin/main: bring it into the local checkout so the site folder is back
+try { sh('git pull --ff-only'); } catch { result.note = 'git pull --ff-only failed: run it before editing the site'; }
 console.log(JSON.stringify(result, null, 1));
