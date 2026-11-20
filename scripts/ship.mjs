@@ -2,6 +2,7 @@
 // Usage: node scripts/ship.mjs <slug> [slug...] [--dry]   (--dry: checks only, no git, no push)
 // Never pushes to main, never force-pushes, commits only sites/<slug>/.
 import { execSync } from 'node:child_process';
+import { readFileSync } from 'node:fs';
 
 const args = process.argv.slice(2);
 const dry = args.includes('--dry');
@@ -38,13 +39,18 @@ step('commit', () => {
 step('push', () => { sh(`git push -u origin ${branch}`); sh('git checkout main'); });
 result.branch = branch;
 
+// wait until the live page is THIS build (an older version may already answer 200)
+const norm = (h) => h.replace(/\s+/g, ' ').trim();
 for (const s of slugs) {
-  let code = '000';
-  for (let i = 0; i < 15 && code !== '200'; i++) {
-    code = sh(`curl -s -o /dev/null -w "%{http_code}" https://amd-demos.pages.dev/${s}/`).trim();
-    if (code !== '200') execSync('sleep 60');
+  const want = norm(readFileSync(`/home/mohd/Amd-Site/dist/${s}/index.html`, 'utf8'));
+  let state = 'not live';
+  for (let i = 0; i < 20; i++) {
+    const r = await fetch(`https://amd-demos.pages.dev/${s}/`, { headers: { 'cache-control': 'no-cache' } }).catch(() => null);
+    if (r?.status === 200 && norm(await r.text()) === want) { state = 'live'; break; }
+    state = r ? `old or missing (${r.status})` : 'no response';
+    execSync('sleep 45');
   }
-  result.live[s] = code === '200' ? `https://amd-demos.pages.dev/${s}/` : `not live (${code})`;
+  result.live[s] = state === 'live' ? `https://amd-demos.pages.dev/${s}/` : `not updated: ${state}`;
 }
 result.ok = Object.values(result.live).every((v) => v.startsWith('https'));
 // the workflow merged the branch into origin/main: bring it into the local checkout so the site folder is back
