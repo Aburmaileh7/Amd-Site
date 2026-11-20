@@ -1,0 +1,12 @@
+/* GoFit: each package shows what it really costs per 30 days, stamped in like the logo stamp on members' hands */
+[data-site="gofit-active"] .gf-per{display:inline-block;margin-top:.35rem;padding:.15rem .6rem;border-radius:999px;font-size:.88rem;font-weight:700;line-height:1.6;
+  background:rgba(94,140,58,.14);color:#2f5a17}
+[data-site="gofit-active"][data-theme] .gf-per .ltr{direction:ltr;unicode-bidi:isolate}
+@media (max-width:899px){
+  html[data-site="gofit-active"] .hero--split{padding-block:calc(52px + 68px + 6px) 56px!important}
+  html[data-site="gofit-active"] .hero--split .hero__grid{display:flex!important;flex-direction:column;gap:22px;align-items:stretch}
+  html[data-site="gofit-active"] .hero__side{order:-1;width:100%}
+  html[data-site="gofit-active"] .hero__side .photo{aspect-ratio:4/3.6}
+  html[data-site="gofit-active"] .brand{font-size:1rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:56vw;direction:ltr}
+}
+@media (max-width:899px){html[data-site="gofit-active"] .hero__side .photo img{object-position:50% 60%!important}}

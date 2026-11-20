@@ -1,0 +1,215 @@
+{
+  "place_id": "ChIJ4ZU33YaFzz8RCEan6-yhbuk",
+  "slug": "the-og-gym",
+  "batch_id": "amd-gulf-20261120",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "services_pro",
+  "data_source": "قائمة النادي على خرائط Google وحسابه على إنستغرام وصفحة روابطه",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#C7372F",
+    "rgb": "199, 55, 47",
+    "hover": "#A52A23",
+    "ink": "#FFFFFF"
+  },
+  "name": "The OG",
+  "name_lang": "en",
+  "category_label": "نادي رياضي للسيدات",
+  "area": "برج المرافي، بنيد القار",
+  "address": "برج المرافي، بنيد القار، مدينة الكويت",
+  "phone": {
+    "display": "+965 6060 9510",
+    "tel": "+96560609510"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=The%20OG%20Gym%20Marafie%20Tower%20Kuwait&query_place_id=ChIJ4ZU33YaFzz8RCEan6-yhbuk",
+  "map_query": "The OG Gym, Marafie Tower, Kuwait City",
+  "rating": {
+    "value": 4.7,
+    "count": 93,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "الأحد – الخميس",
+        "time": "6 ص – 10 م"
+      },
+      {
+        "days": "الجمعة والسبت",
+        "time": "8 ص – 10 م"
+      }
+    ],
+    "per_day": 16,
+    "source": "خرائط Google"
+  },
+  "hero": {
+    "headline": "نادي للسيدات فوق بنيد القار",
+    "intro": "صالة حديد وكارديو بنوافذ على المدينة في برج المرافي، مع ساونا وحصص Animal Flow، للسيدات فقط، من 6 الصبح أيام الأسبوع.",
+    "image": "floor",
+    "veil": "light"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "proof",
+    "reviews",
+    "visit"
+  ],
+  "marquee": {
+    "label": "BORN READY.",
+    "items": [
+      "للسيدات فقط",
+      "ساونا",
+      "Animal Flow",
+      "أوزان حرة",
+      "برج المرافي"
+    ]
+  },
+  "story": {
+    "eyebrow": "داخل The OG",
+    "title": "طابق كامل للتمرين",
+    "items": [
+      {
+        "label": "الحديد",
+        "title": "صفوف دمبلز ومقاعد",
+        "text": "صالة بيضاء بأنابيب حمراء في السقف ورفوف دمبلز كاملة.",
+        "image": "floor"
+      },
+      {
+        "label": "الكارديو",
+        "title": "أجهزة أمام النافذة",
+        "text": "أجهزة الكارديو بجانب زجاج يطل على أبراج المدينة.",
+        "image": "cardio"
+      },
+      {
+        "label": "الأوزان",
+        "title": "أقراص ملونة ورفوف",
+        "text": "رفوف سكوات وأقراص أوزان ملونة لتمارين القوة.",
+        "image": "plates"
+      },
+      {
+        "label": "الحصص",
+        "title": "استوديو بإضاءة نيون",
+        "text": "استوديو الحصص بخطوط نيون وشعار النادي المضيء.",
+        "image": "studio"
+      },
+      {
+        "label": "الجديد",
+        "title": "ساونا خشب",
+        "text": "أحدث إضافة في النادي، والحجز بجلسة.",
+        "image": "sauna"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات والحصص",
+    "eyebrow": "من حساب النادي على إنستغرام",
+    "sample": false,
+    "note": "الخدمات والمواعيد كما نشرها النادي على إنستغرام. الاشتراكات والأسعار عبر واتساب.",
+    "categories": [
+      {
+        "id": "gym",
+        "title": "النادي",
+        "tagline": "للسيدات فقط",
+        "items": [
+          {
+            "name": "صالة الحديد والكارديو",
+            "desc": "أوزان حرة وأجهزة ورفوف"
+          },
+          {
+            "name": "جلسة ساونا",
+            "desc": "بالحجز، أحدث إضافة في النادي"
+          },
+          {
+            "name": "جولة تعريفية في النادي",
+            "desc": "تُحجز من رابط النادي"
+          },
+          {
+            "name": "مدربة شخصية خاصة بك (FPT)",
+            "desc": "للمدربات اللي يبون يدربون عميلاتهن في النادي"
+          }
+        ],
+        "image": "cardio"
+      },
+      {
+        "id": "classes",
+        "title": "الحصص",
+        "tagline": "Animal Flow",
+        "items": [
+          {
+            "name": "Animal Flow",
+            "desc": "الثلاثاء 5 م والسبت 11 ص، سلسلة كاملة أو حصة واحدة"
+          },
+          {
+            "name": "الحجز عبر واتساب",
+            "desc": "كما في منشور النادي"
+          }
+        ],
+        "image": "studio"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Sara A.",
+      "stars": 5,
+      "text": "النادي عجيب وهادي والاجواء مريحة وشرحة 💕 المدربات يهبلون …",
+      "source_ref": "https://www.google.com/maps/place/?q=place_id:ChIJ4ZU33YaFzz8RCEan6-yhbuk"
+    }
+  ],
+  "mentions": [],
+  "visit": {
+    "image": "wall"
+  },
+  "whatsapp": {
+    "number": "96560609510",
+    "display": "+965 6060 9510"
+  },
+  "images": {
+    "floor": {
+      "file": "weights-floor.jpg",
+      "alt": "صورة صالة الحديد البيضاء بصفوف الدمبلز في The OG",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJ4ZU33YaFzz8RCEan6-yhbuk",
+      "credit": "من صور النادي على خرائط Google"
+    },
+    "cardio": {
+      "file": "cardio-view.jpg",
+      "alt": "صورة أجهزة الكارديو أمام نافذة تطل على المدينة",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJ4ZU33YaFzz8RCEan6-yhbuk",
+      "credit": "من صور النادي على خرائط Google"
+    },
+    "plates": {
+      "file": "plates-rack.jpg",
+      "alt": "صورة رف السكوات وأقراص الأوزان الملونة",
+      "source_url": "https://www.instagram.com/the.og.gym/p/DdmDZi6MjfP/",
+      "credit": "من حساب النادي على إنستغرام"
+    },
+    "studio": {
+      "file": "neon-studio.jpg",
+      "alt": "صورة استوديو الحصص بإضاءة نيون وشعار النادي",
+      "source_url": "https://www.instagram.com/the.og.gym/p/Deyp9qlDGVg/",
+      "credit": "من حساب النادي على إنستغرام"
+    },
+    "sauna": {
+      "file": "sauna.jpg",
+      "alt": "صورة غرفة الساونا الخشبية في النادي",
+      "source_url": "https://www.instagram.com/the.og.gym/reel/Da0tqYKM_ER/",
+      "credit": "من حساب النادي على إنستغرام"
+    },
+    "wall": {
+      "file": "born-ready-wall.jpg",
+      "alt": "صورة ممر النادي بجدار BORN READY",
+      "source_url": "https://www.instagram.com/the.og.gym/reel/DTcNyKVjNHi/",
+      "credit": "من حساب النادي على إنستغرام"
+    }
+  }
+}
