@@ -35,4 +35,37 @@ if (!reduce && root) {
     };
     gsap.ticker.add(update); // the pinned track scrubs with lag, so follow it every frame until all are open
   }
+
+  // slim honey progress line for the pinned horizontal story
+  const pin = root.querySelector("[data-story-pin]");
+  const track = root.querySelector("[data-story-track]");
+  if (pin && track && window.matchMedia("(min-width: 900px)").matches) {
+    const rtl = getComputedStyle(track).direction === "rtl";
+    const bar = document.createElement("div");
+    bar.setAttribute("aria-hidden", "true");
+    bar.style.cssText = "position:absolute;bottom:28px;left:50%;margin-left:-160px;width:320px;height:3px;border-radius:3px;background:rgba(212,162,31,.25);overflow:hidden;pointer-events:none";
+    const fill = document.createElement("div");
+    fill.style.cssText = "width:100%;height:100%;background:#D4A21F;border-radius:3px;transform:scaleX(0);transform-origin:" + (rtl ? "right" : "left") + " center";
+    bar.appendChild(fill);
+    pin.appendChild(bar);
+    const dist = () => Math.max(1, track.scrollWidth - window.innerWidth);
+    const prog = () => {
+      const p = Math.min(1, Math.abs(gsap.getProperty(track, "x")) / dist());
+      gsap.set(fill, { scaleX: Math.max(0.04, p) });
+    };
+    gsap.ticker.add(prog);
+  }
+
+  // swipe hint for the reviews row on touch widths
+  const rail = root.querySelector("[data-rail]");
+  if (rail && window.matchMedia("(max-width: 899px)").matches && rail.scrollWidth > rail.clientWidth + 8) {
+    const hint = document.createElement("p");
+    hint.setAttribute("aria-hidden", "true");
+    hint.textContent = "اسحب لمشاهدة المزيد \u2190";
+    hint.style.cssText = "margin:14px 0 0;text-align:center;font-size:.85rem;color:#8A6A0E;pointer-events:none";
+    rail.insertAdjacentElement("afterend", hint);
+    const nudge = gsap.to(hint, { x: -8, duration: 0.9, ease: "sine.inOut", yoyo: true, repeat: -1 });
+    const done = () => { nudge.kill(); gsap.to(hint, { opacity: 0, duration: 0.4 }); };
+    rail.addEventListener("scroll", done, { once: true, passive: true });
+  }
 }

@@ -1,12 +1,12 @@
 /* La Miel: "the honey" in French. The café's own interior is the palette: mustard-honey chairs,
    a white arch painted behind the La Miel logo, and the coffee-cherry red of its branch mark.
    Signature: every photo stands in that arch (true round top, square base, always on a portrait
-   or square box so the top is a half circle), the hero arch ringed in honey; the marquee is a
-   band of honey; the red of the coffee cherries marks what the reviews mention. */
+   or square box so the top is a half circle), ringed in honey; the marquee and the visit
+   section are fields of honey; the red of the coffee cherries marks what the reviews mention. */
 html[data-site="la-miel-specialty-coffee"]{
   --bg:#FBF9F4;--bg-rgb:251,249,244;--surface:#F3EEE2;--surface-2:#EAE2CF;
   --ink:#231E14;--ink-rgb:35,30,20;--muted:#5F574A;
-  --honey:#D4A21F;--honey-rgb:212,162,31;--cherry:#9E3A2C;
+  --honey:#D4A21F;--honey-rgb:212,162,31;--honey-deep:#8A6A0E;--cherry:#9E3A2C;
   --arch:999px 999px 0 0;--radius:14px
 }
 
@@ -16,27 +16,39 @@ html[data-site="la-miel-specialty-coffee"] .hero__side{
   padding:clamp(8px,1vw,13px);background:var(--bg);overflow:hidden
 }
 html[data-site="la-miel-specialty-coffee"] .hero__side .photo{aspect-ratio:3/4;border-radius:var(--arch);overflow:hidden}
-html[data-site="la-miel-specialty-coffee"] .hero__side .photo img{object-position:50% 62%}
+/* desktop: show the cake and the drink whole */
+html[data-site="la-miel-specialty-coffee"] .hero__side .photo img{object-position:50% 100%!important}
 html[data-site="la-miel-specialty-coffee"] .hero__side .photo__badge{bottom:12px}
 html[data-site="la-miel-specialty-coffee"] .hero__headline{letter-spacing:normal;line-height:1.3}
 html[data-site="la-miel-specialty-coffee"] .hero__rating .star{color:var(--honey)}
+@media (min-width:900px){
+  /* the whole arch, ring included, fits in the first screen */
+  html[data-site="la-miel-specialty-coffee"] .hero__side{width:min(100%,54svh);justify-self:center;margin-inline:auto}
+}
 
-/* the arch, repeated in the story: one portrait proportion in every panel */
-html[data-site="la-miel-specialty-coffee"] .story .panel__media{border-radius:0;overflow:visible;width:min(100%,52svh);justify-self:center;margin-inline:auto}
+/* the arch, repeated in the story: one portrait proportion, a honey ring around every photo,
+   so white-ground drink shots still read as a shape against the page */
+html[data-site="la-miel-specialty-coffee"] .story .panel__media{
+  border-radius:var(--arch);border:4px solid var(--honey);padding:8px;background:var(--surface);
+  overflow:hidden;width:min(100%,50svh);justify-self:center;margin-inline:auto
+}
 html[data-site="la-miel-specialty-coffee"] .story .panel__media .photo{
   aspect-ratio:4/5!important;width:100%;border-radius:var(--arch)!important;overflow:hidden
 }
-html[data-site="la-miel-specialty-coffee"] .panel__clock{color:rgba(var(--honey-rgb),.38);font-variant-numeric:tabular-nums}
+html[data-site="la-miel-specialty-coffee"] .panel__clock{color:var(--honey-deep);opacity:1;font-weight:500;font-variant-numeric:tabular-nums}
 html[data-site="la-miel-specialty-coffee"] .story__title,
 html[data-site="la-miel-specialty-coffee"] .menu__title{letter-spacing:normal;line-height:1.3}
+html[data-site="la-miel-specialty-coffee"] .menu__title{font-size:clamp(2.2rem,6vw,5rem)}
 
-/* menu: arch photo, credit at its base, category title below the photo, not on it */
+/* menu: arch photo (or a plain honey arch), credit at its base, category name below it */
 html[data-site="la-miel-specialty-coffee"] .panel-m__visual{border-radius:0;overflow:visible}
 html[data-site="la-miel-specialty-coffee"] .panel-m__visual::after{display:none}
-html[data-site="la-miel-specialty-coffee"] .panel-m__visual .photo{aspect-ratio:4/5!important;border-radius:var(--arch);overflow:hidden}
+html[data-site="la-miel-specialty-coffee"] .panel-m__visual .photo,
+html[data-site="la-miel-specialty-coffee"] .panel-m__plain{aspect-ratio:4/5!important;border-radius:var(--arch);overflow:hidden}
+html[data-site="la-miel-specialty-coffee"] .panel-m__plain{background:rgba(var(--honey-rgb),.28)}
 html[data-site="la-miel-specialty-coffee"] .panel-m__visual .photo__badge{top:auto!important;bottom:12px!important}
 html[data-site="la-miel-specialty-coffee"] .panel-m__caption{position:static;margin-top:16px}
-html[data-site="la-miel-specialty-coffee"] .panel-m__name{line-height:1.3;letter-spacing:normal}
+html[data-site="la-miel-specialty-coffee"] .panel-m__name{line-height:1.3;letter-spacing:normal;font-weight:500}
 
 /* a band of honey */
 html[data-site="la-miel-specialty-coffee"] .marquee{background:var(--honey);color:#241A06}
@@ -45,18 +57,34 @@ html[data-site="la-miel-specialty-coffee"] .marquee__dot{background:var(--cherry
 /* coffee-cherry red marks what visitors named */
 html[data-site="la-miel-specialty-coffee"] .item__badge{background:var(--cherry);color:#fff;border-color:transparent}
 html[data-site="la-miel-specialty-coffee"] .mentions li{border-color:rgba(158,58,44,.35)}
-html[data-site="la-miel-specialty-coffee"] .stat__num{color:#8A6A0E}
+html[data-site="la-miel-specialty-coffee"] .stat__num{color:var(--honey-deep)}
 
-/* visit: the address is a heading, kept to two lines */
+/* visit: a solid field of honey, the address as a two-line heading */
+html[data-site="la-miel-specialty-coffee"] .visit{background:var(--honey);color:#241A06}
+html[data-site="la-miel-specialty-coffee"] .visit .eyebrow,
+html[data-site="la-miel-specialty-coffee"] .visit .label,
+html[data-site="la-miel-specialty-coffee"] .visit .muted,
+html[data-site="la-miel-specialty-coffee"] .visit .hours dt{color:#3A2E10}
+html[data-site="la-miel-specialty-coffee"] .visit .hours div{border-color:rgba(36,26,6,.25)}
+html[data-site="la-miel-specialty-coffee"] .visit .btn--glow{background:#241A06;color:#FBF9F4}
+html[data-site="la-miel-specialty-coffee"] .visit .btn--ghost{color:#241A06;border-color:rgba(36,26,6,.5)}
+html[data-site="la-miel-specialty-coffee"] .visit .phone:hover{color:var(--cherry)}
 html[data-site="la-miel-specialty-coffee"] .visit__title{font-size:clamp(1.75rem,5vw,4.4rem);line-height:1.3;max-width:22ch}
 
 @media (max-width:899px){
   html[data-site="la-miel-specialty-coffee"] .hero__side{margin:14px auto 18px;max-width:360px;width:calc(100% - 28px)}
+  /* mobile: keep the La Miel logo on the wall in frame */
   html[data-site="la-miel-specialty-coffee"] .hero__side .photo{aspect-ratio:4/5}
+  html[data-site="la-miel-specialty-coffee"] .hero__side .photo img{object-position:50% 0%!important}
   html[data-site="la-miel-specialty-coffee"] .story .panel__media{width:min(100%,320px)}
-  html[data-site="la-miel-specialty-coffee"] .panel-m__visual .photo{aspect-ratio:1/1!important;width:min(100%,280px);margin-inline:auto}
+  html[data-site="la-miel-specialty-coffee"] .menu__title{font-size:clamp(1.7rem,7.4vw,2.2rem)}
+  /* all three tabs fit on a 390px screen */
+  html[data-site="la-miel-specialty-coffee"] .tabs button{font-size:.95rem;padding:12px 10px 14px;gap:5px}
+  /* items first, the photo after them */
+  html[data-site="la-miel-specialty-coffee"] .panel-m__visual{order:2}
+  html[data-site="la-miel-specialty-coffee"] .panel-m__visual .photo,
+  html[data-site="la-miel-specialty-coffee"] .panel-m__plain{aspect-ratio:1/1!important;width:min(100%,260px);margin-inline:auto}
   html[data-site="la-miel-specialty-coffee"] .panel-m__caption{text-align:center}
-  html[data-site="la-miel-specialty-coffee"] .panel-m__name{font-size:clamp(1.6rem,7vw,2rem)}
-  html[data-site="la-miel-specialty-coffee"] .visit__badge{top:auto;bottom:16px}
+  html[data-site="la-miel-specialty-coffee"] .panel-m__name{font-size:clamp(1.4rem,6vw,1.8rem)}
   html[data-site="la-miel-specialty-coffee"] .visit__title{font-size:clamp(1.5rem,6.6vw,1.9rem);max-width:none}
 }

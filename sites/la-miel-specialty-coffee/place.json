@@ -57,7 +57,7 @@
       {
         "label": "القهوة",
         "title": "قهوة يتكرر مدحها",
-        "text": "من الأمريكانو إلى الفلات وايت، يكتب الزوّار أن القهوة جيدة وأن المقهى جاء أخيرًا بمستوى يليق بالأنصب.",
+        "text": "من الأمريكانو إلى الفلات وايت، يكتب الزوّار أن القهوة جيدة، ويصفه أحدهم بأنه مقهى جيد أخيرًا في الأنصب.",
         "image": "latte",
         "time": "6:00"
       },
@@ -65,12 +65,12 @@
         "label": "العمل",
         "title": "مكان هادئ للعمل",
         "text": "جلسة هادئة ودافئة وواي فاي مجاني، ويصفه أحد الزوّار بأنه مناسب للاسترخاء والعمل في الوقت نفسه.",
-        "image": "seating"
+        "image": "pendant"
       },
       {
         "label": "الحلى",
         "title": "تشيز كيك وحلويات",
-        "text": "التشيز كيك من أكثر ما يُذكر في التقييمات، ومعه مشروبات باردة منعشة مثل زبادي الباشن فروت والمانجو.",
+        "text": "يذكر زائران التشيز كيك بالخير، وينصح زائر ثالث بتجربة زبادي الباشن فروت والمانجو لأنه منعش.",
         "image": "iced"
       },
       {
@@ -102,7 +102,7 @@
       {
         "id": "hot",
         "title": "مشروبات ساخنة",
-        "image": "latte",
+        "image": "saucer",
         "items": [
           {
             "name": "أمريكانو",
@@ -127,7 +127,6 @@
       {
         "id": "cold",
         "title": "مشروبات باردة",
-        "image": "iced",
         "items": [
           {
             "name": "آيس لاتيه",
@@ -153,7 +152,6 @@
       {
         "id": "sweets",
         "title": "حلويات",
-        "image": "hero",
         "items": [
           {
             "name": "تشيز كيك",
@@ -229,7 +227,7 @@
       {
         "icon": "car",
         "title": "موقف سيارات مجاني",
-        "text": "موقف مجاني أمام المقهى، والطلب من السيارة متاح."
+        "text": "مواقف مجانية متوفرة عادةً، والطلب من السيارة متاح."
       },
       {
         "icon": "calendar",
@@ -258,8 +256,7 @@
     "source": "خرائط Google"
   },
   "visit": {
-    "title": "زورونا في الأنصب",
-    "image": "brandwall"
+    "title": "زورونا في الأنصب"
   },
   "images": {
     "hero": {
@@ -289,6 +286,18 @@
     "iced": {
       "file": "la-miel-layered-iced-drink.jpg",
       "alt": "صورة لمشروب بارد بطبقات",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=La%20Miel%20Specialty%20Coffee%20Shop&query_place_id=ChIJtXP1U4oBjj4RiUgL8z7CvWU",
+      "credit": "من خرائط Google"
+    },
+    "saucer": {
+      "file": "la-miel-latte-saucer.jpg",
+      "alt": "صورة لاتيه على طبق صغير فوق طاولة بسجاد ملوّن",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=La%20Miel%20Specialty%20Coffee%20Shop&query_place_id=ChIJtXP1U4oBjj4RiUgL8z7CvWU",
+      "credit": "من خرائط Google"
+    },
+    "pendant": {
+      "file": "la-miel-pendant-interior.jpg",
+      "alt": "صورة لجلسة داخلية قرب النافذة مع مصباح خشبي معلّق",
       "source_url": "https://www.google.com/maps/search/?api=1&query=La%20Miel%20Specialty%20Coffee%20Shop&query_place_id=ChIJtXP1U4oBjj4RiUgL8z7CvWU",
       "credit": "من خرائط Google"
     }
