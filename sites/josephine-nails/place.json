@@ -1,0 +1,246 @@
+{
+  "place_id": "amd-notion-4115cb52-4e44-8192-a128-ed905ba62c47",
+  "batch_id": "amd-gulf-20261120",
+  "slug": "josephine-nails",
+  "theme": "beauty_soft",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google (العنوان والساعات والتقييم والمراجعات والصور) وحساب الصالون على إنستغرام @josephinenailsdubai",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#A2506A",
+    "rgb": "162, 80, 106",
+    "hover": "#8A3F57",
+    "ink": "#FFFFFF"
+  },
+  "name": "JOSÉPHINE NAILS",
+  "name_lang": "en",
+  "category_label": "صالون أظافر فرنسي",
+  "area": "باي سكوير، الخليج التجاري، دبي",
+  "address": "مبنى 11، باي سكوير، الخليج التجاري، دبي",
+  "phone": {
+    "display": "+971 52 170 4286",
+    "tel": "+971521704286"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=JOS%C3%89PHINE%20NAILS%20Bay%20Square%20Dubai",
+  "map_query": "JOSÉPHINE NAILS, Building 11, Bay Square, Business Bay, Dubai",
+  "rating": {
+    "value": 4.8,
+    "count": 721,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "فرنش مانيكير بتوقيع باريسي في باي سكوير",
+    "intro": "صالون أظافر يتحدث الفرنسية والإنجليزية في مبنى 11 بباي سكوير: فرنش وأومبريه ونود وتركيب أظافر، ومعها فتلة وواكس ومساج ورفع حواجب.",
+    "image": "hero"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "من دفتر جوزفين",
+    "items": [
+      "فرنش مانيكير",
+      "أومبريه",
+      "أظافر نود",
+      "تركيب أظافر",
+      "رفع الحواجب",
+      "باي سكوير"
+    ]
+  },
+  "story": {
+    "eyebrow": "من مراجعات Google",
+    "title": "ما تكتبه الزبونات بعد الموعد",
+    "items": [
+      {
+        "label": "الفرنش",
+        "title": "خط أبيض مضبوط",
+        "text": "كتبت زبونة أن الفرنش مانيكير الذي عملته لها جوزفين كان مثاليًا، وللفرنش قسم خاص في حساب الصالون.",
+        "image": "french"
+      },
+      {
+        "label": "الأومبريه",
+        "title": "وردي يذوب في الأبيض",
+        "text": "الأومبريه والنود من أكثر ما ينشره الصالون من أعماله: درجات هادئة تناسب الدوام والمناسبات.",
+        "image": "ombre"
+      },
+      {
+        "label": "الجلسة",
+        "title": "مساج لليدين والقدمين",
+        "text": "تكتب زبونة عن مانيكير وبديكير بأدوات معقمة، ومساج للساقين واليدين جعلها تشعر بالدلال.",
+        "image": "burgundy"
+      },
+      {
+        "label": "الصديقة",
+        "title": "صديقة قبل أن تكون خبيرة",
+        "text": "زبونة تزور الصالون منذ قرابة سنتين، وتقول إن جوزفين صارت صديقة عزيزة، وفريقها يقدّم تصاميم جل جميلة كل مرة.",
+        "image": "milky"
+      }
+    ]
+  },
+  "menu": {
+    "title": "الخدمات",
+    "eyebrow": "من حساب الصالون على إنستغرام",
+    "kind": "services",
+    "sample": false,
+    "note": "الخدمات كما يذكرها حساب الصالون على إنستغرام ومراجعات Google. الأسعار والمدة عند الحجز بالهاتف.",
+    "foot": "للحجز والاستفسار اتصلي بالصالون",
+    "categories": [
+      {
+        "id": "nails",
+        "title": "الأظافر",
+        "tagline": "مانيكير وبديكير",
+        "image": "pinkfrench",
+        "items": [
+          {
+            "name": "فرنش مانيكير",
+            "desc": "الخط الأبيض الكلاسيكي"
+          },
+          {
+            "name": "أومبريه",
+            "desc": "وردي إلى أبيض"
+          },
+          {
+            "name": "أظافر نود",
+            "desc": "درجات هادئة"
+          },
+          {
+            "name": "بديكير جل",
+            "desc": "جليش للقدمين"
+          }
+        ]
+      },
+      {
+        "id": "extensions",
+        "title": "تركيب الأظافر",
+        "tagline": "طول وشكل حسب الطلب",
+        "image": "nude",
+        "items": [
+          {
+            "name": "تركيب أظافر"
+          },
+          {
+            "name": "تصاميم جل"
+          }
+        ]
+      },
+      {
+        "id": "beauty",
+        "title": "عناية وتجميل",
+        "tagline": "إلى جانب الأظافر",
+        "items": [
+          {
+            "name": "فتلة"
+          },
+          {
+            "name": "واكس"
+          },
+          {
+            "name": "مساج"
+          },
+          {
+            "name": "رفع الحواجب"
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Emma",
+      "stars": 5,
+      "text": "This salon is incredibly cute and girly. The aesthetic is perfect if you want a girly and relaxed pamper day. I was very impressed with both Janette and Joséphine who did my nails.… Josephine is an expert at what she does. My French manicure is perfect.…",
+      "source_ref": "https://www.google.com/maps/place/JOS%C3%89PHINE+NAILS+Dubai/@25.1855143,55.2815535,17z/data=!4m6!3m5!1s0x3e5f69ec94700535:0xffeacd3287bd21a4"
+    },
+    {
+      "author": "Klementina B.",
+      "stars": 5,
+      "text": "I’ve visited several nail salons in Dubai, but this one stands out as the best by far! The balance between price and quality is truly exceptional. The team has a great attitude, their work is meticulous, and the salon itself is stunningly well-decorated.…",
+      "source_ref": "https://www.google.com/maps/place/JOS%C3%89PHINE+NAILS+Dubai/@25.1855143,55.2815535,17z/data=!4m6!3m5!1s0x3e5f69ec94700535:0xffeacd3287bd21a4"
+    },
+    {
+      "author": "Wioleta K.",
+      "stars": 5,
+      "text": "I've been visiting Josephine Nails for almost 2 years now and I have to say, Josephine has become more than just a nail expert—she’s a dear friend.… Her team is just as wonderful, consistently delivering amazing manicure and gel nail designs.…",
+      "source_ref": "https://www.google.com/maps/place/JOS%C3%89PHINE+NAILS+Dubai/@25.1855143,55.2815535,17z/data=!4m6!3m5!1s0x3e5f69ec94700535:0xffeacd3287bd21a4"
+    }
+  ],
+  "hours": {
+    "rows": [
+      {
+        "days": "الإثنين – الخميس",
+        "time": "10 ص – 9 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "10 ص – 8 م"
+      },
+      {
+        "days": "السبت",
+        "time": "10 ص – 7 م"
+      },
+      {
+        "days": "الأحد",
+        "time": "11 ص – 7 م"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "images": {
+    "hero": {
+      "file": "pink-salon.jpg",
+      "alt": "صورة الصالون بكراسٍ وردية مخملية ومرايا مقوسة وسقف تتدلى منه زهور صغيرة",
+      "source_url": "https://www.google.com/maps/place/JOS%C3%89PHINE+NAILS+Dubai/@25.1855143,55.2815535,17z/data=!4m6!3m5!1s0x3e5f69ec94700535:0xffeacd3287bd21a4",
+      "credit": "من خرائط Google"
+    },
+    "french": {
+      "file": "french-tips.jpg",
+      "alt": "صورة فرنش مانيكير بخط أبيض على أظافر وردية",
+      "source_url": "https://www.google.com/maps/place/JOS%C3%89PHINE+NAILS+Dubai/@25.1855143,55.2815535,17z/data=!4m6!3m5!1s0x3e5f69ec94700535:0xffeacd3287bd21a4",
+      "credit": "من خرائط Google"
+    },
+    "ombre": {
+      "file": "ombre-glow.jpg",
+      "alt": "صورة أظافر أومبريه وردية بيضاء على يد مع خاتم",
+      "source_url": "https://www.google.com/maps/place/JOS%C3%89PHINE+NAILS+Dubai/@25.1855143,55.2815535,17z/data=!4m6!3m5!1s0x3e5f69ec94700535:0xffeacd3287bd21a4",
+      "credit": "من خرائط Google"
+    },
+    "burgundy": {
+      "file": "burgundy.jpg",
+      "alt": "صورة أظافر قصيرة بلون العنابي اللامع",
+      "source_url": "https://www.google.com/maps/place/JOS%C3%89PHINE+NAILS+Dubai/@25.1855143,55.2815535,17z/data=!4m6!3m5!1s0x3e5f69ec94700535:0xffeacd3287bd21a4",
+      "credit": "من خرائط Google"
+    },
+    "milky": {
+      "file": "milky-square.jpg",
+      "alt": "صورة أظافر مربعة بلون أبيض حليبي",
+      "source_url": "https://www.google.com/maps/place/JOS%C3%89PHINE+NAILS+Dubai/@25.1855143,55.2815535,17z/data=!4m6!3m5!1s0x3e5f69ec94700535:0xffeacd3287bd21a4",
+      "credit": "من خرائط Google"
+    },
+    "pinkfrench": {
+      "file": "pink-french.jpg",
+      "alt": "صورة أظافر وردية بطرف أبيض ناعم",
+      "source_url": "https://www.google.com/maps/place/JOS%C3%89PHINE+NAILS+Dubai/@25.1855143,55.2815535,17z/data=!4m6!3m5!1s0x3e5f69ec94700535:0xffeacd3287bd21a4",
+      "credit": "من خرائط Google"
+    },
+    "nude": {
+      "file": "nude-almond.jpg",
+      "alt": "صورة أظافر نود بشكل اللوز",
+      "source_url": "https://www.google.com/maps/place/JOS%C3%89PHINE+NAILS+Dubai/@25.1855143,55.2815535,17z/data=!4m6!3m5!1s0x3e5f69ec94700535:0xffeacd3287bd21a4",
+      "credit": "من خرائط Google"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+/* there°: the degree sign as the whole idea. White stone ground, harbour-blue accent; a big
+   degree ring sits behind the hero photo and turns with the scroll, and the visit section
+   reads out the café's coordinates from its own Instagram bio. */
+html[data-site="there-coffee-roasters"]{--bg:#F7F6F3;--bg-rgb:247,246,243;--surface:#EEECE7;--surface-2:#E4E1DA;--ink:#1D2326;--ink-rgb:29,35,38;--muted:#545C60;--radius:6px}
+html[data-site="there-coffee-roasters"] .hero__side{position:relative;z-index:1}
+html[data-site="there-coffee-roasters"] .hero__side .photo{position:relative;z-index:1;border-radius:6px}
+html[data-site="there-coffee-roasters"] .deg-ring{position:absolute;z-index:0;aspect-ratio:1;border-radius:50%;border:clamp(10px,1.6vw,22px) solid #2D6478;opacity:.9;pointer-events:none}
+html[data-site="there-coffee-roasters"] .deg-ring::after{content:"";position:absolute;top:8%;inset-inline-end:8%;width:16%;aspect-ratio:1;border-radius:50%;background:#2D6478}
+html[data-site="there-coffee-roasters"] .coords{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:18px;font-family:var(--font-ui);font-size:clamp(1.3rem,2.6vw,2rem);font-weight:700;direction:ltr;justify-content:flex-end;font-variant-numeric:tabular-nums;color:#fff}
+html[data-site="there-coffee-roasters"] .coords small{font-size:.5em;font-weight:500;opacity:.8;align-self:center}
+
+@media (max-width:899px){
+  html[data-site="there-coffee-roasters"] .hero--split{padding-block:calc(52px + 68px + 6px) 56px!important}
+  html[data-site="there-coffee-roasters"] .hero--split .hero__grid{display:flex!important;flex-direction:column;gap:22px;align-items:stretch}
+  html[data-site="there-coffee-roasters"] .hero__side{order:-1;width:100%;margin-inline:auto}
+  html[data-site="there-coffee-roasters"] .hero__side .photo{aspect-ratio:4/3.3}
+  html[data-site="there-coffee-roasters"] .hero__title{font-size:clamp(2rem,9vw,2.6rem)}
+}
+html[data-site="there-coffee-roasters"] .coords{color:#2D6478;justify-content:flex-start}
+html[data-site="there-coffee-roasters"] .hero__side .photo img{object-position:50% 45%!important}

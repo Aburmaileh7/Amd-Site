@@ -1,0 +1,22 @@
+/* JOSÉPHINE NAILS: the salon's own ceiling, where tiny pink blossoms hang on threads over
+   velvet chairs. Blush ground, mauve accent; the hero photo gets a white French-tip edge and
+   a row of hanging blossoms sways above the headline (site.js). */
+html[data-site="josephine-nails"]{--bg:#FBF5F4;--bg-rgb:251,245,244;--surface:#F5E8E8;--surface-2:#EED9DB;--ink:#2E1820;--ink-rgb:46,24,32;--muted:#6E4C57;--radius:18px}
+html[data-site="josephine-nails"] .hero--split{position:relative;overflow:hidden}
+html[data-site="josephine-nails"] .hero__side .photo{border-radius:28px;position:relative}
+html[data-site="josephine-nails"] .hero__side .photo::before{content:"";position:absolute;z-index:2;inset:0 0 auto 0;height:14px;background:#fff;border-radius:28px 28px 60% 60%/28px 28px 14px 14px;opacity:.95}
+html[data-site="josephine-nails"] .hero__side .photo img{object-position:50% 55%!important}
+html[data-site="josephine-nails"] .blossoms{position:absolute;inset:0 0 auto 0;height:clamp(90px,14vw,150px);pointer-events:none;z-index:1}
+html[data-site="josephine-nails"] .blossom{position:absolute;top:0;display:flex;flex-direction:column;align-items:center;transform-origin:50% 0}
+html[data-site="josephine-nails"] .blossom i{display:block;width:1px;background:rgba(162,80,106,.35)}
+html[data-site="josephine-nails"] .blossom b{display:block;width:12px;height:12px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:#E7A8B8}
+html[data-site="josephine-nails"] .blossom:nth-child(3n) b{background:#F3C9D3;width:9px;height:9px}
+html[data-site="josephine-nails"] .blossom:nth-child(4n) b{background:#C9768E}
+@media (max-width:899px){html[data-site="josephine-nails"] .blossoms{height:70px}html[data-site="josephine-nails"] .blossom:nth-child(n+8){display:none}}
+@media (max-width:899px){
+  html[data-site="josephine-nails"] .hero--split{padding-block:calc(52px + 68px + 6px) 56px!important}
+  html[data-site="josephine-nails"] .hero--split .hero__grid{display:flex!important;flex-direction:column;gap:22px;align-items:stretch}
+  html[data-site="josephine-nails"] .hero__side{order:-1;width:100%;margin-inline:auto}
+  html[data-site="josephine-nails"] .hero__side .photo{aspect-ratio:4/3.3}
+  html[data-site="josephine-nails"] .hero__title{font-size:clamp(2rem,9vw,2.6rem)}
+}

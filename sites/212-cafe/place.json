@@ -1,0 +1,295 @@
+{
+  "place_id": "amd-notion-4115cb52-4e44-816c-952f-c356e5a8396d",
+  "batch_id": "amd-gulf-20261120",
+  "slug": "212-cafe",
+  "theme": "rooftop_dark",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google (العنوان والساعات والتقييم والمراجعات والصور) وحساب المقهى على إنستغرام @212cafe.qatar",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#C8D66E",
+    "rgb": "200, 214, 110",
+    "hover": "#D8E38A",
+    "ink": "#161B07"
+  },
+  "name": "مقهى 212",
+  "name_lang": "ar",
+  "category_label": "مقهى في الطابق 30",
+  "area": "مارينا لوسيل، قطر",
+  "address": "برج مارينا التوأم (A)، الطابق 30، لوسيل",
+  "phone": {
+    "display": "+974 7011 2377",
+    "tel": "+97470112377"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=212%20cafe%20Marina%20Twin%20Tower%20Lusail",
+  "map_query": "212 cafe, Marina Twin Tower A, Lusail, Qatar",
+  "rating": {
+    "value": 4.7,
+    "count": 342,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "قهوتك في الطابق 30 أمام أبراج كتارا",
+    "intro": "مقهى 212 في برج مارينا التوأم (A) بلوسيل: لاتيه وماتشا وحلى على طاولات تطل على المارينا، من الثامنة صباحًا حتى الحادية عشرة ليلًا، والخميس والجمعة حتى منتصف الليل.",
+    "image": "hero"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "proof",
+    "reviews",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في الطابق 30",
+    "items": [
+      "إطلالة أبراج كتارا",
+      "براوني كيك",
+      "تارت البيكان",
+      "توست دجاج باربكيو",
+      "مارينا لوسيل"
+    ]
+  },
+  "story": {
+    "eyebrow": "ما يكتبه الزوار",
+    "title": "لماذا يصعد الناس إلى الطابق 30",
+    "items": [
+      {
+        "label": "الإطلالة",
+        "title": "أبراج كتارا من الشباك",
+        "text": "من الطابق الثلاثين ترى الهلالين المضاءين ومارينا لوسيل كاملة. أغلب المراجعات تبدأ بالإطلالة قبل القهوة.",
+        "image": "towers"
+      },
+      {
+        "label": "القهوة",
+        "title": "لاتيه برسمة البجعة",
+        "text": "لاتيه على رخام أبيض والمدينة خلفه في النهار، ويكتب الزوار عن طعم القهوة وعن ترتيب المشروبات وتقديمها.",
+        "image": "latte"
+      },
+      {
+        "label": "المناسبات",
+        "title": "أعياد ميلاد على الطاولة",
+        "text": "أكثر من زائرة كتبت عن احتفال عيد ميلادها هنا: حلى على صينية خشب، ومفاجأة وهدايا من الفريق.",
+        "image": "birthday"
+      },
+      {
+        "label": "الجلسة",
+        "title": "كراسٍ مخملية بلون الزبدة",
+        "text": "طاولات رخامية وكراسٍ مبطنة بجانب الزجاج، وجلسة هادئة للصديقات أو للعمل في الصباح.",
+        "image": "chairs"
+      }
+    ]
+  },
+  "menu": {
+    "title": "المنيو",
+    "eyebrow": "قهوة وحلى ولقمة خفيفة",
+    "currency": "ر.ق",
+    "sample": true,
+    "note": "منيو نموذجي لعرض الشكل فقط. الأصناف مأخوذة من صور المقهى ومراجعات زواره، والأسعار تقديرية وليست من المقهى، وتُستبدل بالمنيو الحقيقي بعد الموافقة.",
+    "foot": "للطلبات والحجز اتصل بالمقهى",
+    "categories": [
+      {
+        "id": "coffee",
+        "title": "قهوة ساخنة",
+        "tagline": "من البار في المدخل",
+        "image": "bar",
+        "items": [
+          {
+            "name": "إسبريسو",
+            "price": 14
+          },
+          {
+            "name": "كابتشينو",
+            "price": 19
+          },
+          {
+            "name": "فلات وايت",
+            "price": 20
+          },
+          {
+            "name": "لاتيه",
+            "price": 20,
+            "desc": "برسمة على الحليب"
+          },
+          {
+            "name": "سبانش لاتيه",
+            "price": 22
+          }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "مشروبات باردة",
+        "tagline": "للجلسة على الزجاج",
+        "items": [
+          {
+            "name": "آيس لاتيه",
+            "price": 22
+          },
+          {
+            "name": "آيس سبانش لاتيه",
+            "price": 24
+          },
+          {
+            "name": "ماتشا بالفراولة",
+            "price": 26,
+            "desc": "طبقتان: فراولة وماتشا بالحليب"
+          },
+          {
+            "name": "عصير برتقال طازج",
+            "price": 20
+          }
+        ]
+      },
+      {
+        "id": "bites",
+        "title": "فطور وتوست",
+        "tagline": "من الثامنة صباحًا",
+        "image": "toast",
+        "items": [
+          {
+            "name": "توست حلومي",
+            "price": 32,
+            "desc": "حلومي مشوي وطماطم وخس"
+          },
+          {
+            "name": "توست دجاج باربكيو",
+            "price": 35,
+            "mentioned": true
+          },
+          {
+            "name": "وافل بالآيس كريم",
+            "price": 34,
+            "desc": "مع صوص الشوكولاتة"
+          }
+        ]
+      },
+      {
+        "id": "sweets",
+        "title": "حلى",
+        "tagline": "مع القهوة أو للمناسبة",
+        "image": "dessert",
+        "items": [
+          {
+            "name": "براوني كيك",
+            "price": 28,
+            "mentioned": true
+          },
+          {
+            "name": "تارت البيكان",
+            "price": 26,
+            "mentioned": true
+          },
+          {
+            "name": "قبة الشوكولاتة",
+            "price": 30,
+            "desc": "على الكاكاو"
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "براوني كيك",
+    "تارت البيكان",
+    "توست دجاج باربكيو"
+  ],
+  "reviews": [
+    {
+      "author": "Cynthia K.",
+      "stars": 5,
+      "text": "Everything here is 10/10. Great coffee and chill vibes. Me and my bestie had cold drinks and some desert - both were amazing. Staff were super friendly also thanks for the birthday surprise and the gifts, it’s worth coming here 10/10. Will come back🫶",
+      "source_ref": "https://www.google.com/maps/place/212+cafe/@25.3876139,51.5233119,17z/data=!4m6!3m5!1s0x3e45c3f37d9f01bb:0x3cd9b6fe4ab1ac6f"
+    },
+    {
+      "author": "Mohamed A.",
+      "stars": 5,
+      "text": "The drinks were fresh, delicious, and beautifully presented. We really loved the atmosphere—it was relaxing, stylish, and perfect for spending time with friends. The view was absolutely stunning and made our visit even more enjoyable.…",
+      "source_ref": "https://www.google.com/maps/place/212+cafe/@25.3876139,51.5233119,17z/data=!4m6!3m5!1s0x3e45c3f37d9f01bb:0x3cd9b6fe4ab1ac6f"
+    },
+    {
+      "author": "Farheen N.",
+      "stars": 5,
+      "text": "We had such a lovely experience at 212 Cafe yesterday for my birthday. ❤️ Everything was arranged so nicely, and the whole place had such a beautiful and comfortable atmosphere.…",
+      "source_ref": "https://www.google.com/maps/place/212+cafe/@25.3876139,51.5233119,17z/data=!4m6!3m5!1s0x3e45c3f37d9f01bb:0x3cd9b6fe4ab1ac6f"
+    },
+    {
+      "author": "Kheila M.",
+      "stars": 5,
+      "text": "Nice place! Nice View ❤️ Very accommodating staffs especially Ms. Asley and Ms. Lorraine. Good taste of coffee 👌",
+      "source_ref": "https://www.google.com/maps/place/212+cafe/@25.3876139,51.5233119,17z/data=!4m6!3m5!1s0x3e45c3f37d9f01bb:0x3cd9b6fe4ab1ac6f"
+    }
+  ],
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "8 ص – 11 م"
+      },
+      {
+        "days": "الخميس والجمعة",
+        "time": "8 ص – 12 منتصف الليل"
+      }
+    ],
+    "source": "خرائط Google وحساب المقهى على إنستغرام"
+  },
+  "images": {
+    "hero": {
+      "file": "lusail-night-latte.jpg",
+      "alt": "صورة لاتيه وماتشا بالفراولة على طاولة المقهى ليلًا وأبراج كتارا المضاءة خلف الزجاج",
+      "source_url": "https://www.google.com/maps/place/212+cafe/@25.3876139,51.5233119,17z/data=!4m6!3m5!1s0x3e45c3f37d9f01bb:0x3cd9b6fe4ab1ac6f",
+      "credit": "من خرائط Google"
+    },
+    "towers": {
+      "file": "katara-towers.jpg",
+      "alt": "صورة أبراج كتارا ومارينا لوسيل ليلًا من الطابق 30",
+      "source_url": "https://www.google.com/maps/place/212+cafe/@25.3876139,51.5233119,17z/data=!4m6!3m5!1s0x3e45c3f37d9f01bb:0x3cd9b6fe4ab1ac6f",
+      "credit": "من خرائط Google"
+    },
+    "latte": {
+      "file": "swan-latte.jpg",
+      "alt": "صورة لاتيه برسمة بجعة على طاولة رخامية والمدينة خلفه نهارًا",
+      "source_url": "https://www.google.com/maps/place/212+cafe/@25.3876139,51.5233119,17z/data=!4m6!3m5!1s0x3e45c3f37d9f01bb:0x3cd9b6fe4ab1ac6f",
+      "credit": "من خرائط Google"
+    },
+    "birthday": {
+      "file": "birthday-tray.jpg",
+      "alt": "صورة حلى عيد ميلاد على صينية خشبية أمام أبراج كتارا المضاءة",
+      "source_url": "https://www.google.com/maps/place/212+cafe/@25.3876139,51.5233119,17z/data=!4m6!3m5!1s0x3e45c3f37d9f01bb:0x3cd9b6fe4ab1ac6f",
+      "credit": "من خرائط Google"
+    },
+    "chairs": {
+      "file": "velvet-chairs.jpg",
+      "alt": "صورة جلسة بكراسٍ مخملية فاتحة وطاولة رخامية بجانب النافذة",
+      "source_url": "https://www.google.com/maps/place/212+cafe/@25.3876139,51.5233119,17z/data=!4m6!3m5!1s0x3e45c3f37d9f01bb:0x3cd9b6fe4ab1ac6f",
+      "credit": "من خرائط Google"
+    },
+    "bar": {
+      "file": "coffee-bar.jpg",
+      "alt": "صورة بار القهوة وشعار 212 عند مدخل المقهى",
+      "source_url": "https://www.google.com/maps/place/212+cafe/@25.3876139,51.5233119,17z/data=!4m6!3m5!1s0x3e45c3f37d9f01bb:0x3cd9b6fe4ab1ac6f",
+      "credit": "من خرائط Google"
+    },
+    "toast": {
+      "file": "halloumi-toast.jpg",
+      "alt": "صورة توست مشوي بالحلومي والطماطم في طبق أبيض",
+      "source_url": "https://www.google.com/maps/place/212+cafe/@25.3876139,51.5233119,17z/data=!4m6!3m5!1s0x3e45c3f37d9f01bb:0x3cd9b6fe4ab1ac6f",
+      "credit": "من خرائط Google"
+    },
+    "dessert": {
+      "file": "dessert-terrace.jpg",
+      "alt": "صورة حلى شوكولاتة على الكاكاو وكأس حلى أمام الواجهة الزجاجية ليلًا",
+      "source_url": "https://www.google.com/maps/place/212+cafe/@25.3876139,51.5233119,17z/data=!4m6!3m5!1s0x3e45c3f37d9f01bb:0x3cd9b6fe4ab1ac6f",
+      "credit": "من خرائط Google"
+    }
+  }
+}
