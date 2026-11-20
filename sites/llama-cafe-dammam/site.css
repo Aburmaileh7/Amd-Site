@@ -1,0 +1,19 @@
+/* LLAMA, Ash Shulah: a bright Dammam coffee house of burnt-orange walls, terrazzo steps and
+   morning sun. Ground: warm plaster; accent: the orange of its walls. Signature: the round window
+   of the hall becomes an orange sun that rises across the hero photo as the page scrolls (site.js),
+   and the marquee band is speckled like the terrazzo the cups sit on. */
+html[data-site="llama-cafe-dammam"]{--bg:#FBF7F1;--bg-rgb:251,247,241;--surface:#F3ECE2;--surface-2:#E9DFD1;--ink:#231A14;--ink-rgb:35,26,20;--muted:#64564A;--line:rgba(35,26,20,.12)}
+html[data-site="llama-cafe-dammam"] .hero__side{position:relative;border-radius:999px 999px 18px 18px}
+html[data-site="llama-cafe-dammam"] .hero__side .photo img{object-position:20% 50%}
+html[data-site="llama-cafe-dammam"] section.marquee{background-color:#ECE2D4;
+  background-image:radial-gradient(circle,#1F4E4A 0 2.2px,transparent 2.8px),radial-gradient(circle,#B4501A 0 1.8px,transparent 2.4px),radial-gradient(circle,#7E7164 0 1.5px,transparent 2.1px),radial-gradient(circle,#2A2522 0 1.2px,transparent 1.8px);
+  background-size:37px 29px,23px 41px,19px 17px,31px 23px;background-position:0 0,11px 7px,5px 13px,17px 3px}
+[data-site="llama-cafe-dammam"] .ll-sun{position:absolute;z-index:2;inset-inline-start:8%;bottom:10%;width:clamp(70px,9vw,120px);aspect-ratio:1;border-radius:50%;
+  background:#D9692A;box-shadow:0 0 0 8px rgba(251,247,241,.55);pointer-events:none}
+@media (max-width:899px){
+  html[data-site="llama-cafe-dammam"] .hero--split{padding-block:calc(52px + 68px + 14px) 52px!important}
+  html[data-site="llama-cafe-dammam"] .hero--split .hero__grid{display:flex!important;flex-direction:column;gap:24px}
+  html[data-site="llama-cafe-dammam"] .hero__side{order:-1;border-radius:200px 200px 14px 14px}
+  html[data-site="llama-cafe-dammam"] .hero__side .photo{aspect-ratio:1/1}
+  [data-site="llama-cafe-dammam"] .ll-sun{width:62px}
+}

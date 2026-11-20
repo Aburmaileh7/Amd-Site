@@ -1,0 +1,22 @@
+/* Lilou Artisan Patisserie: cakes that leave Adliya in crimson boxes lined with cream stripes.
+   Ground: the cream of the box lining; accent: Lilou's crimson. Signature: the striped lid of a
+   Lilou gift box runs between the sections and lifts open as the visitor reaches it (site.js),
+   and the hero cake sits inside a crimson box edge. */
+html[data-site="lilou-artisan-patisserie"]{--bg:#FBF5EC;--bg-rgb:251,245,236;--surface:#F4E8D6;--surface-2:#EBD9BF;--ink:#2A1416;--ink-rgb:42,20,22;--muted:#6B4E4A;--line:rgba(42,20,22,.12);--stripe-a:#9C1D3A;--stripe-b:#F1DCC0}
+html[data-site="lilou-artisan-patisserie"] .hero__side{position:relative;border-radius:4px}
+html[data-site="lilou-artisan-patisserie"] .hero__side::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;border:10px solid #9C1D3A;box-shadow:inset 0 0 0 2px #D9B77E}
+[data-site="lilou-artisan-patisserie"] .ll-lid{position:relative;height:64px;margin:0;perspective:700px;overflow:visible}
+[data-site="lilou-artisan-patisserie"] .ll-lid__top{position:absolute;inset:0;transform-origin:50% 0;
+  background:repeating-linear-gradient(90deg,var(--stripe-a) 0 22px,var(--stripe-b) 22px 44px)}
+[data-site="lilou-artisan-patisserie"] .ll-lid__top::after{content:"";position:absolute;inset-inline:0;bottom:-6px;height:6px;background:#D9B77E}
+[data-site="lilou-artisan-patisserie"] .ll-lid__seal{position:absolute;inset-inline-start:50%;top:50%;width:56px;height:56px;margin:-28px -28px 0 0;border-radius:50%;
+  background:#9C1D3A;box-shadow:0 0 0 3px #D9B77E;display:grid;place-items:center;color:#F1DCC0;font:600 1.05rem/1 var(--font-ui,inherit);letter-spacing:normal}
+@media (max-width:899px){
+  html[data-site="lilou-artisan-patisserie"] .hero--split{padding-block:calc(52px + 68px + 14px) 52px!important}
+  html[data-site="lilou-artisan-patisserie"] .hero--split .hero__grid{display:flex!important;flex-direction:column;gap:26px}
+  html[data-site="lilou-artisan-patisserie"] .hero__side{order:-1}
+  html[data-site="lilou-artisan-patisserie"] .hero__side::after{border-width:7px}
+  html[data-site="lilou-artisan-patisserie"] .hero__side .photo{aspect-ratio:4/3.2}
+  [data-site="lilou-artisan-patisserie"] .ll-lid{height:44px}
+  [data-site="lilou-artisan-patisserie"] .ll-lid__seal{width:44px;height:44px;margin:-22px -22px 0 0;font-size:.9rem}
+}
