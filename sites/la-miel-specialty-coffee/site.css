@@ -1,0 +1,47 @@
+/* La Miel: "the honey" in French. The café's own interior is the palette: mustard-honey chairs,
+   a white arch painted behind the La Miel logo, and the coffee-cherry red of its branch mark.
+   Signature: every photo stands in that arch, ringed by a honey outline; the marquee is a band of
+   honey; the red of the coffee cherries marks what the reviews mention. */
+html[data-site="la-miel-specialty-coffee"]{
+  --bg:#FBF9F4;--bg-rgb:251,249,244;--surface:#F3EEE2;--surface-2:#EAE2CF;
+  --ink:#231E14;--ink-rgb:35,30,20;--muted:#5F574A;
+  --honey:#D4A21F;--honey-rgb:212,162,31;--cherry:#9E3A2C;
+  --arch:999px 999px 14px 14px;--radius:14px
+}
+
+/* the arch: hero photo */
+html[data-site="la-miel-specialty-coffee"] .hero__side{
+  border-radius:var(--arch);outline:clamp(6px,.8vw,10px) solid var(--honey);
+  outline-offset:clamp(8px,1.1vw,14px);overflow:hidden;margin:clamp(14px,1.6vw,24px)
+}
+html[data-site="la-miel-specialty-coffee"] .hero__side .photo{aspect-ratio:3/4}
+html[data-site="la-miel-specialty-coffee"] .hero__side .photo img{object-position:50% 62%}
+html[data-site="la-miel-specialty-coffee"] .hero__headline{letter-spacing:normal;line-height:1.3}
+html[data-site="la-miel-specialty-coffee"] .hero__rating .star{color:var(--honey)}
+
+/* the arch, repeated in the story and the menu */
+html[data-site="la-miel-specialty-coffee"] .panel__media,
+html[data-site="la-miel-specialty-coffee"] .panel-m__visual{border-radius:var(--arch);overflow:hidden}
+html[data-site="la-miel-specialty-coffee"] .panel__clock{color:rgba(var(--honey-rgb),.38);font-variant-numeric:tabular-nums}
+html[data-site="la-miel-specialty-coffee"] .story__title,
+html[data-site="la-miel-specialty-coffee"] .menu__title,
+html[data-site="la-miel-specialty-coffee"] .visit__title{letter-spacing:normal;line-height:1.3}
+
+/* a band of honey */
+html[data-site="la-miel-specialty-coffee"] .marquee{background:var(--honey);color:#241A06}
+html[data-site="la-miel-specialty-coffee"] .marquee__dot{background:var(--cherry);color:var(--cherry)}
+
+/* coffee-cherry red marks what visitors named */
+html[data-site="la-miel-specialty-coffee"] .item__badge{background:var(--cherry);color:#fff;border-color:transparent}
+html[data-site="la-miel-specialty-coffee"] .mentions li{border-color:rgba(158,58,44,.35)}
+html[data-site="la-miel-specialty-coffee"] .stat__num{color:#8A6A0E}
+
+@media (max-width:899px){
+  html[data-site="la-miel-specialty-coffee"] .hero__side{margin:14px auto 18px;max-width:420px;width:calc(100% - 28px)}
+  html[data-site="la-miel-specialty-coffee"] .hero__side .photo{aspect-ratio:4/4.6}
+  html[data-site="la-miel-specialty-coffee"] .panel__media,
+  html[data-site="la-miel-specialty-coffee"] .panel-m__visual{border-radius:420px 420px 12px 12px}
+}
+@media (prefers-reduced-motion:reduce){
+  html[data-site="la-miel-specialty-coffee"] .hero__side{outline-offset:10px}
+}
