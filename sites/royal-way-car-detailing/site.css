@@ -1,0 +1,17 @@
+/* Royal Way: a graphene-gloss sheen that slides across each photo as you scroll past it */
+[data-site="royal-way-car-detailing"] .panel__media,[data-site="royal-way-car-detailing"] .hero__side{position:relative;overflow:hidden}
+[data-site="royal-way-car-detailing"] .panel__media::after,[data-site="royal-way-car-detailing"] .hero__side::after{content:"";position:absolute;inset:-10% -80%;pointer-events:none;z-index:2;
+  background:linear-gradient(115deg,transparent 40%,rgba(180,255,252,.0) 44%,rgba(210,255,253,.30) 50%,transparent 57%);
+  transform:translateX(var(--sheen,110%));mix-blend-mode:screen}
+[data-site="royal-way-car-detailing"] .amd-open{display:inline-flex;align-items:center;gap:.55rem;margin:.9rem 0 0;font-size:.95rem;font-weight:600;line-height:1.5}
+[data-site="royal-way-car-detailing"] .amd-open i{width:.6rem;height:.6rem;border-radius:50%;background:#9a9a9a;flex:none}
+[data-site="royal-way-car-detailing"] .amd-open.is-open i{background:#17A3A6;box-shadow:0 0 0 4px rgba(23,163,166,.22)}
+@media (prefers-reduced-motion:reduce){[data-site="royal-way-car-detailing"] .panel__media::after,[data-site="royal-way-car-detailing"] .hero__side::after{display:none}}
+@media (max-width:899px){
+  html[data-site="royal-way-car-detailing"] .hero--split{padding-block:calc(52px + 68px + 6px) 56px!important}
+  html[data-site="royal-way-car-detailing"] .hero--split .hero__grid{display:flex!important;flex-direction:column;gap:22px;align-items:stretch}
+  html[data-site="royal-way-car-detailing"] .hero__side{order:-1;width:100%}
+  html[data-site="royal-way-car-detailing"] .hero__side .photo{aspect-ratio:4/3.6}
+  html[data-site="royal-way-car-detailing"] .brand{font-size:1rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:56vw;direction:ltr}
+}
+@media (max-width:899px){html[data-site="royal-way-car-detailing"] .hero__side .photo img{object-position:50% 45%!important}}

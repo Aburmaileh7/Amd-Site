@@ -1,0 +1,14 @@
+/* Car Lab: the white LED strips of the showroom, sweeping over the paint like a glint */
+[data-site="car-lab-oman"] .hero__media{overflow:hidden}
+[data-site="car-lab-oman"] .hero__media::after{content:"";position:absolute;inset:-20% -60%;pointer-events:none;z-index:1;
+  background:linear-gradient(105deg,transparent 42%,rgba(255,255,255,.0) 44%,rgba(255,255,255,.28) 49%,rgba(255,250,235,.10) 52%,transparent 56%);
+  transform:translateX(var(--glint,120%));mix-blend-mode:screen}
+[data-site="car-lab-oman"] .amd-open{display:inline-flex;align-items:center;gap:.55rem;margin:.9rem 0 0;font-size:.95rem;font-weight:600;line-height:1.5}
+[data-site="car-lab-oman"] .amd-open i{width:.6rem;height:.6rem;border-radius:50%;background:#9a9a9a;flex:none}
+[data-site="car-lab-oman"] .amd-open.is-open i{background:#2fbf71;box-shadow:0 0 0 4px rgba(47,191,113,.22)}
+[data-site="car-lab-oman"] .story__title{letter-spacing:normal}
+@media (prefers-reduced-motion:reduce){[data-site="car-lab-oman"] .hero__media::after{display:none}}
+/* full hero on a light theme: photo stays clear above the text, a solid ground sits under the text */
+html[data-site="car-lab-oman"] .hero__shade{background:linear-gradient(to top,var(--bg) 0%,rgba(var(--bg-rgb),.96) 40%,rgba(var(--bg-rgb),.8) 52%,rgba(var(--bg-rgb),0) 68%)!important}
+@media (max-width:700px){html[data-site="car-lab-oman"] .hero__shade{background:linear-gradient(to top,var(--bg) 0%,rgba(var(--bg-rgb),.97) 50%,rgba(var(--bg-rgb),.85) 57%,rgba(var(--bg-rgb),0) 70%)!important}}
+html[data-site="car-lab-oman"] .hero .eyebrow{display:inline-block;background:rgba(var(--bg-rgb),.88);padding:.15rem .55rem;border-radius:4px}

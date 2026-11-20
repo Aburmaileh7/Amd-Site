@@ -1,0 +1,216 @@
+{
+  "place_id": "ChIJFfM97cLPRT4RIcicV4RdaW8",
+  "slug": "royal-way-car-detailing",
+  "batch_id": "amd-gulf-20261120",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "services_pro",
+  "data_source": "قائمة المركز على خرائط Google ومنشوره وصوره ومراجعاته",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#17A3A6",
+    "rgb": "23, 163, 166",
+    "hover": "#0F8487",
+    "ink": "#04191A"
+  },
+  "name": "Royal Way Car Detailing Centre",
+  "name_lang": "en",
+  "category_label": "تلميع وحماية السيارات",
+  "area": "قرية بروة، الدوحة",
+  "address": "قرية بروة، مبنى 17، محل 33، الدوحة",
+  "phone": {
+    "display": "+974 7783 8325",
+    "tel": "+97477838325"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Royal%20Way%20Car%20Detailing%20Centre%20Doha&query_place_id=ChIJFfM97cLPRT4RIcicV4RdaW8",
+  "map_query": "Royal Way Car Detailing Centre, Barwa Village, Doha",
+  "rating": {
+    "value": 4.6,
+    "count": 130,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "7 ص – 10 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "per_day": 15,
+    "source": "خرائط Google"
+  },
+  "hero": {
+    "headline": "جرافين ونانو سيراميك في قرية بروة",
+    "intro": "مركز تلميع وحماية سيارات في الدوحة: غسيل وتلميع خارجي، وتنظيف داخلي عميق، وطبقات جرافين وسيراميك، من 7 الصبح إلى 10 بالليل.",
+    "image": "teal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "proof",
+    "reviews",
+    "visit"
+  ],
+  "marquee": {
+    "label": "من شغل المركز",
+    "items": [
+      "طبقة جرافين",
+      "نانو سيراميك",
+      "تلميع الجنوط",
+      "تنظيف المحرك",
+      "قرية بروة"
+    ]
+  },
+  "story": {
+    "eyebrow": "من صور المركز",
+    "title": "لمعة تشوفها في الانعكاس",
+    "items": [
+      {
+        "label": "السقف",
+        "title": "انعكاس بعد الطبقة",
+        "text": "سقف سيارة سوداء يعكس أضواء الساحة بعد التلميع والحماية.",
+        "image": "roof"
+      },
+      {
+        "label": "جاكوار",
+        "title": "أسود عميق تحت المظلات",
+        "text": "جاكوار سوداء بعد الشغل في ساحة المركز بالليل.",
+        "image": "jaguar"
+      },
+      {
+        "label": "لاندكروزر",
+        "title": "حتى السيارات القديمة",
+        "text": "تويوتا لاندكروزر أمام المركز تحت المظلة الصفراء.",
+        "image": "landcruiser"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "باقة التلميع الكاملة",
+    "eyebrow": "من منشور المركز على خرائط Google",
+    "sample": false,
+    "note": "الخدمات كما في منشور Full Detailing Package من المركز، وطبقة الجرافين من مراجعات العملاء. الأسعار عبر واتساب أو الاتصال.",
+    "categories": [
+      {
+        "id": "full",
+        "title": "الباقة الكاملة",
+        "tagline": "Full Detailing Package",
+        "items": [
+          {
+            "name": "غسيل وتلميع خارجي",
+            "desc": "Exterior Wash & Polish"
+          },
+          {
+            "name": "تنظيف داخلي عميق",
+            "desc": "Interior Deep Clean"
+          },
+          {
+            "name": "تنظيف حجرة المحرك",
+            "desc": "Engine bay cleaning"
+          },
+          {
+            "name": "تلميع المصابيح الأمامية والخلفية",
+            "desc": "Headlights & Tails Polish"
+          },
+          {
+            "name": "تلميع الجنوط",
+            "desc": "Rims Polish"
+          },
+          {
+            "name": "نانو سيراميك مجاني لمدة سنتين",
+            "desc": "مع الباقة، حسب منشور المركز"
+          }
+        ],
+        "image": "jaguar"
+      },
+      {
+        "id": "coat",
+        "title": "الطبقات",
+        "tagline": "جرافين وسيراميك",
+        "items": [
+          {
+            "name": "طبقة جرافين",
+            "desc": "ذكرها أكثر من عميل في مراجعاته"
+          },
+          {
+            "name": "طبقة سيراميك",
+            "desc": "من أكثر ما يتكرر في المراجعات"
+          }
+        ],
+        "image": "roof"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Mohammed",
+      "stars": 5,
+      "text": "احلى تجربة وشغلهم عدل ومرتب ما شاء الله نظافة وريحة وحتى اقل التفاصيل يهتمون فيها",
+      "source_ref": "https://www.google.com/maps/place/?q=place_id:ChIJFfM97cLPRT4RIcicV4RdaW8"
+    },
+    {
+      "author": "Parvej A.",
+      "stars": 5,
+      "text": "I had a great experience with Royal Way Car Care. They did an excellent job with the graphene coating on my car. The finish looks very smooth and glossy, and the team was professional and helpful throughout the process. Highly recommended!",
+      "source_ref": "https://www.google.com/maps/place/?q=place_id:ChIJFfM97cLPRT4RIcicV4RdaW8"
+    },
+    {
+      "author": "Abdul R.",
+      "stars": 5,
+      "text": "I recently got graphene coating done on my car, and honestly, I was shocked by the results! The shine and finish are absolutely amazing. My car looks even better than I expected. You can clearly see the effort and attention to detail they put into their work…",
+      "source_ref": "https://www.google.com/maps/place/?q=place_id:ChIJFfM97cLPRT4RIcicV4RdaW8"
+    }
+  ],
+  "mentions": [],
+  "visit": {
+    "image": "shopfront"
+  },
+  "whatsapp": {
+    "number": "97477838325",
+    "display": "+974 7783 8325"
+  },
+  "images": {
+    "teal": {
+      "file": "teal-hood.jpg",
+      "alt": "صورة كبوت سيارة فيروزية تعكس خطوط الإضاءة",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJFfM97cLPRT4RIcicV4RdaW8",
+      "credit": "من صور المركز على خرائط Google"
+    },
+    "roof": {
+      "file": "roof-shine.jpg",
+      "alt": "صورة سقف سيارة سوداء لامع يعكس الأضواء",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJFfM97cLPRT4RIcicV4RdaW8",
+      "credit": "من صور المركز على خرائط Google"
+    },
+    "jaguar": {
+      "file": "jaguar.jpg",
+      "alt": "صورة جاكوار سوداء بعد التلميع في ساحة المركز",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJFfM97cLPRT4RIcicV4RdaW8",
+      "credit": "من صور المركز على خرائط Google"
+    },
+    "landcruiser": {
+      "file": "land-cruiser.jpg",
+      "alt": "صورة تويوتا لاندكروزر أمام المركز",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJFfM97cLPRT4RIcicV4RdaW8",
+      "credit": "من صور المركز على خرائط Google"
+    },
+    "shopfront": {
+      "file": "shopfront.jpg",
+      "alt": "صورة مدخل مركز رويال واي وسيارة دودج أمامه",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJFfM97cLPRT4RIcicV4RdaW8",
+      "credit": "من صور المركز على خرائط Google"
+    }
+  }
+}

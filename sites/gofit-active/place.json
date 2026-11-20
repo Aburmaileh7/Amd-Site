@@ -1,0 +1,183 @@
+{
+  "place_id": "ChIJpw63EO2dzz8RtfN2hrQRVC0",
+  "slug": "gofit-active",
+  "batch_id": "amd-gulf-20261120",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "services_pro",
+  "data_source": "قائمة النادي على خرائط Google وبوابته gofitkw.com وحسابه على إنستغرام",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#5E8C3A",
+    "rgb": "94, 140, 58",
+    "hover": "#4A722B",
+    "ink": "#FFFFFF"
+  },
+  "name": "GoFit Active",
+  "name_lang": "en",
+  "category_label": "نادي رياضي للسيدات",
+  "area": "برج ليال، السالمية",
+  "address": "برج ليال، الدور الثاني، السالمية",
+  "phone": {
+    "display": "+965 5098 7432",
+    "tel": "+96550987432"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=GoFit%20Active%20Layal%20Tower%20Salmiya&query_place_id=ChIJpw63EO2dzz8RtfN2hrQRVC0",
+  "map_query": "GoFit Active, Layal Tower, Salmiya",
+  "rating": {
+    "value": 4.9,
+    "count": 171,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "مدربات بالاسم وأسعار مكتوبة في السالمية",
+    "intro": "نادي للسيدات منذ 2015 في الدور الثاني من برج ليال: قوة، وخسارة دهون، وتدريب شخصي، واشتراك شهري بـ 45 د.ك.",
+    "image": "floor"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "menu",
+    "marquee",
+    "story",
+    "proof",
+    "reviews",
+    "visit"
+  ],
+  "marquee": {
+    "label": "من حساب النادي",
+    "items": [
+      "قوة",
+      "خسارة دهون",
+      "تدريب شخصي",
+      "حصص جماعية",
+      "منذ 2015"
+    ]
+  },
+  "story": {
+    "eyebrow": "داخل GoFit",
+    "title": "صالة الدور الثاني في برج ليال",
+    "items": [
+      {
+        "label": "الصالة",
+        "title": "أرضية سوداء ونوافذ",
+        "text": "صالة تمرين مفتوحة بإضاءة طبيعية وأجهزة على الجانبين.",
+        "image": "floor"
+      },
+      {
+        "label": "الممر الأخضر",
+        "title": "عشب صناعي للحركة",
+        "text": "مسار عشب أخضر لتمارين الدفع والسحب والمشي بالأوزان.",
+        "image": "turf"
+      },
+      {
+        "label": "الختم",
+        "title": "شعار على اليد",
+        "text": "ختم GoFit Active على قبضات العضوات بجانب شعار النادي.",
+        "image": "stamp"
+      }
+    ]
+  },
+  "menu": {
+    "title": "الاشتراكات والأسعار",
+    "eyebrow": "من بوابة النادي gofitkw.com",
+    "currency": "د.ك",
+    "sample": false,
+    "note": "الأسعار كما هي مكتوبة في صفحة الباقات على بوابة GoFit Active، وقد تتغير. بالدينار الكويتي.",
+    "categories": [
+      {
+        "id": "membership",
+        "title": "العضوية",
+        "tagline": "كل الحصص والصالة",
+        "items": [
+          {
+            "name": "شهر واحد",
+            "price": 45,
+            "desc": "30 يومًا · كل الحصص والصالة بإشراف مدربات"
+          },
+          {
+            "name": "3 أشهر",
+            "price": 90,
+            "desc": "90 يومًا · كل الحصص والصالة بإشراف مدربات"
+          },
+          {
+            "name": "6 أشهر",
+            "price": 160,
+            "desc": "180 يومًا · كل الحصص والصالة بإشراف مدربات"
+          },
+          {
+            "name": "سنة",
+            "price": 300,
+            "desc": "395 يومًا · كل الحصص والصالة بإشراف مدربات"
+          }
+        ],
+        "image": "floor"
+      },
+      {
+        "id": "pt",
+        "title": "التدريب الشخصي",
+        "tagline": "12 جلسة",
+        "items": [
+          {
+            "name": "تدريب شخصي 12 جلسة",
+            "price": 180,
+            "desc": "صالحة 60 يومًا"
+          }
+        ],
+        "image": "turf"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Suchita P.",
+      "stars": 5,
+      "text": "Clean, well-equipped gym with a positive atmosphere. Coach Yusuf and coach Insiya are professional and supportive. Plenty of machines and great classes that keep workouts motivating. Highly recommended! 💪",
+      "source_ref": "https://www.google.com/maps/place/?q=place_id:ChIJpw63EO2dzz8RtfN2hrQRVC0"
+    },
+    {
+      "author": "Mpathriya R.",
+      "stars": 5,
+      "text": "I have been training at [Gofit] and it is an excellent experience. The gym is clean, well-organized, and has everything you need. Special thanks to my coach is super supportive, knowledgeable, and truly cares about his clients' progress. If you want real results, this is the place!",
+      "source_ref": "https://www.google.com/maps/place/?q=place_id:ChIJpw63EO2dzz8RtfN2hrQRVC0"
+    },
+    {
+      "author": "Mobeenah B.",
+      "stars": 5,
+      "text": "I’ve completed 4 weeks at this gym and can genuinely say it’s one of the best decisions I’ve made for myself. I feel stronger, fitter and the best I’ve felt in a long time. A huge thank you to Insiya, Mariya and Yusuf for constantly pushing me…",
+      "source_ref": "https://www.google.com/maps/place/?q=place_id:ChIJpw63EO2dzz8RtfN2hrQRVC0"
+    }
+  ],
+  "mentions": [],
+  "visit": {
+    "image": "stamp"
+  },
+  "whatsapp": {
+    "number": "96599860396",
+    "display": "+965 9986 0396"
+  },
+  "images": {
+    "floor": {
+      "file": "training-floor.jpg",
+      "alt": "صورة صالة تمرين GoFit Active بأرضية سوداء ونوافذ",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJpw63EO2dzz8RtfN2hrQRVC0",
+      "credit": "من صور النادي على خرائط Google"
+    },
+    "turf": {
+      "file": "turf-lane.jpg",
+      "alt": "صورة مسار العشب الأخضر داخل صالة النادي",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJpw63EO2dzz8RtfN2hrQRVC0",
+      "credit": "من صور النادي على خرائط Google"
+    },
+    "stamp": {
+      "file": "logo-stamp.jpg",
+      "alt": "صورة قبضتين بختم GoFit أمام شعار النادي",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJpw63EO2dzz8RtfN2hrQRVC0",
+      "credit": "من صور النادي على خرائط Google"
+    }
+  }
+}

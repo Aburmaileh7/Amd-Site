@@ -1,0 +1,8 @@
+/* The OG: the red ceiling pipes of the gym run along the page; the hero opens like the tower's window */
+[data-site="the-og-gym"] .hero__media{clip-path:inset(0 var(--win,0%) 0 var(--win,0%))}
+[data-site="the-og-gym"] .og-pipe{display:block;height:4px;border-radius:4px;background:#C7372F;transform-origin:right center;margin:0 0 1.4rem;width:min(320px,60%)}
+[data-site="the-og-gym"] .story__title,[data-site="the-og-gym"] .menu__title{letter-spacing:normal}
+/* full hero on a light theme: photo stays clear above the text, a solid ground sits under the text */
+html[data-site="the-og-gym"] .hero__shade{background:linear-gradient(to top,var(--bg) 0%,rgba(var(--bg-rgb),.96) 40%,rgba(var(--bg-rgb),.8) 52%,rgba(var(--bg-rgb),0) 68%)!important}
+@media (max-width:700px){html[data-site="the-og-gym"] .hero__shade{background:linear-gradient(to top,var(--bg) 0%,rgba(var(--bg-rgb),.97) 50%,rgba(var(--bg-rgb),.85) 57%,rgba(var(--bg-rgb),0) 70%)!important}}
+html[data-site="the-og-gym"] .hero .eyebrow{display:inline-block;background:rgba(var(--bg-rgb),.88);padding:.15rem .55rem;border-radius:4px}

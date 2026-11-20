@@ -1,0 +1,176 @@
+{
+  "place_id": "ChIJ5RGE7nHnjT4Rsr6xxPvDBog",
+  "slug": "car-lab-oman",
+  "batch_id": "amd-gulf-20261120",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "services_pro",
+  "data_source": "قائمة المحل على خرائط Google وصورها ومراجعاتها",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#D8A84E",
+    "rgb": "216, 168, 78",
+    "hover": "#BC8E36",
+    "ink": "#17110A"
+  },
+  "name": "Car Lab Oman",
+  "name_lang": "en",
+  "category_label": "عناية شاملة بالسيارات",
+  "area": "مسقط، عُمان",
+  "phone": {
+    "display": "+968 9789 5995",
+    "tel": "+96897895995"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Car%20Lab%20Oman%20Muscat&query_place_id=ChIJ5RGE7nHnjT4Rsr6xxPvDBog",
+  "map_query": "Car Lab Oman, Muscat",
+  "rating": {
+    "value": 4.5,
+    "count": 63,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "9 ص – 1 م، و4 م – 9 م"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "hero": {
+    "headline": "تلميع وتظليل وأفلام PPF في مختبر مسقط",
+    "intro": "مركز عناية بالسيارات في مسقط: تلميع، وتركيب أفلام حماية الطلاء PPF، وتظليل، في صالة بيضاء مضاءة تُعرض فيها السيارة بعد الشغل.",
+    "image": "showroom",
+    "veil": "light"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "reviews",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "من مراجعات العملاء",
+    "items": [
+      "تلميع",
+      "تركيب PPF",
+      "تظليل",
+      "سيارات فاخرة",
+      "مسقط"
+    ]
+  },
+  "story": {
+    "eyebrow": "داخل Car Lab",
+    "title": "السيارة تخرج من هنا لامعة",
+    "items": [
+      {
+        "label": "الصالة",
+        "title": "إضاءة على كل تفصيلة",
+        "text": "سقف بخطوط إضاءة بيضاء وأرضية لامعة، وفيراري حمراء في صالة العرض.",
+        "image": "showroom"
+      },
+      {
+        "label": "بعد التلميع",
+        "title": "ديفندر بلون زيتي",
+        "text": "لاند روفر ديفندر تلمع تحت شعار Car Lab المضيء على الجدار.",
+        "image": "defender"
+      },
+      {
+        "label": "الانتظار",
+        "title": "قهوة بشعار المحل",
+        "text": "كوب قهوة يحمل شعار Car Lab أثناء انتظار سيارتك.",
+        "image": "coffee"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "من مراجعات العملاء على Google",
+    "sample": false,
+    "note": "الخدمات كما ذكرها عملاء المركز في مراجعاتهم على خرائط Google. الأسعار والمواعيد بالاتصال.",
+    "categories": [
+      {
+        "id": "protect",
+        "title": "الحماية واللمعة",
+        "tagline": "PPF وتلميع",
+        "items": [
+          {
+            "name": "تركيب أفلام حماية الطلاء PPF",
+            "desc": "ذكرها العملاء مع اهتمام بالتفاصيل"
+          },
+          {
+            "name": "تلميع الطلاء",
+            "desc": "حتى للسيارات الفاخرة"
+          }
+        ],
+        "image": "defender"
+      },
+      {
+        "id": "tint",
+        "title": "التظليل",
+        "tagline": "عازل للزجاج",
+        "items": [
+          {
+            "name": "تظليل السيارات",
+            "desc": "ورد في مراجعات العملاء عن الخدمة والتعامل"
+          }
+        ],
+        "image": "showroom"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Fahad A.",
+      "stars": 5,
+      "text": "شغل احترافي وثقة عالية. التلميع وتركيب الـ PPF بجودة ممتازة واهتمام كبير بالتفاصيل. من الأماكن القليلة التي تقدر تترك عندها سيارتك بكل راحة، حتى لو كانت سيارة فاخرة. أنصح بالتعامل معهم",
+      "source_ref": "https://www.google.com/maps/place/?q=place_id:ChIJ5RGE7nHnjT4Rsr6xxPvDBog"
+    },
+    {
+      "author": "Bader G.",
+      "stars": 5,
+      "text": "المحل بأمانة من أفضل المحلات الي تقدم خدمة تضليل السيارات عن تجربة. وطريقة تعامل الموظفين قمة في الاحترام والتقدير.",
+      "source_ref": "https://www.google.com/maps/place/?q=place_id:ChIJ5RGE7nHnjT4Rsr6xxPvDBog"
+    }
+  ],
+  "mentions": [],
+  "visit": {
+    "image": "sign"
+  },
+  "whatsapp": null,
+  "images": {
+    "showroom": {
+      "file": "showroom.jpg",
+      "alt": "صورة صالة Car Lab المضاءة بفيراري حمراء",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5RGE7nHnjT4Rsr6xxPvDBog",
+      "credit": "من صور المحل على خرائط Google"
+    },
+    "defender": {
+      "file": "defender.jpg",
+      "alt": "صورة لاند روفر ديفندر زيتية تحت شعار Car Lab",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5RGE7nHnjT4Rsr6xxPvDBog",
+      "credit": "من صور المحل على خرائط Google"
+    },
+    "coffee": {
+      "file": "coffee.jpg",
+      "alt": "صورة كوب قهوة بشعار Car Lab في المحل",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5RGE7nHnjT4Rsr6xxPvDBog",
+      "credit": "من صور المحل على خرائط Google"
+    },
+    "sign": {
+      "file": "sign.jpg",
+      "alt": "صورة لوحة Car Lab أمام المبنى في مسقط",
+      "source_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5RGE7nHnjT4Rsr6xxPvDBog",
+      "credit": "من صور المحل على خرائط Google"
+    }
+  }
+}
