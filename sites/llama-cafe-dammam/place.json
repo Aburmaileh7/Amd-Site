@@ -1,0 +1,268 @@
+{
+  "place_id": "amd-notion-4115cb524e448155a648cd6942419b8a",
+  "batch_id": "amd-gulf-20261120",
+  "slug": "llama-cafe-dammam",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google (العنوان وساعات العمل والتقييم والمراجعات والصور) وصفحة المقهى على Keeta (الأصناف والأسعار) وحسابه على إنستغرام @llama.cafe",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#B4501A",
+    "rgb": "180, 80, 26",
+    "hover": "#963F12",
+    "ink": "#FFFFFF"
+  },
+  "name": "لاما",
+  "name_lang": "ar",
+  "category_label": "مقهى مختص وفطور",
+  "area": "الشعلة، الدمام",
+  "address": "حي الشعلة، الدمام 34261",
+  "whatsapp": null,
+  "booking_url": "https://fooddelivery.mykeeta.com/mpweb/shop_golden?useShopPoi=1&shopId=604892&cityId=1150000014&locale=ar&region=SA",
+  "booking_label": "اطلب عبر Keeta",
+  "directions_url": "https://www.google.com/maps/place/%D9%84%D8%A7%D9%85%D8%A7+%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D9%85+-+LLAMA+Dammam/@26.3665579,50.0939111,17z/data=!4m6!3m5!1s0x3e49e33432d22fff:0x24b402d7a15bb6b6!8m2!3d26.3665579!4d50.0939111!16s%2Fg%2F11n01clghp",
+  "map_query": "LLAMA Dammam, Ash Shulah, Dammam",
+  "rating": {
+    "value": 4.5,
+    "count": 3938,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "قهوة مقطرة وفرنش توست من السادسة صباحًا",
+    "intro": "مقهى سعودي بدأ في الدمام ثم انتشر في الشرقية. في الشعلة: جدران برتقالية وطاولات تيرازو وشمس من النوافذ، وقهوة مختصة وفطور وحلا يوميًا حتى منتصف الليل.",
+    "image": "hero"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "reviews",
+    "visit"
+  ],
+  "marquee": {
+    "label": "على طاولات لاما",
+    "items": [
+      "قهوة مقطرة",
+      "تشيز كيك مدريد",
+      "فرنش توست",
+      "ساندويتش صحارى",
+      "ماتشا",
+      "الشعلة – الدمام"
+    ]
+  },
+  "story": {
+    "eyebrow": "يوم في لاما",
+    "title": "من أول كوب إلى آخر طلب",
+    "items": [
+      {
+        "label": "6 صباحًا",
+        "title": "البار يفتح قبل الدوام",
+        "text": "من السبت إلى الخميس يبدأ البار من السادسة صباحًا: قهوة مقطرة حارة بـ 22 ر.س أو باردة بـ 24 ر.س، وقهوة اليوم بـ 10 ر.س.",
+        "image": "story-bar"
+      },
+      {
+        "label": "الفطور",
+        "title": "بيض على توست في صحن لاما",
+        "text": "بيض مخفوق على خبز محمص، وساندويتش صحارى بالدجاج المشوي والسبانخ والمشروم والبصل المكرمل بـ 33 ر.س، وحلومي مشوي بـ 29 ر.س.",
+        "image": "story-eggs"
+      },
+      {
+        "label": "الحلا",
+        "title": "الفرنش توست الذي يتكرر في المراجعات",
+        "text": "توست سميك محشو بالكريمة، مكرمل من الأعلى ويعلوه توت أسود وفراولة، ويُقدَّم مع صوص جانبي.",
+        "image": "story-toast"
+      },
+      {
+        "label": "الكاونتر",
+        "title": "كوكيز ومافن وكيك عند الكاشير",
+        "text": "عند الطلب تصطف الكوكيز والمافن وكيكة لندن على الرخام: كوكيز التشوكلت والجوز بـ 15 ر.س، وكيكة لندن بـ 23 ر.س.",
+        "image": "story-counter"
+      }
+    ]
+  },
+  "menu": {
+    "title": "الأكثر طلبًا والأسعار",
+    "eyebrow": "من صفحة لاما على Keeta",
+    "currency": "ر.س",
+    "sample": false,
+    "note": "الأصناف الأكثر طلبًا وأسعارها كما هي في صفحة لاما الدمام على تطبيق Keeta، وقد تتغير. القائمة الكاملة في المقهى.",
+    "foot": "للطلب عبر Keeta أو من المقهى مباشرة",
+    "categories": [
+      {
+        "id": "coffee",
+        "title": "القهوة والمشروبات",
+        "tagline": "مقطرة وماتشا",
+        "image": "menu-coffee",
+        "items": [
+          {
+            "name": "قهوة مقطرة",
+            "price": 22,
+            "desc": "حارة",
+            "mentioned": true
+          },
+          {
+            "name": "مقطرة بارد",
+            "price": 24,
+            "desc": "قهوة مقطرة باردة"
+          },
+          {
+            "name": "ماتشا",
+            "price": 23,
+            "mentioned": true
+          },
+          {
+            "name": "قهوة اليوم",
+            "price": 10,
+            "mentioned": true
+          }
+        ]
+      },
+      {
+        "id": "sweets",
+        "title": "الحلا",
+        "tagline": "كيك وكوكيز",
+        "image": "menu-sweets",
+        "items": [
+          {
+            "name": "تشيز كيك مدريد",
+            "price": 23,
+            "desc": "كريمي من الجوانب وتعلوه طبقة كراميل، بنكهة الفانيلا"
+          },
+          {
+            "name": "كيكة لندن",
+            "price": 23
+          },
+          {
+            "name": "كوكيز التشوكلت والجوز",
+            "price": 15,
+            "desc": "كوكيز كلاسيكية بالشوكولاتة وقطع الجوز"
+          }
+        ]
+      },
+      {
+        "id": "sandwiches",
+        "title": "الساندويتشات",
+        "tagline": "للفطور والغداء",
+        "image": "menu-sandwiches",
+        "items": [
+          {
+            "name": "ساندويتش صحارى",
+            "price": 33,
+            "desc": "دجاج مشوي مع سبانخ ولحم مقدد وخلطة المشروم والبصل المكرمل",
+            "mentioned": true
+          },
+          {
+            "name": "ساندويتش تونا",
+            "price": 33,
+            "desc": "تونا مع الجبن الذائب"
+          },
+          {
+            "name": "ساندويتش حلومي",
+            "price": 29,
+            "desc": "جبن حلومي مشوي مع لحم مقدد بطريقة لاما"
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "حنين خ.",
+      "stars": 5,
+      "when": "قبل شهر",
+      "text": "جيته على توصيه وطلع يستاهل … الماتشا اخذتها بحليب جوز هند لذيذه جدا وموزونه … فرنش توست بايت لايُعلى عليه والتقديم شي يفتح النفس … المكان هادي ونظيف وتدخله الشمس يعني فل روقان",
+      "source_ref": "https://www.google.com/maps/place/%D9%84%D8%A7%D9%85%D8%A7+%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D9%85+-+LLAMA+Dammam/@26.3665579,50.0939111,17z/data=!4m6!3m5!1s0x3e49e33432d22fff:0x24b402d7a15bb6b6!8m2!3d26.3665579!4d50.0939111!16s%2Fg%2F11n01clghp"
+    },
+    {
+      "author": "LandOfPeace1 T.",
+      "stars": 5,
+      "when": "قبل 4 أشهر",
+      "text": "صراحة coffee ممتاز و ايضا مكان فطور جيد جدا جربت قهوتهم و حلاهم و الفطور حقهم يستحق التجربه ، المكان رايق لكن صغير شوي ، الموظفين جدا محترمين يخجلونك و سعوديين اغلبهم …",
+      "source_ref": "https://www.google.com/maps/place/%D9%84%D8%A7%D9%85%D8%A7+%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D9%85+-+LLAMA+Dammam/@26.3665579,50.0939111,17z/data=!4m6!3m5!1s0x3e49e33432d22fff:0x24b402d7a15bb6b6!8m2!3d26.3665579!4d50.0939111!16s%2Fg%2F11n01clghp"
+    },
+    {
+      "author": "Abdulrhman D.",
+      "stars": 4,
+      "when": "قبل 4 أشهر",
+      "text": "كوفي جميل ورايق جداً جربتهم عندهم قهوة أثيوبي V60 كانت حلوو وجربت قهوة اليوم كولومبي كانت ثقيله وقويه للي يحب طعم القهوة الثقيل وقوي يصحصح بك …",
+      "source_ref": "https://www.google.com/maps/place/%D9%84%D8%A7%D9%85%D8%A7+%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D9%85+-+LLAMA+Dammam/@26.3665579,50.0939111,17z/data=!4m6!3m5!1s0x3e49e33432d22fff:0x24b402d7a15bb6b6!8m2!3d26.3665579!4d50.0939111!16s%2Fg%2F11n01clghp"
+    }
+  ],
+  "mentions": [
+    "فرنش توست",
+    "ماتشا",
+    "قهوة اليوم",
+    "V60 أثيوبي",
+    "ساندويتش صحارى"
+  ],
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "6 ص – 12 منتصف الليل"
+      },
+      {
+        "days": "الجمعة",
+        "time": "12:30 م – 12 منتصف الليل"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "images": {
+    "hero": {
+      "file": "orange-hall.jpg",
+      "alt": "صورة صالة لاما بجدران برتقالية ومدرج جلوس من التيرازو وكراسٍ خشبية",
+      "source_url": "https://www.google.com/maps/place/%D9%84%D8%A7%D9%85%D8%A7+%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D9%85+-+LLAMA+Dammam/@26.3665579,50.0939111,17z/data=!4m6!3m5!1s0x3e49e33432d22fff:0x24b402d7a15bb6b6!8m2!3d26.3665579!4d50.0939111!16s%2Fg%2F11n01clghp",
+      "credit": "من خرائط Google"
+    },
+    "story-bar": {
+      "file": "coffee-bar.jpg",
+      "alt": "صورة بار القهوة في لاما بأكواب مرصوصة وشعار لاما على الجدار",
+      "source_url": "https://www.google.com/maps/place/%D9%84%D8%A7%D9%85%D8%A7+%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D9%85+-+LLAMA+Dammam/@26.3665579,50.0939111,17z/data=!4m6!3m5!1s0x3e49e33432d22fff:0x24b402d7a15bb6b6!8m2!3d26.3665579!4d50.0939111!16s%2Fg%2F11n01clghp",
+      "credit": "من خرائط Google"
+    },
+    "story-eggs": {
+      "file": "eggs-toast.jpg",
+      "alt": "صورة بيض مخفوق على توست في صحن معدني مع مشروب بارد",
+      "source_url": "https://www.google.com/maps/place/%D9%84%D8%A7%D9%85%D8%A7+%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D9%85+-+LLAMA+Dammam/@26.3665579,50.0939111,17z/data=!4m6!3m5!1s0x3e49e33432d22fff:0x24b402d7a15bb6b6!8m2!3d26.3665579!4d50.0939111!16s%2Fg%2F11n01clghp",
+      "credit": "من خرائط Google"
+    },
+    "story-toast": {
+      "file": "french-toast.jpg",
+      "alt": "صورة فرنش توست مكرمل بالتوت الأسود والفراولة مع كوب لاما",
+      "source_url": "https://www.google.com/maps/place/%D9%84%D8%A7%D9%85%D8%A7+%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D9%85+-+LLAMA+Dammam/@26.3665579,50.0939111,17z/data=!4m6!3m5!1s0x3e49e33432d22fff:0x24b402d7a15bb6b6!8m2!3d26.3665579!4d50.0939111!16s%2Fg%2F11n01clghp",
+      "credit": "من خرائط Google"
+    },
+    "story-counter": {
+      "file": "pastry-counter.jpg",
+      "alt": "صورة كوكيز ومافن وكيك على كاونتر الرخام عند الكاشير",
+      "source_url": "https://www.google.com/maps/place/%D9%84%D8%A7%D9%85%D8%A7+%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D9%85+-+LLAMA+Dammam/@26.3665579,50.0939111,17z/data=!4m6!3m5!1s0x3e49e33432d22fff:0x24b402d7a15bb6b6!8m2!3d26.3665579!4d50.0939111!16s%2Fg%2F11n01clghp",
+      "credit": "من خرائط Google"
+    },
+    "menu-coffee": {
+      "file": "toast-and-coffee.jpg",
+      "alt": "صورة كوب قهوة سوداء من لاما بجانب صحن حلا",
+      "source_url": "https://www.google.com/maps/place/%D9%84%D8%A7%D9%85%D8%A7+%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D9%85+-+LLAMA+Dammam/@26.3665579,50.0939111,17z/data=!4m6!3m5!1s0x3e49e33432d22fff:0x24b402d7a15bb6b6!8m2!3d26.3665579!4d50.0939111!16s%2Fg%2F11n01clghp",
+      "credit": "من خرائط Google"
+    },
+    "menu-sweets": {
+      "file": "llama-box.jpg",
+      "alt": "صورة علبة حلا بيضاء عليها شعار لاما مع أكواب قهوة وآيس كريم",
+      "source_url": "https://www.google.com/maps/place/%D9%84%D8%A7%D9%85%D8%A7+%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D9%85+-+LLAMA+Dammam/@26.3665579,50.0939111,17z/data=!4m6!3m5!1s0x3e49e33432d22fff:0x24b402d7a15bb6b6!8m2!3d26.3665579!4d50.0939111!16s%2Fg%2F11n01clghp",
+      "credit": "من خرائط Google"
+    },
+    "menu-sandwiches": {
+      "file": "panini-to-go.jpg",
+      "alt": "صورة ساندويتش مشوي في علبة سفري مع مشروب بارد",
+      "source_url": "https://www.google.com/maps/place/%D9%84%D8%A7%D9%85%D8%A7+%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D9%85+-+LLAMA+Dammam/@26.3665579,50.0939111,17z/data=!4m6!3m5!1s0x3e49e33432d22fff:0x24b402d7a15bb6b6!8m2!3d26.3665579!4d50.0939111!16s%2Fg%2F11n01clghp",
+      "credit": "من خرائط Google"
+    }
+  }
+}

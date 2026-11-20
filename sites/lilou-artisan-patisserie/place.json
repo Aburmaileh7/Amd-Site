@@ -1,0 +1,271 @@
+{
+  "place_id": "amd-notion-4115cb524e44813f876ac21e91c07839",
+  "batch_id": "amd-gulf-20261120",
+  "slug": "lilou-artisan-patisserie",
+  "theme": "bakery_cream",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google (العنوان والهاتف وساعات العمل والتقييم والمراجعة) وصفحة المحل على طلبات (الأصناف والأسعار وصور الكيك والعلب)",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#9C1D3A",
+    "rgb": "156, 29, 58",
+    "hover": "#7E1530",
+    "ink": "#FFFFFF"
+  },
+  "name": "Lilou Artisan Patisserie",
+  "name_lang": "en",
+  "category_label": "باتيسري وكيك مناسبات",
+  "area": "العدلية، المنامة",
+  "address": "طريق 3815، المنامة، البحرين",
+  "phone": {
+    "display": "+973 1771 5370",
+    "tel": "+97317715370"
+  },
+  "whatsapp": null,
+  "booking_url": "https://www.talabat.com/bahrain/restaurant/736350/lilou-artisan-patisserie-qudaibiya",
+  "booking_label": "اطلب عبر طلبات",
+  "directions_url": "https://www.google.com/maps/place/Lilou+Artisan+Patisserie/@26.2146152,50.5906078,17z/data=!4m6!3m5!1s0x3e49af314e32915b:0x4c91d43eca8e1dea!8m2!3d26.2146152!4d50.5906078!16s%2Fg%2F1ptw2xqgt",
+  "map_query": "Lilou Artisan Patisserie, Road 3815, Manama, Bahrain",
+  "rating": {
+    "value": 4.5,
+    "count": 719,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "مانجو جراهام لعشرة أشخاص، في علبة ليلو",
+    "intro": "باتيسري في العدلية بالمنامة يحضّر الكيك وعلب الحلويات والمعجنات للمناسبات، للاستلام من المحل أو التوصيل عبر طلبات، ويفتح يوميًا على فترتين حتى السابعة مساءً.",
+    "image": "hero"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "menu",
+    "reviews",
+    "visit"
+  ],
+  "marquee": {
+    "label": "من قائمة ليلو",
+    "items": [
+      "Mango Graham",
+      "Creme Brûlée Tulip",
+      "Kunafa Cheesecake Balls",
+      "Nutella Brownies",
+      "Rahash Biscuit",
+      "العدلية – المنامة"
+    ]
+  },
+  "story": {
+    "eyebrow": "ما يُطلب من ليلو",
+    "title": "أربع علب تخرج من المطبخ",
+    "items": [
+      {
+        "label": "كيك المناسبات",
+        "title": "كريم بروليه توليب لعشرة",
+        "text": "طبقات من كيك الفانيلا وكريم بروليه تعلوها فواكه طازجة في قاعدة على شكل زهرة، وتكفي عشرة أشخاص بـ 28.500 د.ب.",
+        "image": "story-tulip"
+      },
+      {
+        "label": "العلب المقلّمة",
+        "title": "ميل فوي بالفستق والورد",
+        "text": "48 قطعة ميل فوي صغيرة بالفستق والورد مع التوت والهيل، مصفوفة في علبة حمراء مقلّمة بـ 17.800 د.ب.",
+        "image": "story-millefeuille"
+      },
+      {
+        "label": "الضيافة المالحة",
+        "title": "كرواسون بست حشوات",
+        "text": "علبة كرواسون بالجبن والسادة والزعتر والجبن الحار واللوز والشوكولاتة بـ 15.000 د.ب، وبجانبها علب الكبة وورق العنب والساندويتشات العربية الصغيرة.",
+        "image": "story-croissant"
+      },
+      {
+        "label": "من الفريزر",
+        "title": "ثاليا: مهلبية وفستق",
+        "text": "طبقات من آيس كريم المهلبية وكيك الفستق تكفي من 6 إلى 8 أشخاص بـ 19.200 د.ب، ومعها مكعبات آيس كريم بالزعفران والمانجو والورد.",
+        "image": "story-thalia"
+      }
+    ]
+  },
+  "menu": {
+    "title": "القائمة والأسعار",
+    "eyebrow": "من صفحة ليلو على طلبات",
+    "currency": "د.ب",
+    "sample": false,
+    "note": "الأصناف والأسعار كما هي مكتوبة في صفحة Lilou Artisan Patisserie على طلبات، وقد تتغير. الأسعار بالدينار البحريني.",
+    "foot": "للطلب بالهاتف أو عبر طلبات",
+    "categories": [
+      {
+        "id": "cakes",
+        "title": "الكيك المميز",
+        "tagline": "لـ 6 إلى 10 أشخاص",
+        "image": "menu-cakes",
+        "items": [
+          { "name": "Mango Graham", "price": 25, "desc": "بسكويت جراهام بالعسل وكريمة الجراهام ومانجو طازجة · 10 أشخاص", "mentioned": true },
+          { "name": "Creme Brûlée Tulip", "price": 28.5, "desc": "كيك فانيلا وكريم بروليه وفواكه طازجة · 10 أشخاص" },
+          { "name": "Choco Croustillant", "price": 26, "desc": "كيك شوكولاتة طري بطبقة مقرمشة · 10 أشخاص" },
+          { "name": "Tiramisu", "price": 23, "desc": "بسكويت وكريمة ماسكاربوني وغاناش الشوكولاتة · 6–8 أشخاص" },
+          { "name": "Gateau Nutella Croquant", "price": 20.5, "desc": "كيك نوتيلا وكريمة نوتيلا مع قرمشة · 8–10 أشخاص" },
+          { "name": "Red Velvet", "price": 18.8, "desc": "ريد فيلفت مع كريمة الجبن · 10 أشخاص" },
+          { "name": "Cheesecake With Berry Sauce", "price": 18.8, "desc": "تشيز كيك مع صوص التوت المشكّل · 6–8 أشخاص" },
+          { "name": "Pecana Cheesecake", "price": 17.8, "desc": "كيك التمر والجوز مع الجبن الكريمي وصوص الكراميل" },
+          { "name": "Creme Brulé Cheesecake", "price": 17.8, "desc": "تشيز كيك كريم بروليه مع صوص التوت · 6–8 أشخاص" },
+          { "name": "Chocolate Pistachio", "price": 15.6, "desc": "كيك شوكولاتة وفستق مع موس الشوكولاتة وقرمشة الكراميل · 10 أشخاص" },
+          { "name": "Chocolate Fudge", "price": 15.6, "desc": "كيك شوكولاتة وموس الشوكولاتة وقرمشة الكراميل · 10 أشخاص" },
+          { "name": "Concerto", "price": 15.6, "desc": "طبقات رقيقة من موس الشوكولاتة والفويتين · 10 أشخاص" },
+          { "name": "Sama Matilda", "price": 21, "desc": "كيك شوكولاتة بالغاناش وصوص الكراميل المقرمش · حصري على طلبات" },
+          { "name": "Lara", "price": 14.5, "desc": "كيك فانيلا وعجينة الكوكيز وفدج الكراميل · 4–6 أشخاص" },
+          { "name": "Matilda", "price": 14.5, "desc": "كيك شوكولاتة وغاناش وفدج الكراميل وبسكويت مقرمش" }
+        ]
+      },
+      {
+        "id": "bites",
+        "title": "قطع صغيرة",
+        "tagline": "للضيافة والجمعات",
+        "image": "menu-bites",
+        "items": [
+          { "name": "Kunafa Cheesecake Balls", "price": 11.5, "desc": "كرات تشيز كيك بالكنافة مع صوص الفراولة · 20 قطعة" },
+          { "name": "Douceur de Cookie", "price": 11.5, "desc": "عجينة كوكيز مع تشيز كيك كريمي · 49 قطعة" },
+          { "name": "Nutella Crunch", "price": 16, "desc": "قطع شوكولاتة يعلوها توت أزرق طازج · 49 قطعة" },
+          { "name": "Tiramisu Bites Box", "price": 9.7, "desc": "قطع تيراميسو مع صوص القهوة · 20 قطعة" },
+          { "name": "Nutella Brownies", "price": 8.8, "desc": "براونيز النوتيلا الخاصة بليلو · 32 قطعة" },
+          { "name": "Assorted Mini Cakes Bites", "desc": "كونشيرتو وجيرمان وتشيز كيك التوت والبندق" }
+        ]
+      },
+      {
+        "id": "frozen",
+        "title": "حلويات مثلجة",
+        "tagline": "آيس كريم وكيك",
+        "image": "menu-frozen",
+        "items": [
+          { "name": "Mango Illusion", "price": 22.5, "desc": "آيس كريم مانجو وهريس التوت وكيك الفانيلا · 6–8 أشخاص" },
+          { "name": "Thalia", "price": 19.2, "desc": "آيس كريم المهلبية وكيك الفستق · 6–8 أشخاص" },
+          { "name": "Caramel Crunch Glace", "price": 18, "desc": "جيلاتو الفول السوداني مع الكراميل وكيك الشوكولاتة" },
+          { "name": "Profiteroles With Vanilla Ice Cream", "price": 14.7, "desc": "عجينة شو بآيس كريم الفانيلا وصوص الشوكولاتة · 40 قطعة" },
+          { "name": "Ice Cream Cubes Box", "price": 10.2, "desc": "مكعبات بالزعفران والمانجو والفستق والورد والكراميل · 36 قطعة" }
+        ]
+      },
+      {
+        "id": "treats",
+        "title": "علب الهدايا",
+        "tagline": "شوكولاتة وبسكويت",
+        "image": "menu-treats",
+        "items": [
+          { "name": "Mini Mille Feuille Bars", "price": 17.8, "desc": "بالفستق والورد مع التوت والهيل · 48 قطعة" },
+          { "name": "Coffee Sweets – Assorted", "price": 16.5, "desc": "حلويات القهوة بكراميل اللوز والتوفي والمنديان" },
+          { "name": "Mendiant Chocolates", "price": 14.5, "desc": "شوكولاتة بالمكسرات المحمصة · 36 قطعة مغلفة" },
+          { "name": "Pastello", "price": 14, "desc": "قطع شوكولاتة بالحليب بنكهتي الروشيه واللوز" },
+          { "name": "Tresor Sesame", "price": 13.2, "desc": "قطع سمسم مقرمشة بالفول السوداني" },
+          { "name": "Rahash Biscuit", "price": 12.5, "desc": "بسكويت الرهش بشوكولاتة الحليب والسمسم · 32 قطعة" },
+          { "name": "Mini Sables", "price": 12, "desc": "بسكويت سابليه بمربى التوت والشوكولاتة" },
+          { "name": "Coffret De Delices", "price": 10.4, "desc": "فلورنتين بالكراميل المملح وبرالين البيكان" },
+          { "name": "Sunset Molten Cookies", "price": 8.2, "desc": "كوكيز براونيز بقلب طري وأطراف مقرمشة · 30 قطعة" },
+          { "name": "Cocolette", "price": 8, "desc": "سابليه شوكولاتة وكراميل وجوز هند وبندق" }
+        ]
+      },
+      {
+        "id": "savoury",
+        "title": "علب المالح",
+        "tagline": "للفطور والجمعات",
+        "items": [
+          { "name": "Deli Box", "price": 18.7, "desc": "ساندويتشات توست أبيض وأسمر بحشوات منوعة" },
+          { "name": "Croissants Box", "price": 15, "desc": "جبن وسادة وزعتر وجبن حار ولوز وشوكولاتة" },
+          { "name": "Stuffed Croissant & Toast Sandwich Box", "price": 14.8, "desc": "كرواسون وتوست محشي بالحلوم والباذنجان والجبن الحار" },
+          { "name": "Viennoiserie Box", "price": 12, "desc": "فطر وسبانخ ولبنة بالزعتر ودجاج بالذرة · 35 قطعة" },
+          { "name": "Mini Arabic Sandwich Box", "price": 12, "desc": "فول وفلافل وحمص وحلوم ولبنة · 40 قطعة" },
+          { "name": "Levantine Kebbeh Box", "price": 8.8, "desc": "كبة مفتوحة مع الحمص والمتبل · 20 قطعة" },
+          { "name": "Crackers Box", "price": 8.8, "desc": "كراكرز مع ثلاث صلصات" },
+          { "name": "Vine Leaves Box", "price": 7.4, "desc": "ورق عنب بالأرز والأعشاب · 24 قطعة" },
+          { "name": "Banana Loaf Cake", "price": 8.5, "desc": "كيك موز طري بالجوز" },
+          { "name": "Carrot Loaf Cake", "price": 8.5, "desc": "كيك الجزر" }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Su A.",
+      "stars": 5,
+      "when": "قبل 5 أشهر",
+      "text": "دائمًا أحب أطلب من Lilou Artisan Patisserie في البحرين 🥭✨ أكثر شيء أعجبني عندهم جرهام المانجو، طعمه لذيذ جدًا وخفيف ومن الحلويات اللي أكررها دائمًا… المخبز مرتب والحلويات عندهم مميزة وجودتها حلوة…",
+      "source_ref": "https://www.google.com/maps/place/Lilou+Artisan+Patisserie/@26.2146152,50.5906078,17z/data=!4m6!3m5!1s0x3e49af314e32915b:0x4c91d43eca8e1dea!8m2!3d26.2146152!4d50.5906078!16s%2Fg%2F1ptw2xqgt"
+    }
+  ],
+  "mentions": ["جرهام المانجو"],
+  "hours": {
+    "rows": [
+      { "days": "يوميًا – الفترة الصباحية", "time": "8:30 ص – 1 م" },
+      { "days": "يوميًا – الفترة المسائية", "time": "3:15 م – 7 م" }
+    ],
+    "source": "خرائط Google"
+  },
+  "visit": {
+    "image": "visit"
+  },
+  "images": {
+    "hero": {
+      "file": "mango-graham.jpg",
+      "alt": "صورة كيكة مانجو جراهام بمكعبات المانجو وزهرتين بيضاوين في علبة ليلو",
+      "source_url": "https://www.talabat.com/bahrain/restaurant/736350/lilou-artisan-patisserie-qudaibiya",
+      "credit": "من صفحة المحل على طلبات"
+    },
+    "story-tulip": {
+      "file": "creme-brulee-tulip.jpg",
+      "alt": "صورة كيكة كريم بروليه توليب بالفراولة والفيزاليس في قاعدة على شكل زهرة",
+      "source_url": "https://www.talabat.com/bahrain/restaurant/736350/lilou-artisan-patisserie-qudaibiya",
+      "credit": "من صفحة المحل على طلبات"
+    },
+    "story-millefeuille": {
+      "file": "mille-feuille-bars.jpg",
+      "alt": "صورة علبة حمراء مقلّمة مفتوحة فيها قطع ميل فوي صغيرة",
+      "source_url": "https://www.talabat.com/bahrain/restaurant/736350/lilou-artisan-patisserie-qudaibiya",
+      "credit": "من صفحة المحل على طلبات"
+    },
+    "story-croissant": {
+      "file": "croissants-box.jpg",
+      "alt": "صورة علبة كرواسون حمراء مقسّمة إلى ست حشوات",
+      "source_url": "https://www.talabat.com/bahrain/restaurant/736350/lilou-artisan-patisserie-qudaibiya",
+      "credit": "من صفحة المحل على طلبات"
+    },
+    "story-thalia": {
+      "file": "thalia.jpg",
+      "alt": "صورة كيكة ثاليا البيضاء محاطة بالفستق المجروش",
+      "source_url": "https://www.talabat.com/bahrain/restaurant/736350/lilou-artisan-patisserie-qudaibiya",
+      "credit": "من صفحة المحل على طلبات"
+    },
+    "menu-cakes": {
+      "file": "chocolate-pistachio.jpg",
+      "alt": "صورة كيكة شوكولاتة بالفستق محاطة بألواح الشوكولاتة",
+      "source_url": "https://www.talabat.com/bahrain/restaurant/736350/lilou-artisan-patisserie-qudaibiya",
+      "credit": "من صفحة المحل على طلبات"
+    },
+    "menu-bites": {
+      "file": "kunafa-balls.jpg",
+      "alt": "صورة علبة كرات تشيز كيك بالكنافة مع صوص الفراولة",
+      "source_url": "https://www.talabat.com/bahrain/restaurant/736350/lilou-artisan-patisserie-qudaibiya",
+      "credit": "من صفحة المحل على طلبات"
+    },
+    "menu-frozen": {
+      "file": "ice-cream-cubes.jpg",
+      "alt": "صورة علبة مكعبات آيس كريم ملونة بالزعفران والمانجو والفستق والورد",
+      "source_url": "https://www.talabat.com/bahrain/restaurant/736350/lilou-artisan-patisserie-qudaibiya",
+      "credit": "من صفحة المحل على طلبات"
+    },
+    "menu-treats": {
+      "file": "mendiants.jpg",
+      "alt": "صورة علبة شوكولاتة المنديان بالمكسرات بجانب علبة ليلو الحمراء",
+      "source_url": "https://www.talabat.com/bahrain/restaurant/736350/lilou-artisan-patisserie-qudaibiya",
+      "credit": "من صفحة المحل على طلبات"
+    },
+    "visit": {
+      "file": "tiramisu.jpg",
+      "alt": "صورة كيكة تيراميسو مربعة مكتوب عليها اسم ليلو بالكاكاو",
+      "source_url": "https://www.talabat.com/bahrain/restaurant/736350/lilou-artisan-patisserie-qudaibiya",
+      "credit": "من صفحة المحل على طلبات"
+    }
+  }
+}
