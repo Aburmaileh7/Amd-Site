@@ -79,13 +79,13 @@
         "label": "الفريق",
         "title": "فريق ودود ومحترف",
         "text": "تصف زبونات الاستقبال بأنه لطيف، وتذكرن المساعدات بالاسم، وتصفن جو الصالون بأنه مريح.",
-        "image": "lounge"
+        "image": "waves"
       },
       {
         "label": "المواعيد",
         "title": "بموعد مسبق من ١٠ إلى ٨",
         "text": "الصالون مفتوح كل أيام الأسبوع من ١٠ صباحًا إلى ٨ مساءً، والحجز بموعد مطلوب ويُنصح به.",
-        "image": "shelf"
+        "image": "closeup"
       }
     ]
   },
@@ -136,7 +136,7 @@
         "id": "colour",
         "title": "اللون",
         "tagline": "",
-        "image": "colour",
+        "image": "closeup",
         "items": [
           {
             "name": "صبغ الشعر",
@@ -159,7 +159,7 @@
         "id": "style",
         "title": "القص والتسريح",
         "tagline": "",
-        "image": "lounge",
+        "image": "waves",
         "items": [
           {
             "name": "قص وسشوار",
@@ -182,7 +182,7 @@
         "id": "care",
         "title": "العناية والإكستنشن",
         "tagline": "",
-        "image": "wash",
+        "image": "colour",
         "items": [
           {
             "name": "علاج كيراأورغانيك",
@@ -245,7 +245,7 @@
     "source": "Google Maps"
   },
   "visit": {
-    "image": "shelf"
+    "image": "wash"
   },
   "whatsapp": null,
   "images": {
@@ -267,9 +267,15 @@
       "source_url": "https://www.google.com/maps/search/?api=1&query=House%20of%20Glam%20Bahrain&query_place_id=ChIJyyE01KylST4Rvbvvgu6y3eg",
       "credit": "من خرائط Google"
     },
-    "shelf": {
-      "file": "lashes-shelf.jpg",
-      "alt": "صورة رف منتجات العناية تحت لافتة ذهبية في قوس وردي",
+    "closeup": {
+      "file": "hair-color-closeup.jpg",
+      "alt": "صورة قريبة لشعر بعد تلوين بتدرج فاتح وأطراف ملوّنة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=House%20of%20Glam%20Bahrain&query_place_id=ChIJyyE01KylST4Rvbvvgu6y3eg",
+      "credit": "من خرائط Google"
+    },
+    "waves": {
+      "file": "hair-waves-back.jpg",
+      "alt": "صورة شعر أشقر بتدرج وتمويج ناعم من الخلف",
       "source_url": "https://www.google.com/maps/search/?api=1&query=House%20of%20Glam%20Bahrain&query_place_id=ChIJyyE01KylST4Rvbvvgu6y3eg",
       "credit": "من خرائط Google"
     }

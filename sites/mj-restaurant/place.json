@@ -5,7 +5,7 @@
   "theme": "gulf_luxe",
   "approved": false,
   "agency": "Amd web",
-  "data_source": "خرائط Google (بيانات Apify) + حساب إنستغرام المحل",
+  "data_source": "خرائط Google (بيانات Apify)",
   "layout": {
     "hero": "full",
     "story": "horizontal"
@@ -21,9 +21,9 @@
   },
   "name": "MJ Restaurant",
   "name_lang": "en",
-  "category_label": "مطعم في الشرق، مدينة الكويت",
+  "category_label": "مطعم",
   "area": "الشرق، مدينة الكويت",
-  "address": "Khalifa Al Anazi Tower, 24 Ahmad Al Jaber St, Kuwait City, Kuwait",
+  "address": "الشرق، مدينة الكويت",
   "phone": {
     "display": "+965 9679 1449",
     "tel": "+96596791449"
@@ -67,7 +67,7 @@
       {
         "label": "السلطات",
         "title": "سلطة الكيل أولًا",
-        "text": "كتبت زبونة إن أفضل ما في القائمة سلطة الكيل، وإن بقية ما جرّبته كان جيدًا. وزبون آخر أعطى سلطة الفطر مع الشوربة 9 من 10.",
+        "text": "كتبت زبونة إن أفضل ما في القائمة سلطة الكيل، وإن بقية ما جرّبته كان جيدًا. وزبون آخر أعطى شوربة الفطر 9 من 10.",
         "image": "kale"
       },
       {
@@ -86,7 +86,7 @@
         "label": "الخدمة",
         "title": "خدمة ودودة",
         "text": "كتب زبائن إن الموظفين ودودون والخدمة ممتازة. المطعم يقدّم خدمة الطاولة، ويقبل الحجز.",
-        "image": "table"
+        "image": "shrimp"
       }
     ]
   },
@@ -168,12 +168,6 @@
             "mentioned": true
           },
           {
-            "name": "ستيك واغيو",
-            "desc": "",
-            "price": 12.5,
-            "mentioned": true
-          },
-          {
             "name": "بيتزا الفطر",
             "desc": "",
             "price": 4.25,
@@ -229,7 +223,6 @@
   ],
   "mentions": [
     "سلطة الكيل",
-    "سلطة الفطر",
     "شوربة الفطر",
     "شوربة الطماطم",
     "ستيك واغيو",
@@ -242,12 +235,12 @@
   ],
   "amenities": {
     "title": "قبل أن تأتي",
-    "image": "table",
+    "image": "lamp",
     "items": [
       {
         "icon": "calendar",
         "title": "يقبل الحجز",
-        "text": "المكان هادئ، والحجز يضمن طاولتك في المساء."
+        "text": "تنصح تقييمات الزبائن بالحجز لأن المكان صغير."
       },
       {
         "icon": "car",
@@ -262,7 +255,7 @@
       {
         "icon": "family",
         "title": "للمجموعات",
-        "text": "أطباق صغيرة تُطلب للمشاركة."
+        "text": "يناسب المجموعات، ويقدّم أطباقًا صغيرة."
       },
       {
         "icon": "bag",
@@ -309,6 +302,18 @@
     "table": {
       "file": "mj-plates-table.jpg",
       "alt": "صورة أطباق مقرمشة وأطباق مشتركة على الطاولة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=MJ%20Restaurant&query_place_id=ChIJYcaKFcOFzz8R6r4975JcZzs",
+      "credit": "من خرائط Google"
+    },
+    "lamp": {
+      "file": "mj-interior-lamp.jpg",
+      "alt": "صورة قاعة المطعم بمصابيح الطاولات وإضاءة خافتة ونافذة على المدينة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=MJ%20Restaurant&query_place_id=ChIJYcaKFcOFzz8R6r4975JcZzs",
+      "credit": "من خرائط Google"
+    },
+    "shrimp": {
+      "file": "mj-popcorn-shrimp.jpg",
+      "alt": "صورة روبيان مقرمش على أعواد فوق كوب فشار تحت مصباح الطاولة",
       "source_url": "https://www.google.com/maps/search/?api=1&query=MJ%20Restaurant&query_place_id=ChIJYcaKFcOFzz8R6r4975JcZzs",
       "credit": "من خرائط Google"
     }

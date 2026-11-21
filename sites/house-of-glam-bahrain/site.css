@@ -77,3 +77,13 @@ html[data-site="house-of-glam-bahrain"] .visit__title { font-size: clamp(2rem, 5
 @media (prefers-reduced-motion: reduce) {
   html[data-site="house-of-glam-bahrain"] .marquee__row { animation: none; }
 }
+
+/* Fix round 1 */
+html[data-site="house-of-glam-bahrain"] .stat { display: grid; gap: 16px; }
+html[data-site="house-of-glam-bahrain"] .stat__num { line-height: 1.15; }
+html[data-site="house-of-glam-bahrain"] .stat__num span { display: inline-block; }
+html[data-site="house-of-glam-bahrain"] .hero .eyebrow,
+html[data-site="house-of-glam-bahrain"] .panel__time,
+html[data-site="house-of-glam-bahrain"] .story .eyebrow { color: #8A5243; }
+html[data-site="house-of-glam-bahrain"] .mentions { gap: 10px 20px; }
+html[data-site="house-of-glam-bahrain"] .mentions li + li::before { content: none; display: none; }

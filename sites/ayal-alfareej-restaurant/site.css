@@ -53,3 +53,10 @@
   [data-site="ayal-alfareej-restaurant"] .hero .hero__side .photo{animation:fareej-settle 1.4s cubic-bezier(.2,.8,.2,1) both .25s}
   @keyframes fareej-settle{from{transform:rotate(-8deg) scale(.94);opacity:0}to{transform:none;opacity:1}}
 }
+
+/* production fix round 1: proof counter + mentions */
+[data-site="ayal-alfareej-restaurant"] .stat{display:grid;gap:16px}
+[data-site="ayal-alfareej-restaurant"] .stat__num{line-height:1.15}
+[data-site="ayal-alfareej-restaurant"] .stat__num span{display:inline-block}
+[data-site="ayal-alfareej-restaurant"] .mentions{gap:10px 28px}
+[data-site="ayal-alfareej-restaurant"] .mentions li + li::before{content:none;display:none}

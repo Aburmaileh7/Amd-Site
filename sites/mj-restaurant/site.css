@@ -41,3 +41,17 @@
   [data-site="mj-restaurant"] .hero__headline::before,
   [data-site="mj-restaurant"] .marquee__dot{animation:none;opacity:1}
 }
+
+/* fix round 1 */
+[data-site="mj-restaurant"] .hero__headline::before{display:none}
+[data-site="mj-restaurant"] .hero__content .eyebrow{display:inline-block;color:#F3D2B8;background:rgba(14,9,6,.62);padding:.35em .9em;border-radius:99px;margin-bottom:14px;text-shadow:none}
+[data-site="mj-restaurant"] .hero__content .photo__badge{margin-top:12px}
+[data-site="mj-restaurant"] .visit__title{font-size:clamp(22px,3.2vw,34px);line-height:1.5;overflow-wrap:anywhere}
+[data-site="mj-restaurant"] .story,[data-site="mj-restaurant"] .menu,[data-site="mj-restaurant"] .rev,[data-site="mj-restaurant"] .amen,[data-site="mj-restaurant"] .proof{padding-block:clamp(56px,8vw,96px)}
+[data-site="mj-restaurant"] .items .item:empty,[data-site="mj-restaurant"] .items li:empty{display:none}
+[data-site="mj-restaurant"] .rev__rail{padding-inline:var(--gutter);scroll-padding-inline:var(--gutter);scroll-snap-type:x mandatory}
+[data-site="mj-restaurant"] .rev__rail .card{scroll-snap-align:start;max-width:86vw}
+@media (max-width:720px){
+  [data-site="mj-restaurant"] .story,[data-site="mj-restaurant"] .menu,[data-site="mj-restaurant"] .rev,[data-site="mj-restaurant"] .amen,[data-site="mj-restaurant"] .proof{padding-block:56px}
+  [data-site="mj-restaurant"] .rev__rail .card{flex:0 0 82vw}
+}

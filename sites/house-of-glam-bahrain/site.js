@@ -23,7 +23,7 @@
 
   var photos=Array.prototype.slice.call(root.querySelectorAll('.panel__media .photo'));
   if(!photos.length)return;
-  photos.forEach(dim);
+  var mobile=window.innerWidth<768;
   var horizontal=root.querySelector('.story--h');
   function check(){
     var w=window.innerWidth;
@@ -33,11 +33,15 @@
       if(r.width&&r.left<w*.82&&r.right>w*.1&&r.top<window.innerHeight*.85&&r.bottom>0)light(p,0);
     });
   }
-  if(horizontal&&ScrollTrigger){
+  if(mobile||!ScrollTrigger){
+    photos.forEach(function(p){var im=p.querySelector('img');if(im&&ScrollTrigger)gsap.from(im,{scale:1.12,duration:1.2,ease:'power2.out',scrollTrigger:{trigger:p,start:'top 90%',once:true}});});
+  }else if(horizontal){
     ScrollTrigger.create({trigger:horizontal,start:'top bottom',end:'bottom top',onUpdate:check,onRefresh:check});
-  }else if(ScrollTrigger){
+  }else{
+    photos.forEach(dim);
     photos.forEach(function(p){
       ScrollTrigger.create({trigger:p,start:'top 85%',once:true,onEnter:function(){light(p,0);}});
     });
-  }else{photos.forEach(function(p){gsap.set(p,{clearProps:'clipPath'});});}
+  }
+  if(!mobile)photos.forEach(dim);
 })();

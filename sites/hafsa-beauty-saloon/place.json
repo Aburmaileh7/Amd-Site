@@ -18,7 +18,7 @@
   },
   "name": "حفصة للتجميل",
   "name_lang": "ar",
-  "category_label": "صالون تجميل نسائي",
+  "category_label": "صالون تجميل",
   "area": "الراشدية 1، عجمان",
   "address": "الراشدية 1، عجمان",
   "phone": {
@@ -94,36 +94,18 @@
     "title": "الخدمات",
     "currency": "د.إ",
     "sample": false,
-    "note": "عروض مؤقتة: الأسعار كما ظهرت في فيديوهات الصالون على تيك توك (@hafsa_saloon) وقد تتغير أو تنتهي. بقية الخدمات من صفحة الصالون على Fresha ومن مراجعات الزبونات، بلا أسعار.",
+    "note": "سعر الهايلايت (100 د.إ) من صورة عرض للصالون، وبقية الخدمات بلا أسعار لأنها لم تُنشر في مصدر عام. للأسعار والحجز تواصلي مع الصالون.",
     "categories": [
       {
         "id": "offers",
-        "title": "عروض تيك توك",
-        "tagline": "عروض مؤقتة",
+        "title": "عرض الهايلايت",
+        "tagline": "عرض مؤقت",
         "image": "offer",
         "items": [
-          {
-            "name": "قص شعر",
-            "desc": "عرض مؤقت",
-            "price": 25,
-            "mentioned": true
-          },
           {
             "name": "هايلايت",
             "desc": "عرض مؤقت",
             "price": 100,
-            "mentioned": true
-          },
-          {
-            "name": "تركيب إكستنشن تيب",
-            "desc": "عرض مؤقت",
-            "price": 200,
-            "mentioned": true
-          },
-          {
-            "name": "بروتين للشعر",
-            "desc": "عرض مؤقت",
-            "price": 350,
             "mentioned": true
           }
         ]
@@ -134,6 +116,20 @@
         "tagline": "اسألي عن السعر بالهاتف",
         "image": "hair",
         "items": [
+          {
+            "name": "قص شعر"
+          },
+          {
+            "name": "إكستنشن شعر",
+            "mentioned": true
+          },
+          {
+            "name": "تركيب إكستنشن تيب"
+          },
+          {
+            "name": "بروتين للشعر",
+            "mentioned": true
+          },
           {
             "name": "صبغ الشعر",
             "desc": "ورد في مراجعات الزبونات"
@@ -246,20 +242,20 @@
   "whatsapp": null,
   "images": {
     "hair": {
+      "file": "salon-gold-interior.jpg",
+      "alt": "صورة داخل الصالون، شعر من الخلف مع ديكور ذهبي",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Hafsa%20beauty%20saloon&query_place_id=ChIJnzecHPZZXz4RpOlbna9cNEE",
+      "credit": "من خرائط Google"
+    },
+    "offer": {
       "file": "hair-closeup.jpg",
       "alt": "صورة قريبة لشعر بخصل فاتحة تحت ضوء دافئ",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Hafsa%20beauty%20saloon&query_place_id=ChIJnzecHPZZXz4RpOlbna9cNEE",
       "credit": "من خرائط Google"
     },
-    "offer": {
-      "file": "highlights-style.jpg",
-      "alt": "صورة شعر بهايلايت مموج داخل الصالون مع نص عرض الهايلايت",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=Hafsa%20beauty%20saloon&query_place_id=ChIJnzecHPZZXz4RpOlbna9cNEE",
-      "credit": "من خرائط Google"
-    },
     "facade": {
       "file": "updo-style.jpg",
-      "alt": "صورة واجهة الصالون بلافتة عنابية وشعار ذهبي في الراشدية",
+      "alt": "صورة واجهة الصالون بلافتة عنابية وبالونات في الراشدية",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Hafsa%20beauty%20saloon&query_place_id=ChIJnzecHPZZXz4RpOlbna9cNEE",
       "credit": "من خرائط Google"
     }

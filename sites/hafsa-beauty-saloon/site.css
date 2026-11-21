@@ -38,3 +38,24 @@
   [data-site="hafsa-beauty-saloon"] .hero__side{padding:28px 10px 10px}
   [data-site="hafsa-beauty-saloon"] .hero__side::before{top:9px;inset-inline:12px}
 }
+
+/* Round 1 fixes */
+[data-site="hafsa-beauty-saloon"] .visit__bg,[data-site="hafsa-beauty-saloon"] .visit__bg img{filter:blur(6px) brightness(.5)}
+[data-site="hafsa-beauty-saloon"] .visit__shade{background:rgba(54,12,20,.9)!important;opacity:1!important}
+[data-site="hafsa-beauty-saloon"] .visit .hours *,[data-site="hafsa-beauty-saloon"] .visit .contact *{color:#FFF4DC}
+[data-site="hafsa-beauty-saloon"] .hours *{font-size:inherit}
+[data-site="hafsa-beauty-saloon"] .hours [class*="time"],[data-site="hafsa-beauty-saloon"] .hours .ltr,[data-site="hafsa-beauty-saloon"] .hours dd{white-space:nowrap}
+[data-site="hafsa-beauty-saloon"] .marquee{background:#F6E3C0;color:#561722;overflow:visible;padding-block:20px;line-height:1.8}
+[data-site="hafsa-beauty-saloon"] .marquee *{color:#561722;overflow:visible}
+[data-site="hafsa-beauty-saloon"] .card p,[data-site="hafsa-beauty-saloon"] .card blockquote{unicode-bidi:plaintext;text-align:start}
+[data-site="hafsa-beauty-saloon"] .rev__rail{padding-inline:14px;scroll-snap-type:x mandatory;scrollbar-width:thin}
+[data-site="hafsa-beauty-saloon"] .rev__rail .card{scroll-snap-align:center;min-width:min(86vw,360px)}
+[data-site="hafsa-beauty-saloon"] .header-call,[data-site="hafsa-beauty-saloon"] .tabs [role="tab"],[data-site="hafsa-beauty-saloon"] .tabs button{min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+[data-site="hafsa-beauty-saloon"] .menu__sample,[data-site="hafsa-beauty-saloon"] .menu__foot{font-size:15px;color:#3b0f18}
+[data-site="hafsa-beauty-saloon"] .item:last-child{border-bottom:0}
+[data-site="hafsa-beauty-saloon"] .story{border-top:4px solid var(--hf-gold)}
+@media (max-width:899px){
+  [data-site="hafsa-beauty-saloon"] section{padding-block:clamp(56px,12vw,80px)}
+  [data-site="hafsa-beauty-saloon"] .marquee{padding-block:18px}
+  [data-site="hafsa-beauty-saloon"] .rev,[data-site="hafsa-beauty-saloon"] .story{padding-top:56px}
+}
