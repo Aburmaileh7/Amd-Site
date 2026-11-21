@@ -1,0 +1,328 @@
+{
+  "place_id": "ChIJ5ZjUGRdDXz4RbGUfZcfI2YE",
+  "batch_id": "amd-gulf-20261121",
+  "slug": "oateen-cafe-adore",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google (بيانات Apify للقائمة، محفوظة في maps.json)",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#4D5564",
+    "rgb": "77, 85, 100",
+    "hover": "#3B414D",
+    "ink": "#FFFFFF"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "name": "Oateen cafe & Adore",
+  "name_lang": "en",
+  "category_label": "مقهى وحلويات في ديرة",
+  "area": "الكورنيش، ديرة، دبي",
+  "address": "ميثا بلازا، قرب سوق الذهب، ديرة، دبي",
+  "phone": {
+    "display": "+971 4 357 8883",
+    "tel": "+97143578883"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Oateen%20cafe%20%26%20Adore&query_place_id=ChIJ5ZjUGRdDXz4RbGUfZcfI2YE",
+  "map_query": "Oateen cafe & Adore, Maitha Plaza, Gold Souq, Deira, Dubai",
+  "rating": {
+    "value": 4.6,
+    "count": 144,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "ركن هادئ قرب سوق الذهب",
+    "intro": "مقهى في ديرة على الكورنيش، قريب من سوق الذهب، يقدّم القهوة والحلويات والباستا والفطور من الثامنة صباحًا حتى منتصف الليل.",
+    "image": "hero"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "reviews",
+    "menu",
+    "amenities",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "title": "كلام الزوار عن المكان",
+    "items": [
+      {
+        "label": "الهدوء",
+        "title": "هدوء على بُعد خطوات من السوق",
+        "text": "يصفه زائر بأنه مكان هادئ يبعد نحو خمس دقائق مشيًا عن سوق الذهب، ويرى آخر أنه مناسب للجلوس بسلام.",
+        "image": "mural",
+        "time": "5 دقائق"
+      },
+      {
+        "label": "الاستقبال",
+        "title": "ودّ في الاستقبال",
+        "text": "تتكرر في التقييمات كلمات عن لطف الفريق وترحيبه، وعن صاحب المقهى الذي يعامل الزبائن باحترام.",
+        "image": "latte"
+      },
+      {
+        "label": "الحلويات",
+        "title": "حلويات بحصص سخية",
+        "text": "طلبت إحدى الزائرات كيك لوتس بيسكوف تشيز كيك وتيراميسو، ووجدتها طازجة ولذيذة وبحصص وافرة."
+      },
+      {
+        "label": "الباستا",
+        "title": "باستا الفطر الكريمية",
+        "text": "كتب أحد الزبائن أن باستا الفطر الكريمية كانت غنية بالنكهة، وأنه سيطلبها مرة بعد مرة.",
+        "image": "hero"
+      },
+      {
+        "label": "المشروبات",
+        "title": "قهوة وميلك شيك وكوكيز",
+        "text": "يذكر الزوار القهوة والشاي الأخضر والميلك شيك والكوكيز ضمن ما أعجبهم في جلستهم.",
+        "image": "violet"
+      }
+    ]
+  },
+  "marquee": {
+    "label": "في Oateen",
+    "items": [
+      "تيراميسو",
+      "باستا الفطر الكريمية",
+      "لوتس بيسكوف تشيز كيك",
+      "ميلك شيك",
+      "كوكيز",
+      "قرب سوق الذهب"
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "قائمة تقريبية",
+    "note": "منيو تقريبي: لم يُعثر على منيو حقيقي للمحل في طلبات أو تالابات أو صفحة عامة. الأصناف مأخوذة مما يذكره زوار المحل في المراجعات، والأسعار تقديرية وغير مؤكدة.",
+    "currency": "د.إ",
+    "foot": "جلسات داخلية وسفري وتوصيل",
+    "categories": [
+      {
+        "id": "drinks",
+        "title": "القهوة والمشروبات",
+        "tagline": "ساخنة وباردة",
+        "image": "latte",
+        "items": [
+          {
+            "name": "Latte",
+            "price": 18
+          },
+          {
+            "name": "Ethiopian coffee",
+            "price": 20
+          },
+          {
+            "name": "Green tea",
+            "price": 12,
+            "mentioned": true
+          },
+          {
+            "name": "Ginger tea",
+            "price": 15
+          },
+          {
+            "name": "Hot chocolate",
+            "price": 16
+          }
+        ]
+      },
+      {
+        "id": "shakes",
+        "title": "الميلك شيك",
+        "tagline": "باردة",
+        "items": [
+          {
+            "name": "Chocolate shake",
+            "price": 22
+          },
+          {
+            "name": "Tiramisu shake",
+            "price": 24
+          }
+        ]
+      },
+      {
+        "id": "sweets",
+        "title": "الحلويات",
+        "tagline": "مع القهوة",
+        "items": [
+          {
+            "name": "Tiramisu",
+            "price": 28,
+            "mentioned": true
+          },
+          {
+            "name": "Lotus Biscoff cheesecake",
+            "price": 30,
+            "mentioned": true
+          },
+          {
+            "name": "Cookies",
+            "price": 8,
+            "mentioned": true
+          }
+        ]
+      },
+      {
+        "id": "plates",
+        "title": "الأطباق",
+        "tagline": "فطور وغداء",
+        "image": "breakfast",
+        "items": [
+          {
+            "name": "Creamy Mushroom Pasta",
+            "price": 45,
+            "mentioned": true
+          },
+          {
+            "name": "English breakfast",
+            "price": 42
+          },
+          {
+            "name": "Meat manakish",
+            "price": 25
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "Lotus Biscoff cheesecake",
+    "tiramisu",
+    "Creamy Mushroom Pasta",
+    "milkshakes",
+    "cookies",
+    "green tea"
+  ],
+  "reviews": [
+    {
+      "author": "Dinora S.",
+      "stars": 5,
+      "text": "Stumbled upon this cute little cafe by accident and absolutely loved it! Cozy ambience, friendly team, absolutely delicious desserts. We ordered green tea, latte, SSebastian cake, Lotus Biscoff cheesecake and tiramisu, all were fresh, tasty, generously portioned.",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSURKaUtiU1BnEAE"
+    },
+    {
+      "author": "Gehad N.",
+      "stars": 5,
+      "text": "What a lovely service and fresh food. The owner of the cafe is very friendly with the customers and respectful. I recommend this cafe as a peaceful place.",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25GbVZtVlJZVzlOWDNGc01uZElZekE1Y1RKa1QyYxAB"
+    },
+    {
+      "author": "Amina N.",
+      "stars": 5,
+      "text": "Very kind staff, very friendly and welcoming. Good milshakes and cookies. You really will like your Oateen moment",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25sWVVFRkRlblIwVldWVk5HTkJjRGd6ZDFOU2JGRRAB"
+    },
+    {
+      "author": "Abdiaziz M.",
+      "stars": 5,
+      "text": "The Creamy Mushroom Pasta was absolutely perfect rich, creamy, and full of flavor! definitely will order again and again thank you OATEEN team",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2psM1FWaHZaMDVCV1d4Sk0wMXJSM2t5VUhZNVRWRRAB"
+    },
+    {
+      "author": "Sumit M.",
+      "stars": 5,
+      "text": "Nice quiet place near gold souk, at just 5 mins walking distance. Staff is very courteous and coffee even better",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSUNIcUxuNWxRRRAB"
+    }
+  ],
+  "amenities": {
+    "title": "ما يتوفر في المكان",
+    "image": "rose",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "من 8 صباحًا حتى منتصف الليل",
+        "text": "مفتوح كل أيام الأسبوع، للفطور والبرانش والسهرة."
+      },
+      {
+        "icon": "wifi",
+        "title": "واي فاي مجاني",
+        "text": "مكان هادئ ومناسب للعمل على اللابتوب."
+      },
+      {
+        "icon": "coffee",
+        "title": "جلسات وخدمة على الطاولة",
+        "text": "جلوس داخلي، والحجز متاح."
+      },
+      {
+        "icon": "bag",
+        "title": "سفري وتوصيل",
+        "text": ""
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للعائلات والأطفال",
+        "text": ""
+      },
+      {
+        "icon": "access",
+        "title": "موقف مهيأ للكراسي المتحركة",
+        "text": ""
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة والجوال",
+        "text": "بطاقات الائتمان والخصم والدفع اللاتلامسي."
+      }
+    ]
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "8 ص – 12 منتصف الليل"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "visit": {
+    "title": "زورونا في ديرة",
+    "image": "mural"
+  },
+  "images": {
+    "hero": {
+      "file": "oateen-pasta.jpg",
+      "alt": "صورة طبق باستا مع جبن وأعشاب في Oateen",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Oateen%20cafe%20%26%20Adore&query_place_id=ChIJ5ZjUGRdDXz4RbGUfZcfI2YE",
+      "credit": "من خرائط Google"
+    },
+    "mural": {
+      "file": "oateen-interior-wall.jpg",
+      "alt": "صورة من داخل المقهى مع جدارية Oateen وكراسي بيج",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Oateen%20cafe%20%26%20Adore&query_place_id=ChIJ5ZjUGRdDXz4RbGUfZcfI2YE",
+      "credit": "من خرائط Google"
+    },
+    "latte": {
+      "file": "oateen-latte.jpg",
+      "alt": "صورة لاتيه بنقوش الحليب على طاولة خشبية",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Oateen%20cafe%20%26%20Adore&query_place_id=ChIJ5ZjUGRdDXz4RbGUfZcfI2YE",
+      "credit": "من خرائط Google"
+    },
+    "breakfast": {
+      "file": "oateen-breakfast-tray.jpg",
+      "alt": "صورة صينية فطور بالبيض واللبنة والزيتون",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Oateen%20cafe%20%26%20Adore&query_place_id=ChIJ5ZjUGRdDXz4RbGUfZcfI2YE",
+      "credit": "من خرائط Google"
+    },
+    "violet": {
+      "file": "oateen-purple-drink.jpg",
+      "alt": "صورة مشروب بارد بطبقات بنفسجية وصفراء",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Oateen%20cafe%20%26%20Adore&query_place_id=ChIJ5ZjUGRdDXz4RbGUfZcfI2YE",
+      "credit": "من خرائط Google"
+    },
+    "rose": {
+      "file": "oateen-pink-matcha-drink.jpg",
+      "alt": "صورة مشروب بطبقات وردية وخضراء",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Oateen%20cafe%20%26%20Adore&query_place_id=ChIJ5ZjUGRdDXz4RbGUfZcfI2YE",
+      "credit": "من خرائط Google"
+    }
+  }
+}

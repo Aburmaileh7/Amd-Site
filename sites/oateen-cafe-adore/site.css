@@ -1,0 +1,82 @@
+/* Oateen cafe & Adore, Deira. The café's own wall is the palette and the motif: a patchwork mural of
+   slate, lilac and cream squares with stripes, quarter circles and zigzags. Signature: the page is
+   tiled like that wall. The hero photo sits in a mural tile (one big quarter-round corner), the
+   marquee is a slate strip of tiles, and wherever no real photo exists (desserts, shakes) the panel
+   becomes a mural tile drawn in CSS instead of a stand-in picture. */
+html[data-site="oateen-cafe-adore"]{
+  --bg:#F6F3EF;--bg-rgb:246,243,239;--surface:#EEE8EA;--surface-2:#E2D8DD;
+  --ink:#24262C;--ink-rgb:36,38,44;--muted:#5D5F68;
+  --line:rgba(36,38,44,.12);
+  --slate:#4D5564;--slate-deep:#353B47;--lilac:#D7CBD5;--mauve:#A8949F;--cream:#F4EFE8;
+  --tile:clamp(64px,8vw,120px)
+}
+
+/* the mural pattern, reused: slate stripes, a lilac quarter circle, a cream square */
+html[data-site="oateen-cafe-adore"] .hero__side,
+html[data-site="oateen-cafe-adore"] .panel-m__plain,
+html[data-site="oateen-cafe-adore"] .story .panel:not(:has(.panel__media)){
+  background-color:var(--slate);
+  background-image:
+    radial-gradient(circle at 0 0,var(--lilac) 0 calc(var(--tile)*.5),transparent calc(var(--tile)*.5 + 1px)),
+    repeating-linear-gradient(135deg,var(--cream) 0 6px,transparent 6px 16px),
+    linear-gradient(var(--mauve),var(--mauve));
+  background-size:var(--tile) var(--tile),var(--tile) var(--tile),var(--tile) var(--tile);
+  background-position:0 0,var(--tile) 0,0 var(--tile);
+  background-repeat:repeat,repeat,repeat
+}
+
+/* hero: the photo is a tile set into the wall, with one quarter-round corner like the mural's shapes */
+html[data-site="oateen-cafe-adore"] .hero__side{
+  position:relative;padding:clamp(14px,1.8vw,24px);border-radius:0;overflow:hidden
+}
+html[data-site="oateen-cafe-adore"] .hero__side .photo{
+  border-radius:0;border-start-start-radius:clamp(90px,14vw,220px);overflow:hidden;
+  outline:clamp(6px,.8vw,10px) solid var(--cream)
+}
+html[data-site="oateen-cafe-adore"] .hero__side .photo img{object-position:50% 40%!important}
+html[data-site="oateen-cafe-adore"] .hero__title{letter-spacing:-.02em}
+html[data-site="oateen-cafe-adore"] .hero__headline{letter-spacing:normal;color:var(--slate-deep)}
+
+/* marquee: a slate strip of the wall, square tile "dots" in lilac */
+html[data-site="oateen-cafe-adore"] .marquee{
+  background:var(--slate);color:var(--cream);border-block:0;
+  padding-block:clamp(18px,2.8vw,30px)
+}
+html[data-site="oateen-cafe-adore"] .marquee li{color:var(--cream)}
+html[data-site="oateen-cafe-adore"] .marquee__dot{
+  width:.55em;height:.55em;border-radius:0 0 0 100%;background:var(--lilac)
+}
+
+/* story panels without a photo: a mural tile carrying the text on a cream card */
+html[data-site="oateen-cafe-adore"] .story .panel:not(:has(.panel__media)){
+  padding:clamp(18px,3vw,40px);min-height:clamp(320px,42vw,520px);align-content:end
+}
+html[data-site="oateen-cafe-adore"] .story .panel:not(:has(.panel__media)) .panel__text{
+  background:var(--cream);padding:clamp(20px,3vw,36px);max-width:560px;
+  border-start-end-radius:clamp(48px,7vw,96px)
+}
+html[data-site="oateen-cafe-adore"] .story .panel:not(:has(.panel__media)) .panel__text .muted{color:var(--ink)}
+html[data-site="oateen-cafe-adore"] .panel__media .photo{border-radius:0;border-start-start-radius:clamp(56px,8vw,120px)}
+html[data-site="oateen-cafe-adore"] .panel__time{color:var(--slate)}
+html[data-site="oateen-cafe-adore"] .panel__clock{color:rgba(77,85,100,.22)}
+
+/* menu: the imageless categories show the wall; real photo panels keep the tile corner */
+html[data-site="oateen-cafe-adore"] .panel-m__visual{position:relative}
+html[data-site="oateen-cafe-adore"] .panel-m__visual .photo{border-radius:0;border-start-start-radius:clamp(56px,8vw,120px)}
+html[data-site="oateen-cafe-adore"] .panel-m__plain{border-radius:0}
+html[data-site="oateen-cafe-adore"] .panel-m:has(.panel-m__plain) .panel-m__caption{
+  background:var(--cream);color:var(--ink);padding:14px 18px
+}
+html[data-site="oateen-cafe-adore"] .panel-m:has(.panel-m__plain) .panel-m__caption *{color:var(--ink)}
+
+/* reviews sit on lilac, like the wall's soft squares */
+html[data-site="oateen-cafe-adore"] .rev{background:var(--surface)}
+
+/* visit: the mural photo behind, tinted slate so the text reads */
+html[data-site="oateen-cafe-adore"] .visit__shade{background:rgba(53,59,71,.78)}
+
+@media (max-width:899px){
+  html[data-site="oateen-cafe-adore"]{--tile:56px}
+  html[data-site="oateen-cafe-adore"] .hero__side .photo{border-start-start-radius:84px}
+  html[data-site="oateen-cafe-adore"] .story .panel:not(:has(.panel__media)){min-height:300px}
+}

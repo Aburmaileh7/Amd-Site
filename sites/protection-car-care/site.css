@@ -1,0 +1,85 @@
+/* Protection Car Care: a clear protective film laid over every photo, one corner lifted
+   the way a fresh PPF sheet sits before the squeegee. Hover (or focus) peels it further.
+   Emerald for Al Ain, the garden city; the rating sits on a full emerald field. */
+[data-site="protection-car-care"] {
+  --film: 46px;
+  --film-peel: 92px;
+}
+
+/* the film corner on the hero photo, story panels, service panels and visit photo */
+[data-site="protection-car-care"] .hero__side,
+[data-site="protection-car-care"] .panel__media,
+[data-site="protection-car-care"] .panel-m__media,
+[data-site="protection-car-care"] .visit img {
+  position: relative;
+}
+[data-site="protection-car-care"] .hero__side::before,
+[data-site="protection-car-care"] .panel__media::before {
+  /* the lifted sheet: a pale translucent triangle folded back from the top-left corner */
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: var(--film); height: var(--film);
+  background: rgba(245, 246, 248, .86);
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+  z-index: 3;
+  pointer-events: none;
+  transition: width .6s cubic-bezier(.2, .8, .2, 1), height .6s cubic-bezier(.2, .8, .2, 1);
+}
+[data-site="protection-car-care"] .hero__side::after,
+[data-site="protection-car-care"] .panel__media::after {
+  /* the fold edge in emerald, the colour of the squeegee line */
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: var(--film); height: var(--film);
+  background: var(--glow);
+  clip-path: polygon(calc(100% - 5px) 0, 100% 0, 0 100%, 0 calc(100% - 5px));
+  z-index: 4;
+  pointer-events: none;
+  transition: width .6s cubic-bezier(.2, .8, .2, 1), height .6s cubic-bezier(.2, .8, .2, 1);
+}
+[data-site="protection-car-care"] .hero__side:hover::before,
+[data-site="protection-car-care"] .hero__side:hover::after,
+[data-site="protection-car-care"] .panel:hover .panel__media::before,
+[data-site="protection-car-care"] .panel:hover .panel__media::after,
+[data-site="protection-car-care"] .panel:focus-within .panel__media::before,
+[data-site="protection-car-care"] .panel:focus-within .panel__media::after {
+  width: var(--film-peel);
+  height: var(--film-peel);
+}
+
+/* the rating on a whole field of emerald: 575 reviews read as the proof that people come back */
+[data-site="protection-car-care"] .proof {
+  background: var(--glow);
+  color: var(--glow-ink);
+  border-top: 0;
+}
+[data-site="protection-car-care"] .proof .stat__num {
+  color: var(--glow-ink);
+}
+[data-site="protection-car-care"] .proof .muted {
+  color: rgba(255, 255, 255, .86);
+}
+
+/* story panel label in emerald, the step number quiet */
+[data-site="protection-car-care"] .panel__time {
+  color: var(--glow);
+}
+
+/* hero headline: a solid emerald edge on the start side, like the trimmed edge of a film */
+[data-site="protection-car-care"] .hero__headline {
+  border-inline-start: 4px solid var(--glow);
+  padding-inline-start: 16px;
+  letter-spacing: normal;
+}
+
+@media (max-width: 600px) {
+  [data-site="protection-car-care"] { --film: 34px; --film-peel: 34px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-site="protection-car-care"] .hero__side::before,
+  [data-site="protection-car-care"] .hero__side::after,
+  [data-site="protection-car-care"] .panel__media::before,
+  [data-site="protection-car-care"] .panel__media::after { transition: none; }
+}
