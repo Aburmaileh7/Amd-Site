@@ -1,0 +1,300 @@
+{
+  "place_id": "ChIJ80GDFsGL9T4RnX5Niqvg-x8",
+  "batch_id": "amd-gulf-20261121",
+  "slug": "akiro-bakery",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google (بيانات Apify)، وأسماء الأصناف من صفحة المحل على طلبات ومن تقييمات الضيوف",
+  "theme": "bakery_cream",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#6C5C96",
+    "rgb": "108, 92, 150",
+    "hover": "#574A7C",
+    "ink": "#FFFFFF"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "name": "Äkiro Bakery & Speciality Coffee",
+  "name_lang": "en",
+  "name_ar": "أكيرو للمخبوزات والقهوة المختصة",
+  "category_label": "مخبز وقهوة مختصة",
+  "area": "ضاحية البديع، الشارقة",
+  "address": "6HV3+W47، شارع S116، ضاحية البديع، حي الحوشي، الشارقة",
+  "phone": {
+    "display": "+971 58 842 8557",
+    "tel": "+971588428557"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%C3%84kiro%20Bakery%20%26%20Speciality%20Coffee&query_place_id=ChIJ80GDFsGL9T4RnX5Niqvg-x8",
+  "map_query": "Äkiro Bakery & Speciality Coffee, Al Badee Suburb, Sharjah",
+  "rating": {
+    "value": 4.5,
+    "count": 271,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "6 صباحًا – منتصف الليل"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "hero": {
+    "headline": "مخبوزات طازجة وقهوة مختصة في الشارقة",
+    "intro": "مخبز وقهوة مختصة في ضاحية البديع بالشارقة، فيه كرواسون وبابكا وقهوة V60. يفتح من السادسة صباحًا حتى منتصف الليل كل يوم.",
+    "image": "hero"
+  },
+  "sections": [
+    "menu",
+    "marquee",
+    "story",
+    "proof",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "marquee": {
+    "label": "من قائمة أكيرو",
+    "items": [
+      "كرواسون الشوكولاتة الفرنسي",
+      "بابكا الحلاوة السلطانية",
+      "V60 بنكهات",
+      "سبانش لاتيه",
+      "ميني كرواسون بوكس",
+      "ضاحية البديع، الشارقة"
+    ]
+  },
+  "story": {
+    "title": "ما يقوله الضيوف",
+    "items": [
+      {
+        "label": "طوال اليوم",
+        "title": "مخبوزات طازجة طوال اليوم",
+        "text": "يذكر أحد الضيوف أن المخبوزات تُخبز طازجة في كل مرة. وتقول مراجعة أخرى إن للمكان مخبزًا ومحمصة خاصة في الخلف.",
+        "image": "story-babka"
+      },
+      {
+        "label": "مع الفنجان",
+        "title": "بابكا حلاوة سلطانية مع V60",
+        "text": "جرّبت شيخة بابكا الحلاوة السلطانية مع V60 ساخن، ووصفتهما بأنهما دافئان ولذيذان.",
+        "image": "story-v60"
+      },
+      {
+        "label": "للتجمعات",
+        "title": "كرواسون وسبانش لاتيه",
+        "text": "أعجبت لطيفة بالسبانش لاتيه وكرواسون الشوكولاتة الفرنسي. وطلبت بوكس الميني كرواسون لتجمّع عائلي، وحصلت عليه في اليوم نفسه.",
+        "image": "story-minis"
+      },
+      {
+        "label": "في الصالة",
+        "title": "جلسة هادئة وموظفون ودودون",
+        "text": "يصف الضيوف الديكور بالهادئ والموظفين بالودودين، ويعدّه بعضهم مكانًا قريبًا من البيت يرجعون إليه.",
+        "image": "story-room"
+      }
+    ]
+  },
+  "menu": {
+    "sample": false,
+    "title": "أصناف من القائمة",
+    "note": "أسماء الأصناف من صفحة المحل على طلبات ومن تقييمات الضيوف. الأسعار غير معروضة هنا.",
+    "currency": "د.إ",
+    "foot": "للطلب والاستفسار",
+    "categories": [
+      {
+        "id": "bakes",
+        "title": "المخبوزات",
+        "tagline": "كرواسون وبابكا",
+        "image": "menu-bakes",
+        "items": [
+          {
+            "name": "كرواسون الشوكولاتة الفرنسي",
+            "mentioned": true
+          },
+          {
+            "name": "ميني كرواسون بوكس",
+            "desc": "علبة كرواسون صغير بنكهات مختلفة",
+            "mentioned": true
+          },
+          {
+            "name": "بابكا الحلاوة السلطانية",
+            "mentioned": true
+          },
+          {
+            "name": "خبز الثوم الياباني"
+          },
+          {
+            "name": "تركي أفوكادو"
+          }
+        ]
+      },
+      {
+        "id": "sweets",
+        "title": "الحلويات",
+        "tagline": "من الفترينة",
+        "image": "menu-sweets",
+        "items": [
+          {
+            "name": "ترافل الشوكولاتة المقرمش"
+          },
+          {
+            "name": "تشيز كيك سان سيباستيان بالفانيلا"
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "القهوة",
+        "tagline": "حار وبارد",
+        "image": "menu-drinks",
+        "items": [
+          {
+            "name": "سبانش لاتيه",
+            "mentioned": true
+          },
+          {
+            "name": "V60 بنكهات",
+            "mentioned": true
+          },
+          {
+            "name": "أكيرو ماتشا لاتيه"
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "سبانش لاتيه",
+    "كرواسون شوكولاتة فرنسي",
+    "بابكا حلاوة سلطانية",
+    "V60 بنكهات",
+    "ميني كرواسون بوكس"
+  ],
+  "reviews": [
+    {
+      "text": "Visited today, tried Sultania Halwa babka with hot V60, warm and tasty.",
+      "author": "Shaikha A.",
+      "stars": 5,
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnTURnNXFmd2V3EAE"
+    },
+    {
+      "text": "Loved the spanish latte. And the frensh chocolate croissant. I had to order their mini croissant box to try the diffrent flaver. Great for sharing and gathering. Also extra point for them, I order the mini box same day befor 4hr of my gathering.",
+      "author": "Latifa A.",
+      "stars": 5,
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUNUbXVXb2NBEAE"
+    },
+    {
+      "text": "They have a good coffee and food. specially they have a very good bakery and testy . It’s very nice coffee and bakery ,, they make the every bakery fresh at same time and every time",
+      "author": "Ahmed A.",
+      "stars": 5,
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2t4d05rWlJibVUxYkRoTmNUbGtRM1J4Uld0TGMwRRAB"
+    },
+    {
+      "text": "Can’t stress enough how good the food and coffee is here. The staff and ambience really resembles the amazing products they offer",
+      "author": "Lianne R.",
+      "stars": 5,
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSURmcXNqeGN3EAE"
+    }
+  ],
+  "amenities": {
+    "title": "قبل أن تمرّ على أكيرو",
+    "image": "amen",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "18 ساعة كل يوم",
+        "text": "من السادسة صباحًا حتى منتصف الليل."
+      },
+      {
+        "icon": "car",
+        "title": "طلب من السيارة",
+        "text": "خدمة الطلب من السيارة، ومواقف مجانية."
+      },
+      {
+        "icon": "bag",
+        "title": "توصيل واستلام",
+        "text": "توصيل، وطلبات خارجية، واستلام من المحل."
+      },
+      {
+        "icon": "wifi",
+        "title": "واي فاي مجاني",
+        "text": "وجلسات داخل الصالة."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل لكرسي متحرك",
+        "text": "ومواقف مهيأة له."
+      }
+    ]
+  },
+  "visit": {
+    "image": "visit"
+  },
+  "images": {
+    "hero": {
+      "file": "croissant-lemon.jpg",
+      "alt": "صورة كرواسون محشو بكريمة الليمون ومزين بشريحة ليمون مجففة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%C3%84kiro%20Bakery%20%26%20Speciality%20Coffee&query_place_id=ChIJ80GDFsGL9T4RnX5Niqvg-x8",
+      "credit": "من خرائط Google"
+    },
+    "story-babka": {
+      "file": "pistachio-babka.jpg",
+      "alt": "صورة بابكا الفستق من مخبز أكيرو",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%C3%84kiro%20Bakery%20%26%20Speciality%20Coffee&query_place_id=ChIJ80GDFsGL9T4RnX5Niqvg-x8",
+      "credit": "من خرائط Google"
+    },
+    "story-v60": {
+      "file": "pour-over.jpg",
+      "alt": "صورة تحضير قهوة V60 بالتقطير في أكيرو",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%C3%84kiro%20Bakery%20%26%20Speciality%20Coffee&query_place_id=ChIJ80GDFsGL9T4RnX5Niqvg-x8",
+      "credit": "من خرائط Google"
+    },
+    "story-minis": {
+      "file": "pastry-counter.jpg",
+      "alt": "صورة صفوف الميني كرواسون المالح على رخام الكاونتر",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%C3%84kiro%20Bakery%20%26%20Speciality%20Coffee&query_place_id=ChIJ80GDFsGL9T4RnX5Niqvg-x8",
+      "credit": "من خرائط Google"
+    },
+    "story-room": {
+      "file": "interior.jpg",
+      "alt": "صورة صالة أكيرو بطاولاتها الرمادية وثرياتها الفضية",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%C3%84kiro%20Bakery%20%26%20Speciality%20Coffee&query_place_id=ChIJ80GDFsGL9T4RnX5Niqvg-x8",
+      "credit": "من خرائط Google"
+    },
+    "menu-bakes": {
+      "file": "croissant-lemon.jpg",
+      "alt": "صورة كرواسون أكيرو مقطوع ومحشو بالكريمة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%C3%84kiro%20Bakery%20%26%20Speciality%20Coffee&query_place_id=ChIJ80GDFsGL9T4RnX5Niqvg-x8",
+      "credit": "من خرائط Google"
+    },
+    "menu-sweets": {
+      "file": "chocolate-cake.jpg",
+      "alt": "صورة قطعة كيك شوكولاتة بطبقات من أكيرو",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%C3%84kiro%20Bakery%20%26%20Speciality%20Coffee&query_place_id=ChIJ80GDFsGL9T4RnX5Niqvg-x8",
+      "credit": "من خرائط Google"
+    },
+    "menu-drinks": {
+      "file": "pour-over.jpg",
+      "alt": "صورة قهوة V60 تُحضَّر في أكيرو",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%C3%84kiro%20Bakery%20%26%20Speciality%20Coffee&query_place_id=ChIJ80GDFsGL9T4RnX5Niqvg-x8",
+      "credit": "من خرائط Google"
+    },
+    "amen": {
+      "file": "pastry-counter.jpg",
+      "alt": "صورة الميني كرواسون على كاونتر أكيرو",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%C3%84kiro%20Bakery%20%26%20Speciality%20Coffee&query_place_id=ChIJ80GDFsGL9T4RnX5Niqvg-x8",
+      "credit": "من خرائط Google"
+    },
+    "visit": {
+      "file": "interior.jpg",
+      "alt": "صورة صالة أكيرو والكاونتر في ضاحية البديع",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%C3%84kiro%20Bakery%20%26%20Speciality%20Coffee&query_place_id=ChIJ80GDFsGL9T4RnX5Niqvg-x8",
+      "credit": "من خرائط Google"
+    }
+  }
+}

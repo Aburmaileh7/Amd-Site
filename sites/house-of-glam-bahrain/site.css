@@ -1,0 +1,79 @@
+/* House of Glam Bahrain: the blush-pink arched niches of the salon, lit from above.
+   Every photo is cut as an arch, the hero arch stands on a blush "wall" field,
+   and the marquee is the dark root of the colour work with honey-light ends. */
+/* site.css loads before the shared sheet, so the html prefix keeps these rules ahead of component scoped ones. */
+html[data-site="house-of-glam-bahrain"] {
+  --hog-blush: #EBD3C6;
+  --hog-gold: #B98A3E;
+  --hog-root: #2B211D;
+  --hog-honey: #E2C49A;
+}
+
+/* Signature: the arch. Desktop portrait arch, gentler elliptical arch on phones. */
+html[data-site="house-of-glam-bahrain"] .hero__side,
+html[data-site="house-of-glam-bahrain"] .panel__media .photo {
+  border-radius: 50% 50% var(--radius) var(--radius) / 34% 34% var(--radius) var(--radius);
+  overflow: hidden;
+}
+@media (max-width: 899px) {
+  html[data-site="house-of-glam-bahrain"] .hero__side,
+  html[data-site="house-of-glam-bahrain"] .panel__media .photo {
+    border-radius: 50% 50% var(--radius) var(--radius) / 42% 42% var(--radius) var(--radius);
+  }
+}
+
+/* The blush wall the hero arch is set into, like the niches in the salon */
+html[data-site="house-of-glam-bahrain"] .hero--split .hero__grid { position: relative; }
+@media (min-width: 900px) {
+  html[data-site="house-of-glam-bahrain"] .hero__side {
+    position: relative;
+    box-shadow: 0 0 0 18px var(--hog-blush);
+    margin: 18px;
+  }
+}
+@media (max-width: 899px) {
+  html[data-site="house-of-glam-bahrain"] .hero__side {
+    box-shadow: 0 0 0 10px var(--hog-blush);
+    margin: 10px;
+  }
+}
+/* the photo credit sits at the foot of the arch, never in the curved top */
+html[data-site="house-of-glam-bahrain"] .hero__side .photo__badge,
+html[data-site="house-of-glam-bahrain"] .panel__media .photo__badge {
+  bottom: 14px; top: auto;
+}
+
+/* Headline in a warm root-brown ink, not the generic black */
+html[data-site="house-of-glam-bahrain"] .hero__title { color: var(--hog-root); letter-spacing: normal; }
+html[data-site="house-of-glam-bahrain"] .hero__headline { letter-spacing: normal; line-height: 1.35; }
+
+/* Story panels: a blush step behind each arch so the pinned track reads as a row of niches */
+html[data-site="house-of-glam-bahrain"] .panel__media {
+  background: var(--hog-blush);
+  padding: 14px 14px 0;
+  border-radius: 50% 50% var(--radius) var(--radius) / 30% 30% var(--radius) var(--radius);
+}
+html[data-site="house-of-glam-bahrain"] .panel h3 { color: var(--hog-root); line-height: 1.35; letter-spacing: normal; }
+
+/* Marquee: dark root to honey ends, the colour the reviews keep praising */
+html[data-site="house-of-glam-bahrain"] .marquee { background: var(--hog-root); border-color: var(--hog-root); }
+html[data-site="house-of-glam-bahrain"] .marquee__row li { color: var(--hog-honey); font-weight: 500; letter-spacing: normal; }
+html[data-site="house-of-glam-bahrain"] .marquee__dot { background: var(--hog-gold); }
+
+/* Service list: names in root brown, the "mentioned in reviews" mark in the gold of the wall lettering */
+html[data-site="house-of-glam-bahrain"] .item__name { color: var(--hog-root); }
+html[data-site="house-of-glam-bahrain"] .item__badge { background: var(--hog-blush); color: var(--hog-root); }
+
+/* Reviews: each card sits on blush like a note pinned in the salon */
+html[data-site="house-of-glam-bahrain"] .rev .card { background: #F3E2D9; }
+html[data-site="house-of-glam-bahrain"] .card__stars { color: var(--hog-gold); }
+
+/* Proof numbers in gold lettering, as on the salon wall */
+html[data-site="house-of-glam-bahrain"] .stat__num { color: var(--hog-gold); }
+
+/* Visit: the address is long, keep it to two calm lines */
+html[data-site="house-of-glam-bahrain"] .visit__title { font-size: clamp(2rem, 5vw, 3.8rem); line-height: 1.3; }
+
+@media (prefers-reduced-motion: reduce) {
+  html[data-site="house-of-glam-bahrain"] .marquee__row { animation: none; }
+}

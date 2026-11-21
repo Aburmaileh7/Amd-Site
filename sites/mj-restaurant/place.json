@@ -1,0 +1,326 @@
+{
+  "place_id": "ChIJYcaKFcOFzz8R6r4975JcZzs",
+  "slug": "mj-restaurant",
+  "batch_id": "amd-gulf-20261121",
+  "theme": "gulf_luxe",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google (بيانات Apify) + حساب إنستغرام المحل",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#C47A4E",
+    "rgb": "196, 122, 78",
+    "hover": "#D88D5F",
+    "ink": "#1A0F0A"
+  },
+  "name": "MJ Restaurant",
+  "name_lang": "en",
+  "category_label": "مطعم في الشرق، مدينة الكويت",
+  "area": "الشرق، مدينة الكويت",
+  "address": "Khalifa Al Anazi Tower, 24 Ahmad Al Jaber St, Kuwait City, Kuwait",
+  "phone": {
+    "display": "+965 9679 1449",
+    "tel": "+96596791449"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=MJ%20Restaurant&query_place_id=ChIJYcaKFcOFzz8R6r4975JcZzs",
+  "map_query": "MJ Restaurant, Khalifa Al Anazi Tower, 24 Ahmad Al Jaber St, Kuwait City, Kuwait",
+  "rating": {
+    "value": 4,
+    "count": 210,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "إم جيه: عشاء هادئ في الشرق",
+    "intro": "سلطة كيل وشوربة فطر وروبيان مقرمش وأطباق خفيفة للمشاركة، في جلسة هادئة بإضاءة خافتة. نفتح يوميًا من 5 مساءً حتى 11:30 مساءً.",
+    "image": "interior"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "marquee",
+    "reviews",
+    "amenities",
+    "proof",
+    "visit"
+  ],
+  "marquee": {
+    "label": "على طاولة إم جيه",
+    "items": [
+      "سلطة الكيل",
+      "شوربة الفطر",
+      "روبيان مقرمش",
+      "باو الدجاج",
+      "بيتزا الفطر",
+      "الشرق، مدينة الكويت"
+    ]
+  },
+  "story": {
+    "title": "ما يتكرر في تقييمات الزبائن",
+    "items": [
+      {
+        "label": "السلطات",
+        "title": "سلطة الكيل أولًا",
+        "text": "كتبت زبونة إن أفضل ما في القائمة سلطة الكيل، وإن بقية ما جرّبته كان جيدًا. وزبون آخر أعطى سلطة الفطر مع الشوربة 9 من 10.",
+        "image": "kale"
+      },
+      {
+        "label": "للمشاركة",
+        "title": "أطباق صغيرة للمشاركة",
+        "text": "الروبيان المقرمش وباو الدجاج ذُكرا في التقييمات، وكذلك البيتزا والباستا. المطعم يقدّم الأطباق الصغيرة، ويناسب الجلسات الجماعية.",
+        "image": "bites"
+      },
+      {
+        "label": "الجلسة",
+        "title": "جو هادئ وإضاءة خافتة",
+        "text": "يصف الزبائن المكان بالهادئ والمريح، وزبون وصفه بأنه مناسب لعشاء خاص. وفي الصور نافذة تطل على المدينة.",
+        "image": "burger"
+      },
+      {
+        "label": "الخدمة",
+        "title": "خدمة ودودة",
+        "text": "كتب زبائن إن الموظفين ودودون والخدمة ممتازة. المطعم يقدّم خدمة الطاولة، ويقبل الحجز.",
+        "image": "table"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "قائمة الطعام",
+    "note": "قائمة تقريبية: لم نجد قائمة أو أسعارًا منشورة للمطعم. الأصناف مأخوذة من تقييمات الزبائن، والأسعار تقديرية.",
+    "currency": "د.ك",
+    "categories": [
+      {
+        "id": "salads",
+        "title": "سلطات",
+        "tagline": "",
+        "image": "kale",
+        "items": [
+          {
+            "name": "سلطة الكيل",
+            "desc": "",
+            "price": 3.5,
+            "mentioned": true
+          },
+          {
+            "name": "سلطة فريش",
+            "desc": "",
+            "price": 2.5,
+            "mentioned": true
+          }
+        ]
+      },
+      {
+        "id": "starters",
+        "title": "مقبلات",
+        "tagline": "",
+        "image": "bites",
+        "items": [
+          {
+            "name": "روبيان مقرمش",
+            "desc": "",
+            "price": 4.5,
+            "mentioned": true
+          },
+          {
+            "name": "شوربة الفطر",
+            "desc": "",
+            "price": 2.5,
+            "mentioned": true
+          },
+          {
+            "name": "شوربة الطماطم",
+            "desc": "",
+            "price": 2.25,
+            "mentioned": true
+          },
+          {
+            "name": "باو الدجاج",
+            "desc": "",
+            "price": 3.75,
+            "mentioned": true
+          },
+          {
+            "name": "كروستيني واغيو",
+            "desc": "",
+            "price": 5.5,
+            "mentioned": true
+          }
+        ]
+      },
+      {
+        "id": "mains",
+        "title": "أطباق رئيسية",
+        "tagline": "",
+        "image": "table",
+        "items": [
+          {
+            "name": "ريزوتو الفطر",
+            "desc": "",
+            "price": 4.75,
+            "mentioned": true
+          },
+          {
+            "name": "ستيك واغيو",
+            "desc": "",
+            "price": 12.5,
+            "mentioned": true
+          },
+          {
+            "name": "بيتزا الفطر",
+            "desc": "",
+            "price": 4.25,
+            "mentioned": true
+          },
+          {
+            "name": "باستا",
+            "desc": "",
+            "price": 3.75,
+            "mentioned": true
+          },
+          {
+            "name": "بطاطس ستريت",
+            "desc": "",
+            "price": 2.5,
+            "mentioned": true
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Zainab A.",
+      "stars": 4,
+      "text": "Honestly, the best thing on the menu has to be the kale salad it was amazing. Everything else I tried was really good too, no complaints at all. Definitely a great spot if you’re looking for a quiet, relaxed vibe with solid food choices.",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25GU2ExbExOMTlNY2t0QmVsaG5ZeTE0YTJ4dlpWRRAB"
+    },
+    {
+      "author": "Sienny A.",
+      "stars": 5,
+      "text": "Fresh Salad 8/10 Mushroom soup salad 9/10 Popcorn shrimps 9/10 chicken bao 8/10 pasta 7/10 mushroom pizza 7,5/10 atmosphere 9/10 must to visit during visit to kuwait",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUNQaU02aFpREAE"
+    },
+    {
+      "author": "Hanan S.",
+      "stars": 5,
+      "text": "The food was delicious the waiters are really friendly a great place to dine",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSUQ3dFBEXzZ3RRAB"
+    },
+    {
+      "author": "Saba",
+      "stars": 4,
+      "text": "The service and food is excellent And I highly recommend it",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnTUN3aHJTWWdRRRAB"
+    },
+    {
+      "author": "Sherif K.",
+      "stars": 5,
+      "text": "MJ resturant is truly an amazing place for a special dinner. For my dinner, I ordered the food showing in the pictures which included in the review. My full review is as follows : Food : The quality of food is excellent and very well done. From presentation, quality and taste, e…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2sxR2NtbzNOM052UTJaSmMySnFhV2hyVEcxVE4yYxAB"
+    }
+  ],
+  "mentions": [
+    "سلطة الكيل",
+    "سلطة الفطر",
+    "شوربة الفطر",
+    "شوربة الطماطم",
+    "ستيك واغيو",
+    "كروستيني واغيو",
+    "ريزوتو الفطر",
+    "بيتزا الفطر",
+    "باو الدجاج",
+    "روبيان مقرمش",
+    "بطاطس ستريت"
+  ],
+  "amenities": {
+    "title": "قبل أن تأتي",
+    "image": "table",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجز",
+        "text": "المكان هادئ، والحجز يضمن طاولتك في المساء."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": "موقف سيارات مجاني ومواقف على الشارع."
+      },
+      {
+        "icon": "tree",
+        "title": "جلوس داخلي وخارجي",
+        "text": "طاولات في الداخل وجلسة خارجية."
+      },
+      {
+        "icon": "family",
+        "title": "للمجموعات",
+        "text": "أطباق صغيرة تُطلب للمشاركة."
+      },
+      {
+        "icon": "bag",
+        "title": "توصيل واستلام",
+        "text": "اطلب للبيت أو استلم من المطعم."
+      },
+      {
+        "icon": "check",
+        "title": "طعام حلال",
+        "text": "ويقبل البطاقات والدفع باللمس."
+      }
+    ]
+  },
+  "visit": {
+    "title": "زورونا في الشرق",
+    "text": "الشرق، مدينة الكويت. يوميًا من 5 مساءً حتى 11:30 مساءً. مواقف مجانية، وجلوس داخلي وخارجي، ويقبل الحجز. التوصيل والاستلام من المطعم متاحان.",
+    "image": "burger"
+  },
+  "images": {
+    "burger": {
+      "file": "mj-burger.jpg",
+      "alt": "صورة برغر مقدّم على طاولة خشبية مع إضاءة دافئة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=MJ%20Restaurant&query_place_id=ChIJYcaKFcOFzz8R6r4975JcZzs",
+      "credit": "من خرائط Google"
+    },
+    "interior": {
+      "file": "mj-interior.jpg",
+      "alt": "صورة داخل المطعم بإضاءة خافتة ونافذة تطل على المدينة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=MJ%20Restaurant&query_place_id=ChIJYcaKFcOFzz8R6r4975JcZzs",
+      "credit": "من خرائط Google"
+    },
+    "bites": {
+      "file": "mj-spoon-bites.jpg",
+      "alt": "صورة لقيمات تقدّم على ملاعق بيضاء",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=MJ%20Restaurant&query_place_id=ChIJYcaKFcOFzz8R6r4975JcZzs",
+      "credit": "من خرائط Google"
+    },
+    "kale": {
+      "file": "mj-kale-salad.jpg",
+      "alt": "صورة سلطة الكيل في طبق أبيض",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=MJ%20Restaurant&query_place_id=ChIJYcaKFcOFzz8R6r4975JcZzs",
+      "credit": "من خرائط Google"
+    },
+    "table": {
+      "file": "mj-plates-table.jpg",
+      "alt": "صورة أطباق مقرمشة وأطباق مشتركة على الطاولة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=MJ%20Restaurant&query_place_id=ChIJYcaKFcOFzz8R6r4975JcZzs",
+      "credit": "من خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "5 م – 11:30 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

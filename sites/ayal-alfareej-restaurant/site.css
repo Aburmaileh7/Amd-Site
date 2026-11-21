@@ -1,0 +1,55 @@
+/* Ayal Alfareej (عيال الفريج): the neighbourhood sufra.
+   Signature: the round tray. Hero and story photos sit as round trays on a woven palm-frond mat;
+   the marquee is a woven sufra band in the blue of the restaurant's chairs and the saffron of the maqbus. */
+[data-site="ayal-alfareej-restaurant"]{--fareej-blue:31, 79, 143;--fareej-saffron:214, 154, 45;--fareej-frond:176, 132, 72}
+
+/* 1. Woven palm-frond mat behind the hero tray */
+[data-site="ayal-alfareej-restaurant"] .hero{position:relative;isolation:isolate}
+[data-site="ayal-alfareej-restaurant"] .hero .hero__side{position:relative;display:grid;place-items:center;padding:clamp(18px,3vw,40px)}
+[data-site="ayal-alfareej-restaurant"] .hero .hero__side::before{content:"";position:absolute;inset:0;z-index:-1;border-radius:18px;pointer-events:none;
+  background:
+    repeating-linear-gradient(45deg,rgba(var(--fareej-frond),.22) 0 10px,transparent 10px 20px),
+    repeating-linear-gradient(-45deg,rgba(var(--fareej-frond),.16) 0 10px,transparent 10px 20px),
+    rgba(var(--fareej-frond),.10)}
+
+/* 2. The round tray: circular crop with a metal rim */
+[data-site="ayal-alfareej-restaurant"] .hero .hero__side .photo{width:min(100%,560px);aspect-ratio:1;height:auto;border-radius:50%;overflow:hidden;
+  box-shadow:0 0 0 10px #E9E2D3,0 0 0 13px rgba(var(--fareej-saffron),.85),0 24px 40px -18px rgba(40,25,10,.45)}
+[data-site="ayal-alfareej-restaurant"] .hero .hero__side .photo img{width:100%;height:100%;object-fit:cover}
+[data-site="ayal-alfareej-restaurant"] .hero .hero__side .photo__badge,
+[data-site="ayal-alfareej-restaurant"] .story .panel__media .photo__badge{inset-inline:auto;left:50%;right:auto;transform:translateX(-50%);
+  top:auto;bottom:9%;border-radius:999px;white-space:nowrap}
+@media (max-width:899px){
+  [data-site="ayal-alfareej-restaurant"] .hero .hero__side{padding:16px;margin-top:8px}
+  [data-site="ayal-alfareej-restaurant"] .hero .hero__side .photo{width:min(86vw,420px)}
+}
+
+/* 3. Story panels: each photo is another tray set on the sufra */
+[data-site="ayal-alfareej-restaurant"] .story .panel__media .photo{aspect-ratio:1;height:auto;border-radius:50%;overflow:hidden;
+  max-width:min(100%,520px);margin-inline:auto;box-shadow:0 0 0 8px #E9E2D3,0 0 0 11px rgba(var(--fareej-saffron),.8)}
+[data-site="ayal-alfareej-restaurant"] .story .panel__media .photo img{width:100%;height:100%;object-fit:cover}
+[data-site="ayal-alfareej-restaurant"] .story .panel__time span{color:rgb(var(--fareej-blue))}
+
+/* 4. The sufra band: marquee woven in blue and saffron */
+[data-site="ayal-alfareej-restaurant"] .marquee.marquee{position:relative;border:0;color:#FFF8EA;
+  background:
+    repeating-linear-gradient(90deg,rgba(var(--fareej-saffron),.0) 0 22px,rgba(var(--fareej-saffron),.22) 22px 26px),
+    rgb(var(--fareej-blue));
+  padding-block:clamp(24px,3.6vw,42px)}
+[data-site="ayal-alfareej-restaurant"] .marquee.marquee::before,
+[data-site="ayal-alfareej-restaurant"] .marquee.marquee::after{content:"";position:absolute;inset-inline:0;height:10px;pointer-events:none;
+  background:repeating-linear-gradient(45deg,rgb(var(--fareej-saffron)) 0 6px,transparent 6px 12px),rgba(var(--fareej-blue),1)}
+[data-site="ayal-alfareej-restaurant"] .marquee.marquee::before{top:0}
+[data-site="ayal-alfareej-restaurant"] .marquee.marquee::after{bottom:0}
+[data-site="ayal-alfareej-restaurant"] .marquee .marquee__dot{background:rgb(var(--fareej-saffron));width:.42em;height:.42em;border-radius:50%}
+
+/* 5. Saffron touches */
+[data-site="ayal-alfareej-restaurant"] .menu .tabs__ink{background:rgb(var(--fareej-saffron))}
+[data-site="ayal-alfareej-restaurant"] .menu .panel-m__visual .photo{border-radius:50% 50% 14px 14px / 34% 34% 14px 14px;overflow:hidden}
+[data-site="ayal-alfareej-restaurant"] .rev .card{border-top:4px solid rgb(var(--fareej-saffron))}
+
+/* Slow turn of the hero tray, like a tray being set down (no reduced motion) */
+@media (hover:hover) and (prefers-reduced-motion:no-preference){
+  [data-site="ayal-alfareej-restaurant"] .hero .hero__side .photo{animation:fareej-settle 1.4s cubic-bezier(.2,.8,.2,1) both .25s}
+  @keyframes fareej-settle{from{transform:rotate(-8deg) scale(.94);opacity:0}to{transform:none;opacity:1}}
+}

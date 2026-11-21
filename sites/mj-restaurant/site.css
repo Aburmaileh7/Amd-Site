@@ -1,0 +1,43 @@
+/* MJ Restaurant — signature: "the lamp lights at 5 PM against Sharq's towers".
+   A copper table-lamp pool glows under the hero text; the marquee dots become
+   lit tower windows that switch on one by one, like the view through MJ's glass. */
+[data-site="mj-restaurant"]{--mj-copper:196,122,78;--mj-tower:120,200,230}
+
+/* hero: keep the window + table band of the portrait photo in frame */
+[data-site="mj-restaurant"] .hero__media img{object-position:50% 52%}
+[data-site="mj-restaurant"] .hero__shade{background:
+  radial-gradient(60% 45% at 78% 88%,rgba(var(--mj-copper),.28),transparent 70%),
+  linear-gradient(to top,rgba(14,9,6,.88) 0%,rgba(14,9,6,.45) 45%,rgba(14,9,6,.15) 100%)}
+[data-site="mj-restaurant"] .hero__title{letter-spacing:-.02em;text-shadow:0 0 38px rgba(var(--mj-copper),.35)}
+[data-site="mj-restaurant"] .hero__headline{letter-spacing:normal;line-height:1.35}
+
+/* the lamp: a small copper shade that warms up once, beside the headline */
+[data-site="mj-restaurant"] .hero__headline::before{content:"";display:inline-block;width:.62em;height:.36em;margin-inline-end:.45em;vertical-align:.12em;
+  border-radius:.62em .62em .08em .08em;background:rgb(var(--mj-copper));
+  box-shadow:0 .35em 1.1em .1em rgba(var(--mj-copper),.55);animation:mj-lamp 2.4s .6s ease-out both}
+@keyframes mj-lamp{0%{opacity:.25;box-shadow:0 .35em 0 0 rgba(var(--mj-copper),0)}40%{opacity:.6}55%{opacity:.35}100%{opacity:1;box-shadow:0 .35em 1.1em .1em rgba(var(--mj-copper),.55)}}
+
+/* marquee: lit tower windows instead of dots */
+[data-site="mj-restaurant"] .marquee__dot{width:.5em;height:.72em;border-radius:1px;background:rgb(var(--mj-tower));
+  opacity:.25;animation:mj-window 4.8s steps(1) infinite}
+[data-site="mj-restaurant"] .marquee__track li:nth-child(3n+2) .marquee__dot{animation-delay:1.6s;background:rgb(var(--mj-copper))}
+[data-site="mj-restaurant"] .marquee__track li:nth-child(3n) .marquee__dot{animation-delay:3.2s}
+@keyframes mj-window{0%{opacity:.25}20%{opacity:1}75%{opacity:1}90%{opacity:.4}}
+
+/* story panels: copper hour plate */
+[data-site="mj-restaurant"] .panel__time{color:rgb(var(--mj-copper))}
+[data-site="mj-restaurant"] .panel__media img{filter:saturate(1.05) contrast(1.04)}
+
+/* menu: the sample note stays clearly visible, lit in copper */
+[data-site="mj-restaurant"] .menu__sample{color:var(--ink);border-color:rgba(var(--mj-copper),.6);background:rgba(var(--mj-copper),.08)}
+
+@media (max-width:720px){
+  [data-site="mj-restaurant"] .hero__media img{object-position:50% 45%}
+  [data-site="mj-restaurant"] .hero__shade{background:
+    radial-gradient(90% 40% at 50% 92%,rgba(var(--mj-copper),.25),transparent 70%),
+    linear-gradient(to top,rgba(14,9,6,.9) 0%,rgba(14,9,6,.5) 55%,rgba(14,9,6,.2) 100%)}
+}
+@media (prefers-reduced-motion:reduce){
+  [data-site="mj-restaurant"] .hero__headline::before,
+  [data-site="mj-restaurant"] .marquee__dot{animation:none;opacity:1}
+}

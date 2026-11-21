@@ -1,0 +1,303 @@
+{
+  "place_id": "ChIJ2aJ4vENh0T0Rm30ot5PrPPI",
+  "slug": "ayal-alfareej-restaurant",
+  "batch_id": "amd-gulf-20261121",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "قائمة المطعم على خرائط Google (عبر Apify)",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#1F4F8F",
+    "rgb": "31, 79, 143",
+    "hover": "#173D70",
+    "ink": "#FFFFFF"
+  },
+  "name": "مطعم عيال الفريج",
+  "name_lang": "ar",
+  "category_label": "مطعم عربي في صلالة",
+  "area": "الوادي، صلالة",
+  "address": "الوادي، صلالة، سلطنة عُمان",
+  "phone": {
+    "display": "+968 9141 5777",
+    "tel": "+96891415777"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Ayal%20Alfareej%20Restaurant&query_place_id=ChIJ2aJ4vENh0T0Rm30ot5PrPPI",
+  "map_query": "Ayal Alfareej Restaurant, Salalah, Oman",
+  "rating": {
+    "value": 4.5,
+    "count": 3248,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "مشاوي ومقبوس على سفرة عيال الفريج",
+    "intro": "مطعم عربي في صلالة يفتح من السابعة صباحًا حتى 11:30 مساءً، وأكثر من 3,200 مراجعة على خرائط Google تقيّمه بـ 4.5.",
+    "image": "grill"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "menu",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "marquee": {
+    "label": "على السفرة",
+    "items": [
+      "مشاوي مشكّلة",
+      "مقبوس لحم",
+      "مندي وكبسة",
+      "سمك مشوي",
+      "لقيمات",
+      "شاي سليماني"
+    ]
+  },
+  "story": {
+    "title": "ما يتكرر في المراجعات",
+    "items": [
+      {
+        "label": "الضيافة",
+        "title": "ضيافة قبل الأكل وبعده",
+        "text": "يذكر الزوار شوربة تُقدَّم وأنت تنتظر، وشاي بعد الوجبة، ولقيمات ضيافة.",
+        "image": "luqaimat"
+      },
+      {
+        "label": "المشاوي والمقبوس",
+        "title": "مشاوي ومقبوس بنكهة واضحة",
+        "text": "المشاوي المشكّلة وصفها زائر بأنها ممتازة وتكفي وزيادة، ومقبوس اللحم قال عنه آخر إن نكهة أرزه رائعة.",
+        "image": "rice"
+      },
+      {
+        "label": "العائلات",
+        "title": "جلسة للعائلة",
+        "text": "تذكر المراجعات أن في المطعم حواجز تمنح العائلات خصوصية، وديكورًا بطابع فني تراثي وركنًا بكراسٍ زرقاء.",
+        "image": "interior"
+      },
+      {
+        "label": "موسم الخريف",
+        "title": "زحمة الخريف وصبر يستحق",
+        "text": "في موسم الخريف قد تطول الانتظارات ويصعب إيجاد مقعد، ومع ذلك يصفه الزوار بأنه مزدحم لسبب وجيه.",
+        "image": "spread"
+      },
+      {
+        "label": "للجميع",
+        "title": "خيارات نباتية وأسعار معقولة",
+        "text": "زائرة وجدت خيارات نباتية كثيرة، وآخر وصف الأسعار بالمعقولة وسمكه المشوي بالطازج.",
+        "image": "grill"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "title": "أصناف تذكرها المراجعات",
+    "note": "منيو تقريبي: الأصناف من المراجعات والصور، والأسعار تقديرية وليست من المحل.",
+    "currency": "ر.ع",
+    "categories": [
+      {
+        "id": "grill",
+        "title": "المشويات",
+        "tagline": "من الفحم إلى الصينية",
+        "image": "grill",
+        "items": [
+          {
+            "name": "المشاوي المشكّلة",
+            "desc": "",
+            "price": 7.5,
+            "mentioned": true
+          },
+          {
+            "name": "سمك مشوي",
+            "desc": "",
+            "price": 4.5,
+            "mentioned": true
+          },
+          {
+            "name": "عريس لحم",
+            "desc": "",
+            "price": 2.0,
+            "mentioned": true
+          }
+        ]
+      },
+      {
+        "id": "rice",
+        "title": "الأرز",
+        "tagline": "مقبوس ومندي وكبسة",
+        "image": "rice",
+        "items": [
+          {
+            "name": "مندي لحم",
+            "desc": "",
+            "price": 3.5,
+            "mentioned": true
+          },
+          {
+            "name": "مقبوس لحم",
+            "desc": "",
+            "price": 3.0,
+            "mentioned": true
+          },
+          {
+            "name": "كبسة",
+            "desc": "",
+            "price": 3.0,
+            "mentioned": true
+          }
+        ]
+      },
+      {
+        "id": "sweet",
+        "title": "حلويات وشاي",
+        "tagline": "ختام السفرة",
+        "image": "luqaimat",
+        "items": [
+          {
+            "name": "لقيمات",
+            "desc": "",
+            "price": 1.0,
+            "mentioned": true
+          },
+          {
+            "name": "شاي سليماني",
+            "desc": "",
+            "price": 0.5,
+            "mentioned": true
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Semeel",
+      "stars": 5,
+      "text": "Had a really good experience at Ayal Al Fareej Restaurant. The food was fresh, tasty, and full of flavour. The portions were good, and the service was friendly and welcoming. The restaurant has a nice local atmosphere, and everything was served nicely.…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2pscVptcENNVUpaZEROcVpsVjJSRjlGZW1OR1UyYxAB"
+    },
+    {
+      "author": "Ananthan P.",
+      "stars": 4,
+      "text": "Great food. Very reasonable pricing. The complementary tea, coffee and soup etc are great too. We had the lamb meat with Maqbus rice, the rice was amazingly flavourful. The beef Arayees was a bit dry for us. The grilled fish was very fresh and tasty.…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2kxM1VVZERNMHBhUzJsTmVIaHFUV1l4TTFsS2MxRRAB"
+    },
+    {
+      "author": "Gabriela J.",
+      "stars": 5,
+      "text": "The food was absolutely amazing and truly authentic. Everything was full of flavor and there were plenty of delicious vegetarian options to choose from. The atmosphere was lovely and the whole experience felt very nice.…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2tVeldrMXBNVVJ6VFZwaFRtbEVYM2RUVjE5aGRHYxAB"
+    },
+    {
+      "author": "M G.",
+      "stars": 5,
+      "text": "A typical local Arabic restaurant. It’s busy for a good reason, the foods great and the staff are very friendly and efficient. I had a mixed grill that was excellent and more than enough and you get a complimentary cup of soup with you wait. Then a pot of tea to finish.…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xObFdtUlFSbFoyYTFGdVZHWnZiR1JRVW1kNldVRRAB"
+    },
+    {
+      "author": "Abdul J.",
+      "stars": 5,
+      "text": "The taste is great. There are extremely long waits during the khareef season and difficult to find a seat. They serve complementary soup,tea and luqaimat. They also provide partition for families for privacy. The interiors are very beautiful showing cultural art styles and such.",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT205SWExaEhPV3hvYUhSMmVTMUlaR3BMUVZSMlRrRRAB"
+    }
+  ],
+  "mentions": [
+    "مشاوي مشكّلة",
+    "مقبوس لحم",
+    "مندي",
+    "كبسة",
+    "لقيمات",
+    "شاي سليماني",
+    "سمك مشوي",
+    "عريس لحم"
+  ],
+  "amenities": {
+    "title": "قبل أن تزورونا",
+    "image": "interior",
+    "items": [
+      {
+        "icon": "family",
+        "title": "جلسات عائلية وغرفة خاصة",
+        "text": "ومناسب للأطفال."
+      },
+      {
+        "icon": "calendar",
+        "title": "يقبل الحجز",
+        "text": "وتجهيز الطعام للمناسبات."
+      },
+      {
+        "icon": "bag",
+        "title": "توصيل واستلام وطلب من السيارة",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": ""
+      },
+      {
+        "icon": "access",
+        "title": "جلوس ودورة مياه لكراسي العجلات",
+        "text": ""
+      },
+      {
+        "icon": "check",
+        "title": "يقبل البطاقات والدفع باللمس",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "spread"
+  },
+  "images": {
+    "grill": {
+      "file": "ayal-grill-platter.jpg",
+      "alt": "صورة لطبق مشاوي مشكّل من مطعم عيال الفريج في صلالة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Ayal%20Alfareej%20Restaurant&query_place_id=ChIJ2aJ4vENh0T0Rm30ot5PrPPI",
+      "credit": "من خرائط Google"
+    },
+    "rice": {
+      "file": "ayal-rice-platter.jpg",
+      "alt": "صورة لطبق أرز مع لحم كامل يقدَّم في المطعم",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Ayal%20Alfareej%20Restaurant&query_place_id=ChIJ2aJ4vENh0T0Rm30ot5PrPPI",
+      "credit": "من خرائط Google"
+    },
+    "interior": {
+      "file": "ayal-interior.jpg",
+      "alt": "صورة لأحد أركان المطعم بالطاولات والكراسي الزرقاء",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Ayal%20Alfareej%20Restaurant&query_place_id=ChIJ2aJ4vENh0T0Rm30ot5PrPPI",
+      "credit": "من خرائط Google"
+    },
+    "luqaimat": {
+      "file": "ayal-luqaimat.jpg",
+      "alt": "صورة لقيمات تُقدَّم في كوب",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Ayal%20Alfareej%20Restaurant&query_place_id=ChIJ2aJ4vENh0T0Rm30ot5PrPPI",
+      "credit": "من خرائط Google"
+    },
+    "spread": {
+      "file": "ayal-meal-spread.jpg",
+      "alt": "صورة لمائدة مليئة بالخبز والمشاوي والأطباق",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Ayal%20Alfareej%20Restaurant&query_place_id=ChIJ2aJ4vENh0T0Rm30ot5PrPPI",
+      "credit": "من خرائط Google"
+    }
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "7 ص – 11:30 م"
+      }
+    ],
+    "per_day": null,
+    "source": "Google Maps"
+  }
+}

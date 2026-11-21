@@ -1,0 +1,40 @@
+/* Hafsa: the maroon sign board over the salon door in Al Rashidiya, its row of small warm spotlights and the gold H. */
+[data-site="hafsa-beauty-saloon"]{--hf-board:#6E1F2B;--hf-board-deep:#561722;--hf-gold:#E7B93A;--hf-bulb:#FFE6A6}
+
+/* Signature: the hero photo hangs on the sign board, with its row of bulbs along the top edge */
+[data-site="hafsa-beauty-saloon"] .hero__side{position:relative;background:var(--hf-board);padding:34px 14px 14px;border-radius:6px}
+[data-site="hafsa-beauty-saloon"] .hero__side::before{content:"";position:absolute;inset-inline:18px;top:12px;height:10px;pointer-events:none;
+  background:radial-gradient(circle at 5px 5px,var(--hf-bulb) 0 3px,rgba(255,214,120,.35) 4px,transparent 5.5px) 0 0/30px 10px repeat-x;
+  filter:drop-shadow(0 0 4px rgba(255,210,110,.7))}
+[data-site="hafsa-beauty-saloon"] .hero__side::after{content:"";position:absolute;inset-inline-start:14px;bottom:14px;width:46px;height:4px;background:var(--hf-gold);pointer-events:none}
+[data-site="hafsa-beauty-saloon"] .hero__side img{border-radius:3px}
+
+/* The name set like the sign's lettering: maroon, with a short gold bar under it */
+[data-site="hafsa-beauty-saloon"] .hero__title{color:var(--hf-board)}
+[data-site="hafsa-beauty-saloon"] .hero__title::after{content:"";display:block;width:72px;height:6px;margin-top:14px;background:var(--hf-gold)}
+[data-site="hafsa-beauty-saloon"] .hero .eyebrow{color:var(--hf-board-deep);font-weight:600}
+
+/* Offers board: maroon field like the sign, prices in gold */
+[data-site="hafsa-beauty-saloon"] #panel-offers .item__price{color:var(--hf-board);font-weight:700}
+[data-site="hafsa-beauty-saloon"] .panel-m__visual img{object-position:50% 30%}
+[data-site="hafsa-beauty-saloon"] .item__badge{color:var(--hf-board-deep)}
+
+/* Marquee runs on the board colour, words in the bulbs' warm light */
+[data-site="hafsa-beauty-saloon"] .marquee{background:var(--hf-board);color:#FFF4DC}
+[data-site="hafsa-beauty-saloon"] .marquee *{color:inherit}
+
+/* Story: each item opens with a small gold bar, like the bar under the sign's name */
+[data-site="hafsa-beauty-saloon"] .panel__text h3::before{content:"";display:block;width:36px;height:4px;margin-bottom:12px;background:var(--hf-gold)}
+
+/* Reviews: star colour in the logo's gold */
+[data-site="hafsa-beauty-saloon"] .card__stars{color:#B88A14}
+
+/* Visit: the same row of bulbs crowns the facade photo section */
+[data-site="hafsa-beauty-saloon"] .visit{position:relative}
+[data-site="hafsa-beauty-saloon"] .visit::before{content:"";position:absolute;z-index:3;inset-inline:0;top:0;height:12px;pointer-events:none;
+  background:var(--hf-board) radial-gradient(circle at 50% 6px,var(--hf-bulb) 0 2.5px,transparent 4px) 0 0/28px 12px repeat-x}
+
+@media (max-width:899px){
+  [data-site="hafsa-beauty-saloon"] .hero__side{padding:28px 10px 10px}
+  [data-site="hafsa-beauty-saloon"] .hero__side::before{top:9px;inset-inline:12px}
+}

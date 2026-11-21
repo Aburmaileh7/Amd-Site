@@ -1,0 +1,267 @@
+{
+  "place_id": "ChIJnzecHPZZXz4RpOlbna9cNEE",
+  "slug": "hafsa-beauty-saloon",
+  "batch_id": "amd-gulf-20261121",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "قائمة الصالون على خرائط Google وصفحته على Fresha وفيديوهات عروضه على تيك توك",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#6E1F2B",
+    "rgb": "110, 31, 43",
+    "hover": "#561722",
+    "ink": "#FFFFFF"
+  },
+  "name": "حفصة للتجميل",
+  "name_lang": "ar",
+  "category_label": "صالون تجميل نسائي",
+  "area": "الراشدية 1، عجمان",
+  "address": "الراشدية 1، عجمان",
+  "phone": {
+    "display": "+971 50 568 9591",
+    "tel": "+971505689591"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Hafsa%20beauty%20saloon&query_place_id=ChIJnzecHPZZXz4RpOlbna9cNEE",
+  "map_query": "Hafsa beauty saloon, Al Rashidiya 1, Ajman",
+  "rating": {
+    "value": 4.7,
+    "count": 835,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "شعرك وأظافرك وبشرتك في صالون واحد بعجمان",
+    "intro": "صالون حفصة للتجميل في الراشدية 1 بعجمان، يقدّم صبغ الشعر والبروتين والإكستنشن والأظافر، وتصفه زبوناته بالاحترافية وبالصبر في الشرح.",
+    "image": "hair"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "menu",
+    "marquee",
+    "proof",
+    "story",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "marquee": {
+    "label": "خدمات الصالون",
+    "items": [
+      "هايلايت",
+      "بروتين للشعر",
+      "إكستنشن",
+      "قص شعر",
+      "مكياج",
+      "الراشدية، عجمان"
+    ]
+  },
+  "story": {
+    "title": "ما تقوله زبونات الصالون",
+    "items": [
+      {
+        "title": "تشرح لك كل خطوة",
+        "text": "تكتب إحدى الزبونات أن المختصة تشرح كل شيء بصبر وتجيب عن كل الأسئلة، وتجعلك مرتاحة طوال الجلسة.",
+        "label": "الشرح"
+      },
+      {
+        "title": "تسمع طلبك قبل أن تبدأ",
+        "text": "زبونة أخرى تذكر أنها استمعت جيداً لما تريده، وخرجت من القصّة راضية وتنوي العودة.",
+        "label": "الاستماع"
+      },
+      {
+        "title": "خدمات الشعر والأظافر في مكان واحد",
+        "text": "من الهايلايت وصبغ الشعر إلى البروتين والإكستنشن وأظافر الإكستنشن، وكل ذلك ورد في تقييمات الزبونات.",
+        "label": "الخدمات"
+      },
+      {
+        "title": "عناية بالتفاصيل",
+        "text": "تقول إحدى الزبونات إن الفريق احترافي ولطيف ويهتم بكل تفصيل، وإن النتيجة أعجبتها.",
+        "label": "التفاصيل"
+      },
+      {
+        "title": "مفتوح حتى وقت متأخر",
+        "text": "يستقبل الصالون زبوناته من الساعة 11 صباحاً حتى 11:30 مساءً في أغلب أيام الأسبوع، ويقبل الدفع بالبطاقة.",
+        "label": "المواعيد"
+      }
+    ]
+  },
+  "menu": {
+    "title": "الخدمات",
+    "currency": "د.إ",
+    "sample": false,
+    "note": "عروض مؤقتة: الأسعار كما ظهرت في فيديوهات الصالون على تيك توك (@hafsa_saloon) وقد تتغير أو تنتهي. بقية الخدمات من صفحة الصالون على Fresha ومن مراجعات الزبونات، بلا أسعار.",
+    "categories": [
+      {
+        "id": "offers",
+        "title": "عروض تيك توك",
+        "tagline": "عروض مؤقتة",
+        "image": "offer",
+        "items": [
+          {
+            "name": "قص شعر",
+            "desc": "عرض مؤقت",
+            "price": 25,
+            "mentioned": true
+          },
+          {
+            "name": "هايلايت",
+            "desc": "عرض مؤقت",
+            "price": 100,
+            "mentioned": true
+          },
+          {
+            "name": "تركيب إكستنشن تيب",
+            "desc": "عرض مؤقت",
+            "price": 200,
+            "mentioned": true
+          },
+          {
+            "name": "بروتين للشعر",
+            "desc": "عرض مؤقت",
+            "price": 350,
+            "mentioned": true
+          }
+        ]
+      },
+      {
+        "id": "more",
+        "title": "خدمات أخرى",
+        "tagline": "اسألي عن السعر بالهاتف",
+        "image": "hair",
+        "items": [
+          {
+            "name": "صبغ الشعر",
+            "desc": "ورد في مراجعات الزبونات"
+          },
+          {
+            "name": "أظافر إكستنشن",
+            "desc": "ورد في مراجعات الزبونات"
+          },
+          {
+            "name": "مناكير وبديكير",
+            "desc": "ورد في مراجعات الزبونات"
+          },
+          {
+            "name": "فيشل",
+            "desc": "من صفحة الصالون على Fresha"
+          },
+          {
+            "name": "مكياج",
+            "desc": "من صفحة الصالون على Fresha"
+          },
+          {
+            "name": "نحت الجسم",
+            "desc": "من صفحة الصالون على Fresha"
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Shareen Q.",
+      "stars": 5,
+      "text": "I had a wonderful experience at this salon! I got , hair coloring, protein treatment, hairs extension and nail extensions, and everything was done perfectly. The staff is very professional, friendly, and cooperative. Special thanks to Roma and Sehar for their amazing service…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25ScWNqRlNZamRoVG5sM2ExUk5lR2sxUkVVNFptYxAB"
+    },
+    {
+      "author": "Konen F.",
+      "stars": 5,
+      "text": "Absolutely loved my highlights done by Sehar! ❤️ She’s amazing at what she does, but what makes her even more special is her personality. She explains everything so patiently, answers all your questions, and makes you feel comfortable throughout the whole experience. She’s such…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xSaldrTTNYMHhxU20xWVEyMWhTblJNV0dseVEwRRAB"
+    },
+    {
+      "author": "Nabeela S.",
+      "stars": 5,
+      "text": "I had a wonderful experience with Zain at Hafsa Salon Branch 2. She is very professional, friendly, and talented. She listened carefully to what I wanted and gave me a beautiful haircut. I am so happy with the result and will definitely come back. Thank you, Zain, for your…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xkdVpIUnhSemR1VDNsc1lXWlZWV0YzVEU1S00zYxAB"
+    },
+    {
+      "author": "Muhammad I.",
+      "stars": 5,
+      "text": "I am sehrish and I really would like to express my honest acknowledgement and thanks to Hafza salon in Ajman. I went there yesterday for organic protein treatment for me and my daughter. It was awesome and the staff was so efficient and professional. SEHAR and GAGAN did a…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2s5cmQySlFOVWwzVlRWb2VFWkVjRzlMWkhaYU5IYxAB"
+    },
+    {
+      "author": "Kiran J.",
+      "stars": 4,
+      "text": "I had such a great experience at the beauty salon, and Sahar did an amazing job! She was very professional, kind, and paid close attention to every detail. I’m really happy with the results and loved how everything turned out. She made me feel comfortable and took her time to…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT21ka056TlFXWGxFVm0xdlMzZFZTV0ZmUVVWdVluYxAB"
+    }
+  ],
+  "mentions": [
+    "صبغ الشعر",
+    "بروتين الشعر",
+    "إكستنشن الشعر",
+    "أظافر إكستنشن",
+    "هايلايت",
+    "قصة الفراشة"
+  ],
+  "amenities": {
+    "title": "قبل زيارتك",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "مفتوح حتى 11:30 ليلًا",
+        "text": "من 11 صباحًا في أغلب أيام الأسبوع."
+      },
+      {
+        "icon": "bag",
+        "title": "الدفع بالبطاقة",
+        "text": "بطاقات الائتمان والخصم، والدفع اللاتلامسي NFC."
+      },
+      {
+        "icon": "check",
+        "title": "دورة مياه",
+        "text": "متوفرة داخل الصالون."
+      }
+    ]
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الإثنين، الأربعاء والخميس",
+        "time": "11 ص – 11:30 م"
+      },
+      {
+        "days": "الثلاثاء",
+        "time": "11 ص – 10:30 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "2 م – 11:30 م"
+      }
+    ],
+    "per_day": null,
+    "source": "خرائط Google"
+  },
+  "visit": {
+    "image": "facade"
+  },
+  "whatsapp": null,
+  "images": {
+    "hair": {
+      "file": "hair-closeup.jpg",
+      "alt": "صورة قريبة لشعر بخصل فاتحة تحت ضوء دافئ",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Hafsa%20beauty%20saloon&query_place_id=ChIJnzecHPZZXz4RpOlbna9cNEE",
+      "credit": "من خرائط Google"
+    },
+    "offer": {
+      "file": "highlights-style.jpg",
+      "alt": "صورة شعر بهايلايت مموج داخل الصالون مع نص عرض الهايلايت",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Hafsa%20beauty%20saloon&query_place_id=ChIJnzecHPZZXz4RpOlbna9cNEE",
+      "credit": "من خرائط Google"
+    },
+    "facade": {
+      "file": "updo-style.jpg",
+      "alt": "صورة واجهة الصالون بلافتة عنابية وشعار ذهبي في الراشدية",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Hafsa%20beauty%20saloon&query_place_id=ChIJnzecHPZZXz4RpOlbna9cNEE",
+      "credit": "من خرائط Google"
+    }
+  }
+}

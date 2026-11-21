@@ -1,0 +1,36 @@
+/* Almejdaf (المجداف = the oar): the oar's wake on still Gulf water.
+   Signature: blade-shaped photos + concentric wake rings + a scalloped "waterline" band. */
+[data-site="almejdaf-seafood"]{--wake:14, 107, 102}
+
+/* 1. Wake rings spreading from behind the hero photo */
+[data-site="almejdaf-seafood"] .hero{position:relative;isolation:isolate}
+[data-site="almejdaf-seafood"] .hero::before{content:"";position:absolute;z-index:-1;pointer-events:none;
+  inset-block-start:8%;inset-inline-end:-18vw;width:min(92vw,980px);aspect-ratio:1;border-radius:50%;
+  background:repeating-radial-gradient(circle at 50% 50%,transparent 0 34px,rgba(var(--wake),.16) 35px 36px,transparent 37px 70px);
+  opacity:.9}
+@media (max-width:899px){[data-site="almejdaf-seafood"] .hero::before{inset-block-start:auto;inset-block-end:-10%;inset-inline-end:-40vw;width:120vw}}
+
+/* 2. Oar-blade crop: long rounded top, firm base */
+[data-site="almejdaf-seafood"] .hero .hero__side,
+[data-site="almejdaf-seafood"] .story .panel__media{border-radius:48% 48% 6px 6px / 22% 22% 6px 6px;overflow:hidden}
+[data-site="almejdaf-seafood"] .hero .hero__side{box-shadow:0 0 0 10px rgba(var(--wake),.10)}
+@media (max-width:899px){[data-site="almejdaf-seafood"] .hero .hero__side{border-radius:40% 40% 6px 6px / 30% 30% 6px 6px}}
+[data-site="almejdaf-seafood"] .photo__badge{border-radius:999px}
+
+/* 3. The waterline: marquee becomes a teal band with scalloped edges */
+[data-site="almejdaf-seafood"] .marquee.marquee{background:rgb(var(--wake));color:#F4FBF9;border:0;position:relative;
+  padding-block:clamp(26px,4vw,46px);
+  -webkit-mask:radial-gradient(14px 10px at 50% 0,#0000 98%,#000) 50% 0/28px 51% repeat-x,radial-gradient(14px 10px at 50% 100%,#0000 98%,#000) 50% 100%/28px 51% repeat-x;
+  mask:radial-gradient(14px 10px at 50% 0,#0000 98%,#000) 50% 0/28px 51% repeat-x,radial-gradient(14px 10px at 50% 100%,#0000 98%,#000) 50% 100%/28px 51% repeat-x}
+[data-site="almejdaf-seafood"] .marquee .marquee__dot{background:#E8B13A;width:.5em;height:.18em;border-radius:999px}
+
+/* 4. Saffron of the machboos as the second colour, used sparingly */
+[data-site="almejdaf-seafood"] .menu .tabs__ink{background:#E8B13A}
+[data-site="almejdaf-seafood"] .story .panel__time span{color:rgb(var(--wake))}
+[data-site="almejdaf-seafood"] .rev .card{border-top:3px solid rgb(var(--wake))}
+
+/* Slow drift of the wake rings (no reduced motion) */
+@media (hover:hover) and (prefers-reduced-motion:no-preference){
+  [data-site="almejdaf-seafood"] .hero::before{animation:almejdaf-drift 14s ease-in-out infinite alternate}
+  @keyframes almejdaf-drift{to{transform:scale(1.06) translateY(-1.5%)}}
+}

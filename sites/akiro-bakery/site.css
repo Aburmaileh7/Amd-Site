@@ -1,0 +1,74 @@
+/* Äkiro Bakery: silver molten-glass pendants over stone-grey, lilac like their boxes and table cards. */
+html[data-site="akiro-bakery"] {
+  --bg: #F4F2EF; --bg-rgb: 244, 242, 239;
+  --surface: #ECE8E3; --surface-2: #E1DBD3;
+  --ink: #2B2622; --ink-rgb: 43, 38, 34;
+  --muted: #645B53;
+  --line: rgba(43, 38, 34, .12);
+  --ak-silver-hi: #FFFFFF; --ak-silver: #D3D5D8; --ak-silver-mid: #9A9EA4; --ak-silver-lo: #5E6268;
+  --ak-cord: rgba(43, 38, 34, .28);
+}
+
+/* ---- Signature: hanging silver orbs (cord + sphere in one element) ---- */
+html[data-site="akiro-bakery"] .hero--split,
+html[data-site="akiro-bakery"] .story__head { position: relative; }
+
+html[data-site="akiro-bakery"] .hero--split::before,
+html[data-site="akiro-bakery"] .hero--split::after,
+html[data-site="akiro-bakery"] .story__head::after {
+  content: ""; position: absolute; top: 0; pointer-events: none; z-index: 2;
+  width: var(--ak-d, 64px); height: var(--ak-h, 160px);
+  transform-origin: 50% 0;
+  background:
+    radial-gradient(circle closest-side at 36% 30%, var(--ak-silver-hi) 0, rgba(255,255,255,.85) 22%, rgba(255,255,255,0) 60%) 50% 100% / var(--ak-d, 64px) var(--ak-d, 64px) no-repeat,
+    radial-gradient(circle closest-side, var(--ak-silver) 0, var(--ak-silver-mid) 58%, var(--ak-silver-lo) 92%, rgba(94,98,104,0) 100%) 50% 100% / var(--ak-d, 64px) var(--ak-d, 64px) no-repeat,
+    linear-gradient(var(--ak-cord), var(--ak-cord)) 50% 0 / 1.5px calc(100% - var(--ak-d, 64px) + 4px) no-repeat;
+  filter: drop-shadow(0 14px 18px rgba(43, 38, 34, .14));
+  animation: ak-sway 7s ease-in-out infinite alternate;
+}
+/* left side (photo side in RTL): one long, one short, like the café's cluster */
+html[data-site="akiro-bakery"] .hero--split::before { --ak-d: 78px; --ak-h: 210px; left: clamp(12px, 6vw, 90px); }
+html[data-site="akiro-bakery"] .hero--split::after  { --ak-d: 44px; --ak-h: 132px; left: clamp(96px, 14vw, 220px); animation-duration: 9s; animation-delay: -3s; }
+html[data-site="akiro-bakery"] .story__head::after  { --ak-d: 52px; --ak-h: 120px; top: -96px; left: 4%; animation-duration: 8s; animation-delay: -1.5s; }
+
+@keyframes ak-sway { from { transform: rotate(-2.5deg); } to { transform: rotate(2.5deg); } }
+@media (prefers-reduced-motion: reduce) {
+  html[data-site="akiro-bakery"] .hero--split::before,
+  html[data-site="akiro-bakery"] .hero--split::after,
+  html[data-site="akiro-bakery"] .story__head::after { animation: none; }
+}
+@media (max-width: 899px) {
+  html[data-site="akiro-bakery"] .hero--split::before { --ak-d: 54px; --ak-h: 120px; left: 18px; }
+  html[data-site="akiro-bakery"] .hero--split::after  { --ak-d: 32px; --ak-h: 84px; left: 82px; }
+  html[data-site="akiro-bakery"] .story__head::after  { display: none; }
+}
+
+/* ---- Hero: the croissant on a stone plinth, square-ish frame with a lilac card edge ---- */
+html[data-site="akiro-bakery"] .hero__side {
+  border-radius: 999px 999px var(--radius) var(--radius);
+  background: var(--surface);
+  outline: 10px solid var(--surface);
+}
+html[data-site="akiro-bakery"] .hero__side .photo { aspect-ratio: 4 / 5; }
+html[data-site="akiro-bakery"] .hero__headline { color: var(--ink); }
+html[data-site="akiro-bakery"] .hero__title--long { line-height: 1.08; }
+
+/* ---- Menu first: a lilac "table card" for the note ---- */
+html[data-site="akiro-bakery"] .menu__sample {
+  background: rgba(var(--glow-rgb), .08);
+  border: 0; border-inline-start: 4px solid var(--glow);
+  border-radius: 6px 14px 14px 6px; color: var(--ink);
+}
+
+/* ---- Story panels: rounded-top arches like the pendant glass ---- */
+html[data-site="akiro-bakery"] .panel__media { border-radius: 180px 180px var(--radius) var(--radius); overflow: hidden; }
+
+/* ---- Proof & reviews on a cooler stone step ---- */
+html[data-site="akiro-bakery"] .proof { background: var(--surface); }
+html[data-site="akiro-bakery"] .rev .card { background: #FFFFFF; }
+html[data-site="akiro-bakery"] .card__stars { color: var(--glow); }
+
+/* ---- Marquee band in lilac ---- */
+html[data-site="akiro-bakery"] .marquee { background: var(--glow); color: var(--glow-ink); border-color: transparent; }
+html[data-site="akiro-bakery"] .marquee *:not(.marquee__dot) { color: var(--glow-ink); }
+html[data-site="akiro-bakery"] .marquee__dot { background: var(--glow-ink); opacity: .6; }

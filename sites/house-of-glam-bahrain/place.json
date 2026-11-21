@@ -1,0 +1,277 @@
+{
+  "place_id": "ChIJyyE01KylST4Rvbvvgu6y3eg",
+  "slug": "house-of-glam-bahrain",
+  "batch_id": "amd-gulf-20261121",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "beauty_soft",
+  "data_source": "خرائط Google (بيانات المحل وآراء الزبائن) وصفحة Linktree الخاصة بالصالون",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "accent": {
+    "hex": "#C98F7E",
+    "rgb": "201, 143, 126",
+    "hover": "#B87A69",
+    "ink": "#2A1A17"
+  },
+  "name": "House of Glam Bahrain",
+  "name_lang": "en",
+  "category_label": "صالون شعر وتجميل في المنامة",
+  "area": "فندق ويندهام غراند، المنامة",
+  "address": "الطابق الأرضي، فندق ويندهام غراند، طريق 4611، المنامة، البحرين",
+  "phone": {
+    "display": "+973 1716 2020",
+    "tel": "+97317162020"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=House%20of%20Glam%20Bahrain&query_place_id=ChIJyyE01KylST4Rvbvvgu6y3eg",
+  "map_query": "House of Glam Bahrain, Wyndham Grand Hotel, Manama",
+  "rating": {
+    "value": 4.7,
+    "count": 1061,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "لون شعرك كما تخيّلته في المنامة",
+    "intro": "صالون في الطابق الأرضي من فندق ويندهام غراند، يشتهر عند زبائنه بالصبغ والهايلايتس والعناية بالشعر. يفتح يوميًا من ١٠ صباحًا إلى ٨ مساءً.",
+    "image": "lounge"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "reviews",
+    "menu",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "marquee": {
+    "label": "خدمات ذكرها الزبائن",
+    "items": [
+      "صبغ الشعر",
+      "هايلايتس",
+      "بيبي لايتس",
+      "علاج كيراأورغانيك",
+      "سشوار وتمويج",
+      "تركيب إكستنشن"
+    ]
+  },
+  "story": {
+    "title": "ما تكرره آراء الزبائن",
+    "items": [
+      {
+        "label": "الصبغة",
+        "title": "اللون الذي طلبتِه",
+        "text": "كتبت زبونات أن الصبغة خرجت بالدرجة التي أردنها تمامًا، وذكرن الهايلايتس بالاسم أكثر من مرة.",
+        "image": "colour"
+      },
+      {
+        "label": "التنفيذ",
+        "title": "اهتمام بالتفاصيل",
+        "text": "تقول الآراء إن المصففين يسمعون الطلب أولًا ثم ينفذونه بصبر، وإن النتيجة تطابق ما كانت تتوقعه الزبونة.",
+        "image": "wash"
+      },
+      {
+        "label": "الفريق",
+        "title": "فريق ودود ومحترف",
+        "text": "تصف زبونات الاستقبال بأنه لطيف، وتذكرن المساعدات بالاسم، وتصفن جو الصالون بأنه مريح.",
+        "image": "lounge"
+      },
+      {
+        "label": "المواعيد",
+        "title": "بموعد مسبق من ١٠ إلى ٨",
+        "text": "الصالون مفتوح كل أيام الأسبوع من ١٠ صباحًا إلى ٨ مساءً، والحجز بموعد مطلوب ويُنصح به.",
+        "image": "shelf"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Hanouf A.",
+      "stars": 5,
+      "text": "Amazing salon with outstanding service! Sharbel is hands down the best hairstylist in the salon! Super talented, professional, and always delivers amazing results. The salon’s work is absolutely incredible. Highly recommended! ❤️",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25ZelFsazBPUzFXTFZoc1VWbEJSbFJwTTJoT1QxRRAB"
+    },
+    {
+      "author": "Farah F.",
+      "stars": 5,
+      "text": "I really loved my hair color! 🤍 Tina was so nice and patient with me, and I really loved how she treated me throughout the whole appointment. She was so sweet and made me feel comfortable. I’m really happy with the result! 🤍",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT21SeFdrOWpUMU5DY0U5Tk1FMUVlRFZNU2xSRlNWRRAB"
+    },
+    {
+      "author": "Nawal M.",
+      "stars": 5,
+      "text": "Absolutely in love with my highlights! 😍 Tina did an amazing job and paid attention to every little detail. My hair looks beautiful and exactly how I wanted. Highly recommend! I’ll definitely be coming back! ❤️",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xNemFGRkJObkZXVTNBeGRrVlNVRFZLU0hWb1RrRRAB"
+    },
+    {
+      "author": "Tahani A.",
+      "stars": 5,
+      "text": "One of the best salons—you can get your hair done with complete peace of mind. Huge thanks to Shady; my hair color turned out amazing—exactly the shade I wanted. And a special mention for the kindness and professionalism of the assistants. 🥰",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT201dFNuRXpiVE5uUlRsT1dVdFVkMnBRVHpocWIwRRAB"
+    },
+    {
+      "author": "Kamela B.",
+      "stars": 5,
+      "text": "Had such a great experience with Kenan! He’s honestly super cool, friendly, and very professional. He really listened to what I wanted and did an amazing job with my hair. I absolutely love how it turned out! You can tell he really knows what he’s doing. Definitely coming back t…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2tjd2NqSk9SbTFzUmw5V1JGRkdOVlZmU0hwaWVVRRAB"
+    },
+    {
+      "author": "Bayan A.",
+      "stars": 5,
+      "text": "Always a great experience at this salon! The team is professional, welcoming, and the atmosphere is lovely. I’m always happy with the service and the attention to detail. A special mention to my hairdresser, Charbel — he’s amazing at what he does and always makes sure my hair lo…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xWQk9UQnZMVjlxYkhJMGVqaHhRMkpHVEV4Vk5GRRAB"
+    }
+  ],
+  "menu": {
+    "kind": "services",
+    "title": "خدمات الشعر",
+    "note": "الخدمات مأخوذة من آراء الزبائن، ولا توجد قائمة أسعار منشورة.",
+    "categories": [
+      {
+        "id": "colour",
+        "title": "اللون",
+        "tagline": "",
+        "image": "colour",
+        "items": [
+          {
+            "name": "صبغ الشعر",
+            "desc": "",
+            "mentioned": true
+          },
+          {
+            "name": "هايلايتس",
+            "desc": "",
+            "mentioned": true
+          },
+          {
+            "name": "بيبي لايتس",
+            "desc": "",
+            "mentioned": true
+          }
+        ]
+      },
+      {
+        "id": "style",
+        "title": "القص والتسريح",
+        "tagline": "",
+        "image": "lounge",
+        "items": [
+          {
+            "name": "قص وسشوار",
+            "desc": "",
+            "mentioned": true
+          },
+          {
+            "name": "سشوار وتمويج",
+            "desc": "",
+            "mentioned": true
+          },
+          {
+            "name": "تسريحة ريترو",
+            "desc": "",
+            "mentioned": true
+          }
+        ]
+      },
+      {
+        "id": "care",
+        "title": "العناية والإكستنشن",
+        "tagline": "",
+        "image": "wash",
+        "items": [
+          {
+            "name": "علاج كيراأورغانيك",
+            "desc": "",
+            "mentioned": true
+          },
+          {
+            "name": "تركيب إكستنشن",
+            "desc": "",
+            "mentioned": true
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "صبغ الشعر",
+    "هايلايتس",
+    "بيبي لايتس",
+    "سشوار وتمويج"
+  ],
+  "amenities": {
+    "title": "قبل زيارتك",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "بموعد مسبق",
+        "text": "الحجز مطلوب ويُنصح به قبل الحضور."
+      },
+      {
+        "icon": "clock",
+        "title": "يوميًا من 10 إلى 8",
+        "text": "كل أيام الأسبوع من 10 صباحًا حتى 8 مساءً."
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": "المدخل والمواقف ودورة المياه وأماكن الجلوس."
+      },
+      {
+        "icon": "wifi",
+        "title": "واي فاي مجاني",
+        "text": "متاح داخل الصالون."
+      },
+      {
+        "icon": "bag",
+        "title": "الدفع بالبطاقة",
+        "text": "بطاقات الائتمان والخصم والدفع اللاتلامسي NFC."
+      }
+    ]
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "10 ص – 8 م"
+      }
+    ],
+    "per_day": 10,
+    "source": "Google Maps"
+  },
+  "visit": {
+    "image": "shelf"
+  },
+  "whatsapp": null,
+  "images": {
+    "lounge": {
+      "file": "lounge-interior.jpg",
+      "alt": "صورة لصالون هاوس أوف غلام من الداخل، مقاعد جلوس وإضاءة دافئة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=House%20of%20Glam%20Bahrain&query_place_id=ChIJyyE01KylST4Rvbvvgu6y3eg",
+      "credit": "من خرائط Google"
+    },
+    "colour": {
+      "file": "hair-work-color.jpg",
+      "alt": "صورة شعر بعد تلوين وتمويج بتدرج فاتح",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=House%20of%20Glam%20Bahrain&query_place_id=ChIJyyE01KylST4Rvbvvgu6y3eg",
+      "credit": "من خرائط Google"
+    },
+    "wash": {
+      "file": "wash-station.jpg",
+      "alt": "صورة منطقة غسيل الشعر بكراسي حديثة ومنتجات كيراستاز",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=House%20of%20Glam%20Bahrain&query_place_id=ChIJyyE01KylST4Rvbvvgu6y3eg",
+      "credit": "من خرائط Google"
+    },
+    "shelf": {
+      "file": "lashes-shelf.jpg",
+      "alt": "صورة رف منتجات العناية تحت لافتة ذهبية في قوس وردي",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=House%20of%20Glam%20Bahrain&query_place_id=ChIJyyE01KylST4Rvbvvgu6y3eg",
+      "credit": "من خرائط Google"
+    }
+  }
+}
