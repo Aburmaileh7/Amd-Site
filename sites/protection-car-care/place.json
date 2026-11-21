@@ -6,43 +6,106 @@
   "agency": "Amd web",
   "theme": "services_pro",
   "data_source": "قائمة المحل على خرائط Google",
-  "layout": { "hero": "split", "story": "horizontal" },
-  "accent": { "hex": "#157A55", "rgb": "21, 122, 85", "hover": "#0F5F42", "ink": "#FFFFFF" },
-  "motion": { "hero": "kenburns" },
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#157A55",
+    "rgb": "21, 122, 85",
+    "hover": "#0F5F42",
+    "ink": "#FFFFFF"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
   "name": "Protection Car Care",
   "name_lang": "en",
   "category_label": "العناية بالسيارات وحمايتها",
   "area": "الكويتات، العين",
-  "address": "المنطقة الوسطى، الكويتات، أبوظبي، الإمارات",
-  "phone": { "display": "+971 50 446 2190", "tel": "+971504462190" },
+  "address": "المنطقة الوسطى، الكويتات، العين",
+  "phone": {
+    "display": "+971 50 446 2190",
+    "tel": "+971504462190"
+  },
   "directions_url": "https://www.google.com/maps/search/?api=1&query=Protection%20Car%20Care%20mall%20of%20alain&query_place_id=ChIJ_dYyvOm2ij4REh_CdDAf-Co",
   "map_query": "Protection Car Care mall of alain",
-  "rating": { "value": 4.7, "count": 575, "source": "Google" },
+  "rating": {
+    "value": 4.7,
+    "count": 575,
+    "source": "Google"
+  },
   "hours": {
     "rows": [
-      { "days": "السبت – الخميس", "time": "10 ص – 10 م" },
-      { "days": "الجمعة", "time": "10 ص – 5 م" }
+      {
+        "days": "السبت – الخميس",
+        "time": "10 ص – 10 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "10 ص – 5 م"
+      }
     ],
     "source": "خرائط Google"
   },
   "hero": {
-    "headline": "حماية وعناية لسيارتك بيد فريق يشرح العمل",
-    "intro": "طلاء سيراميك وفيلم حماية PPF وتظليل زجاج وتلميع للطلاء، وعملاء يرجعون إلى المحل منذ أكثر من ثلاث سنوات لتجديد الحماية.",
+    "headline": "عملاء يجددون حماية سيارتهم منذ أكثر من ثلاث سنوات",
+    "intro": "طلاء سيراميك وفيلم حماية PPF وتظليل للزجاج وتلميع للطلاء. أحد العملاء أنجز عندهم سيارته الرابعة بالفيلم، وآخرون يعودون كل مرة للتجديد.",
     "image": "bmw"
   },
-  "sections": ["proof", "story", "marquee", "menu", "reviews", "amenities", "visit"],
+  "sections": [
+    "proof",
+    "story",
+    "marquee",
+    "menu",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
   "marquee": {
     "label": "خدمات ذكرها العملاء",
-    "items": ["طلاء سيراميك", "فيلم حماية PPF", "حماية المصابيح", "تظليل الزجاج", "تلميع وتصحيح الطلاء", "تنظيف وتفصيل الداخلية"]
+    "items": [
+      "طلاء سيراميك",
+      "فيلم حماية PPF",
+      "حماية المصابيح",
+      "تظليل الزجاج",
+      "تلميع وتصحيح الطلاء",
+      "تنظيف وتفصيل الداخلية"
+    ]
   },
   "story": {
     "title": "ما يكرره العملاء في مراجعاتهم",
     "items": [
-      { "label": "الرجوع", "title": "عملاء يرجعون سنة بعد سنة", "text": "كتب أكثر من عميل أنه يتعامل مع المحل منذ أكثر من ثلاث سنوات، وأحدهم أنجز عندهم سيارته الرابعة بفيلم الحماية.", "image": "silver" },
-      { "label": "قبل البدء", "title": "شرح قبل البدء", "text": "يذكر العملاء أن الفريق يجيب عن كل الأسئلة ويشرح الشغل قبل تنفيذه، سواء كان طلاء سيراميك أو فيلم حماية للمصابيح.", "image": "rangerover" },
-      { "label": "التظليل", "title": "تسليم قبل الموعد", "text": "أحد العملاء أنهى التظليل عندهم قبل الوقت المحدد، ولاحظ أن الفيلم خرج بلا فقاعات.", "image": "mercedes" },
-      { "label": "النتيجة", "title": "سيارة تبدو كأنها جديدة", "text": "تتكرر في المراجعات عبارة أن السيارة رجعت كأنها جديدة بعد التلميع والعناية بالتفاصيل.", "image": "bmw" },
-      { "label": "الدوام", "title": "دوام طويل وموعد مسبق", "text": "المحل يفتح من 10 صباحًا حتى 10 مساءً، والجمعة حتى 5 مساءً، ويُنصح بحجز موعد قبل الزيارة.", "image": "toyota" }
+      {
+        "label": "الرجوع",
+        "title": "عملاء يرجعون سنة بعد سنة",
+        "text": "كتب أكثر من عميل أنه يتعامل مع المحل منذ أكثر من ثلاث سنوات، وأحدهم أنجز عندهم سيارته الرابعة بفيلم الحماية.",
+        "image": "silver"
+      },
+      {
+        "label": "قبل البدء",
+        "title": "شرح قبل البدء",
+        "text": "عميل جاء بسيارة للطلاء السيراميكي وبأخرى لفيلم المصابيح، وكتب أن الفريق شرح له الشغل قبل تنفيذه.",
+        "image": "rangerover"
+      },
+      {
+        "label": "التظليل",
+        "title": "تظليل بلا فقاعات",
+        "text": "في مراجعة أخرى انتهى التظليل قبل الوقت المحدد، ولم تظهر في الفيلم أي فقاعات.",
+        "image": "mercedes"
+      },
+      {
+        "label": "النتيجة",
+        "title": "سيارة تبدو كأنها جديدة",
+        "text": "قال أحد العملاء إن موتوره موديل 2016 صار كموديل 2024، وكتبت مراجعة ثانية أن السيارة بدت جديدة بعد العناية بالتفاصيل.",
+        "image": "whitesuv"
+      },
+      {
+        "label": "الفريق",
+        "title": "أسئلة تجد من يجيب عنها",
+        "text": "شكر عميل الأستاذ محمد بالاسم لأنه أجاب عن كل أسئلته واعتنى بالسيارة، ووصف آخر الفريق كله بأنه متعاون في كل خطوات العمل.",
+        "image": "nissan"
+      }
     ]
   },
   "menu": {
@@ -52,54 +115,150 @@
     "note": "الخدمات من مراجعات Google، وبدون أسعار. للسعر تواصل مع المحل.",
     "categories": [
       {
-        "id": "protect",
-        "title": "الحماية",
-        "tagline": "طبقات تحمي الطلاء والمصابيح",
-        "image": "rangerover",
+        "id": "services",
+        "title": "خدمات ذكرها العملاء",
+        "tagline": "الحماية والتظليل والتلميع",
+        "image": "aclass",
         "items": [
-          { "name": "طلاء سيراميك نانو", "desc": "Ceramic coating" },
-          { "name": "فيلم حماية الطلاء PPF", "desc": "Paint protection film" },
-          { "name": "فيلم حماية المصابيح", "desc": "Headlight PPF" }
-        ]
-      },
-      {
-        "id": "finish",
-        "title": "التظليل والتلميع",
-        "tagline": "الزجاج والطلاء والمقصورة",
-        "image": "mercedes",
-        "items": [
-          { "name": "تظليل الزجاج", "desc": "Window tinting" },
-          { "name": "تلميع وتصحيح الطلاء", "desc": "Paint correction & polishing" },
-          { "name": "تنظيف وتفصيل الداخلية", "desc": "Interior detailing" }
+          {
+            "name": "طلاء سيراميك نانو",
+            "desc": "Ceramic coating"
+          },
+          {
+            "name": "فيلم حماية الطلاء PPF",
+            "desc": "Paint protection film"
+          },
+          {
+            "name": "فيلم حماية المصابيح",
+            "desc": "Headlight PPF"
+          },
+          {
+            "name": "تظليل الزجاج",
+            "desc": "Window tinting"
+          },
+          {
+            "name": "تلميع وتصحيح الطلاء",
+            "desc": "Paint correction & polishing"
+          },
+          {
+            "name": "تنظيف وتفصيل الداخلية",
+            "desc": "Interior detailing"
+          }
         ]
       }
     ]
   },
   "reviews": [
-    { "author": "Bahis B.", "stars": 5, "text": "I've been getting my car's ceramic protection done with them for the past 3 years, and I must say, it's one of the best services you can find. Whether it's the staff or the car care, everything is top-notch.…", "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT210cFowbDFia05GVTJ0VE0yTlVaMFo2T0hKZlJuYxAB" },
-    { "author": "Mohammad D.", "stars": 5, "text": "I’ve been coming to these guys for over 3 years now, and every single time, they’ve delivered nothing short of excellence. Most recently, I brought in one of our family cars for a full ceramic nano coating, and another vehicle for headlight PPF installation.…", "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xSUlQyTklObTFuWTNveE1FazROV05mUlV4RmQyYxAB" },
-    { "author": "Kyran C.", "stars": 5, "text": "Great service. Especially from Mr Mohammed who answered all questions and took great care. Tinting was done before the time given and tint didn't have any bubbles.", "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT21oQlVtMVhRMFpMVXpCa1RFVTBWVTFLY2kxS2JYYxAB" },
-    { "author": "Mubarak Q.", "stars": 5, "text": "That’s my 4th cars i do with them the PPF. Great works and best customer care and service you will get. Thanks and keep the great work", "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xkNU1IRXlXVGw1U0hwVldsVm5SakpzWDBsT2EzYxAB" },
-    { "author": "Younus K.", "stars": 5, "text": "The greatest service I ever seen, all the team was very helpful during the whole steps of working. My 2016 motor became as new as 2024 because of them. Diffinitly I will come back to protection car care Alain.", "source_ref": "ChZDSUhNMG9nS0VJQ0FnSURYZ3ZDWk9REAE" },
-    { "author": "Bruno S.", "stars": 5, "text": "I had an excellent experience with Protection Car Care! The team was professional, friendly, and clearly skilled at what they do. From the moment I dropped off my car, I knew it was in good hands. They went above and beyond with the detailing—my car looks brand new!…", "source_ref": "ChdDSUhNMG9nS0VJQ0FnSUNYLWRXTjZnRRAB" }
+    {
+      "author": "Bahis B.",
+      "stars": 5,
+      "text": "I've been getting my car's ceramic protection done with them for the past 3 years, and I must say, it's one of the best services you can find. Whether it's the staff or the car care, everything is top-notch.…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT210cFowbDFia05GVTJ0VE0yTlVaMFo2T0hKZlJuYxAB"
+    },
+    {
+      "author": "Mohammad D.",
+      "stars": 5,
+      "text": "I’ve been coming to these guys for over 3 years now, and every single time, they’ve delivered nothing short of excellence. Most recently, I brought in one of our family cars for a full ceramic nano coating, and another vehicle for headlight PPF installation.…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xSUlQyTklObTFuWTNveE1FazROV05mUlV4RmQyYxAB"
+    },
+    {
+      "author": "Kyran C.",
+      "stars": 5,
+      "text": "Great service. Especially from Mr Mohammed who answered all questions and took great care. Tinting was done before the time given and tint didn't have any bubbles.",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT21oQlVtMVhRMFpMVXpCa1RFVTBWVTFLY2kxS2JYYxAB"
+    },
+    {
+      "author": "Mubarak Q.",
+      "stars": 5,
+      "text": "That’s my 4th cars i do with them the PPF. Great works and best customer care and service you will get. Thanks and keep the great work",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xkNU1IRXlXVGw1U0hwVldsVm5SakpzWDBsT2EzYxAB"
+    },
+    {
+      "author": "Younus K.",
+      "stars": 5,
+      "text": "The greatest service I ever seen, all the team was very helpful during the whole steps of working. My 2016 motor became as new as 2024 because of them. Diffinitly I will come back to protection car care Alain.",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSURYZ3ZDWk9REAE"
+    },
+    {
+      "author": "Bruno S.",
+      "stars": 5,
+      "text": "I had an excellent experience with Protection Car Care! The team was professional, friendly, and clearly skilled at what they do. From the moment I dropped off my car, I knew it was in good hands. They went above and beyond with the detailing—my car looks brand new!…",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSUNYLWRXTjZnRRAB"
+    }
   ],
   "mentions": [],
   "amenities": {
     "title": "قبل الزيارة",
-    "image": "silver",
     "items": [
-      { "icon": "calendar", "title": "يُنصح بحجز موعد", "text": "المحل يوصي بالحجز المسبق قبل الزيارة." },
-      { "icon": "access", "title": "مهيأ للكراسي المتحركة", "text": "مدخل ومواقف ودورة مياه مهيأة." },
-      { "icon": "check", "title": "دفع بالبطاقة والجوال", "text": "بطاقات ائتمان وخصم ودفع NFC." }
+      {
+        "icon": "calendar",
+        "title": "يُنصح بحجز موعد",
+        "text": "المحل يوصي بالحجز المسبق قبل الزيارة."
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": "مدخل ومواقف ودورة مياه مهيأة."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة والجوال",
+        "text": "بطاقات ائتمان وخصم ودفع NFC."
+      }
     ]
   },
-  "visit": { "image": "toyota" },
+  "visit": {
+    "image": "toyota"
+  },
   "whatsapp": null,
   "images": {
-    "bmw": { "file": "car-bmw-gloss.jpg", "alt": "صورة سيارة BMW سوداء لامعة بعد العناية في المحل", "source_url": "https://www.google.com/maps/search/?api=1&query=Protection%20Car%20Care%20mall%20of%20alain&query_place_id=ChIJ_dYyvOm2ij4REh_CdDAf-Co", "credit": "من خرائط Google" },
-    "rangerover": { "file": "car-range-rover-detail.jpg", "alt": "صورة سيارة Range Rover رمادية داخل المحل", "source_url": "https://www.google.com/maps/search/?api=1&query=Protection%20Car%20Care%20mall%20of%20alain&query_place_id=ChIJ_dYyvOm2ij4REh_CdDAf-Co", "credit": "من خرائط Google" },
-    "toyota": { "file": "car-toyota-shop-detail.jpg", "alt": "صورة سيارة تويوتا سوداء أمام واجهة المحل", "source_url": "https://www.google.com/maps/search/?api=1&query=Protection%20Car%20Care%20mall%20of%20alain&query_place_id=ChIJ_dYyvOm2ij4REh_CdDAf-Co", "credit": "من خرائط Google" },
-    "silver": { "file": "car-silver-shop-wall.jpg", "alt": "صورة سيارة فضية أمام جدار شعار المحل", "source_url": "https://www.google.com/maps/search/?api=1&query=Protection%20Car%20Care%20mall%20of%20alain&query_place_id=ChIJ_dYyvOm2ij4REh_CdDAf-Co", "credit": "من خرائط Google" },
-    "mercedes": { "file": "car-mercedes-cabriolet.jpg", "alt": "صورة سيارة مرسيدس كابريوليه سوداء داخل المحل", "source_url": "https://www.google.com/maps/search/?api=1&query=Protection%20Car%20Care%20mall%20of%20alain&query_place_id=ChIJ_dYyvOm2ij4REh_CdDAf-Co", "credit": "من خرائط Google" }
+    "bmw": {
+      "file": "car-bmw-gloss.jpg",
+      "alt": "صورة سيارة BMW سوداء لامعة بعد العناية في المحل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Protection%20Car%20Care%20mall%20of%20alain&query_place_id=ChIJ_dYyvOm2ij4REh_CdDAf-Co",
+      "credit": "من خرائط Google"
+    },
+    "rangerover": {
+      "file": "car-range-rover-detail.jpg",
+      "alt": "صورة سيارة Range Rover رمادية داخل المحل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Protection%20Car%20Care%20mall%20of%20alain&query_place_id=ChIJ_dYyvOm2ij4REh_CdDAf-Co",
+      "credit": "من خرائط Google"
+    },
+    "toyota": {
+      "file": "car-toyota-shop-detail.jpg",
+      "alt": "صورة سيارة تويوتا سوداء أمام واجهة المحل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Protection%20Car%20Care%20mall%20of%20alain&query_place_id=ChIJ_dYyvOm2ij4REh_CdDAf-Co",
+      "credit": "من خرائط Google"
+    },
+    "silver": {
+      "file": "car-silver-shop-wall.jpg",
+      "alt": "صورة سيارة فضية أمام جدار شعار المحل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Protection%20Car%20Care%20mall%20of%20alain&query_place_id=ChIJ_dYyvOm2ij4REh_CdDAf-Co",
+      "credit": "من خرائط Google"
+    },
+    "mercedes": {
+      "file": "car-mercedes-cabriolet.jpg",
+      "alt": "صورة سيارة مرسيدس كابريوليه سوداء داخل المحل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Protection%20Car%20Care%20mall%20of%20alain&query_place_id=ChIJ_dYyvOm2ij4REh_CdDAf-Co",
+      "credit": "من خرائط Google"
+    },
+    "aclass": {
+      "file": "car-mercedes-a-class-silver.jpg",
+      "alt": "صورة سيارة مرسيدس فضية داخل المحل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Protection%20Car%20Care%20mall%20of%20alain&query_place_id=ChIJ_dYyvOm2ij4REh_CdDAf-Co",
+      "credit": "من خرائط Google"
+    },
+    "nissan": {
+      "file": "car-nissan-grille-shop-plate.jpg",
+      "alt": "صورة واجهة سيارة نيسان مع لوحة المحل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Protection%20Car%20Care%20mall%20of%20alain&query_place_id=ChIJ_dYyvOm2ij4REh_CdDAf-Co",
+      "credit": "من خرائط Google"
+    },
+    "whitesuv": {
+      "file": "car-white-suv-rear.jpg",
+      "alt": "صورة الجزء الخلفي لسيارة بيضاء بعد العناية في المحل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Protection%20Car%20Care%20mall%20of%20alain&query_place_id=ChIJ_dYyvOm2ij4REh_CdDAf-Co",
+      "credit": "من خرائط Google"
+    }
   }
 }

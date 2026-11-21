@@ -80,3 +80,22 @@ html[data-site="oateen-cafe-adore"] .visit__shade{background:rgba(53,59,71,.78)}
   html[data-site="oateen-cafe-adore"] .hero__side .photo{border-start-start-radius:84px}
   html[data-site="oateen-cafe-adore"] .story .panel:not(:has(.panel__media)){min-height:300px}
 }
+
+/* fix round 1 */
+/* visit: deep slate shade over the mural, cream ink on everything; contrast cream on shade > 7:1 */
+html[data-site="oateen-cafe-adore"] .visit__shade{background:rgba(53,59,71,.9)}
+html[data-site="oateen-cafe-adore"] .visit,
+html[data-site="oateen-cafe-adore"] .visit__inner,
+html[data-site="oateen-cafe-adore"] .visit__inner *{color:var(--cream);--ink:#F4EFE8;--ink-rgb:244,239,232}
+html[data-site="oateen-cafe-adore"] .visit .muted{color:#E2D8DD}
+html[data-site="oateen-cafe-adore"] .visit .btn--ghost{border-color:rgba(244,239,232,.7);color:var(--cream)}
+html[data-site="oateen-cafe-adore"] .visit .btn--ghost:hover{border-color:var(--cream)}
+html[data-site="oateen-cafe-adore"] .visit .btn--glow,
+html[data-site="oateen-cafe-adore"] .visit .btn--glow *{background:var(--lilac);color:var(--slate-deep)}
+html[data-site="oateen-cafe-adore"] .visit .btn--glow *{background:transparent}
+
+/* menu: no divider line under the cards; the credit moves off the quarter-round corner */
+html[data-site="oateen-cafe-adore"] .menu__foot{border-top:0;padding-top:0;position:relative;z-index:1}
+html[data-site="oateen-cafe-adore"] .panel-m__visual .photo__badge,
+html[data-site="oateen-cafe-adore"] .hero__side .photo__badge,
+html[data-site="oateen-cafe-adore"] .panel__media .photo__badge{inset-inline-start:auto;inset-inline-end:12px}
