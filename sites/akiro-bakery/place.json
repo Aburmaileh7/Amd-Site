@@ -102,7 +102,7 @@
   "menu": {
     "sample": false,
     "title": "أصناف من القائمة",
-    "note": "أسماء الأصناف من صفحة المحل على طلبات ومن تقييمات الضيوف. الأسعار غير معروضة هنا.",
+    "note": "أسماء من قائمة الأكثر مبيعًا لدى المحل على طلبات (كما تظهر في نتائج البحث) ومن تقييمات الضيوف. الأسعار غير معروضة هنا.",
     "currency": "د.إ",
     "foot": "للطلب والاستفسار",
     "categories": [
@@ -129,7 +129,7 @@
             "name": "خبز الثوم الياباني"
           },
           {
-            "name": "تركي أفوكادو"
+            "name": "ديك رومي وأفوكادو"
           }
         ]
       },
@@ -195,7 +195,7 @@
       "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2t4d05rWlJibVUxYkRoTmNUbGtRM1J4Uld0TGMwRRAB"
     },
     {
-      "text": "Can’t stress enough how good the food and coffee is here. The staff and ambience really resembles the amazing products they offer",
+      "text": "Can’t stress enough how good the food and coffee is here. The staff and ambience really resembles the amazing products they offer…",
       "author": "Lianne R.",
       "stars": 5,
       "source_ref": "ChZDSUhNMG9nS0VJQ0FnSURmcXNqeGN3EAE"

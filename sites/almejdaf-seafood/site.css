@@ -38,11 +38,18 @@
 /* round 1 fixes */
 [data-site="almejdaf-seafood"] .brand{white-space:nowrap;font-size:1.1rem}
 [data-site="almejdaf-seafood"] .visit__title::after{content:"الفلاح - 1E، أبوظبي";display:block;margin-top:14px;font-size:1rem;font-weight:400;line-height:1.5;opacity:.75;letter-spacing:normal}
-/* drawn tiles where photos run out */
-[data-site="almejdaf-seafood"] .panel-m__plain{background:repeating-radial-gradient(circle at 30% 110%,transparent 0 26px,rgba(var(--wake),.28) 27px 28px,transparent 29px 56px),linear-gradient(160deg,rgba(var(--wake),.22),rgba(232,177,58,.14)),var(--surface-2)}
-[data-site="almejdaf-seafood"] .panel-m__plain,[data-site="almejdaf-seafood"] .panel-m__visual .photo{aspect-ratio:4/3}
-[data-site="almejdaf-seafood"] .panel-m[data-panel-id="grill"] .panel-m__plain{aspect-ratio:16/7}
-@media (min-width:900px){[data-site="almejdaf-seafood"] .panel-m__caption{position:absolute;inset-inline:0;bottom:0;padding:20px 22px}}
-@media (max-width:899px){[data-site="almejdaf-seafood"] .panel-m__plain,[data-site="almejdaf-seafood"] .panel-m__visual .photo{aspect-ratio:16/10}}
 [data-site="almejdaf-seafood"] .story .panel__text:first-child::before{content:"";display:block;aspect-ratio:4/3;margin-bottom:20px;border-radius:48% 48% 6px 6px / 22% 22% 6px 6px;
   background:repeating-radial-gradient(circle at 50% 120%,transparent 0 30px,rgba(var(--wake),.35) 31px 33px,transparent 34px 64px),linear-gradient(170deg,rgba(var(--wake),.2),rgba(232,177,58,.16))}
+
+/* round 2: menu = full-width two-column list, no tile; tighter amenities */
+[data-site="almejdaf-seafood"] .menu .panel-m__visual{display:none}
+[data-site="almejdaf-seafood"] .menu .panel-m{grid-template-columns:1fr}
+@media (min-width:900px){
+  [data-site="almejdaf-seafood"] .menu .items{display:grid;grid-template-columns:1fr 1fr;column-gap:64px;align-content:start}
+  [data-site="almejdaf-seafood"] .menu .item:nth-child(2){border-top:1px solid var(--line)}
+  [data-site="almejdaf-seafood"] .amen.amen--noimg .amen__grid.amen__grid{max-width:none}
+  [data-site="almejdaf-seafood"] .amen .amen__list{display:grid;grid-template-columns:1fr 1fr;column-gap:64px}
+  [data-site="almejdaf-seafood"] .amen .amen__list li:nth-last-child(2){border-bottom:1px solid var(--line)}
+}
+[data-site="almejdaf-seafood"] section.amen.amen{padding-block:clamp(56px,7vw,90px)}
+[data-site="almejdaf-seafood"] section.visit.visit{padding-block-start:clamp(72px,8vw,100px)}
