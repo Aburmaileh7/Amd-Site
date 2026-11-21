@@ -9,7 +9,7 @@ let chromium;
 try { ({ chromium } = await import('playwright')); }
 catch { console.error('playwright not installed: npm i -D playwright (browsers are preinstalled in Claude sessions)'); process.exit(2); }
 
-const TYPES = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.css': 'text/css', '.woff2': 'font/woff2', '.woff': 'font/woff', '.svg': 'image/svg+xml' };
+const TYPES = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.css': 'text/css', '.woff2': 'font/woff2', '.woff': 'font/woff', '.svg': 'image/svg+xml', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png', '.webp': 'image/webp' };
 const PORT = Number(process.env.QA_PORT) || 4399; // set QA_PORT when two QA runs share a machine
 const server = createServer((req, res) => {
   let path = join('dist', decodeURIComponent(req.url.split('?')[0]));

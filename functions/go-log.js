@@ -11,7 +11,9 @@ export async function onRequestGet({ request, env }) {
     const page = await env.GO_LOG.list({ prefix: 'tap:', cursor });
     for (const k of page.keys) {
       const [, slug, channel] = k.name.split(':');
-      taps.push({ slug, channel, at: await env.GO_LOG.get(k.name) });
+      // Read timestamp from list metadata to avoid N+1 KV.get subrequests; fallback for legacy keys.
+      const at = k.metadata?.at || await env.GO_LOG.get(k.name);
+      taps.push({ slug, channel, at });
     }
     cursor = page.list_complete ? undefined : page.cursor;
   } while (cursor);

@@ -4,12 +4,19 @@
 import { readdirSync, readFileSync, existsSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { homedir } from 'node:os';
+import { fileURLToPath } from 'node:url';
 
 const day = process.argv.find((a) => /^\d{4}-\d{2}-\d{2}$/.test(a)) || new Date().toISOString().slice(0, 10);
 const asJson = process.argv.includes('--json');
-const root = join(homedir(), '.claude/projects/-home-mohd-Amd-Site');
+const repoRoot = fileURLToPath(new URL('..', import.meta.url)).replace(/\/$/, '');
+const root = join(homedir(), '.claude/projects', repoRoot.replace(/\//g, '-'));
 const rows = new Map(); // key role|model -> totals
 const seen = new Set();
+if (!existsSync(root)) {
+  if (asJson) console.log(JSON.stringify({ day, rows: [] }, null, 1));
+  else console.log(`No Claude session logs found at ${root}`);
+  process.exit(0);
+}
 
 function add(role, file) {
   if (statSync(file).mtime.toISOString().slice(0, 10) < day) return; // untouched since before the day

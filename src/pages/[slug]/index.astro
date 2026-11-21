@@ -51,15 +51,15 @@ const themeColor = { rooftop_dark: '#0D0E11', cafe_light: '#F7F3EC', heritage_wa
   <meta name="theme-color" content={themeColor} />
   <title>{title}</title>
   <meta name="description" content={p.hero.intro || p.hero.headline} />
-  <link rel="preconnect" href="https://images.unsplash.com" />
+  {imgs.some((i) => !i.file) && <link rel="preconnect" href="https://images.unsplash.com" />}
   <script is:inline>document.documentElement.classList.add('js');</script>
   {ownCss && <style is:inline set:html={ownCss} />}
 </head>
 <body>
   <a class="skip" href="#main">تخطَّ إلى المحتوى</a>
-  {preview && <div class="preview-bar" role="note"><BrandMark size={16} /> {p.banner} {photoNote}</div>}
+  {preview && <div class="preview-bar" role="note" data-preview-bar><BrandMark size={16} /> {p.banner} {photoNote}</div>}
 
-  <header class="site-header" data-header>
+  <header class={`site-header ${preview ? 'site-header--preview' : ''}`} data-header>
     <div class="wrap site-header__in">
       <a class="brand" href="#main" lang={p.name_lang || 'ar'}>{p.name}</a>
       <nav aria-label="روابط سريعة">
@@ -96,7 +96,9 @@ const themeColor = { rooftop_dark: '#0D0E11', cafe_light: '#F7F3EC', heritage_wa
   .skip:focus { top: 12px; }
   .progress-line { position: fixed; inset-inline: 0; top: 0; height: 3px; z-index: 70; background: var(--glow); transform: scaleX(0); transform-origin: right; pointer-events: none; }
   .preview-bar { position: relative; z-index: 60; background: #000; color: #EEE8DE; font-size: .8rem; line-height: 1.5; text-align: center; padding: .5rem 16px; }
-  .site-header { position: fixed; inset-inline: 0; top: 34px; z-index: 50; transition: background-color .4s, top .4s, border-color .4s; border-bottom: 1px solid transparent; }
+  .site-header { position: fixed; inset-inline: 0; top: 0; z-index: 50; transition: background-color .4s, top .4s, border-color .4s; border-bottom: 1px solid transparent; }
+  .site-header--preview { top: var(--preview-h, 34px); }
+  @media (max-width: 520px) { .site-header--preview { top: var(--preview-h, 52px); } }
   .site-header.is-solid { top: 0; background: rgba(var(--bg-rgb), .92); border-color: var(--line); backdrop-filter: blur(10px); }
   .site-header__in { display: flex; align-items: center; justify-content: space-between; height: 68px; }
   .brand { font-family: var(--font-d); font-weight: 500; font-size: 1.15rem; text-decoration: none; }
@@ -105,7 +107,6 @@ const themeColor = { rooftop_dark: '#0D0E11', cafe_light: '#F7F3EC', heritage_wa
   .site-header nav a:hover, .nav-btn:hover { color: var(--ink); }
   .nav-btn { background: none; border: 0; padding: 0; font: inherit; cursor: pointer; }
   .header-call { border: 1px solid var(--line); padding: .35rem 1rem; border-radius: 999px; color: var(--ink) !important; }
-  @media (max-width: 520px) { .site-header { top: 52px; } }
   @media (max-width: 420px) { .nav-menu { display: none; } }
   .site-footer { border-top: 1px solid var(--line); padding-block: 32px; font-size: .85rem; color: var(--muted); }
   .site-footer__in { display: flex; flex-wrap: wrap; gap: 8px 32px; justify-content: space-between; }

@@ -5,10 +5,14 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const root = document.documentElement;
 
-// header: transparent over hero, solid after it
+// header: transparent over hero, solid after it; keep offset aligned with preview bar height
 const header = document.querySelector('[data-header]');
+const previewBar = document.querySelector('[data-preview-bar]');
+const syncPreview = () => previewBar && root.style.setProperty('--preview-h', `${previewBar.offsetHeight}px`);
 const onScroll = () => header && header.classList.toggle('is-solid', window.scrollY > 80);
-onScroll(); window.addEventListener('scroll', onScroll, { passive: true });
+syncPreview(); onScroll();
+window.addEventListener('resize', syncPreview, { passive: true });
+window.addEventListener('scroll', onScroll, { passive: true });
 
 // ---------- menu tabs (always on; motion only when allowed) ----------
 const tabsEl = document.querySelector('[data-menu-tabs]');

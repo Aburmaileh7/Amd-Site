@@ -1,11 +1,13 @@
 // Performance and liveness check for one demo site (no LLM). Usage: node scripts/perf-check.mjs <slug> [--local]
 // --local skips the live URL check (before deploy).
 import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 
+const ROOT = fileURLToPath(new URL('..', import.meta.url)).replace(/\/$/, '');
 const [slug] = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 const local = process.argv.includes('--local');
 if (!slug) { console.error('usage: perf-check.mjs <slug> [--local]'); process.exit(2); }
-const dir = `/home/mohd/Amd-Site/sites/${slug}`;
+const dir = `${ROOT}/sites/${slug}`;
 const issues = [];
 const place = JSON.parse(readFileSync(`${dir}/place.json`, 'utf8'));
 

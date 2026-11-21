@@ -32,13 +32,17 @@ const badge = img && (img.file ? (img.credit || 'صورة حقيقية للمك�
         {p.phone && (<><p class="label">الهاتف</p><a class="big ltr phone" href={`tel:${p.phone.tel}`}>{p.phone.display}</a></>)}
         {p.whatsapp && (<a class="wa" href={`https://wa.me/${p.whatsapp.number}`} target="_blank" rel="noopener">واتساب · <span class="ltr">{p.whatsapp.display}</span></a>)}
       </div>
-      <div data-reveal class="visit__cta">
-        <button class="btn btn--glow" type="button" data-map-open>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2z"/><path d="M9 4v14M15 6v14"/></svg>
-          عرض الخريطة
-        </button>
-        {p.directions_url && <a class="btn btn--ghost" href={p.directions_url} target="_blank" rel="noopener">الاتجاهات</a>}
-      </div>
+      {(p.map_query || p.directions_url) && (
+        <div data-reveal class="visit__cta">
+          {p.map_query && (
+            <button class="btn btn--glow" type="button" data-map-open>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2z"/><path d="M9 4v14M15 6v14"/></svg>
+              عرض الخريطة
+            </button>
+          )}
+          {p.directions_url && <a class={p.map_query ? 'btn btn--ghost' : 'btn btn--glow'} href={p.directions_url} target="_blank" rel="noopener">الاتجاهات</a>}
+        </div>
+      )}
     </div>
   </div>
 </section>

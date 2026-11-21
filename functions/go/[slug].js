@@ -15,7 +15,8 @@ export async function onRequestGet({ params, request, env }) {
   // link-preview fetchers must not count as a send
   const agent = request.headers.get('user-agent') || '';
   if (env.GO_LOG && !PREVIEW_BOT.test(agent)) {
-    await env.GO_LOG.put(`tap:${slug}:${channel}`, new Date().toISOString(), { expirationTtl: 60 * 60 * 24 * 90 });
+    const at = new Date().toISOString();
+    await env.GO_LOG.put(`tap:${slug}:${channel}`, at, { expirationTtl: 60 * 60 * 24 * 90, metadata: { at } });
   }
   return new Response(null, { status: 302, headers: { Location: to, 'Cache-Control': 'no-store', 'X-Robots-Tag': 'noindex', 'Referrer-Policy': 'no-referrer' } });
 }
