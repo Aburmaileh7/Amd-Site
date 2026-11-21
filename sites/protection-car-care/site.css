@@ -3,8 +3,8 @@
    the uncovered corner (page ground), the emerald fold edge, and the pale flap of film.
    --film is the size of the peel; the motion layer animates it. Emerald: Al Ain, the garden city. */
 [data-site="protection-car-care"] {
-  --film: clamp(110px, 15vw, 190px);
-  --film-peel: clamp(150px, 21vw, 270px);
+  --film: clamp(56px, 7vw, 92px);
+  --film-peel: clamp(80px, 10vw, 128px);
   --film-flap: #DDE6E2;
   --film-ease: cubic-bezier(.2, .8, .2, 1);
 }
@@ -47,7 +47,7 @@
 [data-site="protection-car-care"] .hero__side .photo::before,
 [data-site="protection-car-care"] .panel__media .photo::before {
   background: var(--film-flap);
-  clip-path: polygon(100% 9px, 100% 100%, 9px 100%);
+  clip-path: polygon(100% 6px, 100% 100%, 6px 100%);
   z-index: 5;
 }
 
@@ -102,9 +102,9 @@
 }
 
 @media (max-width: 600px) {
-  [data-site="protection-car-care"] { --film: 96px; --film-peel: 120px; }
+  [data-site="protection-car-care"] { --film: 48px; --film-peel: 64px; }
   [data-site="protection-car-care"] .hero__side .photo::before,
-  [data-site="protection-car-care"] .panel__media .photo::before { clip-path: polygon(100% 7px, 100% 100%, 7px 100%); }
+  [data-site="protection-car-care"] .panel__media .photo::before { clip-path: polygon(100% 5px, 100% 100%, 5px 100%); }
 }
 @media (prefers-reduced-motion: reduce) {
   [data-site="protection-car-care"] .hero__side::before,
@@ -113,4 +113,46 @@
   [data-site="protection-car-care"] .panel__media::after,
   [data-site="protection-car-care"] .hero__side .photo::before,
   [data-site="protection-car-care"] .panel__media .photo::before { transition: none; }
+}
+
+/* round 2 fixes. Doubled attribute raises specificity over Astro scoped styles. */
+[data-site="protection-car-care"][data-site] .proof { padding-block: clamp(48px, 7vw, 88px); }
+[data-site="protection-car-care"][data-site] .proof .stats { gap: 24px; }
+[data-site="protection-car-care"][data-site] .proof .stat__num { font-size: clamp(3rem, 8vw, 5rem); }
+[data-site="protection-car-care"][data-site] .proof .stat + .stat { border-inline-start-color: rgba(255, 255, 255, .35); }
+
+/* visit: a solid pale layer under the text, ink-dark type */
+[data-site="protection-car-care"][data-site] .visit__shade { background: rgba(var(--bg-rgb), .95); }
+[data-site="protection-car-care"][data-site] .visit .label,
+[data-site="protection-car-care"][data-site] .visit .small,
+[data-site="protection-car-care"][data-site] .visit .muted,
+[data-site="protection-car-care"][data-site] .visit .hours dt { color: var(--ink); opacity: 1; }
+[data-site="protection-car-care"][data-site] .visit .label { font-size: .95rem; font-weight: 600; }
+[data-site="protection-car-care"][data-site] .visit .small { font-size: .9rem; }
+[data-site="protection-car-care"][data-site] .visit__cta .btn { min-height: 48px; }
+
+/* readable small text, 44px tap targets */
+[data-site="protection-car-care"][data-site] .menu__sample { font-size: 1rem; }
+[data-site="protection-car-care"][data-site] .tabs__count,
+[data-site="protection-car-care"][data-site] .item__badge,
+[data-site="protection-car-care"][data-site] .panel__time { font-size: .875rem; }
+[data-site="protection-car-care"][data-site] .small,
+[data-site="protection-car-care"][data-site] .rev__note { font-size: .875rem; }
+[data-site="protection-car-care"][data-site] .site-header nav a,
+[data-site="protection-car-care"][data-site] .nav-btn,
+[data-site="protection-car-care"][data-site] .header-call {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; padding-inline: 8px;
+}
+[data-site="protection-car-care"][data-site] .site-header nav { gap: 10px; }
+[data-site="protection-car-care"][data-site] .site-header nav a,
+[data-site="protection-car-care"][data-site] .nav-btn { color: var(--ink); }
+
+/* services call line: button sits beside its text */
+[data-site="protection-car-care"][data-site] .menu__sample + *,
+[data-site="protection-car-care"][data-site] .menu__cta { justify-content: flex-start; gap: 16px; }
+
+/* mobile: page ends on the visit block, no bare strip */
+@media (max-width: 600px) {
+  [data-site="protection-car-care"][data-site] .rev { padding-bottom: 56px; }
+  [data-site="protection-car-care"][data-site] .visit { padding-block: 72px; }
 }

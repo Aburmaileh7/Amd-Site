@@ -104,7 +104,7 @@
         "label": "الفريق",
         "title": "أسئلة تجد من يجيب عنها",
         "text": "شكر عميل الأستاذ محمد بالاسم لأنه أجاب عن كل أسئلته واعتنى بالسيارة، ووصف آخر الفريق كله بأنه متعاون في كل خطوات العمل.",
-        "image": "nissan"
+        "image": "aclass"
       }
     ]
   },
@@ -232,7 +232,7 @@
     },
     "silver": {
       "file": "car-silver-shop-wall.jpg",
-      "alt": "صورة سيارة فضية أمام جدار شعار المحل",
+      "alt": "صورة سيارة رمادية أمام جدار شعار المحل",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Protection%20Car%20Care%20mall%20of%20alain&query_place_id=ChIJ_dYyvOm2ij4REh_CdDAf-Co",
       "credit": "من خرائط Google"
     },
@@ -244,13 +244,7 @@
     },
     "aclass": {
       "file": "car-mercedes-a-class-silver.jpg",
-      "alt": "صورة سيارة مرسيدس فضية داخل المحل",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=Protection%20Car%20Care%20mall%20of%20alain&query_place_id=ChIJ_dYyvOm2ij4REh_CdDAf-Co",
-      "credit": "من خرائط Google"
-    },
-    "nissan": {
-      "file": "car-nissan-grille-shop-plate.jpg",
-      "alt": "صورة واجهة سيارة نيسان مع لوحة المحل",
+      "alt": "صورة سيارة مرسيدس رمادية داخل المحل",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Protection%20Car%20Care%20mall%20of%20alain&query_place_id=ChIJ_dYyvOm2ij4REh_CdDAf-Co",
       "credit": "من خرائط Google"
     },

@@ -1,5 +1,5 @@
 // Squeegee sweep: a flat pale film sheet with an emerald leading edge wipes across each photo once,
-// and the same sweep lifts the peeled film corner (--film on the parent) and lays it back down.
+// and the same sweep lifts the peeled film corner slightly (max 1.2x) (--film on the parent) and lays it back down.
 (function () {
   if (reduce) return;
   var root = document.querySelector('[data-site="protection-car-care"]');
@@ -19,7 +19,7 @@
       onComplete: function () { box.remove(); gsap.set(host, { clearProps: '--film' }); }
     })
       .fromTo(sheet, { xPercent: -100 }, { xPercent: 100, duration: 1.3, ease: 'power2.inOut' }, 0)
-      .fromTo(host, { '--film': base + 'px' }, { '--film': Math.round(base * 1.6) + 'px', duration: 0.65, ease: 'power2.out' }, 0)
+      .fromTo(host, { '--film': base + 'px' }, { '--film': Math.round(base * 1.2) + 'px', duration: 0.65, ease: 'power2.out' }, 0)
       .to(host, { '--film': base + 'px', duration: 0.65, ease: 'power2.inOut' }, 0.65);
   }
 

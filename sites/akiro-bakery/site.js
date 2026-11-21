@@ -17,6 +17,18 @@ if (!reduce && root) {
       scrollTrigger: { trigger: el, start: 'top bottom', end: 'bottom top', scrub: 0.8 }
     });
   });
+  // Pendant orbs: the CSS keyframes sway them; here they also drift on scroll via the independent `translate` property.
+  const st = document.createElement('style');
+  st.textContent = S + ' .hero--split::before,' + S + ' .hero--split::after,' + S + ' .story__head::after{translate:0 var(--ak-drift,0px)}';
+  document.head.appendChild(st);
+  [['.hero--split', 14], ['.story__head', 10]].forEach(([sel, d]) => {
+    q(sel).forEach((el) => {
+      gsap.fromTo(el, { '--ak-drift': -d + 'px' }, {
+        '--ak-drift': d + 'px', ease: 'none',
+        scrollTrigger: { trigger: el, start: 'top bottom', end: 'bottom top', scrub: 1.2 }
+      });
+    });
+  });
   q('.panel__media').forEach((el) => {
     gsap.from(el, {
       yPercent: -6, scale: 0.96, duration: 1.2, ease: 'power3.out', transformOrigin: '50% 0',

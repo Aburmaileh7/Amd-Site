@@ -24,7 +24,7 @@
   "name_ar": "أكيرو للمخبوزات والقهوة المختصة",
   "category_label": "مخبز وقهوة مختصة",
   "area": "ضاحية البديع، الشارقة",
-  "address": "6HV3+W47، شارع S116، ضاحية البديع، حي الحوشي، الشارقة",
+  "address": "شارع S116، ضاحية البديع، الشارقة",
   "phone": {
     "display": "+971 58 842 8557",
     "tel": "+971588428557"
@@ -71,12 +71,12 @@
     ]
   },
   "story": {
-    "title": "ما يقوله الضيوف",
+    "title": "ما يتكرر في تقييمات الضيوف",
     "items": [
       {
         "label": "طوال اليوم",
-        "title": "مخبوزات طازجة طوال اليوم",
-        "text": "يذكر أحد الضيوف أن المخبوزات تُخبز طازجة في كل مرة. وتقول مراجعة أخرى إن للمكان مخبزًا ومحمصة خاصة في الخلف.",
+        "title": "مخبوزات طازجة من الصباح الباكر",
+        "text": "يذكر أحد الضيوف أن المخبوزات تُخبز طازجة في كل مرة. ويفتح المكان من السادسة صباحًا حتى منتصف الليل، أي ثماني عشرة ساعة كل يوم.",
         "image": "story-babka"
       },
       {
@@ -203,7 +203,6 @@
   ],
   "amenities": {
     "title": "قبل أن تمرّ على أكيرو",
-    "image": "amen",
     "items": [
       {
         "icon": "clock",
@@ -255,8 +254,8 @@
       "credit": "من خرائط Google"
     },
     "story-minis": {
-      "file": "pastry-counter.jpg",
-      "alt": "صورة صفوف الميني كرواسون المالح على رخام الكاونتر",
+      "file": "mini-pastries-board.jpg",
+      "alt": "صورة ميني مخبوزات مصفوفة على لوح خشبي في أكيرو",
       "source_url": "https://www.google.com/maps/search/?api=1&query=%C3%84kiro%20Bakery%20%26%20Speciality%20Coffee&query_place_id=ChIJ80GDFsGL9T4RnX5Niqvg-x8",
       "credit": "من خرائط Google"
     },
@@ -267,8 +266,8 @@
       "credit": "من خرائط Google"
     },
     "menu-bakes": {
-      "file": "croissant-lemon.jpg",
-      "alt": "صورة كرواسون أكيرو مقطوع ومحشو بالكريمة",
+      "file": "pastry-counter.jpg",
+      "alt": "صورة صفوف الميني كرواسون على رخام كاونتر أكيرو",
       "source_url": "https://www.google.com/maps/search/?api=1&query=%C3%84kiro%20Bakery%20%26%20Speciality%20Coffee&query_place_id=ChIJ80GDFsGL9T4RnX5Niqvg-x8",
       "credit": "من خرائط Google"
     },
@@ -279,20 +278,14 @@
       "credit": "من خرائط Google"
     },
     "menu-drinks": {
-      "file": "pour-over.jpg",
-      "alt": "صورة قهوة V60 تُحضَّر في أكيرو",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=%C3%84kiro%20Bakery%20%26%20Speciality%20Coffee&query_place_id=ChIJ80GDFsGL9T4RnX5Niqvg-x8",
-      "credit": "من خرائط Google"
-    },
-    "amen": {
-      "file": "pastry-counter.jpg",
-      "alt": "صورة الميني كرواسون على كاونتر أكيرو",
+      "file": "cup-croissant-plate.jpg",
+      "alt": "صورة فنجان قهوة على صحن خزفي مزيّن بكرواسون",
       "source_url": "https://www.google.com/maps/search/?api=1&query=%C3%84kiro%20Bakery%20%26%20Speciality%20Coffee&query_place_id=ChIJ80GDFsGL9T4RnX5Niqvg-x8",
       "credit": "من خرائط Google"
     },
     "visit": {
-      "file": "interior.jpg",
-      "alt": "صورة صالة أكيرو والكاونتر في ضاحية البديع",
+      "file": "counter-akiro-sign.jpg",
+      "alt": "صورة كاونتر أكيرو وعليه اللافتة ومكينة الإسبريسو وصينية المخبوزات",
       "source_url": "https://www.google.com/maps/search/?api=1&query=%C3%84kiro%20Bakery%20%26%20Speciality%20Coffee&query_place_id=ChIJ80GDFsGL9T4RnX5Niqvg-x8",
       "credit": "من خرائط Google"
     }

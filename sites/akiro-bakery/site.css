@@ -27,8 +27,8 @@ html[data-site="akiro-bakery"] .story__head::after {
   animation: ak-sway 7s ease-in-out infinite alternate;
 }
 /* left side (photo side in RTL): one long, one short, like the café's cluster */
-html[data-site="akiro-bakery"] .hero--split::before { --ak-d: 78px; --ak-h: 210px; left: clamp(12px, 6vw, 90px); }
-html[data-site="akiro-bakery"] .hero--split::after  { --ak-d: 44px; --ak-h: 132px; left: clamp(96px, 14vw, 220px); animation-duration: 9s; animation-delay: -3s; }
+html[data-site="akiro-bakery"] .hero--split::before { --ak-d: 78px; --ak-h: 190px; top: 104px; left: clamp(12px, 6vw, 90px); }
+html[data-site="akiro-bakery"] .hero--split::after  { --ak-d: 44px; --ak-h: 120px; top: 104px; left: clamp(96px, 14vw, 220px); animation-duration: 9s; animation-delay: -3s; }
 html[data-site="akiro-bakery"] .story__head::after  { --ak-d: 52px; --ak-h: 120px; top: -96px; left: 4%; animation-duration: 8s; animation-delay: -1.5s; }
 
 @keyframes ak-sway { from { transform: rotate(-2.5deg); } to { transform: rotate(2.5deg); } }
@@ -38,8 +38,11 @@ html[data-site="akiro-bakery"] .story__head::after  { --ak-d: 52px; --ak-h: 120p
   html[data-site="akiro-bakery"] .story__head::after { animation: none; }
 }
 @media (max-width: 899px) {
-  html[data-site="akiro-bakery"] .hero--split::before { --ak-d: 54px; --ak-h: 120px; left: 18px; }
-  html[data-site="akiro-bakery"] .hero--split::after  { --ak-d: 32px; --ak-h: 84px; left: 82px; }
+  html[data-site="akiro-bakery"] .hero--split { padding-top: 212px; }
+  html[data-site="akiro-bakery"] .hero--split::before { --ak-d: 48px; --ak-h: 80px; top: 124px; left: 18px; }
+  html[data-site="akiro-bakery"] .hero--split::after  { --ak-d: 30px; --ak-h: 58px; top: 124px; left: 78px; }
+  html[data-site="akiro-bakery"] .brand { font-size: 0; }
+  html[data-site="akiro-bakery"] .brand::before { content: "Äkiro"; font-size: 1.25rem; white-space: nowrap; }
   html[data-site="akiro-bakery"] .story__head::after  { display: none; }
 }
 
@@ -72,3 +75,14 @@ html[data-site="akiro-bakery"] .card__stars { color: var(--glow); }
 html[data-site="akiro-bakery"] .marquee { background: var(--glow); color: var(--glow-ink); border-color: transparent; }
 html[data-site="akiro-bakery"] .marquee *:not(.marquee__dot) { color: var(--glow-ink); }
 html[data-site="akiro-bakery"] .marquee__dot { background: var(--glow-ink); opacity: .6; }
+
+/* ---- Tighten: no washed photo, no empty bands in menu / before reviews ---- */
+html[data-site="akiro-bakery"] .menu { padding-bottom: clamp(48px, 6vw, 80px); }
+html[data-site="akiro-bakery"] .menu__foot { margin-top: 32px; }
+html[data-site="akiro-bakery"] .panel-m { margin-bottom: 0; }
+html[data-site="akiro-bakery"] .panel-m__visual::after { display: none; }
+html[data-site="akiro-bakery"] .panel-m__caption { inset-inline: 14px; bottom: 14px; padding: 10px 16px; background: rgba(var(--bg-rgb), .94); border-radius: 10px; }
+html[data-site="akiro-bakery"] .panel-m__name { font-size: clamp(1.5rem, 3.4vw, 2.1rem); }
+@media (min-width: 900px) { html[data-site="akiro-bakery"] .panel-m__visual .photo { aspect-ratio: 1 / 1; } }
+html[data-site="akiro-bakery"] .proof { padding-bottom: clamp(48px, 6vw, 80px); }
+html[data-site="akiro-bakery"] .rev { padding-top: clamp(56px, 7vw, 90px); border-top: 0; }

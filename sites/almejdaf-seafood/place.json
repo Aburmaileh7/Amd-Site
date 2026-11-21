@@ -19,11 +19,10 @@
     "hover": "#0A524E",
     "ink": "#FFFFFF"
   },
-  "name": "Almejdaf Seafood restaurant",
-  "name_lang": "en",
+  "name": "المجداف",
+  "name_lang": "ar",
   "category_label": "مطعم مأكولات بحرية في الفلاح",
-  "area": "الفلاح - 1E، أبوظبي",
-  "address": "City - Village 5 - G6 - Hidab Ghanim St - Al Falah - 1E - Abu Dhabi - United Arab Emirates",
+  "area": "الفلاح، أبوظبي",
   "phone": {
     "display": "+971 56 740 7712",
     "tel": "+971567407712"
@@ -66,20 +65,19 @@
       {
         "label": "الصحن البحري",
         "title": "صحن بحري يكفي العائلة",
-        "text": "كتب زبون إن صحن المأكولات البحرية لثلاثة أشخاص كان كافياً لعائلة من أربعة. وآخر وصفه بأنه رائع هو والخدمة.",
-        "image": "platter"
+        "text": "كتب زبون إن صحن المأكولات البحرية لثلاثة أشخاص كان كافياً لعائلة من أربعة. وآخر وصفه بأنه رائع هو والخدمة."
       },
       {
         "label": "محل السمك",
-        "title": "محل أسماك بجانب المطعم",
-        "text": "لاحظ أحد الزبائن أن محل السمك المجاور للمطعم يعطي ثقة بطزاجة المأكولات البحرية.",
+        "title": "سمك طازج بجوار محل الأسماك",
+        "text": "لاحظ أحد الزبائن أن محل السمك المجاور للمطعم يعطي ثقة بطزاجة المأكولات البحرية. ويصل السمك إلى الطاولة مشوياً أو على أرز مزعفر.",
         "image": "fish"
       },
       {
-        "label": "الجلسة",
-        "title": "ديكور تقليدي وجلسة عائلية",
+        "label": "الأجواء",
+        "title": "أجواء عائلية ولمسات تراثية",
         "text": "يصفه الزبائن بمكان دافئ بلمسات تراثية وطاقم ودود. وفي ظهر يوم أحد وجده زائر مليئاً بالأهالي والعائلات.",
-        "image": "shrimp"
+        "image": "salmon"
       },
       {
         "label": "الزبائن",
@@ -100,23 +98,20 @@
         "id": "seafood",
         "title": "أطباق البحر",
         "tagline": "",
-        "image": "lobster",
         "items": [
           {
-            "name": "sea food platter",
-            "desc": "صحن مأكولات بحرية مشكّل",
+            "name": "صحن مأكولات بحرية مشكّل",
             "price": 195,
             "mentioned": true
           },
           {
-            "name": "grilled salmon",
-            "desc": "سلمون مشوي",
+            "name": "سلمون مشوي",
             "price": 65
           },
           {
-            "name": "lobster cheese",
-            "desc": "جمبري بالجبن مع البطاطس",
-            "price": 150
+            "name": "لوبستر بالجبن",
+            "price": 150,
+            "desc": "مع البطاطس المقلية"
           }
         ]
       },
@@ -127,19 +122,16 @@
         "image": "shrimp",
         "items": [
           {
-            "name": "hamour briyani",
-            "desc": "برياني هامور",
+            "name": "برياني هامور",
             "price": 59,
             "mentioned": true
           },
           {
-            "name": "shrimp machboos",
-            "desc": "مچبوس روبيان",
+            "name": "مچبوس روبيان",
             "price": 55
           },
           {
-            "name": "fish machboos",
-            "desc": "مچبوس سمك",
+            "name": "مچبوس سمك",
             "price": 49
           }
         ]
@@ -148,11 +140,9 @@
         "id": "grill",
         "title": "المشويات",
         "tagline": "",
-        "image": "fish",
         "items": [
           {
-            "name": "grilled fish",
-            "desc": "سمك مشوي",
+            "name": "سمك مشوي",
             "price": 70,
             "mentioned": true
           }
@@ -205,7 +195,6 @@
   ],
   "amenities": {
     "title": "قبل أن تزورونا",
-    "image": "lobster",
     "items": [
       {
         "icon": "family",
@@ -239,9 +228,7 @@
       }
     ]
   },
-  "visit": {
-    "image": "fish"
-  },
+  "visit": {},
   "hours": {
     "rows": [
       {
@@ -259,12 +246,6 @@
       "source_url": "https://www.google.com/maps/search/?api=1&query=Almejdaf%20Seafood%20restaurant&query_place_id=ChIJ0dfAZY5LXj4Rh1NGBGHSUDk",
       "credit": "من خرائط Google"
     },
-    "shrimp": {
-      "file": "shrimp-machboos.jpg",
-      "alt": "صورة طبق مچبوس الروبيان الأصفر مع البصل المقلي",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=Almejdaf%20Seafood%20restaurant&query_place_id=ChIJ0dfAZY5LXj4Rh1NGBGHSUDk",
-      "credit": "من خرائط Google"
-    },
     "fish": {
       "file": "fish-machboos.jpg",
       "alt": "صورة سمك مع أرز مزعفر وسلطة خضار على طبق أخضر",
@@ -273,7 +254,19 @@
     },
     "lobster": {
       "file": "lobster-cheese.jpg",
-      "alt": "صورة طبق جمبري مغطى بالجبن مع البطاطس المقلية",
+      "alt": "صورة طبق لوبستر بالجبن مع البطاطس المقلية",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Almejdaf%20Seafood%20restaurant&query_place_id=ChIJ0dfAZY5LXj4Rh1NGBGHSUDk",
+      "credit": "من خرائط Google"
+    },
+    "salmon": {
+      "file": "salmon-grill.jpg",
+      "alt": "صورة سلمون مشوي مع الخضار في المطعم",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Almejdaf%20Seafood%20restaurant&query_place_id=ChIJ0dfAZY5LXj4Rh1NGBGHSUDk",
+      "credit": "من خرائط Google"
+    },
+    "shrimp": {
+      "file": "shrimp-machboos.jpg",
+      "alt": "صورة طبق مچبوس الروبيان الأصفر مع البصل المقلي",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Almejdaf%20Seafood%20restaurant&query_place_id=ChIJ0dfAZY5LXj4Rh1NGBGHSUDk",
       "credit": "من خرائط Google"
     }

@@ -99,3 +99,16 @@ html[data-site="oateen-cafe-adore"] .menu__foot{border-top:0;padding-top:0;posit
 html[data-site="oateen-cafe-adore"] .panel-m__visual .photo__badge,
 html[data-site="oateen-cafe-adore"] .hero__side .photo__badge,
 html[data-site="oateen-cafe-adore"] .panel__media .photo__badge{inset-inline-start:auto;inset-inline-end:12px}
+
+/* round 2: the visual never sticks past its panel; foot line is its own row under the cards */
+html[data-site="oateen-cafe-adore"] .panel-m__visual{position:relative;top:auto;align-self:start}
+html[data-site="oateen-cafe-adore"] .panel-m__caption{bottom:clamp(20px,2.4vw,32px)}
+html[data-site="oateen-cafe-adore"] .menu__foot{margin-top:clamp(72px,8vw,112px);display:block;clear:both}
+
+/* visit: hours label (dt) in cream, never the dark muted ink */
+html[data-site="oateen-cafe-adore"] .visit .hours dt,
+html[data-site="oateen-cafe-adore"] .visit .hours dd{color:var(--cream)!important;opacity:1}
+
+/* mentions: no leading dots; items separated by a gap only */
+html[data-site="oateen-cafe-adore"] .mentions li + li::before{display:none!important}
+html[data-site="oateen-cafe-adore"] .mentions ul{gap:10px 36px}
