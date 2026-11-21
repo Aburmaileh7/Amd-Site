@@ -47,7 +47,7 @@ if (!local) {
   const res = { status };
   live = status;
   if (res.status !== 200) issues.push(`live status ${res.status}`);
-  else if (!html.includes(place.name)) issues.push('live page does not show the business name');
+  else if (![place.name, place.name.replace(/&/g, '&amp;').replace(/'/g, '&#39;')].some(n => html.includes(n))) issues.push('live page does not show the business name');
   if (!/noindex/.test(html)) issues.push('live page missing noindex (approved:false pages must not be indexed)');
 }
 console.log(JSON.stringify({ slug, pass: issues.length === 0, images_kb: total, live, issues }, null, 1));
