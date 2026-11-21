@@ -8,8 +8,8 @@ The run text is a JSON object: `{ "batch_id": "...", "places": [ { "place_id", "
 `business_data` holds Google Maps data from Apify: name, category, address, phone, rating, opening_hours, amenities, and up to 15 `reviews` each with a `review_id`.
 
 For **each** place:
-1. Pick a slug: latin lowercase with dashes from the name (e.g. `cielo-cafe`). If `sites/<slug>` exists for a *different* place_id, append `-2`.
-2. Write `sites/<slug>/place.json` following `sites/san-rooftop/place.json` (rooftop), `sites/cielo-cafe/place.json` (cafe, full hero), `sites/the-couch-coffee-house/place.json` (cafe, split hero + story). Also store `"place_id"` and `"batch_id"` at the top level.
+1. Pick a slug: latin lowercase with dashes from the name (e.g. `oateen-cafe-adore`). If `sites/<slug>` exists for a *different* place_id, append `-2`.
+2. Write `sites/<slug>/place.json` following `sites/oateen-cafe-adore/place.json` (cafe), `sites/akiro-bakery/place.json` (bakery), `sites/protection-car-care/place.json` (services, split hero + horizontal story). Also store `"place_id"` and `"batch_id"` at the top level.
 3. `npm run validate -- <slug>` must pass. Then `npm run build` and `node scripts/qa.mjs <slug>`. Look at `qa-out/<slug>/*.png` yourself (mobile + desktop) and fix anything that looks broken, empty, cramped or clipped.
 4. Commit `sites/<slug>/` (place.json, img/, site.css, site.js) only (never commit dist/ or qa-out/).
 
