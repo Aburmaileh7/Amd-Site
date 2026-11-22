@@ -76,7 +76,7 @@
       {
         "label": "طري",
         "title": "خبز طازج وطري",
-        "text": "يصف الزبائن الخبز بأنه طازج وطري، ويذكر أحدهم أنه يكاد يأكل البن مباشرة من الكيس.",
+        "text": "يصف الزبائن الخبز بأنه طازج وطري، ويذكر أحدهم أنه يكاد يأكل البن مباشرة.",
         "image": "story-bread"
       },
       {
@@ -114,7 +114,8 @@
           {
             "name": "Samoon (4pcs)",
             "price": 0.1,
-            "mentioned": true
+            "mentioned": true,
+            "desc": "خبز الصامون"
           },
           {
             "name": "Big Bread (4pcs)",
@@ -126,13 +127,16 @@
           },
           {
             "name": "Big Bun (1pcs)",
-            "price": 0.125
+            "price": 0.125,
+            "desc": "خبز كبير"
           },
           {
             "name": "English bun (1pcs)",
-            "price": 0.15
+            "price": 0.15,
+            "desc": "كعكة انجليزية"
           }
-        ]
+        ],
+        "image": "menu-bread"
       },
       {
         "id": "pastry",
@@ -141,27 +145,33 @@
         "items": [
           {
             "name": "Danesh (1pcs)",
-            "price": 0.2
+            "price": 0.2,
+            "desc": "دنش"
           },
           {
             "name": "Dilkush (1Box)",
-            "price": 0.3
+            "price": 0.3,
+            "desc": "دلكش"
           },
           {
             "name": "Donet (1Box)",
-            "price": 0.3
+            "price": 0.3,
+            "desc": "داونت"
           },
           {
             "name": "Jamroll (1pcs)",
-            "price": 0.5
+            "price": 0.5,
+            "desc": "رول مربي"
           },
           {
             "name": "Ladu (1pcs)",
-            "price": 0.1
+            "price": 0.1,
+            "desc": "لادو"
           },
           {
             "name": "Tost Big (1pcs)",
-            "price": 0.25
+            "price": 0.25,
+            "desc": "توست كبير"
           }
         ],
         "image": "menu-pastry"
@@ -177,19 +187,23 @@
           },
           {
             "name": "Chicken Fatheera (1pcs)",
-            "price": 0.25
+            "price": 0.25,
+            "desc": "فطيرة الدجاج"
           },
           {
             "name": "Chees Fatheera (1pcs)",
-            "price": 0.15
+            "price": 0.15,
+            "desc": "فطيرة الجبنة"
           },
           {
             "name": "Chicken Pizza (1Box)",
-            "price": 0.3
+            "price": 0.3,
+            "desc": "بيتزا الدجاج"
           },
           {
             "name": "Hoddock pizza (1Box)",
-            "price": 0.3
+            "price": 0.3,
+            "desc": "بيتزا النقانق"
           }
         ]
       },
@@ -200,28 +214,34 @@
         "items": [
           {
             "name": "Labnani (8pcs)",
-            "price": 0.1
+            "price": 0.1,
+            "desc": "لبناني"
           },
           {
             "name": "Labnani (24pcs)",
-            "price": 0.3
+            "price": 0.3,
+            "desc": "لبناني"
           },
           {
             "name": "Labnani (40pcs)",
-            "price": 0.5
+            "price": 0.5,
+            "desc": "لبناني"
           },
           {
             "name": "Biscuites (1Kg)",
-            "price": 3.0,
-            "mentioned": true
+            "price": 3,
+            "mentioned": true,
+            "desc": "بسكويت"
           },
           {
             "name": "Kara Biscuites (1Kg)",
-            "price": 2.0
+            "price": 2,
+            "desc": "بسكويت كارا"
           },
           {
             "name": "Plain Cake (1Box)",
-            "price": 0.5
+            "price": 0.5,
+            "desc": "كيك ساده"
           }
         ],
         "image": "menu-board"
@@ -318,8 +338,8 @@
       "credit": "من خرائط Google"
     },
     "story-bread": {
-      "file": "tray-sesame.jpg",
-      "alt": "صورة صينية خبز بالسمسم في مخبز الروشه",
+      "file": "bread-crop.jpg",
+      "alt": "صورة أرغفة خبز على رفوف العرض داخل المخبز",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
       "credit": "من خرائط Google"
     },
@@ -344,6 +364,12 @@
     "visit": {
       "file": "facade-night.jpg",
       "alt": "صورة واجهة مخبز الروشه في مطرح ليلًا",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
+      "credit": "من خرائط Google"
+    },
+    "menu-bread": {
+      "file": "bread-crop.jpg",
+      "alt": "صورة أرغفة خبز على رفوف العرض داخل المخبز",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
       "credit": "من خرائط Google"
     }
