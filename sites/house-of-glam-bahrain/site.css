@@ -90,7 +90,6 @@ html[data-site="house-of-glam-bahrain"] .mentions li + li::before { content: non
 
 /* Fix round 2 */
 html[data-site="house-of-glam-bahrain"] .visit__bg { position: absolute; }
-html[data-site="house-of-glam-bahrain"] .visit__bg .photo__badge { position: absolute; inset-block: auto 14px; inset-inline: auto 14px; }
 html[data-site="house-of-glam-bahrain"] .visit__shade { background: rgba(250, 242, 236, .92); }
 html[data-site="house-of-glam-bahrain"] .visit .eyebrow,
 html[data-site="house-of-glam-bahrain"] .visit .hours dt,
@@ -98,16 +97,13 @@ html[data-site="house-of-glam-bahrain"] .visit .hours .day,
 html[data-site="house-of-glam-bahrain"] .visit .hours li > :first-child,
 html[data-site="house-of-glam-bahrain"] .visit h3,
 html[data-site="house-of-glam-bahrain"] .visit .contact h3,
-html[data-site="house-of-glam-bahrain"] .visit .hours h3 { color: #7A4A3B; }
 html[data-site="house-of-glam-bahrain"] .visit__title,
 html[data-site="house-of-glam-bahrain"] .visit .phone { color: var(--hog-root); }
 
 html[data-site="house-of-glam-bahrain"] .stat__num { color: #7A5A22; }
 html[data-site="house-of-glam-bahrain"] .proof .eyebrow,
 html[data-site="house-of-glam-bahrain"] .proof .muted,
-html[data-site="house-of-glam-bahrain"] .stat__label,
-html[data-site="house-of-glam-bahrain"] .mentions__label,
-html[data-site="house-of-glam-bahrain"] .mentions-title { color: #6E4A3F; }
+html[data-site="house-of-glam-bahrain"] .mentions .eyebrow { color: #6E4A3F; }
 
 html[data-site="house-of-glam-bahrain"] .story__track { padding-inline-end: calc(var(--gutter) + 64px); }
 
@@ -116,3 +112,18 @@ html[data-site="house-of-glam-bahrain"] .menu__foot { margin-bottom: 0; }
 
 html[data-site="house-of-glam-bahrain"] .brand .ltr,
 html[data-site="house-of-glam-bahrain"] .hero .ltr { font-weight: 800; }
+
+/* Fix round 3 */
+html[data-site="house-of-glam-bahrain"] .visit__bg,
+html[data-site="house-of-glam-bahrain"] .visit__badge,
+html[data-site="house-of-glam-bahrain"] .visit__shade { display: none; }
+html[data-site="house-of-glam-bahrain"] .visit { background: var(--surface); border-top: 0; }
+html[data-site="house-of-glam-bahrain"] .visit .label,
+html[data-site="house-of-glam-bahrain"] .visit .hours dt,
+html[data-site="house-of-glam-bahrain"] .visit .muted.small { color: #6E4A3F; }
+html[data-site="house-of-glam-bahrain"] .rev { padding-block-end: 72px; }
+html[data-site="house-of-glam-bahrain"] .rev__rail { padding-bottom: 8px; }
+html[data-site="house-of-glam-bahrain"] .amen { padding-block: 72px; }
+@media (max-width: 899px) { html[data-site="house-of-glam-bahrain"] .proof { padding-block: 72px; } }
+html[data-site="house-of-glam-bahrain"] .item__badge { font-size: .8rem; }
+html[data-site="house-of-glam-bahrain"] .site-header .header-call { min-height: 44px; }
