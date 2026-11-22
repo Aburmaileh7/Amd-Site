@@ -60,18 +60,18 @@
         "time": "تحضير طازج"
       },
       {
-        "label": "تشيز كيك مدريد",
-        "title": "تشيز كيك مدريد",
-        "text": "يُعد تشيز كيك مدريد من أكثر الأصناف التي يتكرر ذكرها في تقييمات الزوار. يتميز بقوام كريمي غني وحلاوة موزونة تتماشى مع القهوة المقطرة.",
-        "image": "interior_stairs",
-        "time": "ركن الحلويات"
+        "label": "الحلويات والمخبوزات",
+        "title": "حلويات SORT تحت القبب",
+        "text": "تُعرض فطائر الدانيش بالتوت والكرواسون تحت قبب زجاجية على البار. ومن الحلويات التي يكثر ذكرها في آراء الزوار تشيز كيك مدريد بقوامه الكريمي، والسينامون رولز الدافئة بنكهة القرفة.",
+        "image": "pastry_domes",
+        "time": "تحت القبب"
       },
       {
-        "label": "الحلويات والمخبوزات",
-        "title": "سينامون رولز وحلويات المقهى",
-        "text": "يشيد الزوار بطراوة السينامون رولز الدافئة ونكهة القرفة الواضحة فيها. كما تتوفر خيارات أخرى للتحلية مثل كيك الموز بالشوكولاتة.",
-        "image": "pastry_domes",
-        "time": "بجانب قهوتك"
+        "label": "الدرج الحلزوني",
+        "title": "الدرج الحلزوني وجلسات في أكثر من دور",
+        "text": "يظهر الدرج الحلزوني الأبيض في قلب المكان بإضاءته الدافئة. ويذكر زوار أن الجلسات الداخلية موزعة على دورين، إلى جانب جلسات خارجية.",
+        "image": "interior_stairs",
+        "time": "جلسات في دورين"
       },
       {
         "label": "المكان والطلب السريع",
@@ -229,7 +229,7 @@
     {
       "author": "Shatha F.",
       "stars": 5,
-      "text": "The place has a very calm and lovely atmosphere with amazing seating areas. The coffee is absolutely delicious! I tried both the hot and iced latte — both were really tasty. The Ethiopian iced drip was also very good. The coffee of the day was excellent as well.",
+      "text": "The place has a very calm and lovely atmosphere with amazing seating areas. The coffee is absolutely delicious! I tried both the hot and iced latte — both were really tasty. The Ethiopian iced drip was also very good. The coffee of the day was excellent as well. …",
       "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25wUGRYZHpVbEpaYjNwT1JsSndPVkl4YmxGa1ExRRAB"
     },
     {
@@ -245,10 +245,14 @@
       "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xSZlJtTTJWbWhOZFhWTFdEaFdRVFprYjNObk5uYxAB"
     },
     {
-      "author": "Soma D.",
-      "stars": 4,
-      "text": "Nice V60 ethiopian coffee Cheese cake Madrid yummy Tiny place Better to take away the coffee",
-      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2t3NVFrY3dOR2c0U0hKT2RuZElURWhvVm5Cd05tYxAB"
+      "author": "زائر",
+      "text": "المكان حلو مرره ورايق فيه دورين وجلسات خارجية قهوتهم جدا لذيذ والتيراميسيو وكيمه العسسسسل لذيذه جدا وحلاها موزون والكريمه خفيفه واللي يبغى صراحة يبعد عن الازعاج وبيروق ضروري يزوره",
+      "source_ref": "https://besteaterys.com/%D9%83%D8%A7%D9%81%D9%8A%D8%A9-%D8%B3%D9%88%D8%B1%D8%AA-%D9%82%D9%87%D9%88%D8%A9-%D9%85%D8%AE%D8%AA%D8%B5%D8%A9/"
+    },
+    {
+      "author": "زائر",
+      "text": "مكان مميز وجميل وخيارات الجلسات كثيره داخليه دورين ونص وخارجيه .. قهوتهم حلوه والحلى عندهم جييييد .. والهوت شوكليت عندهم مميز جداً .. المكان نظيف ومرتب واحياناً يحتاج انتظار وقت الزحمه .. لكن مكان مميز وجميل .. جربت فطورهم ممتاز",
+      "source_ref": "https://besteaterys.com/%D9%83%D8%A7%D9%81%D9%8A%D8%A9-%D8%B3%D9%88%D8%B1%D8%AA-%D9%82%D9%87%D9%88%D8%A9-%D9%85%D8%AE%D8%AA%D8%B5%D8%A9/#review-2"
     }
   ],
   "amenities": {

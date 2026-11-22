@@ -495,3 +495,32 @@ html[data-site="sorted-speciality-coffee"][data-theme] section.visit#visit .btn-
       0 0 0 5px var(--hairline);
   }
 }
+
+/* Fix round 2 */
+html[data-site="sorted-speciality-coffee"][data-theme] .menu .panel-m__caption {
+  background: linear-gradient(180deg, rgba(22,18,16,0.72) 0%, rgba(22,18,16,0.88) 100%);
+  border-radius: 0 0 14px 14px;
+  padding-top: 22px;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.55);
+}
+html[data-site="sorted-speciality-coffee"][data-theme] section.proof .stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  grid-template-columns: none;
+  justify-content: flex-start;
+}
+html[data-site="sorted-speciality-coffee"][data-theme] section.proof .stats .stat {
+  width: fit-content;
+  min-width: 220px;
+  flex: 0 0 auto;
+}
+html[data-site="sorted-speciality-coffee"][data-theme] body main section.rev .card blockquote {
+  white-space: pre-line;
+  line-height: 1.7;
+}
+html[data-site="sorted-speciality-coffee"][data-theme] body main section.rev .card:has(blockquote:lang(ar)),
+html[data-site="sorted-speciality-coffee"][data-theme] body main section.rev .card[lang="ar"] {
+  direction: rtl;
+  text-align: right;
+}
