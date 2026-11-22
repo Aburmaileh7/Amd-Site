@@ -1,0 +1,292 @@
+{
+  "place_id": "ChIJTca3Jd7FRT4R0nwKZ1TzX-A",
+  "batch_id": "amd-gulf-20261122",
+  "slug": "noza-beauty-salon",
+  "theme": "beauty_soft",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#1A6664",
+    "rgb": "26, 102, 100",
+    "hover": "#134E4C",
+    "ink": "#FFFFFF"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "name": "Noza beauty salon",
+  "name_lang": "en",
+  "category_label": "صالون تجميل",
+  "area": "سيتي سنتر الدوحة · الخليج الغربي",
+  "address": "الطابق الثاني، مركز المؤتمرات، سيتي سنتر الدوحة، قطر",
+  "phone": {
+    "display": "+974 6009 7878",
+    "tel": "+97460097878"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Noza%20beauty%20salon&query_place_id=ChIJTca3Jd7FRT4R0nwKZ1TzX-A",
+  "map_query": "Noza beauty salon, City Center Doha, Qatar",
+  "rating": {
+    "value": 4.5,
+    "count": 270,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "عناية بالشعر والأظافر في سيتي سنتر الدوحة",
+    "intro": "في الطابق الثاني من سيتي سنتر الدوحة بالخليج الغربي، يقدّم صالون نوزا خدمات القص والصبغة والاستشوار وعلاجات الشعر والعناية بالأظافر، يومياً من العاشرة صباحاً حتى العاشرة مساءً.",
+    "image": "hero_interior"
+  },
+  "sections": [
+    "menu",
+    "reviews",
+    "marquee",
+    "story",
+    "amenities",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "title": "ما تذكره المراجعات",
+    "items": [
+      {
+        "label": "القص والصبغة",
+        "title": "قص الشعر والصبغة",
+        "text": "تثني المراجعات على دقة قص الشعر وتدرّج الصبغة الطبيعية، مع حرص الخبيرات على الاستماع لطلب كل زائرة وتنفيذه كما تريد.",
+        "time": "خدمة الشعر"
+      },
+      {
+        "label": "التغذية والاستشوار",
+        "title": "استشوار وعلاجات للشعر",
+        "text": "تجمع جلسات الغسيل والاستشوار وعلاجات التغذية بين الاسترخاء والعناية العملية، ليبدو الشعر أكثر صحة وكثافة بعد الزيارة.",
+        "time": "عناية متكاملة"
+      },
+      {
+        "label": "الأظافر والطلاء",
+        "title": "العناية بالأظافر والعودة المتكررة",
+        "text": "تتكرر الإشادة بخدمات الأظافر والطلاء العادي لليدين والقدمين، مع عودة عدد من الزائرات بانتظام لثبات النتيجة.",
+        "image": "nude_nails",
+        "time": "زيارات متكررة"
+      },
+      {
+        "label": "في قلب الدوحة",
+        "title": "موقع مريح في سيتي سنتر",
+        "text": "يقع الصالون في الطابق الثاني من سيتي سنتر الدوحة، ويستقبل زائراته بأجواء مريحة ومنظمة يومياً من 10 صباحاً حتى 10 مساءً.",
+        "time": "10 ص – 10 م"
+      }
+    ]
+  },
+  "marquee": {
+    "label": "خدمات تذكرها المراجعات",
+    "items": [
+      "صبغة الشعر",
+      "قص الشعر",
+      "غسيل واستشوار",
+      "علاج الشعر",
+      "العناية بالأظافر",
+      "سيتي سنتر الدوحة"
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "sample": true,
+    "note": "منيو تقريبي — قائمة خدمات وأسعار تقديرية مستندة إلى مراجعات الصالون وصوره ومنصات الحجز في الدوحة (Fresha / Booqsa / Urban Point)؛ الأسعار الرسمية الكاملة غير منشورة.",
+    "currency": "ر.ق",
+    "foot": "الأسعار تقريبية بالريال القطري؛ للتأكيد والحجز يُرجى التواصل هاتفياً مع الصالون.",
+    "categories": [
+      {
+        "id": "hair",
+        "title": "الشعر والتصفيف",
+        "tagline": "قص واستشوار وصبغات طبيعية وعلاجات تغذية للشعر",
+        "image": "hair_waves",
+        "items": [
+          {
+            "name": "قص وغسيل واستشوار",
+            "price": 180,
+            "mentioned": true
+          },
+          {
+            "name": "علاج وتغذية الشعر",
+            "price": 280,
+            "mentioned": true
+          },
+          {
+            "name": "صبغة شعر كاملة",
+            "price": 350,
+            "mentioned": true
+          },
+          {
+            "name": "خصلات وهايلايت",
+            "price": 450
+          }
+        ]
+      },
+      {
+        "id": "nails",
+        "title": "العناية بالأظافر",
+        "tagline": "طلاء نيود وكلاسيكي ومناكير فرنسي وبديكير وجل إكستنشن",
+        "image": "french_nails",
+        "items": [
+          {
+            "name": "طلاء أظافر نيود أو كلاسيكي",
+            "price": 90,
+            "mentioned": true
+          },
+          {
+            "name": "بديكير وتنظيف أظافر",
+            "price": 120
+          },
+          {
+            "name": "مناكير فرنسي",
+            "price": 110
+          },
+          {
+            "name": "جل إكستنشن ورسم أظافر",
+            "price": 250
+          }
+        ]
+      },
+      {
+        "id": "brows",
+        "title": "الحواجب والرموش",
+        "tagline": "تشذيب بالخيط وتشقير حواجب وتركيب رموش خفيفة",
+        "items": [
+          {
+            "name": "تشذيب حواجب بالخيط",
+            "price": 50
+          },
+          {
+            "name": "تشقير وصبغة حواجب",
+            "price": 150
+          },
+          {
+            "name": "تركيب رموش 2D–3D",
+            "price": 300
+          }
+        ]
+      },
+      {
+        "id": "face",
+        "title": "الوجه والمكياج",
+        "tagline": "تنظيف بشرة عميق ومكياج مناسبات متوازن",
+        "items": [
+          {
+            "name": "تنظيف بشرة عميق",
+            "price": 180
+          },
+          {
+            "name": "مكياج مناسبات",
+            "price": 350
+          }
+        ]
+      }
+    ],
+    "title": "قائمة الخدمات"
+  },
+  "mentions": [
+    "صبغة الشعر",
+    "قص الشعر",
+    "غسيل واستشوار",
+    "علاج الشعر",
+    "العناية بالأظافر",
+    "طلاء أظافر عادي"
+  ],
+  "reviews": [
+    {
+      "author": "deena N.",
+      "stars": 5,
+      "text": "I’m absolutely in love with my hair color! ❤️ The result turned out even better than I expected, and I’m so happy with how beautiful and natural the color looks. A special thank you to Fatima Zahra for doing such an amazing job.…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xOR2VVMVNOV1ZtV2t4cFRsOXZZMWhaVEVoRFNHYxAB"
+    },
+    {
+      "author": "Seba S.",
+      "stars": 5,
+      "text": "Mina is absolutely amazing!🩷 I had heard so many great things about her, and she truly lived up to all the praise. She did an amazing job cutting, washing, and blow-drying my hair. The haircut turned out exactly how I wanted it!…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT21jelowdDZZekpvVEZNeGMzWmZiR2RJWDBwNVFsRRAB"
+    },
+    {
+      "author": "Celestine M.",
+      "stars": 5,
+      "text": "Absolutely loved my experience! ✨ The hair treatment was so relaxing, and my haircut turned out amazing. My hair looks healthier, fuller, and more voluminous! Huge thanks to Fatmazara for my beautiful hair, and Camilla for doing an amazing …",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25KNmQyOUtiazFxUzA5TE5qTnZOaTFET1V4bmFFRRAB"
+    },
+    {
+      "author": "Ana-Maria C.",
+      "stars": 5,
+      "text": "Sonica is great, I love how she does my nails. I’m always coming back to her here. My toes are made with normal nail polish every time. I’m extremely happy with the results. Totally recommend Sonica.",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xoc1NrVlNlalZ0Y0RnMWRGbDNjelJCVUdGTVNVRRAB"
+    }
+  ],
+  "amenities": {
+    "title": "سهولة الوصول والراحة",
+    "items": [
+      {
+        "icon": "car",
+        "title": "مواقف مهيأة",
+        "text": "مواقف سيارات مناسبة للكراسي المتحركة داخل سيتي سنتر الدوحة."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل ميسّر",
+        "text": "وصول مريح ومهيأ إلى الصالون في الطابق الثاني جهة مركز المؤتمرات."
+      },
+      {
+        "icon": "clock",
+        "title": "ساعات يومية مرنة",
+        "text": "أبواب الصالون مفتوحة يومياً من 10:00 صباحاً حتى 10:00 مساءً."
+      }
+    ]
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "الأحد – الخميس",
+        "time": "10:00 ص – 10:00 م"
+      },
+      {
+        "days": "الجمعة والسبت",
+        "time": "10:00 ص – 10:00 م"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "visit": {
+    "image": "lounge_coffee",
+    "title": "الموقع وساعات العمل"
+  },
+  "images": {
+    "hero_interior": {
+      "file": "hero-interior.jpg",
+      "alt": "صورة التصميم الداخلي لصالون نوزا للتجميل في الدوحة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Noza%20beauty%20salon&query_place_id=ChIJTca3Jd7FRT4R0nwKZ1TzX-A",
+      "credit": "من خرائط Google"
+    },
+    "hair_waves": {
+      "file": "hair-styling.jpg",
+      "alt": "صورة تصفيف وتمويج الشعر في صالون نوزا للتجميل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Noza%20beauty%20salon&query_place_id=ChIJTca3Jd7FRT4R0nwKZ1TzX-A",
+      "credit": "من خرائط Google"
+    },
+    "french_nails": {
+      "file": "french-manicure.jpg",
+      "alt": "صورة مناكير فرنسي للأظافر في صالون نوزا للتجميل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Noza%20beauty%20salon&query_place_id=ChIJTca3Jd7FRT4R0nwKZ1TzX-A",
+      "credit": "من خرائط Google"
+    },
+    "nude_nails": {
+      "file": "nude-nails.jpg",
+      "alt": "صورة طلاء أظافر نيود ناعم في صالون نوزا للتجميل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Noza%20beauty%20salon&query_place_id=ChIJTca3Jd7FRT4R0nwKZ1TzX-A",
+      "credit": "من خرائط Google"
+    },
+    "lounge_coffee": {
+      "file": "salon-lounge.jpg",
+      "alt": "صورة ركن الضيافة والقهوة في صالون نوزا للتجميل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Noza%20beauty%20salon&query_place_id=ChIJTca3Jd7FRT4R0nwKZ1TzX-A",
+      "credit": "من خرائط Google"
+    }
+  }
+}
