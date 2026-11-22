@@ -24,7 +24,7 @@
   "name_en": "Al Rosha Bakery",
   "category_label": "مخبز في مطرح",
   "area": "مطرح، مسقط",
-  "address": "JH76+WWP، شارع الطويان، مطرح، مسقط",
+  "address": "مطرح، مسقط",
   "phone": {
     "display": "+968 9589 7501",
     "tel": "+96895897501"
@@ -132,8 +132,7 @@
             "name": "English bun (1pcs)",
             "price": 0.15
           }
-        ],
-        "image": "menu-bread"
+        ]
       },
       {
         "id": "pastry",
@@ -252,7 +251,7 @@
       "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2tSZmMxVlRRMUJOTVZVeFIzUmtSVkJhWldOdFRWRRAB"
     },
     {
-      "text": "Freshly baked bread and khubs. The bakery closes at midnight but you can avail bread and khubs anytime from backdoor. Not expensive at all.",
+      "text": "Freshly baked bread and khubs. The bakery closes at midnight but you can avail bread and khubs anytime from backdoor. Not expensive at all. …",
       "author": "Muhammad E.",
       "stars": 5,
       "source_ref": "ChdDSUhNMG9nS0VJQ0FnSURKMTUtdnZnRRAB"
@@ -301,20 +300,14 @@
   },
   "images": {
     "hero": {
-      "file": "bread-display.jpg",
-      "alt": "صورة خبز معبّأ وأصابع سمسم في واجهة العرض داخل مخبز الروشه",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
-      "credit": "من خرائط Google"
-    },
-    "menu-bread": {
-      "file": "bread-display.jpg",
-      "alt": "صورة أكياس الخبز في واجهة العرض",
+      "file": "price-board.jpg",
+      "alt": "صورة لوحة الأسعار المعلّقة داخل المحل بالريال العماني",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
       "credit": "من خرائط Google"
     },
     "menu-pastry": {
-      "file": "pastry-case.jpg",
-      "alt": "صورة واجهات الحلويات والمعجنات والكيك في المحل",
+      "file": "tray-sesame.jpg",
+      "alt": "صورة صينية خبز بالسمسم في مخبز الروشه",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
       "credit": "من خرائط Google"
     },
@@ -325,8 +318,8 @@
       "credit": "من خرائط Google"
     },
     "story-bread": {
-      "file": "bread-display.jpg",
-      "alt": "صورة خبز طازج معبّأ في واجهة العرض",
+      "file": "tray-sesame.jpg",
+      "alt": "صورة صينية خبز بالسمسم في مخبز الروشه",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
       "credit": "من خرائط Google"
     },
@@ -343,8 +336,8 @@
       "credit": "من خرائط Google"
     },
     "amen": {
-      "file": "pastry-case.jpg",
-      "alt": "صورة حلويات ومعجنات في واجهات العرض",
+      "file": "tray-sesame.jpg",
+      "alt": "صورة صينية خبز بالسمسم في مخبز الروشه",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
       "credit": "من خرائط Google"
     },

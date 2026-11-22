@@ -155,3 +155,38 @@ html[data-site="al-rosha-bakery"] .proof .stat__num { color: var(--ro-navy); fon
 @media (prefers-reduced-motion: reduce) {
   html[data-site="al-rosha-bakery"] .menu .tabs button { transition: none; }
 }
+
+/* ---------- Round 2 fixes ---------- */
+html[data-site="al-rosha-bakery"] .visit__title::after {
+  content: "JH76+WWP · شارع الطويان";
+  display: block; margin-top: 14px;
+  font: 500 1rem/1.6 var(--font-ui); letter-spacing: normal; color: var(--muted); direction: rtl;
+}
+html[data-site="al-rosha-bakery"] .visit__shade {
+  background: linear-gradient(180deg, var(--bg) 0%, rgba(var(--bg-rgb), .93) 25%, rgba(var(--bg-rgb), .95) 75%, var(--bg) 100%);
+}
+html[data-site="al-rosha-bakery"] .visit__bg .photo__badge,
+html[data-site="al-rosha-bakery"] .visit .photo__badge { inset-block-start: auto; inset-block-end: 10px; inset-inline-start: 10px; }
+html[data-site="al-rosha-bakery"] .menu .cur {
+  font-family: var(--font-ui); font-weight: 700; font-size: .95em; color: #E9D896; margin-inline-start: .3em;
+}
+html[data-site="al-rosha-bakery"] .menu .item__name { font-size: clamp(.9rem, 2vw, 1.05rem); direction: ltr; text-align: start; }
+html[data-site="al-rosha-bakery"] .mentions { gap: 8px; margin-block-end: 0; padding-block-end: 0; }
+html[data-site="al-rosha-bakery"] .mentions > * {
+  font: 500 .9rem/1.4 var(--font-ui); direction: ltr; padding: 6px 12px;
+  border: 1px solid var(--line); border-radius: 999px;
+}
+html[data-site="al-rosha-bakery"] .proof { padding-block-end: clamp(40px, 6vw, 72px); }
+html[data-site="al-rosha-bakery"] .menu { padding-block-end: clamp(40px, 6vw, 72px); }
+html[data-site="al-rosha-bakery"] .marquee { margin: 0; }
+html[data-site="al-rosha-bakery"] .site-header .header-call {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; padding-inline: 1.1rem;
+}
+html[data-site="al-rosha-bakery"] .hero__title, html[data-site="al-rosha-bakery"] .story__title { line-height: 1.45; }
+
+/* story card vertically centred in the pinned frame */
+@media (min-width: 900px) {
+  html[data-site="al-rosha-bakery"] .story--h .story__pin { align-items: center; }
+  html[data-site="al-rosha-bakery"] .story--h .story__track { align-items: center; }
+  html[data-site="al-rosha-bakery"] .story--h .panel { align-items: center; align-self: center; }
+}
