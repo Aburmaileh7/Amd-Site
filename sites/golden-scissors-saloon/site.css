@@ -1,0 +1,96 @@
+/* Golden Scissors Saloon, Al Wukair: white marble floor, black chairs, black cut-metal mirror frames,
+   and a black price board on the wall. Signature: the hero photo hangs in the salon's black mirror
+   frame (cut-work border), and the menu's side panel becomes that price board, ruled row by row,
+   with the shop name in gold at the top. Everything else stays marble-white and black. */
+html[data-site="golden-scissors-saloon"]{
+  --bg:#F6F6F3;--bg-rgb:246,246,243;--surface:#ECECE8;--surface-2:#E1E1DC;
+  --ink:#171512;--ink-rgb:23,21,18;--muted:#57534D;--line:rgba(23,21,18,.13);
+  --gs-board:#171512;--gs-gold:#E9C86F;--gs-gold-rgb:233,200,111;
+  --font-d:"Alexandria","IBM Plex Sans Arabic",system-ui,sans-serif;
+  --display-weight:500;--radius:6px
+}
+html[data-site="golden-scissors-saloon"] body{background:var(--bg)}
+html[data-site="golden-scissors-saloon"] h1,
+html[data-site="golden-scissors-saloon"] h2,
+html[data-site="golden-scissors-saloon"] h3{letter-spacing:normal}
+html[data-site="golden-scissors-saloon"] .hero__title,
+html[data-site="golden-scissors-saloon"] .hero__headline{line-height:1.25}
+
+/* marble: two faint grey veins across the light sections, no colour */
+html[data-site="golden-scissors-saloon"] .hero,
+html[data-site="golden-scissors-saloon"] .visit{
+  background:
+    linear-gradient(118deg,transparent 47.6%,rgba(23,21,18,.05) 48%,transparent 48.6%) 0 0/100% 100% no-repeat,
+    linear-gradient(161deg,transparent 70.2%,rgba(23,21,18,.04) 70.5%,transparent 71%) 0 0/100% 100% no-repeat,
+    var(--bg)}
+
+/* the mirror: hero photo in a black frame with a cut-work band, like the salon's mirrors */
+html[data-site="golden-scissors-saloon"] .hero__side{
+  position:relative;border-radius:4px;padding:clamp(12px,1.6vw,20px);
+  background:
+    radial-gradient(circle at 50% 50%,rgba(246,246,243,.55) 0 1.6px,transparent 2.2px) 0 0/11px 11px,
+    radial-gradient(circle at 50% 50%,rgba(246,246,243,.35) 0 1px,transparent 1.6px) 5.5px 5.5px/11px 11px,
+    var(--gs-board)}
+html[data-site="golden-scissors-saloon"] .hero__side .photo{aspect-ratio:4/5;border-radius:2px;outline:2px solid var(--gs-board)}
+html[data-site="golden-scissors-saloon"] .hero__side .photo img{object-position:42% 60%!important}
+html[data-site="golden-scissors-saloon"] .hero__side::after{
+  content:"";position:absolute;inset-inline:clamp(12px,1.6vw,20px);bottom:6px;height:2px;background:var(--gs-gold);opacity:.9}
+
+/* buttons: black like the chairs, gold lettering */
+html[data-site="golden-scissors-saloon"] .btn--glow{background:var(--gs-board);color:var(--gs-gold);box-shadow:none;border-radius:4px}
+html[data-site="golden-scissors-saloon"] .btn--glow:hover{background:#2F2B26}
+html[data-site="golden-scissors-saloon"] .btn--ghost{border-radius:4px}
+
+/* the price board: menu side panel = the black board on the salon wall */
+html[data-site="golden-scissors-saloon"] .menu{background:var(--bg);border-top:0}
+html[data-site="golden-scissors-saloon"] .menu__sample{border:0;background:var(--surface);border-radius:4px}
+html[data-site="golden-scissors-saloon"] .menu__sample .dot{background:var(--gs-board)}
+html[data-site="golden-scissors-saloon"] .tabs__ink{box-shadow:none;height:3px}
+html[data-site="golden-scissors-saloon"] .tabs__count{color:var(--muted)}
+html[data-site="golden-scissors-saloon"] .panel-m__visual{border-radius:4px;background:var(--gs-board);padding:10px}
+html[data-site="golden-scissors-saloon"] .panel-m__visual::after{display:none}
+html[data-site="golden-scissors-saloon"] .panel-m__plain{
+  position:relative;border-radius:2px;
+  background:
+    repeating-linear-gradient(to bottom,transparent 0 37px,rgba(246,246,243,.13) 37px 38px) 0 118px/100% calc(100% - 118px) no-repeat,
+    #F6F6F3 0 0/100% 110px no-repeat;
+  background-color:var(--gs-board)}
+html[data-site="golden-scissors-saloon"] .panel-m__plain::before{
+  content:"GOLDEN SCISSORS SALOON";position:absolute;top:0;inset-inline:0;height:62px;
+  display:flex;align-items:center;justify-content:center;direction:ltr;
+  font:500 clamp(.95rem,1.9vw,1.25rem)/1 var(--font-ui);letter-spacing:.06em;color:var(--gs-board);
+  background:#F6F6F3;border-bottom:3px solid var(--gs-board)}
+html[data-site="golden-scissors-saloon"] .panel-m__plain::after{
+  content:"صالون جولدن سيزرز · قائمة الأسعار";position:absolute;top:62px;inset-inline:0;height:48px;
+  display:flex;align-items:center;justify-content:center;
+  font:500 clamp(.9rem,1.6vw,1.05rem)/1.4 var(--font-b);letter-spacing:normal;color:var(--gs-board);background:#F6F6F3}
+html[data-site="golden-scissors-saloon"] .panel-m__caption{inset-inline:26px;bottom:26px}
+html[data-site="golden-scissors-saloon"] .panel-m__tag{color:rgba(246,246,243,.7);direction:ltr;text-align:end;letter-spacing:.02em}
+html[data-site="golden-scissors-saloon"] .panel-m__name{color:var(--gs-gold);line-height:1.3}
+
+/* rows read like the board: price set in a black chip */
+html[data-site="golden-scissors-saloon"] .item{padding-block:18px}
+html[data-site="golden-scissors-saloon"] .item__lead{border-bottom-style:solid;border-color:rgba(23,21,18,.16)}
+html[data-site="golden-scissors-saloon"] .item__price{background:var(--gs-board);color:#F6F6F3;padding:4px 10px;border-radius:3px;font-size:1.05rem}
+html[data-site="golden-scissors-saloon"] .item__price .cur{color:var(--gs-gold)}
+html[data-site="golden-scissors-saloon"] .item:hover .item__price{color:var(--gs-gold)}
+html[data-site="golden-scissors-saloon"] .item__badge{border-color:rgba(23,21,18,.3);color:var(--ink)}
+html[data-site="golden-scissors-saloon"] .items::before{display:none}
+
+/* marquee: a black band with gold words, like the board header turned sideways */
+html[data-site="golden-scissors-saloon"] .marquee{background:var(--gs-board);color:#F6F6F3;border:0}
+html[data-site="golden-scissors-saloon"] .marquee *{color:inherit}
+html[data-site="golden-scissors-saloon"] .marquee [class*="label"]{color:var(--gs-gold)}
+
+/* proof numbers in black on a marble step */
+html[data-site="golden-scissors-saloon"] .proof{background:var(--surface)}
+html[data-site="golden-scissors-saloon"] .stat__num{color:var(--ink)}
+
+/* story: stacked panels, the photo in a thin black frame */
+html[data-site="golden-scissors-saloon"] .story .panel__media{border:8px solid var(--gs-board);border-radius:4px}
+html[data-site="golden-scissors-saloon"] .story h3{line-height:1.35}
+
+@media (max-width:899px){
+  html[data-site="golden-scissors-saloon"] .panel-m__plain{aspect-ratio:16/11}
+  html[data-site="golden-scissors-saloon"] .hero__side{padding:10px}
+}

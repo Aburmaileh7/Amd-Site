@@ -1,0 +1,263 @@
+{
+  "place_id": "ChIJS7CJGxXNRT4RrYiiuaG4b1U",
+  "batch_id": "amd-gulf-20261121",
+  "slug": "golden-scissors-saloon",
+  "theme": "beauty_soft",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "بيانات خرائط Google (Apify) وصورة لوحة الأسعار داخل الصالون من صور خرائط Google",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#171512",
+    "rgb": "23, 21, 18",
+    "hover": "#2F2B26",
+    "ink": "#E9C86F"
+  },
+  "name": "Golden Scissors Saloon",
+  "name_lang": "en",
+  "category_label": "صالون حلاقة رجالي",
+  "area": "الوكير، قطر",
+  "address": "5HH8+H9J، الوكير، قطر",
+  "phone": {
+    "display": "+974 6644 9740",
+    "tel": "+97466449740"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Golden%20Scissors%20Saloon&query_place_id=ChIJS7CJGxXNRT4RrYiiuaG4b1U",
+  "map_query": "Golden Scissors Saloon, Al Wukair, Qatar",
+  "rating": {
+    "value": 4.1,
+    "count": 67,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "حلاقة نظيفة وخدمة ودودة في الوكير",
+    "intro": "صالون حلاقة رجالي في الوكير، يفتح كل يوم من 8:30 صباحاً حتى 9:30 مساءً. قص وحلاقة وعناية بالوجه بأسعار معلنة على لوحة الصالون.",
+    "image": "interior"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "menu",
+    "marquee",
+    "story",
+    "proof",
+    "reviews",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في الصالون",
+    "items": [
+      "قص الشعر",
+      "حلاقة اللحية",
+      "قص شعر الأطفال",
+      "تنظيف الوجه بالبخار",
+      "حمام زيت",
+      "الوكير"
+    ]
+  },
+  "story": {
+    "title": "ما يكرره الزبائن",
+    "items": [
+      {
+        "label": "الطاقم",
+        "title": "طاقم ودود",
+        "text": "يصف الزبائن العاملين بأنهم ودودون ومتعاونون. وكتب أحدهم أنه وجد مكاناً مناسباً لقص الشعر وحلاقة نظيفة."
+      },
+      {
+        "label": "المكان",
+        "title": "مكان نظيف ومرتب",
+        "text": "تتكرر في التقييمات كلمات النظافة والترتيب، ووصف أحد الزبائن المكان بأنه نظيف وجديد."
+      },
+      {
+        "label": "الانتظار",
+        "title": "خدمة سريعة وانتظار أقل",
+        "text": "ذكر أحد الزبائن سرعة الخدمة، وأن في الطابق الأول ثلاثة كراسي إضافية تقلل وقت الانتظار.",
+        "image": "work"
+      },
+      {
+        "label": "الأسعار",
+        "title": "أسعار معقولة",
+        "text": "يصف زبائن الصالون الأسعار بأنها معقولة، وقص الشعر فيه بـ 20 ر.ق وقص الأطفال بـ 15 ر.ق حسب لوحة الأسعار."
+      }
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "title": "الخدمات والأسعار",
+    "currency": "ر.ق",
+    "sample": false,
+    "note": "الأسعار من لوحة الأسعار داخل الصالون (صورة من خرائط Google). بعض الأسطر مغطاة على اللوحة فلم تُدرج.",
+    "foot": "للاستفسار قبل الزيارة",
+    "categories": [
+      {
+        "id": "cut",
+        "title": "قص وحلاقة",
+        "tagline": "Hair Cut · Shaving",
+        "items": [
+          {
+            "name": "قص الشعر",
+            "price": 20,
+            "mentioned": true
+          },
+          {
+            "name": "قص شعر الأطفال",
+            "price": 15
+          },
+          {
+            "name": "قص الشعر مع غسيل",
+            "price": 30
+          },
+          {
+            "name": "حلاقة اللحية",
+            "price": 20,
+            "mentioned": true
+          },
+          {
+            "name": "صبغ اللحية والشنب",
+            "price": 30
+          }
+        ]
+      },
+      {
+        "id": "hair",
+        "title": "صبغ وعلاجات الشعر",
+        "tagline": "Color · Straightening",
+        "items": [
+          {
+            "name": "صبغ الشعر",
+            "price": 50
+          },
+          {
+            "name": "تمليس الشعر",
+            "price": 100
+          },
+          {
+            "name": "حمام زيت بالبخار",
+            "price": 30
+          },
+          {
+            "name": "منشوار للشعر",
+            "price": 20
+          },
+          {
+            "name": "شامبو",
+            "price": 10
+          }
+        ]
+      },
+      {
+        "id": "face",
+        "title": "العناية بالوجه",
+        "tagline": "Facial",
+        "items": [
+          {
+            "name": "تنظيف الوجه بالبخار",
+            "price": 50
+          },
+          {
+            "name": "تنظيف الوجه بالبخار مع ماسك",
+            "price": 120
+          },
+          {
+            "name": "غسيل الوجه العادي",
+            "price": 20
+          }
+        ]
+      },
+      {
+        "id": "care",
+        "title": "الرأس والقدم",
+        "tagline": "Massage · Pedicure",
+        "items": [
+          {
+            "name": "مساج الرأس (10 دقائق)",
+            "price": 15
+          },
+          {
+            "name": "باديكير",
+            "price": 20
+          },
+          {
+            "name": "تنظيف القدم (فوت سبا)",
+            "price": 40
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "قص الشعر",
+    "حلاقة نظيفة",
+    "اللحية"
+  ],
+  "reviews": [
+    {
+      "author": "Chase B.",
+      "stars": 5,
+      "text": "Very good place to have your hair cut and a clean shave . Guys are very friendly",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSUNHcDVTRDdBRRAB"
+    },
+    {
+      "author": "Emad R.",
+      "stars": 5,
+      "text": "Very clean place , new , helpful,  good price .",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUNJZzZxSWZREAE"
+    },
+    {
+      "author": "mohammad M.",
+      "stars": 5,
+      "text": "Very organised and very friendly services and very helpful professional workers",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSURxeUtpMkNBEAE"
+    },
+    {
+      "author": "Dinesh J.",
+      "stars": 5,
+      "text": "Nice customer service. Amazing crew, satisfactory services.",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSURtNThpN3B3RRAB"
+    },
+    {
+      "author": "Mahendra V.",
+      "stars": 4,
+      "text": "Fast service... Friendly staff... Reasonable prices.... They have 3 chairs on first floors as well which allows less waiting time...",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSUNta2FLdWh3RRAB"
+    }
+  ],
+  "hours": {
+    "rows": [
+      {
+        "days": "يومياً",
+        "time": "8:30 ص – 9:30 م"
+      }
+    ],
+    "per_day": 7,
+    "source": "خرائط Google"
+  },
+  "visit": {
+    "image": "chairs"
+  },
+  "images": {
+    "interior": {
+      "file": "interior-main.jpg",
+      "alt": "صورة داخل الصالون: كراسي حلاقة سوداء ومرايا بإطار مخرّم ولوحة الأسعار على الجدار",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Golden%20Scissors%20Saloon&query_place_id=ChIJS7CJGxXNRT4RrYiiuaG4b1U",
+      "credit": "من خرائط Google"
+    },
+    "chairs": {
+      "file": "chairs-detail.jpg",
+      "alt": "صورة كراسي الحلاقة من الخلف على أرضية رخام أبيض",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Golden%20Scissors%20Saloon&query_place_id=ChIJS7CJGxXNRT4RrYiiuaG4b1U",
+      "credit": "من خرائط Google"
+    },
+    "work": {
+      "file": "barber-at-work.jpg",
+      "alt": "صورة حلاق يقص شعر زبون صغير داخل الصالون",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Golden%20Scissors%20Saloon&query_place_id=ChIJS7CJGxXNRT4RrYiiuaG4b1U",
+      "credit": "من خرائط Google"
+    }
+  }
+}
