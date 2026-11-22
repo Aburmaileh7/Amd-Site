@@ -102,3 +102,42 @@
 [data-site="al-jazeera-mandi-cover"] h3 { letter-spacing: normal; }
 
 html[data-site="al-jazeera-mandi-cover"] .stat__num{line-height:1.15;margin-bottom:12px}
+
+/* ---------- visit: facade in a framed card, not a background ---------- */
+html[data-site="al-jazeera-mandi-cover"] .visit {
+  display: grid; gap: 28px 56px; align-items: center; overflow: visible;
+  grid-template-columns: 1fr; grid-template-areas: "card" "text";
+  padding-block: clamp(72px, 10vw, 120px);
+  padding-inline: var(--gutter, 20px);
+  background: var(--surface);
+}
+html[data-site="al-jazeera-mandi-cover"] .visit .visit__shade { display: none; }
+html[data-site="al-jazeera-mandi-cover"] .visit .visit__bg {
+  grid-area: card; position: relative; inset: auto; z-index: 0; transform: none !important;
+  width: 100%; max-width: 640px; margin-inline: auto; aspect-ratio: 4 / 3;
+  border-radius: var(--radius); overflow: hidden;
+  border: 6px solid #FFFFFF; outline: 2px solid var(--amd-blue);
+  box-shadow: 0 18px 40px rgba(20, 42, 107, .18);
+}
+html[data-site="al-jazeera-mandi-cover"] .visit .visit__badge {
+  grid-area: card; position: relative; inset: auto; z-index: 2;
+  align-self: start; justify-self: end; margin: 18px 18px 0 0; max-width: calc(100% - 36px);
+}
+html[data-site="al-jazeera-mandi-cover"] .visit .visit__inner { grid-area: text; padding-inline: 0; margin-inline: auto; width: 100%; max-width: 640px; }
+html[data-site="al-jazeera-mandi-cover"] .visit .visit__title { font-size: clamp(2rem, 5.5vw, 3.4rem); line-height: 1.35; }
+html[data-site="al-jazeera-mandi-cover"] .visit .hours dt,
+html[data-site="al-jazeera-mandi-cover"] .visit .hours dd { font-size: 16px; color: var(--ink); }
+html[data-site="al-jazeera-mandi-cover"] .visit .hours dt { font-weight: 600; }
+@media (min-width: 900px) {
+  html[data-site="al-jazeera-mandi-cover"] .visit {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-template-areas: "text card";
+    padding-inline: max(var(--gutter, 32px), calc((100% - var(--maxw, 1200px)) / 2));
+  }
+  html[data-site="al-jazeera-mandi-cover"] .visit .visit__inner { max-width: none; }
+  html[data-site="al-jazeera-mandi-cover"] .visit .visit__cols { grid-template-columns: 1fr; }
+}
+
+/* ---------- currency a step bigger; stats gap trimmed ---------- */
+[data-site="al-jazeera-mandi-cover"] .menu .cur { font-size: 1.2em; font-weight: 700; }
+html[data-site="al-jazeera-mandi-cover"] .proof { padding-bottom: clamp(24px, 4vw, 48px); }
+html[data-site="al-jazeera-mandi-cover"] .proof .stats { margin-bottom: 0; }

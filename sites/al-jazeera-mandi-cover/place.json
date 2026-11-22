@@ -126,8 +126,7 @@
             "desc": "",
             "price": 11
           }
-        ],
-        "image": "chicken"
+        ]
       },
       {
         "id": "shawaya",
@@ -213,13 +212,12 @@
       {
         "label": "الأطباق",
         "title": "مندي ومظبي وشواية",
-        "text": "يذكر الزبائن لحم المندي والمظبي ودجاج الشواية بالاسم، وينصح أحدهم بتجربتها كلها.",
-        "image": "chicken"
+        "text": "يذكر الزبائن لحم المندي والمظبي ودجاج الشواية بالاسم، وينصح أحدهم بتجربتها كلها."
       },
       {
         "label": "الرز",
         "title": "رز مطبوخ كما يجب",
-        "text": "وصف أحد الزبائن الرز بأنه مطبوخ بإتقان ولذيذ، وهو ما يجتمع عليه طبق المندي هنا."
+        "text": "وصف أحد الزبائن الرز بأنه مطبوخ بإتقان ولذيذ."
       },
       {
         "label": "الأسعار",
@@ -248,7 +246,7 @@
       "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25GbVoweDRObVZLYnpRNWEzVTFhREo0V0ZNd2RHYxAB"
     },
     {
-      "author": "Abdur R.",
+      "author": "Mechel",
       "stars": 5,
       "text": "Very good experience, employees are very friendly. Thanks to mukbail and khalid.",
       "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2kxelUzVk9Ua3BNT0dKcVVGZHZiR2x5TFZabmJVRRAB"
@@ -270,7 +268,7 @@
     "لحم مندي",
     "دجاج شواية",
     "دجاج مظبي",
-    "دجاج فحم"
+    "دجاج مشوي"
   ],
   "hours": {
     "rows": [
@@ -343,13 +341,7 @@
     },
     "plate": {
       "file": "mandi-plate.jpg",
-      "alt": "صورة طبق مندي دجاج كامل على الطاولة",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%BA%D8%B7%D8%A7%D8%A1%20%D9%85%D9%86%D8%AF%D9%8A%20%D8%A7%D9%84%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9%20Al%20Jazeera%20Mandi%20Cover%20Restaurant&query_place_id=ChIJj_8mNUbpST4RoXSm3Y1Sfis",
-      "credit": "من خرائط Google"
-    },
-    "chicken": {
-      "file": "chicken-mandi-table.jpg",
-      "alt": "صورة طبق مندي دجاج كامل على طاولة مع السلطات",
+      "alt": "صورة مندي لحم",
       "source_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%BA%D8%B7%D8%A7%D8%A1%20%D9%85%D9%86%D8%AF%D9%8A%20%D8%A7%D9%84%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9%20Al%20Jazeera%20Mandi%20Cover%20Restaurant&query_place_id=ChIJj_8mNUbpST4RoXSm3Y1Sfis",
       "credit": "من خرائط Google"
     }
