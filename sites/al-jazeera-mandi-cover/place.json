@@ -1,0 +1,344 @@
+{
+  "place_id": "ChIJj_8mNUbpST4RoXSm3Y1Sfis",
+  "slug": "al-jazeera-mandi-cover",
+  "batch_id": "amd-gulf-20261121",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "heritage_warm",
+  "data_source": "Google Maps (Apify) + صورة قائمة الأسعار من صفحة المحل على خرائط Google",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#1E3C96",
+    "rgb": "30, 60, 150",
+    "hover": "#162D73",
+    "ink": "#FFFFFF"
+  },
+  "name": "مطعم غطاء مندي الجزيرة",
+  "name_lang": "ar",
+  "category_label": "مطعم مندي في الثقبة",
+  "area": "الثقبة، الخبر",
+  "address": "جوار مستشفى الجزيرة، شارع الرياض، الثقبة، الخبر",
+  "phone": {
+    "display": "+966 54 512 9797",
+    "tel": "+966545129797"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%BA%D8%B7%D8%A7%D8%A1%20%D9%85%D9%86%D8%AF%D9%8A%20%D8%A7%D9%84%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9%20Al%20Jazeera%20Mandi%20Cover%20Restaurant&query_place_id=ChIJj_8mNUbpST4RoXSm3Y1Sfis",
+  "map_query": "مطعم غطاء مندي الجزيرة الثقبة الخبر",
+  "rating": {
+    "value": 4.7,
+    "count": 881,
+    "source": "Google Maps"
+  },
+  "hero": {
+    "headline": "مندي ومظبي وشواية في الثقبة، الخبر",
+    "intro": "مطعم مندي بجوار مستشفى الجزيرة في الخبر، مفتوح كل يوم من الحادية عشرة صباحًا إلى منتصف الليل، وتقييمه ٤٫٧ من ٨٨١ مراجعة على خرائط Google.",
+    "image": "lamb"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "story",
+    "proof",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "marquee": {
+    "label": "على المائدة",
+    "items": [
+      "لحم مندي",
+      "دجاج مظبي",
+      "دجاج شواية",
+      "رز مندي",
+      "الثقبة، الخبر"
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": false,
+    "title": "قائمة الأسعار",
+    "currency": "ر.س",
+    "note": "الأسعار من صورة قائمة الأسعار في صفحة المطعم على خرائط Google، وهي شاملة القيمة المضافة. أسعار الخراف غير واضحة في الصورة، فتُؤكَّد مع المطعم.",
+    "categories": [
+      {
+        "id": "mandi",
+        "title": "المندي",
+        "tagline": "",
+        "items": [
+          {
+            "name": "حبة دجاج مندي مع الرز",
+            "desc": "",
+            "price": 42,
+            "mentioned": true
+          },
+          {
+            "name": "نص دجاج مندي مع الرز",
+            "desc": "",
+            "price": 21
+          },
+          {
+            "name": "ربع دجاج مندي مع الرز",
+            "desc": "",
+            "price": 11
+          },
+          {
+            "name": "حبة دجاج مندي سادة",
+            "desc": "",
+            "price": 25
+          },
+          {
+            "name": "نص دجاج مندي سادة",
+            "desc": "",
+            "price": 13
+          },
+          {
+            "name": "رز مندي",
+            "desc": "",
+            "price": 7
+          }
+        ]
+      },
+      {
+        "id": "madhbi",
+        "title": "المظبي",
+        "tagline": "",
+        "items": [
+          {
+            "name": "حبة دجاج مظبي مع الرز",
+            "desc": "",
+            "price": 42,
+            "mentioned": true
+          },
+          {
+            "name": "نص دجاج مظبي مع الرز",
+            "desc": "",
+            "price": 21
+          },
+          {
+            "name": "ربع دجاج مظبي مع الرز",
+            "desc": "",
+            "price": 11
+          }
+        ]
+      },
+      {
+        "id": "shawaya",
+        "title": "دجاج شواية",
+        "tagline": "",
+        "items": [
+          {
+            "name": "حبة دجاج شواية مع الرز",
+            "desc": "",
+            "price": 42,
+            "mentioned": true
+          },
+          {
+            "name": "نص دجاج شواية مع الرز",
+            "desc": "",
+            "price": 21
+          },
+          {
+            "name": "ربع دجاج شواية مع الرز",
+            "desc": "",
+            "price": 11
+          }
+        ]
+      },
+      {
+        "id": "lahm",
+        "title": "اللحم",
+        "tagline": "",
+        "items": [
+          {
+            "name": "نفر لحم مندي",
+            "desc": "",
+            "price": 80,
+            "mentioned": true
+          },
+          {
+            "name": "ربع خروف",
+            "desc": "السعر يُؤكَّد مع المطعم"
+          },
+          {
+            "name": "نص خروف",
+            "desc": "السعر يُؤكَّد مع المطعم"
+          }
+        ],
+        "image": "lamb"
+      },
+      {
+        "id": "sides",
+        "title": "أطباق أخرى",
+        "tagline": "",
+        "items": [
+          {
+            "name": "ملوخية",
+            "desc": "",
+            "price": 7
+          },
+          {
+            "name": "مشكل فرن",
+            "desc": "",
+            "price": 7
+          },
+          {
+            "name": "سلطة خضراء",
+            "desc": "",
+            "price": 5
+          },
+          {
+            "name": "خيار بلبن",
+            "desc": "",
+            "price": 5
+          },
+          {
+            "name": "طحينة",
+            "desc": "",
+            "price": 2
+          }
+        ]
+      }
+    ]
+  },
+  "story": {
+    "title": "ما يكرره الزبائن في مراجعاتهم",
+    "items": [
+      {
+        "label": "الأطباق",
+        "title": "مندي ومظبي وشواية",
+        "text": "يذكر الزبائن لحم المندي والمظبي ودجاج الشواية بالاسم، وينصح أحدهم بتجربتها كلها.",
+        "image": "lamb"
+      },
+      {
+        "label": "الرز",
+        "title": "رز مطبوخ كما يجب",
+        "text": "وصف أحد الزبائن الرز بأنه مطبوخ بإتقان ولذيذ، وهو ما يجتمع عليه طبق المندي هنا."
+      },
+      {
+        "label": "الأسعار",
+        "title": "أسعار مناسبة",
+        "text": "تتكرر في المراجعات كلمات مثل «اقتصادي» و«أسعار جيدة»، وزبون يجعله مكان غدائه اليومي.",
+        "image": "hall"
+      },
+      {
+        "label": "الجلسات",
+        "title": "طابق علوي واسع",
+        "text": "يذكر أحد الزبائن أن الطابق العلوي فيه مساحة كبيرة وخصوصية، والطاقم ودود حسب أكثر من مراجعة."
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Syed A.",
+      "stars": 5,
+      "text": "Very tasty Laham Mandi, economical, good service and attentive staff...would definitely come back for more later!!",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT214VE9HY3hlblpoTVdaTExWSXhjRWh3VldaUVZrRRAB"
+    },
+    {
+      "author": "Shaik S.",
+      "stars": 5,
+      "text": "MUST TRY MADHBI. Must try mandi, shawaya and faham. Their rice is perfectly cooked and very tasty. All staff is friendly. Must try",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25GbVoweDRObVZLYnpRNWEzVTFhREo0V0ZNd2RHYxAB"
+    },
+    {
+      "author": "Abdur R.",
+      "stars": 5,
+      "text": "Very good experience, employees are very friendly. Thanks to mukbail and khalid.",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2kxelUzVk9Ua3BNT0dKcVVGZHZiR2x5TFZabmJVRRAB"
+    },
+    {
+      "author": "Adeel A.",
+      "stars": 5,
+      "text": "Great food, good prices. I come here often. their shawaya and grilled chicken are really good. The counter guys are friendly and speaks English, which helps. Also the kitchen staff is polite and skilled. Upstairs has plenty of space and good privacy. Recommend trying it ✅",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnTURJOE56cVZ3EAE"
+    },
+    {
+      "author": "Ahsan S.",
+      "stars": 5,
+      "text": "My daily go to place for Lunch! I will sum everything in one word “Perfect” From taste to price Affordable and Great taste",
+      "source_ref": "ChZDSUhNMG9nS0VMbVg3dTJWdjhUa1FBEAE"
+    }
+  ],
+  "mentions": [
+    "لحم مندي",
+    "دجاج شواية",
+    "دجاج مظبي",
+    "دجاج فحم"
+  ],
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "11 ص – 12 منتصف الليل"
+      }
+    ],
+    "per_day": 13,
+    "source": "Google Maps"
+  },
+  "amenities": {
+    "title": "قبل أن تزورونا",
+    "image": "hall",
+    "items": [
+      {
+        "icon": "family",
+        "title": "مناسب للعائلات وغرفة طعام خاصة",
+        "text": ""
+      },
+      {
+        "icon": "calendar",
+        "title": "الحجز مطلوب",
+        "text": "وخدمة تموين للمناسبات."
+      },
+      {
+        "icon": "bag",
+        "title": "توصيل واستلام من المطعم",
+        "text": ""
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": ""
+      },
+      {
+        "icon": "access",
+        "title": "مدخل مناسب للكراسي المتحركة",
+        "text": ""
+      },
+      {
+        "icon": "check",
+        "title": "يقبل البطاقات والدفع بالجوال",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "front"
+  },
+  "whatsapp": null,
+  "images": {
+    "lamb": {
+      "file": "lamb-mandi.jpg",
+      "alt": "صورة طبق لحم مندي على الرز في مطبخ المطعم",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%BA%D8%B7%D8%A7%D8%A1%20%D9%85%D9%86%D8%AF%D9%8A%20%D8%A7%D9%84%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9%20Al%20Jazeera%20Mandi%20Cover%20Restaurant&query_place_id=ChIJj_8mNUbpST4RoXSm3Y1Sfis",
+      "credit": "من خرائط Google"
+    },
+    "hall": {
+      "file": "dining-hall.jpg",
+      "alt": "صورة صالة الطعام وكاونتر الطلب في المطعم",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%BA%D8%B7%D8%A7%D8%A1%20%D9%85%D9%86%D8%AF%D9%8A%20%D8%A7%D9%84%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9%20Al%20Jazeera%20Mandi%20Cover%20Restaurant&query_place_id=ChIJj_8mNUbpST4RoXSm3Y1Sfis",
+      "credit": "من خرائط Google"
+    },
+    "front": {
+      "file": "storefront.jpg",
+      "alt": "صورة واجهة المطعم في الثقبة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B7%D8%B9%D9%85%20%D8%BA%D8%B7%D8%A7%D8%A1%20%D9%85%D9%86%D8%AF%D9%8A%20%D8%A7%D9%84%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9%20Al%20Jazeera%20Mandi%20Cover%20Restaurant&query_place_id=ChIJj_8mNUbpST4RoXSm3Y1Sfis",
+      "credit": "من خرائط Google"
+    }
+  }
+}

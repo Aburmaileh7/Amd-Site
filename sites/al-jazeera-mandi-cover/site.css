@@ -1,0 +1,102 @@
+/* al-jazeera-mandi-cover — signature: "الغطاء" (the lid).
+   The restaurant's logo is a domed cover over a tray of rice. The hero photo sits under a dome
+   and opens bottom-to-top on load, like the lid lifted off the mandi. The facade's royal blue
+   and sign-yellow carry the marquee and the text-only story panels. */
+
+[data-site="al-jazeera-mandi-cover"] {
+  --amd-sign: #F4C430;      /* yellow of the shop sign / saffron rice */
+  --amd-blue: #1E3C96;      /* facade blue (= accent) */
+  --amd-blue-deep: #142A6B;
+}
+
+/* ---------- hero: the photo under a dome ---------- */
+@media (min-width: 900px) {
+  [data-site="al-jazeera-mandi-cover"] .hero .hero__side {
+    border-radius: 999px 999px var(--radius) var(--radius);
+    position: relative;
+  }
+  [data-site="al-jazeera-mandi-cover"] .hero .hero__side .photo { aspect-ratio: 4 / 5.2; }
+}
+@media (max-width: 899px) {
+  [data-site="al-jazeera-mandi-cover"] .hero .hero__side {
+    border-radius: 48% 48% var(--radius) var(--radius) / 34% 34% var(--radius) var(--radius);
+  }
+  [data-site="al-jazeera-mandi-cover"] .hero .hero__side .photo { aspect-ratio: 4 / 4.2; }
+}
+[data-site="al-jazeera-mandi-cover"] .hero .hero__side .photo__badge {
+  inset-inline-start: 50%; transform: translateX(-50%); bottom: 14px; white-space: nowrap;
+}
+[data-site="al-jazeera-mandi-cover"] .hero .hero__side .photo__badge:dir(rtl) { transform: translateX(50%); }
+
+/* lid lift: the dome opens from the tray upward, once */
+@media (prefers-reduced-motion: no-preference) {
+  [data-site="al-jazeera-mandi-cover"] .hero .hero__side {
+    animation: amd-lid 1.3s cubic-bezier(.7, 0, .2, 1) .25s both;
+  }
+  [data-site="al-jazeera-mandi-cover"] .hero .hero__side .photo img {
+    animation: amd-steam 1.8s cubic-bezier(.2, .7, .2, 1) .25s both;
+  }
+}
+@keyframes amd-lid {
+  from { clip-path: inset(100% 0 0 0); }
+  to   { clip-path: inset(0 0 0 0); }
+}
+@keyframes amd-steam {
+  from { transform: scale(1.18) translateY(4%); }
+  to   { transform: none; }
+}
+
+/* ---------- marquee: the shop sign, blue band with yellow letters ---------- */
+[data-site="al-jazeera-mandi-cover"] .marquee.marquee {
+  background: var(--amd-blue);
+  border-block: 0;
+  color: var(--amd-sign);
+}
+[data-site="al-jazeera-mandi-cover"] .marquee .marquee__dot {
+  background: #FFFFFF;
+  width: .28em; height: .28em;
+}
+
+/* ---------- menu: the rice-tray rim behind the price list ---------- */
+[data-site="al-jazeera-mandi-cover"] .menu .item__price { color: var(--amd-blue); font-weight: 700; }
+[data-site="al-jazeera-mandi-cover"] .menu .item__badge {
+  background: var(--amd-sign); color: #2B1D12;
+}
+
+/* ---------- story: text-only panels become a lid, blue dome with sign-yellow title ---------- */
+[data-site="al-jazeera-mandi-cover"] .story .panel:not(:has(.panel__media)) {
+  background: var(--amd-blue);
+  color: #FFFFFF;
+  padding: clamp(56px, 9vw, 120px) clamp(24px, 6vw, 96px) clamp(36px, 6vw, 72px);
+  border-radius: 999px 999px var(--radius) var(--radius) / clamp(120px, 22vw, 300px) clamp(120px, 22vw, 300px) var(--radius) var(--radius);
+  text-align: center;
+  grid-template-columns: 1fr;
+}
+[data-site="al-jazeera-mandi-cover"] .story .panel:not(:has(.panel__media)) .panel__text {
+  justify-items: center; max-width: 40rem; margin-inline: auto;
+}
+[data-site="al-jazeera-mandi-cover"] .story .panel:not(:has(.panel__media)) h3 {
+  color: var(--amd-sign);
+  font-size: clamp(2rem, 5.4vw, 3.6rem);
+  line-height: 1.3;
+}
+[data-site="al-jazeera-mandi-cover"] .story .panel:not(:has(.panel__media)) .muted {
+  color: #E6EBFA; font-size: 1.12rem; line-height: 1.7;
+}
+[data-site="al-jazeera-mandi-cover"] .story .panel:not(:has(.panel__media)) .panel__time {
+  color: #FFFFFF;
+}
+/* the knob on each lid */
+[data-site="al-jazeera-mandi-cover"] .story .panel:not(:has(.panel__media))::before {
+  content: ""; display: block; width: 44px; height: 14px; margin: 0 auto 18px;
+  border-radius: 999px; background: var(--amd-sign);
+}
+[data-site="al-jazeera-mandi-cover"] .story .panel__media .photo { border-radius: var(--radius); }
+
+/* ---------- proof numbers in facade blue ---------- */
+[data-site="al-jazeera-mandi-cover"] .proof .stat__num { color: var(--amd-blue); }
+
+/* ---------- headings: Arabic, no tracking, room for dots ---------- */
+[data-site="al-jazeera-mandi-cover"] h1,
+[data-site="al-jazeera-mandi-cover"] h2,
+[data-site="al-jazeera-mandi-cover"] h3 { letter-spacing: normal; }
