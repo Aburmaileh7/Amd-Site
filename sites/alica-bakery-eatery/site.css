@@ -481,3 +481,74 @@ html[data-site="alica-bakery-eatery"] section.visit#visit .btn--ghost:hover {
     flex-wrap: wrap;
   }
 }
+
+/* ─── Round 2 fixes ─── */
+/* Mentions: chips with gap, no leading dots */
+html[data-site="alica-bakery-eatery"] .mentions li + li::before { display: none !important; }
+html[data-site="alica-bakery-eatery"] .mentions ul { gap: 10px !important; flex-direction: row !important; }
+html[data-site="alica-bakery-eatery"] .mentions li {
+  font-size: clamp(1.05rem, 2.2vw, 1.4rem) !important;
+  padding: 8px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--alica-rim);
+  background: var(--surface);
+  line-height: 1.5;
+}
+
+/* Visit: Arabic headline, full address as a small isolated line */
+html[data-site="alica-bakery-eatery"] section.visit#visit .visit__title {
+  font-size: 1rem !important;
+  font-weight: 500;
+  line-height: 1.8;
+  unicode-bidi: isolate;
+}
+html[data-site="alica-bakery-eatery"] section.visit#visit .visit__title::before {
+  content: "زورونا في جميرا الأولى";
+  display: block;
+  font-family: var(--font-d);
+  font-weight: var(--display-weight);
+  font-size: clamp(2.2rem, 8vw, 5rem);
+  line-height: 1.35;
+  margin-block-end: 10px;
+  color: var(--alica-cream-ink);
+}
+html[data-site="alica-bakery-eatery"] section.visit#visit .visit__title > span { unicode-bidi: isolate; color: rgba(250, 246, 238, 0.9); }
+html[data-site="alica-bakery-eatery"] section.visit#visit .visit__shade {
+  background: linear-gradient(180deg, rgba(10,26,36,0.82) 0%, rgba(10,26,36,0.88) 100%);
+}
+html[data-site="alica-bakery-eatery"] section.visit#visit .hours .muted,
+html[data-site="alica-bakery-eatery"] section.visit#visit .muted.small { color: rgba(250, 246, 238, 0.9) !important; opacity: 1 !important; }
+html[data-site="alica-bakery-eatery"] section.visit#visit .visit__badge { background: rgba(250,246,238,0.96); color: #0E222E; border-color: rgba(14,34,46,0.2); }
+
+/* Hero badge: light chip, dark text, inside the frame */
+html[data-site="alica-bakery-eatery"] .hero--full .photo__badge {
+  background: rgba(250, 246, 238, 0.95);
+  color: #0E222E;
+  border-color: rgba(14, 34, 46, 0.2);
+  inset-inline-end: 20px;
+  inset-block-end: 24px;
+}
+html[data-site="alica-bakery-eatery"] .hero--full .hero__rating,
+html[data-site="alica-bakery-eatery"] .hero--full .hero__rating * { color: #FAF6EE; opacity: 1; }
+html[data-site="alica-bakery-eatery"] .site-header:not(.is-solid) { background: linear-gradient(180deg, rgba(10,26,36,0.88) 0%, rgba(10,26,36,0.55) 75%, transparent 100%); }
+html[data-site="alica-bakery-eatery"] .site-header:not(.is-solid) a,
+html[data-site="alica-bakery-eatery"] .site-header:not(.is-solid) button { color: #FAF6EE !important; }
+
+/* Spacing: remove cream gaps */
+html[data-site="alica-bakery-eatery"] section.amen { padding-block: clamp(56px, 8vw, 96px); }
+html[data-site="alica-bakery-eatery"] section.amen .amen__media { margin-block-end: 0; }
+html[data-site="alica-bakery-eatery"] section.rev { padding-block-end: clamp(48px, 7vw, 80px); }
+html[data-site="alica-bakery-eatery"] section.rev .rev__rail { padding-inline: var(--gutter, 20px); scroll-padding-inline: var(--gutter, 20px); padding-block-end: 12px; }
+html[data-site="alica-bakery-eatery"] section.rev .card { flex-shrink: 0; }
+html[data-site="alica-bakery-eatery"] section.rev .card__stars { direction: ltr; }
+html[data-site="alica-bakery-eatery"] section.rev .card p { unicode-bidi: plaintext; text-align: start; direction: ltr; }
+html[data-site="alica-bakery-eatery"] section.visit#visit { padding-block-start: clamp(72px, 10vw, 140px); margin-block-start: 0; }
+
+/* Menu caption: compact, anchored top so it never covers glass lettering */
+html[data-site="alica-bakery-eatery"] section.menu .panel-m__caption {
+  inset-block: 0 auto !important;
+  background: linear-gradient(to bottom, rgba(8,22,32,0.82) 0%, rgba(8,22,32,0.55) 70%, rgba(8,22,32,0) 100%);
+  padding: 12px 16px 28px;
+}
+html[data-site="alica-bakery-eatery"] section.menu .panel-m__name { font-size: 1rem; }
+html[data-site="alica-bakery-eatery"] section.menu .panel-m__tag { font-size: 0.82rem; }

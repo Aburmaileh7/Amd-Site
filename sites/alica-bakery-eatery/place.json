@@ -301,7 +301,7 @@
     "source": "خرائط Google"
   },
   "visit": {
-    "image": "storefront",
+    "image": "visit_bg",
     "title": "الموقع وساعات العمل"
   },
   "images": {
@@ -364,6 +364,12 @@
       "alt": "صورة واجهة مخبز ومطعم ALICA ومدخله في بورت دي لا مير",
       "source_url": "https://www.google.com/maps/search/?api=1&query=ALICA%20Bakery%20%2F%20Eatery&query_place_id=ChIJB36KXABDXz4R1G-1e9L98jY",
       "credit": "من خرائط Google"
+    },
+    "visit_bg": {
+      "file": "visit-umbrellas.jpg",
+      "alt": "صورة جلسات خارجية تحت المظلات البيضاء على رصيف المرسى أمام ALICA",
+      "source_url": "https://www.tripadvisor.com/Restaurant_Review-g295424-d33399580-Reviews-Alica-Dubai_Emirate_of_Dubai.html",
+      "credit": "من تريب أدفايزر (صور الزوار)"
     }
   }
 }
