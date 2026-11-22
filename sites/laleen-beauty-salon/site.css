@@ -55,3 +55,26 @@ html[data-site="laleen-beauty-salon"] .proof{border-top:0}
   html[data-site="laleen-beauty-salon"] .story--stack .panel__media{width:min(100%,380px);margin-inline:auto}
   html[data-site="laleen-beauty-salon"] .story--stack .panel__media .photo{aspect-ratio:5/6}
 }
+
+/* visit: address as a modest line, badge anchored to the photo */
+html[data-site="laleen-beauty-salon"] .visit__title{font-family:var(--font-b);font-size:clamp(1.3rem,2.6vw,1.9rem);font-weight:600;line-height:1.5;direction:ltr;text-align:start;unicode-bidi:isolate;letter-spacing:0;text-transform:none}
+html[data-site="laleen-beauty-salon"] .visit__badge{display:none}
+html[data-site="laleen-beauty-salon"] .visit__bg .photo__badge{display:inline-flex;position:absolute;bottom:16px;inset-inline-start:16px;z-index:4}
+html[data-site="laleen-beauty-salon"] .visit__bg{opacity:1}
+
+/* hero: Arabic headline leads, Latin name is a small brand line */
+html[data-site="laleen-beauty-salon"] .hero__headline{font-family:var(--font-d);font-weight:700;font-size:clamp(2.2rem,5.2vw,4rem);line-height:1.3}
+html[data-site="laleen-beauty-salon"] .hero__headline .ltr,
+html[data-site="laleen-beauty-salon"] .hero__headline [dir="ltr"],
+html[data-site="laleen-beauty-salon"] .hero .eyebrow .ltr{font-family:var(--font-b);font-size:.55em;font-weight:500}
+
+/* amenities with title only: even rows, brass tick */
+html[data-site="laleen-beauty-salon"] .amen__list li{align-items:center}
+html[data-site="laleen-beauty-salon"] .amen__list li h3{margin:0}
+html[data-site="laleen-beauty-salon"] .amen__list li p:empty{display:none}
+
+/* English reviews read left-to-right */
+html[data-site="laleen-beauty-salon"] .card blockquote{unicode-bidi:plaintext;text-align:start}
+html[data-site="laleen-beauty-salon"] .card blockquote:lang(en){direction:ltr}
+html[data-site="laleen-beauty-salon"] .hero__title{font-size:clamp(1.5rem,2.6vw,2.2rem);line-height:1.2;font-weight:600;margin-bottom:10px}
+html[data-site="laleen-beauty-salon"] .hero__headline{font-size:clamp(2.3rem,5vw,3.8rem);color:var(--ink)}
