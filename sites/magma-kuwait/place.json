@@ -1,0 +1,310 @@
+{
+  "place_id": "ChIJ4_TE1OKFzz8Rng_ws9OiiaM",
+  "batch_id": "amd-gulf-20261121",
+  "slug": "magma-kuwait",
+  "theme": "heritage_warm",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google (العنوان والهاتف والساعات والتقييم والمرافق والمراجعات والصور)",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#F2B42C",
+    "rgb": "242, 180, 44",
+    "hover": "#DDA01A",
+    "ink": "#1B1916"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "name": "Magma",
+  "name_lang": "en",
+  "category_label": "مطعم فطور وبرنش",
+  "area": "شرق، مدينة الكويت",
+  "address": "شارع إبراهيم المضف، شرق، مدينة الكويت",
+  "phone": {
+    "display": "+965 5590 6331",
+    "tel": "+96555906331"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Magma&query_place_id=ChIJ4_TE1OKFzz8Rng_ws9OiiaM",
+  "map_query": "Magma, Ibraheem Al Mudhaf St, Sharq, Kuwait City, Kuwait",
+  "rating": {
+    "value": 4.3,
+    "count": 446,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "فطور وبرنش من الثامنة صباحًا في شرق",
+    "intro": "ماجما في شرق يفتح أبوابه من 8 صباحًا حتى 11 مساءً، ويقدّم فطورًا وبرنشًا وقهوة وحلويات، مع جلسة داخلية وخارجية ومواقف أمام المكان.",
+    "image": "hero"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "marquee",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "title": "ما يكرره الزوار عن ماجما",
+    "items": [
+      {
+        "label": "البيض",
+        "title": "بيض بأكثر من طريقة",
+        "text": "يذكر الزوار بيض البنديكت بالريب القصير، وبيض الكالزوني، وبيض الكمأة مع الفطر، ويصفون الأطباق بأنها لذيذة ومتوازنة.",
+        "image": "benedict"
+      },
+      {
+        "label": "الزعتر",
+        "title": "زعتر وجبنة فيتا وعسل",
+        "text": "كتبت زائرة أن الزعتر رقم واحد عندها، وأعطت الفيتا بالعسل وبيض الكمأة تقييم 5 من 5، ثم توست النوتيلا 4 من 5."
+      },
+      {
+        "label": "الصباح",
+        "title": "يفتح من الصباح الباكر",
+        "text": "وصفته زائرة بأنه من أفضل وجهاتها للفطور، فهو يفتح عند 8 صباحًا. وتذكر خرائط Google الفطور والبرنش والغداء والعشاء.",
+        "image": "latte",
+        "time": "8:00"
+      },
+      {
+        "label": "الجلسة",
+        "title": "جلسة مريحة ومواقف متوفرة",
+        "text": "يذكر الزوار أن الأجواء مريحة، مع جلسة داخل المطعم وخارجه، وأن المكان غير مزدحم وفيه مواقف أمامه. والفريق ودود.",
+        "image": "hall"
+      },
+      {
+        "label": "العصائر",
+        "title": "عصائر وشاي مثلج",
+        "text": "أثنى الزوار على عصير البرتقال والجزر، وعلى شاي الباشن فروت المثلج، مع قهوة وشاي ضمن ما تبرزه خرائط Google."
+      }
+    ]
+  },
+  "marquee": {
+    "label": "من ماجما",
+    "items": [
+      "بيض بنديكت",
+      "فطاير زعتر",
+      "بانكيك البتر ميلك",
+      "عصير برتقال وجزر",
+      "سبانش لاتيه",
+      "شرق"
+    ]
+  },
+  "mentions": [
+    "Zaatar fatayer",
+    "Short ribs Benedict",
+    "Egg calzone",
+    "Truffle mushroom eggs",
+    "Nutella perdu",
+    "Spanish latte",
+    "Orange carrot juice",
+    "Buttermilk pancakes"
+  ],
+  "menu": {
+    "kind": "menu",
+    "title": "من القائمة",
+    "currency": "د.ك",
+    "sample": true,
+    "note": "منيو تقريبي: الأصناف من مراجعات المحل وصوره، والأسعار تقديرية ومبنية على مستوى أسعار المحل، وليست من المحل.",
+    "foot": "للحجز والاستفسار",
+    "categories": [
+      {
+        "id": "breakfast",
+        "title": "الفطور",
+        "tagline": "من 8 صباحًا",
+        "items": [
+          {
+            "name": "Buttermilk pancakes",
+            "price": 4.5,
+            "mentioned": true
+          },
+          {
+            "name": "Short ribs Benedict",
+            "price": 5.75,
+            "mentioned": true
+          },
+          {
+            "name": "Truffle mushroom eggs",
+            "price": 4.8,
+            "mentioned": true
+          },
+          {
+            "name": "Egg calzone",
+            "price": 4.5,
+            "mentioned": true
+          },
+          {
+            "name": "Zaatar fatayer",
+            "price": 3.5,
+            "mentioned": true
+          }
+        ],
+        "image": "benedict"
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "قهوة وعصائر",
+        "items": [
+          {
+            "name": "Spanish latte",
+            "price": 2.0,
+            "mentioned": true
+          },
+          {
+            "name": "Orange carrot juice",
+            "price": 2.0,
+            "mentioned": true
+          },
+          {
+            "name": "Passion fruit iced tea",
+            "price": 1.75,
+            "mentioned": true
+          }
+        ],
+        "image": "latte"
+      },
+      {
+        "id": "sweets",
+        "title": "الحلويات",
+        "tagline": "للختام",
+        "items": [
+          {
+            "name": "Nutella perdu",
+            "price": 3.5,
+            "mentioned": true
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Farah A.",
+      "stars": 5,
+      "text": "I love this place for lunch. The place is not crowded at all in the restaurant. There are plenty of parking spots available. The staff are friendly. The food is delicious. I loved the orange & carrot juice.",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSURadHRqRjhnRRAB"
+    },
+    {
+      "author": "Maya",
+      "stars": 5,
+      "text": "One of my best “breakfast” destination .. Opens @ 8 am .. Lovely & comfy atmosphere.. Inside & out seating are available with a parking lot in-front of the place.. Delicious dishes .. Zataar is the the No 1 💯 Feta cheese and honey 5/5 Truffle egg 5/5 Nutella toast 4/5",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUNaamJyUFlREAE"
+    },
+    {
+      "author": "Badriya A.",
+      "stars": 5,
+      "text": "I ordered the egg calzone and it was absolutely delicious. The ingredients were well balanced, and each element complemented the others perfectly. The bacon paired wonderfully with the eggs, and the mixed cheeses added great flavor without being too heavy. I was very impressed…",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnTUNZaEtTUGJBEAE"
+    },
+    {
+      "author": "F",
+      "stars": 5,
+      "text": "Delicious food, excellent service, great view/location, slightly pricy. We had two egg dishes: the cacio e pepe eggs benedict which was so different and delicious, and the truffle mushroom egg scramble, a side of bacon, and the buttermilk pancakes. Their passion fruit iced tea…",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnTURneFBLS3ZBRRAB"
+    },
+    {
+      "author": "Hasnaa A.",
+      "stars": 4,
+      "text": "My second visit I can easily say that it is one of my favorite breakfast spots in town the food is amazing the short ribs Benedict is my favorite and I will definitely come back for it. …",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT201WVkxUkxlREZWV1ZKRmFFTkRkVjlYY1VoU09HYxAB"
+    }
+  ],
+  "amenities": {
+    "title": "قبل أن تزور ماجما",
+    "image": "plate",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "من 8 صباحًا كل يوم",
+        "text": "يفتح يوميًا من الثامنة صباحًا حتى الحادية عشرة ليلًا، للفطور والبرنش والغداء والعشاء."
+      },
+      {
+        "icon": "tree",
+        "title": "جلسة داخلية وخارجية",
+        "text": "جلوس داخل المطعم وفي الهواء الطلق، مع خدمة على الطاولة."
+      },
+      {
+        "icon": "calendar",
+        "title": "الحجز متاح",
+        "text": "يقبل الحجوزات، ويُنصح بالحجز للبرنش والعشاء."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": "موقف سيارات مجاني ومواقف في الشارع، وعادةً تتوفر أماكن كثيرة."
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": "المدخل والمواقف ودورة المياه والجلوس مهيأة."
+      },
+      {
+        "icon": "bag",
+        "title": "سفري وتوصيل",
+        "text": "طلبات سفري وتوصيل، ومنها توصيل بدون تلامس."
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للعائلات",
+        "text": "مناسب للأطفال وللمجموعات، مع خيارات نباتية وأكل حلال."
+      }
+    ]
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "8 ص – 11 م"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "visit": {
+    "title": "زورونا في شرق",
+    "image": "facade"
+  },
+  "images": {
+    "hero": {
+      "file": "magma-pancakes.jpg",
+      "alt": "صورة لبانكيك الفطور في ماجما",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Magma&query_place_id=ChIJ4_TE1OKFzz8Rng_ws9OiiaM",
+      "credit": "من خرائط Google"
+    },
+    "hall": {
+      "file": "magma-interior.jpg",
+      "alt": "صورة داخل ماجما بالطاولات الخشبية وشجرة الزيتون",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Magma&query_place_id=ChIJ4_TE1OKFzz8Rng_ws9OiiaM",
+      "credit": "من خرائط Google"
+    },
+    "latte": {
+      "file": "magma-latte.jpg",
+      "alt": "صورة قهوة لاتيه بفنجان ماجما الأسود",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Magma&query_place_id=ChIJ4_TE1OKFzz8Rng_ws9OiiaM",
+      "credit": "من خرائط Google"
+    },
+    "plate": {
+      "file": "magma-savory-plate.jpg",
+      "alt": "صورة طبق لحم مشوي بصلصة داكنة وفلفل أحمر",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Magma&query_place_id=ChIJ4_TE1OKFzz8Rng_ws9OiiaM",
+      "credit": "من خرائط Google"
+    },
+    "benedict": {
+      "file": "magma-eggs-benedict.jpg",
+      "alt": "صورة بيض بنديكت بالصلصة الصفراء على طبق أسود",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Magma&query_place_id=ChIJ4_TE1OKFzz8Rng_ws9OiiaM",
+      "credit": "من خرائط Google"
+    },
+    "facade": {
+      "file": "magma-facade.jpg",
+      "alt": "صورة واجهة مطعم ماجما",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Magma&query_place_id=ChIJ4_TE1OKFzz8Rng_ws9OiiaM",
+      "credit": "من خرائط Google"
+    }
+  }
+}
