@@ -89,3 +89,27 @@
   [data-site="ayal-alfareej-restaurant"] .hero .hero__content{padding-top:clamp(20px,6vw,40px)}
   [data-site="ayal-alfareej-restaurant"] .hero--split{padding-top:0}
 }
+
+/* fix round 2: visit contrast, currency size, story gaps */
+[data-site="ayal-alfareej-restaurant"] .visit__shade{background:linear-gradient(180deg,rgba(14,8,2,.88),rgba(14,8,2,.92))!important}
+[data-site="ayal-alfareej-restaurant"] .visit .eyebrow,
+[data-site="ayal-alfareej-restaurant"] .visit .eyebrow *{color:#F0B84A!important}
+[data-site="ayal-alfareej-restaurant"] .visit__title,
+[data-site="ayal-alfareej-restaurant"] .visit__title *{color:#FFFFFF!important}
+[data-site="ayal-alfareej-restaurant"] .visit .hours dt,
+[data-site="ayal-alfareej-restaurant"] .visit .hours dd,
+[data-site="ayal-alfareej-restaurant"] .visit .muted,
+[data-site="ayal-alfareej-restaurant"] .visit .contact,
+[data-site="ayal-alfareej-restaurant"] .visit .contact *:not(.btn){color:#FFF8EA!important}
+[data-site="ayal-alfareej-restaurant"] .visit .hours div{border-color:rgba(255,248,234,.28)}
+[data-site="ayal-alfareej-restaurant"] .item__row{padding-inline-end:6px}
+[data-site="ayal-alfareej-restaurant"] .item__price{padding-inline-end:10px;display:inline-flex;align-items:baseline;gap:8px}
+[data-site="ayal-alfareej-restaurant"] .item__price .cur{font-size:1.05rem;color:var(--ink);font-weight:600}
+[data-site="ayal-alfareej-restaurant"] .story--h .panel{align-items:center}
+[data-site="ayal-alfareej-restaurant"] .story--h .panel__text{align-content:center;gap:6px}
+[data-site="ayal-alfareej-restaurant"] .story--h .panel__clock{margin-top:0}
+[data-site="ayal-alfareej-restaurant"] .story .story__head{margin-bottom:clamp(8px,2vw,20px)}
+[data-site="ayal-alfareej-restaurant"] .story .story__track{padding-bottom:clamp(24px,4vw,40px);gap:clamp(24px,4vw,40px)}
+[data-site="ayal-alfareej-restaurant"] .story--h .panel{align-items:center!important}
+[data-site="ayal-alfareej-restaurant"] .story--h .panel__text{align-self:center!important;align-content:center!important}
+[data-site="ayal-alfareej-restaurant"] .story--h .panel__media{align-self:center!important}

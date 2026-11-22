@@ -97,25 +97,17 @@
     "note": "سعر الهايلايت (100 د.إ) من فيديو عرض للصالون على تيك توك (@hafsa_saloon)، وبقية الخدمات بلا أسعار لأنها لم تُنشر في مصدر عام. للأسعار والحجز تواصلي مع الصالون.",
     "categories": [
       {
-        "id": "offers",
-        "title": "عرض الهايلايت",
-        "tagline": "عرض مؤقت",
-        "image": "offer",
+        "id": "all",
+        "title": "خدمات الصالون",
+        "tagline": "الهايلايت بسعره، والباقي اسألي عنه بالهاتف",
+        "image": "hair",
         "items": [
           {
             "name": "هايلايت",
             "desc": "عرض مؤقت",
             "price": 100,
             "mentioned": true
-          }
-        ]
-      },
-      {
-        "id": "more",
-        "title": "خدمات أخرى",
-        "tagline": "اسألي عن السعر بالهاتف",
-        "image": "hair",
-        "items": [
+          },
           {
             "name": "قص شعر"
           },
@@ -233,9 +225,7 @@
     "per_day": null,
     "source": "خرائط Google"
   },
-  "visit": {
-    "image": "facade"
-  },
+  "visit": {},
   "whatsapp": null,
   "images": {
     "hair": {
@@ -245,8 +235,8 @@
       "credit": "من خرائط Google"
     },
     "offer": {
-      "file": "hair-closeup.jpg",
-      "alt": "صورة قريبة لشعر بخصل فاتحة تحت ضوء دافئ",
+      "file": "highlights-salon.jpg",
+      "alt": "صورة شعر بخصل هايلايت من الخلف أمام مرايا الصالون",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Hafsa%20beauty%20saloon&query_place_id=ChIJnzecHPZZXz4RpOlbna9cNEE",
       "credit": "من خرائط Google"
     },

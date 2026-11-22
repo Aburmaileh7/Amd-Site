@@ -77,3 +77,23 @@
 /* hero photo: shift crop away from bag strap lettering, tighter top gap */
 [data-site="hafsa-beauty-saloon"] .hero__side img{object-position:50% 35%}
 @media (min-width:900px){[data-site="hafsa-beauty-saloon"] .hero{padding-top:clamp(24px,4vw,56px)}}
+
+/* Round 3: visit grid, single services list, margins, badge */
+[data-site="hafsa-beauty-saloon"] .visit__cols{display:grid;gap:36px;align-items:start}
+[data-site="hafsa-beauty-saloon"] .visit .hours{display:block}
+[data-site="hafsa-beauty-saloon"] .visit .hours :is(li,.hours__row,div){gap:16px}
+[data-site="hafsa-beauty-saloon"] .visit .contact{display:flex;flex-direction:column;gap:14px;align-items:flex-start}
+[data-site="hafsa-beauty-saloon"] .visit .contact :is(.phone,.wa){margin:0}
+[data-site="hafsa-beauty-saloon"] .visit__cta,[data-site="hafsa-beauty-saloon"] .visit .contact .btn{margin-top:8px}
+[data-site="hafsa-beauty-saloon"] .visit__cta{display:flex;flex-wrap:wrap;gap:12px;justify-content:flex-start}
+@media (min-width:900px){[data-site="hafsa-beauty-saloon"] .visit__cols{grid-template-columns:1.1fr .9fr;gap:72px}}
+[data-site="hafsa-beauty-saloon"] .panels,[data-site="hafsa-beauty-saloon"] .panel-m{min-height:0!important}
+[data-site="hafsa-beauty-saloon"] .items{columns:1}
+@media (min-width:900px){[data-site="hafsa-beauty-saloon"] .items{columns:2;column-gap:56px}[data-site="hafsa-beauty-saloon"] .item{break-inside:avoid}}
+[data-site="hafsa-beauty-saloon"] .amen{padding-inline:max(20px,var(--gutter,20px))}
+[data-site="hafsa-beauty-saloon"] .amen__list{padding-inline:4px;margin-bottom:24px}
+[data-site="hafsa-beauty-saloon"] .site-footer{margin-top:0}
+[data-site="hafsa-beauty-saloon"] .preview-bar,[data-site="hafsa-beauty-saloon"] .hero__media .preview-bar{background:#3d0e17;color:#FFF6EF}
+[data-site="hafsa-beauty-saloon"] .story,[data-site="hafsa-beauty-saloon"] .story__track,[data-site="hafsa-beauty-saloon"] .panel{min-height:0}
+[data-site="hafsa-beauty-saloon"] .panel:last-child,[data-site="hafsa-beauty-saloon"] .panel__text{padding-bottom:0;margin-bottom:0}
+@media (max-width:899px){[data-site="hafsa-beauty-saloon"] .story .panel{margin-bottom:28px}[data-site="hafsa-beauty-saloon"] .hero__side img{image-rendering:auto}}

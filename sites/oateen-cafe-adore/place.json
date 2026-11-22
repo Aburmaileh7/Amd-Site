@@ -69,7 +69,8 @@
       {
         "label": "الحلويات",
         "title": "حلويات بحصص سخية",
-        "text": "طلبت إحدى الزائرات كيك لوتس بيسكوف تشيز كيك وتيراميسو، ووجدتها طازجة ولذيذة وبحصص وافرة."
+        "text": "طلبت إحدى الزائرات كيك لوتس بيسكوف تشيز كيك وتيراميسو، ووجدتها طازجة ولذيذة وبحصص وافرة.",
+        "image": "counter"
       },
       {
         "label": "الباستا",
@@ -320,6 +321,12 @@
     "rose": {
       "file": "oateen-pink-matcha-drink.jpg",
       "alt": "صورة مشروب بطبقات وردية وخضراء",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Oateen%20cafe%20%26%20Adore&query_place_id=ChIJ5ZjUGRdDXz4RbGUfZcfI2YE",
+      "credit": "من خرائط Google"
+    },
+    "counter": {
+      "file": "oateen-counter-cakes.jpg",
+      "alt": "صورة كاونتر المقهى وثلاجة عرض الحلويات",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Oateen%20cafe%20%26%20Adore&query_place_id=ChIJ5ZjUGRdDXz4RbGUfZcfI2YE",
       "credit": "من خرائط Google"
     }
