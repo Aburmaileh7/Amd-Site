@@ -552,3 +552,9 @@ html[data-site="alica-bakery-eatery"] section.menu .panel-m__caption {
 }
 html[data-site="alica-bakery-eatery"] section.menu .panel-m__name { font-size: 1rem; }
 html[data-site="alica-bakery-eatery"] section.menu .panel-m__tag { font-size: 0.82rem; }
+
+/* Credit badge sits at the bottom of the menu image, caption stays on top */
+html[data-site="alica-bakery-eatery"] section.menu .panel-m__visual .photo__badge {
+  inset-block-start: auto !important;
+  inset-block-end: 12px !important;
+}
