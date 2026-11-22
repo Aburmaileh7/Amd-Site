@@ -7,7 +7,7 @@ html[data-site="sorted-speciality-coffee"] {
   --brass-note: #9A7642;
 }
 
-/* Preview bar: crisp brandmark SVG */
+/* Preview bar: replace distorted SVG with crisp geometric CSS arch mark */
 html[data-site="sorted-speciality-coffee"][data-theme] .preview-bar .brandmark {
   display: inline-flex;
   align-items: center;
@@ -16,12 +16,18 @@ html[data-site="sorted-speciality-coffee"][data-theme] .preview-bar .brandmark {
 }
 
 html[data-site="sorted-speciality-coffee"][data-theme] .preview-bar .brandmark svg {
-  width: 17px;
-  height: 21px;
-  min-width: 17px;
+  display: none;
+}
+
+html[data-site="sorted-speciality-coffee"][data-theme] .preview-bar .brandmark::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 12px;
+  border-radius: 999px 999px 2px 2px;
+  border: 1.5px solid currentColor;
+  box-shadow: inset 0 -3px 0 0 currentColor;
   flex-shrink: 0;
-  opacity: 1;
-  overflow: visible;
 }
 
 /* Header: keep brand unclipped and "القائمة" (.nav-menu) visible on 390px mobile */
@@ -63,7 +69,7 @@ html[data-site="sorted-speciality-coffee"][data-theme] .preview-bar .brandmark s
   }
 }
 
-/* Split hero: Arabic display scale, fit-content rating pill, arched pour-over frame */
+/* Split hero: subordinate Latin brand title, dominant Arabic headline, arch visible above fold */
 html[data-site="sorted-speciality-coffee"][data-theme] section.hero.hero--split {
   background-image: radial-gradient(
     ellipse 68% 58% at 24% 32%,
@@ -72,15 +78,22 @@ html[data-site="sorted-speciality-coffee"][data-theme] section.hero.hero--split 
   );
 }
 
-html[data-site="sorted-speciality-coffee"][data-theme] .hero .hero__headline,
-html[data-site="sorted-speciality-coffee"][data-theme] .hero .hero__headline.hero__title--long {
-  font-size: clamp(2rem, 4.4vw, 3.35rem);
-  line-height: 1.28;
+html[data-site="sorted-speciality-coffee"][data-theme] body main .hero .hero__title.hero__title--long {
+  font-size: clamp(1rem, 1.8vw, 1.35rem);
+  line-height: 1.35;
+  font-weight: 600;
+  color: var(--brass-note);
+  margin: 0;
+}
+
+html[data-site="sorted-speciality-coffee"][data-theme] body main .hero .hero__headline {
+  font-size: clamp(1.95rem, 4.2vw, 3.25rem);
+  line-height: 1.26;
   max-width: 17ch;
 }
 
 html[data-site="sorted-speciality-coffee"][data-theme] .hero .hero__intro {
-  line-height: 1.82;
+  line-height: 1.78;
 }
 
 html[data-site="sorted-speciality-coffee"][data-theme] .hero .hero__rating {
@@ -103,6 +116,41 @@ html[data-site="sorted-speciality-coffee"][data-theme] .hero .hero__side .photo 
     0 22px 46px -22px rgba(35, 30, 27, 0.28);
 }
 
+@media (max-width: 640px) {
+  html[data-site="sorted-speciality-coffee"][data-theme] section.hero.hero--split {
+    padding-top: 74px;
+    padding-bottom: 20px;
+  }
+
+  html[data-site="sorted-speciality-coffee"][data-theme] .hero .hero__content {
+    gap: 10px;
+  }
+
+  html[data-site="sorted-speciality-coffee"][data-theme] body main .hero .hero__headline {
+    font-size: clamp(1.65rem, 6.8vw, 2.1rem);
+    line-height: 1.24;
+  }
+
+  html[data-site="sorted-speciality-coffee"][data-theme] .hero .hero__intro {
+    font-size: 0.9375rem;
+    line-height: 1.62;
+  }
+
+  html[data-site="sorted-speciality-coffee"][data-theme] .hero .hero__actions {
+    gap: 8px;
+    margin-top: 2px;
+  }
+
+  html[data-site="sorted-speciality-coffee"][data-theme] .hero .hero__rating {
+    padding: 6px 12px;
+    font-size: 0.8125rem;
+  }
+
+  html[data-site="sorted-speciality-coffee"][data-theme] .hero .hero__side {
+    margin-top: 10px;
+  }
+}
+
 /* Shared photo credit badge: keep inside flat bottom corner on tall arch frames */
 html[data-site="sorted-speciality-coffee"][data-theme] .hero__side .photo .photo__badge,
 html[data-site="sorted-speciality-coffee"][data-theme] .panel__media .photo .photo__badge,
@@ -118,7 +166,7 @@ html[data-site="sorted-speciality-coffee"][data-theme] .amen__media .photo .phot
   border: 1px solid rgba(250, 247, 242, 0.18);
 }
 
-/* Menu section: prevent URL overflow in .menu__sample, restore sticky visual containment */
+/* Menu section: wrapped mobile tabs, darker 15%-start visual veil, clean URL wrap */
 html[data-site="sorted-speciality-coffee"][data-theme] section.menu#menu {
   border-top: 1px solid var(--hairline);
   background-image: radial-gradient(
@@ -150,6 +198,22 @@ html[data-site="sorted-speciality-coffee"][data-theme] .menu .menu__sample .dot 
 
 html[data-site="sorted-speciality-coffee"][data-theme] .menu .tabs {
   max-width: 100%;
+}
+
+@media (max-width: 640px) {
+  html[data-site="sorted-speciality-coffee"][data-theme] body main .menu .tabs {
+    flex-wrap: wrap;
+    overflow: visible;
+    gap: 8px;
+  }
+
+  html[data-site="sorted-speciality-coffee"][data-theme] body main .menu .tabs button {
+    padding: 8px 12px;
+    font-size: 0.875rem;
+    min-height: 44px;
+    white-space: normal;
+    flex: 0 1 auto;
+  }
 }
 
 html[data-site="sorted-speciality-coffee"][data-theme] .menu .tabs [aria-selected="true"] {
@@ -184,9 +248,9 @@ html[data-site="sorted-speciality-coffee"][data-theme] .menu .panel-m__visual .p
 html[data-site="sorted-speciality-coffee"][data-theme] .menu .panel-m__visual::after {
   background: linear-gradient(
     180deg,
-    rgba(22, 18, 16, 0) 30%,
-    rgba(22, 18, 16, 0.62) 66%,
-    rgba(22, 18, 16, 0.9) 100%
+    rgba(22, 18, 16, 0) 15%,
+    rgba(22, 18, 16, 0.58) 54%,
+    rgba(22, 18, 16, 0.92) 100%
   );
 }
 
@@ -238,7 +302,7 @@ html[data-site="sorted-speciality-coffee"][data-theme] .marquee .marquee__dot {
   background: var(--brass-note);
 }
 
-/* Horizontal story: clear sticky header, fit-content time badge, crisp clock contrast */
+/* Horizontal story: subordinate calm .panel__clock tag below h3 */
 html[data-site="sorted-speciality-coffee"][data-theme] section.story.story--h {
   background-image: linear-gradient(
     180deg,
@@ -274,24 +338,21 @@ html[data-site="sorted-speciality-coffee"][data-theme] .story .panel__time {
   font-weight: 600;
 }
 
-html[data-site="sorted-speciality-coffee"][data-theme] .story .panel__clock {
-  color: var(--ink);
-  opacity: 0.92;
-  font-weight: 700;
+html[data-site="sorted-speciality-coffee"][data-theme] body main .story .panel__clock {
+  font-size: clamp(1rem, 1.4vw, 1.35rem);
+  font-weight: 500;
+  color: var(--brass-note);
+  opacity: 1;
+  line-height: 1.5;
   margin-top: 8px;
   max-width: 100%;
 }
 
-@media (max-width: 640px) {
-  html[data-site="sorted-speciality-coffee"][data-theme] .story .panel__clock {
-    font-size: clamp(1.5rem, 6.5vw, 2.25rem);
-    line-height: 1.25;
-  }
-}
-
-/* Reviews: balanced RTL card alignment & subtle quote mark */
-html[data-site="sorted-speciality-coffee"][data-theme] section.rev .card {
+/* Reviews: unified LTR English card alignment with clean blockquote::before mark */
+html[data-site="sorted-speciality-coffee"][data-theme] body main section.rev .card {
   position: relative;
+  direction: ltr;
+  text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -301,23 +362,37 @@ html[data-site="sorted-speciality-coffee"][data-theme] section.rev .card {
   border-top: 2px solid rgba(154, 118, 66, 0.6);
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.85);
-  text-align: start;
 }
 
-html[data-site="sorted-speciality-coffee"][data-theme] section.rev .card::before {
-  inset-inline-end: 20px;
-  inset-inline-start: auto;
-  top: 14px;
-  color: var(--brass-note);
-  opacity: 0.35;
+html[data-site="sorted-speciality-coffee"][data-theme] body main section.rev .card .card__stars {
+  display: inline-flex;
+  justify-content: flex-start;
+  direction: ltr;
 }
 
-html[data-site="sorted-speciality-coffee"][data-theme] section.rev .card blockquote,
-html[data-site="sorted-speciality-coffee"][data-theme] section.rev .card p {
-  unicode-bidi: plaintext;
-  text-align: start;
+html[data-site="sorted-speciality-coffee"][data-theme] body main section.rev .card blockquote {
+  direction: ltr;
+  text-align: left;
+  unicode-bidi: normal;
   line-height: 1.75;
   margin: 0;
+  position: relative;
+}
+
+html[data-site="sorted-speciality-coffee"][data-theme] body main section.rev .card blockquote::before {
+  content: "“";
+  display: block;
+  position: static;
+  font-size: 2rem;
+  line-height: 0.9;
+  color: var(--brass-note);
+  opacity: 0.65;
+  margin-bottom: 6px;
+}
+
+html[data-site="sorted-speciality-coffee"][data-theme] body main section.rev .card figcaption {
+  direction: ltr;
+  text-align: left;
 }
 
 /* Amenities: archway interior photo echo */
@@ -328,7 +403,11 @@ html[data-site="sorted-speciality-coffee"][data-theme] section.amen .amen__media
     0 0 0 6px var(--hairline);
 }
 
-/* Proof & mentions: clean pills with gap instead of leading RTL dots */
+/* Proof & mentions: trimmed bottom padding + clean pills with gap */
+html[data-site="sorted-speciality-coffee"][data-theme] body main section.proof {
+  padding-bottom: clamp(44px, 5vw, 72px);
+}
+
 html[data-site="sorted-speciality-coffee"][data-theme] section.proof .stat {
   border: 1px solid var(--hairline);
   background: rgba(255, 255, 255, 0.78);
@@ -357,7 +436,11 @@ html[data-site="sorted-speciality-coffee"][data-theme] body main section.proof .
   max-width: 100%;
 }
 
-/* Visit section: dark espresso scrim behind crisp white "زيارتنا" & source badge */
+/* Visit section: tighter vertical rhythm, mobile inner padding, dark scrim */
+html[data-site="sorted-speciality-coffee"][data-theme] body main section.visit#visit {
+  padding-block: clamp(56px, 7vw, 88px);
+}
+
 html[data-site="sorted-speciality-coffee"][data-theme] section.visit#visit .visit__shade {
   background: linear-gradient(
     180deg,
@@ -399,6 +482,10 @@ html[data-site="sorted-speciality-coffee"][data-theme] section.visit#visit .btn-
 }
 
 @media (max-width: 640px) {
+  html[data-site="sorted-speciality-coffee"][data-theme] body main section.visit#visit .visit__inner {
+    padding-inline: 24px;
+  }
+
   html[data-site="sorted-speciality-coffee"][data-theme] .hero__side .photo,
   html[data-site="sorted-speciality-coffee"][data-theme] .panel__media .photo,
   html[data-site="sorted-speciality-coffee"][data-theme] .panel-m__visual,

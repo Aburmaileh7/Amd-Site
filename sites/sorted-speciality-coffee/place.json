@@ -56,21 +56,21 @@
         "label": "القهوة والمشروبات",
         "title": "قهوة إثيوبية ومشروبات متنوعة",
         "text": "تضم القائمة قهوة V60 الإثيوبية والدريب المثلج وقهوة اليوم، إلى جانب اللاتيه والكورتادو المتوفر بحليب خالٍ من اللاكتوز. كما يبرز شاي الكركديه المثلج كخيار بارد متوازن النكهة لدى الزوار.",
-        "image": "hero_pour",
+        "image": "sorted_cup_table",
         "time": "تحضير طازج"
       },
       {
         "label": "تشيز كيك مدريد",
         "title": "تشيز كيك مدريد",
         "text": "يُعد تشيز كيك مدريد من أكثر الأصناف التي يتكرر ذكرها في تقييمات الزوار. يتميز بقوام كريمي غني وحلاوة موزونة تتماشى مع القهوة المقطرة.",
-        "image": "iced_pastries",
+        "image": "interior_stairs",
         "time": "ركن الحلويات"
       },
       {
         "label": "الحلويات والمخبوزات",
         "title": "سينامون رولز وحلويات المقهى",
         "text": "يشيد الزوار بطراوة السينامون رولز الدافئة ونكهة القرفة الواضحة فيها. كما تتوفر خيارات أخرى للتحلية مثل كيك الموز بالشوكولاتة.",
-        "image": "latte_danish",
+        "image": "pastry_domes",
         "time": "بجانب قهوتك"
       },
       {
@@ -84,7 +84,7 @@
         "label": "على مدار الساعة",
         "title": "مفتوح على مدار الساعة",
         "text": "يستقبل المقهى زواره في شارع صقر قريش بحي السلامة طوال 24 ساعة يومياً من الأحد إلى السبت، ليكون متاحاً في أي وقت من اليوم أو الليل.",
-        "image": "interior_stairs",
+        "image": "bright_staircase",
         "time": "24 ساعة يومياً"
       }
     ]
@@ -110,7 +110,7 @@
       {
         "id": "specialty-coffee",
         "title": "القهوة المختصة",
-        "tagline": "قهوة اليوم والإسبريسو والكورتادو والفلات وايت واللاتيه وV60",
+        "tagline": "قهوة اليوم والإسبريسو والكورتادو والفلات وايت واللاتيه و V60",
         "image": "latte_danish",
         "items": [
           {
@@ -343,6 +343,24 @@
       "alt": "صورة واجهة المقهى مع لافتة SORT المضيئة والجلسات الخارجية",
       "source_url": "https://magicpin.com/saudi-arabia/Jeddah/Al-Sabil/Restaurant/Sorted-Speciality-Coffee-By-Sort/store/227c949",
       "credit": "من صفحة المحل على Magicpin"
+    },
+    "sorted_cup_table": {
+      "file": "sorted-cup-table.jpg",
+      "alt": "صورة كوب SORTED مع كتاب مفتوح على طاولة رخامية وأمامها الدرج الحلزوني",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sorted%20Speciality%20Coffee%20by%20SORT&query_place_id=ChIJzQ2jne_bwxURIAEgsLIJ4wI",
+      "credit": "من خرائط Google"
+    },
+    "pastry_domes": {
+      "file": "pastry-domes-counter.jpg",
+      "alt": "صورة فطائر الدانيش بالتوت والكرواسون تحت قبب زجاجية على بار SORT",
+      "source_url": "https://besteaterys.com/%D9%83%D8%A7%D9%81%D9%8A%D8%A9-%D8%B3%D9%88%D8%B1%D8%AA-%D9%82%D9%87%D9%88%D8%A9-%D9%85%D8%AE%D8%AA%D8%B5%D8%A9/",
+      "credit": "من مقال Besteaterys"
+    },
+    "bright_staircase": {
+      "file": "bright-staircase-interior.jpg",
+      "alt": "صورة للدرج الحلزوني الأبيض والإضاءة المشرقة وبار القهوة داخل SORT",
+      "source_url": "https://besteaterys.com/%D9%83%D8%A7%D9%81%D9%8A%D8%A9-%D8%B3%D9%88%D8%B1%D8%AA-%D9%82%D9%87%D9%88%D8%A9-%D9%85%D8%AE%D8%AA%D8%B5%D8%A9/",
+      "credit": "من مقال Besteaterys"
     }
   }
 }
