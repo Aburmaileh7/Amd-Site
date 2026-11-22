@@ -15,9 +15,13 @@
 [data-site="golden-grill-house"] .visit__shade{background:rgba(18,10,8,.82)}
 [data-site="golden-grill-house"] .visit__inner,[data-site="golden-grill-house"] .visit__inner .hours,[data-site="golden-grill-house"] .visit__inner .contact,[data-site="golden-grill-house"] .visit__title{color:#fff}
 [data-site="golden-grill-house"] .visit__inner .muted,[data-site="golden-grill-house"] .visit__inner .eyebrow{color:rgba(255,255,255,.88)}
-[data-site="golden-grill-house"] .visit .photo__badge,[data-site="golden-grill-house"] .visit__bg .photo__badge{position:absolute;inset-block-end:0;inset-inline-start:0;margin:0}
-[data-site="golden-grill-house"] .panel__time,[data-site="golden-grill-house"] .panel__clock{color:#7a1f42;font-weight:700}
-[data-site="golden-grill-house"] .story--h .panel__time{color:#7a1f42}
+[data-site="golden-grill-house"] .visit{position:relative}
+[data-site="golden-grill-house"] .visit__bg{position:absolute;inset:0;margin:0;transform:none!important;translate:none}
+[data-site="golden-grill-house"] .visit__shade{z-index:1}
+[data-site="golden-grill-house"] .visit__inner{position:relative;z-index:2;opacity:1;padding-block-end:72px;color:#fff}
+[data-site="golden-grill-house"] .visit .photo__badge,[data-site="golden-grill-house"] .visit__bg .photo__badge{position:absolute;inset-block-start:auto;inset-block-end:16px;inset-inline-end:16px;inset-inline-start:auto;margin:0;padding:6px 12px;background:rgba(10,6,5,.82);color:#fff;border-radius:6px;z-index:3}
+[data-site="golden-grill-house"] .panel__time,[data-site="golden-grill-house"] .panel__clock{color:#5e1632;opacity:1;font-weight:700}
+[data-site="golden-grill-house"] .story--h .panel__time{color:#5e1632;opacity:1}
 [data-site="golden-grill-house"] .panel+.panel{margin-top:48px}
 [data-site="golden-grill-house"] .story__track .panel{margin-bottom:0}
 [data-site="golden-grill-house"] .rev .card,[data-site="golden-grill-house"] .rev .card *:not(.card__stars){direction:ltr;text-align:left}
