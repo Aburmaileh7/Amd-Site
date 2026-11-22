@@ -1,45 +1,79 @@
 /* ALICA Bakery / Eatery — Porcelain Double-Rim & Banded Ceramic Signature */
 
-[data-site="alica-bakery-eatery"] {
+html[data-site="alica-bakery-eatery"] {
   --alica-rim: rgba(var(--glow-rgb), 0.26);
   --alica-rim-soft: rgba(var(--glow-rgb), 0.12);
   --alica-scrim: rgba(14, 34, 46, 0.86);
   --alica-cream-ink: #FAF6EE;
-}
-
-[data-site="alica-bakery-eatery"] body,
-[data-site="alica-bakery-eatery"] main {
   overflow-x: clip;
 }
 
-[data-site="alica-bakery-eatery"] .eyebrow {
+html[data-site="alica-bakery-eatery"] body,
+html[data-site="alica-bakery-eatery"] main,
+html[data-site="alica-bakery-eatery"] section {
+  overflow-x: clip;
+}
+
+html[data-site="alica-bakery-eatery"] .eyebrow {
   letter-spacing: 0;
   color: var(--glow);
 }
 
-[data-site="alica-bakery-eatery"] .btn,
-[data-site="alica-bakery-eatery"] .nav-btn,
-[data-site="alica-bakery-eatery"] .header-call {
+html[data-site="alica-bakery-eatery"] .btn,
+html[data-site="alica-bakery-eatery"] .nav-btn,
+html[data-site="alica-bakery-eatery"] .header-call {
   min-height: 44px;
 }
 
-/* ─── Hero: Full-bleed morning spread with coastal slate scrim ─── */
-[data-site="alica-bakery-eatery"] .hero--full .hero__shade {
+/* ─── Header over Full Hero vs Scrolled Solid State ─── */
+html[data-site="alica-bakery-eatery"] .site-header:not(.is-solid),
+html[data-site="alica-bakery-eatery"] .site-header:not(.is-solid) .brand,
+html[data-site="alica-bakery-eatery"] .site-header:not(.is-solid) .nav-menu,
+html[data-site="alica-bakery-eatery"] .site-header:not(.is-solid) .nav-menu a,
+html[data-site="alica-bakery-eatery"] .site-header:not(.is-solid) .nav-btn,
+html[data-site="alica-bakery-eatery"] .site-header:not(.is-solid) .header-call {
+  color: var(--alica-cream-ink);
+  text-shadow: 0 1px 10px rgba(10, 24, 34, 0.5);
+}
+
+html[data-site="alica-bakery-eatery"] .site-header:not(.is-solid) .nav-btn,
+html[data-site="alica-bakery-eatery"] .site-header:not(.is-solid) .header-call {
+  border-color: rgba(250, 246, 238, 0.42);
+  background: rgba(14, 34, 46, 0.42);
+  backdrop-filter: blur(6px);
+}
+
+html[data-site="alica-bakery-eatery"] .site-header.is-solid,
+html[data-site="alica-bakery-eatery"] .site-header.is-solid .brand,
+html[data-site="alica-bakery-eatery"] .site-header.is-solid .nav-menu,
+html[data-site="alica-bakery-eatery"] .site-header.is-solid .nav-menu a,
+html[data-site="alica-bakery-eatery"] .site-header.is-solid .nav-btn,
+html[data-site="alica-bakery-eatery"] .site-header.is-solid .header-call {
+  color: var(--ink);
+  text-shadow: none;
+}
+
+/* ─── Hero: Full-bleed morning spread with stronger top & bottom slate scrim ─── */
+html[data-site="alica-bakery-eatery"] .hero--full .hero__shade {
   background: linear-gradient(
     to top,
-    rgba(14, 34, 46, 0.9) 0%,
-    rgba(14, 34, 46, 0.62) 48%,
-    rgba(14, 34, 46, 0.26) 100%
+    rgba(14, 34, 46, 0.92) 0%,
+    rgba(14, 34, 46, 0.66) 46%,
+    rgba(14, 34, 46, 0.48) 78%,
+    rgba(14, 34, 46, 0.72) 100%
   );
 }
 
-[data-site="alica-bakery-eatery"] .hero--full .hero__content {
+html[data-site="alica-bakery-eatery"] .hero--full .hero__content {
   padding-block-end: clamp(32px, 5vw, 56px);
 }
 
-[data-site="alica-bakery-eatery"] .hero--full .hero__content .eyebrow {
+html[data-site="alica-bakery-eatery"] .hero--full .hero__content .eyebrow {
   display: inline-flex;
   align-items: center;
+  justify-self: start;
+  width: fit-content;
+  max-width: 100%;
   padding: 6px 14px;
   border-radius: 999px;
   background: rgba(250, 246, 238, 0.94);
@@ -49,41 +83,48 @@
   margin-block-end: 14px;
 }
 
-[data-site="alica-bakery-eatery"] .hero--full .hero__headline {
+html[data-site="alica-bakery-eatery"] .hero--full .hero__title,
+html[data-site="alica-bakery-eatery"] .hero--full .hero__headline {
   color: var(--alica-cream-ink);
   line-height: 1.32;
   overflow: visible;
-  text-shadow: 0 2px 16px rgba(10, 24, 34, 0.45);
+  text-shadow: 0 2px 18px rgba(10, 24, 34, 0.55);
 }
 
-[data-site="alica-bakery-eatery"] .hero--full .hero__intro {
+html[data-site="alica-bakery-eatery"] .hero--full .hero__intro {
   color: rgba(250, 246, 238, 0.94);
   line-height: 1.8;
   font-size: clamp(1rem, 1.2vw, 1.125rem);
+  text-shadow: 0 1px 10px rgba(10, 24, 34, 0.4);
 }
 
-[data-site="alica-bakery-eatery"] .hero--full .hero__rating {
+html[data-site="alica-bakery-eatery"] .hero--full .hero__rating {
+  display: inline-flex;
+  align-items: center;
+  justify-self: start;
+  width: fit-content;
+  max-width: 100%;
   color: var(--alica-cream-ink);
-  background: rgba(14, 34, 46, 0.68);
-  border: 1px solid rgba(250, 246, 238, 0.24);
+  background: rgba(14, 34, 46, 0.72);
+  border: 1px solid rgba(250, 246, 238, 0.26);
   padding: 8px 14px;
   border-radius: 999px;
   backdrop-filter: blur(6px);
 }
 
-[data-site="alica-bakery-eatery"] .hero--full .btn--ghost {
+html[data-site="alica-bakery-eatery"] .hero--full .btn--ghost {
   color: var(--alica-cream-ink);
   border-color: rgba(250, 246, 238, 0.48);
-  background: rgba(14, 34, 46, 0.42);
+  background: rgba(14, 34, 46, 0.46);
 }
 
-[data-site="alica-bakery-eatery"] .hero--full .btn--ghost:hover {
-  background: rgba(250, 246, 238, 0.16);
+html[data-site="alica-bakery-eatery"] .hero--full .btn--ghost:hover {
+  background: rgba(250, 246, 238, 0.18);
   border-color: var(--alica-cream-ink);
 }
 
 /* ─── Banded Ceramic Marquee ─── */
-[data-site="alica-bakery-eatery"] section.marquee {
+html[data-site="alica-bakery-eatery"] section.marquee {
   border-top: 2px solid var(--alica-rim);
   border-bottom: 2px solid var(--alica-rim);
   box-shadow:
@@ -93,22 +134,22 @@
     inset 0 -5px 0 0 var(--alica-rim-soft);
 }
 
-[data-site="alica-bakery-eatery"] .marquee__dot {
+html[data-site="alica-bakery-eatery"] .marquee__dot {
   background: var(--glow);
 }
 
 /* ─── Porcelain Double-Rim Photo Framing & Unclipped Badges ─── */
-[data-site="alica-bakery-eatery"] .photo,
-[data-site="alica-bakery-eatery"] .panel__media,
-[data-site="alica-bakery-eatery"] .panel-m__visual,
-[data-site="alica-bakery-eatery"] .amen__media {
+html[data-site="alica-bakery-eatery"] .photo,
+html[data-site="alica-bakery-eatery"] .panel__media,
+html[data-site="alica-bakery-eatery"] .panel-m__visual,
+html[data-site="alica-bakery-eatery"] .amen__media {
   position: relative;
   border: 1px solid var(--alica-rim);
   outline: 1px solid var(--alica-rim-soft);
-  outline-offset: 5px;
+  outline-offset: 4px;
 }
 
-[data-site="alica-bakery-eatery"] .photo__badge {
+html[data-site="alica-bakery-eatery"] .photo__badge {
   position: absolute;
   inset-block-start: 12px;
   inset-inline-start: 12px;
@@ -129,17 +170,20 @@
 }
 
 /* ─── Story Stack: Generous rhythm & porcelain time badges ─── */
-[data-site="alica-bakery-eatery"] section.story .panel {
+html[data-site="alica-bakery-eatery"] section.story .panel {
   gap: clamp(20px, 3.5vw, 44px);
 }
 
-[data-site="alica-bakery-eatery"] section.story .panel__text {
+html[data-site="alica-bakery-eatery"] section.story .panel__text {
   line-height: 1.82;
 }
 
-[data-site="alica-bakery-eatery"] section.story .panel__time {
+html[data-site="alica-bakery-eatery"] section.story .panel__time {
   display: inline-flex;
   align-items: center;
+  justify-self: start;
+  width: fit-content;
+  max-width: 100%;
   gap: 8px;
   padding: 5px 12px;
   border-radius: 999px;
@@ -150,7 +194,7 @@
 }
 
 /* ─── Reviews: Porcelain plaque cards ─── */
-[data-site="alica-bakery-eatery"] section.rev .card {
+html[data-site="alica-bakery-eatery"] section.rev .card {
   background: var(--surface);
   border: 1px solid var(--alica-rim);
   box-shadow:
@@ -159,17 +203,17 @@
   padding: clamp(20px, 3vw, 28px);
 }
 
-[data-site="alica-bakery-eatery"] section.rev .card__stars {
+html[data-site="alica-bakery-eatery"] section.rev .card__stars {
   color: var(--glow);
 }
 
-/* ─── Menu: High-Contrast Pills, Badges & Clear Visual Caption ─── */
-[data-site="alica-bakery-eatery"] section.menu .tabs {
+/* ─── Menu: High-Contrast Pills, Badges & Clear Currency Spacing ─── */
+html[data-site="alica-bakery-eatery"] section.menu .tabs {
   gap: 10px;
 }
 
-[data-site="alica-bakery-eatery"] section.menu .tabs button,
-[data-site="alica-bakery-eatery"] section.menu .tabs [role="tab"] {
+html[data-site="alica-bakery-eatery"] section.menu .tabs button,
+html[data-site="alica-bakery-eatery"] section.menu .tabs [role="tab"] {
   min-height: 44px;
   padding: 10px 18px;
   border-radius: 999px;
@@ -180,35 +224,35 @@
   transition: background-color 180ms var(--ease), color 180ms var(--ease), border-color 180ms var(--ease);
 }
 
-[data-site="alica-bakery-eatery"] section.menu .tabs button:hover,
-[data-site="alica-bakery-eatery"] section.menu .tabs [role="tab"]:hover {
+html[data-site="alica-bakery-eatery"] section.menu .tabs button:hover,
+html[data-site="alica-bakery-eatery"] section.menu .tabs [role="tab"]:hover {
   border-color: var(--glow);
   color: var(--glow);
 }
 
-[data-site="alica-bakery-eatery"] section.menu .tabs button[aria-selected="true"],
-[data-site="alica-bakery-eatery"] section.menu .tabs [role="tab"][aria-selected="true"],
-[data-site="alica-bakery-eatery"] section.menu .tabs .is-active {
+html[data-site="alica-bakery-eatery"] section.menu .tabs button[aria-selected="true"],
+html[data-site="alica-bakery-eatery"] section.menu .tabs [role="tab"][aria-selected="true"],
+html[data-site="alica-bakery-eatery"] section.menu .tabs .is-active {
   background: var(--glow);
   color: var(--glow-ink);
   border-color: var(--glow);
 }
 
-[data-site="alica-bakery-eatery"] section.menu .tabs button[aria-selected="true"] .tabs__count,
-[data-site="alica-bakery-eatery"] section.menu .tabs .is-active .tabs__count {
+html[data-site="alica-bakery-eatery"] section.menu .tabs button[aria-selected="true"] .tabs__count,
+html[data-site="alica-bakery-eatery"] section.menu .tabs .is-active .tabs__count {
   color: var(--glow-ink);
   opacity: 0.92;
 }
 
-[data-site="alica-bakery-eatery"] section.menu .tabs__count {
+html[data-site="alica-bakery-eatery"] section.menu .tabs__count {
   color: var(--muted);
 }
 
-[data-site="alica-bakery-eatery"] section.menu .tabs__ink {
+html[data-site="alica-bakery-eatery"] section.menu .tabs__ink {
   display: none;
 }
 
-[data-site="alica-bakery-eatery"] section.menu .panel-m__caption {
+html[data-site="alica-bakery-eatery"] section.menu .panel-m__caption {
   background: linear-gradient(
     to top,
     rgba(14, 34, 46, 0.92) 0%,
@@ -219,12 +263,12 @@
   padding: 36px 20px 18px;
 }
 
-[data-site="alica-bakery-eatery"] section.menu .panel-m__name,
-[data-site="alica-bakery-eatery"] section.menu .panel-m__tag {
+html[data-site="alica-bakery-eatery"] section.menu .panel-m__name,
+html[data-site="alica-bakery-eatery"] section.menu .panel-m__tag {
   color: var(--alica-cream-ink);
 }
 
-[data-site="alica-bakery-eatery"] section.menu .item__badge {
+html[data-site="alica-bakery-eatery"] section.menu .item__badge {
   background: rgba(var(--glow-rgb), 0.12);
   color: var(--glow);
   border: 1px solid rgba(var(--glow-rgb), 0.28);
@@ -233,12 +277,16 @@
   font-weight: 600;
 }
 
-[data-site="alica-bakery-eatery"] section.menu .item__price {
+html[data-site="alica-bakery-eatery"] section.menu .item__price {
   color: var(--glow);
   font-weight: 700;
 }
 
-[data-site="alica-bakery-eatery"] section.menu .menu__foot {
+html[data-site="alica-bakery-eatery"] section.menu .item__price .cur {
+  margin-inline-start: 6px;
+}
+
+html[data-site="alica-bakery-eatery"] section.menu .menu__foot {
   margin-block-start: 20px;
   padding-block-start: 14px;
   border-top: 1px solid var(--alica-rim-soft);
@@ -246,7 +294,11 @@
 }
 
 /* ─── Proof & Amenities ─── */
-[data-site="alica-bakery-eatery"] section.proof .stat {
+html[data-site="alica-bakery-eatery"] section.proof .stat {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: clamp(24px, 3vw, 36px);
   border: 1px solid var(--alica-rim);
   background: var(--surface);
   box-shadow:
@@ -254,13 +306,18 @@
     inset 0 0 0 5px var(--alica-rim-soft);
 }
 
-[data-site="alica-bakery-eatery"] section.amen .amen__list li {
+html[data-site="alica-bakery-eatery"] section.proof .stat__num {
+  line-height: 1.25;
+  margin: 0;
+}
+
+html[data-site="alica-bakery-eatery"] section.amen .amen__list li {
   border-bottom: 1px solid var(--alica-rim-soft);
   padding-block: 14px;
 }
 
 /* ─── Visit: Deep coastal scrim & crisp light typography ─── */
-[data-site="alica-bakery-eatery"] section.visit#visit .visit__shade {
+html[data-site="alica-bakery-eatery"] section.visit#visit .visit__shade {
   background: linear-gradient(
     180deg,
     rgba(14, 34, 46, 0.84) 0%,
@@ -268,28 +325,28 @@
   );
 }
 
-[data-site="alica-bakery-eatery"] section.visit#visit .visit__inner,
-[data-site="alica-bakery-eatery"] section.visit#visit .visit__title,
-[data-site="alica-bakery-eatery"] section.visit#visit .visit__cols,
-[data-site="alica-bakery-eatery"] section.visit#visit .hours,
-[data-site="alica-bakery-eatery"] section.visit#visit .contact,
-[data-site="alica-bakery-eatery"] section.visit#visit .phone,
-[data-site="alica-bakery-eatery"] section.visit#visit p,
-[data-site="alica-bakery-eatery"] section.visit#visit dt,
-[data-site="alica-bakery-eatery"] section.visit#visit dd,
-[data-site="alica-bakery-eatery"] section.visit#visit a {
+html[data-site="alica-bakery-eatery"] section.visit#visit .visit__inner,
+html[data-site="alica-bakery-eatery"] section.visit#visit .visit__title,
+html[data-site="alica-bakery-eatery"] section.visit#visit .visit__cols,
+html[data-site="alica-bakery-eatery"] section.visit#visit .hours,
+html[data-site="alica-bakery-eatery"] section.visit#visit .contact,
+html[data-site="alica-bakery-eatery"] section.visit#visit .phone,
+html[data-site="alica-bakery-eatery"] section.visit#visit p,
+html[data-site="alica-bakery-eatery"] section.visit#visit dt,
+html[data-site="alica-bakery-eatery"] section.visit#visit dd,
+html[data-site="alica-bakery-eatery"] section.visit#visit a {
   color: var(--alica-cream-ink);
 }
 
-[data-site="alica-bakery-eatery"] section.visit#visit .eyebrow {
+html[data-site="alica-bakery-eatery"] section.visit#visit .eyebrow {
   color: #CFE6F2;
 }
 
-[data-site="alica-bakery-eatery"] section.visit#visit .muted {
+html[data-site="alica-bakery-eatery"] section.visit#visit .muted {
   color: rgba(250, 246, 238, 0.82);
 }
 
-[data-site="alica-bakery-eatery"] section.visit#visit .visit__cols > * {
+html[data-site="alica-bakery-eatery"] section.visit#visit .visit__cols > * {
   border: 1px solid rgba(250, 246, 238, 0.2);
   background: rgba(14, 34, 46, 0.42);
   backdrop-filter: blur(6px);
@@ -297,27 +354,27 @@
   border-radius: 14px;
 }
 
-[data-site="alica-bakery-eatery"] section.visit#visit .btn--ghost {
+html[data-site="alica-bakery-eatery"] section.visit#visit .btn--ghost {
   color: var(--alica-cream-ink);
   border-color: rgba(250, 246, 238, 0.48);
   background: rgba(250, 246, 238, 0.08);
 }
 
-[data-site="alica-bakery-eatery"] section.visit#visit .btn--ghost:hover {
+html[data-site="alica-bakery-eatery"] section.visit#visit .btn--ghost:hover {
   background: rgba(250, 246, 238, 0.18);
   border-color: var(--alica-cream-ink);
 }
 
 /* ─── Responsive polish (390px safety) ─── */
 @media (max-width: 720px) {
-  [data-site="alica-bakery-eatery"] .photo,
-  [data-site="alica-bakery-eatery"] .panel__media,
-  [data-site="alica-bakery-eatery"] .panel-m__visual,
-  [data-site="alica-bakery-eatery"] .amen__media {
-    outline-offset: 3px;
+  html[data-site="alica-bakery-eatery"] .photo,
+  html[data-site="alica-bakery-eatery"] .panel__media,
+  html[data-site="alica-bakery-eatery"] .panel-m__visual,
+  html[data-site="alica-bakery-eatery"] .amen__media {
+    outline-offset: 2px;
   }
 
-  [data-site="alica-bakery-eatery"] section.menu .tabs {
+  html[data-site="alica-bakery-eatery"] section.menu .tabs {
     flex-wrap: wrap;
   }
 }
