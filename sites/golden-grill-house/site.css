@@ -1,0 +1,8 @@
+[data-site="golden-grill-house"] .hero__headline{background:linear-gradient(100deg,var(--ink) 0 55%,#d9a52e 75%,var(--ink) 100%);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:ggh-steam 7s ease-in-out infinite alternate;padding-block:.1em}
+[data-site="golden-grill-house"] .hero__headline::after{content:"";display:block;width:84px;height:4px;margin-top:.5em;border-radius:4px;background:linear-gradient(90deg,#d9a52e,var(--glow))}
+[data-site="golden-grill-house"] .menu__title::before,[data-site="golden-grill-house"] .rev__title::before{content:"";display:block;width:44px;height:44px;margin-bottom:14px;border-radius:50%;border:3px solid #d9a52e;box-shadow:inset 0 0 0 7px var(--bg),inset 0 0 0 10px var(--glow)}
+[data-site="golden-grill-house"] .item__lead{border-bottom:2px dotted rgba(217,165,46,.7)}
+[data-site="golden-grill-house"] .marquee{background:linear-gradient(90deg,rgba(217,165,46,.16),rgba(194,59,107,.12))}
+@keyframes ggh-steam{to{background-position:100% 0}}
+@media (prefers-reduced-motion:reduce){[data-site="golden-grill-house"] .hero__headline{animation:none}}
+[data-site="golden-grill-house"] .menu__title::before,[data-site="golden-grill-house"] .rev__title::before{transform:rotate(calc(var(--ggh-spin,0)*360deg))}
