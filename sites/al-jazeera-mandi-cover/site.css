@@ -100,3 +100,5 @@
 [data-site="al-jazeera-mandi-cover"] h1,
 [data-site="al-jazeera-mandi-cover"] h2,
 [data-site="al-jazeera-mandi-cover"] h3 { letter-spacing: normal; }
+
+html[data-site="al-jazeera-mandi-cover"] .stat__num{line-height:1.15;margin-bottom:12px}
