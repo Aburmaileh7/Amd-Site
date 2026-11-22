@@ -44,7 +44,8 @@ html[data-site="laleen-beauty-salon"] .panel .muted{color:var(--ink);font-size:1
 
 /* a marble step behind reviews, brass on the numbers */
 html[data-site="laleen-beauty-salon"] .rev{background:var(--surface)}
-html[data-site="laleen-beauty-salon"] .stat__num{color:var(--glow)}
+html[data-site="laleen-beauty-salon"] .stat__num{color:var(--glow);line-height:1.15;margin-bottom:12px}
+html[data-site="laleen-beauty-salon"] .rev .eyebrow{color:var(--ink)}
 html[data-site="laleen-beauty-salon"] .proof{border-top:0}
 
 @media (max-width:899px){
