@@ -275,3 +275,92 @@ html[data-site="noza-beauty-salon"] .menu .tabs {
   }
   html[data-site="noza-beauty-salon"] .menu .tabs button { padding-inline: 14px; min-height: 44px; }
 }
+
+/* fix round 2 */
+/* visit: one grid, light shade, badge pinned inside the photo */
+html[data-site="noza-beauty-salon"] .visit__shade {
+  background: linear-gradient(135deg, rgba(16, 48, 47, 0.52) 0%, rgba(20, 30, 30, 0.4) 100%);
+}
+html[data-site="noza-beauty-salon"] .visit .visit__badge { display: none; }
+html[data-site="noza-beauty-salon"] .visit__bg { position: absolute; }
+html[data-site="noza-beauty-salon"] .visit__bg .photo__badge {
+  position: absolute;
+  inset-block: auto 16px;
+  inset-inline: auto 16px;
+  z-index: 3;
+}
+html[data-site="noza-beauty-salon"] .visit__cols {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px 40px;
+  align-items: start;
+}
+html[data-site="noza-beauty-salon"] .visit__cols > .contact { grid-column: 1; grid-row: 1; }
+html[data-site="noza-beauty-salon"] .visit__cols > :first-child { grid-column: 2; grid-row: 1; }
+html[data-site="noza-beauty-salon"] .visit__cols > .visit__cta {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+html[data-site="noza-beauty-salon"] .visit .contact .label { display: block; margin-bottom: 8px; }
+@media (max-width: 560px) {
+  html[data-site="noza-beauty-salon"] .visit__cols { grid-template-columns: 1fr; }
+  html[data-site="noza-beauty-salon"] .visit__cols > * { grid-column: 1 !important; grid-row: auto !important; }
+}
+
+/* hero: name heavier than the sub-headline */
+html[data-site="noza-beauty-salon"] .hero__title {
+  font-weight: 800;
+  line-height: 1.15;
+}
+html[data-site="noza-beauty-salon"] .hero__headline {
+  font-weight: 500;
+  font-size: clamp(1.05rem, 2vw, 1.4rem);
+  line-height: 1.6;
+}
+@media (min-width: 761px) {
+  html[data-site="noza-beauty-salon"] .hero__title { white-space: nowrap; font-size: clamp(2.2rem, 4.2vw, 3.6rem); }
+}
+@media (max-width: 760px) {
+  html[data-site="noza-beauty-salon"] .hero__grid { display: flex; flex-direction: column; gap: 20px; }
+  html[data-site="noza-beauty-salon"] .hero__side { order: -1; width: 100%; }
+  html[data-site="noza-beauty-salon"] .hero__side .photo { max-height: 34vh; }
+  html[data-site="noza-beauty-salon"] .hero__side .photo img { height: 34vh; object-fit: cover; }
+  html[data-site="noza-beauty-salon"] .hero { padding-top: 12px; }
+}
+/* call button: number same size as the word, spacing by gap */
+html[data-site="noza-beauty-salon"] .hero__actions { gap: 16px; }
+html[data-site="noza-beauty-salon"] .hero__actions a[href^="tel"] {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0;
+}
+html[data-site="noza-beauty-salon"] .hero__actions a[href^="tel"]::before {
+  content: "اتصل";
+  font-size: 1rem;
+}
+html[data-site="noza-beauty-salon"] .hero__actions a[href^="tel"] .ltr { font-size: 1rem; }
+
+/* reviews: mixed-language alignment, monochrome emoji */
+html[data-site="noza-beauty-salon"] .rev .card {
+  font-variant-emoji: text;
+}
+html[data-site="noza-beauty-salon"] .rev .card p,
+html[data-site="noza-beauty-salon"] .rev .card blockquote,
+html[data-site="noza-beauty-salon"] .rev .card q {
+  unicode-bidi: plaintext;
+  text-align: start;
+}
+
+/* spacing + small text */
+html[data-site="noza-beauty-salon"] .story__track,
+html[data-site="noza-beauty-salon"] .story:not(.story--h) .story__list { gap: 32px; row-gap: 32px; }
+html[data-site="noza-beauty-salon"] .story:not(.story--h) .panel { margin-block: 0; padding-block: 16px; }
+html[data-site="noza-beauty-salon"] .story:not(.story--h) { padding-block-end: clamp(40px, 6vw, 64px); }
+html[data-site="noza-beauty-salon"] .amen { padding-block-end: clamp(32px, 5vw, 56px); }
+html[data-site="noza-beauty-salon"] .menu__foot,
+html[data-site="noza-beauty-salon"] .menu__sample,
+html[data-site="noza-beauty-salon"] .tabs__count { font-size: 0.9rem; }

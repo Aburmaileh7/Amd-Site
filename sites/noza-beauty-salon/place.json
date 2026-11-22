@@ -55,6 +55,7 @@
       {
         "label": "القص والصبغة",
         "title": "صبغة وقص الشعر",
+        "image": "hair_waves",
         "time": "الشعر"
       },
       {
@@ -65,13 +66,8 @@
       {
         "label": "الأظافر والطلاء",
         "title": "طلاء الأظافر",
-        "image": "nude_nails",
+        "image": "nail_art",
         "time": "الأظافر"
-      },
-      {
-        "label": "في سيتي سنتر",
-        "title": "في سيتي سنتر",
-        "time": "يومياً"
       }
     ]
   },
@@ -80,10 +76,10 @@
     "items": [
       "صبغة شعر",
       "قص شعر",
-      "غسيل واستشوار",
+      "غسيل شعر",
+      "استشوار",
       "علاج شعر",
-      "طلاء أظافر",
-      "سيتي سنتر الدوحة"
+      "طلاء أظافر"
     ]
   },
   "menu": {
@@ -95,45 +91,37 @@
     "categories": [
       {
         "id": "brows",
-        "title": "الحواجب",
-        "tagline": "تنظيف وتشقير وصبغ الحواجب",
+        "title": "الحواجب والرموش والوجه",
+        "tagline": "حواجب ورموش وتنظيف للبشرة بأسعار منصة الحجز",
         "items": [
           {
             "name": "Brow just cleaning (wax, threading, tweezing)",
+            "desc": "تنظيف الحواجب بالشمع أو الخيط أو الملقاط",
             "price": 70
           },
           {
             "name": "Brow bleaching",
+            "desc": "تفتيح لون شعر الحواجب",
             "price": 100
           },
           {
             "name": "Brow just tint",
+            "desc": "صبغ الحواجب فقط",
             "price": 50
           },
           {
             "name": "Brow bleaching + tint",
+            "desc": "تفتيح الحواجب مع الصبغ",
             "price": 150
-          }
-        ]
-      },
-      {
-        "id": "lashes",
-        "title": "الرموش",
-        "tagline": "تركيب رموش بحجم كثيف",
-        "items": [
+          },
           {
             "name": "2D+3D volume",
+            "desc": "رموش بتقنية الحجم 2D و3D",
             "price": 399
-          }
-        ]
-      },
-      {
-        "id": "face",
-        "title": "الوجه",
-        "tagline": "تنظيف عميق للبشرة",
-        "items": [
+          },
           {
             "name": "Full faces cleaning",
+            "desc": "تنظيف الوجه كاملاً",
             "price": 179
           }
         ]
@@ -146,18 +134,15 @@
         "items": [
           {
             "name": "قص وغسيل واستشوار",
-            "price": 180,
-            "mentioned": true
+            "price": 180
           },
           {
             "name": "علاج وتغذية الشعر",
-            "price": 280,
-            "mentioned": true
+            "price": 280
           },
           {
             "name": "صبغة شعر كاملة",
-            "price": 350,
-            "mentioned": true
+            "price": 350
           },
           {
             "name": "خصلات وهايلايت",
@@ -167,14 +152,13 @@
       },
       {
         "id": "nails",
-        "title": "العناية بالأظافر",
-        "tagline": "طلاء نيود وكلاسيكي وبديكير وجل",
+        "title": "الأظافر والمكياج",
+        "tagline": "طلاء أظافر ومكياج مناسبات",
         "image": "nail_art",
         "items": [
           {
             "name": "طلاء أظافر نيود أو كلاسيكي",
-            "price": 90,
-            "mentioned": true
+            "price": 90
           },
           {
             "name": "بديكير وتنظيف أظافر",
@@ -187,14 +171,7 @@
           {
             "name": "جل إكستنشن ورسم أظافر",
             "price": 250
-          }
-        ]
-      },
-      {
-        "id": "makeup",
-        "title": "المكياج",
-        "tagline": "مكياج مناسبات",
-        "items": [
+          },
           {
             "name": "مكياج مناسبات",
             "price": 350
@@ -207,7 +184,8 @@
   "mentions": [
     "صبغة شعر",
     "قص شعر",
-    "غسيل واستشوار",
+    "غسيل شعر",
+    "استشوار",
     "علاج شعر",
     "طلاء أظافر"
   ],
@@ -271,7 +249,7 @@
     "source": "خرائط Google"
   },
   "visit": {
-    "image": "lounge_coffee",
+    "image": "visit_interior",
     "title": "الموقع وساعات العمل"
   },
   "images": {
@@ -299,9 +277,9 @@
       "source_url": "https://www.google.com/maps/search/?api=1&query=Noza%20beauty%20salon&query_place_id=ChIJTca3Jd7FRT4R0nwKZ1TzX-A",
       "credit": "من خرائط Google"
     },
-    "lounge_coffee": {
-      "file": "salon-lounge.jpg",
-      "alt": "صورة ركن الضيافة والقهوة في صالون نوزا للتجميل",
+    "visit_interior": {
+      "file": "visit-interior.jpg",
+      "alt": "صورة \"صورة جلسة الانتظار بالأريكة الوردية في صالون نوزا للتجميل\"",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Noza%20beauty%20salon&query_place_id=ChIJTca3Jd7FRT4R0nwKZ1TzX-A",
       "credit": "من خرائط Google"
     }
