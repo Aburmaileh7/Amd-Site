@@ -1,0 +1,313 @@
+{
+  "place_id": "ChIJzQ2jne_bwxURIAEgsLIJ4wI",
+  "batch_id": "amd-gulf-20261122",
+  "slug": "sorted-speciality-coffee",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#231E1B",
+    "rgb": "35, 30, 27",
+    "hover": "#3A312C",
+    "ink": "#FAF7F2"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "name": "Sorted Speciality Coffee by SORT",
+  "name_lang": "en",
+  "category_label": "مقهى قهوة مختصة",
+  "area": "حي السلامة، جدة",
+  "address": "2489 صقر قريش، حي السلامة، جدة 23436",
+  "phone": {
+    "display": "+966 57 080 7678",
+    "tel": "+966570807678"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Sorted%20Speciality%20Coffee%20by%20SORT&query_place_id=ChIJzQ2jne_bwxURIAEgsLIJ4wI",
+  "map_query": "Sorted Speciality Coffee by SORT, As Salamah, Jeddah",
+  "rating": {
+    "value": 4.3,
+    "count": 3025,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "قهوة مختصة على مدار الساعة في حي السلامة",
+    "intro": "في شارع صقر قريش بحي السلامة بجدة، نقدم القهوة الإثيوبية المقطرة والكورتادو والكركديه المثلج مع تشيز كيك مدريد والسينامون رولز للجلسات الهادئة أو الطلب السريع على مدار الساعة.",
+    "image": "hero_pour"
+  },
+  "sections": [
+    "menu",
+    "marquee",
+    "story",
+    "reviews",
+    "amenities",
+    "proof",
+    "visit"
+  ],
+  "story": {
+    "title": "عن المقهى",
+    "items": [
+      {
+        "label": "01 · القهوة والمشروبات",
+        "title": "قهوة إثيوبية ومشروبات متنوعة",
+        "text": "تضم القائمة قهوة V60 الإثيوبية والدريب المثلج وقهوة اليوم، إلى جانب اللاتيه والكورتادو المتوفر بحليب خالٍ من اللاكتوز. كما يبرز شاي الكركديه المثلج كخيار بارد متوازن النكهة لدى الزوار.",
+        "image": "hero_pour",
+        "time": "تحضير طازج"
+      },
+      {
+        "label": "02 · تشيز كيك مدريد",
+        "title": "تشيز كيك مدريد",
+        "text": "يُعد تشيز كيك مدريد من أكثر الأصناف التي يتكرر ذكرها في تقييمات الزوار. يتميز بقوام كريمي غني وحلاوة موزونة تتماشى مع القهوة المقطرة.",
+        "image": "interior_stairs",
+        "time": "ركن الحلويات"
+      },
+      {
+        "label": "03 · الكركديه والحلويات",
+        "title": "سينامون رولز وحلويات المقهى",
+        "text": "يشيد الزوار بطراوة السينامون رولز الدافئة ونكهة القرفة الواضحة فيها. كما تتوفر خيارات أخرى للتحلية مثل كيك الموز بالشوكولاتة.",
+        "image": "hibiscus_tray",
+        "time": "بجانب قهوتك"
+      },
+      {
+        "label": "04 · المكان والطلب السريع",
+        "title": "تصميم بسيط وخيار الطلب السريع",
+        "text": "يجمع المكان بين التصميم البسيط والأجواء الهادئة مع جلسات داخلية محدودة. وبسبب صغر المساحة، يفضّله كثير من الزوار للطلب السريع وأخذ القهوة أثناء التنقل.",
+        "image": "interior_seating",
+        "time": "جلسة أو سفري"
+      },
+      {
+        "label": "05 · على مدار الساعة",
+        "title": "مفتوح على مدار الساعة",
+        "text": "يستقبل المقهى زواره في شارع صقر قريش بحي السلامة طوال 24 ساعة يومياً من الأحد إلى السبت، ليكون متاحاً في أي وقت من اليوم أو الليل.",
+        "image": "exterior_facade",
+        "time": "24 ساعة يومياً"
+      }
+    ]
+  },
+  "marquee": {
+    "label": "من القائمة والمكان",
+    "items": [
+      "تشيز كيك مدريد",
+      "سينامون رولز",
+      "قهوة V60 إثيوبية",
+      "دريب إثيوبي مثلج",
+      "كركديه مثلج",
+      "مفتوح 24 ساعة · حي السلامة"
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": true,
+    "note": "منيو تقريبي: لم يُعثر على منيو بأسعار منشورة (صفحة HungerStation حُجبت برمز 403). الأصناف مأخوذة من مراجعات الزوار وصور المقهى، والأسعار تقديرية بمستوى المقاهي المختصة في جدة.",
+    "currency": "ر.س",
+    "foot": "منيو تقريبي بمستوى المقاهي المختصة في جدة استناداً إلى آراء الزوار.",
+    "categories": [
+      {
+        "id": "specialty-coffee",
+        "title": "القهوة المختصة",
+        "tagline": "إثيوبية مقطرة وكورتادو ولاتيه ساخن وبارد",
+        "image": "hero_pour",
+        "items": [
+          {
+            "name": "V60 Ethiopian Coffee",
+            "price": 24,
+            "mentioned": true
+          },
+          {
+            "name": "Ethiopian Iced Drip",
+            "price": 25,
+            "mentioned": true
+          },
+          {
+            "name": "Coffee of the Day",
+            "price": 16,
+            "mentioned": true
+          },
+          {
+            "name": "Cortado",
+            "price": 18,
+            "mentioned": true
+          },
+          {
+            "name": "Hot & Iced Latte",
+            "price": 22,
+            "mentioned": true
+          }
+        ]
+      },
+      {
+        "id": "signature-drinks",
+        "title": "مشروبات مميزة",
+        "tagline": "كركديه مثلج متوازن وماتشا وسبانش لاتيه",
+        "image": "hibiscus_tray",
+        "items": [
+          {
+            "name": "Iced Hibiscus Tea",
+            "price": 22,
+            "mentioned": true
+          },
+          {
+            "name": "Sort Spanish Latte",
+            "price": 24
+          },
+          {
+            "name": "Iced Matcha Latte",
+            "price": 26
+          }
+        ]
+      },
+      {
+        "id": "desserts",
+        "title": "الحلويات والمخبوزات",
+        "tagline": "تشيز كيك مدريد وسينامون رولز وكيك الموز بالشوكولاتة",
+        "image": "interior_stairs",
+        "items": [
+          {
+            "name": "Madrid Cheesecake",
+            "price": 32,
+            "mentioned": true
+          },
+          {
+            "name": "Chocolate Banana Cake",
+            "price": 24,
+            "mentioned": true
+          },
+          {
+            "name": "Cinnamon Rolls",
+            "price": 20,
+            "mentioned": true
+          },
+          {
+            "name": "Chocolate Cake",
+            "price": 26
+          }
+        ]
+      }
+    ],
+    "title": "القائمة"
+  },
+  "mentions": [
+    "تشيز كيك مدريد",
+    "سينامون رولز",
+    "لاتيه حار ومثلج",
+    "دريب إثيوبي مثلج",
+    "قهوة اليوم",
+    "كركديه مثلج",
+    "كيك الموز بالشوكولاتة",
+    "كورتادو",
+    "قهوة V60 إثيوبية"
+  ],
+  "reviews": [
+    {
+      "author": "Fadilah M.",
+      "stars": 5,
+      "text": "A cute little minimalist spot with a cozy vibe and a lovely selection of coffee and desserts The Madrid cheesecake was definitely the star of the show rich creamy The cinnamon rolls were soft fluffy and had that warm homemade goodness with a comforting hint of cinnamon The…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2t0ZlpuSnhXa2h3ZW5SYWFsOUthV0ppVDI5TWFGRRAB"
+    },
+    {
+      "author": "Shatha F.",
+      "stars": 5,
+      "text": "The place has a very calm and lovely atmosphere with amazing seating areas. The coffee is absolutely delicious! I tried both the hot and iced latte — both were really tasty. The Ethiopian iced drip was also very good. The coffee of the day was excellent as well. I also tried the…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25wUGRYZHpVbEpaYjNwT1JsSndPVkl4YmxGa1ExRRAB"
+    },
+    {
+      "author": "Hi-D B.",
+      "stars": 5,
+      "text": "One of the best iced hibiscus tea really well balanced, and flavoured. The chocolate banana cake is really good as well. Cafe is not suitable for dine-in It’s extremely small with limited chairs and tables and made for Takeaway.",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2paWFdFbHRaRVE0YzE5bGVtMTJiMjE1ZFVGeVoyYxAB"
+    },
+    {
+      "author": "Maha 7.",
+      "stars": 5,
+      "text": "- Cortado with lactose-free milk: 9/10. - Madrid Cake: Perfectly balanced sweetness and bsolutely amazing 10/10.",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xSZlJtTTJWbWhOZFhWTFdEaFdRVFprYjNObk5uYxAB"
+    },
+    {
+      "author": "Soma D.",
+      "stars": 4,
+      "text": "Nice V60 ethiopian coffee Cheese cake Madrid yummy Tiny place Better to take away the coffee",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2t3NVFrY3dOR2c0U0hKT2RuZElURWhvVm5Cd05tYxAB"
+    }
+  ],
+  "amenities": {
+    "title": "مزايا الفرع والخدمة",
+    "image": "interior_seating",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "مفتوح 24 ساعة",
+        "text": "يستقبلك الفرع يومياً على مدار الساعة من الأحد إلى السبت."
+      },
+      {
+        "icon": "bag",
+        "title": "مناسب للطلب السريع",
+        "text": "مساحة هادئة وملائمة لأخذ القهوة المختصة أثناء التنقل."
+      },
+      {
+        "icon": "coffee",
+        "title": "حليب خالٍ من اللاكتوز",
+        "text": "إمكانية طلب الكورتادو واللاتيه بحليب خالٍ من اللاكتوز."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل وجلسات ميسّرة",
+        "text": "مدخل ومقاعد مهيّأة بالكامل لسهولة الوصول للجميع."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف سيارات ميسّرة",
+        "text": "مواقف متاحة ومهيّأة أمام المقهى في شارع صقر قريش."
+      }
+    ]
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "الأحد – السبت",
+        "time": "مفتوح 24 ساعة"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "visit": {
+    "image": "exterior_facade",
+    "title": "الموقع وساعات العمل"
+  },
+  "images": {
+    "hero_pour": {
+      "file": "hero-pour.jpg",
+      "alt": "صورة صب القهوة المقطرة في كوب SORT مع لاتيه على طاولة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sorted%20Speciality%20Coffee%20by%20SORT&query_place_id=ChIJzQ2jne_bwxURIAEgsLIJ4wI",
+      "credit": "من خرائط Google"
+    },
+    "hibiscus_tray": {
+      "file": "hibiscus-latte-cake.jpg",
+      "alt": "صورة كركديه مثلج ولاتيه وشريحة كيك الشوكولاتة في SORT",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sorted%20Speciality%20Coffee%20by%20SORT&query_place_id=ChIJzQ2jne_bwxURIAEgsLIJ4wI",
+      "credit": "من خرائط Google"
+    },
+    "interior_stairs": {
+      "file": "interior-stairs.jpg",
+      "alt": "صورة للدرج الحلزوني الأبيض والإضاءة الدافئة داخل المقهى",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sorted%20Speciality%20Coffee%20by%20SORT&query_place_id=ChIJzQ2jne_bwxURIAEgsLIJ4wI",
+      "credit": "من خرائط Google"
+    },
+    "interior_seating": {
+      "file": "interior-seating.jpg",
+      "alt": "صورة للجلسات الداخلية والكراسي الجلدية والقوس المعماري",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sorted%20Speciality%20Coffee%20by%20SORT&query_place_id=ChIJzQ2jne_bwxURIAEgsLIJ4wI",
+      "credit": "من خرائط Google"
+    },
+    "exterior_facade": {
+      "file": "exterior-facade.jpg",
+      "alt": "صورة واجهة المقهى مع لافتة SORT والجلسات الخارجية",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sorted%20Speciality%20Coffee%20by%20SORT&query_place_id=ChIJzQ2jne_bwxURIAEgsLIJ4wI",
+      "credit": "من خرائط Google"
+    }
+  }
+}
