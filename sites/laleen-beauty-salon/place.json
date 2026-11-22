@@ -1,0 +1,331 @@
+{
+  "place_id": "ChIJg_RlUNLPRT4R9jsGvC4frr0",
+  "batch_id": "amd-gulf-20261121",
+  "slug": "laleen-beauty-salon",
+  "theme": "beauty_soft",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google (Apify maps.json) + صورة الصالون الدعائية وعلامات الحساب على الصور",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#85631A",
+    "rgb": "133, 99, 26",
+    "hover": "#6E5214",
+    "ink": "#FFFFFF"
+  },
+  "name": "Laleen Beauty Salon",
+  "name_lang": "en",
+  "category_label": "صالون تجميل نسائي",
+  "area": "المطار القديم، الدوحة",
+  "address": "Al Matar Al Qadeem St, Doha, Qatar",
+  "phone": {
+    "display": "+974 7713 2353",
+    "tel": "+97477132353"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Laleen%20Beauty%20Salon&query_place_id=ChIJg_RlUNLPRT4R9jsGvC4frr0",
+  "map_query": "Laleen Beauty Salon, Al Matar Al Qadeem St, Doha, Qatar",
+  "rating": {
+    "value": 4.6,
+    "count": 728,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "صالون نسائي في الدوحة يهتم بالتفاصيل",
+    "intro": "من الشعر والأظافر إلى الحواجب والبشرة، صالون نسائي في شارع المطار القديم بالدوحة، تفتح أبوابه كل يوم حتى العاشرة مساءً.",
+    "image": "interior"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "story",
+    "marquee",
+    "reviews",
+    "menu",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "marquee": {
+    "label": "في الصالون",
+    "items": [
+      "صبغ الشعر",
+      "علاج البروتين",
+      "أظافر ومانيكير وباديكير",
+      "تحديد الحواجب بالخيط",
+      "شارع المطار القديم، الدوحة"
+    ]
+  },
+  "story": {
+    "title": "ما تقوله العميلات",
+    "items": [
+      {
+        "label": "الفريق",
+        "title": "فريق تعرفينه بالاسم",
+        "text": "تذكر العميلات في تقييماتهن موظفات بأسمائهن، وتصفنهن بالمهنية واللطف والانتباه لكل خطوة.",
+        "image": "hair_color"
+      },
+      {
+        "label": "الشعر",
+        "title": "لون وعلاج للشعر",
+        "text": "صبغ الشعر وعلاج البروتين والقص من أكثر ما تشكر عليه العميلات، ويصفن الشعر بعده بالناعم والصحي.",
+        "image": "hair_straight"
+      },
+      {
+        "label": "الأظافر",
+        "title": "أظافر بدقة",
+        "text": "المانيكير والباديكير والأظافر الصناعية تتكرر في المراجعات، مع ثناء على الدقة وعلى سؤالك عن راحتك أثناء العمل.",
+        "image": "nails_burgundy"
+      },
+      {
+        "label": "المكان",
+        "title": "مكان نظيف ودافئ",
+        "text": "وصفت إحدى العميلات الصالون بأنه نظيف وأدفأ مما توقعت، والموظفة أصغت جيدًا لما تريده قبل أن تبدأ.",
+        "image": "interior_low"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "خدمات الصالون",
+    "note": "الخدمات كما ظهرت في خرائط Google. للأسعار والحجز تواصلي مع الصالون، والمواعيد المسبقة موصى بها.",
+    "sample": false,
+    "categories": [
+      {
+        "id": "hair",
+        "title": "الشعر",
+        "tagline": "صبغ وعلاج وقص",
+        "items": [
+          {
+            "name": "صبغ الشعر",
+            "desc": ""
+          },
+          {
+            "name": "هايلايت",
+            "desc": ""
+          },
+          {
+            "name": "علاجات الشعر",
+            "desc": ""
+          },
+          {
+            "name": "علاج البروتين",
+            "desc": ""
+          },
+          {
+            "name": "قص الشعر",
+            "desc": ""
+          },
+          {
+            "name": "استشوار",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "id": "nails",
+        "title": "الأظافر",
+        "tagline": "يدين وقدمين",
+        "image": "nails_pink",
+        "items": [
+          {
+            "name": "الأظافر",
+            "desc": ""
+          },
+          {
+            "name": "مانيكير",
+            "desc": ""
+          },
+          {
+            "name": "باديكير",
+            "desc": ""
+          },
+          {
+            "name": "تركيب أظافر",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "id": "face",
+        "title": "الوجه والحواجب",
+        "tagline": "بشرة وحواجب",
+        "items": [
+          {
+            "name": "هيدرا فيشل",
+            "desc": ""
+          },
+          {
+            "name": "تنظيف البشرة",
+            "desc": ""
+          },
+          {
+            "name": "تحديد الحواجب بالخيط",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "id": "body",
+        "title": "الشمع والجسم",
+        "tagline": "في الصالون وفي البيت",
+        "items": [
+          {
+            "name": "إزالة الشعر بالشمع",
+            "desc": ""
+          },
+          {
+            "name": "إزالة شعر الجسم كامل بالشمع",
+            "desc": ""
+          },
+          {
+            "name": "مساج الظهر والساقين (خدمة منزلية)",
+            "desc": ""
+          },
+          {
+            "name": "سبا",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "id": "makeup",
+        "title": "المكياج",
+        "tagline": "",
+        "items": [
+          {
+            "name": "مكياج",
+            "desc": ""
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Keziah M.",
+      "stars": 5,
+      "text": "Sonia did an amazing job at doing mine and my bestie from childhood's nails! She had an amazing sense to detail and made sure if i was comfortable throughout the process, I would definitely recommend coming here! The pedicure was amazing too!",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2tvM1RFZHBNbGt5UzFNelJrOUhTazl5WTNCV1YxRRAB"
+    },
+    {
+      "author": "Nuzhat R.",
+      "stars": 4,
+      "text": "I had such a wonderful experience at Laleen Salon! A special thank you to Hana for doing my protein treatment. She was so professional, gentle, and attentive throughout the whole process. My hair feels so smooth, healthy, and beautiful! Thank you, Hana, for your amazing work and…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2pGbVNsQTNkR2Q1TVdVek4wTmZkVVZDYzJ4Uk9VRRAB"
+    },
+    {
+      "author": "Kittylai",
+      "stars": 5,
+      "text": "I would like to say Thank you to Celeren for always making me feel beautiful and keeping my brows perfectly in shape and also Sonia who did my hair, truly she is a pro and met my expectation. Kudos again to both of you. 🥰💛",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT21wSlIzVnNORXhHVFY4eFNXOUhWSGxLUVVwRFZtYxAB"
+    },
+    {
+      "author": "Sakshi N.",
+      "stars": 5,
+      "text": "Had a fantastic experience getting my haircut—the salon was clean and cozier than expected, and the stylist took the time to listen carefully to what I wanted. The end result turned out fresh, healthy, and beautifully styled, leaving me completely satisfied with the service and…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2pCalptZFdlbUo0WVdrNFJHVTBXVzFQVWxrMVEwRRAB"
+    },
+    {
+      "author": "Ishra J.",
+      "stars": 5,
+      "text": "Had a wonderful experience at the salon! 💕 I got my hair coloring, manicure, pedicure, and eyebrow threading done, and everything was done beautifully. Special thanks to Sonia and Jannat for their lovely service and attention to detail. Highly recommended! ✨",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT201a2IxQlBOVkJuWkhvMVNISndSakIwV2psVGQxRRAB"
+    },
+    {
+      "author": "Shahrina A.",
+      "stars": 5,
+      "text": "Had a fantastic experience at this salon! I got my hair colored yesterday, and the result is absolutely beautiful. The staff is polite, professional, and very attentive to details. Highly recommended!",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT21kUFQwdDRZMHQ1YVMxcFIwTk1hMUV4WW1KRFlWRRAB"
+    }
+  ],
+  "mentions": [],
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "10 ص – 10 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "12 ظ – 10 م"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "amenities": {
+    "title": "قبل موعدك",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "الموعد المسبق أفضل",
+        "text": "خرائط Google توصي بحجز موعد قبل الزيارة."
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": "موقف سيارات ودورة مياه ومقاعد مهيأة."
+      },
+      {
+        "icon": "wifi",
+        "title": "واي فاي مجاني",
+        "text": "متاح للعميلات أثناء الانتظار."
+      },
+      {
+        "icon": "check",
+        "title": "الدفع بالبطاقة",
+        "text": "بطاقات الائتمان والخصم والدفع عبر الجوال."
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للأطفال",
+        "text": "يمكن مرافقة الصغيرات إلى الصالون."
+      }
+    ]
+  },
+  "visit": {
+    "title": "زيارة الصالون",
+    "image": "nails_pink"
+  },
+  "images": {
+    "interior": {
+      "file": "salon-interior.jpg",
+      "alt": "صورة الصالون من الداخل: ثلاث مرايا مقوّسة وكراسٍ بقواعد ذهبية",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Laleen%20Beauty%20Salon&query_place_id=ChIJg_RlUNLPRT4R9jsGvC4frr0",
+      "credit": "من خرائط Google"
+    },
+    "interior_low": {
+      "file": "salon-interior.jpg",
+      "alt": "صورة أرضية رخامية وأريكة الانتظار داخل الصالون",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Laleen%20Beauty%20Salon&query_place_id=ChIJg_RlUNLPRT4R9jsGvC4frr0",
+      "credit": "من خرائط Google"
+    },
+    "hair_straight": {
+      "file": "hair-straight.jpg",
+      "alt": "صورة شعر طويل ممسّد من الخلف بعد التصفيف",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Laleen%20Beauty%20Salon&query_place_id=ChIJg_RlUNLPRT4R9jsGvC4frr0",
+      "credit": "من خرائط Google"
+    },
+    "hair_color": {
+      "file": "hair-color.jpg",
+      "alt": "صورة شعر مصبوغ بلون بني داكن من الخلف",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Laleen%20Beauty%20Salon&query_place_id=ChIJg_RlUNLPRT4R9jsGvC4frr0",
+      "credit": "من خرائط Google"
+    },
+    "nails_burgundy": {
+      "file": "nails-burgundy.jpg",
+      "alt": "صورة أظافر بلون خمري ورمادي لامع على رخام أبيض",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Laleen%20Beauty%20Salon&query_place_id=ChIJg_RlUNLPRT4R9jsGvC4frr0",
+      "credit": "من خرائط Google"
+    },
+    "nails_pink": {
+      "file": "nails-pink.jpg",
+      "alt": "صورة أظافر صناعية بلون وردي",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Laleen%20Beauty%20Salon&query_place_id=ChIJg_RlUNLPRT4R9jsGvC4frr0",
+      "credit": "من خرائط Google"
+    }
+  }
+}
