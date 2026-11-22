@@ -48,7 +48,6 @@
 [data-site="mj-restaurant"] .hero__content .photo__badge{margin-top:12px}
 [data-site="mj-restaurant"] .visit__title{font-size:clamp(22px,3.2vw,34px);line-height:1.5;overflow-wrap:anywhere}
 [data-site="mj-restaurant"] .story,[data-site="mj-restaurant"] .menu,[data-site="mj-restaurant"] .rev,[data-site="mj-restaurant"] .amen,[data-site="mj-restaurant"] .proof{padding-block:clamp(56px,8vw,96px)}
-[data-site="mj-restaurant"] .items .item:empty,[data-site="mj-restaurant"] .items li:empty{display:none}
 [data-site="mj-restaurant"] .rev__rail{padding-inline:var(--gutter);scroll-padding-inline:var(--gutter);scroll-snap-type:x mandatory}
 [data-site="mj-restaurant"] .rev__rail .card{scroll-snap-align:start;max-width:86vw}
 @media (max-width:720px){
