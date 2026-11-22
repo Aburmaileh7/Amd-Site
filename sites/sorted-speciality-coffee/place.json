@@ -5,7 +5,7 @@
   "theme": "cafe_light",
   "approved": false,
   "agency": "Amd web",
-  "data_source": "خرائط Google",
+  "data_source": "خرائط Google، وصفحة المحل على HungerStation، ومقال ومنيو JeddahCafe، وصفحة المحل على Magicpin",
   "layout": {
     "hero": "split",
     "story": "horizontal"
@@ -53,38 +53,38 @@
     "title": "عن المقهى",
     "items": [
       {
-        "label": "01 · القهوة والمشروبات",
+        "label": "القهوة والمشروبات",
         "title": "قهوة إثيوبية ومشروبات متنوعة",
         "text": "تضم القائمة قهوة V60 الإثيوبية والدريب المثلج وقهوة اليوم، إلى جانب اللاتيه والكورتادو المتوفر بحليب خالٍ من اللاكتوز. كما يبرز شاي الكركديه المثلج كخيار بارد متوازن النكهة لدى الزوار.",
         "image": "hero_pour",
         "time": "تحضير طازج"
       },
       {
-        "label": "02 · تشيز كيك مدريد",
+        "label": "تشيز كيك مدريد",
         "title": "تشيز كيك مدريد",
         "text": "يُعد تشيز كيك مدريد من أكثر الأصناف التي يتكرر ذكرها في تقييمات الزوار. يتميز بقوام كريمي غني وحلاوة موزونة تتماشى مع القهوة المقطرة.",
-        "image": "interior_stairs",
+        "image": "iced_pastries",
         "time": "ركن الحلويات"
       },
       {
-        "label": "03 · الكركديه والحلويات",
+        "label": "الحلويات والمخبوزات",
         "title": "سينامون رولز وحلويات المقهى",
         "text": "يشيد الزوار بطراوة السينامون رولز الدافئة ونكهة القرفة الواضحة فيها. كما تتوفر خيارات أخرى للتحلية مثل كيك الموز بالشوكولاتة.",
-        "image": "hibiscus_tray",
+        "image": "latte_danish",
         "time": "بجانب قهوتك"
       },
       {
-        "label": "04 · المكان والطلب السريع",
+        "label": "المكان والطلب السريع",
         "title": "تصميم بسيط وخيار الطلب السريع",
         "text": "يجمع المكان بين التصميم البسيط والأجواء الهادئة مع جلسات داخلية محدودة. وبسبب صغر المساحة، يفضّله كثير من الزوار للطلب السريع وأخذ القهوة أثناء التنقل.",
-        "image": "interior_seating",
+        "image": "interior_niche",
         "time": "جلسة أو سفري"
       },
       {
-        "label": "05 · على مدار الساعة",
+        "label": "على مدار الساعة",
         "title": "مفتوح على مدار الساعة",
         "text": "يستقبل المقهى زواره في شارع صقر قريش بحي السلامة طوال 24 ساعة يومياً من الأحد إلى السبت، ليكون متاحاً في أي وقت من اليوم أو الليل.",
-        "image": "exterior_facade",
+        "image": "interior_stairs",
         "time": "24 ساعة يومياً"
       }
     ]
@@ -102,89 +102,106 @@
   },
   "menu": {
     "kind": "menu",
-    "sample": true,
-    "note": "منيو تقريبي: لم يُعثر على منيو بأسعار منشورة (صفحة HungerStation حُجبت برمز 403). الأصناف مأخوذة من مراجعات الزوار وصور المقهى، والأسعار تقديرية بمستوى المقاهي المختصة في جدة.",
+    "sample": false,
+    "note": "الأسعار من صفحة المحل على HungerStation (https://hungerstation.com/sa-en/restaurants/regions/jeddah/mushrefa/sorted-59248) ومنيو كافيه سورت المنشور على JeddahCafe (https://www.jeddahcafe.com/2022/%D9%83%D8%A7%D9%81%D9%8A%D9%87-%D8%B3%D9%88%D8%B1%D8%AA-%D8%AC%D8%AF%D8%A9/) لأسعار القهوة والمشروبات والحلويات (بما فيها سينامون رولز 18 ر.س من صورة المنيو الرسمية).",
     "currency": "ر.س",
-    "foot": "منيو تقريبي بمستوى المقاهي المختصة في جدة استناداً إلى آراء الزوار.",
+    "foot": "الأسعار من صفحة المحل على HungerStation ومنيو كافيه سورت المنشور على JeddahCafe.",
     "categories": [
       {
         "id": "specialty-coffee",
         "title": "القهوة المختصة",
-        "tagline": "إثيوبية مقطرة وكورتادو ولاتيه ساخن وبارد",
-        "image": "hero_pour",
+        "tagline": "قهوة اليوم والإسبريسو والكورتادو والفلات وايت واللاتيه وV60",
+        "image": "latte_danish",
         "items": [
           {
-            "name": "V60 Ethiopian Coffee",
-            "price": 24,
+            "name": "قهوة اليوم",
+            "price": 9,
             "mentioned": true
           },
           {
-            "name": "Ethiopian Iced Drip",
-            "price": 25,
+            "name": "إسبريسو",
+            "price": 10
+          },
+          {
+            "name": "كورتادو",
+            "price": 13,
             "mentioned": true
           },
           {
-            "name": "Coffee of the Day",
-            "price": 16,
+            "name": "فلات وايت",
+            "price": 14
+          },
+          {
+            "name": "لاتيه (حار أو بارد)",
+            "price": 15,
             "mentioned": true
           },
           {
-            "name": "Cortado",
-            "price": 18,
-            "mentioned": true
-          },
-          {
-            "name": "Hot & Iced Latte",
-            "price": 22,
+            "name": "V60 تحضير يدوي",
+            "price": 19,
             "mentioned": true
           }
         ]
       },
       {
-        "id": "signature-drinks",
-        "title": "مشروبات مميزة",
-        "tagline": "كركديه مثلج متوازن وماتشا وسبانش لاتيه",
+        "id": "cold-hot-drinks",
+        "title": "المشروبات الباردة والساخنة",
+        "tagline": "مشروب الكركديه والشاي المثلج والأمريكانو والكابتشينو والشوكولاتة الساخنة",
         "image": "hibiscus_tray",
         "items": [
           {
-            "name": "Iced Hibiscus Tea",
-            "price": 22,
+            "name": "أمريكانو",
+            "price": 10
+          },
+          {
+            "name": "كابتشينو",
+            "price": 15
+          },
+          {
+            "name": "شوكولاتة ساخنة",
+            "price": 16
+          },
+          {
+            "name": "شاي مثلج",
+            "price": 17
+          },
+          {
+            "name": "مشروب كركديه",
+            "price": 19,
             "mentioned": true
-          },
-          {
-            "name": "Sort Spanish Latte",
-            "price": 24
-          },
-          {
-            "name": "Iced Matcha Latte",
-            "price": 26
           }
         ]
       },
       {
         "id": "desserts",
         "title": "الحلويات والمخبوزات",
-        "tagline": "تشيز كيك مدريد وسينامون رولز وكيك الموز بالشوكولاتة",
-        "image": "interior_stairs",
+        "tagline": "سينامون رولز وكيكة الشوكولاتة المقرمشة والتيراميسو والبراونيز والكوكيز",
+        "image": "iced_pastries",
         "items": [
           {
-            "name": "Madrid Cheesecake",
-            "price": 32,
+            "name": "كيكة جزر",
+            "price": 10
+          },
+          {
+            "name": "كوكيز",
+            "price": 15
+          },
+          {
+            "name": "براونيز",
+            "price": 15
+          },
+          {
+            "name": "سينامون رولز",
+            "price": 18,
             "mentioned": true
           },
           {
-            "name": "Chocolate Banana Cake",
-            "price": 24,
-            "mentioned": true
+            "name": "كيكة الشوكولاتة المقرمشة",
+            "price": 23
           },
           {
-            "name": "Cinnamon Rolls",
-            "price": 20,
-            "mentioned": true
-          },
-          {
-            "name": "Chocolate Cake",
-            "price": 26
+            "name": "تيراميسو",
+            "price": 25
           }
         ]
       }
@@ -206,13 +223,13 @@
     {
       "author": "Fadilah M.",
       "stars": 5,
-      "text": "A cute little minimalist spot with a cozy vibe and a lovely selection of coffee and desserts The Madrid cheesecake was definitely the star of the show rich creamy The cinnamon rolls were soft fluffy and had that warm homemade goodness with a comforting hint of cinnamon The…",
+      "text": "A cute little minimalist spot with a cozy vibe and a lovely selection of coffee and desserts The Madrid cheesecake was definitely the star of the show rich creamy The cinnamon rolls were soft fluffy and had that warm homemade goodness with a comforting hint of cinnamon…",
       "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2t0ZlpuSnhXa2h3ZW5SYWFsOUthV0ppVDI5TWFGRRAB"
     },
     {
       "author": "Shatha F.",
       "stars": 5,
-      "text": "The place has a very calm and lovely atmosphere with amazing seating areas. The coffee is absolutely delicious! I tried both the hot and iced latte — both were really tasty. The Ethiopian iced drip was also very good. The coffee of the day was excellent as well. I also tried the…",
+      "text": "The place has a very calm and lovely atmosphere with amazing seating areas. The coffee is absolutely delicious! I tried both the hot and iced latte — both were really tasty. The Ethiopian iced drip was also very good. The coffee of the day was excellent as well.",
       "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25wUGRYZHpVbEpaYjNwT1JsSndPVkl4YmxGa1ExRRAB"
     },
     {
@@ -291,11 +308,29 @@
       "source_url": "https://www.google.com/maps/search/?api=1&query=Sorted%20Speciality%20Coffee%20by%20SORT&query_place_id=ChIJzQ2jne_bwxURIAEgsLIJ4wI",
       "credit": "من خرائط Google"
     },
+    "latte_danish": {
+      "file": "latte-berry-danish.jpg",
+      "alt": "صورة كوبي لاتيه من SORT مع فطيرة دانيش بالتوت والفراولة على صينية خشبية",
+      "source_url": "https://magicpin.com/saudi-arabia/Jeddah/Al-Sabil/Restaurant/Sorted-Speciality-Coffee-By-Sort/store/227c949",
+      "credit": "من صفحة المحل على Magicpin"
+    },
+    "iced_pastries": {
+      "file": "iced-coffee-pastries.jpg",
+      "alt": "صورة قهوة مثلجة في كوب SORT بجانب قبة زجاجية للمخبوزات والحلويات",
+      "source_url": "https://www.jeddahcafe.com/2022/%D9%83%D8%A7%D9%81%D9%8A%D9%87-%D8%B3%D9%88%D8%B1%D8%AA-%D8%AC%D8%AF%D8%A9/",
+      "credit": "من مقال JeddahCafe"
+    },
     "interior_stairs": {
       "file": "interior-stairs.jpg",
       "alt": "صورة للدرج الحلزوني الأبيض والإضاءة الدافئة داخل المقهى",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Sorted%20Speciality%20Coffee%20by%20SORT&query_place_id=ChIJzQ2jne_bwxURIAEgsLIJ4wI",
       "credit": "من خرائط Google"
+    },
+    "interior_niche": {
+      "file": "interior-niche-seating.jpg",
+      "alt": "صورة للجلسات الداخلية والرفوف المقوسة والدرج الحلزوني داخل SORT",
+      "source_url": "https://magicpin.com/saudi-arabia/Jeddah/Al-Sabil/Restaurant/Sorted-Speciality-Coffee-By-Sort/store/227c949",
+      "credit": "من صفحة المحل على Magicpin"
     },
     "interior_seating": {
       "file": "interior-seating.jpg",
@@ -304,10 +339,10 @@
       "credit": "من خرائط Google"
     },
     "exterior_facade": {
-      "file": "exterior-facade.jpg",
-      "alt": "صورة واجهة المقهى مع لافتة SORT والجلسات الخارجية",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=Sorted%20Speciality%20Coffee%20by%20SORT&query_place_id=ChIJzQ2jne_bwxURIAEgsLIJ4wI",
-      "credit": "من خرائط Google"
+      "file": "exterior-sort-facade.jpg",
+      "alt": "صورة واجهة المقهى مع لافتة SORT المضيئة والجلسات الخارجية",
+      "source_url": "https://magicpin.com/saudi-arabia/Jeddah/Al-Sabil/Restaurant/Sorted-Speciality-Coffee-By-Sort/store/227c949",
+      "credit": "من صفحة المحل على Magicpin"
     }
   }
 }
