@@ -1,8 +1,31 @@
 [data-site="golden-grill-house"] .hero__headline{background:linear-gradient(100deg,var(--ink) 0 55%,#d9a52e 75%,var(--ink) 100%);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:ggh-steam 7s ease-in-out infinite alternate;padding-block:.1em}
 [data-site="golden-grill-house"] .hero__headline::after{content:"";display:block;width:84px;height:4px;margin-top:.5em;border-radius:4px;background:linear-gradient(90deg,#d9a52e,var(--glow))}
-[data-site="golden-grill-house"] .menu__title::before,[data-site="golden-grill-house"] .rev__title::before{content:"";display:block;width:44px;height:44px;margin-bottom:14px;border-radius:50%;border:3px solid #d9a52e;box-shadow:inset 0 0 0 7px var(--bg),inset 0 0 0 10px var(--glow)}
+[data-site="golden-grill-house"] .menu__title::before{content:"";display:block;width:44px;height:44px;margin-bottom:14px;border-radius:50%;border:3px solid #d9a52e;box-shadow:inset 0 0 0 7px var(--bg),inset 0 0 0 10px var(--glow)}
 [data-site="golden-grill-house"] .item__lead{border-bottom:2px dotted rgba(217,165,46,.7)}
 [data-site="golden-grill-house"] .marquee{background:linear-gradient(90deg,rgba(217,165,46,.16),rgba(194,59,107,.12))}
 @keyframes ggh-steam{to{background-position:100% 0}}
 @media (prefers-reduced-motion:reduce){[data-site="golden-grill-house"] .hero__headline{animation:none}}
-[data-site="golden-grill-house"] .menu__title::before,[data-site="golden-grill-house"] .rev__title::before{transform:rotate(calc(var(--ggh-spin,0)*360deg))}
+[data-site="golden-grill-house"] .menu__title::before{transform:rotate(calc(var(--ggh-spin,0)*360deg))}
+
+[data-site="golden-grill-house"] .panel-m__caption{background:linear-gradient(0deg,rgba(20,10,8,.88),rgba(20,10,8,.45) 70%,transparent);padding:28px 18px 18px}
+[data-site="golden-grill-house"] .panel-m__name,[data-site="golden-grill-house"] .panel-m__tag{color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+[data-site="golden-grill-house"] .panel-m__tag{opacity:.92}
+[data-site="golden-grill-house"] .menu__sample{display:block;margin-top:16px;margin-bottom:12px;line-height:1.8}
+[data-site="golden-grill-house"] .menu__title{margin-bottom:8px}
+[data-site="golden-grill-house"] .visit__shade{background:rgba(18,10,8,.82)}
+[data-site="golden-grill-house"] .visit__inner,[data-site="golden-grill-house"] .visit__inner .hours,[data-site="golden-grill-house"] .visit__inner .contact,[data-site="golden-grill-house"] .visit__title{color:#fff}
+[data-site="golden-grill-house"] .visit__inner .muted,[data-site="golden-grill-house"] .visit__inner .eyebrow{color:rgba(255,255,255,.88)}
+[data-site="golden-grill-house"] .visit .photo__badge,[data-site="golden-grill-house"] .visit__bg .photo__badge{position:absolute;inset-block-end:0;inset-inline-start:0;margin:0}
+[data-site="golden-grill-house"] .panel__time,[data-site="golden-grill-house"] .panel__clock{color:#7a1f42;font-weight:700}
+[data-site="golden-grill-house"] .story--h .panel__time{color:#7a1f42}
+[data-site="golden-grill-house"] .panel+.panel{margin-top:48px}
+[data-site="golden-grill-house"] .story__track .panel{margin-bottom:0}
+[data-site="golden-grill-house"] .rev .card,[data-site="golden-grill-house"] .rev .card *:not(.card__stars){direction:ltr;text-align:left}
+[data-site="golden-grill-house"] .rev .card__stars{direction:ltr}
+[data-site="golden-grill-house"] .rev__rail{padding-bottom:12px;margin-bottom:0;scrollbar-width:thin}
+[data-site="golden-grill-house"] .rev{padding-bottom:56px}
+[data-site="golden-grill-house"] .item__name .ltr,[data-site="golden-grill-house"] .panel-m__name .ltr,[data-site="golden-grill-house"] .header-call .ltr,[data-site="golden-grill-house"] .phone .ltr{direction:ltr;unicode-bidi:isolate}
+[data-site="golden-grill-house"] .item__price .cur{font-size:.8em}
+[data-site="golden-grill-house"] .marquee__row{font-family:var(--font-b);font-weight:600;font-size:clamp(1rem,2.2vw,1.35rem);gap:2.2rem;display:flex;align-items:center}
+[data-site="golden-grill-house"] .marquee__dot{display:none}
+[data-site="golden-grill-house"] .marquee__track{gap:2.2rem}

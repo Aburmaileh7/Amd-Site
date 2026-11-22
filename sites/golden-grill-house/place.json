@@ -52,22 +52,22 @@
   "story": {
     "items": [
       {
-        "label": "الكاري",
-        "title": "دجاج بالزبدة ونان الثوم",
-        "text": "أطباق كاري هندية مثل الدجاج بالزبدة والدجاج بالكزبرة، تُقدّم ساخنة مع خبز النان بالثوم لتناسب محبي النكهات الهندية التقليدية.",
-        "image": "butter"
+        "label": "الشوربات والمومو",
+        "title": "الشوربات والمومو",
+        "text": "يذكر الزوار شوربة جايد وشوربة بكين ودراغون مومو وسبرينغ رول الدجاج، وهي بداية صينية آسيوية قبل الأطباق الرئيسية.",
+        "image": "wok"
       },
       {
-        "label": "البرياني",
-        "title": "البرياني ومشاوي التندوري",
-        "text": "تشكيلة من البرياني المتبّل مثل برياني دجاج هريالي والبرياني البنجابي النباتي، إلى جانب مشاوي التندوري وأطباق الكباب المشكلة للعائلات.",
+        "label": "الكباب والبرياني",
+        "title": "الكباب والبرياني",
+        "text": "كباب الدجاج غولابي وهزاري من الأطباق التي ورد ذكرها في التقييمات، ومعهما برياني دجاج هريالي وبرياني بنجابي نباتي.",
         "image": "biryani"
       },
       {
-        "label": "الووك والرولز",
+        "label": "الهندي والصيني",
         "title": "الأطباق الهندية الصينية والرولز",
-        "text": "خيارات واسعة تجمع النكهات الصينية والهندية، من رولز الفرانكي والبانير التي يوصي بها الزوار إلى المومو والووك بوكس والشوربات الساخنة.",
-        "image": "wok"
+        "text": "يوصي الزوار برولز الفرانكي وفرانكي البانير، وبجانبها الووك بوكس، ضمن خيارات واسعة تجمع المطبخين الهندي والصيني.",
+        "image": "curry"
       },
       {
         "label": "الصالة",
@@ -81,17 +81,17 @@
     "label": "أطباق يذكرها الزوار",
     "items": [
       "رولز الفرانكي",
-      "دجاج بالزبدة ونان الثوم",
+      "شوربة جايد وبكين",
+      "دراغون مومو",
+      "كباب الدجاج غولابي وهزاري",
       "برياني دجاج هريالي",
-      "دراغون مومو وشوربة جايد",
-      "كباب الدجاج غولابي",
       "صالة عائلية في روي"
     ]
   },
   "menu": {
     "kind": "menu",
     "sample": true,
-    "note": "منيو تقريبي بالأسعار المتوقعة في مسقط (ر.ع) — الأصناف مستخلصة من تقييمات الزوار وصور المطعم وقوائم الدليل",
+    "note": "منيو تقريبي بالأسعار المتوقعة في مسقط (ر.ع) — الأصناف مستخلصة من تقييمات الزوار وصور المطعم",
     "currency": "ر.ع",
     "categories": [
       {
@@ -119,17 +119,13 @@
             "name": "Chicken Spring Rolls",
             "price": 2.5,
             "mentioned": true
-          },
-          {
-            "name": "Chicken Lollipop",
-            "price": 2.9
           }
         ]
       },
       {
         "id": "grills-kebabs",
-        "title": "المشاوي والتندوري",
-        "tagline": "من التندور",
+        "title": "الكباب",
+        "tagline": "كباب غولابي وهزاري",
         "image": "naan",
         "items": [
           {
@@ -141,14 +137,6 @@
             "name": "Chicken Hazari Kebab",
             "price": 3.8,
             "mentioned": true
-          },
-          {
-            "name": "Large Mix Grill Platter",
-            "price": 6.2
-          },
-          {
-            "name": "Garlic Naan",
-            "price": 0.6
           }
         ]
       },
@@ -172,18 +160,14 @@
             "name": "Wok Box",
             "price": 3.4,
             "mentioned": true
-          },
-          {
-            "name": "Chicken Fried Rice",
-            "price": 3
           }
         ]
       },
       {
         "id": "biryani-curries",
-        "title": "البرياني والأطباق الهندية",
+        "title": "البرياني",
         "tagline": "أرز وكاري",
-        "image": "butter",
+        "image": "curry",
         "items": [
           {
             "name": "Chicken Haryali Biryani",
@@ -194,14 +178,6 @@
             "name": "Veg Punjabi Biryani",
             "price": 3.2,
             "mentioned": true
-          },
-          {
-            "name": "Butter Chicken",
-            "price": 3.9
-          },
-          {
-            "name": "Cilantro Chicken",
-            "price": 3.7
           }
         ]
       }
@@ -224,13 +200,13 @@
     {
       "author": "Abdul M.",
       "stars": 5,
-      "text": "Golden Grill House in Ruwi has undergone a complete transformation, and the results are impressive.",
+      "text": "Golden Grill House in Ruwi has undergone a complete transformation, and the results are impressive…",
       "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2pkMmRWazRURFE1U2pKWk9GRmZla28zU0Y5U1EzYxAB"
     },
     {
       "author": "Hanna M.",
       "stars": 5,
-      "text": "A fabulous place with great food, service and a variety of veg, non veg, chinese and indian options. The experience was most enjoyed due to the wonderful owner Mr Ashok, who was so friendly, humble and an honest man.",
+      "text": "A fabulous place with great food, service and a variety of veg, non veg, chinese and indian options. The experience was most enjoyed due to the wonderful owner Mr Ashok, who was so friendly, humble and an honest man…",
       "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25CV1QyOXpUa3g0VnpCRFVVSk9TVU00V1cxMmJYYxAB"
     },
     {
@@ -263,24 +239,24 @@
     ]
   },
   "visit": {
-    "image": "facade"
+    "image": "hall"
   },
   "images": {
     "hero": {
       "file": "hero-dish.jpg",
-      "alt": "صورة طبق أرز مقلي ونودلز ساخن من جولدن جريل هاوس",
+      "alt": "صورة طبق نودلز ساخن من جولدن جريل هاوس",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Golden%20Grill%20House&query_place_id=ChIJSVu-u9n5kT4R9dyyjhN6TWs",
       "credit": "من خرائط Google"
     },
-    "butter": {
-      "file": "butter-chicken.jpg",
-      "alt": "صورة طبق دجاج بالزبدة مع خبز النان",
+    "curry": {
+      "file": "curry-naan.jpg",
+      "alt": "صورة طبق كاري مع خبز النان",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Golden%20Grill%20House&query_place_id=ChIJSVu-u9n5kT4R9dyyjhN6TWs",
       "credit": "من خرائط Google"
     },
     "naan": {
-      "file": "garlic-naan.jpg",
-      "alt": "صورة خبز النان بالثوم مع أطباق المسالا",
+      "file": "naan-masala.jpg",
+      "alt": "صورة خبز النان مع أطباق هندية",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Golden%20Grill%20House&query_place_id=ChIJSVu-u9n5kT4R9dyyjhN6TWs",
       "credit": "من خرائط Google"
     },
@@ -299,12 +275,6 @@
     "hall": {
       "file": "interior.jpg",
       "alt": "صورة صالة الجلوس الداخلية في مطعم جولدن جريل هاوس",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=Golden%20Grill%20House&query_place_id=ChIJSVu-u9n5kT4R9dyyjhN6TWs",
-      "credit": "من خرائط Google"
-    },
-    "facade": {
-      "file": "facade.jpg",
-      "alt": "صورة واجهة مطعم جولدن جريل هاوس في روي",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Golden%20Grill%20House&query_place_id=ChIJSVu-u9n5kT4R9dyyjhN6TWs",
       "credit": "من خرائط Google"
     }
