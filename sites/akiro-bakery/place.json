@@ -4,7 +4,7 @@
   "slug": "akiro-bakery",
   "approved": false,
   "agency": "Amd web",
-  "data_source": "خرائط Google (بيانات Apify)، وأسماء الأصناف من صفحة المحل على طلبات ومن تقييمات الضيوف",
+  "data_source": "خرائط Google (بيانات Apify)، وأسماء الأصناف من قائمة الأكثر مبيعًا على طلبات (نتائج البحث) ومن تقييمات الضيوف",
   "theme": "bakery_cream",
   "layout": {
     "hero": "split",

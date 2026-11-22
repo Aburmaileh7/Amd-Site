@@ -59,3 +59,21 @@
   [data-site="hafsa-beauty-saloon"] .marquee{padding-block:18px}
   [data-site="hafsa-beauty-saloon"] .rev,[data-site="hafsa-beauty-saloon"] .story{padding-top:56px}
 }
+
+/* Round 2 fixes: visit section on solid board maroon, no facade lettering, light ink, clear two columns */
+[data-site="hafsa-beauty-saloon"] .visit{background:#3d0e17;color:#FFF6EF}
+[data-site="hafsa-beauty-saloon"] .visit__bg{display:none!important}
+[data-site="hafsa-beauty-saloon"] .visit__shade{background:#3d0e17!important;opacity:1!important}
+[data-site="hafsa-beauty-saloon"] .visit__inner{position:relative;z-index:2;padding-inline:var(--gutter,20px);padding-block:clamp(72px,10vw,120px)}
+[data-site="hafsa-beauty-saloon"] .visit :is(h2,h3,.visit__title,.eyebrow,dt,dd,li,p,span,strong,address,.muted,.hours *,.contact *,.phone){color:#FFF6EF!important}
+[data-site="hafsa-beauty-saloon"] .visit :is(.eyebrow,.muted,dt,.hours__label,.contact__label){color:rgba(255,246,239,.75)!important}
+[data-site="hafsa-beauty-saloon"] .visit .btn,[data-site="hafsa-beauty-saloon"] .visit .btn--ghost{color:#FFF6EF!important;border:1.5px solid #FFF6EF;background:transparent;min-height:48px}
+[data-site="hafsa-beauty-saloon"] .visit .btn--glow{background:var(--hf-gold);color:#3d0e17!important;border-color:var(--hf-gold)}
+[data-site="hafsa-beauty-saloon"] .visit .photo__badge{position:static;display:inline-block;margin-top:16px;color:rgba(255,246,239,.75)!important}
+@media (min-width:900px){
+  [data-site="hafsa-beauty-saloon"] .visit__cols{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
+  [data-site="hafsa-beauty-saloon"] .visit .contact{display:flex;flex-direction:column;gap:14px;align-items:flex-start}
+}
+/* hero photo: shift crop away from bag strap lettering, tighter top gap */
+[data-site="hafsa-beauty-saloon"] .hero__side img{object-position:50% 35%}
+@media (min-width:900px){[data-site="hafsa-beauty-saloon"] .hero{padding-top:clamp(24px,4vw,56px)}}

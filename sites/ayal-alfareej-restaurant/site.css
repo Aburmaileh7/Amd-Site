@@ -60,3 +60,32 @@
 [data-site="ayal-alfareej-restaurant"] .stat__num span{display:inline-block}
 [data-site="ayal-alfareej-restaurant"] .mentions{gap:10px 28px}
 [data-site="ayal-alfareej-restaurant"] .mentions li + li::before{content:none;display:none}
+
+/* design fix round: hierarchy, badges, shades, spacing */
+[data-site="ayal-alfareej-restaurant"] .menu__title,
+[data-site="ayal-alfareej-restaurant"] .rev__title,
+[data-site="ayal-alfareej-restaurant"] .story__title{font-size:clamp(30px,4.6vw,60px);line-height:1.3}
+[data-site="ayal-alfareej-restaurant"] .menu .photo__badge{inset-inline:auto;right:10px;left:auto;max-width:calc(100% - 20px);white-space:normal;box-sizing:border-box}
+[data-site="ayal-alfareej-restaurant"] .menu .panel-m__visual{position:relative}
+[data-site="ayal-alfareej-restaurant"] .menu .panel-m__visual::after{content:"";position:absolute;inset-inline:0;bottom:0;height:62%;pointer-events:none;z-index:1;
+  background:linear-gradient(to top,rgba(20,12,4,.82),rgba(20,12,4,.35) 55%,transparent)}
+[data-site="ayal-alfareej-restaurant"] .menu .panel-m__caption{position:relative;z-index:2;color:#FFF8EA}
+[data-site="ayal-alfareej-restaurant"] .menu .panel-m__caption *{color:inherit}
+[data-site="ayal-alfareej-restaurant"] .menu .panel-m__visual .photo__badge{z-index:3;top:10px;bottom:auto}
+[data-site="ayal-alfareej-restaurant"] .rev .card{padding-bottom:20px;height:auto;align-self:start}
+[data-site="ayal-alfareej-restaurant"] .rev__rail{align-items:stretch}
+[data-site="ayal-alfareej-restaurant"] .visit__shade{background:linear-gradient(180deg,rgba(20,12,4,.72),rgba(20,12,4,.82))!important;opacity:1}
+[data-site="ayal-alfareej-restaurant"] .visit__bg img{filter:none;opacity:1}
+[data-site="ayal-alfareej-restaurant"] .visit__inner,
+[data-site="ayal-alfareej-restaurant"] .visit__inner .hours,
+[data-site="ayal-alfareej-restaurant"] .visit__inner .contact{color:#FFF8EA}
+[data-site="ayal-alfareej-restaurant"] .visit .photo__badge{top:auto;bottom:10px;inset-inline:auto;left:10px;right:auto}
+[data-site="ayal-alfareej-restaurant"] .story--h .panel{padding-block:clamp(24px,5vh,56px)}
+[data-site="ayal-alfareej-restaurant"] .story--h .story__head{padding-block:clamp(24px,5vh,48px)}
+[data-site="ayal-alfareej-restaurant"] .header-call,
+[data-site="ayal-alfareej-restaurant"] .phone,
+[data-site="ayal-alfareej-restaurant"] .hero__actions .btn{unicode-bidi:isolate}
+@media (max-width:899px){
+  [data-site="ayal-alfareej-restaurant"] .hero .hero__content{padding-top:clamp(20px,6vw,40px)}
+  [data-site="ayal-alfareej-restaurant"] .hero--split{padding-top:0}
+}
