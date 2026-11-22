@@ -43,6 +43,10 @@ html[data-site="alica-bakery-eatery"] .site-header:not(.is-solid) .header-call {
   backdrop-filter: blur(6px);
 }
 
+html[data-site="alica-bakery-eatery"] .site-header:not(.is-solid) .header-call {
+  color: var(--alica-cream-ink) !important;
+}
+
 html[data-site="alica-bakery-eatery"] .site-header.is-solid,
 html[data-site="alica-bakery-eatery"] .site-header.is-solid .brand,
 html[data-site="alica-bakery-eatery"] .site-header.is-solid .nav-menu,
@@ -51,6 +55,10 @@ html[data-site="alica-bakery-eatery"] .site-header.is-solid .nav-btn,
 html[data-site="alica-bakery-eatery"] .site-header.is-solid .header-call {
   color: var(--ink);
   text-shadow: none;
+}
+
+html[data-site="alica-bakery-eatery"] .site-header.is-solid .header-call {
+  color: var(--ink) !important;
 }
 
 /* ─── Hero: Full-bleed morning spread with stronger top & bottom slate scrim ─── */
@@ -141,9 +149,14 @@ html[data-site="alica-bakery-eatery"] .marquee__dot {
 /* ─── Porcelain Double-Rim Photo Framing & Unclipped Badges ─── */
 html[data-site="alica-bakery-eatery"] .photo,
 html[data-site="alica-bakery-eatery"] .panel__media,
-html[data-site="alica-bakery-eatery"] .panel-m__visual,
 html[data-site="alica-bakery-eatery"] .amen__media {
   position: relative;
+}
+
+html[data-site="alica-bakery-eatery"] .photo,
+html[data-site="alica-bakery-eatery"] .panel__media,
+html[data-site="alica-bakery-eatery"] .panel-m__visual,
+html[data-site="alica-bakery-eatery"] .amen__media {
   border: 1px solid var(--alica-rim);
   outline: 1px solid var(--alica-rim-soft);
   outline-offset: 4px;
@@ -167,6 +180,14 @@ html[data-site="alica-bakery-eatery"] .photo__badge {
   line-height: 1.4;
   white-space: normal;
   box-shadow: 0 2px 8px rgba(14, 34, 46, 0.2);
+}
+
+html[data-site="alica-bakery-eatery"] .hero--full .photo__badge {
+  top: auto;
+  inset-block-start: auto;
+  inset-block-end: 20px;
+  inset-inline-end: 16px;
+  inset-inline-start: auto;
 }
 
 /* ─── Story Stack: Generous rhythm & porcelain time badges ─── */
@@ -372,6 +393,10 @@ html[data-site="alica-bakery-eatery"] section.visit#visit .btn--ghost:hover {
   html[data-site="alica-bakery-eatery"] .panel-m__visual,
   html[data-site="alica-bakery-eatery"] .amen__media {
     outline-offset: 2px;
+  }
+
+  html[data-site="alica-bakery-eatery"] .hero--full .photo__badge {
+    inset-block-end: 72px;
   }
 
   html[data-site="alica-bakery-eatery"] section.menu .tabs {
