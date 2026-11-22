@@ -1,0 +1,322 @@
+{
+  "place_id": "ChIJB36KXABDXz4R1G-1e9L98jY",
+  "batch_id": "amd-gulf-20261122",
+  "slug": "alica-bakery-eatery",
+  "theme": "bakery_cream",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#184E68",
+    "rgb": "24, 78, 104",
+    "hover": "#113B4F",
+    "ink": "#FFFFFF"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "name": "ALICA Bakery / Eatery",
+  "name_lang": "en",
+  "category_label": "مخبز ومطعم إفطار",
+  "area": "بورت دي لا مير، جميرا الأولى، دبي",
+  "address": "La Cote 2، شارع 2A PDLM، جميرا الأولى، دبي",
+  "phone": {
+    "display": "+971 4 337 8948",
+    "tel": "+97143378948"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=ALICA%20Bakery%20%2F%20Eatery&query_place_id=ChIJB36KXABDXz4R1G-1e9L98jY",
+  "map_query": "ALICA Bakery / Eatery, Port de La Mer, Jumeirah 1, Dubai",
+  "rating": {
+    "value": 4.5,
+    "count": 1013,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "مخبوزات طازجة وإفطار هادئ في جميرا الأولى",
+    "intro": "في بورت دي لا مير بجميرا، يقدّم ALICA المخبوزات الطازجة وأطباق الإفطار والقهوة، مع جلسات داخلية وخارجية مناسبة للعائلات وإطلالة على المرسى.",
+    "image": "hero"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "reviews",
+    "menu",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "title": "تفاصيل يذكرها الزوار",
+    "items": [
+      {
+        "label": "الفطور الساخن",
+        "title": "أطباق البيض والفطور",
+        "text": "يشيد الزوار بأطباق البيض مثل البيض المطوي بزيت الفلفل والبيض المخفوق، إلى جانب تارتين ALICA وصينية الصباح وتوست الجبن المشوي.",
+        "image": "eggs",
+        "time": "08:00 ص"
+      },
+      {
+        "label": "الفرن اليومي",
+        "title": "مخبوزات طازجة",
+        "text": "تلفت واجهة العرض أنظار الضيوف بتشكيلة المخبوزات الطازجة، ومن أكثر ما يذكره الروّاد لفافة القرفة ولفافة الهيل والكرواسان.",
+        "image": "pastry",
+        "time": "طازج يومياً"
+      },
+      {
+        "label": "ركن القهوة",
+        "title": "القهوة والمشروبات",
+        "text": "ترافق القهوة أطباق الإفطار من الإسبريسو والأمريكانو والفلات وايت، مع مشروب الزنجبيل الذي يقدّم ساخناً أو بارداً حسب الرغبة.",
+        "image": "coffee",
+        "time": "ساخن وبارد"
+      },
+      {
+        "label": "جلسات المرسى",
+        "title": "أجواء دافئة ومناسبة للعائلات",
+        "text": "يمتاز المكان باستقبال لطيف وأجواء مريحة تناسب العائلات والأطفال، مع جلسات داخلية وأخرى خارجية مظللة تطل على مرسى بورت دي لا مير.",
+        "image": "terrace",
+        "time": "حتى 08:00 م"
+      }
+    ]
+  },
+  "marquee": {
+    "label": "من اختيارات المكان",
+    "items": [
+      "تارتين ALICA",
+      "البيض المطوي بزيت الفلفل",
+      "لفافة الهيل",
+      "لفافة القرفة",
+      "صينية الصباح",
+      "جلسات على مرسى بورت دي لا مير"
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "sample": false,
+    "note": "الأسعار من صفحة المحل على طلبات وديليفرو ولافتات واجهة العرض في المحل",
+    "currency": "د.إ",
+    "foot": "تتوفر تشكيلة المخبوزات والأطباق طوال ساعات العمل حسب الإعداد اليومي.",
+    "categories": [
+      {
+        "id": "bakery",
+        "title": "المخبوزات والحلويات",
+        "tagline": "مخبوزات الصباح الطازجة من واجهة العرض اليومية",
+        "image": "pastry",
+        "items": [
+          {
+            "name": "Plain Croissant",
+            "price": 19
+          },
+          {
+            "name": "Pain Au Chocolat",
+            "price": 23
+          },
+          {
+            "name": "Cardamom Bun",
+            "price": 25,
+            "mentioned": true
+          },
+          {
+            "name": "Lemon Pound Cake",
+            "price": 28
+          },
+          {
+            "name": "Cinnamon Bun",
+            "price": 32,
+            "mentioned": true
+          },
+          {
+            "name": "Almond Croissant",
+            "price": 36
+          }
+        ]
+      },
+      {
+        "id": "breakfast",
+        "title": "الإفطار والأطباق",
+        "tagline": "أطباق البيض والتارتين المحضّرة على خبز الساوردو",
+        "image": "eggs",
+        "items": [
+          {
+            "name": "Folded Eggs",
+            "desc": "with chili & herbs",
+            "price": 69,
+            "mentioned": true
+          },
+          {
+            "name": "The Morning Tray",
+            "price": 75,
+            "mentioned": true
+          },
+          {
+            "name": "Alica Tartine",
+            "desc": "Alica pesto, grilled eggplant, mushroom, semi-dried tomatoes, emmental, parmesan, and leek",
+            "price": 80,
+            "mentioned": true
+          },
+          {
+            "name": "Sourdough Waffle",
+            "desc": "served with seasonal jam and Basque spread",
+            "price": 70
+          },
+          {
+            "name": "Granola & Yogurt",
+            "price": 65
+          },
+          {
+            "name": "Mama Berta's Meat Ragu",
+            "price": 65
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "القهوة والمشروبات",
+        "tagline": "قهوة مختصة ومشروبات ساخنة وباردة",
+        "image": "coffee",
+        "items": [
+          {
+            "name": "Espresso",
+            "price": 20
+          },
+          {
+            "name": "Piccolo",
+            "price": 26
+          },
+          {
+            "name": "Flat White",
+            "price": 28
+          },
+          {
+            "name": "Salted Honey Latte",
+            "desc": "Double espresso shaken with honey and Maldon salt, layered over ice and milk",
+            "price": 35
+          },
+          {
+            "name": "Honeycomb Matcha",
+            "desc": "Matcha with creamy milk, salted vanilla cream, honeycomb pieces, and golden honey",
+            "price": 45
+          }
+        ]
+      }
+    ],
+    "title": "قائمة المخبوزات والإفطار"
+  },
+  "mentions": [],
+  "reviews": [
+    {
+      "author": "Zeaila A.",
+      "stars": 5,
+      "text": "⭐⭐⭐⭐⭐ What a wonderful breakfast experience at Alica’s Bakery! I ordered the tornado eggs with chili oil, and I have to say, it was genuinely one of the most delicious combinations of flavors I’ve ever had with eggs! Absolutely delicious, beautifully balanced, and definitely…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2s1SFdXNHhRbWRtVlhGT2JYWnplaTFZTm1WallWRRAB"
+    },
+    {
+      "author": "SMR",
+      "stars": 5,
+      "text": "Was pleasantly surprised by Alica Bakery. The atmosphere is warm and inviting, with a vibe that immediately makes you want to stay a little longer. The display of freshly baked goods is not only beautiful but genuinely tempting, and everything looks as good as it tastes. We…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xGWlZYTmlSMFJMZEVkWlprMXRaWEpSTkMxMFpFRRAB"
+    },
+    {
+      "author": "Fork &.",
+      "stars": 5,
+      "text": "Had such a lovely breakfast at ALICA 🤍 Everything was genuinely so good — especially the chili folded eggs (not spicy at all), the grilled cheese, and the cinnamon roll. The coffee was great, and I loved that the ginger shot comes hot or cold depending on your preference. The…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2pScFFtSnVXbWhwTW5BMlRraExWbXRPU1doWWEyYxAB"
+    },
+    {
+      "author": "A",
+      "stars": 5,
+      "text": "Had such a lovely experience at Alica Bakery this morning. The staff was very welcoming and sweet. The place was also very family and kid friendly. I tried the scrambled eggs and loved them, their Americano is also great. I would definitely recommend the restaurant, especially…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2tST2NtRjNaemRIZDBFMGMweHhUakJ3ZWxSSVpsRRAB"
+    },
+    {
+      "author": "Salama A.",
+      "stars": 5,
+      "text": "We really loved this place so cozy and comfortable, with every detail thoughtfully done. We ordered the ALICA Tartine, The Morning Tray, and the Cardamom Bun. Everything was delicious and fresh, and the coffee was excellent too. Definitely coming back 🤍 …",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2tWdU0zbzRWR0Z1ZVV0U2R6Sldiekl5TVdwWGRHYxAB"
+    }
+  ],
+  "amenities": {
+    "title": "تفاصيل المكان والخدمات",
+    "image": "terrace",
+    "items": [
+      {
+        "icon": "sky",
+        "title": "جلسات على المرسى",
+        "text": "جلسات داخلية هادئة وأخرى خارجية مظللة تطل على مرسى بورت دي لا مير."
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للعائلات والأطفال",
+        "text": "استقبال لطيف وأجواء مريحة تلائم إفطار العائلات والأطفال."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مهيأة",
+        "text": "مواقف سيارات ميسّرة الوصول لمستخدمي الكراسي المتحركة."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل ومرافق مهيأة",
+        "text": "مدخل ومرافق صحية مهيأة لسهولة الوصول للجميع."
+      }
+    ]
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "الإثنين – الخميس",
+        "time": "8:00 ص – 7:00 م"
+      },
+      {
+        "days": "الجمعة – الأحد",
+        "time": "8:00 ص – 8:00 م"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "visit": {
+    "image": "storefront",
+    "title": "الموقع وساعات العمل"
+  },
+  "images": {
+    "hero": {
+      "file": "hero-breakfast.jpg",
+      "alt": "صورة طاولة إفطار متنوعة في ALICA تضم البيض وخبز الساوردو",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=ALICA%20Bakery%20%2F%20Eatery&query_place_id=ChIJB36KXABDXz4R1G-1e9L98jY",
+      "credit": "من خرائط Google"
+    },
+    "eggs": {
+      "file": "folded-eggs.jpg",
+      "alt": "صورة طبق البيض المطوي بزيت الفلفل مع شرائح الساوردو",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=ALICA%20Bakery%20%2F%20Eatery&query_place_id=ChIJB36KXABDXz4R1G-1e9L98jY",
+      "credit": "من خرائط Google"
+    },
+    "pastry": {
+      "file": "pastry-display.jpg",
+      "alt": "صورة واجهة المخبوزات الطازجة والكرواسان ولفائف الهيل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=ALICA%20Bakery%20%2F%20Eatery&query_place_id=ChIJB36KXABDXz4R1G-1e9L98jY",
+      "credit": "من خرائط Google"
+    },
+    "coffee": {
+      "file": "marina-coffee.jpg",
+      "alt": "صورة فنجان قهوة لاتيه على الطاولة الخارجية أمام المرسى",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=ALICA%20Bakery%20%2F%20Eatery&query_place_id=ChIJB36KXABDXz4R1G-1e9L98jY",
+      "credit": "من خرائط Google"
+    },
+    "terrace": {
+      "file": "terrace-seating.jpg",
+      "alt": "صورة الجلسات الخارجية المظللة بإطلالة على مرسى اليخوت",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=ALICA%20Bakery%20%2F%20Eatery&query_place_id=ChIJB36KXABDXz4R1G-1e9L98jY",
+      "credit": "من خرائط Google"
+    },
+    "storefront": {
+      "file": "storefront.jpg",
+      "alt": "صورة واجهة مخبز ومطعم ALICA ومدخله في بورت دي لا مير",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=ALICA%20Bakery%20%2F%20Eatery&query_place_id=ChIJB36KXABDXz4R1G-1e9L98jY",
+      "credit": "من خرائط Google"
+    }
+  }
+}
