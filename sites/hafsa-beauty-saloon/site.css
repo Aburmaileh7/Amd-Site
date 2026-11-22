@@ -97,3 +97,5 @@
 [data-site="hafsa-beauty-saloon"] .story,[data-site="hafsa-beauty-saloon"] .story__track,[data-site="hafsa-beauty-saloon"] .panel{min-height:0}
 [data-site="hafsa-beauty-saloon"] .panel:last-child,[data-site="hafsa-beauty-saloon"] .panel__text{padding-bottom:0;margin-bottom:0}
 @media (max-width:899px){[data-site="hafsa-beauty-saloon"] .story .panel{margin-bottom:28px}[data-site="hafsa-beauty-saloon"] .hero__side img{image-rendering:auto}}
+/* Round 4: force solid maroon on the plain visit section (no visit image) */
+[data-site="hafsa-beauty-saloon"] section.visit.visit--plain,[data-site="hafsa-beauty-saloon"] section.visit#visit{background:#3d0e17!important;background-image:none!important;color:#FFF6EF}
