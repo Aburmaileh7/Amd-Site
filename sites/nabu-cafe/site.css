@@ -70,8 +70,21 @@ html[data-site="nabu-cafe"] .item__badge{background:var(--ochre);color:#1A1206;b
 html[data-site="nabu-cafe"] .mentions li{border-color:rgba(217,151,58,.45)}
 html[data-site="nabu-cafe"] .stat__num{color:var(--ochre)}
 html[data-site="nabu-cafe"] .proof{border-top:0;background:var(--surface)}
-html[data-site="nabu-cafe"] .visit__shade{background:linear-gradient(180deg,var(--bg) 0%,rgba(14,22,48,.8) 30%,rgba(14,22,48,.88) 70%,var(--bg) 100%)}
+html[data-site="nabu-cafe"] .visit__shade{background:linear-gradient(180deg,var(--bg) 0%,rgba(21,32,74,.62) 22%,rgba(21,32,74,.7) 78%,var(--bg) 100%)}
+html[data-site="nabu-cafe"] .visit__bg img{filter:brightness(1.25) saturate(1.05)}
+html[data-site="nabu-cafe"] .visit__badge{position:absolute;top:auto;bottom:clamp(16px,3vw,32px);inset-inline:auto;inset-inline-end:clamp(16px,3vw,32px);z-index:1}
+
+/* hero: keep the «نابو» sign in frame */
+html[data-site="nabu-cafe"] .hero__media img{object-position:50% 0%!important}
+html[data-site="nabu-cafe"] .hero__media{inset:0!important}
+/* backing so nav links and the ochre eyebrow clear 4.5:1 over the photo */
+html[data-site="nabu-cafe"] .site-header nav a,html[data-site="nabu-cafe"] .site-header .nav-btn{color:#F2EBDD!important;background:rgba(14,22,48,.82)!important;padding:10px 16px!important;border-radius:999px;min-height:44px;display:inline-flex;align-items:center}
+html[data-site="nabu-cafe"] .hero .eyebrow{display:block;width:fit-content;background:rgba(14,22,48,.88);color:#F0B25A;padding:6px 14px;border-radius:6px}
 
 @media (max-width:700px){
   html[data-site="nabu-cafe"]{--brick-h:16px;--brick-w:46px}
+}
+@media (max-width:700px){
+  html[data-site="nabu-cafe"] .site-header nav a,html[data-site="nabu-cafe"] .site-header .nav-btn{padding:10px 12px!important;white-space:nowrap;font-size:.9rem}
+  html[data-site="nabu-cafe"] .site-header nav{gap:6px}
 }
