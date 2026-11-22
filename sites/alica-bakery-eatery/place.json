@@ -23,7 +23,7 @@
   "name_lang": "en",
   "category_label": "مخبز ومطعم إفطار",
   "area": "بورت دي لا مير، جميرا الأولى، دبي",
-  "address": "La Cote 2، شارع 2A PDLM، جميرا الأولى، دبي",
+  "address": "⁦La Cote 2⁩، شارع ⁦2A PDLM⁩، جميرا الأولى، دبي",
   "phone": {
     "display": "+971 4 337 8948",
     "tel": "+97143378948"
@@ -70,14 +70,14 @@
         "label": "ركن القهوة",
         "title": "القهوة والمشروبات",
         "text": "ترافق القهوة أطباق الإفطار من الإسبريسو والأمريكانو والفلات وايت، مع مشروب الزنجبيل الذي يقدّم ساخناً أو بارداً حسب الرغبة.",
-        "image": "coffee",
+        "image": "latte",
         "time": "ساخن وبارد"
       },
       {
-        "label": "جلسات المرسى",
+        "label": "أجواء الصالة",
         "title": "أجواء دافئة ومناسبة للعائلات",
         "text": "يمتاز المكان باستقبال لطيف وأجواء مريحة تناسب العائلات والأطفال، مع جلسات داخلية وأخرى خارجية مظللة تطل على مرسى بورت دي لا مير.",
-        "image": "terrace",
+        "image": "interior",
         "time": "حتى 08:00 م"
       }
     ]
@@ -96,7 +96,7 @@
   "menu": {
     "kind": "menu",
     "sample": false,
-    "note": "الأسعار من صفحة المحل على طلبات وديليفرو ولافتات واجهة العرض في المحل",
+    "note": "الأسعار من لافتة واجهة العرض في المحل (خرائط Google) وصفحته على طلبات وديليفرو",
     "currency": "د.إ",
     "foot": "تتوفر تشكيلة المخبوزات والأطباق طوال ساعات العمل حسب الإعداد اليومي.",
     "categories": [
@@ -104,33 +104,39 @@
         "id": "bakery",
         "title": "المخبوزات والحلويات",
         "tagline": "مخبوزات الصباح الطازجة من واجهة العرض اليومية",
-        "image": "pastry",
+        "image": "counter",
         "items": [
           {
             "name": "Plain Croissant",
+            "desc": "كرواسان سادة",
             "price": 19
           },
           {
             "name": "Pain Au Chocolat",
+            "desc": "بان أو شوكولا — معجنات بالشوكولاتة",
             "price": 23
           },
           {
             "name": "Cardamom Bun",
+            "desc": "لفافة الهيل — لفافة مخبوزة بالهيل",
             "price": 25,
             "mentioned": true
           },
           {
             "name": "Lemon Pound Cake",
+            "desc": "كيك الليمون — باوند كيك بالليمون",
             "price": 28
           },
           {
             "name": "Cinnamon Bun",
-            "price": 32,
+            "desc": "لفافة القرفة — لفافة مخبوزة بالقرفة",
+            "price": 25,
             "mentioned": true
           },
           {
             "name": "Almond Croissant",
-            "price": 36
+            "desc": "كرواسان اللوز — كرواسان باللوز",
+            "price": 26
           }
         ]
       },
@@ -138,36 +144,39 @@
         "id": "breakfast",
         "title": "الإفطار والأطباق",
         "tagline": "أطباق البيض والتارتين المحضّرة على خبز الساوردو",
-        "image": "eggs",
+        "image": "chili_eggs",
         "items": [
           {
             "name": "Folded Eggs",
-            "desc": "with chili & herbs",
+            "desc": "البيض المطوي — بيض مطوي مع الفلفل والأعشاب",
             "price": 69,
             "mentioned": true
           },
           {
             "name": "The Morning Tray",
+            "desc": "صينية الصباح — صينية إفطار الصباح",
             "price": 75,
             "mentioned": true
           },
           {
             "name": "Alica Tartine",
-            "desc": "Alica pesto, grilled eggplant, mushroom, semi-dried tomatoes, emmental, parmesan, and leek",
+            "desc": "تارتين ALICA — بيستو ALICA، باذنجان مشوي، فطر، طماطم شبه مجففة، جبن إيمنتال وبارميزان، وكراث",
             "price": 80,
             "mentioned": true
           },
           {
             "name": "Sourdough Waffle",
-            "desc": "served with seasonal jam and Basque spread",
+            "desc": "وافل الساوردو — وافل الساوردو مع المربى الموسمي وكريمة الباسك",
             "price": 70
           },
           {
             "name": "Granola & Yogurt",
+            "desc": "غرانولا وزبادي — غرانولا مع الزبادي",
             "price": 65
           },
           {
             "name": "Mama Berta's Meat Ragu",
+            "desc": "راغو اللحم على طريقة ماما بيرتا",
             "price": 65
           }
         ]
@@ -180,24 +189,27 @@
         "items": [
           {
             "name": "Espresso",
+            "desc": "إسبريسو — قهوة إسبريسو",
             "price": 20
           },
           {
             "name": "Piccolo",
+            "desc": "بيكولو — قهوة بيكولو",
             "price": 26
           },
           {
             "name": "Flat White",
+            "desc": "فلات وايت — قهوة فلات وايت",
             "price": 28
           },
           {
             "name": "Salted Honey Latte",
-            "desc": "Double espresso shaken with honey and Maldon salt, layered over ice and milk",
+            "desc": "لاتيه العسل المملح — دبل إسبريسو مخفوق مع العسل وملح مالدون فوق الثلج والحليب",
             "price": 35
           },
           {
             "name": "Honeycomb Matcha",
-            "desc": "Matcha with creamy milk, salted vanilla cream, honeycomb pieces, and golden honey",
+            "desc": "ماتشا قرص العسل — ماتشا مع حليب كريمي، كريمة الفانيليا المملحة، قطع قرص العسل، والعسل الذهبي",
             "price": 45
           }
         ]
@@ -205,12 +217,23 @@
     ],
     "title": "قائمة المخبوزات والإفطار"
   },
-  "mentions": [],
+  "mentions": [
+    "بيض تورنادو",
+    "بيض مطوي بالفلفل",
+    "توست الجبن المشوي",
+    "لفافة القرفة",
+    "مشروب الزنجبيل",
+    "بيض مخفوق",
+    "أمريكانو",
+    "تارتين ALICA",
+    "صينية الصباح",
+    "لفافة الهيل"
+  ],
   "reviews": [
     {
       "author": "Zeaila A.",
       "stars": 5,
-      "text": "⭐⭐⭐⭐⭐ What a wonderful breakfast experience at Alica’s Bakery! I ordered the tornado eggs with chili oil, and I have to say, it was genuinely one of the most delicious combinations of flavors I’ve ever had with eggs! Absolutely delicious, beautifully balanced, and definitely…",
+      "text": "What a wonderful breakfast experience at Alica’s Bakery! I ordered the tornado eggs with chili oil, and I have to say, it was genuinely one of the most delicious combinations of flavors I’ve ever had with eggs! Absolutely delicious, beautifully balanced, and definitely…",
       "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2s1SFdXNHhRbWRtVlhGT2JYWnplaTFZTm1WallWRRAB"
     },
     {
@@ -297,6 +320,30 @@
     "pastry": {
       "file": "pastry-display.jpg",
       "alt": "صورة واجهة المخبوزات الطازجة والكرواسان ولفائف الهيل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=ALICA%20Bakery%20%2F%20Eatery&query_place_id=ChIJB36KXABDXz4R1G-1e9L98jY",
+      "credit": "من خرائط Google"
+    },
+    "latte": {
+      "file": "alica-latte.jpg",
+      "alt": "صورة فنجان قهوة لاتيه على قائمة ALICA مع لفائف القرفة والهيل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=ALICA%20Bakery%20%2F%20Eatery&query_place_id=ChIJB36KXABDXz4R1G-1e9L98jY",
+      "credit": "من خرائط Google"
+    },
+    "interior": {
+      "file": "interior-seating.jpg",
+      "alt": "صورة الصالة الداخلية والطاولات الخشبية والإضاءة الدافئة في ALICA",
+      "source_url": "https://moqa.ae/venue/alica-bakery",
+      "credit": "من دليل Moqa"
+    },
+    "counter": {
+      "file": "bakery-counter.jpg",
+      "alt": "صورة واجهة العرض الزجاجية للمخبوزات والكرواسان في ALICA",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=ALICA%20Bakery%20%2F%20Eatery&query_place_id=ChIJB36KXABDXz4R1G-1e9L98jY",
+      "credit": "من خرائط Google"
+    },
+    "chili_eggs": {
+      "file": "chili-eggs-plate.jpg",
+      "alt": "صورة طبق البيض المطوي بزيت الفلفل والسلطة الخضراء وخبز الساوردو",
       "source_url": "https://www.google.com/maps/search/?api=1&query=ALICA%20Bakery%20%2F%20Eatery&query_place_id=ChIJB36KXABDXz4R1G-1e9L98jY",
       "credit": "من خرائط Google"
     },
