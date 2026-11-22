@@ -1,0 +1,297 @@
+{
+  "place_id": "ChIJzWtWhy3_kT4RrFi74K_H7u4",
+  "batch_id": "amd-gulf-20261121",
+  "slug": "nabu-cafe",
+  "theme": "gulf_luxe",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google (العنوان والهاتف والساعات والتقييم والمراجعات والصور والمرافق) وصفحة المحل على Qfood للأسعار",
+  "layout": {
+    "hero": "full",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#D9973A",
+    "rgb": "217, 151, 58",
+    "hover": "#E6AA52",
+    "ink": "#1A1206"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "name": "Nabu Cafe",
+  "name_lang": "en",
+  "category_label": "مقهى ومطبخ عراقي",
+  "area": "مدينة السلطان قابوس، مسقط",
+  "address": "شارع البشائر، مدينة السلطان قابوس، مسقط",
+  "phone": {
+    "display": "+968 7743 4328",
+    "tel": "+96877434328"
+  },
+  "whatsapp": null,
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Nabu%20Cafe&query_place_id=ChIJzWtWhy3_kT4RrFi74K_H7u4",
+  "map_query": "Nabu Cafe, Al Bashair St, Muscat, Oman",
+  "rating": {
+    "value": 4.8,
+    "count": 344,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "فطور ومعجنات وشاي عراقي في مدينة السلطان قابوس",
+    "intro": "نابو كافيه في مسقط يقدّم أكلًا عراقيًا وفطورًا وبرنش، مع مشروبات وحلويات يذكرها الزوار، وأجواء هادئة ودافئة في شارع البشائر.",
+    "image": "hero"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "marquee",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "title": "ما يكرره الزوار عن نابو",
+    "items": [
+      {
+        "label": "المطبخ",
+        "title": "أكل عراقي بنكهة واضحة",
+        "text": "يذكر الزوار المقلوبة وأنها متبلة جيدًا، والأكل العراقي اللذيذ بسعر مناسب. وفي القائمة مناقيش زعتر وسلطة ستيك.",
+        "image": "manakish",
+        "time": "7:00"
+      },
+      {
+        "label": "المشروبات",
+        "title": "مشروبات تستحق الطلب",
+        "text": "رشّح زائر ليمون أورب وماتشا ناتي، ووصفهما بأنهما محضّران بإتقان. وفي الصور شاي يُصبّ في كاسات وقهوة بنقش ورقي.",
+        "image": "tea"
+      },
+      {
+        "label": "الحلويات",
+        "title": "حلويات ومعجنات للجلسة الثانية",
+        "text": "كعكة الجوز وساندويتش آيس كريم الطحينة من أكثر ما أثنت عليه الزائرة، وزارت المقهى مرتين خلال إقامتها في مسقط.",
+        "image": "latte"
+      },
+      {
+        "label": "الاستقبال",
+        "title": "استقبال من أصحاب المكان",
+        "text": "كتب الزوار أن أصحاب المكان لطفاء ويمرّون على الطاولات للاطمئنان، وأن الفريق ودود ومتعاون.",
+        "image": "eggs"
+      },
+      {
+        "label": "الجلسة",
+        "title": "أجواء هادئة وجلسة مريحة",
+        "text": "يصف الزوار الأجواء بأنها جميلة ومرحّبة مع موسيقى خلفية لطيفة. وتذكر خرائط Google جلسة خارجية ومكانًا هادئًا يناسب العمل على اللابتوب.",
+        "image": "interior"
+      }
+    ]
+  },
+  "marquee": {
+    "label": "من نابو",
+    "items": [
+      "مناقيش زعتر",
+      "مقلوبة",
+      "ليمون أورب",
+      "ماتشا ناتي",
+      "شاي عراقي",
+      "مدينة السلطان قابوس"
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "title": "من القائمة",
+    "currency": "ر.ع",
+    "sample": false,
+    "note": "الأسعار من قائمة المحل على Qfood، وقد تكون قديمة. تحقق منها قبل النشر.",
+    "categories": [
+      {
+        "id": "salads",
+        "title": "سلطات ومعكرونة",
+        "items": [
+          {
+            "name": "Steak salad",
+            "desc": "سلطة ستيك",
+            "price": 5,
+            "mentioned": true
+          },
+          {
+            "name": "Alfredo Pasta",
+            "desc": "معكرونة ألفريدو",
+            "price": 4
+          }
+        ]
+      },
+      {
+        "id": "manakish",
+        "title": "مناقيش",
+        "items": [
+          {
+            "name": "manakish zaatar",
+            "desc": "مناقيش زعتر",
+            "price": 2,
+            "mentioned": true
+          }
+        ],
+        "image": "manakish"
+      },
+      {
+        "id": "coffee",
+        "title": "قهوة",
+        "items": [
+          {
+            "name": "Cappuccino",
+            "desc": "كابتشينو",
+            "price": 1
+          },
+          {
+            "name": "turkish coffee",
+            "desc": "قهوة تركية",
+            "price": 2
+          }
+        ],
+        "image": "latte"
+      }
+    ]
+  },
+  "mentions": [
+    "مقلوبة",
+    "مناقيش زعتر",
+    "كاهي وقيمر",
+    "شاي عراقي",
+    "ليمون أورب",
+    "ماتشا ناتي",
+    "نابو كولادا",
+    "كعكة الجوز",
+    "تشيز كيك البقلاوة",
+    "ساندويتش آيس كريم الطحينة",
+    "أومليت التمر",
+    "سلطة ستيك",
+    "فرنش توست",
+    "مخلمة"
+  ],
+  "reviews": [
+    {
+      "author": "Magdalena N.",
+      "stars": 5,
+      "text": "Nabu is an absolute gem. The food is extraordinary—the kind that makes you close your eyes and savor every single bite. That’s exactly what I found myself doing, again and again. The owners are amazingly sweet and welcoming, which makes the experience even more special. My…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT205TFlsSnJUMkZIYTNBelJXMU5NVmhyVFRSUVFuYxAB"
+    },
+    {
+      "author": "Daniel P.",
+      "stars": 5,
+      "text": "We had a fantastic experience at Nabu Cafe for a brunch for two, and it easily earns a high rating. The absolute highlight were the drinks - we were seriously impressed. If you go, you absolutely have to try the Lemon Orb and the Matcha Nutty; both were expertly crafted. The…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT21sT2NVbFpUVlEwWjNKaU5XRlBXamxXVG0xVWNuYxAB"
+    },
+    {
+      "author": "Alison D.",
+      "stars": 5,
+      "text": "Nabu is a lovely café! We visited twice during our stay in Muscat. We highly recommend the pastries—walnut cake is divine and so is the tahini ice cream sandwich! You will love the elegantly welcoming atmosphere here.",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xGNWNGRjFNUzB5WWtwNmJuRjJYekF4T0hkclVFRRAB"
+    },
+    {
+      "author": "Fatma L.",
+      "stars": 5,
+      "text": "Their maqlooba is very very very delicious!!! It’s so flavorful and well seasoned. I think the owner or manager came to check up on us to make sure everything was okay or if we needed anything. That was very kind and humble of her. The staff are friendly and accommodating . I…",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25sM2JXdFFaa00zU2pCdk1VMXBialpKT1ZoNVlWRRAB"
+    },
+    {
+      "author": "Samer A.",
+      "stars": 5,
+      "text": "Great place , delicious Iraqi food, very nice service , prices really ok, nice background music",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2t0SU1YbGtjMVpyV0RCblNqTlljblYzUTBObmJYYxAB"
+    },
+    {
+      "author": "Hali I.",
+      "stars": 5,
+      "text": "Welcoming and beautiful atmosphere, great food and drinks. Would definitely visit again!",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2pRME9FSlJkWFJPU2trNVQyNXNOelIzWlRoS1kzYxAB"
+    }
+  ],
+  "amenities": {
+    "title": "ما يتوفر في نابو",
+    "image": "eggs",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "من 7 صباحًا كل يوم",
+        "text": "يفتح يوميًا من السابعة صباحًا حتى الحادية عشرة ليلًا، للفطور والبرنش والغداء والعشاء."
+      },
+      {
+        "icon": "tree",
+        "title": "جلسة خارجية",
+        "text": "جلوس داخلي وخارجي مع خدمة على الطاولة، وطلبات سفري."
+      },
+      {
+        "icon": "coffee",
+        "title": "هادئ ومناسب للعمل",
+        "text": "مكان هادئ ودافئ يناسب العمل على اللابتوب."
+      },
+      {
+        "icon": "calendar",
+        "title": "الحجز متاح",
+        "text": "يقبل المقهى الحجوزات، ومناسب للعائلات مع الأطفال."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مجانية",
+        "text": "مواقف مجانية في الموقف وعلى الشارع."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة والجوال",
+        "text": "بطاقات الائتمان والخصم والدفع اللاتلامسي بالجوال."
+      }
+    ]
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "يوميًا",
+        "time": "7 ص – 11 م"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "visit": {
+    "title": "زورونا في شارع البشائر",
+    "image": "tea"
+  },
+  "images": {
+    "hero": {
+      "file": "interior-wide.jpg",
+      "alt": "صورة داخلية لمقهى نابو بإضاءة دافئة وطاولات خشبية",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Nabu%20Cafe&query_place_id=ChIJzWtWhy3_kT4RrFi74K_H7u4",
+      "credit": "من خرائط Google"
+    },
+    "interior": {
+      "file": "interior-wide.jpg",
+      "alt": "صورة داخلية لمقهى نابو بإضاءة دافئة وطاولات خشبية",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Nabu%20Cafe&query_place_id=ChIJzWtWhy3_kT4RrFi74K_H7u4",
+      "credit": "من خرائط Google"
+    },
+    "manakish": {
+      "file": "manakish-plate.jpg",
+      "alt": "صورة مناقيش مع زعتر على طبق من المقهى",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Nabu%20Cafe&query_place_id=ChIJzWtWhy3_kT4RrFi74K_H7u4",
+      "credit": "من خرائط Google"
+    },
+    "tea": {
+      "file": "tea-pour.jpg",
+      "alt": "صورة صب الشاي في كاس من المقهى",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Nabu%20Cafe&query_place_id=ChIJzWtWhy3_kT4RrFi74K_H7u4",
+      "credit": "من خرائط Google"
+    },
+    "latte": {
+      "file": "latte-art.jpg",
+      "alt": "صورة قهوة بنقش ورقي في فنجان من المقهى",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Nabu%20Cafe&query_place_id=ChIJzWtWhy3_kT4RrFi74K_H7u4",
+      "credit": "من خرائط Google"
+    },
+    "eggs": {
+      "file": "eggs-plate.jpg",
+      "alt": "صورة طبق بيض من مطبخ المقهى",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Nabu%20Cafe&query_place_id=ChIJzWtWhy3_kT4RrFi74K_H7u4",
+      "credit": "من خرائط Google"
+    }
+  }
+}
