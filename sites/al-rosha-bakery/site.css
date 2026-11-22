@@ -1,0 +1,157 @@
+/* Al Rosha Bakery, Mutrah: the pale-yellow shop wall, the navy lit sign, and the black price board
+   pinned to the pillar. Signature: the menu IS that board — white type on black, framed header,
+   prices in baisa-precision figures, set on a yellow "pillar" field. */
+html[data-site="al-rosha-bakery"] {
+  --bg: #FAF4DC; --bg-rgb: 250, 244, 220;
+  --surface: #F3E7B9; --surface-2: #E9D896;
+  --ink: #1D1A14; --ink-rgb: 29, 26, 20;
+  --muted: #5A5240;
+  --line: rgba(29, 26, 20, .14);
+  --ro-board: #121212;
+  --ro-chalk: #F7F5EE;
+  --ro-chalk-dim: rgba(247, 245, 238, .62);
+  --ro-wall: #F1DE92;
+  --ro-navy: #22305E;
+}
+
+/* ---------- Hero: the name sits on a navy plate like the shop's sign ---------- */
+html[data-site="al-rosha-bakery"] .hero__title > [data-line] > span {
+  display: inline-block;
+  background: var(--ro-navy);
+  color: #FFFFFF;
+  padding: .08em .32em .14em;
+  border-radius: 4px;
+  line-height: 1.3;
+}
+html[data-site="al-rosha-bakery"] .hero__headline { color: var(--ink); }
+
+/* ---------- Signature: the price board ---------- */
+html[data-site="al-rosha-bakery"] .menu {
+  background: var(--ro-wall);
+  border-top: 0;
+}
+html[data-site="al-rosha-bakery"] .menu__title { color: var(--ink); }
+html[data-site="al-rosha-bakery"] .menu__sample {
+  border: 0;
+  background: rgba(255, 255, 255, .55);
+  color: var(--ink);
+  border-radius: 6px;
+}
+html[data-site="al-rosha-bakery"] .menu .dot { background: var(--ro-navy); }
+
+/* tabs read like the board's category strip */
+html[data-site="al-rosha-bakery"] .menu .tabs { border-bottom: 0; gap: 6px; padding-bottom: 4px; }
+html[data-site="al-rosha-bakery"] .menu .tabs button {
+  color: var(--ink);
+  background: rgba(255, 255, 255, .45);
+  border-radius: 4px;
+  padding: 10px 16px 12px;
+  transition: background .25s, color .25s;
+}
+html[data-site="al-rosha-bakery"] .menu .tabs button:hover { background: rgba(255, 255, 255, .8); }
+html[data-site="al-rosha-bakery"] .menu .tabs button[aria-selected="true"] {
+  background: var(--ro-board);
+  color: var(--ro-chalk);
+}
+html[data-site="al-rosha-bakery"] .menu .tabs button[aria-selected="true"] .tabs__count { color: var(--ro-wall); }
+html[data-site="al-rosha-bakery"] .menu .tabs__count { color: var(--ro-navy); }
+html[data-site="al-rosha-bakery"] .menu .tabs__ink { display: none; }
+
+/* photo beside the board: square-ish print, no fade into the wall */
+html[data-site="al-rosha-bakery"] .menu .panel-m__visual { border-radius: 4px; }
+html[data-site="al-rosha-bakery"] .menu .panel-m__visual::after {
+  background: linear-gradient(to top, rgba(18, 18, 18, .78), transparent 50%);
+}
+html[data-site="al-rosha-bakery"] .menu .panel-m__name { color: #FFFFFF; }
+html[data-site="al-rosha-bakery"] .menu .panel-m__tag { color: var(--ro-wall); }
+html[data-site="al-rosha-bakery"] .menu .panel-m__plain { background: var(--ro-navy); }
+
+/* the board itself */
+html[data-site="al-rosha-bakery"] .menu .items {
+  background: var(--ro-board);
+  color: var(--ro-chalk);
+  border-radius: 4px;
+  padding: clamp(18px, 3vw, 34px) clamp(16px, 3vw, 36px) clamp(22px, 3vw, 36px);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, .25), 0 22px 40px -24px rgba(0, 0, 0, .55);
+}
+/* faint ruled lines like the printed board */
+html[data-site="al-rosha-bakery"] .menu .items::before {
+  inset: 0;
+  border-radius: 4px;
+  background:
+    radial-gradient(260px circle at var(--mx) var(--my), rgba(255, 255, 255, .07), transparent 70%);
+}
+/* framed header, as printed at the top of the real board */
+html[data-site="al-rosha-bakery"] .menu .items::after {
+  content: "مخبز الروشه  ·  AL-ROSHA BAKERY";
+  order: -1;
+  display: block;
+  position: static;
+  margin: 0 0 clamp(14px, 2vw, 22px);
+  padding: 10px 12px 12px;
+  border: 2px solid var(--ro-chalk);
+  text-align: center;
+  font-family: var(--font-d);
+  font-size: clamp(1.05rem, 2.4vw, 1.5rem);
+  line-height: 1.3;
+  letter-spacing: normal;
+  color: var(--ro-chalk);
+}
+html[data-site="al-rosha-bakery"] .menu .items { display: flex; flex-direction: column; }
+
+html[data-site="al-rosha-bakery"] .menu .item {
+  padding: 12px 2px;
+  border-bottom: 1px solid rgba(247, 245, 238, .12);
+}
+html[data-site="al-rosha-bakery"] .menu .item:first-child { border-top: 0; }
+html[data-site="al-rosha-bakery"] .menu .item:last-child { border-bottom: 0; }
+html[data-site="al-rosha-bakery"] .menu .item__name {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: clamp(1.02rem, 2.2vw, 1.22rem);
+  color: var(--ro-chalk);
+  unicode-bidi: plaintext;
+}
+html[data-site="al-rosha-bakery"] .menu .item__lead { border-bottom-color: rgba(247, 245, 238, .28); }
+html[data-site="al-rosha-bakery"] .menu .item__price {
+  color: var(--ro-chalk);
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+html[data-site="al-rosha-bakery"] .menu .cur { color: var(--ro-chalk-dim); }
+html[data-site="al-rosha-bakery"] .menu .item__badge {
+  color: var(--ro-wall);
+  border-color: rgba(241, 222, 146, .55);
+}
+@media (hover: hover) {
+  html[data-site="al-rosha-bakery"] .menu .item:hover .item__price { color: var(--ro-wall); }
+  html[data-site="al-rosha-bakery"] .menu .item:hover .item__lead { border-color: rgba(241, 222, 146, .6); }
+}
+
+html[data-site="al-rosha-bakery"] .menu__foot { border-top-color: rgba(29, 26, 20, .18); }
+html[data-site="al-rosha-bakery"] .menu__foot .muted { color: var(--ink); }
+
+/* ---------- Supporting: marquee as the navy sign strip ---------- */
+html[data-site="al-rosha-bakery"] .marquee {
+  background: var(--ro-navy);
+  color: #FFFFFF;
+  border-block: 0;
+}
+html[data-site="al-rosha-bakery"] .marquee * { color: inherit; }
+
+/* story panels sit on the wall tone */
+html[data-site="al-rosha-bakery"] .story .panel { background: var(--surface); border-radius: 6px; }
+html[data-site="al-rosha-bakery"] .story .panel__media { border-radius: 4px; overflow: hidden; }
+
+/* proof figures in board black */
+html[data-site="al-rosha-bakery"] .proof .stat__num { color: var(--ro-navy); font-variant-numeric: tabular-nums; }
+
+@media (max-width: 599px) {
+  html[data-site="al-rosha-bakery"] .menu .items { padding: 16px 14px 20px; }
+  html[data-site="al-rosha-bakery"] .menu .item__row { gap: 10px; }
+  html[data-site="al-rosha-bakery"] .menu .items::after { font-size: 1rem; padding: 8px 8px 10px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html[data-site="al-rosha-bakery"] .menu .tabs button { transition: none; }
+}

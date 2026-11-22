@@ -1,0 +1,358 @@
+{
+  "place_id": "ChIJXfF4W3D3kT4RQiKgs_MMBU4",
+  "batch_id": "amd-gulf-20261121",
+  "slug": "al-rosha-bakery",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google (Apify) + لوحة الأسعار وصور المحل على خرائط Google",
+  "theme": "bakery_cream",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#22305E",
+    "rgb": "34, 48, 94",
+    "hover": "#17214A",
+    "ink": "#FFFFFF"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "name": "مخبز الروشه",
+  "name_lang": "ar",
+  "name_en": "Al Rosha Bakery",
+  "category_label": "مخبز في مطرح",
+  "area": "مطرح، مسقط",
+  "address": "JH76+WWP، شارع الطويان، مطرح، مسقط",
+  "phone": {
+    "display": "+968 9589 7501",
+    "tel": "+96895897501"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
+  "map_query": "Al Rosha Bakery, Mutrah, Muscat",
+  "rating": {
+    "value": 4.2,
+    "count": 185,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "كل أيام الأسبوع",
+        "time": "4:30 صباحًا – 1 بعد منتصف الليل"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "hero": {
+    "headline": "خبز طازج في مطرح من الفجر",
+    "intro": "مخبز الروشه في مطرح بمسقط: صمون وخبز وبنّ ومعجنات وبسكويت، بأسعار مكتوبة على لوحة المحل بالبيزة والريال العماني.",
+    "image": "hero"
+  },
+  "sections": [
+    "menu",
+    "marquee",
+    "story",
+    "proof",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "marquee": {
+    "label": "على لوحة المحل",
+    "items": [
+      "صمون",
+      "خبز وبن",
+      "فطائر",
+      "لبناني",
+      "بسكويت",
+      "مطرح"
+    ]
+  },
+  "story": {
+    "title": "ما يكرره الزبائن عن المخبز",
+    "items": [
+      {
+        "label": "طري",
+        "title": "خبز طازج وطري",
+        "text": "يصف الزبائن الخبز بأنه طازج وطري، ويذكر أحدهم أنه يكاد يأكل البن مباشرة من الكيس.",
+        "image": "story-bread"
+      },
+      {
+        "label": "بعد الفجر",
+        "title": "بعد الفجر",
+        "text": "أحد الزبائن يشتري من المحل منذ طفولته، ويقول إن الطعم لم يتغيّر وإن أنسب وقت للشراء بعد صلاة الفجر. والمحل يفتح من 4:30 صباحاً بحسب خرائط Google."
+      },
+      {
+        "label": "حتى 1 ليلًا",
+        "title": "صباحاً ومساءً",
+        "text": "تذكر المراجعات خبزاً وبسكويتاً وساندويتشات طازجة في الصباح وفي الليل، والمحل مفتوح حتى 1 بعد منتصف الليل بحسب خرائط Google.",
+        "image": "story-night"
+      },
+      {
+        "label": "من 100 بيسة",
+        "title": "أسعار خفيفة",
+        "text": "يكرر الزبائن أن الخبز غير غالٍ. وعلى لوحة الأسعار في المحل يبدأ سعر الصمون من 0.100 ر.ع. لكل 4 حبات.",
+        "image": "story-board"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "products",
+    "sample": false,
+    "title": "لوحة الأسعار",
+    "note": "الأسعار من لوحة الأسعار المعلّقة داخل المحل (صورة من خرائط Google). قراءة يدوية من الصورة، والأسطر غير الواضحة تركتها. الأسعار بالريال العماني كما هي مكتوبة",
+    "currency": "ر.ع",
+    "foot": "للسؤال عن الخبز المتوفر الآن",
+    "categories": [
+      {
+        "id": "bread",
+        "title": "خبز وصمون",
+        "tagline": "من 0.100 ر.ع لكل 4 حبات",
+        "items": [
+          {
+            "name": "Samoon (4pcs)",
+            "price": 0.1,
+            "mentioned": true
+          },
+          {
+            "name": "Big Bread (4pcs)",
+            "price": 0.1
+          },
+          {
+            "name": "Small Bread (1pcs)",
+            "price": 0.25
+          },
+          {
+            "name": "Big Bun (1pcs)",
+            "price": 0.125
+          },
+          {
+            "name": "English bun (1pcs)",
+            "price": 0.15
+          }
+        ],
+        "image": "menu-bread"
+      },
+      {
+        "id": "pastry",
+        "title": "معجنات",
+        "tagline": "قطعة أو علبة",
+        "items": [
+          {
+            "name": "Danesh (1pcs)",
+            "price": 0.2
+          },
+          {
+            "name": "Dilkush (1Box)",
+            "price": 0.3
+          },
+          {
+            "name": "Donet (1Box)",
+            "price": 0.3
+          },
+          {
+            "name": "Jamroll (1pcs)",
+            "price": 0.5
+          },
+          {
+            "name": "Ladu (1pcs)",
+            "price": 0.1
+          },
+          {
+            "name": "Tost Big (1pcs)",
+            "price": 0.25
+          }
+        ],
+        "image": "menu-pastry"
+      },
+      {
+        "id": "fatayer",
+        "title": "فطائر وبيتزا",
+        "tagline": "دجاج وجبن",
+        "items": [
+          {
+            "name": "Fatheera (1pcs)",
+            "price": 0.125
+          },
+          {
+            "name": "Chicken Fatheera (1pcs)",
+            "price": 0.25
+          },
+          {
+            "name": "Chees Fatheera (1pcs)",
+            "price": 0.15
+          },
+          {
+            "name": "Chicken Pizza (1Box)",
+            "price": 0.3
+          },
+          {
+            "name": "Hoddock pizza (1Box)",
+            "price": 0.3
+          }
+        ]
+      },
+      {
+        "id": "labnani",
+        "title": "لبناني وبسكويت وكيك",
+        "tagline": "بالحبة وبالكيلو",
+        "items": [
+          {
+            "name": "Labnani (8pcs)",
+            "price": 0.1
+          },
+          {
+            "name": "Labnani (24pcs)",
+            "price": 0.3
+          },
+          {
+            "name": "Labnani (40pcs)",
+            "price": 0.5
+          },
+          {
+            "name": "Biscuites (1Kg)",
+            "price": 3.0,
+            "mentioned": true
+          },
+          {
+            "name": "Kara Biscuites (1Kg)",
+            "price": 2.0
+          },
+          {
+            "name": "Plain Cake (1Box)",
+            "price": 0.5
+          }
+        ],
+        "image": "menu-board"
+      }
+    ]
+  },
+  "mentions": [
+    "Fresh bread",
+    "Buns",
+    "Pav",
+    "Khubs",
+    "Biscuits",
+    "Sandwiches",
+    "Brown chapatis"
+  ],
+  "reviews": [
+    {
+      "text": "OMG their bread is sooooo cheap and soft they make it really fresh and their pav is sooooooooo good and soft I just wanna eat it directly",
+      "author": "Abdul S.",
+      "stars": 5,
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25GWVVTMW9iMnhrVjNSRFF6QndaR2wwZDFWcGJuYxAB"
+    },
+    {
+      "text": "Al Rosha Bakery +40 Years they provide us fresh Breakfast Amazing Muttrah Fast Bakery",
+      "author": "Yasir A.",
+      "stars": 5,
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2tSZmMxVlRRMUJOTVZVeFIzUmtSVkJhWldOdFRWRRAB"
+    },
+    {
+      "text": "Freshly baked bread and khubs. The bakery closes at midnight but you can avail bread and khubs anytime from backdoor. Not expensive at all.",
+      "author": "Muhammad E.",
+      "stars": 5,
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSURKMTUtdnZnRRAB"
+    },
+    {
+      "text": "Since childhood we purchased bread and buns. The taste never changed and always fresh. Specially after fajr thats the time",
+      "author": "Md P.",
+      "stars": 5,
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUNodGVhelVBEAE"
+    },
+    {
+      "text": "At morning time and At night time you get fresh softy breards,biscuits,sandwiches etc",
+      "author": "Mohammad A.",
+      "stars": 5,
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT21GdFNURndVV3c1YWxsd1pISXhMVlJpWm5CTk1tYxAB"
+    }
+  ],
+  "amenities": {
+    "title": "قبل أن تمرّ على المخبز",
+    "image": "amen",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "من 4:30 الفجر",
+        "text": "يفتح كل أيام الأسبوع حتى 1 بعد منتصف الليل."
+      },
+      {
+        "icon": "bag",
+        "title": "توصيل وسفري",
+        "text": "توصيل، وطلبات سفري، وزيارة سريعة."
+      },
+      {
+        "icon": "check",
+        "title": "الدفع بالبطاقة",
+        "text": "يقبل بطاقات الخصم المباشر."
+      },
+      {
+        "icon": "car",
+        "title": "مواقف مدفوعة",
+        "text": "مواقف مدفوعة قريبة من المحل."
+      }
+    ]
+  },
+  "visit": {
+    "image": "visit"
+  },
+  "images": {
+    "hero": {
+      "file": "bread-display.jpg",
+      "alt": "صورة خبز معبّأ وأصابع سمسم في واجهة العرض داخل مخبز الروشه",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
+      "credit": "من خرائط Google"
+    },
+    "menu-bread": {
+      "file": "bread-display.jpg",
+      "alt": "صورة أكياس الخبز في واجهة العرض",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
+      "credit": "من خرائط Google"
+    },
+    "menu-pastry": {
+      "file": "pastry-case.jpg",
+      "alt": "صورة واجهات الحلويات والمعجنات والكيك في المحل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
+      "credit": "من خرائط Google"
+    },
+    "menu-board": {
+      "file": "price-board.jpg",
+      "alt": "صورة لوحة الأسعار المعلّقة داخل المحل بالريال العماني",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
+      "credit": "من خرائط Google"
+    },
+    "story-bread": {
+      "file": "bread-display.jpg",
+      "alt": "صورة خبز طازج معبّأ في واجهة العرض",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
+      "credit": "من خرائط Google"
+    },
+    "story-night": {
+      "file": "facade-night.jpg",
+      "alt": "صورة واجهة مخبز الروشه ليلًا ولافتته مضاءة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
+      "credit": "من خرائط Google"
+    },
+    "story-board": {
+      "file": "price-board.jpg",
+      "alt": "صورة لوحة أسعار المخبز بالبيسة والريال",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
+      "credit": "من خرائط Google"
+    },
+    "amen": {
+      "file": "pastry-case.jpg",
+      "alt": "صورة حلويات ومعجنات في واجهات العرض",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
+      "credit": "من خرائط Google"
+    },
+    "visit": {
+      "file": "facade-night.jpg",
+      "alt": "صورة واجهة مخبز الروشه في مطرح ليلًا",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
+      "credit": "من خرائط Google"
+    }
+  }
+}
