@@ -7,6 +7,8 @@ html[data-site="al-rosha-bakery"] {
   --ink: #1D1A14; --ink-rgb: 29, 26, 20;
   --muted: #5A5240;
   --line: rgba(29, 26, 20, .14);
+  --font-d: "Readex Pro", "IBM Plex Sans Arabic", sans-serif;
+  --display-weight: 700;
   --ro-board: #121212;
   --ro-chalk: #F7F5EE;
   --ro-chalk-dim: rgba(247, 245, 238, .62);
@@ -143,6 +145,13 @@ html[data-site="al-rosha-bakery"] .marquee * { color: inherit; }
 html[data-site="al-rosha-bakery"] .story .panel { background: var(--surface); border-radius: 6px; }
 html[data-site="al-rosha-bakery"] .story .panel__media { border-radius: 4px; overflow: hidden; }
 html[data-site="al-rosha-bakery"] .story .panel__media img[src*="facade-night"] { object-position: 85% 50%; }
+html[data-site="al-rosha-bakery"] .story .panel__media img[src*="price-board"] { object-position: 50% 8%; }
+html[data-site="al-rosha-bakery"] .story .panel__media .photo__badge {
+  inset-inline-start: auto;
+  inset-inline-end: 10px;
+  inset-block-start: 10px;
+  inset-block-end: auto;
+}
 html[data-site="al-rosha-bakery"] .story .panel__text { padding: clamp(20px, 3vw, 36px); }
 
 /* proof figures in board black */
@@ -177,34 +186,55 @@ html[data-site="al-rosha-bakery"] .menu .cur {
 }
 html[data-site="al-rosha-bakery"] .menu .item__name { font-size: clamp(.9rem, 2vw, 1.05rem); direction: ltr; text-align: start; }
 html[data-site="al-rosha-bakery"] .mentions { margin-block-end: 0; padding-block-end: 0; }
-html[data-site="al-rosha-bakery"] .mentions ul {
-  display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 8px;
+html[data-site="al-rosha-bakery"] section.proof .mentions ul {
+  display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 8px !important;
   list-style: none; padding: 0; margin: 12px 0 0;
 }
-html[data-site="al-rosha-bakery"] .mentions li {
+html[data-site="al-rosha-bakery"] section.proof .mentions ul li {
   direction: ltr; unicode-bidi: isolate;
-  font: 500 .875rem/1.35 var(--font-ui);
+  font-family: var(--font-ui) !important;
+  font-size: .9rem !important;
+  font-weight: 500 !important;
+  line-height: 1.35 !important;
   padding: 6px 12px; border-radius: 6px;
   background: rgba(34, 48, 94, .08); color: var(--ink);
 }
-html[data-site="al-rosha-bakery"] .mentions li::before,
-html[data-site="al-rosha-bakery"] .mentions li::after { content: none; display: none; }
+html[data-site="al-rosha-bakery"] section.proof .mentions ul li + li::before,
+html[data-site="al-rosha-bakery"] section.proof .mentions ul li::before,
+html[data-site="al-rosha-bakery"] section.proof .mentions ul li::after {
+  content: none !important; display: none !important;
+}
 html[data-site="al-rosha-bakery"] .mentions .muted.small {
   direction: rtl; font-size: .9rem; background: none; padding: 0; border: 0; border-radius: 0; color: var(--muted);
 }
 html[data-site="al-rosha-bakery"] .proof { padding-block-end: clamp(28px, 4.5vw, 52px); }
 html[data-site="al-rosha-bakery"] .menu { padding-block-end: clamp(40px, 6vw, 72px); }
 html[data-site="al-rosha-bakery"] .marquee { margin: 0; }
+html[data-site="al-rosha-bakery"] .site-header .nav-btn,
+html[data-site="al-rosha-bakery"] .site-header .nav-menu {
+  display: inline-flex; align-items: center; min-height: 44px; padding-inline: 10px;
+}
 html[data-site="al-rosha-bakery"] .site-header .header-call {
   display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; padding-inline: 1.1rem;
 }
 html[data-site="al-rosha-bakery"] .hero__title, html[data-site="al-rosha-bakery"] .story__title { line-height: 1.45; }
 
-/* story card vertically centred in the pinned frame */
-@media (min-width: 900px) {
-  html[data-site="al-rosha-bakery"] .story--h .story__pin { align-items: center; }
-  html[data-site="al-rosha-bakery"] .story--h .story__track { align-items: center; }
-  html[data-site="al-rosha-bakery"] .story--h .panel { align-items: center; align-self: center; }
+/* ---------- Round 2 FINAL verdict fixes ---------- */
+html[data-site="al-rosha-bakery"] section.amen { padding-block: clamp(48px, 7vw, 80px); }
+html[data-site="al-rosha-bakery"] .amen__grid { grid-template-columns: 1fr; max-width: 720px; }
+html[data-site="al-rosha-bakery"] section.visit { padding-block: clamp(56px, 8vw, 96px); background: var(--bg); }
+
+@media (max-width: 899px) {
+  html[data-site="al-rosha-bakery"] section.hero--split { padding-block: 88px 48px; }
+  html[data-site="al-rosha-bakery"] .hero__grid { gap: 24px; }
+}
+@media (max-width: 599px) {
+  html[data-site="al-rosha-bakery"] .rev__rail { grid-auto-columns: calc(100vw - 2 * var(--gutter)); }
+  html[data-site="al-rosha-bakery"] .rev__rail .card {
+    flex: 0 0 calc(100vw - 2 * var(--gutter));
+    width: calc(100vw - 2 * var(--gutter));
+    padding: 20px;
+  }
 }
 
 /* ---------- Final fix round ---------- */

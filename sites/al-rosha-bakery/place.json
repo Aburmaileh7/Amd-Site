@@ -8,7 +8,7 @@
   "data_source": "خرائط Google (Apify) + لوحة الأسعار وصور المحل على خرائط Google",
   "layout": {
     "hero": "split",
-    "story": "horizontal"
+    "story": "stack"
   },
   "accent": {
     "hex": "#22305E",
@@ -94,21 +94,24 @@
             "price": 0.1
           },
           {
-            "name": "Big Bread (4pcs)",
-            "price": 0.1
-          },
-          {
-            "name": "Small Bread (1pcs)",
+            "name": "Big Bread (1pcs)",
+            "desc": "خبز كبير",
             "price": 0.25
           },
           {
-            "name": "Big Bun (1pcs)",
-            "price": 0.125
+            "name": "Bun (4pcs)",
+            "desc": "كعكة",
+            "price": 0.1
+          },
+          {
+            "name": "Small Tost (1pcs)",
+            "desc": "توست صغير",
+            "price": 0.1
           },
           {
             "name": "English bun (1pcs)",
             "desc": "كعكة انجليزية",
-            "price": 0.15
+            "price": 0.2
           }
         ]
       },
@@ -119,9 +122,9 @@
         "image": "menu-pastry",
         "items": [
           {
-            "name": "Danesh (1pcs)",
+            "name": "Danesh (1Box)",
             "desc": "دنش",
-            "price": 0.2
+            "price": 0.3
           },
           {
             "name": "Dilkush (1Box)",
@@ -131,12 +134,12 @@
           {
             "name": "Donet (1Box)",
             "desc": "داونت",
-            "price": 0.3
+            "price": 0.5
           },
           {
             "name": "Jamroll (1pcs)",
             "desc": "رول مربي",
-            "price": 0.5
+            "price": 0.1
           },
           {
             "name": "Ladu (1pcs)",
@@ -157,7 +160,8 @@
         "items": [
           {
             "name": "Fatheera (1pcs)",
-            "price": 0.125
+            "desc": "فطيرة",
+            "price": 0.15
           },
           {
             "name": "Chicken Fatheera (1pcs)",
@@ -208,7 +212,7 @@
             "mentioned": true
           },
           {
-            "name": "Kara Biscuites (1Kg)",
+            "name": "Kara Biscutes (1Kg)",
             "desc": "بسكويت كارا",
             "price": 2
           },
@@ -248,7 +252,7 @@
     {
       "author": "Muhammad E.",
       "stars": 5,
-      "text": "Freshly baked bread and khubs. The bakery closes at midnight but you can avail bread and khubs anytime from backdoor. Not expensive at all.",
+      "text": "Freshly baked bread and khubs. The bakery closes at midnight but you can avail bread and khubs anytime from backdoor. Not expensive at all. Free bread available for needy peoples ( donated by some good hearted)",
       "source_ref": "ChdDSUhNMG9nS0VJQ0FnSURKMTUtdnZnRRAB"
     },
     {

@@ -49,6 +49,7 @@
               v: target,
               duration: 0.28,
               ease: 'power2.out',
+              data: 'rosha-price',
               onUpdate: function () {
                 priceEl.textContent = o.v.toFixed(dec);
               },
@@ -87,4 +88,93 @@
       if (p) play(p);
     }, 40);
   });
+
+  // Finish .proof [data-count] counters within <= 150ms so exact 4.2 / 185 render cleanly
+  var proof = root.querySelector('.proof');
+  if (proof) {
+    var counts = Array.prototype.slice.call(proof.querySelectorAll('[data-count]'));
+    var isCounterTarget = function (t, tw) {
+      if (counts.indexOf(t) !== -1) return true;
+      if (
+        t &&
+        typeof t === 'object' &&
+        !t.nodeType &&
+        tw.vars &&
+        typeof tw.vars.onUpdate === 'function' &&
+        tw.vars.repeat !== -1
+      ) {
+        var fn = String(tw.vars.onUpdate);
+        if (
+          fn.indexOf('textContent') !== -1 ||
+          fn.indexOf('toFixed') !== -1 ||
+          fn.indexOf('dataset') !== -1 ||
+          'val' in t ||
+          'v' in t ||
+          'value' in t ||
+          'count' in t
+        ) {
+          return true;
+        }
+      }
+      return false;
+    };
+
+    var inProof = function (node) {
+      return node instanceof Node && (node === proof || proof.contains(node));
+    };
+
+    var lockProof = function () {
+      var children = gsap.globalTimeline.getChildren(true, true, false);
+      for (var i = 0; i < children.length; i++) {
+        var tw = children[i];
+        if (!tw || tw.data === 'rosha-price' || typeof tw.targets !== 'function') continue;
+        var st = tw.scrollTrigger || (tw.vars && tw.vars.scrollTrigger);
+        var hit = Boolean(st && inProof(st.trigger));
+        if (!hit) {
+          var targets = tw.targets();
+          for (var j = 0; j < targets.length; j++) {
+            var t = targets[j];
+            if (inProof(t) || isCounterTarget(t, tw)) {
+              hit = true;
+              break;
+            }
+          }
+        }
+        if (hit) {
+          tw.progress(1).kill();
+        }
+      }
+      var allSt = ScrollTrigger.getAll();
+      for (var s = 0; s < allSt.length; s++) {
+        var trig = allSt[s];
+        if (trig && trig.animation && inProof(trig.trigger)) {
+          trig.animation.progress(1).kill();
+        }
+      }
+      for (var k = 0; k < counts.length; k++) {
+        var el = counts[k];
+        var val = Number(el.dataset.count);
+        if (isFinite(val)) {
+          el.textContent = val.toFixed(Number(el.dataset.decimals || 0));
+        }
+      }
+    };
+
+    ScrollTrigger.create({
+      trigger: proof,
+      start: 'top 99%',
+      once: true,
+      onEnter: function () {
+        lockProof();
+        gsap.delayedCall(0.1, lockProof);
+      }
+    });
+
+    ScrollTrigger.create({
+      trigger: proof,
+      start: 'top 80%',
+      once: true,
+      onEnter: lockProof
+    });
+  }
 })();

@@ -5,7 +5,7 @@
   "theme": "heritage_warm",
   "approved": false,
   "agency": "Amd web",
-  "data_source": "خرائط Google (العنوان والهاتف والساعات والتقييم والمرافق والمراجعات والصور)",
+  "data_source": "خرائط Google (العنوان والهاتف والساعات والتقييم والمرافق والمراجعات والصور) وقائمة ماجما (شرق) على ديليفرو وطلبات",
   "layout": {
     "hero": "full",
     "story": "horizontal"
@@ -24,18 +24,7 @@
   "category_label": "مطعم فطور وبرنش",
   "area": "شرق، مدينة الكويت",
   "address": "شارع إبراهيم المضف، شرق، مدينة الكويت",
-  "phone": {
-    "display": "+965 5590 6331",
-    "tel": "+96555906331"
-  },
-  "whatsapp": null,
-  "directions_url": "https://www.google.com/maps/search/?api=1&query=Magma&query_place_id=ChIJ4_TE1OKFzz8Rng_ws9OiiaM",
   "map_query": "Magma, Ibraheem Al Mudhaf St, Sharq, Kuwait City, Kuwait",
-  "rating": {
-    "value": 4.3,
-    "count": 446,
-    "source": "Google"
-  },
   "hero": {
     "headline": "فطور وبرنش من الثامنة صباحًا في شرق",
     "intro": "ماجما في شرق يفتح أبوابه من 8 صباحًا حتى 11 مساءً، ويقدّم فطورًا وبرنشًا وقهوة وحلويات، مع جلسة داخلية وخارجية ومواقف أمام المكان.",
@@ -95,6 +84,132 @@
       "شرق"
     ]
   },
+  "menu": {
+    "kind": "menu",
+    "sample": false,
+    "title": "من القائمة",
+    "note": "الأسعار والأصناف من صفحة ماجما (شرق) على ديليفرو وطلبات.",
+    "currency": "د.ك",
+    "foot": "للحجز والاستفسار",
+    "categories": [
+      {
+        "id": "breakfast",
+        "title": "الفطور",
+        "tagline": "من 8 صباحًا",
+        "image": "zaatar",
+        "items": [
+          {
+            "name": "Short Rib Benedict",
+            "desc": "بيض بنديكت بالريب القصير",
+            "price": 5.75,
+            "mentioned": true
+          },
+          {
+            "name": "Egg Calzone",
+            "desc": "كالزوني بالبيض",
+            "price": 4.5,
+            "mentioned": true
+          },
+          {
+            "name": "Scramble Sando",
+            "desc": "ساندو بيض مخفوق",
+            "price": 4.25
+          },
+          {
+            "name": "Za'atar Pizza",
+            "desc": "بيتزا زعتر",
+            "price": 3.75,
+            "mentioned": true
+          },
+          {
+            "name": "Halloumi Toast",
+            "desc": "توست حلوم",
+            "price": 3.75
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "المشروبات",
+        "tagline": "قهوة وعصائر",
+        "image": "icedlatte",
+        "items": [
+          {
+            "name": "Ice Spanish Latte",
+            "desc": "سبانش لاتيه مثلج",
+            "price": 2.5,
+            "mentioned": true
+          },
+          {
+            "name": "Orange Juice",
+            "desc": "عصير برتقال",
+            "price": 2,
+            "mentioned": true
+          },
+          {
+            "name": "Americano",
+            "desc": "أمريكانو",
+            "price": 1.9
+          }
+        ]
+      },
+      {
+        "id": "sweets",
+        "title": "الحلويات",
+        "tagline": "للختام",
+        "items": [
+          {
+            "name": "Buttermilk Pancakes",
+            "desc": "بانكيك البتر ميلك",
+            "price": 4.75,
+            "mentioned": true
+          },
+          {
+            "name": "Crispy French Toast",
+            "desc": "فرنش توست مقرمش",
+            "price": 4.9
+          },
+          {
+            "name": "Nutella Calzone",
+            "desc": "كالزوني نوتيلا",
+            "price": 3.75
+          }
+        ]
+      },
+      {
+        "id": "pizza-pasta",
+        "title": "البيتزا والباستا",
+        "tagline": "للغداء والعشاء",
+        "items": [
+          {
+            "name": "Short Ribs and Potatoes",
+            "desc": "ريب قصير مع بطاطا",
+            "price": 6.8
+          },
+          {
+            "name": "Magma Pizza",
+            "desc": "بيتزا ماجما",
+            "price": 6.5
+          },
+          {
+            "name": "Tartufo Pizza",
+            "desc": "بيتزا تارتوفو",
+            "price": 7.9
+          },
+          {
+            "name": "Funghi Gnocchi",
+            "desc": "نيوكي بالفطر",
+            "price": 5.5
+          },
+          {
+            "name": "Spicy Rigatoni",
+            "desc": "ريجاتوني حار",
+            "price": 4.9
+          }
+        ]
+      }
+    ]
+  },
   "mentions": [
     "Zaatar fatayer",
     "Short ribs Benedict",
@@ -105,84 +220,6 @@
     "Orange carrot juice",
     "Buttermilk pancakes"
   ],
-  "menu": {
-    "kind": "menu",
-    "title": "من القائمة",
-    "currency": "د.ك",
-    "sample": true,
-    "note": "منيو تقريبي: الأصناف من مراجعات المحل وصوره، والأسعار تقديرية ومبنية على مستوى أسعار المحل، وليست من المحل.",
-    "foot": "للحجز والاستفسار",
-    "categories": [
-      {
-        "id": "breakfast",
-        "title": "الفطور",
-        "tagline": "من 8 صباحًا",
-        "items": [
-          {
-            "name": "Buttermilk pancakes",
-            "price": 4.5,
-            "mentioned": true
-          },
-          {
-            "name": "Short ribs Benedict",
-            "price": 5.75,
-            "mentioned": true
-          },
-          {
-            "name": "Truffle mushroom eggs",
-            "price": 4.8,
-            "mentioned": true
-          },
-          {
-            "name": "Egg calzone",
-            "price": 4.5,
-            "mentioned": true
-          },
-          {
-            "name": "Zaatar fatayer",
-            "price": 3.5,
-            "mentioned": true
-          }
-        ],
-        "image": "benedict"
-      },
-      {
-        "id": "drinks",
-        "title": "المشروبات",
-        "tagline": "قهوة وعصائر",
-        "items": [
-          {
-            "name": "Spanish latte",
-            "price": 2.0,
-            "mentioned": true
-          },
-          {
-            "name": "Orange carrot juice",
-            "price": 2.0,
-            "mentioned": true
-          },
-          {
-            "name": "Passion fruit iced tea",
-            "price": 1.75,
-            "mentioned": true
-          }
-        ],
-        "image": "latte"
-      },
-      {
-        "id": "sweets",
-        "title": "الحلويات",
-        "tagline": "للختام",
-        "items": [
-          {
-            "name": "Nutella perdu",
-            "price": 3.5,
-            "mentioned": true
-          }
-        ]
-      }
-    ]
-  },
   "reviews": [
     {
       "author": "Farah A.",
@@ -205,13 +242,13 @@
     {
       "author": "F",
       "stars": 5,
-      "text": "Delicious food, excellent service, great view/location, slightly pricy. We had two egg dishes: the cacio e pepe eggs benedict which was so different and delicious, and the truffle mushroom egg scramble, a side of bacon, and the buttermilk pancakes. Their passion fruit iced tea…",
+      "text": "We had two egg dishes: the cacio e pepe eggs benedict which was so different and delicious, and the truffle mushroom egg scramble, a side of bacon, and the buttermilk pancakes. Their passion fruit iced tea was also decent.",
       "source_ref": "ChdDSUhNMG9nS0VJQ0FnTURneFBLS3ZBRRAB"
     },
     {
       "author": "Hasnaa A.",
       "stars": 4,
-      "text": "My second visit I can easily say that it is one of my favorite breakfast spots in town the food is amazing the short ribs Benedict is my favorite and I will definitely come back for it. …",
+      "text": "My second visit I can easily say that it is one of my favorite breakfast spots in town the food is amazing the short ribs Benedict is my favorite and I will definitely come back for it. The drinks were not the best the Orange juice was blunt watery not fresh. 7/10 overall",
       "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT201WVkxUkxlREZWV1ZKRmFFTkRkVjlYY1VoU09HYxAB"
     }
   ],
@@ -305,6 +342,28 @@
       "alt": "صورة واجهة مطعم ماجما",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Magma&query_place_id=ChIJ4_TE1OKFzz8Rng_ws9OiiaM",
       "credit": "من خرائط Google"
+    },
+    "zaatar": {
+      "file": "magma-zaatar-pizza.jpg",
+      "alt": "صورة بيتزا زعتر باللبنة والجرجير في ماجما",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Magma&query_place_id=ChIJ4_TE1OKFzz8Rng_ws9OiiaM",
+      "credit": "من خرائط Google"
+    },
+    "icedlatte": {
+      "file": "magma-iced-latte.jpg",
+      "alt": "صورة سبانش لاتيه مثلج بكوب ماجما",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Magma&query_place_id=ChIJ4_TE1OKFzz8Rng_ws9OiiaM",
+      "credit": "من خرائط Google"
     }
+  },
+  "phone": {
+    "display": "+965 5590 6331",
+    "tel": "+96555906331"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Magma&query_place_id=ChIJ4_TE1OKFzz8Rng_ws9OiiaM",
+  "rating": {
+    "value": 4.3,
+    "count": 446,
+    "source": "Google"
   }
 }
