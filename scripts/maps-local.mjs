@@ -7,9 +7,14 @@ import { existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { chromium } from 'playwright';
 
-const [mode, a, b, c] = process.argv.slice(2);
+const rawArgs = process.argv.slice(2);
+const flags = rawArgs.filter((x) => x.startsWith('--'));
+const pos = rawArgs.filter((x) => !x.startsWith('--'));
+const [mode, a, b, c] = pos;
+const allWebsites = flags.includes('--all-websites');
+const filterNoWebsite = !allWebsites && (flags.includes('--without-website') || mode === 'search');
 if (!((mode === 'place' && a) || (mode === 'search' && a && b))) {
-  console.error('usage: place "<maps url>" [images=12] [reviews=15] | search "<query>" "<city, country>" [max=20]');
+  console.error('usage: place "<maps url>" [images=12] [reviews=15] | search "<q1|q2>" "<city, country>" [max=20] [--all-websites]');
   process.exit(2);
 }
 
@@ -311,21 +316,24 @@ async function scrapePlace(page, inputUrl, maxImages, maxReviews) {
   }];
 }
 
-async function scrapeSearch(page, query, location, maxResults) {
+const SOCIAL_RE = /(instagram|facebook|tiktok|linktr\.ee|beacons\.ai|taplink|bio\.link|wa\.me|whatsapp|snapchat|x\.com|twitter|talabat|deliveroo|keeta|hungerstation|jahez|careem|snoonu|rafeeq|mrsool|thechefz|toyou|fresha|booksy|zomato|google\.)/i;
+
+async function scrapeOneSearch(page, query, location, maxResults) {
   const q = encodeURIComponent(`${query} in ${location}`);
   await page.goto(`https://www.google.com/maps/search/${q}?hl=en`, { waitUntil: 'domcontentloaded', timeout: 45000 });
   await page.waitForTimeout(2500);
   await dismissConsent(page);
   await checkBlocked(page);
 
-  for (let i = 0; i < 8; i++) {
+  const targetCards = filterNoWebsite ? Math.min(maxResults * 2, 60) : maxResults;
+  for (let i = 0; i < 10; i++) {
     const count = await page.locator('a.hfpxzc').count();
-    if (count >= maxResults) break;
+    if (count >= targetCards) break;
     await page.evaluate(() => {
       const feed = document.querySelector('div[role="feed"]');
-      if (feed) feed.scrollTop += 1500;
+      if (feed) feed.scrollTop += 1600;
     });
-    await page.waitForTimeout(1000);
+    await page.waitForTimeout(900);
   }
 
   const items = await page.evaluate((limit) => {
@@ -341,6 +349,8 @@ async function scrapeSearch(page, query, location, maxResults) {
       const reviews_count = revTxt ? parseInt(revTxt, 10) : null;
       const web = card.querySelector('a[data-value="Website"]')?.getAttribute('href') || null;
       const infoLines = [...card.querySelectorAll('div.W4Efsd')].map((d) => d.textContent.trim()).filter(Boolean);
+      const phoneHit = (card.textContent || '').match(/(?:\+\d{1,3}[\s-]?)?\(?\d{2,4}\)?[\s.-]?\d{3,4}[\s.-]?\d{3,4}/);
+      const phone = phoneHit && phoneHit[0].replace(/\D/g, '').length >= 8 ? phoneHit[0].trim() : null;
       const closed = /Permanently closed|Temporarily closed/i.test(card.textContent || '');
       if (name && maps_url) {
         out.push({
@@ -349,7 +359,7 @@ async function scrapeSearch(page, query, location, maxResults) {
           address: infoLines[0]?.split('·').slice(1).join('·').trim() || null,
           area: null,
           city: null,
-          phone: null,
+          phone,
           website: web,
           maps_url,
           place_id: null,
@@ -360,9 +370,28 @@ async function scrapeSearch(page, query, location, maxResults) {
       }
     }
     return out;
-  }, maxResults);
+  }, targetCards);
 
-  return items.map((it) => ({ ...it, place_id: parsePlaceId(it.maps_url) }));
+  const mapped = items.map((it) => ({ ...it, place_id: parsePlaceId(it.maps_url) }));
+  return filterNoWebsite
+    ? mapped.filter((it) => !it.website || SOCIAL_RE.test(it.website)).slice(0, maxResults)
+    : mapped.slice(0, maxResults);
+}
+
+async function scrapeSearch(page, queryExpr, location, maxResults) {
+  const queries = queryExpr.split('|').map((s) => s.trim()).filter(Boolean);
+  const seen = new Set();
+  const out = [];
+  for (const q of queries) {
+    const batch = await scrapeOneSearch(page, q, location, maxResults);
+    for (const it of batch) {
+      const k = it.place_id || it.maps_url;
+      if (seen.has(k)) continue;
+      seen.add(k);
+      out.push(it);
+    }
+  }
+  return out;
 }
 
 const browser = await chromium.launch({
@@ -378,6 +407,11 @@ try {
     userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
   });
   const page = await context.newPage();
+  await page.route('**/*', (route) => {
+    const t = route.request().resourceType();
+    if (t === 'media' || t === 'font' || (mode === 'search' && t === 'image')) return route.abort();
+    return route.continue();
+  });
   const out = mode === 'place'
     ? await scrapePlace(page, a, Number(b || 12), Number(c || 15))
     : await scrapeSearch(page, a, b, Number(c || 20));

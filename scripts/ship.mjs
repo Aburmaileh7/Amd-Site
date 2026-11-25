@@ -2,7 +2,7 @@
 // Usage: node scripts/ship.mjs <slug> [slug...] [--dry]   (--dry: checks only, no git, no push)
 // Never pushes to main, never force-pushes, commits only sites/<slug>/.
 import { execSync } from 'node:child_process';
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url)).replace(/\/$/, '');
@@ -68,4 +68,9 @@ for (const s of slugs) {
 result.ok = Object.values(result.live).every((v) => v.startsWith('https'));
 // the workflow merged the branch into origin/main: bring it into the local checkout so the site folder is back
 try { sh('git pull --ff-only'); } catch { result.note = 'git pull --ff-only failed: run it before editing the site'; }
+// Persist work/<slug>/ship.json for every shipped slug so batch shipping works directly with prod-check.mjs
+for (const s of slugs) {
+  mkdirSync(`${ROOT}/work/${s}`, { recursive: true });
+  writeFileSync(`${ROOT}/work/${s}/ship.json`, JSON.stringify(result, null, 1) + '\n');
+}
 console.log(JSON.stringify(result, null, 1));

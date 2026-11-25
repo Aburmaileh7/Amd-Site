@@ -11,7 +11,7 @@ const [slug, ...rest] = process.argv.slice(2);
 if (!slug) { console.error('usage: materials.mjs <slug> [--pick N=name:"alt" ...]'); process.exit(2); }
 const dir = `work/${slug}`;
 const mapsFile = `${dir}/maps.json`;
-if (!existsSync(mapsFile)) { console.error(`✗ ${mapsFile} missing (run apify-places place first)`); process.exit(1); }
+if (!existsSync(mapsFile)) { console.error(`✗ ${mapsFile} missing (run maps-fetch place first)`); process.exit(1); }
 const raw = JSON.parse(readFileSync(mapsFile, 'utf8'));
 const m = Array.isArray(raw) ? raw[0] : raw;
 const outFile = `${dir}/materials.json`;
@@ -47,7 +47,7 @@ const mat = {
   country, currency,
   whatsapp_confirmed: old.whatsapp_confirmed ?? false,
   approved: false,
-  data_source: old.data_source || 'خرائط Google (بيانات Apify)',
+  data_source: old.data_source || 'خرائط Google',
   facts: {
     name: m.name, category: m.category, area: m.area, address: m.address, city: m.city,
     phone: m.phone || null, website: m.website || null, google_maps_url: mapsUrl,
