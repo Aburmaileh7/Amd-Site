@@ -106,16 +106,44 @@ const picks = [];
 for (let i = 0; i < rest.length; i++) if (rest[i] === '--pick') while (rest[i + 1] && !rest[i + 1].startsWith('--')) picks.push(rest[++i]);
 
 if (!picks.length) {
-  // thumbnails so the collector can look at every candidate cheaply
+  // Build ONE numbered contact sheet (work/<slug>/candidates/grid.jpg) so collector inspects all candidates in 1 Vision call!
   let ok = 0;
+  const tiles = [];
   for (const c of mat.photo_candidates) {
-    if (existsSync(c.thumb)) { ok++; continue; }
-    try { await sharp(await fetchImg(c.url)).resize({ width: 360 }).jpeg({ quality: 60 }).toFile(c.thumb); ok++; }
-    catch (e) { c.error = e.message; }
+    try {
+      if (!existsSync(c.thumb)) {
+        await sharp(await fetchImg(c.url)).resize({ width: 360 }).jpeg({ quality: 65 }).toFile(c.thumb);
+      }
+      ok++;
+      tiles.push({ n: c.n, thumb: c.thumb });
+    } catch (e) { c.error = e.message; }
+  }
+  const gridPath = `${dir}/candidates/grid.jpg`;
+  if (tiles.length) {
+    const cols = 4, cellW = 360, cellH = 270, gap = 8;
+    const rows = Math.ceil(tiles.length / cols);
+    const width = cols * cellW + (cols + 1) * gap;
+    const height = rows * cellH + (rows + 1) * gap;
+    const composites = [];
+    for (let idx = 0; idx < tiles.length; idx++) {
+      const { n, thumb } = tiles[idx];
+      const left = gap + (idx % cols) * (cellW + gap);
+      const top = gap + Math.floor(idx / cols) * (cellH + gap);
+      const imgBuf = await sharp(thumb).resize(cellW, cellH, { fit: 'cover' }).toBuffer();
+      const badgeSvg = Buffer.from(
+        `<svg width="52" height="34"><rect width="52" height="34" rx="6" fill="rgba(0,0,0,0.82)"/><text x="26" y="24" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#ffffff">${n}</text></svg>`
+      );
+      composites.push({ input: imgBuf, left, top }, { input: badgeSvg, left: left + 8, top: top + 8 });
+    }
+    await sharp({ create: { width, height, channels: 3, background: { r: 22, g: 22, b: 26 } } })
+      .composite(composites)
+      .jpeg({ quality: 75, mozjpeg: true })
+      .toFile(gridPath);
+    mat.photo_grid = gridPath;
   }
   writeFileSync(outFile, JSON.stringify(mat, null, 2));
   console.log(`✓ ${outFile}: ${country} ${currency} · rating ${m.rating ?? '-'} (${m.reviews_count ?? 0}) · hours ${mat.facts.hours.length} · amenities ${mat.facts.amenities.length}`);
-  console.log(`  review candidates ${reviewCandidates.length} · photo thumbs ${ok}/${mat.photo_candidates.length} in ${dir}/candidates/`);
+  console.log(`  review candidates ${reviewCandidates.length} · photos ${ok}/${mat.photo_candidates.length} -> ${tiles.length ? gridPath : 'none'}`);
 } else {
   mkdirSync(`sites/${slug}/img`, { recursive: true });
   for (const p of picks) {

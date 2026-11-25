@@ -2,9 +2,9 @@
 import { readdirSync, readFileSync, existsSync, statSync } from 'node:fs';
 import { checkPlace } from '../src/lib/place.mjs';
 
-const only = process.argv[2];
-const slugs = readdirSync('sites', { withFileTypes: true }).filter((d) => d.isDirectory()).map((d) => d.name)
-  .filter((s) => !only || s === only);
+const onlyArgs = process.argv.slice(2).filter((a) => !a.startsWith('--'));
+const allDirs = [...readdirSync('sites', { withFileTypes: true }).filter((d) => d.isDirectory()).map((d) => d.name)];
+const slugs = onlyArgs.length ? onlyArgs : allDirs;
 let failed = 0;
 
 // sites/<slug>/site.js never imports GSAP: it gets gsap, ScrollTrigger and reduce from the shared

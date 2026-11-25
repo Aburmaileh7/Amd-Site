@@ -9,8 +9,10 @@ import { readFileSync, existsSync, statSync, writeFileSync, mkdirSync } from 'no
 import { extname, join } from 'node:path';
 import { chromium } from 'playwright';
 
-const slugs = process.argv.slice(2);
-if (!slugs.length) { console.error('usage: prod-check.mjs <slug> [...]'); process.exit(2); }
+const rawArgs = process.argv.slice(2);
+const localOnly = rawArgs.includes('--local');
+const slugs = rawArgs.filter((a) => !a.startsWith('--'));
+if (!slugs.length) { console.error('usage: prod-check.mjs <slug> [...] [--local]'); process.exit(2); }
 const TYPES = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.css': 'text/css', '.woff2': 'font/woff2', '.svg': 'image/svg+xml', '.jpg': 'image/jpeg', '.png': 'image/png', '.webp': 'image/webp' };
 const PORT = Number(process.env.QA_PORT) || 4398;
 const server = createServer((req, res) => {
@@ -29,11 +31,11 @@ for (const slug of slugs) {
   const fails = [], notes = [];
   const place = JSON.parse(readFileSync(`sites/${slug}/place.json`, 'utf8'));
   const shipF = `work/${slug}/ship.json`;
-  if (existsSync(shipF)) {
+  if (!localOnly && existsSync(shipF)) {
     const s = JSON.parse(readFileSync(shipF, 'utf8'));
     if (!s.ok) fails.push(`ship not ok: ${(s.steps || []).filter((x) => !x.ok).map((x) => x.step).join(',')}`);
     if (!s.live?.[slug]) fails.push('ship.json has no live URL for this slug');
-  } else notes.push('no ship.json (local check only)');
+  } else notes.push('local check only');
   if (!existsSync(`dist/${slug}/index.html`)) { fails.push('dist not built'); }
   else for (const [vp, w, h] of [['mobile', 390, 844], ['desktop', 1440, 900]]) {
     const page = await browser.newPage({ viewport: { width: w, height: h } });
