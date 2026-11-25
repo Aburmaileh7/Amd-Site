@@ -13,6 +13,7 @@ export const THEMES = {
 };
 export const SECTIONS = ['story', 'menu', 'proof', 'reviews', 'amenities', 'visit', 'marquee'];
 export const ICONS = ['sky', 'calendar', 'bag', 'car', 'access', 'check', 'wifi', 'tree', 'family', 'clock', 'tooth', 'shield', 'coffee'];
+export const SIGNATURES = ['editorial-sweep', 'warm-glow', 'curtain-rise', 'card-fan', 'horizon-drift', 'gallery-zoom', 'stagger-cascade', 'luxe-veil'];
 
 const isStr = (v) => typeof v === 'string' && v.trim().length > 0;
 const UNSPLASH_ID = /^(photo|premium_photo)-[0-9]+-[0-9a-f]+$/;
@@ -69,6 +70,7 @@ export function checkPlace(p, slug) {
   }
   for (const a of p.amenities?.items || []) if (!ICONS.includes(a.icon)) warn.push(`unknown icon "${a.icon}" -> check`);
   for (const s of p.sections || []) req(SECTIONS.includes(s), `unknown section "${s}"`);
+  if (p.motion?.signature && !SIGNATURES.includes(p.motion.signature)) warn.push(`unknown motion.signature "${p.motion.signature}"`);
   return { errors, warn };
 }
 

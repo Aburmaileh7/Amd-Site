@@ -8,7 +8,7 @@ for (const s of readdirSync('sites').sort()) {
   let p; try { p = JSON.parse(readFileSync(f, 'utf8')); } catch { continue; }
   if (want && p.theme !== want) continue;
   const css = existsSync(`sites/${s}/site.css`) ? readFileSync(`sites/${s}/site.css`, 'utf8') : '';
-  const sig = (css.match(/\/\*\s*([^*]{4,60})/) || [])[1]?.trim() || '-';
+  const sig = p.motion?.signature || (css.match(/\/\*\s*([^*]{4,60})/) || [])[1]?.trim() || '-';
   console.log([s, p.theme, `hero:${p.layout?.hero || '-'}`, `story:${p.layout?.story || '-'}`, `accent:${p.accent?.hex || '-'}`,
     `motion:${p.motion?.hero || '-'}`, (p.sections || []).join('>'), `sig:${sig}`].join(' | '));
 }

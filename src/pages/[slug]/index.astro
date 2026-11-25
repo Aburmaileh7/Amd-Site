@@ -17,11 +17,16 @@ const siteCss = import.meta.glob('/sites/*/site.css', { eager: true, query: '?ra
 const siteJs = import.meta.glob('/sites/*/site.js', { eager: true, query: '?raw', import: 'default' });
 
 export function getStaticPaths() {
+  const only = process.env.ONLY_SLUGS
+    ? new Set(process.env.ONLY_SLUGS.split(',').map((s) => s.trim()).filter(Boolean))
+    : null;
   const files = import.meta.glob('../../../sites/*/place.json', { eager: true });
-  return Object.entries(files).map(([path, mod]) => {
-    const slug = path.split('/').at(-2);
-    return { params: { slug }, props: { p: normalize(mod.default ?? mod) } };
-  });
+  return Object.entries(files)
+    .filter(([path]) => !only || only.has(path.split('/').at(-2)))
+    .map(([path, mod]) => {
+      const slug = path.split('/').at(-2);
+      return { params: { slug }, props: { p: normalize(mod.default ?? mod) } };
+    });
 }
 
 const { p } = Astro.props;
@@ -43,7 +48,7 @@ const themeColor = { rooftop_dark: '#0D0E11', cafe_light: '#F7F3EC', heritage_wa
   beauty_soft: '#FAF3F1', bakery_cream: '#FBF5EA', services_pro: '#F5F6F8', gulf_luxe: '#121010' }[p.theme];
 ---
 <!doctype html>
-<html lang="ar" dir="rtl" data-theme={p.theme} data-site={Astro.params.slug} data-hero={p.motion?.hero} style={accentStyle}>
+<html lang="ar" dir="rtl" data-theme={p.theme} data-site={Astro.params.slug} data-hero={p.motion?.hero} data-signature={p.motion?.signature} style={accentStyle}>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />

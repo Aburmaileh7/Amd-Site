@@ -26,7 +26,10 @@ if (!dry) {
   step('pull', () => sh('git checkout main && git pull --ff-only'));
 }
 step('validate', () => sh(`node scripts/validate.mjs ${slugs.join(' ')}`));
-step('build', () => sh('node node_modules/astro/astro.js build', { timeout: 15 * 60 * 1000 }));
+step('build', () => sh('node node_modules/astro/astro.js build', {
+  env: { ...process.env, ONLY_SLUGS: slugs.join(',') },
+  timeout: 15 * 60 * 1000
+}));
 const chrome = process.env.CHROME_PATH || (existsSync('/usr/bin/google-chrome') ? '/usr/bin/google-chrome' : '');
 step('qa', () => sh(`node scripts/qa.mjs ${slugs.join(' ')}`, { env: { ...process.env, QA_PORT: '4488', ...(chrome ? { CHROME_PATH: chrome } : {}) }, timeout: 15 * 60 * 1000 }));
 result.qa = slugs.map((s) => `qa-out/${s}/`);

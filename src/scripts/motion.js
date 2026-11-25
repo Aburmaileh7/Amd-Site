@@ -158,6 +158,48 @@ if (!reduce) {
   // hero photo breathes slowly when the site asks for it
   if (root.dataset.hero === 'kenburns') gsap.to('[data-hero-media] img, [data-hero-side] img', { scale: 1.08, duration: 14, ease: 'sine.inOut', yoyo: true, repeat: -1 });
 
+  // built-in motion signature presets (set via place.json motion.signature — zero site.js needed)
+  const sig = root.dataset.signature;
+  if (sig === 'editorial-sweep') {
+    gsap.utils.toArray('.story__title, .menu__title, .rev__title, .amen__title, .visit__title').forEach((el) => {
+      gsap.from(el, { x: 26, opacity: 0, duration: .9, ease: 'power3.out', scrollTrigger: { trigger: el, start: 'top 86%', once: true } });
+    });
+  } else if (sig === 'warm-glow') {
+    gsap.to(root, { '--tint': 1, ease: 'none', scrollTrigger: { trigger: 'main', start: 'top top', end: 'bottom bottom', scrub: .6 } });
+    ScrollTrigger.batch('.rev .card, .stats .stat', {
+      start: 'top 88%', once: true,
+      onEnter: (els) => gsap.from(els, { y: 20, scale: .97, opacity: 0, duration: .75, stagger: .08, ease: 'power2.out' })
+    });
+  } else if (sig === 'curtain-rise') {
+    gsap.utils.toArray('.amen__media, .panel-m__visual, .visit__bg').forEach((el) => {
+      gsap.fromTo(el, { clipPath: 'inset(10% 0% 10% 0% round 14px)', scale: 1.04 },
+        { clipPath: 'inset(0% 0% 0% 0% round 0px)', scale: 1, duration: 1.1, ease: 'power3.out',
+          scrollTrigger: { trigger: el, start: 'top 85%', once: true } });
+    });
+  } else if (sig === 'card-fan') {
+    ScrollTrigger.batch('.rev .card, .amen__list > *', {
+      start: 'top 88%', once: true,
+      onEnter: (els) => gsap.from(els, { y: 24, rotate: (i) => (i % 2 === 0 ? 1.8 : -1.8), opacity: 0, duration: .8, stagger: .08, ease: 'power3.out' })
+    });
+  } else if (sig === 'horizon-drift') {
+    gsap.utils.toArray('.story__head, .menu__head, .rev__head').forEach((el, i) => {
+      gsap.fromTo(el, { x: i % 2 === 0 ? -16 : 16 }, { x: i % 2 === 0 ? 16 : -16, ease: 'none',
+        scrollTrigger: { trigger: el, start: 'top bottom', end: 'bottom top', scrub: .8 } });
+    });
+  } else if (sig === 'gallery-zoom') {
+    gsap.to('.visit__bg img, .amen__media img', { scale: 1.06, duration: 12, ease: 'sine.inOut', yoyo: true, repeat: -1 });
+  } else if (sig === 'stagger-cascade') {
+    gsap.utils.toArray('.menu .items, .stats').forEach((grp) => {
+      gsap.from(grp.children, { y: 20, opacity: 0, duration: .65, stagger: .06, ease: 'power3.out',
+        scrollTrigger: { trigger: grp, start: 'top 86%', once: true } });
+    });
+  } else if (sig === 'luxe-veil') {
+    gsap.to('.hero__shade, .visit__shade', { opacity: .88, duration: 5.5, ease: 'sine.inOut', yoyo: true, repeat: -1 });
+    gsap.utils.toArray('.panel__media img, .amen__media img').forEach((img) => {
+      gsap.from(img, { scale: 1.07, duration: 1.3, ease: 'power2.out', scrollTrigger: { trigger: img, start: 'top 88%', once: true } });
+    });
+  }
+
   // fine pointers only: magnetic buttons and tilting photos
   if (window.matchMedia('(pointer: fine)').matches) {
     document.querySelectorAll('.btn').forEach((b) => {
