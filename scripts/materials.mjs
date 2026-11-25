@@ -17,10 +17,21 @@ const m = Array.isArray(raw) ? raw[0] : raw;
 const outFile = `${dir}/materials.json`;
 const old = existsSync(outFile) ? JSON.parse(readFileSync(outFile, 'utf8')) : {};
 
-const COUNTRY = [['+971', 'UAE', 'د.إ'], ['+966', 'Saudi Arabia', 'ر.س'], ['+974', 'Qatar', 'ر.ق'], ['+965', 'Kuwait', 'د.ك'],
-  ['+968', 'Oman', 'ر.ع'], ['+973', 'Bahrain', 'د.ب'], ['+962', 'Jordan', 'د.أ']];
+const COUNTRY = [
+  ['+971', 'UAE', 'د.إ', /united arab emirates|\buae\b|dubai|abu dhabi|sharjah|ajman|الإمارات|دبي|أبوظبي|الشارقة/i],
+  ['+966', 'Saudi Arabia', 'ر.س', /saudi|riyadh|jeddah|dammam|khobar|makkah|madinah|السعودية|الرياض|جدة|الدمام|الخبر/i],
+  ['+974', 'Qatar', 'ر.ق', /qatar|doha|lusail|wakrah|قطر|الدوحة|لوسيل/i],
+  ['+965', 'Kuwait', 'د.ك', /kuwait|salmiya|hawalli|kuwayt|الكويت|السالمية|حولي/i],
+  ['+968', 'Oman', 'ر.ع', /\boman\b|muscat|salalah|seeb|عُمان|عمان|مسقط|صلالة/i],
+  ['+973', 'Bahrain', 'د.ب', /bahrain|manama|muharraq|riffa|البحرين|المنامة|المحرق/i],
+  ['+962', 'Jordan', 'د.أ', /jordan|amman|irbid|aqaba|الأردن|الاردن|عمّان|عمان/i]
+];
 const phone = (m.phone || '').replace(/[^\d+]/g, '');
-const [, country, currency] = COUNTRY.find(([p]) => phone.startsWith(p)) || [null, old.country || 'Jordan', old.currency || 'د.أ'];
+const locBlob = [old.country, m.address, m.city, m.area].filter(Boolean).join(' ');
+const hitCountry = COUNTRY.find(([p]) => phone.startsWith(p))
+  || COUNTRY.find(([, , , re]) => re.test(locBlob))
+  || [null, old.country || 'Jordan', old.currency || 'د.أ'];
+const [, country, currency] = hitCountry;
 const mapsUrl = m.maps_url;
 const credit = 'من خرائط Google';
 

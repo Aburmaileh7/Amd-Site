@@ -204,28 +204,50 @@ if (!batch.length) {
   process.exit(0);
 }
 
+// Seed contact channels + country into work/<slug>/materials.json for EVERY item in the batch
+// (so backlog rows at صفحة جاهزة / اجتاز / رجّعه المراجع also keep their Notion channels & country!)
+function seedMaterials(item) {
+  if (!item.slug || DRY_RUN) return;
+  const ch = parseChannels(item);
+  if (!ch.instagram && !ch.whatsapp && !item.country) return;
+  const dir = join(ROOT, `work/${item.slug}`);
+  mkdirSync(dir, { recursive: true });
+  const matPath = join(dir, 'materials.json');
+  const prev = existsSync(matPath) ? JSON.parse(readFileSync(matPath, 'utf8')) : { slug: item.slug, name: item.name || item.slug };
+  const seeded = {
+    ...prev,
+    ...(item.country && !prev.country ? { country: item.country } : {}),
+    ...(ch.instagram && !prev.instagram ? { instagram: ch.instagram } : {}),
+    ...(ch.whatsapp && !prev.whatsapp ? { whatsapp: ch.whatsapp } : {}),
+    ...(ch.whatsapp_confirmed ? { whatsapp_confirmed: true } : {}),
+    facts: { ...(prev.facts || {}), ...(ch.instagram && !prev.facts?.instagram ? { instagram: ch.instagram } : {}) }
+  };
+  writeFileSync(matPath, JSON.stringify(seeded, null, 2) + '\n');
+}
+
+for (const b of batch) seedMaterials(b);
+
 log(`Batch (${batch.length} sites): ${batch.map((b) => `${b.slug || b.name}[${b.status}]`).join(', ')}`);
 
-// ---------- Step 2: Build Sites (Parallel) ----------
+async function routeProductionFix(slug, sourceLabel, round) {
+  await runAgent('amd-production-manager',
+    `task ${slug}/${sourceLabel}-r${round}: read work/${slug}/${sourceLabel === 'quality-fix' ? 'quality-verdict.md' : 'prod-check.json'} and qa-out/${slug}/{mobile,desktop}-sheet.jpg. Assign each defect to the right employee in work/${slug}/production-verdict.md.`,
+    { tag: `${slug}-prod-mgr-${sourceLabel}-r${round}` });
+  const verdict = existsSync(join(ROOT, `work/${slug}/production-verdict.md`))
+    ? readFileSync(join(ROOT, `work/${slug}/production-verdict.md`), 'utf8') : '';
+  const targets = ['amd-content-collector', 'amd-content-writer', 'amd-designer', 'amd-motion-developer'].filter((a) => verdict.includes(a));
+  for (const emp of targets.length ? targets : ['amd-designer']) {
+    await runAgent(emp, `task ${slug}/fix-r${round}: follow your assignment in work/${slug}/production-verdict.md.`, { tag: `${slug}-${emp}-r${round}` });
+  }
+}
+
+// ---------- Step 2: Build New Sites + Fix Backlog Returned Sites ----------
 async function buildOneSite(item) {
   const slug = item.slug;
   if (!slug) { log(`! skipping "${item.name}": missing slug`); return false; }
   mkdirSync(join(ROOT, `work/${slug}`), { recursive: true });
-
-  // Seed contact channels (Instagram / confirmed WhatsApp) from Notion or lead-researcher into materials.json
   const ch = parseChannels(item);
   const matPath = join(ROOT, `work/${slug}/materials.json`);
-  if ((ch.instagram || ch.whatsapp) && !DRY_RUN) {
-    const prev = existsSync(matPath) ? JSON.parse(readFileSync(matPath, 'utf8')) : { slug, name: item.name || slug };
-    const seeded = {
-      ...prev,
-      ...(ch.instagram && !prev.instagram ? { instagram: ch.instagram } : {}),
-      ...(ch.whatsapp && !prev.whatsapp ? { whatsapp: ch.whatsapp } : {}),
-      ...(ch.whatsapp_confirmed ? { whatsapp_confirmed: true } : {}),
-      facts: { ...(prev.facts || {}), ...(ch.instagram && !prev.facts?.instagram ? { instagram: ch.instagram } : {}) }
-    };
-    writeFileSync(matPath, JSON.stringify(seeded, null, 2) + '\n');
-  }
 
   // Mechanical maps fetch + thumbnails (0 LLM)
   if (!existsSync(join(ROOT, `work/${slug}/maps.json`)) && item.link) {
@@ -259,8 +281,16 @@ async function buildOneSite(item) {
   return existsSync(join(ROOT, `sites/${slug}/place.json`));
 }
 
+const fixRoundsUsed = new Map();
 const toBuild = batch.filter((b) => b.status === 'جديد' && b.slug);
 if (toBuild.length) await mapLimit(toBuild, CONCURRENCY, buildOneSite);
+
+// Backlog sites already returned by quality get fixed BEFORE shipping!
+const backlogReturned = batch.filter((b) => b.status === 'رجّعه المراجع' && b.slug && existsSync(join(ROOT, `sites/${b.slug}/place.json`)));
+for (const b of backlogReturned) {
+  fixRoundsUsed.set(b.slug, 1);
+  await routeProductionFix(b.slug, 'quality-fix', 1);
+}
 
 const builtSlugs = batch.filter((b) => b.slug && existsSync(join(ROOT, `sites/${b.slug}/place.json`))).map((b) => b.slug);
 const needsShip = batch.filter((b) => b.slug && ['جديد', 'رجّعه المراجع'].includes(b.status) && existsSync(join(ROOT, `sites/${b.slug}/place.json`))).map((b) => b.slug);
@@ -276,53 +306,78 @@ if (needsShip.length) shipAndCheck(needsShip);
 
 // Route prod-check returns (up to MAX_FIX_ROUNDS)
 for (let round = 1; round <= MAX_FIX_ROUNDS; round++) {
-  const returned = needsShip.filter((s) => readJson(`work/${s}/prod-check.json`)?.verdict === 'return');
+  const returned = needsShip.filter((s) => readJson(`work/${s}/prod-check.json`)?.verdict === 'return' && (fixRoundsUsed.get(s) || 0) < MAX_FIX_ROUNDS);
   if (!returned.length) break;
   for (const slug of returned) {
-    await runAgent('amd-production-manager',
-      `task ${slug}/prod-fix-r${round}: prod-check returned ${slug}. Read work/${slug}/prod-check.json and qa-out/${slug}/{mobile,desktop}-sheet.jpg. Write work/${slug}/production-verdict.md.`,
-      { tag: `${slug}-prod-mgr-r${round}` });
-    const verdict = existsSync(join(ROOT, `work/${slug}/production-verdict.md`))
-      ? readFileSync(join(ROOT, `work/${slug}/production-verdict.md`), 'utf8') : '';
-    const targets = ['amd-content-collector', 'amd-content-writer', 'amd-designer', 'amd-motion-developer'].filter((a) => verdict.includes(a));
-    for (const emp of targets.length ? targets : ['amd-designer']) {
-      await runAgent(emp, `task ${slug}/fix-r${round}: follow your assignment in work/${slug}/production-verdict.md.`, { tag: `${slug}-${emp}-r${round}` });
-    }
+    const r = (fixRoundsUsed.get(slug) || 0) + 1;
+    fixRoundsUsed.set(slug, r);
+    await routeProductionFix(slug, 'prod-fix', r);
   }
   shipAndCheck(returned);
 }
 
-// ---------- Step 4: Auto-Gated Quality ----------
-const forQuality = batch.filter((b) => b.slug && !['اجتاز', 'جاهز لمراجعتي'].includes(b.status) && builtSlugs.includes(b.slug)).map((b) => b.slug);
-if (forQuality.length) {
-  runNode('scripts/perf-check.mjs', NO_SHIP ? [...forQuality, '--local'] : forQuality);
-  runNode('scripts/honesty-check.mjs', forQuality);
+// ---------- Step 4: Auto-Gated Quality (with fix loop up to MAX_FIX_ROUNDS) ----------
+function ensureQaSheets(slugs) {
+  const missing = slugs.filter((s) => !existsSync(join(ROOT, `qa-out/${s}/mobile-sheet.jpg`)) || !existsSync(join(ROOT, `qa-out/${s}/desktop-sheet.jpg`)));
+  if (!missing.length || DRY_RUN) return;
+  log(`generating missing QA sheets for: ${missing.join(', ')}`);
+  spawnSync(process.execPath, [join(ROOT, 'node_modules/astro/astro.js'), 'build'], {
+    cwd: ROOT, env: { ...process.env, ONLY_SLUGS: missing.join(',') }, stdio: 'ignore', timeout: 5 * 60 * 1000
+  });
+  runNode('scripts/qa.mjs', missing);
+}
 
-  await mapLimit(forQuality, CONCURRENCY, async (slug) => {
+async function runQualityPass(slugs, passTag) {
+  if (!slugs.length) return;
+  ensureQaSheets(slugs);
+  runNode('scripts/perf-check.mjs', NO_SHIP ? [...slugs, '--local'] : slugs);
+  runNode('scripts/honesty-check.mjs', slugs);
+
+  await mapLimit(slugs, CONCURRENCY, async (slug) => {
     const auto = readJson(`work/${slug}/honesty-auto.json`);
     const tasks = [
       runAgent('amd-design-reviewer',
-        `task ${slug}/design-review: review qa-out/${slug}/mobile-sheet.jpg and desktop-sheet.jpg. Write work/${slug}/review-design.md (line 1: التقييم: X/10).`,
-        { tag: `${slug}-design-rev` })
+        `task ${slug}/design-review-${passTag}: review qa-out/${slug}/mobile-sheet.jpg and desktop-sheet.jpg. Write work/${slug}/review-design.md (line 1: التقييم: X/10).`,
+        { tag: `${slug}-design-rev-${passTag}` })
     ];
     if (auto?.verdict === 'pass') {
       tasks.push(runAgent('amd-honesty-reviewer',
-        `task ${slug}/honesty-review: honesty-auto.json passed. Diff Arabic copy in sites/${slug}/place.json against work/${slug}/materials.json. Write work/${slug}/review-honesty.md.`,
-        { tag: `${slug}-honesty-rev` }));
+        `task ${slug}/honesty-review-${passTag}: honesty-auto.json passed. Diff Arabic copy in sites/${slug}/place.json against work/${slug}/materials.json. Write work/${slug}/review-honesty.md.`,
+        { tag: `${slug}-honesty-rev-${passTag}` }));
     }
     await Promise.all(tasks);
   });
 
-  runNode('scripts/quality-gate.mjs', forQuality);
-  const escalated = forQuality.filter((s) => readJson(`work/${s}/quality-gate.json`)?.decision === 'escalate');
+  runNode('scripts/quality-gate.mjs', slugs);
+  const escalated = slugs.filter((s) => readJson(`work/${s}/quality-gate.json`)?.decision === 'escalate');
   for (const slug of escalated) {
     await runAgent('amd-quality-manager',
-      `task ${slug}/quality-verdict: quality-gate escalated ${slug}. Read work/${slug}/{quality-gate.json,review-design.md,honesty-auto.json,review-honesty.md,perf.json}. Write work/${slug}/quality-verdict.md.`,
-      { tag: `${slug}-qual-mgr` });
+      `task ${slug}/quality-verdict-${passTag}: quality-gate escalated ${slug}. Read work/${slug}/{quality-gate.json,review-design.md,honesty-auto.json,review-honesty.md,perf.json}. Write work/${slug}/quality-verdict.md.`,
+      { tag: `${slug}-qual-mgr-${passTag}` });
   }
 }
 
-// ---------- Step 5: Batched Auto-Gated Sales (ONE session for all passing sites!) ----------
+const forQuality = batch.filter((b) => b.slug && !['اجتاز', 'جاهز لمراجعتي'].includes(b.status) && builtSlugs.includes(b.slug)).map((b) => b.slug);
+if (forQuality.length) {
+  await runQualityPass(forQuality, 'p1');
+  for (let round = 1; round <= MAX_FIX_ROUNDS; round++) {
+    const qReturned = forQuality.filter((s) => {
+      if ((fixRoundsUsed.get(s) || 0) >= MAX_FIX_ROUNDS) return false;
+      const qv = existsSync(join(ROOT, `work/${s}/quality-verdict.md`)) ? readFileSync(join(ROOT, `work/${s}/quality-verdict.md`), 'utf8') : '';
+      return /رجّعه المراجع/.test(qv);
+    });
+    if (!qReturned.length) break;
+    for (const slug of qReturned) {
+      const r = (fixRoundsUsed.get(slug) || 0) + 1;
+      fixRoundsUsed.set(slug, r);
+      await routeProductionFix(slug, 'quality-fix', r);
+    }
+    shipAndCheck(qReturned);
+    await runQualityPass(qReturned, `fix${round}`);
+  }
+}
+
+// ---------- Step 5: Batched Auto-Gated Sales (5 per session + 1 retry on ارجع) ----------
 const passedQuality = builtSlugs.filter((s) => {
   const qg = readJson(`work/${s}/quality-gate.json`);
   const qv = existsSync(join(ROOT, `work/${s}/quality-verdict.md`)) ? readFileSync(join(ROOT, `work/${s}/quality-verdict.md`), 'utf8') : '';
@@ -351,6 +406,24 @@ if (passedQuality.length) {
     await runAgent('amd-sales-manager',
       `task batch-sales-gate-${ci + 1}: msg-check passed for (${group.join(', ')}). Judge each work/<slug>/message.txt against work/<slug>/materials.json and write work/<slug>/sales-verdict.md.`,
       { tag: `batch-sales-mgr-${ci + 1}` });
+  }
+
+  // One retry round for any message returned by sales manager (ارجع)
+  const salesReturned = readyMsg.filter((s) => {
+    const sv = existsSync(join(ROOT, `work/${s}/sales-verdict.md`)) ? readFileSync(join(ROOT, `work/${s}/sales-verdict.md`), 'utf8') : '';
+    return /ارجع/.test(sv) && !/جاهز لمراجعتي/.test(sv);
+  });
+  if (salesReturned.length) {
+    await runAgent('amd-message-writer',
+      `task batch-messages-sales-retry: rewrite messages returned in work/<slug>/sales-verdict.md for: ${salesReturned.join(', ')}.`,
+      { tag: 'batch-msg-sales-retry' });
+    runNode('scripts/msg-check.mjs', salesReturned);
+    const retryPass = salesReturned.filter((s) => readJson(`work/${s}/msg-check.json`)?.verdict === 'pass');
+    if (retryPass.length) {
+      await runAgent('amd-sales-manager',
+        `task batch-sales-gate-retry: re-judge rewritten messages for (${retryPass.join(', ')}) and update work/<slug>/sales-verdict.md.`,
+        { tag: 'batch-sales-mgr-retry' });
+    }
   }
 }
 

@@ -54,15 +54,16 @@ const reviews = (ch.reviews || (mat.reviews || []).map((r) => r.source_ref)).map
   return { author, stars: r.stars, text: String(r.text).replace(/\s+/g, ' ').trim(), source_ref: r.source_ref };
 }).filter(Boolean);
 
-// menu: items and prices from materials only
+// menu: items and prices from materials only (optional Arabic descs/note from copy.json)
 let menu;
 if (mat.menu?.categories?.length) {
   const cm = ch.menu || {};
+  const descs = copy.menu_descs || {};
   menu = prune({
     kind: cm.kind || (mat.menu.kind === 'services' ? 'services' : 'menu'),
     sample: !!mat.menu.sample,
-    title: copy.sections?.menu_title,
-    note: mat.menu.note,
+    title: copy.sections?.menu_title || copy.sections?.menu,
+    note: mat.menu.note || copy.menu_note,
     currency: mat.menu.kind === 'services' && cm.kind === 'services' && !mat.menu.categories.some((c) => c.items?.some((i) => i.price != null)) ? undefined : mat.menu.currency || mat.currency,
     foot: cm.foot,
     categories: mat.menu.categories.map((c, i) => prune({
@@ -70,14 +71,14 @@ if (mat.menu?.categories?.length) {
       title: c.title || c.name,
       tagline: cm.categories?.[i]?.tagline || c.tagline,
       image: cm.categories?.[i]?.image,
-      items: (c.items || []).map((it) => prune({ name: it.name, desc: it.desc, price: it.price, mentioned: it.mentioned || undefined }))
+      items: (c.items || []).map((it) => prune({ name: it.name, desc: it.desc || descs[it.name], price: it.price, mentioned: it.mentioned || undefined }))
     }))
   });
 }
 
 const story = copy.story?.items?.length ? {
-  title: copy.sections?.story_title || copy.story.title,
-  items: copy.story.items.map((it, i) => prune({ label: ch.story_items?.[i]?.label, title: it.title, text: it.text,
+  title: copy.sections?.story_title || copy.sections?.story || copy.story.title,
+  items: copy.story.items.map((it, i) => prune({ label: ch.story_items?.[i]?.label, title: it.title, text: it.text || it.body,
     image: ch.story_items?.[i]?.image, time: ch.story_items?.[i]?.time }))
 } : undefined;
 
@@ -110,7 +111,7 @@ let place = prune({
   reviews,
   amenities: ch.amenities,
   hours: ch.hours_rows?.length ? { rows: ch.hours_rows, source: ch.hours_source || 'خرائط Google' } : undefined,
-  visit: prune({ title: copy.sections?.visit_title, image: ch.visit_image }),
+  visit: prune({ title: copy.sections?.visit_title || copy.sections?.visit, image: ch.visit_image }),
   images
 });
 place = merge(place, ch.overrides || {});

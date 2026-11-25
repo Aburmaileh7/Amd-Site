@@ -1,10 +1,13 @@
 // /p/<place_id>.json — lets n8n find a finished site by Google place_id
 // (unguessable; no public list of demo sites).
 export function getStaticPaths() {
+  const only = process.env.ONLY_SLUGS
+    ? new Set(process.env.ONLY_SLUGS.split(',').map((s) => s.trim()).filter(Boolean))
+    : null;
   const files = import.meta.glob('../../../sites/*/place.json', { eager: true });
   return Object.entries(files)
     .map(([path, mod]) => ({ slug: path.split('/').at(-2), p: mod.default ?? mod }))
-    .filter(({ p }) => p.place_id)
+    .filter(({ slug, p }) => p.place_id && (!only || only.has(slug)))
     .map(({ slug, p }) => ({ params: { pid: p.place_id }, props: { slug, p } }));
 }
 export function GET({ props }) {

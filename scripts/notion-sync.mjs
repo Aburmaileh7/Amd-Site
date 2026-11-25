@@ -47,17 +47,31 @@ async function notionReq(path, method = 'GET', body = null) {
   return text ? JSON.parse(text) : {};
 }
 
-async function queryRows(filter = undefined, pageSize = 50) {
-  const payload = { page_size: pageSize, ...(filter ? { filter } : {}) };
-  try {
-    return (await notionReq(`/data_sources/${DATA_SOURCE_ID}/query`, 'POST', payload)).results || [];
-  } catch (e) {
-    // Fallback for older database_id usage
-    if (/404|object_not_found/i.test(e.message)) {
-      return (await notionReq(`/databases/${DATA_SOURCE_ID}/query`, 'POST', payload)).results || [];
+async function queryRows(filter = undefined, maxRows = 500) {
+  const results = [];
+  let cursor = undefined;
+  let useLegacy = false;
+  while (results.length < maxRows) {
+    const pageSize = Math.min(100, maxRows - results.length);
+    const payload = { page_size: pageSize, ...(filter ? { filter } : {}), ...(cursor ? { start_cursor: cursor } : {}) };
+    let data;
+    if (!useLegacy) {
+      try {
+        data = await notionReq(`/data_sources/${DATA_SOURCE_ID}/query`, 'POST', payload);
+      } catch (e) {
+        if (/404|object_not_found/i.test(e.message)) {
+          useLegacy = true;
+          data = await notionReq(`/databases/${DATA_SOURCE_ID}/query`, 'POST', payload);
+        } else throw e;
+      }
+    } else {
+      data = await notionReq(`/databases/${DATA_SOURCE_ID}/query`, 'POST', payload);
     }
-    throw e;
+    results.push(...(data.results || []));
+    if (!data.has_more || !data.next_cursor) break;
+    cursor = data.next_cursor;
   }
+  return results;
 }
 
 const getTitle = (p, k) => (p.properties?.[k]?.title || []).map((t) => t.plain_text).join('').trim();
@@ -84,7 +98,7 @@ if (cmd === 'check') {
 if (cmd === 'sync-sent') {
   const taps = JSON.parse(execFileSync(process.execPath, [join(DIR, 'go-log-check.mjs')], { encoding: 'utf8' }));
   if (!taps.length) { console.log(JSON.stringify({ updated: 0, rows: [] })); process.exit(0); }
-  const rows = await queryRows({ property: 'الحالة', select: { equals: 'جاهز لمراجعتي' } }, 100);
+  const rows = await queryRows({ property: 'الحالة', select: { equals: 'جاهز لمراجعتي' } }, 500);
   const bySlug = new Map();
   for (const r of rows) {
     const s = slugFromPageUrl(getUrl(r, 'رابط الصفحة'));
@@ -139,7 +153,7 @@ if (cmd === 'create-leads') {
   const file = args[0];
   if (!file || !existsSync(file)) { console.error('✗ leads file missing'); process.exit(2); }
   const leads = JSON.parse(readFileSync(file, 'utf8'));
-  const existing = await queryRows(undefined, 100);
+  const existing = await queryRows(undefined, 1000);
   const existingNames = new Set(existing.map((r) => getTitle(r, 'العميل').toLowerCase()));
   const existingLinks = new Set(existing.map((r) => getUrl(r, 'الرابط')).filter(Boolean));
   const today = new Date().toISOString().slice(0, 10);
@@ -174,7 +188,7 @@ if (cmd === 'update-batch') {
     or: ['جديد', 'صفحة جاهزة', 'رجّعه المراجع', 'اجتاز', 'جاهز لمراجعتي'].map((s) => ({
       property: 'الحالة', select: { equals: s }
     }))
-  }, 100);
+  }, 500);
 
   const findRow = (slug, name, mapsUrl) => allRows.find((r) => {
     if (slugFromPageUrl(getUrl(r, 'رابط الصفحة')) === slug) return true;
@@ -208,7 +222,14 @@ if (cmd === 'update-batch') {
     if (nextStatus) props['الحالة'] = selectProp(nextStatus);
     if (ship?.live?.[slug]?.startsWith('https')) props['رابط الصفحة'] = urlProp(ship.live[slug]);
     if (qGate?.design_score != null) props['تقييم المراجع'] = { number: qGate.design_score };
-    if (qVerdict) props['ملاحظات المراجع'] = richText(`🔍 جودة: ${qVerdict.split('\n').slice(0, 3).join(' · ')}`);
+    if (qVerdict) {
+      const lines = qVerdict.split('\n').map((l) => l.trim()).filter(Boolean);
+      const ideaIdx = lines.findIndex((l) => /اقتراح|ميزة|فكرة|ideas?/i.test(l));
+      const notesLines = (ideaIdx > 0 ? lines.slice(0, ideaIdx) : lines).slice(0, 4);
+      const ideaLines = ideaIdx >= 0 ? lines.slice(ideaIdx).slice(0, 3) : [];
+      props['ملاحظات المراجع'] = richText(`🔍 جودة: ${notesLines.join(' · ')}`);
+      if (ideaLines.length) props['اقتراحات المراجع'] = richText(ideaLines.join(' · '));
+    }
     if (nextStatus === 'جاهز لمراجعتي' && msgTxt) {
       props['الرسالة'] = richText(msgTxt);
       if (msgCheck?.buttons?.wa) props['زر واتساب'] = urlProp(msgCheck.buttons.wa);
