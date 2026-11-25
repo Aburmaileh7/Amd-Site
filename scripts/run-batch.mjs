@@ -6,7 +6,7 @@
 //   node scripts/run-batch.mjs --slugs=slug1,slug2 [--concurrency=2] [--no-ship] [--custom-motion] [--dry-run]
 //   node scripts/run-batch.mjs --batch=4 [--concurrency=2] [--lead-query="cafe|bakery"] [--lead-location="Riyadh, Saudi Arabia"]
 //
-// Owner limits enforced: max 5 new leads/run, max 2 fix rounds/site, max 4 sites/batch by default.
+// Owner limits enforced: max 10 new leads/run, max 2 fix rounds/site, max 10 sites/batch.
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { spawn, spawnSync } from 'node:child_process';
 import { homedir } from 'node:os';
@@ -25,7 +25,7 @@ const flagVal = (name, def) => {
 };
 const hasFlag = (name) => rawArgs.includes(`--${name}`);
 
-const BATCH_SIZE = Math.min(Number(flagVal('batch', '4')), 6);
+const BATCH_SIZE = Math.min(Number(flagVal('batch', '10')), 10);
 const CONCURRENCY = Math.max(1, Math.min(Number(flagVal('concurrency', '2')), 4));
 const EXPLICIT_SLUGS = flagVal('slugs', '').split(',').map((s) => s.trim()).filter(Boolean);
 const LEAD_QUERY = flagVal('lead-query', '');
@@ -127,7 +127,7 @@ if (EXPLICIT_SLUGS.length) {
 
 // ---------- Step 1: Leads (only if backlog < BATCH_SIZE and query provided) ----------
 if (!EXPLICIT_SLUGS.length && batch.length < BATCH_SIZE && LEAD_QUERY && LEAD_LOC) {
-  const need = Math.min(5, BATCH_SIZE - batch.length);
+  const need = Math.min(10, BATCH_SIZE - batch.length);
   const today = new Date().toISOString().slice(0, 10).replace(/-/g, '');
   mkdirSync(join(ROOT, 'work/_leads'), { recursive: true });
   const raw = runNode('scripts/maps-fetch.mjs', ['search', LEAD_QUERY, LEAD_LOC, '20']);
@@ -264,9 +264,12 @@ const passedQuality = builtSlugs.filter((s) => {
 });
 
 if (passedQuality.length) {
-  await runAgent('amd-message-writer',
-    `task batch-messages: write ONE first message per slug (${passedQuality.join(', ')}) from each work/<slug>/materials.json to work/<slug>/message.txt.`,
-    { tag: 'batch-msg-writer' });
+  const chunk = (arr, n) => Array.from({ length: Math.ceil(arr.length / n) }, (_, i) => arr.slice(i * n, (i + 1) * n));
+  for (const [ci, group] of chunk(passedQuality, 5).entries()) {
+    await runAgent('amd-message-writer',
+      `task batch-messages-${ci + 1}: write ONE first message per slug (${group.join(', ')}) from each work/<slug>/materials.json to work/<slug>/message.txt.`,
+      { tag: `batch-msg-writer-${ci + 1}` });
+  }
   runNode('scripts/msg-check.mjs', passedQuality);
 
   const failedMsg = passedQuality.filter((s) => readJson(`work/${s}/msg-check.json`)?.verdict === 'fail');
@@ -278,10 +281,10 @@ if (passedQuality.length) {
   }
 
   const readyMsg = passedQuality.filter((s) => readJson(`work/${s}/msg-check.json`)?.verdict === 'pass');
-  if (readyMsg.length) {
+  for (const [ci, group] of chunk(readyMsg, 5).entries()) {
     await runAgent('amd-sales-manager',
-      `task batch-sales-gate: msg-check passed for (${readyMsg.join(', ')}). Judge each work/<slug>/message.txt against work/<slug>/materials.json and write work/<slug>/sales-verdict.md.`,
-      { tag: 'batch-sales-mgr' });
+      `task batch-sales-gate-${ci + 1}: msg-check passed for (${group.join(', ')}). Judge each work/<slug>/message.txt against work/<slug>/materials.json and write work/<slug>/sales-verdict.md.`,
+      { tag: `batch-sales-mgr-${ci + 1}` });
   }
 }
 

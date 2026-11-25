@@ -10,7 +10,7 @@ Astro + GSAP demo sites factory. One folder per business: `sites/<slug>/place.js
 5. Never use `mcp__claude-in-chrome__*` (the owner's personal Chrome).
 
 ## Fixed tools (zero LLM — always prefer over manual work)
-- Zero-LLM batch runner (preferred over interactive CEO): `node scripts/run-batch.mjs --batch=4 --concurrency=2` (isolates Notion MCP via `scripts/mcp-none.json`)
+- Zero-LLM batch runner (preferred over interactive CEO): `node scripts/run-batch.mjs --batch=10 --concurrency=2` (isolates Notion MCP via `scripts/mcp-none.json`)
 - Direct Notion API sync (when `~/.config/amd-web/notion-token` exists): `node scripts/notion-sync.mjs check|sync-sent|backlog|create-leads|update-batch`
 - Maps fetch (free-first, Apify fallback): `node scripts/maps-fetch.mjs search "<q1|q2>" "<city, country>" [max] | place "<url>" [imgs] [revs]`
 - Lead filter: `node scripts/lead-filter.mjs <raw.json> [minReviews=10]`
