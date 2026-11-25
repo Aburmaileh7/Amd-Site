@@ -189,7 +189,7 @@ html[data-site="magma-kuwait"] .visit .btn--ghost:hover{border-color:var(--steam
   html[data-site="magma-kuwait"] .site-header nav{gap:10px}
   html[data-site="magma-kuwait"] .hero__headline{font-size:clamp(1.7rem,7.4vw,2.2rem)}
   html[data-site="magma-kuwait"] .story::before{height:64px}
-  html[data-site="magma-kuwait"] .hero .photo__badge{bottom:14px;top:auto;inset-inline-start:auto;inset-inline-end:14px}
+  html[data-site="magma-kuwait"] .hero .photo__badge{bottom:auto;top:112px;inset-inline-start:16px;inset-inline-end:auto}
   html[data-site="magma-kuwait"] .visit{padding-top:clamp(150px,38vw,190px);padding-bottom:72px}
   html[data-site="magma-kuwait"] .visit__bg .photo img{object-position:38% 55%}
 }
