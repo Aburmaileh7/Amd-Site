@@ -1,0 +1,353 @@
+{
+  "place_id": "ChIJ2Y-ObTdfXz4R_tmoZykObTc",
+  "batch_id": "amd-gulf-20261125",
+  "slug": "twig-men-care",
+  "theme": "beauty_soft",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google + صفحة المحل الرسمية على Fresha",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#3E5233",
+    "rgb": "62, 82, 51",
+    "hover": "#2F4026",
+    "ink": "#FFFFFF"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "name": "TWIG Men Care Center",
+  "name_lang": "en",
+  "category_label": "صالون حلاقة رجالية",
+  "area": "مويلح التجارية، الشارقة",
+  "address": "مويلح التجارية، المنطقة الصناعية، الشارقة، الإمارات العربية المتحدة",
+  "phone": {
+    "display": "+971 56 282 8959",
+    "tel": "+971562828959"
+  },
+  "directions_url": "https://www.google.com/maps/place/TWIG+Men+Care+Center/data=!4m7!3m6!1s0x3e5f5f376d8e8fd9:0x376d0e2967a8d9fe!8m2!3d25.3077444!4d55.453445!16s%2Fg%2F11ryln6x5s!19sChIJ2Y-ObTdfXz4R_tmoZykObTc?authuser=0&hl=en&g_ep=EgoyMDI2MTEyMy4wIJJjKgBIAVAD&rclk=1",
+  "map_query": "TWIG Men Care Center, Muwaileh Commercial, Sharjah",
+  "rating": {
+    "value": 4.9,
+    "count": 270,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "حلاقة وعناية بالبشرة والأظافر في مويلح بالشارقة",
+    "intro": "مركز تويج للعناية بالرجل في مويلح التجارية بالشارقة، يفتح يومياً من 10 صباحاً حتى 11 مساءً لقص الشعر وحلاقة اللحية والفيشال والبدكير والمنكير بأسعار معلنة.",
+    "image": "hero"
+  },
+  "sections": [
+    "proof",
+    "menu",
+    "marquee",
+    "story",
+    "reviews",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "title": "ما يذكره الزبائن",
+    "items": [
+      {
+        "label": "الطاقم",
+        "title": "حلاقون متمرسون وتعامل لطيف",
+        "text": "تُثني التقييمات على لطف الطاقم ومهارة الحلاقين مع شكر خاص لمحمد وأحمد، ويذكر أحد الزبائن أنه سيعود للقص مع شقيقه، وتقييم المركز 4.9 من 270 تقييماً على خرائط Google.",
+        "image": "chairs",
+        "time": "4.9 ★ على Google"
+      },
+      {
+        "label": "الخدمات",
+        "title": "خدمات عناية متنوعة",
+        "text": "تشمل القائمة الرسمية على Fresha قص الشعر للرجال والأطفال وحلاقة اللحية، إلى جانب بروتين الشعر وعلاجات ناشي أرغان وجلسات الفيشال والبدكير والمنكير.",
+        "image": "shelves",
+        "time": "20 خدمة معلنة"
+      },
+      {
+        "label": "التجهيزات",
+        "title": "تجهيزات المركز وخيارات الحجز",
+        "text": "تُظهر صور المركز كراسي حلاقة جلدية وأرفف منتجات مضاءة وركناً للبدكير والمنكير وشجرة زيتون في الصالة، مع قبول البطاقات وApple Pay وGoogle Pay وحجز المجموعات بتأكيد فوري عبر Fresha.",
+        "image": "pedicure",
+        "time": "تأكيد فوري Fresha"
+      },
+      {
+        "label": "الموقع",
+        "title": "في مويلح التجارية بالشارقة",
+        "text": "يقع المركز في مويلح التجارية بالشارقة، ويفتح أبوابه يومياً من 10 صباحاً حتى 11 مساءً، وحاصل على تقييم 5 من 2594 تقييماً على منصة Fresha.",
+        "image": "decor",
+        "time": "10 ص – 11 م"
+      }
+    ]
+  },
+  "marquee": {
+    "label": "خدمات المركز",
+    "items": [
+      "قص الشعر وحلاقة اللحية",
+      "بروتين الشعر",
+      "تنظيف البشرة والفيشال",
+      "بدكير ومنكير",
+      "قص شعر الأطفال",
+      "مويلح التجارية، الشارقة"
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "sample": false,
+    "note": "الأسعار وقائمة الخدمات الرسمية من صفحة المحل على Fresha",
+    "currency": "د.إ",
+    "foot": "جميع الخدمات والأسعار من القائمة الرسمية للمركز على منصة Fresha.",
+    "categories": [
+      {
+        "id": "hair-beard",
+        "title": "الشعر واللحية",
+        "tagline": "قص وتشذيب وصبغ وبروتين الشعر واللحية",
+        "items": [
+          {
+            "name": "قص الشعر وحلاقة اللحية",
+            "desc": "جلسة متكاملة لقص الشعر وتحديد وحلاقة اللحية — المدة: ساعة واحدة.",
+            "price": 100,
+            "mentioned": true
+          },
+          {
+            "name": "حلاقة اللحية",
+            "desc": "تشذيب وتحديد اللحية بدقة — المدة: 30 دقيقة.",
+            "price": 50
+          },
+          {
+            "name": "حلاقة اللحية مع فيشال سريع",
+            "desc": "تحديد اللحية مع جلسة عناية سريعة للبشرة — المدة: ساعة واحدة.",
+            "price": 100,
+            "mentioned": true
+          },
+          {
+            "name": "صبغ اللحية",
+            "desc": "صبغ وتوحيد لون اللحية — المدة: 30 دقيقة.",
+            "price": 60
+          },
+          {
+            "name": "صبغ الشعر",
+            "desc": "صبغ الشعر (يبدأ السعر من 150 د.إ) — المدة: ساعة واحدة.",
+            "price": 150
+          },
+          {
+            "name": "بروتين الشعر",
+            "desc": "جلسة علاج البروتين لتنعيم الشعر (يبدأ السعر من 300 د.إ) — المدة: ساعتان.",
+            "price": 300,
+            "mentioned": true
+          }
+        ]
+      },
+      {
+        "id": "hair",
+        "title": "خدمات الشعر",
+        "tagline": "قص وتصفيف وعلاجات ناشي أرغان للشعر",
+        "items": [
+          {
+            "name": "قص الشعر",
+            "desc": "قص وتنسيق الشعر للرجال — المدة: 30 دقيقة.",
+            "price": 65,
+            "mentioned": true
+          },
+          {
+            "name": "قص شعر الأطفال",
+            "desc": "قص شعر مخصص للصغار — المدة: 30 دقيقة.",
+            "price": 50
+          },
+          {
+            "name": "حلاقة الرأس مكينة",
+            "desc": "حلاقة الرأس بالكامل بالمكينة — المدة: 30 دقيقة.",
+            "price": 50
+          },
+          {
+            "name": "غسل وتصفيف الشعر",
+            "desc": "غسل الشعر وتصفيفه — المدة: 20 دقيقة.",
+            "price": 30
+          },
+          {
+            "name": "علاج ناشي أرغان",
+            "desc": "جلسة عناية وترطيب للشعر بمنتجات Nashi Argan — المدة: ساعة واحدة.",
+            "price": 150
+          },
+          {
+            "name": "فيلر ناشي أرغان",
+            "desc": "جلسة فيلر للعناية بالشعر بمنتجات Nashi Argan — المدة: 30 دقيقة.",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "id": "facial",
+        "title": "العناية بالبشرة",
+        "tagline": "جلسات تنظيف وعناية ونضارة للبشرة",
+        "items": [
+          {
+            "name": "اكسبرس فيشال",
+            "desc": "جلسة فيشال سريعة لتنظيف وإنعاش البشرة (يبدأ السعر من 150 د.إ) — المدة: 30 إلى 45 دقيقة.",
+            "price": 150
+          },
+          {
+            "name": "فيشال التنظيف العميق",
+            "desc": "جلسة تنظيف عميق للبشرة (Deep Cleaning Facial) — المدة: ساعة واحدة.",
+            "price": 250
+          },
+          {
+            "name": "فيشال باور سي",
+            "desc": "جلسة عناية بالبشرة بفيتامين C (Power C Facial) — المدة: ساعة واحدة.",
+            "price": 350
+          }
+        ]
+      },
+      {
+        "id": "nails",
+        "title": "العناية بالأظافر",
+        "tagline": "بدكير ومنكير للرجال والصغار",
+        "items": [
+          {
+            "name": "بدكير ومنكير",
+            "desc": "عناية متكاملة بأظافر اليدين والقدمين — المدة: ساعة واحدة.",
+            "price": 135
+          },
+          {
+            "name": "منكير",
+            "desc": "تنظيف وتنسيق أظافر اليدين — المدة: 30 دقيقة.",
+            "price": 70
+          },
+          {
+            "name": "بدكير",
+            "desc": "تنظيف وعناية بأظافر القدمين — المدة: 30 دقيقة.",
+            "price": 80
+          },
+          {
+            "name": "قص أظافر سريع لليد والقدم",
+            "desc": "قص وتهذيب سريع لأظافر اليدين والقدمين — المدة: 30 دقيقة.",
+            "price": 80
+          },
+          {
+            "name": "منكير وبدكير للصغار",
+            "desc": "جلسة عناية بأظافر اليدين والقدمين للصغار — المدة: 45 دقيقة.",
+            "price": 100
+          }
+        ]
+      }
+    ],
+    "title": "الخدمات والأسعار"
+  },
+  "mentions": [
+    "قص الشعر",
+    "بروتين الشعر",
+    "قص الشعر وحلاقة اللحية",
+    "حلاقة اللحية مع فيشال"
+  ],
+  "reviews": [
+    {
+      "author": "Jasmin M.",
+      "stars": 5,
+      "text": "I love my haircut. Thank you. I will come back for sure. (with my brother)",
+      "source_ref": "01a1e4d7-3e41-71a7-9a69-bcb2fdd793e4"
+    },
+    {
+      "author": "Adil A.",
+      "stars": 5,
+      "text": "No doubt mohamed is a master of his craft. Great experience..",
+      "source_ref": "01a18bdb-f369-7684-acb1-7c914df2a680"
+    },
+    {
+      "author": "Ghareib A.",
+      "stars": 5,
+      "text": "It was very kind staff. Thank you, Mr Ahmed.",
+      "source_ref": "01a1ea85-67b7-7ccd-92a9-852008150fad"
+    },
+    {
+      "author": "Rakesh E.",
+      "stars": 5,
+      "text": "Great experience.",
+      "source_ref": "01a1b4e0-f4c1-78da-ac2d-f17a0b7e4bb3"
+    },
+    {
+      "author": "SS",
+      "stars": 5,
+      "text": "Great service!",
+      "source_ref": "01a187c6-422e-767f-8803-67e3ae54ae6e"
+    }
+  ],
+  "amenities": {
+    "title": "الحجز والدفع وساعات العمل",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "تأكيد فوري عبر Fresha",
+        "text": "إمكانية حجز الموعد أونلاين مع تأكيد فوري عبر صفحة المركز على Fresha."
+      },
+      {
+        "icon": "family",
+        "title": "حجوزات المجموعات والأطفال",
+        "text": "يتيح المركز حجز مواعيد المجموعات، مع خدمة قص شعر ومنكير وبدكير للصغار."
+      },
+      {
+        "icon": "check",
+        "title": "طرق دفع متعددة",
+        "text": "قبول الدفع النقدي والبطاقات البنكية وApple Pay وGoogle Pay."
+      },
+      {
+        "icon": "clock",
+        "title": "مفتوح يومياً حتى 11 مساءً",
+        "text": "ساعات العمل يومياً من 10 صباحاً حتى 11 مساءً في مويلح التجارية."
+      }
+    ]
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "10:00 ص – 11:00 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "10:00 ص – 11:00 م"
+      },
+      {
+        "days": "العطلات الرسمية",
+        "time": "قد تختلف الساعات"
+      }
+    ],
+    "source": "خرائط Google ومنصة Fresha"
+  },
+  "visit": {
+    "title": "زيارة المركز في مويلح"
+  },
+  "images": {
+    "hero": {
+      "file": "hero-interior.jpg",
+      "alt": "صورة من داخل مركز تويج للعناية بالرجل يظهر فيها كراسي الحلاقة والمرايا وشجرة الزيتون",
+      "source_url": "https://www.fresha.com/a/twig-sharjah-twig-men-care-center-k9l4hjy0",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "chairs": {
+      "file": "salon-chairs.jpg",
+      "alt": "صورة كراسي الحلاقة الجلدية السوداء داخل مركز تويج",
+      "source_url": "https://www.fresha.com/a/twig-sharjah-twig-men-care-center-k9l4hjy0",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "shelves": {
+      "file": "products-shelf.jpg",
+      "alt": "صورة أرفف منتجات العناية المضاءة ومنضدة الاستقبال في مركز تويج",
+      "source_url": "https://www.fresha.com/a/twig-sharjah-twig-men-care-center-k9l4hjy0",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "pedicure": {
+      "file": "pedicure-station.jpg",
+      "alt": "صورة ركن البدكير والمنكير في مركز تويج للعناية بالرجل",
+      "source_url": "https://www.fresha.com/a/twig-sharjah-twig-men-care-center-k9l4hjy0",
+      "credit": "من صفحة المحل على Fresha"
+    },
+    "decor": {
+      "file": "barber-chair-decor.jpg",
+      "alt": "صورة كرسي الحلاقة وأغصان شجرة الزيتون داخل الصالون",
+      "source_url": "https://www.fresha.com/a/twig-sharjah-twig-men-care-center-k9l4hjy0",
+      "credit": "من صفحة المحل على Fresha"
+    }
+  }
+}
