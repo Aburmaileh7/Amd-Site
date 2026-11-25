@@ -82,6 +82,14 @@ const story = copy.story?.items?.length ? {
 } : undefined;
 
 const tel = (f.phone || '').replace(/[^\d+]/g, '');
+const waConfirmed = mat.whatsapp_confirmed === true || String(mat.whatsapp_confirmed).toUpperCase() === 'TRUE';
+let whatsapp = null;
+if (waConfirmed && mat.whatsapp) {
+  const num = String(typeof mat.whatsapp === 'object' ? mat.whatsapp.number : mat.whatsapp).replace(/\D/g, '');
+  if (/^\d{8,15}$/.test(num)) {
+    whatsapp = { number: num, display: (typeof mat.whatsapp === 'object' && mat.whatsapp.display) || `+${num}` };
+  }
+}
 let place = prune({
   place_id: mat.place_id,
   batch_id: mat.batch_id || `amd-gulf-${new Date().toISOString().slice(0, 10).replace(/-/g, '')}`,
@@ -90,7 +98,7 @@ let place = prune({
   name: f.name || mat.name, name_lang: ch.name_lang || (/[؀-ۿ]/.test(f.name || mat.name) ? 'ar' : 'en'),
   category_label: copy.category_label, area: ch.area || f.area, address: ch.address || f.address,
   phone: tel ? { display: ch.phone_display || tel, tel } : undefined,
-  whatsapp: mat.whatsapp_confirmed === true && mat.whatsapp ? mat.whatsapp : null,
+  whatsapp,
   directions_url: f.google_maps_url, map_query: ch.map_query || [f.name, f.address].filter(Boolean).join(', '),
   rating: f.rating ? { value: f.rating.value, count: f.rating.count, source: 'Google' } : undefined,
   hero: prune({ headline: copy.hero?.headline, intro: copy.hero?.intro, image: ch.hero_image }),

@@ -64,7 +64,8 @@ for (const slug of slugs) {
   // Build ready-to-paste Notion /go/ buttons from materials.json (never opened!)
   const mat = readJson(`work/${slug}/materials.json`) || {};
   const waConfirmed = mat.whatsapp_confirmed === true || String(mat.whatsapp_confirmed).toUpperCase() === 'TRUE';
-  const waDigits = waConfirmed ? digits(mat.whatsapp || mat.facts?.phone || mat.phone) : '';
+  const rawWa = typeof mat.whatsapp === 'object' ? mat.whatsapp?.number : mat.whatsapp;
+  const waDigits = waConfirmed ? digits(rawWa || mat.facts?.phone || mat.phone) : '';
   const igUser = extractIgUser(mat.facts?.instagram || mat.instagram);
 
   const buttons = {

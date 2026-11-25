@@ -38,6 +38,19 @@ const reviewCandidates = (m.reviews || [])
   .slice(0, 10)
   .map((r) => ({ author: shortName(r.author), stars: r.stars, date: r.date, source_ref: r.review_id, text: trim(r.text) }));
 
+const IG_RE = /instagram\.com\/([A-Za-z0-9._]{1,30})/i;
+const IG_SKIP = /^(p|reel|reels|explore|stories|accounts|tv|about|legal|developer)$/i;
+const WA_RE = /(?:wa\.me\/|api\.whatsapp\.com\/send\/?\?(?:[^"'\s]*&)?phone=|whatsapp\.com\/send\?phone=)\+?(\d{6,15})/i;
+const mapLinks = JSON.stringify([m.website, m.instagrams, m.social_links, m.menu, m.reserve_url, m.booking_links].filter(Boolean)).replace(/\\\//g, '/');
+const igHit = mapLinks.match(IG_RE);
+const mapIg = igHit && !IG_SKIP.test(igHit[1]) ? `https://www.instagram.com/${igHit[1].replace(/\.$/, '')}/` : null;
+const waHit = mapLinks.match(WA_RE);
+const mapWa = waHit ? `+${waHit[1]}` : null;
+
+const resolvedIg = old.facts?.instagram || old.instagram || mapIg || null;
+const resolvedWaConfirmed = old.whatsapp_confirmed === true || String(old.whatsapp_confirmed).toUpperCase() === 'TRUE' || !!mapWa;
+const resolvedWa = old.whatsapp || mapWa || null;
+
 const mat = {
   ...old,
   slug,
@@ -45,7 +58,9 @@ const mat = {
   name: m.name,
   category: m.category,
   country, currency,
-  whatsapp_confirmed: old.whatsapp_confirmed ?? false,
+  instagram: resolvedIg,
+  whatsapp: resolvedWa,
+  whatsapp_confirmed: resolvedWaConfirmed,
   approved: false,
   data_source: old.data_source || 'خرائط Google',
   facts: {
@@ -55,7 +70,7 @@ const mat = {
     rating: m.rating ? { value: m.rating, count: m.reviews_count, source: 'Google Maps', source_url: mapsUrl } : null,
     amenities: (m.amenities || []).map((a) => a.replace(/^[^:]+:\s*/, '')),
     closed: m.closed || false,
-    ...(old.facts?.instagram ? { instagram: old.facts.instagram } : {})
+    ...(resolvedIg ? { instagram: resolvedIg } : {})
   },
   review_candidates: reviewCandidates,
   reviews: old.reviews || [],

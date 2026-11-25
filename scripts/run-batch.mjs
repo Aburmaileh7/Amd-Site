@@ -106,6 +106,47 @@ async function mapLimit(items, limit, fn) {
 
 const readJson = (p) => (existsSync(join(ROOT, p)) ? JSON.parse(readFileSync(join(ROOT, p), 'utf8')) : null);
 
+// Arabic-to-Latin slugify (matches lead-filter.mjs) so new Notion rows with no page_url get a valid slug
+const AR_MAP = {
+  'ا': 'a', 'أ': 'a', 'إ': 'i', 'آ': 'a', 'ى': 'a', 'ء': '', 'ئ': 'y', 'ؤ': 'w',
+  'ب': 'b', 'ت': 't', 'ة': 'a', 'ث': 'th', 'ج': 'j', 'ح': 'h', 'خ': 'kh',
+  'د': 'd', 'ذ': 'dh', 'ر': 'r', 'ز': 'z', 'س': 's', 'ش': 'sh', 'ص': 's',
+  'ض': 'd', 'ط': 't', 'ظ': 'z', 'ع': 'a', 'غ': 'gh', 'ف': 'f', 'ق': 'q',
+  'ك': 'k', 'ل': 'l', 'م': 'm', 'ن': 'n', 'ه': 'h', 'و': 'w', 'ي': 'y',
+  '٠': '0', '١': '1', '٢': '2', '٣': '3', '٤': '4', '٥': '5', '٦': '6', '٧': '7', '٨': '8', '٩': '9'
+};
+function makeSlug(name) {
+  const raw = String(name || '');
+  const latin = raw.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+    .replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  const base = (latin.length >= 3
+    ? latin
+    : raw.replace(/[\u064B-\u065F\u0670\u0640]/g, '').replace(/(^|\s)ال(?=[\u0621-\u064A])/g, '$1al-')
+        .replace(/[\u0621-\u064A\u0660-\u0669]/g, (ch) => AR_MAP[ch] ?? '')
+        .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
+  ).slice(0, 48).replace(/-+$/, '');
+  if (!base) return null;
+  let s = base, n = 2;
+  while (existsSync(join(ROOT, `sites/${s}/place.json`))) s = `${base}-${n++}`;
+  return s;
+}
+
+function parseChannels(item) {
+  const blob = [item.instagram, item.whatsapp, item.contact].filter(Boolean).join(' ');
+  const igUrl = blob.match(/instagram\.com\/([A-Za-z0-9._]{1,30})/i);
+  const igAt = !igUrl ? blob.match(/(?:^|\s)@([A-Za-z0-9._]{2,30})\b/) : null;
+  const igUser = (igUrl?.[1] || igAt?.[1] || '').replace(/\.$/, '') || null;
+  const waLink = blob.match(/(?:wa\.me\/|whatsapp\.com\/send\?[^"'\s]*phone=)\+?(\d{8,15})/i);
+  const waExplicit = item.whatsapp ? String(item.whatsapp).replace(/\D/g, '') : '';
+  const waDigits = waLink?.[1] || (waExplicit.length >= 8 ? waExplicit : null);
+  const waConfirmed = item.whatsapp_confirmed === true || String(item.whatsapp_confirmed).toUpperCase() === 'TRUE' || !!waLink;
+  return {
+    instagram: igUser ? `https://www.instagram.com/${igUser}/` : null,
+    whatsapp: waDigits ? `+${waDigits}` : null,
+    whatsapp_confirmed: !!(waConfirmed && waDigits)
+  };
+}
+
 // ---------- Step 0: Start Sync & Pick Batch ----------
 let batch = [];
 if (EXPLICIT_SLUGS.length) {
@@ -120,9 +161,14 @@ if (EXPLICIT_SLUGS.length) {
 } else {
   log('No ~/.config/amd-web/notion-token -> falling back to amd-records-keeper (MCP) for start sync');
   await runAgent('amd-records-keeper',
-    `task start-sync: run node scripts/go-log-check.mjs, mark sent rows انبعت, and write up to ${BATCH_SIZE} backlog rows (priority: اجتاز, صفحة جاهزة, رجّعه المراجع, جديد) as JSON array [{name,slug,status,link,country,type}] to work/_runs/${STAMP}/backlog.json.`,
+    `task start-sync: run node scripts/go-log-check.mjs, mark sent rows انبعت, and write up to ${BATCH_SIZE} backlog rows (priority: اجتاز, صفحة جاهزة, رجّعه المراجع, جديد) as JSON array [{name,slug,status,link,country,type,contact}] to work/_runs/${STAMP}/backlog.json (include "contact" from طريقة التواصل!).`,
     { needsMcp: true, tag: '00-start-sync' });
   batch = readJson(`work/_runs/${STAMP}/backlog.json`) || [];
+}
+
+// Ensure every new row has a valid slug even when رابط الصفحة is empty in Notion
+for (const b of batch) {
+  if (!b.slug && b.name) b.slug = makeSlug(b.name);
 }
 
 // ---------- Step 1: Leads (only if backlog < BATCH_SIZE and query provided) ----------
@@ -143,7 +189,11 @@ if (!EXPLICIT_SLUGS.length && batch.length < BATCH_SIZE && LEAD_QUERY && LEAD_LO
       if (hasNotionApi()) runNode('scripts/notion-sync.mjs', ['create-leads', `work/_leads/${today}.json`]);
       else await runAgent('amd-records-keeper', `task create-leads: add rows from work/_leads/${today}.json at status جديد.`, { needsMcp: true, tag: '01-leads-notion' });
       for (const l of picked.slice(0, BATCH_SIZE - batch.length)) {
-        if (l.slug) batch.push({ slug: l.slug, name: l.name, status: 'جديد', link: l.link });
+        const slug = l.slug || makeSlug(l.name);
+        if (slug) batch.push({
+          slug, name: l.name, status: 'جديد', link: l.link,
+          instagram: l.instagram || null, whatsapp: l.whatsapp || null, whatsapp_confirmed: l.whatsapp_confirmed
+        });
       }
     }
   }
@@ -162,17 +212,33 @@ async function buildOneSite(item) {
   if (!slug) { log(`! skipping "${item.name}": missing slug`); return false; }
   mkdirSync(join(ROOT, `work/${slug}`), { recursive: true });
 
+  // Seed contact channels (Instagram / confirmed WhatsApp) from Notion or lead-researcher into materials.json
+  const ch = parseChannels(item);
+  const matPath = join(ROOT, `work/${slug}/materials.json`);
+  if ((ch.instagram || ch.whatsapp) && !DRY_RUN) {
+    const prev = existsSync(matPath) ? JSON.parse(readFileSync(matPath, 'utf8')) : { slug, name: item.name || slug };
+    const seeded = {
+      ...prev,
+      ...(ch.instagram && !prev.instagram ? { instagram: ch.instagram } : {}),
+      ...(ch.whatsapp && !prev.whatsapp ? { whatsapp: ch.whatsapp } : {}),
+      ...(ch.whatsapp_confirmed ? { whatsapp_confirmed: true } : {}),
+      facts: { ...(prev.facts || {}), ...(ch.instagram && !prev.facts?.instagram ? { instagram: ch.instagram } : {}) }
+    };
+    writeFileSync(matPath, JSON.stringify(seeded, null, 2) + '\n');
+  }
+
   // Mechanical maps fetch + thumbnails (0 LLM)
   if (!existsSync(join(ROOT, `work/${slug}/maps.json`)) && item.link) {
     const fetched = runNode('scripts/maps-fetch.mjs', ['place', item.link, '12', '15']);
     if (fetched.ok) writeFileSync(join(ROOT, `work/${slug}/maps.json`), fetched.stdout);
   }
-  if (existsSync(join(ROOT, `work/${slug}/maps.json`)) && !existsSync(join(ROOT, `work/${slug}/materials.json`))) {
+  if (existsSync(join(ROOT, `work/${slug}/maps.json`)) && !(readJson(`work/${slug}/materials.json`)?.photo_candidates?.length)) {
     runNode('scripts/materials.mjs', [slug]);
   }
-  if (!existsSync(join(ROOT, `work/${slug}/materials.json`)) || !(readJson(`work/${slug}/materials.json`)?.photos?.length)) {
+  if (!existsSync(matPath) || !(readJson(`work/${slug}/materials.json`)?.photos?.length)) {
+    const chNote = [ch.instagram && `instagram=${ch.instagram}`, ch.whatsapp_confirmed && `whatsapp=${ch.whatsapp}`].filter(Boolean).join(', ');
     await runAgent('amd-content-collector',
-      `task ${slug}/collect: maps.json and thumbnails are in work/${slug}/. Pick 3-6 photos via materials.mjs --pick, select reviews/mentions, and do 1 menu search. Output: work/${slug}/materials.json.`,
+      `task ${slug}/collect: maps.json and thumbnails are in work/${slug}/.${chNote ? ` Known lead channels (preserve in materials.json): ${chNote}.` : ''} Pick 3-6 photos via materials.mjs --pick, select reviews/mentions, and do 1 menu search. Output: work/${slug}/materials.json.`,
       { tag: `${slug}-collect` });
   }
   if (!existsSync(join(ROOT, `work/${slug}/copy.json`))) {
