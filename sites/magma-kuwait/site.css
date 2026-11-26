@@ -196,3 +196,82 @@ html[data-site="magma-kuwait"] .visit .btn--ghost:hover{border-color:var(--steam
 @media (prefers-reduced-motion:reduce){
   html[data-site="magma-kuwait"] .story::before{transform:none}
 }
+
+/* ---------- fix round 1 (designer) ---------- */
+/* 1. mentions: no separator dot at all; spacing comes from gap */
+html[data-site="magma-kuwait"] .proof .mentions ul li + li::before,
+html[data-site="magma-kuwait"] .proof .mentions ul li::before,
+html[data-site="magma-kuwait"] .proof .mentions ul li::after{content:none!important;display:none!important;margin:0!important;width:0!important;height:0!important}
+html[data-site="magma-kuwait"] .proof .mentions ul{gap:12px 14px!important;flex-direction:row!important}
+
+/* 3. tighter vertical rhythm inside cards; section spacing >= 72 mobile / 120 desktop */
+html[data-site="magma-kuwait"] .story .panel__text{padding-block:0;margin-block:0;align-self:center}
+html[data-site="magma-kuwait"] .story .panel{row-gap:20px}
+html[data-site="magma-kuwait"] .rev__rail{align-items:start}
+html[data-site="magma-kuwait"] .card{min-height:0;height:auto;padding-block:clamp(20px,2.4vw,28px)}
+html[data-site="magma-kuwait"] .card blockquote{margin-block:12px 0}
+html[data-site="magma-kuwait"] .rev,
+html[data-site="magma-kuwait"] .proof,
+html[data-site="magma-kuwait"] .amen,
+html[data-site="magma-kuwait"] .menu{padding-block:72px}
+html[data-site="magma-kuwait"] .amen__grid{gap:32px}
+html[data-site="magma-kuwait"] .story{padding-bottom:72px}
+@media (min-width:900px){
+  html[data-site="magma-kuwait"] .rev,
+  html[data-site="magma-kuwait"] .proof,
+  html[data-site="magma-kuwait"] .amen,
+  html[data-site="magma-kuwait"] .menu{padding-block:120px}
+  html[data-site="magma-kuwait"] .story{padding-top:120px;padding-bottom:0}
+  html[data-site="magma-kuwait"] .amen__grid{gap:80px}
+}
+
+/* 7. preview bar: keep the brand mark whole, with side room */
+html[data-site="magma-kuwait"] .preview-bar{padding-inline:20px;overflow:visible}
+html[data-site="magma-kuwait"] .preview-bar .brandmark{display:inline-block;padding-inline:4px;line-height:1.6;letter-spacing:0;overflow:visible}
+
+@media (max-width:700px){
+  /* 8. show the menu link in the mobile bar, compact pills */
+  html[data-site="magma-kuwait"] .site-header .nav-menu{display:inline-flex!important;align-items:center}
+  html[data-site="magma-kuwait"] .site-header nav{gap:6px;flex-wrap:nowrap}
+  html[data-site="magma-kuwait"] .site-header .nav-btn,
+  html[data-site="magma-kuwait"] .site-header .nav-menu,
+  html[data-site="magma-kuwait"] .site-header .header-call{font-size:.85rem;padding-inline:.65rem;min-height:44px;display:inline-flex;align-items:center;white-space:nowrap}
+  html[data-site="magma-kuwait"] .site-header:not(.is-solid) .brand{padding-inline:.7rem}
+  /* hero credit badge clear of the header divider */
+  html[data-site="magma-kuwait"] .hero .photo__badge{top:160px}
+  /* 6. visit: keep the MAGMA sign whole; badge sits level with the title block */
+  html[data-site="magma-kuwait"] .visit__bg .photo img{object-position:82% 50%}
+  html[data-site="magma-kuwait"] .visit__badge{top:calc(clamp(150px,38vw,190px) - 48px);bottom:auto;inset-inline-end:var(--gutter,20px)}
+}
+
+/* 4. mobile: no empty grey bands above the amenities photo or under the juices section */
+@media (max-width:700px){
+  html[data-site="magma-kuwait"] .amen{padding-block:72px}
+  html[data-site="magma-kuwait"] .amen__grid{gap:24px;align-items:start;grid-auto-rows:auto}
+  html[data-site="magma-kuwait"] .amen__media{min-height:0;height:auto;margin:0;padding:0;align-self:start}
+  html[data-site="magma-kuwait"] .amen__media .photo{margin:0;height:auto;aspect-ratio:4/3}
+  html[data-site="magma-kuwait"] .amen__body{margin:0;padding:0}
+  html[data-site="magma-kuwait"] .story{padding-bottom:72px;min-height:0;height:auto}
+  html[data-site="magma-kuwait"] .story__track{padding-bottom:0;margin-bottom:0}
+  html[data-site="magma-kuwait"] .story .panel:last-child{margin-bottom:0}
+  html[data-site="magma-kuwait"] .menu{padding-bottom:72px}
+  html[data-site="magma-kuwait"] .menu__foot{margin-bottom:0}
+}
+
+/* ---------- final polish ---------- */
+html[data-site="magma-kuwait"] .hero{overflow:hidden;position:relative}
+html[data-site="magma-kuwait"] .proof .mentions ul li{font-size:.95rem!important;font-weight:500!important;line-height:1.45!important;padding:8px 16px!important}
+html[data-site="magma-kuwait"] .rev__rail{display:grid!important;grid-template-columns:1fr;grid-auto-flow:row;gap:16px;overflow:visible!important;scroll-snap-type:none;align-items:stretch}
+html[data-site="magma-kuwait"] .rev__rail .card{flex:initial!important;width:auto!important;min-width:0;max-width:none;height:100%;padding:22px 24px}
+html[data-site="magma-kuwait"] .rev__rail .card blockquote{direction:ltr;text-align:left;unicode-bidi:plaintext;font-size:.96rem;line-height:1.65;margin-block:12px 14px}
+@media (min-width:760px){
+  html[data-site="magma-kuwait"] .rev__rail{grid-template-columns:repeat(2,1fr);gap:20px}
+}
+@media (max-width:700px){
+  /* keep hero credit badge strictly inside hero top-end, well clear of .story heading below */
+  html[data-site="magma-kuwait"] .hero .photo__badge{display:none!important}
+  html[data-site="magma-kuwait"] .hero__content{z-index:3;padding-bottom:32px}
+  /* center MAGMA sign on facade so it is never cropped */
+  html[data-site="magma-kuwait"] .visit__bg .photo img{object-position:50% 42%!important}
+  html[data-site="magma-kuwait"] .visit__badge{top:auto!important;bottom:14px!important;inset-inline-end:16px!important}
+}

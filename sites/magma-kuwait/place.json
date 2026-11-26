@@ -51,7 +51,7 @@
       {
         "label": "الزعتر",
         "title": "زعتر وجبنة فيتا وعسل",
-        "text": "كتبت زائرة أن الزعتر رقم واحد عندها، وأعطت الفيتا بالعسل وبيض الكمأة تقييم 5 من 5، ثم توست النوتيلا 4 من 5."
+        "text": "كتبت زائرة أن الزعتر هو المفضل عندها، وأعطت الفيتا بالعسل وبيض الكمأة تقييم 5 من 5، ثم توست النوتيلا 4 من 5."
       },
       {
         "label": "الصباح",
@@ -99,31 +99,31 @@
         "image": "zaatar",
         "items": [
           {
-            "name": "Short Rib Benedict",
-            "desc": "بيض بنديكت بالريب القصير",
+            "name": "بيض بنديكت بالريب القصير",
+            "desc": "Short Rib Benedict",
             "price": 5.75,
             "mentioned": true
           },
           {
-            "name": "Egg Calzone",
-            "desc": "كالزوني بالبيض",
+            "name": "كالزوني بالبيض",
+            "desc": "Egg Calzone",
             "price": 4.5,
             "mentioned": true
           },
           {
-            "name": "Scramble Sando",
-            "desc": "ساندو بيض مخفوق",
+            "name": "ساندو بيض مخفوق",
+            "desc": "Scramble Sando",
             "price": 4.25
           },
           {
-            "name": "Za'atar Pizza",
-            "desc": "بيتزا زعتر",
+            "name": "بيتزا زعتر",
+            "desc": "Za'atar Pizza",
             "price": 3.75,
             "mentioned": true
           },
           {
-            "name": "Halloumi Toast",
-            "desc": "توست حلوم",
+            "name": "توست حلوم",
+            "desc": "Halloumi Toast",
             "price": 3.75
           }
         ]
@@ -135,20 +135,20 @@
         "image": "icedlatte",
         "items": [
           {
-            "name": "Ice Spanish Latte",
-            "desc": "سبانش لاتيه مثلج",
+            "name": "سبانش لاتيه مثلج",
+            "desc": "Ice Spanish Latte",
             "price": 2.5,
             "mentioned": true
           },
           {
-            "name": "Orange Juice",
-            "desc": "عصير برتقال",
+            "name": "عصير برتقال",
+            "desc": "Orange Juice",
             "price": 2,
             "mentioned": true
           },
           {
-            "name": "Americano",
-            "desc": "أمريكانو",
+            "name": "أمريكانو",
+            "desc": "Americano",
             "price": 1.9
           }
         ]
@@ -159,19 +159,19 @@
         "tagline": "للختام",
         "items": [
           {
-            "name": "Buttermilk Pancakes",
-            "desc": "بانكيك البتر ميلك",
+            "name": "بانكيك البتر ميلك",
+            "desc": "Buttermilk Pancakes",
             "price": 4.75,
             "mentioned": true
           },
           {
-            "name": "Crispy French Toast",
-            "desc": "فرنش توست مقرمش",
+            "name": "فرنش توست مقرمش",
+            "desc": "Crispy French Toast",
             "price": 4.9
           },
           {
-            "name": "Nutella Calzone",
-            "desc": "كالزوني نوتيلا",
+            "name": "كالزوني نوتيلا",
+            "desc": "Nutella Calzone",
             "price": 3.75
           }
         ]
@@ -182,28 +182,28 @@
         "tagline": "للغداء والعشاء",
         "items": [
           {
-            "name": "Short Ribs and Potatoes",
-            "desc": "ريب قصير مع بطاطا",
+            "name": "ريب قصير مع بطاطا",
+            "desc": "Short Ribs and Potatoes",
             "price": 6.8
           },
           {
-            "name": "Magma Pizza",
-            "desc": "بيتزا ماجما",
+            "name": "بيتزا ماجما",
+            "desc": "Magma Pizza",
             "price": 6.5
           },
           {
-            "name": "Tartufo Pizza",
-            "desc": "بيتزا تارتوفو",
+            "name": "بيتزا تارتوفو",
+            "desc": "Tartufo Pizza",
             "price": 7.9
           },
           {
-            "name": "Funghi Gnocchi",
-            "desc": "نيوكي بالفطر",
+            "name": "نيوكي بالفطر",
+            "desc": "Funghi Gnocchi",
             "price": 5.5
           },
           {
-            "name": "Spicy Rigatoni",
-            "desc": "ريجاتوني حار",
+            "name": "ريجاتوني حار",
+            "desc": "Spicy Rigatoni",
             "price": 4.9
           }
         ]
@@ -211,14 +211,14 @@
     ]
   },
   "mentions": [
-    "Zaatar fatayer",
-    "Short ribs Benedict",
-    "Egg calzone",
-    "Truffle mushroom eggs",
-    "Nutella perdu",
-    "Spanish latte",
-    "Orange carrot juice",
-    "Buttermilk pancakes"
+    "فطاير زعتر",
+    "بيض بنديكت",
+    "كالزوني بالبيض",
+    "بيض الكمأة بالفطر",
+    "توست نوتيلا",
+    "سبانش لاتيه",
+    "عصير برتقال وجزر",
+    "بانكيك البتر ميلك"
   ],
   "reviews": [
     {
@@ -238,12 +238,6 @@
       "stars": 5,
       "text": "I ordered the egg calzone and it was absolutely delicious. The ingredients were well balanced, and each element complemented the others perfectly. The bacon paired wonderfully with the eggs, and the mixed cheeses added great flavor without being too heavy. I was very impressed…",
       "source_ref": "ChZDSUhNMG9nS0VJQ0FnTUNZaEtTUGJBEAE"
-    },
-    {
-      "author": "F",
-      "stars": 5,
-      "text": "We had two egg dishes: the cacio e pepe eggs benedict which was so different and delicious, and the truffle mushroom egg scramble, a side of bacon, and the buttermilk pancakes. Their passion fruit iced tea was also decent.",
-      "source_ref": "ChdDSUhNMG9nS0VJQ0FnTURneFBLS3ZBRRAB"
     },
     {
       "author": "Hasnaa A.",
