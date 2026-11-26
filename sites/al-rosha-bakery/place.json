@@ -66,12 +66,13 @@
         "label": "حتى 1 ليلًا",
         "title": "صباحاً ومساءً",
         "text": "تذكر المراجعات خبزاً وبسكويتاً وساندويتشات طازجة في الصباح وفي الليل، والمحل مفتوح حتى 1 بعد منتصف الليل بحسب خرائط Google.",
-        "image": "story-pastry"
+        "image": "story-night"
       },
       {
         "label": "من 100 بيسة",
         "title": "أسعار خفيفة",
-        "text": "يكرر الزبائن أن الخبز غير غالٍ. وعلى لوحة الأسعار في المحل يبدأ سعر الصمون من 0.100 ر.ع. لكل 4 حبات."
+        "text": "يكرر الزبائن أن الخبز غير غالٍ. وعلى لوحة الأسعار في المحل يبدأ سعر الصمون من 0.100 ر.ع. لكل 4 حبات.",
+        "image": "story-board"
       }
     ]
   },
@@ -100,28 +101,28 @@
         "image": "menu-bread",
         "items": [
           {
-            "name": "خبز الصامون (4 حبات)",
-            "desc": "Samoon (4pcs)",
+            "name": "Samoon (4pcs)",
+            "desc": "خبز الصامون",
             "price": 0.1
           },
           {
-            "name": "خبز كبير (حبة)",
-            "desc": "Big Bread (1pcs)",
+            "name": "Big Bread (1pcs)",
+            "desc": "خبز كبير",
             "price": 0.25
           },
           {
-            "name": "كعكة صمون (4 حبات)",
-            "desc": "Bun (4pcs)",
+            "name": "Bun (4pcs)",
+            "desc": "كعكة",
             "price": 0.1
           },
           {
-            "name": "توست صغير (حبة)",
-            "desc": "Small Tost (1pcs)",
+            "name": "Small Tost (1pcs)",
+            "desc": "توست صغير",
             "price": 0.1
           },
           {
-            "name": "كعكة إنجليزية (حبة)",
-            "desc": "English bun (1pcs)",
+            "name": "English bun (1pcs)",
+            "desc": "كعكة انجليزية",
             "price": 0.2
           }
         ]
@@ -133,33 +134,33 @@
         "image": "menu-pastry",
         "items": [
           {
-            "name": "دنش (علبة)",
-            "desc": "Danesh (1Box)",
+            "name": "Danesh (1Box)",
+            "desc": "دنش",
             "price": 0.3
           },
           {
-            "name": "دلكش (علبة)",
-            "desc": "Dilkush (1Box)",
+            "name": "Dilkush (1Box)",
+            "desc": "دلكش",
             "price": 0.3
           },
           {
-            "name": "دونات (علبة)",
-            "desc": "Donet (1Box)",
+            "name": "Donet (1Box)",
+            "desc": "داونت",
             "price": 0.5
           },
           {
-            "name": "رول مربى (حبة)",
-            "desc": "Jamroll (1pcs)",
+            "name": "Jamroll (1pcs)",
+            "desc": "رول مربي",
             "price": 0.1
           },
           {
-            "name": "لادو (حبة)",
-            "desc": "Ladu (1pcs)",
+            "name": "Ladu (1pcs)",
+            "desc": "لادو",
             "price": 0.1
           },
           {
-            "name": "توست كبير (حبة)",
-            "desc": "Tost Big (1pcs)",
+            "name": "Tost Big (1pcs)",
+            "desc": "توست كبير",
             "price": 0.25
           }
         ]
@@ -170,28 +171,28 @@
         "tagline": "فطائر بالدجاج والجبنة، وبيتزا الدجاج وبيتزا النقانق",
         "items": [
           {
-            "name": "فطيرة (حبة)",
-            "desc": "Fatheera (1pcs)",
+            "name": "Fatheera (1pcs)",
+            "desc": "فطيرة",
             "price": 0.15
           },
           {
-            "name": "فطيرة الدجاج (حبة)",
-            "desc": "Chicken Fatheera (1pcs)",
+            "name": "Chicken Fatheera (1pcs)",
+            "desc": "فطيرة الدجاج",
             "price": 0.25
           },
           {
-            "name": "فطيرة الجبنة (حبة)",
-            "desc": "Chees Fatheera (1pcs)",
+            "name": "Chees Fatheera (1pcs)",
+            "desc": "فطيرة الجبنة",
             "price": 0.15
           },
           {
-            "name": "بيتزا الدجاج (علبة)",
-            "desc": "Chicken Pizza (1Box)",
+            "name": "Chicken Pizza (1Box)",
+            "desc": "بيتزا الدجاج",
             "price": 0.3
           },
           {
-            "name": "بيتزا النقانق (علبة)",
-            "desc": "Hoddock pizza (1Box)",
+            "name": "Hoddock pizza (1Box)",
+            "desc": "بيتزا النقانق",
             "price": 0.3
           }
         ]
@@ -202,34 +203,34 @@
         "tagline": "بالحبة وبالكيلو",
         "items": [
           {
-            "name": "خبز لبناني (8 قطع)",
-            "desc": "Labnani (8pcs)",
+            "name": "Labnani (8pcs)",
+            "desc": "لبناني",
             "price": 0.1
           },
           {
-            "name": "خبز لبناني (24 قطعة)",
-            "desc": "Labnani (24pcs)",
+            "name": "Labnani (24pcs)",
+            "desc": "لبناني",
             "price": 0.3
           },
           {
-            "name": "خبز لبناني (40 قطعة)",
-            "desc": "Labnani (40pcs)",
+            "name": "Labnani (40pcs)",
+            "desc": "لبناني",
             "price": 0.5
           },
           {
-            "name": "بسكويت (1 كجم)",
-            "desc": "Biscuites (1Kg)",
+            "name": "Biscuites (1Kg)",
+            "desc": "بسكويت",
             "price": 3,
             "mentioned": true
           },
           {
-            "name": "بسكويت كارا (1 كجم)",
-            "desc": "Kara Biscutes (1Kg)",
+            "name": "Kara Biscutes (1Kg)",
+            "desc": "بسكويت كارا",
             "price": 2
           },
           {
-            "name": "كيك سادة (علبة)",
-            "desc": "Plain Cake (1Box)",
+            "name": "Plain Cake (1Box)",
+            "desc": "كيك سادة",
             "price": 0.5
           }
         ]
@@ -238,12 +239,13 @@
     "title": "لوحة الأسعار"
   },
   "mentions": [
-    "خبز طازج",
-    "صمون طري",
-    "خبز لبناني",
-    "بسكويت",
-    "ساندويتشات",
-    "شباتي أسمر"
+    "Fresh bread",
+    "Buns",
+    "Pav",
+    "Khubs",
+    "Biscuits",
+    "Sandwiches",
+    "Brown chapatis"
   ],
   "reviews": [
     {
@@ -277,22 +279,22 @@
       {
         "icon": "clock",
         "title": "من 4:30 الفجر",
-        "text": "يفتح كل أيام الأسبوع حتى 1 بعد منتصف الليل."
+        "text": "يفتح كل أيام الأسبوع حتى 1 بعد منتصف الليل حسب خرائط Google."
       },
       {
-        "icon": "bag",
+        "icon": "car",
         "title": "توصيل وسفري",
         "text": "توصيل، وطلبات سفري، وزيارة سريعة."
       },
       {
-        "icon": "check",
+        "icon": "shield",
         "title": "الدفع بالبطاقة",
         "text": "يقبل بطاقات الخصم المباشر."
       },
       {
-        "icon": "car",
-        "title": "مواقف مدفوعة",
-        "text": "مواقف مدفوعة."
+        "icon": "check",
+        "title": "مواقف السيارات",
+        "text": "تتوفر مواقف مدفوعة."
       }
     ]
   },
@@ -310,8 +312,8 @@
   },
   "images": {
     "hero": {
-      "file": "facade-night.jpg",
-      "alt": "صورة واجهة مخبز الروشه بلافتة المحل المضيئة في مطرح",
+      "file": "pastry-display-crop.jpg",
+      "alt": "صورة رفوف البسكويت والكيك والمعجنات داخل واجهة العرض في مخبز الروشه",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
       "credit": "من خرائط Google"
     },
@@ -327,9 +329,15 @@
       "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
       "credit": "من خرائط Google"
     },
-    "story-pastry": {
-      "file": "pastry-display-crop.jpg",
-      "alt": "صورة رفوف البسكويت والكيك والمعجنات داخل واجهة العرض في مخبز الروشه",
+    "story-night": {
+      "file": "facade-night.jpg",
+      "alt": "صورة واجهة المحل ليلاً بلافتة مخبز الروشه",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
+      "credit": "من خرائط Google"
+    },
+    "story-board": {
+      "file": "price-board.jpg",
+      "alt": "صورة لوحة أسعار المحل السوداء بأسماء المنتجات وأسعارها بالريال العماني",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Al%20Rosha%20Bakery%20%D9%85%D8%AE%D8%A8%D8%B2%20%D8%A7%D9%84%D8%B1%D9%88%D8%B4%D9%87&query_place_id=ChIJXfF4W3D3kT4RQiKgs_MMBU4",
       "credit": "من خرائط Google"
     }

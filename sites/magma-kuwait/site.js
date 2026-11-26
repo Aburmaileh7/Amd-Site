@@ -17,6 +17,16 @@ if (root) {
     if (val !== null) el.textContent = val;
   });
 
+  if (typeof ScrollTrigger !== 'undefined') {
+    const pending = [...root.querySelectorAll('img')]
+      .filter((img) => !img.complete)
+      .map((img) => new Promise((done) => {
+        img.addEventListener('load', done, { once: true });
+        img.addEventListener('error', done, { once: true });
+      }));
+    Promise.all(pending).then(() => ScrollTrigger.refresh());
+  }
+
   if (!reduce) {
     if (counters.length) {
       const statsWrap = root.querySelector('.stats') || counters[0];

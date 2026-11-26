@@ -343,10 +343,12 @@ html[data-site="al-rosha-bakery"] .menu .tabs button { min-height: 44px; font-si
 html[data-site="al-rosha-bakery"] .menu .tabs__count { font-size: .85rem; font-weight: 700; opacity: 1; }
 
 /* Bold proof stats & compact section rhythm */
-html[data-site="al-rosha-bakery"] .proof { padding-block: clamp(44px, 5.5vw, 72px); }
+html[data-site="al-rosha-bakery"] .hero__intro { font-size: clamp(1.02rem, 1.3vw, 1.14rem); line-height: 1.75; }
+html[data-site="al-rosha-bakery"] .hero__side .photo { aspect-ratio: 4 / 3; }
+html[data-site="al-rosha-bakery"] .proof { padding-block: clamp(40px, 5vw, 64px); }
 html[data-site="al-rosha-bakery"] .proof .stat__num { font-size: clamp(2.8rem, 6vw, 4.4rem) !important; line-height: 1.1; font-weight: 700; color: var(--ro-navy); }
-html[data-site="al-rosha-bakery"] .story { padding-block: clamp(48px, 6vw, 76px); }
-html[data-site="al-rosha-bakery"] .rev { padding-block: clamp(48px, 6vw, 76px); }
+html[data-site="al-rosha-bakery"] .story { padding-block: clamp(44px, 5.5vw, 68px); }
+html[data-site="al-rosha-bakery"] .rev { padding-block: clamp(36px, 4.5vw, 56px); }
 
 /* Mentions: horizontal wrap pills across full width on mobile & desktop */
 html[data-site="al-rosha-bakery"] section.proof .mentions { width: 100%; }
@@ -365,7 +367,7 @@ html[data-site="al-rosha-bakery"] .rev__rail { grid-template-columns: 1fr; gap: 
 @media (min-width: 760px) {
   html[data-site="al-rosha-bakery"] .rev__rail { grid-template-columns: repeat(2, 1fr); gap: 20px; }
 }
-html[data-site="al-rosha-bakery"] .rev__rail .card blockquote { direction: ltr; text-align: left; unicode-bidi: plaintext; font-size: .96rem; line-height: 1.65; }
+html[data-site="al-rosha-bakery"] .rev__rail .card blockquote { direction: ltr; text-align: left; unicode-bidi: plaintext; font-size: 1.04rem; line-height: 1.7; }
 
 /* Crisp amenities icons */
 html[data-site="al-rosha-bakery"] .amen__list svg { width: 22px; height: 22px; stroke-width: 1.8; color: var(--ro-navy); flex: none; }
@@ -373,3 +375,13 @@ html[data-site="al-rosha-bakery"] .amen__list svg { width: 22px; height: 22px; s
 /* Hero facade framing */
 html[data-site="al-rosha-bakery"] .hero__side .photo img,
 html[data-site="al-rosha-bakery"] .hero__media .photo img { object-position: 50% 42%; }
+
+/* fix-r1: English reviews are LTR cards; odd last card spans full row; tighter rhythm; bigger stats */
+html[data-site="al-rosha-bakery"] .rev__rail .card { direction: ltr; text-align: start; }
+@media (min-width: 760px) {
+  html[data-site="al-rosha-bakery"] .rev__rail .card:last-child:nth-child(odd) { grid-column: 1 / -1; }
+}
+html[data-site="al-rosha-bakery"] .rev { padding-block: clamp(32px, 4vw, 52px); }
+html[data-site="al-rosha-bakery"] .amen { padding-block-start: clamp(32px, 4vw, 52px); }
+html[data-site="al-rosha-bakery"] .proof .stat__num { font-size: clamp(3.4rem, 8vw, 5.6rem) !important; }
+html[data-site="al-rosha-bakery"] .menu .tabs button { min-height: 44px; min-width: 44px; }
