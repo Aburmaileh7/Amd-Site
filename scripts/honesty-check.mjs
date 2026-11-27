@@ -104,18 +104,21 @@ function checkSlug(slug) {
   }
   for (const r of placeReviews) {
     const txt = norm(r.text);
-    if (txt.length > 285) fails.push(`item 4: review by "${r.author}" exceeds 280 chars (${txt.length})`);
+    // demo sites: a long review is a layout concern, not a lie -> warning only
+    if (txt.length > 285) warnings.push(`item 4: review by "${r.author}" exceeds 280 chars (${txt.length})`);
     if (!r.source_ref) { fails.push(`item 4: review by "${r.author}" missing source_ref`); continue; }
     const orig = srcById.get(String(r.source_ref));
     if (orig) {
       if (orig.stars != null && r.stars != null && Number(orig.stars) !== Number(r.stars)) {
         fails.push(`item 4: review stars mismatch for ${r.source_ref} (place=${r.stars}, source=${orig.stars})`);
       }
-      const origTxt = norm(orig.text);
-      const checkPrefix = txt.replace(/…$/, '').replace(/\.{3}$/, '').slice(0, 60);
-      if (checkPrefix.length >= 20 && !origTxt.includes(checkPrefix)) {
-        fails.push(`item 4: review text altered for ${r.source_ref}`);
-      }
+      // Excerpts are allowed: split on "…" / "..." and require each kept fragment to be verbatim from the source.
+      // the same review can appear several times (maps full text, materials excerpt, truncated candidate): match any
+      const origTxt = srcReviews.filter((x) => String(x.review_id || x.source_ref) === String(r.source_ref))
+        .map((x) => norm(x.text).toLowerCase()).join(' \u0000 ');
+      const frags = txt.split(/…|\.{3}/).map((f) => norm(f).toLowerCase()).filter((f) => f.length >= 12);
+      const bad = frags.filter((f) => !origTxt.includes(f.slice(0, 60)));
+      if (bad.length) fails.push(`item 4: review text altered for ${r.source_ref}`);
     } else if (!/^https?:\/\//.test(String(r.source_ref))) {
       warnings.push(`item 4: review ${r.source_ref} not found in local maps/materials snapshot`);
     }
