@@ -1,0 +1,265 @@
+{
+  "place_id": "ChIJQXwVA3rRwxURno5NjW_5l9E",
+  "slug": "triple-one-car-care",
+  "batch_id": "amd-gulf-20261121",
+  "approved": false,
+  "agency": "Amd web",
+  "theme": "services_pro",
+  "data_source": "خرائط Google (بيانات المحل العامة عبر Apify) وصور المحل ومراجعاته على خرائط Google",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#E6ECF2",
+    "rgb": "230, 236, 242",
+    "hover": "#FFFFFF",
+    "ink": "#111418"
+  },
+  "name": "Triple One",
+  "name_lang": "en",
+  "category_label": "تلميع وحماية السيارات",
+  "area": "الفيصلية، جدة",
+  "address": "قبل محطة بترومين، الفيصلية، جدة",
+  "phone": {
+    "display": "+966 55 717 8822",
+    "tel": "+966557178822"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Triple%20One%20%7C%20%D8%AA%D8%B1%D8%A8%D9%84%20%D9%88%D8%A7%D9%86%20%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA&query_place_id=ChIJQXwVA3rRwxURno5NjW_5l9E",
+  "map_query": "Triple One تربل وان لخدمات السيارات, Al Faisaliyyah, Jeddah",
+  "rating": {
+    "value": 5,
+    "count": 226,
+    "source": "Google"
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "10 ص – 10 م"
+      },
+      {
+        "days": "الجمعة",
+        "time": "مغلق"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "hero": {
+    "headline": "حماية PPF وعناية دقيقة لسيارتك في جدة",
+    "intro": "تربل وان في الفيصلية بجدة: تركيب PPF وتظليل ونانو سيراميك وتلميع، ويشهد عملاؤه على احترافية الفريق واهتمامه بالتفاصيل.",
+    "image": "ppf"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "sections": [
+    "marquee",
+    "menu",
+    "story",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "marquee": {
+    "label": "خدماتنا",
+    "items": [
+      "حماية PPF",
+      "PPF بلون مات",
+      "تظليل وحماية الزجاج",
+      "نانو سيراميك",
+      "غسيل وتلميع وتفصيل",
+      "الفيصلية، جدة"
+    ]
+  },
+  "story": {
+    "title": "ماذا يقول عملاء تربل وان",
+    "items": [
+      {
+        "label": "التركيب",
+        "title": "PPF لا يُلاحَظ",
+        "text": "يذكر أحد العملاء أنك لا تعرف أن السيارة عليها PPF، فلا أطراف بلاستيك ظاهرة والتركيب كله مخفي.",
+        "image": "wrap"
+      },
+      {
+        "label": "الفريق",
+        "title": "اهتمام بالتفاصيل",
+        "text": "تتكرر في المراجعات كلمتا الاحترافية والدقة، من فريق يشرح العمل ويعطي السيارة وقتها.",
+        "image": "bay"
+      },
+      {
+        "label": "الخدمات",
+        "title": "خدمات متعددة في مكان واحد",
+        "text": "PPF بلون مات، وتظليل الزجاج، ونانو سيراميك للداخلية والزجاج والجنوط، وغسيل وتلميع وأعمال ستيكر.",
+        "image": "floor"
+      },
+      {
+        "label": "بعد أسبوع",
+        "title": "متابعة بعد التركيب",
+        "text": "يذكر عميل أن الفريق استدعى السيارة بعد أسبوع من تركيب PPF، وفحصها وعدّل أي تمدد سببته الحرارة.",
+        "image": "ppf"
+      }
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "eyebrow": "الخدمات التي يذكرها العملاء",
+    "sample": false,
+    "note": "الخدمات كما ذكرها عملاء المحل في مراجعاتهم على خرائط Google. الأسعار والمواعيد بالاتصال، ويُنصح بالحجز المسبق.",
+    "categories": [
+      {
+        "id": "ppf",
+        "title": "حماية الطلاء",
+        "tagline": "PPF شفاف ومات",
+        "image": "ppf",
+        "items": [
+          {
+            "name": "حماية PPF",
+            "desc": "يذكر العملاء أن الأطراف مخفية ولا يظهر بلاستيك على الحواف"
+          },
+          {
+            "name": "حماية PPF بلون مات",
+            "desc": "تغطية كاملة بلون مات"
+          }
+        ]
+      },
+      {
+        "id": "glass",
+        "title": "الزجاج والجنوط",
+        "tagline": "تظليل ونانو سيراميك",
+        "image": "floor",
+        "items": [
+          {
+            "name": "حماية الزجاج والتظليل"
+          },
+          {
+            "name": "نانو سيراميك للزجاج والجنوط"
+          }
+        ]
+      },
+      {
+        "id": "care",
+        "title": "العناية واللمعة",
+        "tagline": "داخلية وخارجية",
+        "image": "bay",
+        "items": [
+          {
+            "name": "نانو سيراميك للداخلية"
+          },
+          {
+            "name": "نانو كوتينغ وتلميع"
+          },
+          {
+            "name": "غسيل وتلميع وتفصيل"
+          }
+        ]
+      },
+      {
+        "id": "extras",
+        "title": "الإضافات",
+        "tagline": "ستيكر وباديكت",
+        "image": "wrap",
+        "items": [
+          {
+            "name": "أعمال الستيكر"
+          },
+          {
+            "name": "إكسسوارات الباديكت"
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Ibad R.",
+      "stars": 5,
+      "text": "I recently got PPF done from Triple One in Jeddah, and I’m extremely happy with the overall experience. The team was professional, knowledgeable, and paid great attention to detail throughout the process.",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT210S05FdFRTSGt0YlhKUk0ySktORU5DYWtwb01VRRAB"
+    },
+    {
+      "author": "Khalid M.",
+      "stars": 5,
+      "text": "You cannot even tell that the car has PPF. There are no visible plastics on the edges. Its all hidden. I recommend Triple One.",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xKeE9EUXhZMjVTVERkUlJFNWFkR1JwWjBoeFdIYxAB"
+    },
+    {
+      "author": "ehab k.",
+      "stars": 5,
+      "text": "Absolutely one of the best automotive services in town. They did full matte PPF, window shield, interior nano ceramic, nano ceramic for glass and rings, and body kit accessories. If you have a cool ride visit them and they will transform it even better",
+      "source_ref": "ChZDSUhNMG9nS0VQWEg4SnZwdVl6MlN3EAE"
+    },
+    {
+      "author": "Jasica A.",
+      "stars": 5,
+      "text": "TRIPLE ONE is truly one of the best car care shops! Their washing, polishing, detailing and sticker work are always top quality. The staff is professional and friendly, and they take care of every car as if it’s their own.",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT21WalpVcEhhRXRTV1VsdlIxcFlWRWRNZUdkcGIzYxAB"
+    },
+    {
+      "author": "Rayyan",
+      "stars": 5,
+      "text": "Highly Recommended! The staff is extremely professional and skilled. Reasonable prices and high quality.",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT21Vd05sUlRkbk5JUkhoZmMwdGlkbEpMUTNRMU4yYxAB"
+    }
+  ],
+  "mentions": [],
+  "amenities": {
+    "eyebrow": "زورونا في الفيصلية",
+    "title": "قبل أن تحضر سيارتك",
+    "image": "bay",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "يُنصح بالحجز المسبق",
+        "text": "اتصل لتحديد موعد قبل الزيارة."
+      },
+      {
+        "icon": "car",
+        "title": "خدمة في الموقع",
+        "text": ""
+      },
+      {
+        "icon": "access",
+        "title": "مدخل ومواقف لذوي الإعاقة",
+        "text": ""
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة وNFC",
+        "text": ""
+      }
+    ]
+  },
+  "visit": {
+    "image": "floor"
+  },
+  "whatsapp": null,
+  "images": {
+    "ppf": {
+      "file": "bmw-matte-ppf.jpg",
+      "alt": "صورة سيارة BMW بحماية PPF بلون مات داخل صالة تربل وان",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Triple%20One%20%7C%20%D8%AA%D8%B1%D8%A8%D9%84%20%D9%88%D8%A7%D9%86%20%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA&query_place_id=ChIJQXwVA3rRwxURno5NjW_5l9E",
+      "credit": "من خرائط Google"
+    },
+    "wrap": {
+      "file": "mercedes-matte-wrap.jpg",
+      "alt": "صورة مرسيدس بلون مات أثناء العمل عليها في صالة تربل وان",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Triple%20One%20%7C%20%D8%AA%D8%B1%D8%A8%D9%84%20%D9%88%D8%A7%D9%86%20%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA&query_place_id=ChIJQXwVA3rRwxURno5NjW_5l9E",
+      "credit": "من خرائط Google"
+    },
+    "bay": {
+      "file": "shop-interior-products.jpg",
+      "alt": "صورة صالة تربل وان بسياراتها ورفوف منتجات العناية",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Triple%20One%20%7C%20%D8%AA%D8%B1%D8%A8%D9%84%20%D9%88%D8%A7%D9%86%20%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA&query_place_id=ChIJQXwVA3rRwxURno5NjW_5l9E",
+      "credit": "من خرائط Google"
+    },
+    "floor": {
+      "file": "shop-floor-cars.jpg",
+      "alt": "صورة سيارتين سوداوين تحت إضاءة LED في صالة تربل وان",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Triple%20One%20%7C%20%D8%AA%D8%B1%D8%A8%D9%84%20%D9%88%D8%A7%D9%86%20%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA&query_place_id=ChIJQXwVA3rRwxURno5NjW_5l9E",
+      "credit": "من خرائط Google"
+    }
+  }
+}

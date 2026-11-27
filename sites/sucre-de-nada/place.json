@@ -1,0 +1,352 @@
+{
+  "place_id": "ChIJe0cJcQvQwxURhGSf74k_H-0",
+  "batch_id": "amd-gulf-20261127",
+  "slug": "sucre-de-nada",
+  "theme": "bakery_cream",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "Google Maps (Apify place data, maps.json); menu from Ananinja listing; photos from the Google Maps listing",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#F2C641",
+    "rgb": "242, 198, 65",
+    "hover": "#DDAF25",
+    "ink": "#2A2108"
+  },
+  "motion": {
+    "hero": "kenburns",
+    "signature": "gallery-zoom"
+  },
+  "name": "Sucre de Nada - سكر الندى",
+  "name_lang": "en",
+  "category_label": "حلويات وكيك",
+  "area": "حي الروضة، جدة",
+  "address": "شارع درويش كيال، حي الروضة، جدة 23433",
+  "phone": {
+    "display": "+966 50 528 6861",
+    "tel": "+966505286861"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
+  "map_query": "Sucre de Nada, Ar Rawdah, Jeddah",
+  "rating": {
+    "value": 4.2,
+    "count": 1888,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "كيك وتشيز كيك وبايات في الروضة",
+    "intro": "محل حلويات ومعجنات في حي الروضة بجدة. قائمته فيها كيك وتشيز كيك وبايات، ويمكنك الطلب للتوصيل أو الاستلام أو الجلوس في المحل.",
+    "image": "hero"
+  },
+  "sections": [
+    "menu",
+    "story",
+    "marquee",
+    "reviews",
+    "proof",
+    "visit",
+    "amenities"
+  ],
+  "story": {
+    "title": "ما يذكره الزبائن",
+    "items": [
+      {
+        "label": "في التقييمات",
+        "title": "بانوفي باي",
+        "text": "ذكره عدة زبائن في تقييماتهم. وصفه أحدهم بأن فيه قشرة وموزًا وكريمة وكراميل، من غير أن يكون ثقيلًا.",
+        "image": "story-banoffee"
+      },
+      {
+        "label": "في التقييمات",
+        "title": "كيكة ماتيلدا",
+        "text": "كتب زبون أن الإسفنج والكريمة أعجباه، وأنها ليست شديدة الحلاوة.",
+        "image": "story-matilda"
+      },
+      {
+        "label": "من القائمة",
+        "title": "تشيز كيك بأكثر من نكهة",
+        "text": "جاء في التقييمات ذكر تشيز كيك المانجو، واللندن، واللوتس، إلى جانب كيك الجزر.",
+        "image": "story-cheese"
+      },
+      {
+        "label": "المكان",
+        "title": "مكان صغير بأجواء عائلية",
+        "text": "يصف زبائن المكان بأنه دافئ وهادئ، وصغير يشبه مشروعًا عائليًا.",
+        "image": "story-place"
+      }
+    ]
+  },
+  "marquee": {
+    "label": "من قائمة المحل",
+    "items": [
+      "بانوفي باي",
+      "كيكة ماتيلدا",
+      "تشيز كيك المانجو",
+      "تشيز كيك لندن",
+      "تشيز كيك لوتس",
+      "حي الروضة، جدة"
+    ]
+  },
+  "menu": {
+    "kind": "products",
+    "sample": false,
+    "title": "قائمة الحلويات",
+    "note": "Real menu from the Ananinja delivery listing. Mini sizes shown. Prices may have changed since the listing was read; the page has no date.",
+    "currency": "ر.س",
+    "foot": "المقاسات الأكبر متوفرة، وللطلب والاستفسار",
+    "categories": [
+      {
+        "id": "cakes",
+        "title": "Cake (Mini)",
+        "tagline": "ماتيلدا والجزر والفانيلا",
+        "image": "menu-cakes",
+        "items": [
+          {
+            "name": "Matilda Cake - Mini",
+            "price": 45,
+            "mentioned": true
+          },
+          {
+            "name": "Crispy Chocolate Cake - Mini",
+            "price": 45
+          },
+          {
+            "name": "Carrot Cake - Mini",
+            "price": 45,
+            "mentioned": true
+          },
+          {
+            "name": "Vanilla Bean Cake - Mini",
+            "price": 40
+          },
+          {
+            "name": "Mango Tres Leches - Mini",
+            "price": 37
+          }
+        ]
+      },
+      {
+        "id": "cheesecake",
+        "title": "Cheesecake (Mini)",
+        "tagline": "مانجو ولندن ولوتس",
+        "image": "menu-cheesecake",
+        "items": [
+          {
+            "name": "Mango Cheesecake - Mini",
+            "price": 56,
+            "mentioned": true
+          },
+          {
+            "name": "London Cheesecake - Mini",
+            "price": 56,
+            "mentioned": true
+          },
+          {
+            "name": "Lotus Cheesecake - Mini",
+            "price": 58,
+            "mentioned": true
+          },
+          {
+            "name": "Crispy Chocolate Cheesecake - Mini",
+            "price": 55
+          }
+        ]
+      },
+      {
+        "id": "pies",
+        "title": "Pies (Mini)",
+        "tagline": "بانوفي وآبل وبيكان",
+        "image": "menu-pies",
+        "items": [
+          {
+            "name": "Banoffee Pie - Mini",
+            "price": 50,
+            "mentioned": true
+          },
+          {
+            "name": "Apple Pie - Mini",
+            "price": 40,
+            "mentioned": true
+          },
+          {
+            "name": "Pecan Pie - Mini",
+            "price": 50
+          }
+        ]
+      },
+      {
+        "id": "small",
+        "title": "Trifles and small bakes",
+        "tagline": "حلويات صغيرة",
+        "image": "menu-small",
+        "items": [
+          {
+            "name": "Mango Trifle - Mini",
+            "price": 40
+          },
+          {
+            "name": "Creme Brulee - Mini",
+            "price": 40
+          },
+          {
+            "name": "Brownies",
+            "price": 20
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "بانوفي باي",
+    "كيكة ماتيلدا",
+    "تشيز كيك المانجو",
+    "تشيز كيك لندن",
+    "تشيز كيك لوتس",
+    "آبل باي",
+    "كيك الجزر"
+  ],
+  "reviews": [
+    {
+      "author": "Iyad K.",
+      "stars": 5,
+      "text": "Excellent bakery with truly outstanding desserts. Their banoffee pie is easily the best in town — fresh, rich, perfectly balanced, and absolutely delicious. The crust, banana, cream, and caramel all come together beautifully without being too heavy.",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xaRGFWbGhaWHBZVlVSRmNYWkdVMmQ1WWxSRFVFRRAB"
+    },
+    {
+      "author": "Ama G.",
+      "stars": 5,
+      "text": "The Matilda cake was AMAZING!!! the sponge was very sponge the frosting was so smooth!!! was sooo delicious!!!!!! & not too sweet!!!!!!! ❣️❣️ would definitely order again",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2pJdFQzbHlUR2c1UTJkUGRFZHhRalJITms0NGNYYxAB"
+    },
+    {
+      "author": "Donna O.",
+      "stars": 5,
+      "text": "The place is very cozy and relaxing. It's like an italian or french ambiance. The cakes are superb! But our favorite is the Banoffee pie, the mango cheesecake is delicious as well. They have a wide variety of cakes that will soothe you palate. Heaven for people with sweet…",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSURtMkwtZ3hRRRAB"
+    },
+    {
+      "author": "Aminuddin S.",
+      "stars": 5,
+      "text": "Hi it was an amazing evening with lovely cakes. I tried carrot cake and chocolate cake it was outstanding quality and fresh. Keep going and best luck",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25kRGQwUXpTemR1TlhsbGJuTXhUbWhYYlRsSFJFRRAB"
+    },
+    {
+      "author": "Hasan H.",
+      "stars": 5,
+      "text": "The cakes are so good that when three of us go together we order four cakes ! I tried many of their cakes including Orange Cake, Lemon Cake, Saint Sébastien ( Basque) Cake, Chocolate Cake, Berries Cake, Carrot Cake and more. The place is small and feels like a family business…",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUNCdXAzMk1nEAE"
+    }
+  ],
+  "amenities": {
+    "title": "قبل أن تمرّ على سكر الندى",
+    "items": [
+      {
+        "icon": "bag",
+        "title": "توصيل واستلام",
+        "text": "توصيل، وطلبات خارجية، واستلام من المحل."
+      },
+      {
+        "icon": "coffee",
+        "title": "جلسة داخل المحل",
+        "text": "جلوس في المحل، والقهوة مع الحلى."
+      },
+      {
+        "icon": "check",
+        "title": "بطاقات ودفع بالجوال",
+        "text": "بطاقات ائتمان ومدى ودفع NFC."
+      },
+      {
+        "icon": "access",
+        "title": "مدخل لكرسي متحرك",
+        "text": "ومواقف مهيأة له، ودورة مياه."
+      },
+      {
+        "icon": "family",
+        "title": "مشروع تملكه امرأة",
+        "text": "بحسب ما يذكره المحل على خرائط Google."
+      }
+    ]
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الأربعاء",
+        "time": "10 صباحًا – 11 مساءً"
+      },
+      {
+        "days": "الخميس والجمعة",
+        "time": "10 صباحًا – منتصف الليل"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "visit": {
+    "title": "زيارة المحل",
+    "image": "visit"
+  },
+  "images": {
+    "hero": {
+      "file": "hero-dish.jpg",
+      "alt": "صورة كيكة بيضاء الكساء تحت غطاء زجاجي",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
+      "credit": "من خرائط Google"
+    },
+    "story-banoffee": {
+      "file": "display-cakes.jpg",
+      "alt": "صورة واجهة عرض زجاجية فيها تشيز كيك وكيك بالتوت والفواكه",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
+      "credit": "من خرائط Google"
+    },
+    "story-matilda": {
+      "file": "pastry-case.jpg",
+      "alt": "صورة واجهة زجاجية فيها كيك وقطع حلويات على أرفف العرض",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
+      "credit": "من خرائط Google"
+    },
+    "story-cheese": {
+      "file": "dessert-bowl.jpg",
+      "alt": "صورة حلوى في كأس زجاجي فيها مانجو وكريمة وتوت",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
+      "credit": "من خرائط Google"
+    },
+    "story-place": {
+      "file": "interior-logo.jpg",
+      "alt": "صورة داخل المحل: جدار عليه شعار Sucre de Nada وثريات معلّقة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
+      "credit": "من خرائط Google"
+    },
+    "visit": {
+      "file": "interior-table.jpg",
+      "alt": "صورة داخل المحل: طاولة دائرية وباقة زنبق أبيض وخلفها واجهة العرض",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
+      "credit": "من خرائط Google"
+    },
+    "menu-cakes": {
+      "file": "hero-dish.jpg",
+      "alt": "صورة كيكة بيضاء الكساء تحت غطاء زجاجي",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
+      "credit": "من خرائط Google"
+    },
+    "menu-cheesecake": {
+      "file": "display-cakes.jpg",
+      "alt": "صورة واجهة عرض زجاجية فيها تشيز كيك وكيك بالتوت والفواكه",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
+      "credit": "من خرائط Google"
+    },
+    "menu-pies": {
+      "file": "pastry-case.jpg",
+      "alt": "صورة واجهة زجاجية فيها كيك وقطع حلويات على أرفف العرض",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
+      "credit": "من خرائط Google"
+    },
+    "menu-small": {
+      "file": "dessert-bowl.jpg",
+      "alt": "صورة حلوى في كأس زجاجي فيها مانجو وكريمة وتوت",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
+      "credit": "من خرائط Google"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+/* Triple One: a charcoal bay in Al Faisaliyyah where matte paint sits under white LED tubes.
+   The page takes the bay itself: charcoal walls for the ground, cold LED white for the accent.
+   Signature: the three LED bars (Triple One = three lines) mark every section heading.
+   No light streaks over the cars. */
+html[data-site="triple-one-car-care"]{
+  --bg:#15171B;--bg-rgb:21,23,27;--surface:#1D2025;--surface-2:#272B31;
+  --ink:#ECEFF3;--ink-rgb:236,239,243;--muted:#A9B0BB;--line:rgba(236,239,243,.12);
+  --radius:3px;--tube:#F4F8FC;--tile:#2F55E4;color-scheme:dark;
+  background:var(--bg);color:var(--ink)
+}
+
+/* matte ground: a faint brushed grain, like the bay's painted walls */
+[data-site="triple-one-car-care"] body{
+  background-color:var(--bg);
+  background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.012) 0 1px,transparent 1px 3px)
+}
+
+/* ---- hero ---- */
+[data-site="triple-one-car-care"] .hero__title{color:var(--tube);letter-spacing:-.02em}
+[data-site="triple-one-car-care"] .hero__headline{color:var(--ink)}
+[data-site="triple-one-car-care"] .hero__side{position:relative;border-radius:var(--radius);
+  box-shadow:0 0 0 1px rgba(244,248,252,.10),0 30px 80px -30px rgba(47,85,228,.35)}
+[data-site="triple-one-car-care"] .hero__side .photo img{object-position:50% 62%!important}
+
+/* ---- the three-bar mark on every section heading ---- */
+[data-site="triple-one-car-care"] :is(.menu__title,.story__title,.rev__title,.amen__title,.visit__title){position:relative}
+[data-site="triple-one-car-care"] :is(.story__title,.rev__title,.amen__title)::before,
+[data-site="triple-one-car-care"] .menu__head .eyebrow::before{
+  content:"";display:inline-block;inline-size:22px;block-size:.62em;margin-inline-end:.35em;vertical-align:.04em;
+  background:
+    linear-gradient(var(--glow),var(--glow)) 0 0/4px 100% no-repeat,
+    linear-gradient(var(--glow),var(--glow)) 9px 0/4px 100% no-repeat,
+    linear-gradient(var(--glow),var(--glow)) 18px 0/4px 100% no-repeat;
+  transform:skewX(-14deg);filter:drop-shadow(0 0 5px rgba(244,248,252,.45))
+}
+[data-site="triple-one-car-care"] .menu__head .eyebrow::before{block-size:.9em;inline-size:18px;margin-inline-end:10px;
+  background:
+    linear-gradient(var(--glow),var(--glow)) 0 0/3px 100% no-repeat,
+    linear-gradient(var(--glow),var(--glow)) 7px 0/3px 100% no-repeat,
+    linear-gradient(var(--glow),var(--glow)) 14px 0/3px 100% no-repeat}
+
+/* ---- marquee: a strip of LED light ---- */
+[data-site="triple-one-car-care"] .marquee{background:var(--surface);border-block:1px solid rgba(244,248,252,.08)}
+[data-site="triple-one-car-care"] .marquee__dot{background:var(--tile);box-shadow:0 0 10px rgba(47,85,228,.8)}
+
+/* ---- services ---- */
+[data-site="triple-one-car-care"] .menu__title{color:var(--tube)}
+[data-site="triple-one-car-care"] .tabs__count{background:var(--surface-2);color:var(--ink)}
+[data-site="triple-one-car-care"] .panel-m{background:var(--surface)}
+[data-site="triple-one-car-care"] .item__name{color:var(--ink)}
+[data-site="triple-one-car-care"] .item__desc{color:var(--muted)}
+
+/* ---- story panels: lit from the top edge like a bay under a tube ---- */
+[data-site="triple-one-car-care"] .panel{background:var(--surface);position:relative}
+[data-site="triple-one-car-care"] .panel::before{content:"";position:absolute;inset-inline:12% 12%;top:0;height:2px;z-index:2;
+  background:var(--tube);box-shadow:0 0 12px 1px rgba(244,248,252,.55);opacity:.85}
+[data-site="triple-one-car-care"] .panel__time span{color:var(--glow)}
+
+/* ---- reviews, proof, amenities ---- */
+[data-site="triple-one-car-care"] .card{background:var(--surface)}
+[data-site="triple-one-car-care"] .card__stars{color:var(--glow)}
+[data-site="triple-one-car-care"] .stat__num{color:var(--tube)}
+[data-site="triple-one-car-care"] .amen__list .item,
+[data-site="triple-one-car-care"] .amen__list > *{background:var(--surface)}
+
+/* buttons: the lit tube */
+[data-site="triple-one-car-care"] .btn--glow{box-shadow:0 0 0 1px rgba(244,248,252,.4),0 0 22px -4px rgba(244,248,252,.55)}
+[data-site="triple-one-car-care"] .btn--ghost{border-color:rgba(244,248,252,.28);color:var(--ink)}
+[data-site="triple-one-car-care"] :focus-visible{outline:2px solid var(--tube);outline-offset:3px}
+
+/* ---- phone ---- */
+@media (max-width:899px){
+  html[data-site="triple-one-car-care"] .hero--split .hero__grid{display:flex!important;flex-direction:column;gap:24px}
+  html[data-site="triple-one-car-care"] .hero__side{order:-1}
+  html[data-site="triple-one-car-care"] .hero__side .photo{aspect-ratio:4/4.2}
+  html[data-site="triple-one-car-care"] .hero__side .photo img{object-position:50% 70%!important}
+}
+
+
+/* ---- fixes r1 ---- */
+[data-site="triple-one-car-care"]{scroll-padding-top:96px}
+[data-site="triple-one-car-care"] :is(section,[id],.menu__head,.rev__head,.story__head){scroll-margin-top:96px}
+[data-site="triple-one-car-care"] :is(.menu,.rev,.story,.amen,.proof){padding-top:max(72px,calc(var(--hdr,72px) + 24px))}
+[data-site="triple-one-car-care"] :is(.menu__title,.story__title,.rev__title,.amen__title){line-height:1.4;padding-block:.1em}
+[data-site="triple-one-car-care"] .tabs{gap:8px}
+[data-site="triple-one-car-care"] .tabs :is(button,[role=tab],a){min-block-size:48px;font-size:16px;line-height:1.4;padding:10px 18px;display:inline-flex;align-items:center;gap:10px}
+[data-site="triple-one-car-care"] .tabs__count{display:inline-flex;align-items:center;justify-content:center;min-inline-size:26px;block-size:26px;padding-inline:7px;font-size:14px;line-height:1;border-radius:13px;font-variant-numeric:tabular-nums;flex:none}
+[data-site="triple-one-car-care"] .rev__rail .card:empty,
+[data-site="triple-one-car-care"] .rev__rail .card:not(:has(p,blockquote,.card__text)){display:none}
+[data-site="triple-one-car-care"] .rev__rail .card :is(p,blockquote,.card__text,.card__body){text-align:start;unicode-bidi:plaintext}
+[data-site="triple-one-car-care"] .rev__rail .card [lang=en],
+[data-site="triple-one-car-care"] .rev__rail .card [dir=ltr]{direction:ltr;text-align:left}
+@media (max-width:899px){
+  [data-site="triple-one-car-care"] :is(section,[id]){scroll-margin-top:84px}
+}

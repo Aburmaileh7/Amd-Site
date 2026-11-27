@@ -1,0 +1,202 @@
+/* Dr Shine, Dana Mall, Sanabis: a bright wash bay of wet grey tiles, grey walls with one yellow
+   stripe at bumper height, and yellow drain grates framing every bay. The yellow of the sign.
+   Signature: the yellow drain grate. It runs as a slotted strip under the hero photo, the menu
+   photo and the visit section, and the bay's wall stripe sits under every section title.
+   Round 2: static grate (no site.js), motion via the curtain-rise preset. */
+
+html[data-site="dr-shine-bahrain"] {
+  --bg: #ECEEEF; --bg-rgb: 236, 238, 239;
+  --surface: #FFFFFF; --surface-2: #DDE1E4;
+  --ink: #17191C; --ink-rgb: 23, 25, 28;
+  --muted: #4A5058;
+  --line: rgba(23, 25, 28, .12);
+  --radius: 2px;
+  --sign: #F7CB15;          /* the sign yellow, for fields and strips only */
+  --sign-text: #6E5500;     /* yellow family dark enough to read on the tile grey */
+  --slot: #23262A;          /* the dark gap between grate bars */
+  --grate-h: 14px;
+}
+[data-site="dr-shine-bahrain"] body { background: var(--bg); color: var(--ink); }
+
+/* ---------- the grate: yellow bars with dark slots, exactly the drain at the bay mouth ---------- */
+[data-site="dr-shine-bahrain"] .hero,
+[data-site="dr-shine-bahrain"] .panel-m__visual,
+[data-site="dr-shine-bahrain"] .visit { position: relative; }
+
+[data-site="dr-shine-bahrain"] .hero::after,
+[data-site="dr-shine-bahrain"] .panel-m__visual::after,
+[data-site="dr-shine-bahrain"] .visit::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  height: var(--grate-h);
+  z-index: 4;
+  pointer-events: none;
+  background-color: var(--sign);
+  background-image: repeating-linear-gradient(90deg, var(--slot) 0 3px, transparent 3px 11px);
+  background-size: 11px 100%;
+  background-position: var(--drain, 0px) 0;
+  border-top: 3px solid var(--sign);
+  border-bottom: 3px solid var(--sign);
+  box-sizing: border-box;
+}
+[data-site="dr-shine-bahrain"] .visit::after { --grate-h: 18px; top: 0; bottom: auto; }
+
+/* ---------- the wall stripe: a short solid yellow band under each section title ---------- */
+[data-site="dr-shine-bahrain"] .story__title,
+[data-site="dr-shine-bahrain"] .menu__title,
+[data-site="dr-shine-bahrain"] .rev__title,
+[data-site="dr-shine-bahrain"] .amen__title,
+[data-site="dr-shine-bahrain"] .visit__title { position: relative; padding-bottom: 18px; }
+[data-site="dr-shine-bahrain"] .story__title::after,
+[data-site="dr-shine-bahrain"] .menu__title::after,
+[data-site="dr-shine-bahrain"] .rev__title::after,
+[data-site="dr-shine-bahrain"] .amen__title::after,
+[data-site="dr-shine-bahrain"] .visit__title::after {
+  content: "";
+  position: absolute;
+  inset-inline-start: 0;
+  bottom: 0;
+  width: 88px;
+  height: 8px;
+  background: var(--sign);
+  transform-origin: right center;
+  transform: scaleX(var(--stripe, 1));
+}
+
+/* ---------- hero: graphite name, sign-yellow action ---------- */
+[data-site="dr-shine-bahrain"] .hero__headline { overflow: visible; line-height: 1.35; }
+[data-site="dr-shine-bahrain"] .hero__media img { object-position: 50% 55%; }
+[data-site="dr-shine-bahrain"] .btn--glow { font-weight: 600; }
+[data-site="dr-shine-bahrain"] .btn--ghost { border-color: var(--ink); color: var(--ink); }
+
+/* ---------- marquee on a full sign-yellow field, like the lit sign over the bay ---------- */
+[data-site="dr-shine-bahrain"] .marquee { background: var(--sign); color: #16160F; }
+[data-site="dr-shine-bahrain"] .marquee .marquee__dot { background: #16160F; }
+[data-site="dr-shine-bahrain"] .marquee .label { color: #16160F; }
+
+/* ---------- proof on graphite: the ceiling of the bay, rating lit in yellow ---------- */
+[data-site="dr-shine-bahrain"] .proof { background: var(--slot); color: #F2F3F4; }
+[data-site="dr-shine-bahrain"] .proof .muted { color: #C4C9CF; }
+[data-site="dr-shine-bahrain"] .proof .stat__num { color: #FFFFFF; }
+[data-site="dr-shine-bahrain"] .proof .stat:first-child .stat__num { color: var(--sign); }
+
+/* ---------- yellow used as text elsewhere: switch to the readable dark yellow ---------- */
+[data-site="dr-shine-bahrain"] .eyebrow,
+[data-site="dr-shine-bahrain"] .panel__time,
+[data-site="dr-shine-bahrain"] .tabs__count,
+[data-site="dr-shine-bahrain"] .amen__list svg,
+[data-site="dr-shine-bahrain"] .rev__num,
+[data-site="dr-shine-bahrain"] .mapd__open,
+[data-site="dr-shine-bahrain"] .wa { color: var(--sign-text); }
+[data-site="dr-shine-bahrain"] .panel-m__tag { color: var(--sign); }
+[data-site="dr-shine-bahrain"] .card blockquote::before { color: var(--sign); }
+[data-site="dr-shine-bahrain"] .tabs__ink { background: var(--sign); }
+@media (hover: hover) {
+  [data-site="dr-shine-bahrain"] .item:hover .item__price,
+  [data-site="dr-shine-bahrain"] .phone:hover { color: var(--sign-text); }
+}
+
+/* ---------- services list: each item a bay slot with a yellow lane mark on hover ---------- */
+[data-site="dr-shine-bahrain"] .item { position: relative; padding-inline-start: 18px; }
+[data-site="dr-shine-bahrain"] .item::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: 0;
+  top: .35em;
+  width: 6px;
+  height: 1.2em;
+  background: var(--sign);
+  transform: scaleY(.35);
+  transform-origin: top center;
+  transition: transform .35s var(--ease);
+}
+@media (hover: hover) {
+  [data-site="dr-shine-bahrain"] .item:hover::before { transform: scaleY(1); }
+}
+
+/* ---------- story panels: white cards on the tile grey, square like the floor tiles ---------- */
+[data-site="dr-shine-bahrain"] .panel { background: var(--surface); }
+[data-site="dr-shine-bahrain"] .panel__media img { filter: saturate(1.05) contrast(1.03); }
+
+/* ---------- visit: the marquee keeps its yellow field, no line above and below ---------- */
+[data-site="dr-shine-bahrain"] .marquee { border-block: 0; }
+
+@media (max-width: 640px) {
+  html[data-site="dr-shine-bahrain"] { --grate-h: 10px; }
+  [data-site="dr-shine-bahrain"] .story__title::after,
+  [data-site="dr-shine-bahrain"] .menu__title::after,
+  [data-site="dr-shine-bahrain"] .rev__title::after,
+  [data-site="dr-shine-bahrain"] .amen__title::after,
+  [data-site="dr-shine-bahrain"] .visit__title::after { width: 64px; height: 6px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-site="dr-shine-bahrain"] .item::before { transition: none; }
+}
+
+/* ---------- round 2 fixes ---------- */
+/* in-page targets stay clear of the sticky header */
+[data-site="dr-shine-bahrain"] section[id],
+[data-site="dr-shine-bahrain"] .story,
+[data-site="dr-shine-bahrain"] .menu__title,
+[data-site="dr-shine-bahrain"] .rev { scroll-margin-top: 96px; }
+[data-site="dr-shine-bahrain"] .menu__head { padding-top: 12px; }
+
+/* hero: full photo, headline over a graphite veil, always readable */
+[data-site="dr-shine-bahrain"] .hero__shade { background: linear-gradient(0deg, rgba(23,25,28,.86), rgba(23,25,28,.35) 70%, rgba(23,25,28,.2)); }
+[data-site="dr-shine-bahrain"] .hero .hero__headline,
+[data-site="dr-shine-bahrain"] .hero .hero__intro { color: #fff; opacity: 1; visibility: visible; }
+[data-site="dr-shine-bahrain"] .hero .btn--ghost { border-color: #fff; color: #fff; }
+[data-site="dr-shine-bahrain"] .hero .eyebrow { color: var(--sign); }
+
+/* contrast: yellow never as text on light grounds */
+[data-site="dr-shine-bahrain"] .card__stars,
+[data-site="dr-shine-bahrain"] .card [class*="__label"],
+[data-site="dr-shine-bahrain"] .card [class*="__num"],
+[data-site="dr-shine-bahrain"] .panel__text .eyebrow,
+[data-site="dr-shine-bahrain"] .menu__sample,
+[data-site="dr-shine-bahrain"] .menu__foot a { color: var(--sign-text); }
+[data-site="dr-shine-bahrain"] .menu__sample { background: var(--surface); border: 1px solid var(--sign-text); color: var(--ink); padding: 12px 16px; line-height: 1.8; }
+
+/* services: compact, only as tall as its items */
+[data-site="dr-shine-bahrain"] .panels,
+[data-site="dr-shine-bahrain"] .panel-m { min-height: 0; height: auto; }
+[data-site="dr-shine-bahrain"] .panel-m__visual { max-height: 320px; overflow: hidden; }
+[data-site="dr-shine-bahrain"] .items { gap: 4px; }
+
+/* reviews: static grid instead of a horizontal rail, nothing clipped */
+[data-site="dr-shine-bahrain"] .rev__rail {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: 16px; overflow: visible; transform: none; width: auto; padding-inline: 0;
+}
+[data-site="dr-shine-bahrain"] .rev__rail .card { width: auto; min-width: 0; flex: none; height: auto; min-height: 0; }
+[data-site="dr-shine-bahrain"] .card blockquote { overflow-wrap: anywhere; }
+
+/* story as a stack: no pin gaps */
+[data-site="dr-shine-bahrain"] .story { padding-block: clamp(56px, 8vw, 96px); }
+[data-site="dr-shine-bahrain"] .proof { padding-block: clamp(48px, 6vw, 80px); }
+
+/* visit: darker veil, light ink, isolated LTR numbers */
+[data-site="dr-shine-bahrain"] .visit__bg { opacity: .55; }
+[data-site="dr-shine-bahrain"] .visit__shade { background: rgba(23,25,28,.82); }
+[data-site="dr-shine-bahrain"] .visit,
+[data-site="dr-shine-bahrain"] .visit__title,
+[data-site="dr-shine-bahrain"] .visit .hours,
+[data-site="dr-shine-bahrain"] .visit .contact { color: #fff; }
+[data-site="dr-shine-bahrain"] .visit .muted,
+[data-site="dr-shine-bahrain"] .visit__cols h3,
+[data-site="dr-shine-bahrain"] .visit__cols dt { color: #E4E7EA; font-size: 1rem; }
+[data-site="dr-shine-bahrain"] .visit__title { line-height: 1.5; padding-bottom: 22px; overflow: visible; }
+[data-site="dr-shine-bahrain"] .visit .wa { color: var(--sign); }
+[data-site="dr-shine-bahrain"] .phone,
+[data-site="dr-shine-bahrain"] .visit address,
+[data-site="dr-shine-bahrain"] .ltr { direction: ltr; unicode-bidi: isolate; text-align: start; }
+[data-site="dr-shine-bahrain"] .visit address { direction: rtl; text-align: right; unicode-bidi: plaintext; }
+[data-site="dr-shine-bahrain"] .photo__badge { inset-block-end: 10px; z-index: 3; }
+
+/* touch targets and preview bar */
+[data-site="dr-shine-bahrain"] .nav-btn,
+[data-site="dr-shine-bahrain"] .header-call { min-height: 44px; display: inline-flex; align-items: center; }
+[data-site="dr-shine-bahrain"] .preview-bar { font-size: 13px; line-height: 1.6; }

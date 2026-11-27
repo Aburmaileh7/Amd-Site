@@ -1,0 +1,200 @@
+/* Y97, As Sahafah, Riyadh. The café's own room is the palette: white limewash walls, red woven
+   kilims hung on them, a grey concrete ceiling, black hand-drawn Y97 lettering on the cups and
+   trays, and a row of yellow rubber ducks along the bar.
+   Signature: the kilim band. A woven strip of red diamonds on black, drawn in CSS, frames the
+   hero photo like a rug on the wall, edges the red marquee field, and opens the visit section.
+   Photos are square like the rugs; the ducks' yellow appears only as small marks
+   (marquee dots, the "mentioned in reviews" tag). */
+html[data-site="y97-specialty-coffee"]{
+  --bg:#FBFAF7;--bg-rgb:251,250,247;
+  --surface:#EFEDE9;--surface-2:#E3E0DA;
+  --ink:#1B1714;--ink-rgb:27,23,20;--muted:#58514A;
+  --line:rgba(27,23,20,.12);
+  --kilim:#A3242F;--kilim-rgb:163,36,47;--kilim-deep:#6E141D;
+  --wool:#F6EBDD;--duck:#F2C230;--night:#1B1714;
+  --font-d:"Alexandria","IBM Plex Sans Arabic",system-ui,sans-serif;
+  --font-ui:"Alexandria","IBM Plex Sans Arabic",system-ui,sans-serif;
+  --display-weight:500;--radius:0px;
+  /* the woven band: red diamonds on black with a wool dot in each, one tile tall */
+  --band-size:22px;
+  --band:
+    radial-gradient(circle at 0 50%,var(--wool) 0 2.4px,transparent 2.9px) 0 0/var(--band-size) var(--band-size),
+    conic-gradient(from 45deg at 50% 50%,var(--night) 0 25%,var(--kilim) 0 50%,var(--night) 0 75%,var(--kilim) 0) 0 0/var(--band-size) var(--band-size);
+}
+
+/* ---------- type: the chunky black of the Y97 lettering ---------- */
+html[data-site="y97-specialty-coffee"] h1,
+html[data-site="y97-specialty-coffee"] h2,
+html[data-site="y97-specialty-coffee"] h3,
+html[data-site="y97-specialty-coffee"] .hero__headline{letter-spacing:normal}
+html[data-site="y97-specialty-coffee"] .hero__title[lang="en"]{
+  letter-spacing:-.04em;font-weight:500;line-height:.9;color:var(--night)
+}
+html[data-site="y97-specialty-coffee"] .hero__headline{
+  font-weight:500;line-height:1.3;color:var(--ink)
+}
+html[data-site="y97-specialty-coffee"] .hero__intro{color:var(--ink);line-height:1.65}
+html[data-site="y97-specialty-coffee"] .eyebrow{color:var(--kilim);letter-spacing:normal}
+
+/* ---------- hero: the photo hangs in a kilim frame, like the rugs on the wall ---------- */
+html[data-site="y97-specialty-coffee"] .hero__side{
+  position:relative;padding:clamp(12px,1.4vw,18px);background:var(--band);
+  border-radius:0;overflow:hidden
+}
+html[data-site="y97-specialty-coffee"] .hero__side .photo{
+  border-radius:0;aspect-ratio:4/5;outline:clamp(4px,.5vw,6px) solid var(--wool);outline-offset:0
+}
+html[data-site="y97-specialty-coffee"] .hero__side .photo img{object-position:50% 45%!important}
+/* fringe: the tassels at the foot of a kilim */
+html[data-site="y97-specialty-coffee"] .hero__side::after{
+  content:"";position:absolute;inset-inline:clamp(12px,1.4vw,18px);bottom:0;height:clamp(6px,.7vw,9px);
+  background:repeating-linear-gradient(90deg,var(--wool) 0 2px,transparent 2px 6px);pointer-events:none
+}
+
+/* ---------- buttons: square like a rug's corner ---------- */
+html[data-site="y97-specialty-coffee"] .btn{border-radius:0;font-family:var(--font-ui)}
+html[data-site="y97-specialty-coffee"] .btn--ghost{border-color:rgba(var(--ink-rgb),.35);color:var(--ink)}
+html[data-site="y97-specialty-coffee"] .btn--ghost:hover{border-color:var(--kilim);color:var(--kilim)}
+html[data-site="y97-specialty-coffee"] .star{background:var(--duck)}
+
+/* ---------- marquee: a field of kilim red, edged top and bottom by the band ---------- */
+html[data-site="y97-specialty-coffee"] .marquee{
+  position:relative;background:var(--kilim);color:var(--wool);border:0;
+  padding-block:calc(var(--band-size) + clamp(18px,3vw,34px))
+}
+html[data-site="y97-specialty-coffee"] .marquee::before,
+html[data-site="y97-specialty-coffee"] .marquee::after{
+  content:"";position:absolute;inset-inline:0;height:var(--band-size);background:var(--band)
+}
+html[data-site="y97-specialty-coffee"] .marquee::before{top:0}
+html[data-site="y97-specialty-coffee"] .marquee::after{bottom:0}
+html[data-site="y97-specialty-coffee"] .marquee__row li{font-weight:500;letter-spacing:normal}
+html[data-site="y97-specialty-coffee"] .marquee__dot{
+  background:var(--duck);width:.42em;height:.42em;border-radius:50% 50% 50% 0
+}
+
+/* ---------- photos everywhere: square, like the rugs ---------- */
+html[data-site="y97-specialty-coffee"] .photo,
+html[data-site="y97-specialty-coffee"] .panel__media .photo,
+html[data-site="y97-specialty-coffee"] .panel-m__visual,
+html[data-site="y97-specialty-coffee"] .amen__media,
+html[data-site="y97-specialty-coffee"] .card{border-radius:0}
+html[data-site="y97-specialty-coffee"] .photo__badge{border-radius:0}
+
+/* ---------- story: concrete-grey panels, red numbering like the rug's red ---------- */
+html[data-site="y97-specialty-coffee"] .story{background:var(--bg)}
+html[data-site="y97-specialty-coffee"] .panel__time{color:var(--kilim);font-weight:500}
+html[data-site="y97-specialty-coffee"] .panel h3{font-weight:500;line-height:1.3}
+html[data-site="y97-specialty-coffee"] .panel .muted{color:var(--ink)}
+html[data-site="y97-specialty-coffee"] .panel__clock{color:rgba(var(--kilim-rgb),.22)}
+html[data-site="y97-specialty-coffee"] .panel__media .photo{
+  outline:clamp(6px,.7vw,10px) solid var(--surface);outline-offset:0
+}
+
+/* ---------- reviews: white cards on the concrete grey, a short kilim tab at the top ---------- */
+html[data-site="y97-specialty-coffee"] .rev{background:var(--surface)}
+html[data-site="y97-specialty-coffee"] .rev__title{font-weight:500}
+html[data-site="y97-specialty-coffee"] .card{
+  background:var(--bg);border:0;position:relative;padding-top:calc(26px + 10px)
+}
+html[data-site="y97-specialty-coffee"] .card::before{
+  content:"";position:absolute;top:0;inset-inline-start:26px;width:66px;height:10px;
+  background:var(--band);background-size:10px 10px,10px 10px
+}
+html[data-site="y97-specialty-coffee"] .card__stars .on{background:var(--duck)}
+html[data-site="y97-specialty-coffee"] .card blockquote,
+html[data-site="y97-specialty-coffee"] .card p{color:var(--ink)}
+
+/* ---------- menu: the duck's yellow marks what visitors named ---------- */
+html[data-site="y97-specialty-coffee"] .menu__title{font-weight:500}
+html[data-site="y97-specialty-coffee"] .item__name{font-family:var(--font-ui);font-weight:500}
+html[data-site="y97-specialty-coffee"] .item__badge{
+  border:0;border-radius:0;background:var(--duck);color:var(--night);font-weight:500;padding:3px 10px
+}
+html[data-site="y97-specialty-coffee"] .panel-m__plain{background:var(--band);background-size:44px 44px,44px 44px}
+html[data-site="y97-specialty-coffee"] .tabs__ink{background:var(--kilim)}
+html[data-site="y97-specialty-coffee"] .menu__sample .dot{background:var(--kilim)}
+
+/* ---------- proof: numbers in the Y97 black, set on white ---------- */
+html[data-site="y97-specialty-coffee"] .stat__num{color:var(--night);font-weight:500}
+
+/* ---------- visit: the band opens the section like the top edge of a rug ---------- */
+html[data-site="y97-specialty-coffee"] .visit{position:relative}
+html[data-site="y97-specialty-coffee"] .visit::before{
+  content:"";position:absolute;top:0;inset-inline:0;height:var(--band-size);background:var(--band);z-index:3
+}
+html[data-site="y97-specialty-coffee"] .visit__title{font-weight:500;line-height:1.25}
+
+@media (max-width:899px){
+  html[data-site="y97-specialty-coffee"]{--band-size:18px}
+  html[data-site="y97-specialty-coffee"] .hero__side .photo{aspect-ratio:4/5}
+}
+
+/* ===== round-1 fixes ===== */
+/* price: number first, then the currency, with a gap (no bidi mixing) */
+html[data-site="y97-specialty-coffee"] .item__price{
+  display:inline-flex;flex-direction:row;direction:rtl;gap:.35em;align-items:baseline;white-space:nowrap;unicode-bidi:isolate
+}
+html[data-site="y97-specialty-coffee"] .item__price .ltr{direction:ltr;unicode-bidi:isolate}
+html[data-site="y97-specialty-coffee"] .item__price .cur{margin:0}
+
+/* Latin names stay whole, never cut */
+html[data-site="y97-specialty-coffee"] .ltr{unicode-bidi:isolate;white-space:nowrap}
+
+/* reviews + story: nothing clipped */
+html[data-site="y97-specialty-coffee"] .rev__rail{padding-inline:var(--gutter);scroll-padding-inline:var(--gutter)}
+html[data-site="y97-specialty-coffee"] .card{
+  box-sizing:border-box;min-width:0;max-width:calc(100vw - 2*var(--gutter));overflow:visible;overflow-wrap:anywhere;white-space:normal
+}
+html[data-site="y97-specialty-coffee"] .card blockquote,
+html[data-site="y97-specialty-coffee"] .card p{font-size:max(16px,1em);line-height:1.8;overflow-wrap:anywhere}
+html[data-site="y97-specialty-coffee"] .panel__text,
+html[data-site="y97-specialty-coffee"] .panel h3,
+html[data-site="y97-specialty-coffee"] .panel .muted{overflow:visible;overflow-wrap:break-word;line-height:1.7}
+html[data-site="y97-specialty-coffee"] .panel__time{color:#8F1D27;font-size:max(13px,.9em)}
+html[data-site="y97-specialty-coffee"] .panel__time span{color:#8F1D27;opacity:1}
+
+/* minimum type sizes */
+html[data-site="y97-specialty-coffee"] .label,
+html[data-site="y97-specialty-coffee"] .eyebrow,
+html[data-site="y97-specialty-coffee"] .item__badge,
+html[data-site="y97-specialty-coffee"] .panel-m__tag,
+html[data-site="y97-specialty-coffee"] .tabs__count,
+html[data-site="y97-specialty-coffee"] .menu__foot,
+html[data-site="y97-specialty-coffee"] .menu__sample,
+html[data-site="y97-specialty-coffee"] .photo__badge{font-size:max(12px,.8em);line-height:1.6}
+html[data-site="y97-specialty-coffee"] .item__desc,
+html[data-site="y97-specialty-coffee"] .muted,
+html[data-site="y97-specialty-coffee"] .mentions,
+html[data-site="y97-specialty-coffee"] .stat span:not(.stat__num){font-size:max(16px,1em);line-height:1.75;color:var(--muted)}
+html[data-site="y97-specialty-coffee"] .item__badge{padding:4px 12px;min-height:24px}
+html[data-site="y97-specialty-coffee"] .menu__foot{color:var(--ink);opacity:1}
+
+/* tighter vertical rhythm */
+html[data-site="y97-specialty-coffee"] .rev{padding-block:clamp(56px,7vw,96px)}
+html[data-site="y97-specialty-coffee"] .menu{padding-block:clamp(56px,7vw,96px)}
+html[data-site="y97-specialty-coffee"] .proof{padding-block:clamp(48px,6vw,88px)}
+html[data-site="y97-specialty-coffee"] .amen{padding-block:clamp(56px,7vw,96px)}
+html[data-site="y97-specialty-coffee"] .stats{gap:clamp(20px,3vw,40px);margin-block:0}
+html[data-site="y97-specialty-coffee"] .menu__foot{margin-top:clamp(16px,2vw,28px)}
+
+/* visit: small address title, strong veil, light ink, badge off the text */
+html[data-site="y97-specialty-coffee"] .visit{padding-block:calc(var(--band-size) + clamp(48px,6vw,96px)) clamp(56px,7vw,96px);color:#fff}
+html[data-site="y97-specialty-coffee"] .visit__bg{opacity:1;filter:saturate(.9) brightness(.7)}
+html[data-site="y97-specialty-coffee"] .visit__shade{
+  background:linear-gradient(180deg,rgba(27,23,20,.9),rgba(27,23,20,.82) 55%,rgba(27,23,20,.9))!important;opacity:1!important
+}
+html[data-site="y97-specialty-coffee"] .visit__title{
+  font-size:clamp(24px,3.2vw,40px)!important;line-height:1.35;color:#fff;overflow:visible;overflow-wrap:anywhere;max-width:22ch
+}
+html[data-site="y97-specialty-coffee"] .visit .label,
+html[data-site="y97-specialty-coffee"] .visit dt,
+html[data-site="y97-specialty-coffee"] .visit .muted{color:#F6EBDD;opacity:1}
+html[data-site="y97-specialty-coffee"] .visit dd,
+html[data-site="y97-specialty-coffee"] .visit .phone,
+html[data-site="y97-specialty-coffee"] .visit .hours{color:#fff;font-size:max(16px,1em)}
+html[data-site="y97-specialty-coffee"] .visit .hours dd{font-variant-numeric:lining-nums}
+html[data-site="y97-specialty-coffee"] .visit__badge{
+  position:static!important;inset:auto!important;display:inline-block;margin-top:20px;background:rgba(27,23,20,.9);color:#fff
+}
+html[data-site="y97-specialty-coffee"] .visit .btn--ghost{color:#fff;border-color:rgba(255,255,255,.6)}

@@ -1,0 +1,277 @@
+{
+  "place_id": "ChIJW9k-zbbRwxUR2YvWvaTM6Bg",
+  "batch_id": "amd-gulf-20261127",
+  "slug": "turkey-barber-shop-jeddah",
+  "theme": "beauty_soft",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "Google Maps listing (Apify place data) + photos and printed service board from the Maps listing",
+  "layout": {
+    "hero": "split",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#B3202E",
+    "rgb": "179, 32, 46",
+    "hover": "#931A26",
+    "ink": "#FFFFFF"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "name": "Turkey Barber Shop صالون المعيار العالمي",
+  "name_lang": "ar",
+  "category_label": "صالون حلاقة رجالية",
+  "area": "حي الفيصلية، جدة",
+  "address": "2894 شارع المعهد الصناعي، حي الفيصلية، جدة",
+  "map_query": "Turkey Barber Shop, Al Mahad Al Sinai St, Al Faisaliyah, Jeddah",
+  "hero": {
+    "headline": "Turkey Barber Shop: حلاقة هادئة في الفيصلية",
+    "intro": "صالون حلاقة رجالية في حي الفيصلية بجدة، يفتح كل يوم حتى منتصف الليل، وزبائنه يرجعون إليه سنة بعد سنة. من حلاقة الشعر والدقن إلى العناية بالرأس والوجه.",
+    "image": "interior"
+  },
+  "sections": [
+    "menu",
+    "marquee",
+    "reviews",
+    "story",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "title": "ما يقوله زبائن Turkey Barber Shop",
+    "items": [
+      {
+        "label": "منذ سنتين",
+        "title": "زبائن يرجعون",
+        "text": "أحد الزبائن يكتب أنه يأتي إلى الصالون منذ سنتين ولم يجرّب غيره. التقييم 4.8 من 223 تقييمًا على خرائط Google.",
+        "image": "chairs"
+      },
+      {
+        "label": "الفريق",
+        "title": "معاملة مهنية ومرحّبة",
+        "text": "التقييمات تصف الفريق بأنه محترف وودود، وتصف الصالون بأنه مكان يستقبلك بترحاب.",
+        "image": "mural"
+      },
+      {
+        "label": "الجلسة",
+        "title": "جو هادئ",
+        "text": "يصف أحد الزبائن الحلاقة بأنها هادئة ولطيفة، والمكان بأنه مريح لمن يريد جلسة بلا ازدحام.",
+        "image": "shelf"
+      },
+      {
+        "label": "السعر",
+        "title": "سعر معقول",
+        "text": "أحد الزبائن ينصح بالصالون لمن يريد حلاقة جيدة بسعر معقول.",
+        "image": "interior"
+      }
+    ]
+  },
+  "marquee": {
+    "label": "في الصالون",
+    "items": [
+      "حلاقة شعر",
+      "حلاقة دقن",
+      "حمام زيت على الراس",
+      "استشوار",
+      "حي الفيصلية، جدة"
+    ]
+  },
+  "menu": {
+    "kind": "services",
+    "sample": false,
+    "title": "الخدمات",
+    "note": "قائمة الخدمات من لوحة مطبوعة للصالون في صور خرائط Google، الأسعار غير موضحة لكل خدمة",
+    "foot": "الخدمات من لوحة الصالون المطبوعة في صوره على خرائط Google. الأسعار غير منشورة لكل خدمة، اسأل الصالون عن السعر قبل الموعد.",
+    "categories": [
+      {
+        "id": "cut",
+        "title": "الحلاقة",
+        "tagline": "",
+        "image": "chairs",
+        "items": [
+          {
+            "name": "حلاقة شعر",
+            "desc": "قص الشعر، وهي الخدمة التي يذكرها الزبائن في تقييماتهم."
+          },
+          {
+            "name": "حلاقة دقن",
+            "desc": "حلاقة الدقن، من الخدمات الأساسية في قائمة الصالون."
+          },
+          {
+            "name": "استشوار",
+            "desc": "تجفيف الشعر وتصفيفه بالاستشوار."
+          }
+        ]
+      },
+      {
+        "id": "scalp",
+        "title": "العناية بالرأس",
+        "tagline": "",
+        "image": "shelf",
+        "items": [
+          {
+            "name": "حمام زيت على الراس",
+            "desc": "عناية بفروة الرأس بالزيت، من قسم «الرأس» في القائمة."
+          },
+          {
+            "name": "غسيل راس",
+            "desc": "غسيل الرأس، من قسم «الرأس» في القائمة."
+          }
+        ]
+      },
+      {
+        "id": "face",
+        "title": "العناية بالوجه",
+        "tagline": "",
+        "image": "mural",
+        "items": [
+          {
+            "name": "تقشير الوجه"
+          },
+          {
+            "name": "فيتامين A على الوجه"
+          },
+          {
+            "name": "ليزر على الوجه"
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "حلاقة شعر",
+    "حلاقة دقن",
+    "استشوار",
+    "حمام زيت على الراس",
+    "غسيل راس"
+  ],
+  "reviews": [
+    {
+      "author": "Faheem A.",
+      "stars": 5,
+      "text": "Very nice place, i am coming here from last 2 years and did not go to other place. Highly recommended",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2kxTVZYZERVMnhGVEdWWExVMHRjRzgyYzBSNlMzYxAB"
+    },
+    {
+      "author": "Hossam H.",
+      "stars": 5,
+      "text": "Best barbershop in Jeddah, very professional and welcoming. You must try!",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSURUc1pMRjFBRRAB"
+    },
+    {
+      "author": "King R.",
+      "stars": 5,
+      "text": "I recommend this place if you want a good hair cut with reasonable price",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUNoX191QllnEAE"
+    },
+    {
+      "author": "Anas B.",
+      "stars": 5,
+      "text": "Excellent salon, friendly and professional staff, I recommend it",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUNoczQ3eE13EAE"
+    },
+    {
+      "author": "sin N.",
+      "stars": 5,
+      "text": "Very calm and nice haircut good people ….",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSURoM3Zmc2hnRRAB"
+    },
+    {
+      "author": "yuki90",
+      "stars": 5,
+      "text": "Truly the best barber in the neighborhood",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSUNMMUtMUXBRRRAB"
+    }
+  ],
+  "amenities": {
+    "title": "قبل زيارتك",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "يُنصح بحجز موعد",
+        "text": "اتصل قبل الحضور لتختار وقتك."
+      },
+      {
+        "icon": "clock",
+        "title": "حتى منتصف الليل",
+        "text": "كل يوم حتى 12 منتصف الليل، والجمعة من 1 ظهرًا."
+      },
+      {
+        "icon": "access",
+        "title": "مهيأ للكراسي المتحركة",
+        "text": "المدخل والمواقف مهيأة."
+      },
+      {
+        "icon": "bag",
+        "title": "الدفع بالبطاقة",
+        "text": "بطاقات الخصم والدفع عبر الجوال NFC."
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للأطفال",
+        "text": "الصالون يستقبل الأطفال مع أهلهم."
+      }
+    ]
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "السبت – الخميس",
+        "time": "10 ص – 12 منتصف الليل"
+      },
+      {
+        "days": "الجمعة",
+        "time": "1 م – 12 منتصف الليل"
+      }
+    ],
+    "source": "Google Maps"
+  },
+  "visit": {
+    "title": "زورونا في الفيصلية",
+    "image": "storefront"
+  },
+  "images": {
+    "interior": {
+      "file": "interior-main.jpg",
+      "alt": "صورة داخل الصالون بكراسي ذهبية وجدارية الحلاق الملتحي",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Turkey%20Barber%20Shop%20%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D8%B9%D9%8A%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A&query_place_id=ChIJW9k-zbbRwxUR2YvWvaTM6Bg",
+      "credit": "من خرائط Google"
+    },
+    "mural": {
+      "file": "mural-wall.jpg",
+      "alt": "صورة جدارية الحلاق بالنظارة وعمود الحلاقة فوق كرسي ذهبي",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Turkey%20Barber%20Shop%20%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D8%B9%D9%8A%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A&query_place_id=ChIJW9k-zbbRwxUR2YvWvaTM6Bg",
+      "credit": "من خرائط Google"
+    },
+    "shelf": {
+      "file": "products-shelf.jpg",
+      "alt": "صورة رفوف منتجات العناية على جدار رخامي",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Turkey%20Barber%20Shop%20%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D8%B9%D9%8A%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A&query_place_id=ChIJW9k-zbbRwxUR2YvWvaTM6Bg",
+      "credit": "من خرائط Google"
+    },
+    "chairs": {
+      "file": "chairs-counter.jpg",
+      "alt": "صورة مرآة الصالون وكرسي حلاقة ذهبي ورف المنتجات",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Turkey%20Barber%20Shop%20%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D8%B9%D9%8A%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A&query_place_id=ChIJW9k-zbbRwxUR2YvWvaTM6Bg",
+      "credit": "من خرائط Google"
+    },
+    "storefront": {
+      "file": "storefront.jpg",
+      "alt": "صورة واجهة صالون المعيار العالمي في الفيصلية",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Turkey%20Barber%20Shop%20%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D8%B9%D9%8A%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A&query_place_id=ChIJW9k-zbbRwxUR2YvWvaTM6Bg",
+      "credit": "من خرائط Google"
+    }
+  },
+  "phone": {
+    "display": "+966 53 709 0344",
+    "tel": "+966537090344"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Turkey%20Barber%20Shop%20%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D8%B9%D9%8A%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A&query_place_id=ChIJW9k-zbbRwxUR2YvWvaTM6Bg",
+  "rating": {
+    "value": 4.8,
+    "count": 223,
+    "source": "Google Maps"
+  }
+}

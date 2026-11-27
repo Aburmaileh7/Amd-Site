@@ -1,0 +1,293 @@
+{
+  "place_id": "ChIJy6VTVmalST4Rx1T1cDIyka8",
+  "batch_id": "amd-gulf-20261127",
+  "slug": "dr-shine-bahrain",
+  "theme": "services_pro",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "Google Maps (maps.json): name, address, phone, hours, rating 4.5/409, amenities, 16 reviews fetched (6 copied), photos",
+  "layout": {
+    "hero": "full",
+    "story": "stack"
+  },
+  "accent": {
+    "hex": "#F7CB15",
+    "rgb": "247, 203, 21",
+    "hover": "#E0B500",
+    "ink": "#16160F"
+  },
+  "motion": {
+    "hero": "kenburns",
+    "signature": "curtain-rise"
+  },
+  "name": "Dr Shine",
+  "name_lang": "en",
+  "category_label": "غسيل وتلميع السيارات",
+  "area": "دانة مول، سنابس",
+  "address": "دانة مول، شارع 28، سنابس، البحرين",
+  "map_query": "Dr Shine Dana Mall Sanabis",
+  "hero": {
+    "headline": "غسيل وتلميع بعناية في دانة مول سنابس",
+    "intro": "غسيل يدوي وتلميع وسيراميك وحماية للطلاء في دانة مول بسنابس، ومفتوح من 8 صباحًا إلى 11 مساءً كل أيام الأسبوع.",
+    "image": "gtr"
+  },
+  "sections": [
+    "story",
+    "menu",
+    "marquee",
+    "reviews",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "title": "ما يكتبه زبائنهم",
+    "items": [
+      {
+        "label": "التفاصيل",
+        "title": "اهتمام بالتفاصيل",
+        "text": "يكتب الزبائن أن الفريق ينتبه للتفاصيل الصغيرة، حتى مع سيارة مغبرة وخوف من خدوش الطلاء، والنتيجة كانت مرضية.",
+        "image": "bmw"
+      },
+      {
+        "label": "اللمعة",
+        "title": "تلميع وسيراميك",
+        "text": "زبون أوصى بخدمتي التلميع والسيراميك، وكتب أن لمعة سيارته مدهشة وأنه يتلقى عليها المديح.",
+        "image": "gtr"
+      },
+      {
+        "label": "المقصورة",
+        "title": "الغسيل من الداخل والخارج",
+        "text": "زبونة جرّبت الغسيل من الداخل والخارج وكتبت أن المقاعد صارت كالجديدة وأن رائحة السيارة منعشة.",
+        "image": "levante"
+      },
+      {
+        "label": "الانتظار",
+        "title": "استقبال وانتظار",
+        "text": "زبونة وصلت متأخرة واستقبلها الفريق بترحيب، وزبائن ذكروا مكان انتظار يمكن منه متابعة الغسيل.",
+        "image": "bay"
+      }
+    ]
+  },
+  "marquee": {
+    "label": "خدمات Dr Shine",
+    "items": [
+      "تلميع",
+      "غسيل بالسيراميك",
+      "حماية الطلاء",
+      "غسيل بالرغوة",
+      "تنظيف غرفة المحرك",
+      "دانة مول، سنابس"
+    ]
+  },
+  "mentions": [
+    "التلميع",
+    "الغسيل بالسيراميك",
+    "الغسيل بالرغوة",
+    "الغسيل من الداخل",
+    "تنظيف غرفة المحرك",
+    "حماية الطلاء"
+  ],
+  "reviews": [
+    {
+      "author": "Oska A.",
+      "stars": 5,
+      "text": "I thoroughly recommend their Polishing and Ceramic services the shine on my cars is unbelievable and I always get complements! Do your car a favour and wash it at Dr Shine!",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUNnN2ZudE5nEAE"
+    },
+    {
+      "author": "Mariano O.",
+      "stars": 5,
+      "text": "Come here if you want a professional job, honest and direct. They care about all the small details, full of experience and great customer service. Dr. Shine is the place if you want a great result.",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25BNVYzUmtha05vWm1FNGIyUmpRMTlTTjNSV2FYYxAB"
+    },
+    {
+      "author": "Noor M.",
+      "stars": 5,
+      "text": "First time at Dr Shine and definitely not the last ✨! I came in late but they still welcomed me warmly and took their time to give my car a perfect wash.",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT21JMVMwMUdZM2RDTW1Gb2JFeHdNazAwTm1ORWQzYxAB"
+    },
+    {
+      "author": "Ahmed S.",
+      "stars": 5,
+      "text": "Highly recommend this place if you are looking for a proper car wash. My car was very dusty and therefore I was worried about swirl marks, but they did a good and the results were amazing. This is now my go to car wash.",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSURQM051NWxBRRAB"
+    },
+    {
+      "author": "Ebrahim H.",
+      "stars": 5,
+      "text": "This is not a normal car wash, I consider it to be my car’s spa. I haven’t seen this level of care, cleanness and pampering provided to my car, even the shine my car maintains when dusty shows that these guys use premium materials. Try them once, you’ll love it.",
+      "source_ref": "ChdDSUhNMG9nS0VJQ0FnSUN6d0stMTZRRRAB"
+    },
+    {
+      "author": "Jenan A.",
+      "stars": 5,
+      "text": "I took my car to Dr. Shine yesterday and was genuinely impressed by their outstanding service and friendly staff. I opted for the inside-out car wash, and the results were amazing, my seats looked brand new, and the car smelled incredibly fresh. Highly recommended!",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT25KNGJVVm1PVkpRTm1Kck1tOTJjQzFoZEMxUFIxRRAB"
+    }
+  ],
+  "amenities": {
+    "title": "قبل الزيارة",
+    "image": "green",
+    "items": [
+      {
+        "icon": "car",
+        "title": "غسيل يدوي داخل المحل",
+        "text": "الخدمة داخل الموقع في دانة مول، مع مكنسة للسيارة."
+      },
+      {
+        "icon": "shield",
+        "title": "تنظيف أسفل السيارة",
+        "text": "خدمة لتنظيف أسفل السيارة إلى جانب الغسيل."
+      },
+      {
+        "icon": "calendar",
+        "title": "عضوية",
+        "text": "المحل يقدم نظام عضوية لزبائنه."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة وNFC",
+        "text": "بطاقات ودفع بالجوال، ودورة مياه في المكان."
+      }
+    ]
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "كل أيام الأسبوع",
+        "time": "8 ص – 11 م"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "visit": {
+    "title": "زيارتكم",
+    "image": "bay"
+  },
+  "images": {
+    "tunnel": {
+      "file": "wash-tunnel-hero.jpg",
+      "alt": "صورة ممر الغسيل الداخلي في Dr Shine مع سيارات، واللافتة الصفراء على الجدار",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Dr%20Shine&query_place_id=ChIJy6VTVmalST4Rx1T1cDIyka8",
+      "credit": "من خرائط Google"
+    },
+    "bay": {
+      "file": "wash-bay-interior.jpg",
+      "alt": "صورة سيارة Rolls-Royce أثناء الغسيل تحت لافتة DR.SHINE داخل Dr Shine",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Dr%20Shine&query_place_id=ChIJy6VTVmalST4Rx1T1cDIyka8",
+      "credit": "من خرائط Google"
+    },
+    "levante": {
+      "file": "red-levante-detail.jpg",
+      "alt": "صورة سيارة حمراء بعد الغسيل والتلميع داخل المحل",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Dr%20Shine&query_place_id=ChIJy6VTVmalST4Rx1T1cDIyka8",
+      "credit": "من خرائط Google"
+    },
+    "gtr": {
+      "file": "red-gtr-shine.jpg",
+      "alt": "صورة سيارة رياضية حمراء لامعة داخل Dr Shine",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Dr%20Shine&query_place_id=ChIJy6VTVmalST4Rx1T1cDIyka8",
+      "credit": "من خرائط Google"
+    },
+    "bmw": {
+      "file": "bmw-black-sedan.jpg",
+      "alt": "صورة سيارة BMW سوداء داخل Dr Shine",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Dr%20Shine&query_place_id=ChIJy6VTVmalST4Rx1T1cDIyka8",
+      "credit": "من خرائط Google"
+    },
+    "green": {
+      "file": "green-coupe-rear.jpg",
+      "alt": "صورة سيارة خضراء رياضية داخل Dr Shine",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Dr%20Shine&query_place_id=ChIJy6VTVmalST4Rx1T1cDIyka8",
+      "credit": "من خرائط Google"
+    }
+  },
+  "phone": {
+    "display": "+973 7777 6868",
+    "tel": "+97377776868"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Dr%20Shine&query_place_id=ChIJy6VTVmalST4Rx1T1cDIyka8",
+  "menu": {
+    "kind": "services",
+    "title": "الخدمات",
+    "sample": false,
+    "note": "لا توجد قائمة أسعار منشورة، والخدمات من تقييمات Google. للسعر اتصل بالمحل.",
+    "foot": "للسعر والموعد",
+    "categories": [
+      {
+        "id": "exterior",
+        "title": "غسيل خارجي",
+        "tagline": "رغوة وغسيل باليد",
+        "image": "tunnel",
+        "items": [
+          {
+            "name": "غسيل بالرغوة",
+            "desc": "Super Foam"
+          },
+          {
+            "name": "غسيل يدوي",
+            "desc": "Hand wash"
+          }
+        ]
+      },
+      {
+        "id": "interior",
+        "title": "غسيل داخلي",
+        "tagline": "المقاعد والأرضيات والرائحة",
+        "image": "bay",
+        "items": [
+          {
+            "name": "الغسيل من الداخل والخارج",
+            "desc": "Inside-out wash"
+          },
+          {
+            "name": "تنظيف المقاعد والمكنسة",
+            "desc": "Seats & vacuum"
+          }
+        ]
+      },
+      {
+        "id": "polish",
+        "title": "تلميع وحماية",
+        "tagline": "اللمعة التي يذكرها الزبائن",
+        "image": "gtr",
+        "items": [
+          {
+            "name": "تلميع",
+            "desc": "Polishing"
+          },
+          {
+            "name": "غسيل بالسيراميك",
+            "desc": "Ceramic wash"
+          },
+          {
+            "name": "حماية الطلاء",
+            "desc": "Paint protection"
+          }
+        ]
+      },
+      {
+        "id": "special",
+        "title": "عناية خاصة",
+        "tagline": "ما تحت الغطاء وعلى عجلتين",
+        "image": "green",
+        "items": [
+          {
+            "name": "تنظيف غرفة المحرك",
+            "desc": "Engine bay detailing"
+          },
+          {
+            "name": "تنظيف الدراجات النارية",
+            "desc": "Motorbikes"
+          }
+        ]
+      }
+    ]
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 409,
+    "source": "Google"
+  }
+}

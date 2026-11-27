@@ -1,0 +1,304 @@
+{
+  "place_id": "ChIJc4imk-blLj4R7dr8sHHpDYU",
+  "batch_id": "amd-gulf-20261121",
+  "slug": "y97-specialty-coffee",
+  "theme": "cafe_light",
+  "approved": false,
+  "agency": "Amd web",
+  "data_source": "خرائط Google (ملف maps.json من Apify) + إنستغرام الرابط المعروض للمحل",
+  "layout": {
+    "hero": "split",
+    "story": "horizontal"
+  },
+  "accent": {
+    "hex": "#A3242F",
+    "rgb": "163, 36, 47",
+    "hover": "#861C26",
+    "ink": "#FFFFFF"
+  },
+  "motion": {
+    "hero": "kenburns"
+  },
+  "name": "Y97",
+  "name_lang": "en",
+  "category_label": "مقهى مختص في حي الصحافة",
+  "area": "حي الصحافة، الرياض",
+  "address": "شارع الأمير ناصر بن سعود بن فرحان آل سعود، حي الصحافة، الرياض 13321",
+  "phone": {
+    "display": "+966 55 749 9464",
+    "tel": "+966557499464"
+  },
+  "instagram": "https://instagram.com/y97cafe",
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Y97%20-%20Specialty%20Coffee&query_place_id=ChIJc4imk-blLj4R7dr8sHHpDYU",
+  "map_query": "Y97 Specialty Coffee, As Sahafah, Riyadh",
+  "rating": {
+    "value": 4.7,
+    "count": 1115,
+    "source": "Google"
+  },
+  "hero": {
+    "headline": "قهوة مختصة وبطّات صفراء في الصحافة",
+    "intro": "مقهى صغير في حي الصحافة بالرياض، فيه فلات وايت وكورتادو ومشروبات مثلجة وحلويات، وبطّات صفراء تزيّن البار. يفتح من السادسة صباحًا.",
+    "image": "cups-and-ducks"
+  },
+  "sections": [
+    "marquee",
+    "story",
+    "reviews",
+    "menu",
+    "proof",
+    "amenities",
+    "visit"
+  ],
+  "story": {
+    "title": "ما يتكرر في آراء الزوار",
+    "items": [
+      {
+        "title": "فلات وايت وكورتادو",
+        "text": "وصف زائر الفلات وايت بعشرة من عشرة، وكتب زائر آخر أن الكورتادو الذي شربه في Y97 كان رائعًا.",
+        "label": "القهوة",
+        "image": "espresso-brownie",
+        "time": "6:00"
+      },
+      {
+        "title": "آيس دريب وآيس ماتشا",
+        "text": "نصح زائر بتجربة الآيس دريب والآيس ماتشا معًا، وذكر زائر آخر الآيس ماتشا واللاتيه ضمن ما جرّبه.",
+        "label": "البارد",
+        "image": "iced-drink"
+      },
+      {
+        "title": "البطّات في كل زاوية",
+        "text": "تكررت البطّات الصفراء في آراء الزوار، وأحبّها اثنان منهم. وفي الصور أرفف أكياس البن وركن جلوس بأرائك وسجاد أحمر.",
+        "label": "البطّات",
+        "image": "interior-shelves"
+      },
+      {
+        "title": "مكان صغير ومريح للجلسة",
+        "text": "يصفه الزوار بأنه ليس كبيرًا لكنه مليء بالأجواء الإيجابية. وبحسب خرائط Google فيه واي فاي مجاني ومناسب للعمل على اللابتوب.",
+        "label": "الجلسة",
+        "image": "lounge-sofa"
+      },
+      {
+        "title": "فريق ودود",
+        "text": "أشاد زائران بالعاملين: قال أحدهما إن الموظفين رائعون، وذكرت زائرة أنها ترجع إلى هذا الفرع بسبب لطف إحدى الموظفات.",
+        "label": "الفريق"
+      }
+    ]
+  },
+  "marquee": {
+    "label": "على البار",
+    "items": [
+      "Flat White",
+      "Cortado",
+      "V60 Ethiopian",
+      "Iced Drip",
+      "Iced Matcha",
+      "حي الصحافة"
+    ]
+  },
+  "menu": {
+    "kind": "menu",
+    "title": "المنيو",
+    "currency": "ر.س",
+    "sample": true,
+    "note": "منيو تقريبي: لم نجد قائمة أسعار منشورة لـ Y97. الأصناف من صور المحل ومراجعات الزوار، والأسعار تقديرية مبنية على مستوى الأسعار في المقاهي المختصة بالرياض.",
+    "categories": [
+      {
+        "id": "coffee",
+        "title": "القهوة المختصة",
+        "image": "espresso-brownie",
+        "items": [
+          {
+            "name": "Espresso",
+            "price": 12
+          },
+          {
+            "name": "Flat white",
+            "price": 16,
+            "mentioned": true
+          },
+          {
+            "name": "Cortado",
+            "price": 15,
+            "mentioned": true
+          },
+          {
+            "name": "Café latte",
+            "price": 16,
+            "mentioned": true
+          },
+          {
+            "name": "V60 Ethiopian",
+            "price": 18,
+            "mentioned": true
+          }
+        ]
+      },
+      {
+        "id": "cold",
+        "title": "المشروبات الباردة",
+        "image": "iced-drink",
+        "items": [
+          {
+            "name": "Iced drip",
+            "price": 16,
+            "mentioned": true
+          },
+          {
+            "name": "Iced matcha",
+            "price": 18,
+            "mentioned": true
+          },
+          {
+            "name": "Iced latte",
+            "price": 16
+          }
+        ]
+      },
+      {
+        "id": "sweets",
+        "title": "حلويات",
+        "items": [
+          {
+            "name": "Swiss roll cake",
+            "price": 16,
+            "mentioned": true
+          },
+          {
+            "name": "Brownie",
+            "price": 12
+          },
+          {
+            "name": "Cookies",
+            "price": 10
+          }
+        ]
+      }
+    ]
+  },
+  "mentions": [
+    "Flat white",
+    "Cortado",
+    "Café latte",
+    "V60 Ethiopian",
+    "Iced drip",
+    "Iced matcha",
+    "Swiss roll cake"
+  ],
+  "reviews": [
+    {
+      "author": "Htoo M.",
+      "stars": 5,
+      "text": "The iced drip and iced matcha are absolutely worth trying! I’d bet on both! 🤎 And the cutest part? Their adorable duck theme! 🐥",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xKT1VWWkVkRmhsWkhsS1NXcDNjRVp2VERRNWEyYxAB"
+    },
+    {
+      "author": "Hany B.",
+      "stars": 5,
+      "text": "… I have had an AMAZING Cortado.",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2tsb2VtTm1hM0JwTmkxb1UxbFFVR1owWVdGUVpYYxAB"
+    },
+    {
+      "author": "Une D.",
+      "stars": 5,
+      "text": "One of my favorite cafés in Riyadh!!! Love the ducks 🐥 I tried their iced matcha and café latte 💯",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUNMdWEzY1JnEAE"
+    },
+    {
+      "author": "Ferlyn B.",
+      "stars": 5,
+      "text": "The place is amazing its not that big but full of positive vibes. … And also the staff are amazing full of positive vibes and benevolence highly recommended this place they deserve 5⭐️.",
+      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUNGaGZtOFJBEAE"
+    },
+    {
+      "author": "Faiha M.",
+      "stars": 5,
+      "text": "One of the main reasons I keep coming back to this branch is Hanaa. She is always kind, friendly, helpful, and smiling. Her positive attitude before work truly makes my morning better. Thank you again , Hanaa, for your lovely service 👌🏼😍",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xkek5uWlBlRzlKUlZSMk9VcGFWM3B2T1Y5ME5XYxAB"
+    }
+  ],
+  "amenities": {
+    "title": "ما يتوفر في المقهى",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "من 6 صباحًا",
+        "text": "من الأحد إلى الخميس يفتح من السادسة صباحًا، والجمعة والسبت من الثانية عشرة ظهرًا، حتى منتصف الليل."
+      },
+      {
+        "icon": "wifi",
+        "title": "واي فاي مجاني",
+        "text": "مناسب للعمل على اللابتوب بحسب خرائط Google."
+      },
+      {
+        "icon": "car",
+        "title": "خدمة السيارات ومواقف مجانية",
+        "text": "اطلب من سيارتك، أو اركن في المواقف المجانية."
+      },
+      {
+        "icon": "bag",
+        "title": "سفري وتوصيل",
+        "text": "جلوس داخلي، وطلبات سفري وتوصيل."
+      },
+      {
+        "icon": "family",
+        "title": "مناسب للعائلات",
+        "text": "كراسي أطفال، وغرفة خاصة وخدمة تموين."
+      },
+      {
+        "icon": "check",
+        "title": "دفع بالبطاقة والجوال",
+        "text": "بطاقات الائتمان والخصم والدفع اللاتلامسي."
+      }
+    ]
+  },
+  "hours": {
+    "rows": [
+      {
+        "days": "الأحد – الخميس",
+        "time": "6 ص – 12 منتصف الليل"
+      },
+      {
+        "days": "الجمعة والسبت",
+        "time": "12 ظ – 12 منتصف الليل"
+      }
+    ],
+    "source": "خرائط Google"
+  },
+  "visit": {
+    "title": "زورونا في حي الصحافة",
+    "image": "lounge-sofa"
+  },
+  "images": {
+    "espresso-brownie": {
+      "file": "espresso-brownie.jpg",
+      "alt": "صورة لفنجان إسبريسو مع براوني على صينية Y97",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Y97%20-%20Specialty%20Coffee&query_place_id=ChIJc4imk-blLj4R7dr8sHHpDYU",
+      "credit": "من خرائط Google"
+    },
+    "iced-drink": {
+      "file": "iced-drink.jpg",
+      "alt": "صورة لكوب قهوة مثلجة مع كوكيز في Y97",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Y97%20-%20Specialty%20Coffee&query_place_id=ChIJc4imk-blLj4R7dr8sHHpDYU",
+      "credit": "من خرائط Google"
+    },
+    "interior-shelves": {
+      "file": "interior-shelves.jpg",
+      "alt": "صورة لرفوف أكياس البن وركن الجلوس في Y97",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Y97%20-%20Specialty%20Coffee&query_place_id=ChIJc4imk-blLj4R7dr8sHHpDYU",
+      "credit": "من خرائط Google"
+    },
+    "lounge-sofa": {
+      "file": "lounge-sofa.jpg",
+      "alt": "صورة لركن الجلوس بالأرائك والسجاد في Y97",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Y97%20-%20Specialty%20Coffee&query_place_id=ChIJc4imk-blLj4R7dr8sHHpDYU",
+      "credit": "من خرائط Google"
+    },
+    "cups-and-ducks": {
+      "file": "cups-and-ducks.jpg",
+      "alt": "صورة لأكواب القهوة المكدسة وألعاب البط عند بار Y97",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Y97%20-%20Specialty%20Coffee&query_place_id=ChIJc4imk-blLj4R7dr8sHHpDYU",
+      "credit": "من خرائط Google"
+    }
+  }
+}
