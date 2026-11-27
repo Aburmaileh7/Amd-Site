@@ -9,6 +9,7 @@ const stars = (n) => Array.from({ length: 5 }, (_, i) => i < Math.round(n));
 // reviews copied from directories or other public pages get a neutral label.
 const fromGoogle = (ref) => !/^https?:\/\//.test(ref || '') || /(^|\.)google\./.test((() => { try { return new URL(ref).hostname; } catch { return ''; } })());
 const allGoogle = reviews.every((r) => fromGoogle(r.source_ref));
+const few = reviews.length <= 2;
 const sourceLabel = allGoogle ? `من مراجعات ${p.rating?.source || 'Google'}` : 'من مراجعات منشورة للزوار';
 ---
 {reviews.length > 0 && (
@@ -21,7 +22,7 @@ const sourceLabel = allGoogle ? `من مراجعات ${p.rating?.source || 'Goog
   </div>
 
 
-    <div class="rev__rail" data-rail tabindex="0" role="region" aria-label="مراجعات الزوار، مرّر أفقيًا">
+    <div class={few ? 'wrap rev__few' : 'rev__rail'} data-rail={few ? undefined : ''} tabindex={few ? undefined : '0'} role={few ? undefined : 'region'} aria-label={few ? undefined : 'مراجعات الزوار، مرّر أفقيًا'}>
       {reviews.map((r) => (
         <figure class="card" data-card>
           {r.stars && (
@@ -53,6 +54,8 @@ const sourceLabel = allGoogle ? `من مراجعات ${p.rating?.source || 'Goog
   .card__stars span { width: 13px; height: 13px; background: rgba(var(--ink-rgb), .2); clip-path: polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%); }
   .card__stars span.on { background: var(--glow); }
 
+  .rev__few { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); padding-bottom: 24px; }
+  .rev__few .card { width: auto; }
   .rev__template { display: grid; gap: 16px; }
   @media (min-width: 800px) { .rev__template { grid-template-columns: repeat(3, 1fr); } }
   .card--ghost { width: auto; border-style: dashed; opacity: .7; }

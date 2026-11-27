@@ -102,7 +102,7 @@ html[data-site="turkey-barber-shop-jeddah"] {
 }
 [data-site="turkey-barber-shop-jeddah"] .site-header nav,
 [data-site="turkey-barber-shop-jeddah"] .site-header nav a { display: inline-flex; visibility: visible; opacity: 1; }
-[data-site="turkey-barber-shop-jeddah"] .hero { padding-block: clamp(20px, 4vw, 48px) clamp(24px, 4vw, 56px); min-height: 0; }
+[data-site="turkey-barber-shop-jeddah"] .hero { padding-block: clamp(140px, 18vh, 190px) clamp(24px, 4vw, 56px); min-height: 0; }
 [data-site="turkey-barber-shop-jeddah"] .hero__intro { font-size: clamp(16px, 1.3vw, 19px); color: var(--ink); }
 [data-site="turkey-barber-shop-jeddah"] .hero__content { padding-block: 0; gap: 14px; }
 [data-site="turkey-barber-shop-jeddah"] .marquee { padding-block: 14px; margin: 0; }
