@@ -93,3 +93,29 @@ html[data-site="triple-one-car-care"]{
 @media (max-width:899px){
   [data-site="triple-one-car-care"] :is(section,[id]){scroll-margin-top:84px}
 }
+
+/* ---- fixes r2 ---- */
+/* story strip: fixed-width cards, whole photo + text visible */
+[data-site="triple-one-car-care"] .story__track{align-items:stretch}
+[data-site="triple-one-car-care"] .story--h .panel{flex:0 0 auto;inline-size:min(78vw,460px);display:flex;flex-direction:column;overflow:hidden}
+[data-site="triple-one-car-care"] .story--h .panel__media{aspect-ratio:4/3;inline-size:100%;flex:none;overflow:hidden}
+[data-site="triple-one-car-care"] .story--h .panel__media img{inline-size:100%;block-size:100%;object-fit:cover;object-position:50% 60%}
+[data-site="triple-one-car-care"] .story--h .panel__text{padding:18px 20px 22px;overflow:visible;min-block-size:0}
+[data-site="triple-one-car-care"] .story--h .panel__text :is(h3,p){overflow:visible;text-overflow:clip;white-space:normal;-webkit-line-clamp:unset}
+@media (max-width:899px){
+  [data-site="triple-one-car-care"] .story__track{display:flex!important;flex-direction:column!important;transform:none!important;inline-size:auto!important;gap:20px}
+  [data-site="triple-one-car-care"] .story__pin{height:auto!important;overflow:visible!important}
+  [data-site="triple-one-car-care"] .story--h .panel{inline-size:100%}
+}
+/* tighter empty sections */
+[data-site="triple-one-car-care"] :is(.menu,.amen,.visit,.proof,.rev,.story){min-block-size:0}
+[data-site="triple-one-car-care"] :is(.menu,.amen,.proof,.rev){padding-bottom:clamp(40px,6vw,72px)}
+[data-site="triple-one-car-care"] :is(.panels,.panel-m,.items,.amen__grid){min-block-size:0}
+/* numbers & hours: bidi isolation */
+[data-site="triple-one-car-care"] :is(.phone,.ltr,.header-call,.wa,.hours .time,.hours__time,.hours td:last-child,.hours dd,.hours span:last-child){direction:ltr;unicode-bidi:isolate;display:inline-block}
+[data-site="triple-one-car-care"] .hours :is(li,tr,div){unicode-bidi:plaintext}
+[data-site="triple-one-car-care"] .hours :is(.days,.hours__days,td:first-child,dt){direction:rtl;unicode-bidi:isolate}
+/* legibility + targets */
+[data-site="triple-one-car-care"] :is(.eyebrow,.muted,.photo__badge,.panel__time,.item__badge,.panel-m__tag,.menu__foot,.hours,.preview-bar,small){font-size:max(12px,1em);color:var(--muted)}
+[data-site="triple-one-car-care"] .eyebrow{color:#C3C9D2}
+[data-site="triple-one-car-care"] :is(.header-call,.visit__cta .btn,.contact .btn,.phone,.wa,.hero__actions .btn){min-block-size:44px;min-inline-size:44px;display:inline-flex;align-items:center;justify-content:center}

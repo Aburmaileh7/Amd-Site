@@ -154,3 +154,40 @@ html[data-site="turkey-barber-shop-jeddah"] {
   [data-site="turkey-barber-shop-jeddah"] .hero__side { max-height: 52svh; aspect-ratio: 4 / 5; margin-top: 8px; }
   [data-site="turkey-barber-shop-jeddah"] .hero__side img { width: 100%; height: 100%; object-fit: cover; }
 }
+
+/* ---- fix r2 ---- */
+[data-site="turkey-barber-shop-jeddah"] { --tbs-bar: 56px; }
+[data-site="turkey-barber-shop-jeddah"] section,
+[data-site="turkey-barber-shop-jeddah"] [id] { scroll-margin-top: calc(var(--tbs-bar) + 16px); }
+[data-site="turkey-barber-shop-jeddah"] .visit__shade {
+  background: linear-gradient(180deg, rgba(14,16,26,.82), rgba(14,16,26,.7) 50%, rgba(14,16,26,.88));
+}
+[data-site="turkey-barber-shop-jeddah"] .visit__inner,
+[data-site="turkey-barber-shop-jeddah"] .visit__inner * { color: #FFFFFF; text-shadow: 0 1px 2px rgba(0,0,0,.45); }
+[data-site="turkey-barber-shop-jeddah"] .visit__cta .btn--ghost,
+[data-site="turkey-barber-shop-jeddah"] .visit__inner .btn--ghost {
+  background: #FFFFFF; color: #1D1E22; border: 2px solid var(--tbs-gold); text-shadow: none;
+}
+[data-site="turkey-barber-shop-jeddah"] .visit__inner .btn--ghost * { color: #1D1E22; text-shadow: none; }
+[data-site="turkey-barber-shop-jeddah"] .visit__inner .btn--glow { background: var(--glow); color: var(--glow-ink); border: 2px solid #fff; }
+[data-site="turkey-barber-shop-jeddah"] .visit__inner .btn--glow * { color: var(--glow-ink); text-shadow: none; }
+[data-site="turkey-barber-shop-jeddah"] .visit,
+[data-site="turkey-barber-shop-jeddah"] .proof,
+[data-site="turkey-barber-shop-jeddah"] .rev { padding-block: clamp(32px, 5vw, 56px); min-height: 0; }
+[data-site="turkey-barber-shop-jeddah"] .rev__rail,
+[data-site="turkey-barber-shop-jeddah"] .stats,
+[data-site="turkey-barber-shop-jeddah"] .stat { min-height: 0; }
+[data-site="turkey-barber-shop-jeddah"] .stats { gap: 16px; }
+@media (max-width: 899px) {
+  [data-site="turkey-barber-shop-jeddah"] { --tbs-bar: 48px; }
+  [data-site="turkey-barber-shop-jeddah"] .site-header { min-height: 0; padding-block: 4px; }
+  [data-site="turkey-barber-shop-jeddah"] .site-header .brand {
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 52vw; font-size: .95rem; line-height: 1.3; display: block;
+  }
+  [data-site="turkey-barber-shop-jeddah"] .site-header .brand * { white-space: nowrap; font-size: inherit; }
+  [data-site="turkey-barber-shop-jeddah"] .site-header .nav-btn,
+  [data-site="turkey-barber-shop-jeddah"] .site-header .header-call { padding-inline: 10px; font-size: .9rem; }
+  [data-site="turkey-barber-shop-jeddah"] .stats { display: flex; flex-direction: row; flex-wrap: nowrap; gap: 8px; }
+  [data-site="turkey-barber-shop-jeddah"] .stats .stat { flex: 1 1 0; min-width: 0; padding: 12px 6px; text-align: center; }
+  [data-site="turkey-barber-shop-jeddah"] .stat__num { font-size: clamp(1.3rem, 6vw, 1.8rem); }
+}

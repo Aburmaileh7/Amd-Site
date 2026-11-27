@@ -8,7 +8,7 @@
   "data_source": "خرائط Google (ملف maps.json من Apify) + إنستغرام الرابط المعروض للمحل",
   "layout": {
     "hero": "split",
-    "story": "horizontal"
+    "story": "stack"
   },
   "accent": {
     "hex": "#A3242F",
@@ -24,21 +24,10 @@
   "category_label": "مقهى مختص في حي الصحافة",
   "area": "حي الصحافة، الرياض",
   "address": "شارع الأمير ناصر بن سعود بن فرحان آل سعود، حي الصحافة، الرياض 13321",
-  "phone": {
-    "display": "+966 55 749 9464",
-    "tel": "+966557499464"
-  },
-  "instagram": "https://instagram.com/y97cafe",
-  "directions_url": "https://www.google.com/maps/search/?api=1&query=Y97%20-%20Specialty%20Coffee&query_place_id=ChIJc4imk-blLj4R7dr8sHHpDYU",
   "map_query": "Y97 Specialty Coffee, As Sahafah, Riyadh",
-  "rating": {
-    "value": 4.7,
-    "count": 1115,
-    "source": "Google"
-  },
   "hero": {
-    "headline": "قهوة مختصة وبطّات صفراء في الصحافة",
-    "intro": "مقهى صغير في حي الصحافة بالرياض، فيه فلات وايت وكورتادو ومشروبات مثلجة وحلويات، وبطّات صفراء تزيّن البار. يفتح من السادسة صباحًا.",
+    "headline": "Y97 - Specialty Coffee في حي الصحافة",
+    "intro": "Y97 - Specialty Coffee مقهى صغير في حي الصحافة بالرياض. على قائمته فلات وايت وكورتادو ومشروبات مثلجة وحلويات، وبطّات صفراء تزيّن البار.",
     "image": "cups-and-ducks"
   },
   "sections": [
@@ -54,34 +43,29 @@
     "title": "ما يتكرر في آراء الزوار",
     "items": [
       {
-        "title": "فلات وايت وكورتادو",
-        "text": "وصف زائر الفلات وايت بعشرة من عشرة، وكتب زائر آخر أن الكورتادو الذي شربه في Y97 كان رائعًا.",
         "label": "القهوة",
+        "title": "فلات وايت وكورتادو",
+        "text": "أعطى زائر الفلات وايت عشرة من عشرة. وقال آخر إنه شرب كورتادو رائعًا.",
         "image": "espresso-brownie",
         "time": "6:00"
       },
       {
-        "title": "آيس دريب وآيس ماتشا",
-        "text": "نصح زائر بتجربة الآيس دريب والآيس ماتشا معًا، وذكر زائر آخر الآيس ماتشا واللاتيه ضمن ما جرّبه.",
         "label": "البارد",
+        "title": "آيس دريب وآيس ماتشا",
+        "text": "نصح زائر بتجربة الآيس دريب والآيس ماتشا معًا، وذكر زائر آخر الآيس ماتشا والكافيه لاتيه ضمن ما جرّبه.",
         "image": "iced-drink"
       },
       {
-        "title": "البطّات في كل زاوية",
-        "text": "تكررت البطّات الصفراء في آراء الزوار، وأحبّها اثنان منهم. وفي الصور أرفف أكياس البن وركن جلوس بأرائك وسجاد أحمر.",
         "label": "البطّات",
-        "image": "interior-shelves"
-      },
-      {
-        "title": "مكان صغير ومريح للجلسة",
-        "text": "يصفه الزوار بأنه ليس كبيرًا لكنه مليء بالأجواء الإيجابية. وبحسب خرائط Google فيه واي فاي مجاني ومناسب للعمل على اللابتوب.",
-        "label": "الجلسة",
+        "title": "البطّات الصفراء",
+        "text": "ذكر زائران البطّات الصفراء وأحبّاها. وفي الصور أرفف أكياس البن وركن جلوس بأرائك وسجاد أحمر.",
         "image": "lounge-sofa"
       },
       {
-        "title": "فريق ودود",
-        "text": "أشاد زائران بالعاملين: قال أحدهما إن الموظفين رائعون، وذكرت زائرة أنها ترجع إلى هذا الفرع بسبب لطف إحدى الموظفات.",
-        "label": "الفريق"
+        "label": "الأجواء",
+        "title": "مكان صغير بأجواء إيجابية",
+        "text": "يصفه الزوار بأنه ليس كبيرًا لكنه مليء بالأجواء الإيجابية. وبحسب خرائط Google فيه واي فاي مجاني ومناسب للعمل على اللابتوب.",
+        "image": "interior-shelves"
       }
     ]
   },
@@ -98,15 +82,15 @@
   },
   "menu": {
     "kind": "menu",
-    "title": "المنيو",
-    "currency": "ر.س",
     "sample": true,
+    "title": "المنيو",
     "note": "منيو تقريبي: لم نجد قائمة أسعار منشورة لـ Y97. الأصناف من صور المحل ومراجعات الزوار، والأسعار تقديرية مبنية على مستوى الأسعار في المقاهي المختصة بالرياض.",
+    "currency": "ر.س",
+    "foot": "",
     "categories": [
       {
         "id": "coffee",
         "title": "القهوة المختصة",
-        "image": "espresso-brownie",
         "items": [
           {
             "name": "Espresso",
@@ -137,7 +121,6 @@
       {
         "id": "cold",
         "title": "المشروبات الباردة",
-        "image": "iced-drink",
         "items": [
           {
             "name": "Iced drip",
@@ -177,13 +160,13 @@
     ]
   },
   "mentions": [
-    "Flat white",
-    "Cortado",
-    "Café latte",
-    "V60 Ethiopian",
-    "Iced drip",
-    "Iced matcha",
-    "Swiss roll cake"
+    "فلات وايت",
+    "كورتادو",
+    "كافيه لاتيه",
+    "V60 إثيوبي",
+    "تقطير مثلج",
+    "ماتشا مثلجة",
+    "كيك السويس رول"
   ],
   "reviews": [
     {
@@ -195,7 +178,7 @@
     {
       "author": "Hany B.",
       "stars": 5,
-      "text": "… I have had an AMAZING Cortado.",
+      "text": "One of best specialty coffee in Riyadh! I have had an AMAZING Cortado.",
       "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2tsb2VtTm1hM0JwTmkxb1UxbFFVR1owWVdGUVpYYxAB"
     },
     {
@@ -203,18 +186,6 @@
       "stars": 5,
       "text": "One of my favorite cafés in Riyadh!!! Love the ducks 🐥 I tried their iced matcha and café latte 💯",
       "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUNMdWEzY1JnEAE"
-    },
-    {
-      "author": "Ferlyn B.",
-      "stars": 5,
-      "text": "The place is amazing its not that big but full of positive vibes. … And also the staff are amazing full of positive vibes and benevolence highly recommended this place they deserve 5⭐️.",
-      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUNGaGZtOFJBEAE"
-    },
-    {
-      "author": "Faiha M.",
-      "stars": 5,
-      "text": "One of the main reasons I keep coming back to this branch is Hanaa. She is always kind, friendly, helpful, and smiling. Her positive attitude before work truly makes my morning better. Thank you again , Hanaa, for your lovely service 👌🏼😍",
-      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xkek5uWlBlRzlKUlZSMk9VcGFWM3B2T1Y5ME5XYxAB"
     }
   ],
   "amenities": {
@@ -256,18 +227,18 @@
     "rows": [
       {
         "days": "الأحد – الخميس",
-        "time": "6 ص – 12 منتصف الليل"
+        "time": "6 صباحًا – 12 منتصف الليل"
       },
       {
         "days": "الجمعة والسبت",
-        "time": "12 ظ – 12 منتصف الليل"
+        "time": "12 ظهرًا – 12 منتصف الليل"
       }
     ],
     "source": "خرائط Google"
   },
   "visit": {
     "title": "زورونا في حي الصحافة",
-    "image": "lounge-sofa"
+    "image": "interior-shelves"
   },
   "images": {
     "espresso-brownie": {
@@ -300,5 +271,16 @@
       "source_url": "https://www.google.com/maps/search/?api=1&query=Y97%20-%20Specialty%20Coffee&query_place_id=ChIJc4imk-blLj4R7dr8sHHpDYU",
       "credit": "من خرائط Google"
     }
+  },
+  "phone": {
+    "display": "+966 55 749 9464",
+    "tel": "+966557499464"
+  },
+  "instagram": "https://instagram.com/y97cafe",
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Y97%20-%20Specialty%20Coffee&query_place_id=ChIJc4imk-blLj4R7dr8sHHpDYU",
+  "rating": {
+    "value": 4.7,
+    "count": 1115,
+    "source": "Google"
   }
 }

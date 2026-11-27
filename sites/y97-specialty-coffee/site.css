@@ -198,3 +198,70 @@ html[data-site="y97-specialty-coffee"] .visit__badge{
   position:static!important;inset:auto!important;display:inline-block;margin-top:20px;background:rgba(27,23,20,.9);color:#fff
 }
 html[data-site="y97-specialty-coffee"] .visit .btn--ghost{color:#fff;border-color:rgba(255,255,255,.6)}
+
+/* ===== round-2 fixes ===== */
+/* hero: photo first and above the fold on phones, large and centred on desktop */
+html[data-site="y97-specialty-coffee"] .hero--split{align-items:center}
+html[data-site="y97-specialty-coffee"] .hero--split .hero__side{order:-1;margin-inline:auto;width:100%}
+@media (max-width:899px){
+  html[data-site="y97-specialty-coffee"] .hero--split{display:flex;flex-direction:column;padding-block-start:12px;gap:20px}
+  html[data-site="y97-specialty-coffee"] .hero__side{max-width:100%}
+  html[data-site="y97-specialty-coffee"] .hero__side .photo{aspect-ratio:auto;height:38vh;min-height:200px;max-height:40vh}
+  html[data-site="y97-specialty-coffee"] .hero__side .photo img{height:100%;width:100%;object-fit:cover}
+}
+@media (min-width:900px){
+  html[data-site="y97-specialty-coffee"] .hero--split{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:clamp(32px,5vw,80px);align-items:center;justify-items:stretch}
+  html[data-site="y97-specialty-coffee"] .hero--split .hero__side{order:0;max-width:640px;margin-inline:auto}
+  html[data-site="y97-specialty-coffee"] .hero__side .photo{aspect-ratio:4/5;max-height:78vh}
+}
+html[data-site="y97-specialty-coffee"] .hero__headline{font-size:clamp(32px,4.6vw,64px)}
+html[data-site="y97-specialty-coffee"] .hero__intro{font-size:max(17px,1.05em)}
+
+/* story numbers: dark red ink */
+html[data-site="y97-specialty-coffee"] .panel__time,
+html[data-site="y97-specialty-coffee"] .panel__time span{color:var(--kilim-deep);opacity:1;font-weight:600}
+html[data-site="y97-specialty-coffee"] .panel__clock{color:var(--kilim-deep);opacity:.35}
+
+/* marquee: room for line height, no clipped glyphs */
+html[data-site="y97-specialty-coffee"] .marquee__track,
+html[data-site="y97-specialty-coffee"] .marquee__row{overflow:visible;line-height:1.6}
+html[data-site="y97-specialty-coffee"] .marquee{overflow:hidden;padding-block:calc(var(--band-size) + clamp(26px,4vw,44px))}
+html[data-site="y97-specialty-coffee"] .marquee__row li{line-height:1.6;padding-block:.2em}
+
+/* reviews: Google's original English text in tidy LTR cards, grid not carousel */
+html[data-site="y97-specialty-coffee"] .rev__rail{
+  display:grid;grid-template-columns:1fr;gap:20px;overflow:visible;
+  padding-inline:var(--gutter);margin-inline:auto;max-width:var(--maxw,1200px);transform:none
+}
+@media (min-width:900px){
+  html[data-site="y97-specialty-coffee"] .rev__rail{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+}
+html[data-site="y97-specialty-coffee"] .card{
+  direction:ltr;text-align:left;width:auto;max-width:100%;flex:none;
+  padding:34px 24px 26px;overflow-wrap:anywhere;word-break:normal
+}
+html[data-site="y97-specialty-coffee"] .card::before{inset-inline-start:auto;left:24px}
+html[data-site="y97-specialty-coffee"] .card blockquote,
+html[data-site="y97-specialty-coffee"] .card p{direction:ltr;text-align:left;font-size:17px;line-height:1.7}
+html[data-site="y97-specialty-coffee"] .rev__head{padding-inline:var(--gutter)}
+
+/* menu: plain kilim panels carry a solid dark caption so ink always reads */
+html[data-site="y97-specialty-coffee"] .panel-m__caption{
+  background:rgba(27,23,20,.92);color:#fff;padding:14px 18px;position:relative;overflow:visible
+}
+html[data-site="y97-specialty-coffee"] .panel-m__name{color:#fff;font-size:clamp(22px,2.4vw,30px);line-height:1.4}
+html[data-site="y97-specialty-coffee"] .panel-m__tag{color:#F6EBDD}
+html[data-site="y97-specialty-coffee"] .panel-m__visual{min-height:0}
+html[data-site="y97-specialty-coffee"] .panel-m__plain{min-height:120px;font-size:0;color:transparent}
+
+/* story stack: nothing clipped, gaps steady */
+html[data-site="y97-specialty-coffee"] .story .panel{overflow:visible}
+html[data-site="y97-specialty-coffee"] .story .panel h3{font-size:clamp(22px,2.4vw,30px)}
+
+/* visit: darker veil, light ink */
+html[data-site="y97-specialty-coffee"] .visit__shade{
+  background:linear-gradient(180deg,rgba(27,23,20,.94),rgba(27,23,20,.9) 55%,rgba(27,23,20,.94))!important
+}
+html[data-site="y97-specialty-coffee"] .visit .hours,
+html[data-site="y97-specialty-coffee"] .visit .hours *{color:#fff}
+html[data-site="y97-specialty-coffee"] .visit .label{color:#F6EBDD}
