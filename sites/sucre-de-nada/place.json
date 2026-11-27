@@ -20,7 +20,7 @@
     "hero": "kenburns",
     "signature": "gallery-zoom"
   },
-  "name": "Sucre de Nada - سكر الندى",
+  "name": "Sucre de Nada",
   "name_lang": "en",
   "category_label": "حلويات وكيك",
   "area": "حي الروضة، جدة",
@@ -106,6 +106,7 @@
         "items": [
           {
             "name": "Matilda Cake - Mini",
+            "desc": "إسفنج وكريمة ناعمة، وليست شديدة الحلاوة كما كتب أحد الزبائن.",
             "price": 45,
             "mentioned": true
           },
@@ -115,6 +116,7 @@
           },
           {
             "name": "Carrot Cake - Mini",
+            "desc": "ذكره زبائن في تقييماتهم.",
             "price": 45,
             "mentioned": true
           },
@@ -136,16 +138,19 @@
         "items": [
           {
             "name": "Mango Cheesecake - Mini",
+            "desc": "ذكره زبائن في تقييماتهم.",
             "price": 56,
             "mentioned": true
           },
           {
             "name": "London Cheesecake - Mini",
+            "desc": "ذكره زبائن في تقييماتهم.",
             "price": 56,
             "mentioned": true
           },
           {
             "name": "Lotus Cheesecake - Mini",
+            "desc": "ذكره زبائن في تقييماتهم.",
             "price": 58,
             "mentioned": true
           },
@@ -159,15 +164,16 @@
         "id": "pies",
         "title": "Pies (Mini)",
         "tagline": "بانوفي وآبل وبيكان",
-        "image": "menu-pies",
         "items": [
           {
             "name": "Banoffee Pie - Mini",
+            "desc": "قشرة وموز وكريمة وكراميل؛ ذكره عدة زبائن في تقييماتهم.",
             "price": 50,
             "mentioned": true
           },
           {
             "name": "Apple Pie - Mini",
+            "desc": "ذكره زبائن في تقييماتهم.",
             "price": 40,
             "mentioned": true
           },
@@ -296,55 +302,49 @@
     },
     "story-banoffee": {
       "file": "display-cakes.jpg",
-      "alt": "صورة واجهة عرض زجاجية فيها تشيز كيك وكيك بالتوت والفواكه",
+      "alt": "صورة واجهة عرض فيها تشيز كيك وكيك بالتوت",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
       "credit": "من خرائط Google"
     },
     "story-matilda": {
       "file": "pastry-case.jpg",
-      "alt": "صورة واجهة زجاجية فيها كيك وقطع حلويات على أرفف العرض",
+      "alt": "صورة واجهة زجاجية فيها كيك وحلويات",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
       "credit": "من خرائط Google"
     },
     "story-cheese": {
-      "file": "dessert-bowl.jpg",
-      "alt": "صورة حلوى في كأس زجاجي فيها مانجو وكريمة وتوت",
+      "file": "interior-tiles-chairs.jpg",
+      "alt": "صورة داخل المحل: جدار عليه شعار Sucre de Nada وأرفف حلويات وطاولة بمفرش ملون",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
       "credit": "من خرائط Google"
     },
     "story-place": {
       "file": "interior-logo.jpg",
-      "alt": "صورة داخل المحل: جدار عليه شعار Sucre de Nada وثريات معلّقة",
+      "alt": "صورة داخل المحل مع جدار الشعار والثريات",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
       "credit": "من خرائط Google"
     },
     "visit": {
       "file": "interior-table.jpg",
-      "alt": "صورة داخل المحل: طاولة دائرية وباقة زنبق أبيض وخلفها واجهة العرض",
+      "alt": "صورة طاولة دائرية وباقة زنبق داخل المحل",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
       "credit": "من خرائط Google"
     },
     "menu-cakes": {
-      "file": "hero-dish.jpg",
-      "alt": "صورة كيكة بيضاء الكساء تحت غطاء زجاجي",
+      "file": "cake-slice.jpg",
+      "alt": "صورة شريحة كيكة بطبقات وكريمة بيضاء ومكسرات وزبيب، على طبق",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
       "credit": "من خرائط Google"
     },
     "menu-cheesecake": {
-      "file": "display-cakes.jpg",
-      "alt": "صورة واجهة عرض زجاجية فيها تشيز كيك وكيك بالتوت والفواكه",
-      "source_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
-      "credit": "من خرائط Google"
-    },
-    "menu-pies": {
-      "file": "pastry-case.jpg",
-      "alt": "صورة واجهة زجاجية فيها كيك وقطع حلويات على أرفف العرض",
+      "file": "cheesecake-minis.jpg",
+      "alt": "صورة علب تشيز كيك صغيرة بالتوت والفواكه في واجهة زجاجية",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
       "credit": "من خرائط Google"
     },
     "menu-small": {
       "file": "dessert-bowl.jpg",
-      "alt": "صورة حلوى في كأس زجاجي فيها مانجو وكريمة وتوت",
+      "alt": "صورة كأس حلوى فيها مانجو وكريمة وتوت",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Sucre%20de%20Nada%20-%20%D8%B3%D9%83%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89&query_place_id=ChIJe0cJcQvQwxURhGSf74k_H-0",
       "credit": "من خرائط Google"
     }

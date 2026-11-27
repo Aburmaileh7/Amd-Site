@@ -265,3 +265,67 @@ html[data-site="y97-specialty-coffee"] .visit__shade{
 html[data-site="y97-specialty-coffee"] .visit .hours,
 html[data-site="y97-specialty-coffee"] .visit .hours *{color:#fff}
 html[data-site="y97-specialty-coffee"] .visit .label{color:#F6EBDD}
+
+/* ===== round-3: full-bleed hero, no repeated blocks ===== */
+html[data-site="y97-specialty-coffee"] .hero{
+  position:relative;display:block;min-height:min(92vh,820px);padding-block:clamp(120px,16vw,180px) clamp(48px,7vw,96px);
+  color:#fff;overflow:hidden;isolation:isolate
+}
+html[data-site="y97-specialty-coffee"] .hero__media{position:absolute;inset:0;z-index:-2;margin:0;padding:0;background:none}
+html[data-site="y97-specialty-coffee"] .hero__media img,
+html[data-site="y97-specialty-coffee"] .hero__media .photo{width:100%;height:100%;object-fit:cover;border-radius:0;outline:0}
+html[data-site="y97-specialty-coffee"] .hero__shade{
+  position:absolute;inset:0;z-index:-1;opacity:1!important;
+  background:linear-gradient(180deg,rgba(27,23,20,.78),rgba(27,23,20,.62) 50%,rgba(27,23,20,.86))!important
+}
+html[data-site="y97-specialty-coffee"] .hero::after{
+  content:"";position:absolute;inset-inline:0;bottom:0;height:var(--band-size);background:var(--band);z-index:1
+}
+html[data-site="y97-specialty-coffee"] .hero__content{position:relative;max-width:min(760px,100%);padding-inline:var(--gutter);margin-inline:auto 0}
+html[data-site="y97-specialty-coffee"] .hero__headline,
+html[data-site="y97-specialty-coffee"] .hero__title{color:#fff;font-size:clamp(56px,11vw,140px);line-height:1;letter-spacing:-.03em;overflow:visible}
+html[data-site="y97-specialty-coffee"] .hero__intro{color:#fff;font-size:max(18px,1.1em);max-width:34ch;line-height:1.7}
+html[data-site="y97-specialty-coffee"] .hero .eyebrow{color:var(--wool)}
+html[data-site="y97-specialty-coffee"] .hero__rating,
+html[data-site="y97-specialty-coffee"] .hero__rating *{color:#fff}
+html[data-site="y97-specialty-coffee"] .hero .btn--ghost{color:#fff;border-color:rgba(255,255,255,.7);background:rgba(27,23,20,.35);min-height:48px}
+html[data-site="y97-specialty-coffee"] .hero .btn--glow{min-height:48px}
+
+/* menu: category heading is plain text above the list; no red lozenge block */
+html[data-site="y97-specialty-coffee"] .panel-m__visual{display:none}
+html[data-site="y97-specialty-coffee"] .panel-m__plain{display:none}
+html[data-site="y97-specialty-coffee"] .panel-m__caption{
+  position:static;background:none;color:var(--ink);padding:0 0 12px;border-bottom:2px solid var(--kilim);margin-bottom:8px
+}
+html[data-site="y97-specialty-coffee"] .panel-m__name{color:var(--ink)}
+html[data-site="y97-specialty-coffee"] .panel-m__tag{color:var(--muted)}
+
+/* mentioned-items list on light ground reads in dark ink */
+html[data-site="y97-specialty-coffee"] .proof .mentions,
+html[data-site="y97-specialty-coffee"] .proof .mentions *{color:var(--ink)}
+
+/* story: no clipped text on phones; badge pinned to the photo corner */
+html[data-site="y97-specialty-coffee"] .panel__text{padding:8px 4px;overflow:visible;min-width:0}
+html[data-site="y97-specialty-coffee"] .panel h3,
+html[data-site="y97-specialty-coffee"] .panel__text .muted{line-height:1.8;overflow:visible;overflow-wrap:anywhere}
+html[data-site="y97-specialty-coffee"] .panel__media{position:relative}
+html[data-site="y97-specialty-coffee"] .photo__badge{position:absolute;inset:auto 0 0 auto;top:auto;bottom:10px;inset-inline:auto 10px;z-index:2}
+
+/* reviews: LTR left-aligned; hours isolated; tap targets */
+html[data-site="y97-specialty-coffee"] .card{direction:ltr;text-align:left}
+@media (min-width:900px){
+  html[data-site="y97-specialty-coffee"] .rev__rail{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+html[data-site="y97-specialty-coffee"] .hours,
+html[data-site="y97-specialty-coffee"] .hours div,
+html[data-site="y97-specialty-coffee"] .hours dd,
+html[data-site="y97-specialty-coffee"] .hours dt{unicode-bidi:isolate}
+html[data-site="y97-specialty-coffee"] .visit__cta .btn,
+html[data-site="y97-specialty-coffee"] .visit .phone,
+html[data-site="y97-specialty-coffee"] .visit .wa{min-height:44px;display:inline-flex;align-items:center;padding-inline:20px}
+html[data-site="y97-specialty-coffee"] .visit__cta .btn{border:2px solid #fff;background:rgba(255,255,255,.1);color:#fff}
+html[data-site="y97-specialty-coffee"] .visit__cta .btn--glow{background:var(--kilim);border-color:var(--kilim)}
+@media (max-width:899px){
+  html[data-site="y97-specialty-coffee"] .hero{min-height:88vh;padding-block-start:110px}
+  html[data-site="y97-specialty-coffee"] .hero__content{margin-inline:0}
+}

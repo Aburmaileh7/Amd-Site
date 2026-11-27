@@ -7,7 +7,7 @@
   "agency": "Amd web",
   "data_source": "خرائط Google (ملف maps.json من Apify) + إنستغرام الرابط المعروض للمحل",
   "layout": {
-    "hero": "split",
+    "hero": "full",
     "story": "stack"
   },
   "accent": {
@@ -17,7 +17,8 @@
     "ink": "#FFFFFF"
   },
   "motion": {
-    "hero": "kenburns"
+    "hero": "kenburns",
+    "signature": "curtain-rise"
   },
   "name": "Y97",
   "name_lang": "en",
@@ -26,15 +27,15 @@
   "address": "شارع الأمير ناصر بن سعود بن فرحان آل سعود، حي الصحافة، الرياض 13321",
   "map_query": "Y97 Specialty Coffee, As Sahafah, Riyadh",
   "hero": {
-    "headline": "Y97 - Specialty Coffee في حي الصحافة",
-    "intro": "Y97 - Specialty Coffee مقهى صغير في حي الصحافة بالرياض. على قائمته فلات وايت وكورتادو ومشروبات مثلجة وحلويات، وبطّات صفراء تزيّن البار.",
+    "headline": "Y97",
+    "intro": "مقهى مختص صغير في حي الصحافة بالرياض. يذكر زواره الفلات وايت والكورتادو والآيس دريب، وبطّات صفراء تزيّن البار.",
     "image": "cups-and-ducks"
   },
   "sections": [
     "marquee",
     "story",
-    "reviews",
     "menu",
+    "reviews",
     "proof",
     "amenities",
     "visit"
@@ -170,22 +171,16 @@
   ],
   "reviews": [
     {
-      "author": "Htoo M.",
-      "stars": 5,
-      "text": "The iced drip and iced matcha are absolutely worth trying! I’d bet on both! 🤎 And the cutest part? Their adorable duck theme! 🐥",
-      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xKT1VWWkVkRmhsWkhsS1NXcDNjRVp2VERRNWEyYxAB"
-    },
-    {
       "author": "Hany B.",
       "stars": 5,
       "text": "One of best specialty coffee in Riyadh! I have had an AMAZING Cortado.",
       "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2tsb2VtTm1hM0JwTmkxb1UxbFFVR1owWVdGUVpYYxAB"
     },
     {
-      "author": "Une D.",
+      "author": "Htoo M.",
       "stars": 5,
-      "text": "One of my favorite cafés in Riyadh!!! Love the ducks 🐥 I tried their iced matcha and café latte 💯",
-      "source_ref": "ChZDSUhNMG9nS0VJQ0FnSUNMdWEzY1JnEAE"
+      "text": "The iced drip and iced matcha are absolutely worth trying! I’d bet on both! 🤎 And the cutest part? Their adorable duck theme! 🐥",
+      "source_ref": "Ci9DQUlRQUNvZENodHljRjlvT2xKT1VWWkVkRmhsWkhsS1NXcDNjRVp2VERRNWEyYxAB"
     }
   ],
   "amenities": {

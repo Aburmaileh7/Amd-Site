@@ -24,7 +24,17 @@
   "category_label": "صالون حلاقة رجالية",
   "area": "حي الفيصلية، جدة",
   "address": "2894 شارع المعهد الصناعي، حي الفيصلية، جدة",
+  "phone": {
+    "display": "+966 53 709 0344",
+    "tel": "+966537090344"
+  },
+  "directions_url": "https://www.google.com/maps/search/?api=1&query=Turkey%20Barber%20Shop%20%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D8%B9%D9%8A%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A&query_place_id=ChIJW9k-zbbRwxUR2YvWvaTM6Bg",
   "map_query": "Turkey Barber Shop, Al Mahad Al Sinai St, Al Faisaliyah, Jeddah",
+  "rating": {
+    "value": 4.8,
+    "count": 223,
+    "source": "Google Maps"
+  },
   "hero": {
     "headline": "حلاقة هادئة في حي الفيصلية بجدة",
     "intro": "صالون حلاقة رجالية يفتح كل يوم حتى منتصف الليل، وزبائنه يرجعون إليه سنة بعد سنة. من حلاقة الشعر والدقن إلى العناية بالرأس والوجه.",
@@ -46,7 +56,7 @@
         "label": "منذ سنتين",
         "title": "زبائن يرجعون",
         "text": "أحد الزبائن يكتب أنه يأتي إلى الصالون منذ سنتين ولم يجرّب غيره. التقييم 4.8 من 223 تقييمًا على خرائط Google.",
-        "image": "chairs"
+        "image": "window"
       },
       {
         "label": "الفريق",
@@ -58,13 +68,13 @@
         "label": "الجلسة",
         "title": "جو هادئ",
         "text": "يصف أحد الزبائن الحلاقة بأنها هادئة ولطيفة.",
-        "image": "shelf"
+        "image": "calm"
       },
       {
         "label": "السعر",
         "title": "سعر معقول",
         "text": "أحد الزبائن ينصح بالصالون لمن يريد حلاقة جيدة بسعر معقول.",
-        "image": "interior"
+        "image": "cutting"
       }
     ]
   },
@@ -89,7 +99,7 @@
         "id": "cut",
         "title": "الحلاقة",
         "tagline": "",
-        "image": "chairs",
+        "image": "cutting",
         "items": [
           {
             "name": "حلاقة شعر",
@@ -125,7 +135,7 @@
         "id": "face",
         "title": "العناية بالوجه",
         "tagline": "",
-        "image": "mural",
+        "image": "chairs",
         "items": [
           {
             "name": "تقشير الوجه"
@@ -262,16 +272,24 @@
       "alt": "صورة واجهة صالون المعيار العالمي في الفيصلية",
       "source_url": "https://www.google.com/maps/search/?api=1&query=Turkey%20Barber%20Shop%20%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D8%B9%D9%8A%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A&query_place_id=ChIJW9k-zbbRwxUR2YvWvaTM6Bg",
       "credit": "من خرائط Google"
+    },
+    "window": {
+      "file": "chairs-window.jpg",
+      "alt": "صورة كراسي الحلاقة الذهبية قرب النافذة",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Turkey%20Barber%20Shop%20%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D8%B9%D9%8A%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A&query_place_id=ChIJW9k-zbbRwxUR2YvWvaTM6Bg",
+      "credit": "من خرائط Google"
+    },
+    "calm": {
+      "file": "wall-calm.jpg",
+      "alt": "صورة تفصيل الجدارية والأريكة في الصالون",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Turkey%20Barber%20Shop%20%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D8%B9%D9%8A%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A&query_place_id=ChIJW9k-zbbRwxUR2YvWvaTM6Bg",
+      "credit": "من خرائط Google"
+    },
+    "cutting": {
+      "file": "haircut-back.jpg",
+      "alt": "صورة حلاقة شعر جارية من الخلف",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Turkey%20Barber%20Shop%20%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D8%B9%D9%8A%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A&query_place_id=ChIJW9k-zbbRwxUR2YvWvaTM6Bg",
+      "credit": "من خرائط Google"
     }
-  },
-  "phone": {
-    "display": "+966 53 709 0344",
-    "tel": "+966537090344"
-  },
-  "directions_url": "https://www.google.com/maps/search/?api=1&query=Turkey%20Barber%20Shop%20%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D8%B9%D9%8A%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A&query_place_id=ChIJW9k-zbbRwxUR2YvWvaTM6Bg",
-  "rating": {
-    "value": 4.8,
-    "count": 223,
-    "source": "Google Maps"
   }
 }

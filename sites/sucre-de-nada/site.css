@@ -164,3 +164,65 @@ html[data-site="sucre-de-nada"] .panel-m { gap: .75rem; }
   html[data-site="sucre-de-nada"] .proof { padding-block: 28px; }
   html[data-site="sucre-de-nada"] .panel { margin-bottom: 1.25rem; min-height: 0; }
 }
+
+/* ---- Fix round 3 ---- */
+/* Visit: phone and buttons always light on the dark veil (≥ 4.5:1) */
+html[data-site="sucre-de-nada"] .visit .phone,
+html[data-site="sucre-de-nada"] .visit a.phone,
+html[data-site="sucre-de-nada"] .visit .wa,
+html[data-site="sucre-de-nada"] .visit .label { color: #FFFFFF; opacity: 1; }
+html[data-site="sucre-de-nada"] .visit .btn,
+html[data-site="sucre-de-nada"] .visit .btn--ghost,
+html[data-site="sucre-de-nada"] .visit .visit__cta a:not(.btn--glow) {
+  background: #FCF8F0; color: #2D2418; border: 1.5px solid #FCF8F0; opacity: 1;
+}
+html[data-site="sucre-de-nada"] .visit .btn--glow { background: #F2C641; color: #2A2108; border-color: #F2C641; }
+html[data-site="sucre-de-nada"] .visit .btn svg { color: inherit; }
+
+/* No empty dark band after the mentions: visit starts right after proof, photo stays inside its box */
+html[data-site="sucre-de-nada"] .proof { padding-block: clamp(28px, 4vw, 48px); margin: 0; }
+html[data-site="sucre-de-nada"] .mentions { margin-bottom: 0; padding-bottom: 0; }
+html[data-site="sucre-de-nada"] .mentions > .muted:last-child { margin-bottom: 0; }
+html[data-site="sucre-de-nada"] .proof + .visit { margin-top: 0; }
+html[data-site="sucre-de-nada"] .visit { overflow: hidden; }
+html[data-site="sucre-de-nada"] .visit__bg { inset: 0; }
+
+/* Tighter vertical rhythm around headings */
+html[data-site="sucre-de-nada"] .rev { padding-block: clamp(24px, 3.5vw, 44px); }
+html[data-site="sucre-de-nada"] .story { padding-block: clamp(28px, 4vw, 48px); }
+html[data-site="sucre-de-nada"] .menu { padding-block: clamp(32px, 4.5vw, 56px); }
+html[data-site="sucre-de-nada"] .story__head,
+html[data-site="sucre-de-nada"] .rev__head,
+html[data-site="sucre-de-nada"] .menu__head { margin-bottom: .75rem; padding-block: 0; }
+html[data-site="sucre-de-nada"] .story__title,
+html[data-site="sucre-de-nada"] .rev__title { margin-block: 0 .5rem; }
+
+/* Hero title: never wrap into a dangling hyphen */
+html[data-site="sucre-de-nada"] .hero__title { text-wrap: balance; overflow-wrap: normal; }
+
+/* Small type ≥ 14px: prices, labels, tags, notes */
+html[data-site="sucre-de-nada"] .small,
+html[data-site="sucre-de-nada"] .label,
+html[data-site="sucre-de-nada"] small,
+html[data-site="sucre-de-nada"] .eyebrow,
+html[data-site="sucre-de-nada"] .item__badge,
+html[data-site="sucre-de-nada"] .item__desc,
+html[data-site="sucre-de-nada"] .menu__sample,
+html[data-site="sucre-de-nada"] .menu__foot,
+html[data-site="sucre-de-nada"] .tabs__count,
+html[data-site="sucre-de-nada"] .panel-m__tag,
+html[data-site="sucre-de-nada"] .panel-m__plain,
+html[data-site="sucre-de-nada"] .panel__time,
+html[data-site="sucre-de-nada"] .photo__badge,
+html[data-site="sucre-de-nada"] .card__stars,
+html[data-site="sucre-de-nada"] .mentions li,
+html[data-site="sucre-de-nada"] .stat .muted,
+html[data-site="sucre-de-nada"] .hours dt,
+html[data-site="sucre-de-nada"] .hours dd { font-size: max(14px, .9rem); }
+html[data-site="sucre-de-nada"] .item__price { font-size: max(15px, 1rem); }
+@media (max-width: 640px) {
+  html[data-site="sucre-de-nada"] .item__price { font-size: 15px; }
+  html[data-site="sucre-de-nada"] .rev,
+  html[data-site="sucre-de-nada"] .story,
+  html[data-site="sucre-de-nada"] .proof { padding-block: 24px; }
+}

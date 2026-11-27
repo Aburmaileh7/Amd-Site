@@ -28,4 +28,24 @@ if (!reduce) {
       },
     });
   }
+
+  // Menu tabs hint: once, when the tab rail scrolls into view on small screens,
+  // the last visible tab nudges left and returns (transform only) to say "swipe".
+  const tabs = root && root.querySelector(".tabs");
+  if (tabs && ScrollTrigger) {
+    ScrollTrigger.create({
+      trigger: tabs,
+      start: "top 85%",
+      once: true,
+      onEnter: () => {
+        if (tabs.scrollWidth <= tabs.clientWidth + 4) return;
+        const kids = Array.from(tabs.children);
+        const last = kids[kids.length - 1];
+        if (!last) return;
+        gsap.timeline({ defaults: { ease: "power2.out" } })
+          .to(last, { x: -28, duration: 0.45 })
+          .to(last, { x: 0, duration: 0.5, ease: "power2.inOut" });
+      },
+    });
+  }
 }
