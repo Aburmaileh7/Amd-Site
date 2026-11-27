@@ -26,6 +26,8 @@ const load = (f, need = true) => {
   return JSON.parse(readFileSync(`${W}/${f}`, 'utf8'));
 };
 const mat = load('materials.json'), copy = load('copy.json'), ch = load('choices.json');
+// tolerate agent-written {selected:[...]} instead of an array
+if (!Array.isArray(mat.photos)) mat.photos = Array.isArray(mat.photos?.selected) ? mat.photos.selected : Array.isArray(mat.photos?.photos) ? mat.photos.photos : [];
 const f = mat.facts || {};
 const errs = [];
 const isObj = (v) => v && typeof v === 'object' && !Array.isArray(v);

@@ -21,21 +21,39 @@ const BANNED_SLOGANS = [
 const digits = (s) => String(s || '').replace(/\D/g, '');
 const norm = (s) => String(s || '').replace(/\s+/g, ' ').trim();
 const readJson = (p) => (existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : null);
+// materials.photos should be an array; tolerate {selected:[...]} / {photos:[...]} written by agents
+const photoList = (p) => (Array.isArray(p) ? p : Array.isArray(p?.selected) ? p.selected : Array.isArray(p?.photos) ? p.photos : []);
 
 let failedCount = 0;
 
 for (const slug of slugs) {
+  try {
+    checkSlug(slug);
+  } catch (e) {
+    // one broken slug must not stop the others or leave it without a result
+    failedCount++;
+    const out = { slug, verdict: 'fail', fails: [`honesty-check crashed: ${e.message}`], warnings: [], needs_menu_check: false };
+    mkdirSync(`work/${slug}`, { recursive: true });
+    writeFileSync(`work/${slug}/honesty-auto.json`, JSON.stringify(out, null, 1) + '\n');
+    console.log(`✗ ${slug} honesty-auto fail: honesty-check crashed: ${e.message}`);
+  }
+}
+
+process.exit(failedCount ? 1 : 0);
+
+function checkSlug(slug) {
   const fails = [];
   const warnings = [];
   const place = readJson(`sites/${slug}/place.json`);
   const mat = readJson(`work/${slug}/materials.json`);
+  if (mat) mat.photos = photoList(mat.photos);
   const mapsRaw = readJson(`work/${slug}/maps.json`);
   const maps = Array.isArray(mapsRaw) ? mapsRaw[0] : mapsRaw;
 
   if (!place) {
     console.error(`✗ ${slug}: sites/${slug}/place.json missing`);
     failedCount++;
-    continue;
+    return;
   }
 
   // 1. Approved & data_source
@@ -164,5 +182,3 @@ for (const slug of slugs) {
   writeFileSync(`work/${slug}/honesty-auto.json`, JSON.stringify(out, null, 1) + '\n');
   console.log(`${fails.length ? '✗' : '✓'} ${slug} honesty-auto ${verdict}${fails.length ? ': ' + fails.join(' · ') : ''}${warnings.length ? ` (warnings ${warnings.length})` : ''}`);
 }
-
-process.exit(failedCount ? 1 : 0);

@@ -36,6 +36,8 @@ const LEAD_QUERY = flagVal('lead-query', '');
 const LEAD_LOC = flagVal('lead-location', '');
 const NO_SHIP = hasFlag('no-ship');
 const CUSTOM_MOTION = hasFlag('custom-motion');
+const NO_KHALIL = hasFlag('no-khalil');
+const FORCE_KHALIL = hasFlag('khalil');
 const DRY_RUN = hasFlag('dry-run');
 
 const STAMP = new Date().toISOString().replace(/[-:]/g, '').slice(0, 15).replace('T', '-');
@@ -43,6 +45,7 @@ const RUN_DIR = join(ROOT, `work/_runs/${STAMP}`);
 mkdirSync(RUN_DIR, { recursive: true });
 
 const log = (msg) => console.error(`[run-batch ${new Date().toISOString().slice(11, 19)}] ${msg}`);
+const photoList = (p) => (Array.isArray(p) ? p : Array.isArray(p?.selected) ? p.selected : Array.isArray(p?.photos) ? p.photos : []);
 const hasNotionApi = () => !!(process.env.NOTION_TOKEN || existsSync(NOTION_TOKEN_FILE));
 
 // ---------- Single-Instance Lockfile ----------
@@ -299,10 +302,15 @@ async function routeProductionFix(slug, sourceLabel, round) {
     { tag: `${slug}-prod-mgr-${sourceLabel}-r${round}` });
   const verdict = existsSync(join(ROOT, `work/${slug}/production-verdict.md`))
     ? readFileSync(join(ROOT, `work/${slug}/production-verdict.md`), 'utf8') : '';
-  const targets = ['amd-content-collector', 'amd-content-writer', 'amd-designer', 'amd-motion-developer'].filter((a) => verdict.includes(a));
+  let targets = ['amd-content-collector', 'amd-content-writer', 'amd-designer', 'amd-motion-developer'].filter((a) => verdict.includes(a));
+  // Collector only on fix round 1 (r2+ fixes are layout/copy -> designer); avoids collector timeouts doing others' jobs.
+  if (round > 1) targets = targets.filter((a) => a !== 'amd-content-collector');
+  const scope = {
+    'amd-content-collector': 'Only update work/' + slug + '/materials.json (photos/reviews/facts). Do NOT run qa/prod-check/ship/build, do NOT edit site files, do NOT ask questions; finish and report.',
+  };
   for (const emp of targets.length ? targets : ['amd-designer']) {
     if (limitHit) break;
-    await runAgent(emp, `task ${slug}/fix-r${round}: follow your assignment in work/${slug}/production-verdict.md.`, { tag: `${slug}-${emp}-r${round}` });
+    await runAgent(emp, `task ${slug}/fix-r${round}: follow your assignment in work/${slug}/production-verdict.md.${scope[emp] ? ' ' + scope[emp] : ''} Never ask questions; this is a non-interactive run.`, { tag: `${slug}-${emp}-r${round}` });
   }
 }
 
@@ -322,7 +330,7 @@ async function buildOneSite(item) {
   if (existsSync(join(ROOT, `work/${slug}/maps.json`)) && !(readJson(`work/${slug}/materials.json`)?.photo_candidates?.length)) {
     runNode('scripts/materials.mjs', [slug]);
   }
-  if (!limitHit && (!existsSync(matPath) || !(readJson(`work/${slug}/materials.json`)?.photos?.length))) {
+  if (!limitHit && (!existsSync(matPath) || !(photoList(readJson(`work/${slug}/materials.json`)?.photos).length))) {
     const chNote = [ch.instagram && `instagram=${ch.instagram}`, ch.whatsapp_confirmed && `whatsapp=${ch.whatsapp}`].filter(Boolean).join(', ');
     await runAgent('amd-content-collector',
       `task ${slug}/collect: inspect the single numbered grid work/${slug}/candidates/grid.jpg, pick 3-6 photos via materials.mjs --pick, select reviews/mentions, and do 1 menu search.${chNote ? ` Preserve channels: ${chNote}.` : ''} Output: work/${slug}/materials.json.`,
@@ -431,7 +439,9 @@ function ensureQaSheets(slugs) {
 async function runQualityPass(slugs, passTag) {
   if (!slugs.length || limitHit) return;
   ensureQaSheets(slugs);
-  runNode('scripts/perf-check.mjs', NO_SHIP ? [...slugs, '--local'] : slugs);
+  // Pre-ship: check locally. Never-deployed slugs get Cloudflare's 200 fallback (home page) on the live URL,
+  // so a live check here always fails; ship.mjs / prod-check verify the live page after deploy.
+  runNode('scripts/perf-check.mjs', [...slugs, '--local']);
   runNode('scripts/honesty-check.mjs', slugs);
 
   await mapLimit(slugs, CONCURRENCY, async (slug) => {
@@ -552,6 +562,28 @@ if (builtSlugs.length) {
 
 const usageList = [...usageByRole.values()];
 writeFileSync(join(RUN_DIR, 'usage.json'), JSON.stringify({ stamp: STAMP, limit_hit: limitHit, roles: usageList }, null, 1) + '\n');
+
+// ---------- Step 7: Post-Run Audit by Khalil (amd-khalil) — ONLY when digest finds issues! ----------
+if (!NO_KHALIL && !DRY_RUN) {
+  const digRes = runNode('scripts/run-digest.mjs', [RUN_DIR, ...builtSlugs]);
+  const digest = readJson(`work/_runs/${STAMP}/digest.json`);
+  const incPath = join(ROOT, 'company/incidents.md');
+  if (digest && (digest.has_issues || FORCE_KHALIL)) {
+    if (!limitHit) {
+      await runAgent('amd-khalil',
+        `task postmortem-${STAMP}: read work/_runs/${STAMP}/digest.json and company/incidents.md. Diagnose root causes, write work/_runs/${STAMP}/khalil-report.md, and update company/incidents.md.`,
+        { tag: '99-khalil-postmortem' });
+    } else if (existsSync(incPath)) {
+      const line = `| \`${STAMP}\` | ${digest.ready_count}/${digest.batch_size} | P0 (حد الاستخدام) | توقف عند حد الـ5 ساعات — راجع \`work/_runs/${STAMP}/digest.json\` |\n`;
+      writeFileSync(incPath, readFileSync(incPath, 'utf8') + line);
+    }
+  } else if (digest && existsSync(incPath)) {
+    const line = `| \`${STAMP}\` | ${digest.ready_count}/${digest.batch_size} | 0 / 0 / 0 | ✓ بلا أخطاء (لم يُستدعَ خليل) |\n`;
+    writeFileSync(incPath, readFileSync(incPath, 'utf8') + line);
+  }
+} else if (!NO_KHALIL && DRY_RUN) {
+  log('tool: node scripts/run-digest.mjs <run-dir> <slugs...> -> invokes amd-khalil (sonnet, mcp=isolated) ONLY if has_issues=true');
+}
 
 console.log(`\n=== ملخص الدفعة (${STAMP})${limitHit ? ' [توقف مبكر: حد الاستخدام]' : ''} ===`);
 for (const slug of builtSlugs) {
